@@ -31,6 +31,8 @@ pdf/                     35 file PDF tóm tắt lý thuyết
 icon-*.png, og.png       Biểu tượng và ảnh chia sẻ
 online/                  Trang mở bản Online: chuyển thẳng vào link Claude
 source/                  Mã nguồn hai bản đang chạy trên Claude (mỗi bản một file HTML)
+android/                 App Android viết bằng Kotlin (bản Offline gói sẵn, không cần trình duyệt)
+.github/workflows/       Tự build file APK mỗi khi thư mục android/ thay đổi
 ```
 
 ## Bật trang web miễn phí (GitHub Pages)
@@ -44,6 +46,9 @@ source/                  Mã nguồn hai bản đang chạy trên Claude (mỗi 
 
 ## Cài lên điện thoại
 
+- **App Android (khuyên dùng):** tải [OnLuyenNhaKhoa.apk](https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk), mở file và cho phép cài. App tên **Nha Khoa Offline**, chạy hoàn toàn offline, không cần Chrome; có bản mới thì app tự báo.
+  - Mã nguồn ở thư mục `android/` (Kotlin). Mỗi lần đẩy thay đổi lên, GitHub Actions tự build và đăng APK lên **Releases** (tăng `VERSION_CODE` trong `android/version.properties` để app trên máy nhận bản mới).
+  - Khóa ký nằm trong **Settings → Secrets and variables → Actions → `ANDROID_KEYSTORE_B64`**, không để trong repo. Cất kỹ bản sao của khóa này.
 - **Thêm vào màn hình chính:** mở link bản Offline bằng Chrome → menu ⋮ → **Thêm vào màn hình chính** (hoặc **Cài đặt ứng dụng**).
 - **Đóng gói APK:** vào https://www.pwabuilder.com, dán link rồi chọn **Package For Stores → Android → Google Play**.
   - Bản Offline: link gốc, Package ID `io.github.tunaasieunhat.onluyennhakhoa`, tên ngắn `Ôn Luyện NK`.
