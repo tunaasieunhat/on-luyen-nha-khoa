@@ -2949,20 +2949,30 @@ if (hot && typeof hot.ready === 'function') hot.ready(boot); else boot((hot && h
 </script>
 <!-- Thông báo đẩy khi có bản cập nhật (OneSignal). Chỉ có trong bản trên GitHub Pages. -->
 <style>
-.push-box{display:grid;grid-template-columns:40px minmax(0,1fr);gap:4px 12px;align-items:center;padding:12px 14px;border-radius:16px;border:2px solid var(--line);background:var(--enamel)}
-.push-box .pb-ic{grid-row:span 2;width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:var(--lamp-soft);color:var(--lamp-deep)}
-.push-box .pb-ic svg{width:22px;height:22px}
-.push-box b{font-size:.95rem;line-height:1.3}
-.push-box small{display:block;color:var(--muted);font-size:.84rem;line-height:1.4}
-.push-box .pb-act{grid-column:1/-1;display:flex;gap:8px 14px;flex-wrap:wrap;align-items:center;margin-top:6px}
-.push-box.on{border-color:var(--ok);background:var(--ok-soft)}
-.push-box.on .pb-ic{background:var(--paper);color:var(--ok)}
+.push-pop{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:75;width:min(440px,calc(100% - 24px));display:grid;grid-template-columns:44px minmax(0,1fr) auto;gap:2px 12px;align-items:start;padding:14px 12px 14px 14px;border-radius:18px;border:2px solid var(--ink);background:var(--paper);box-shadow:0 7px 0 var(--ink),0 18px 40px rgba(18,51,46,.22);animation:push-in .38s cubic-bezier(.3,1.4,.5,1)}
+.push-pop[hidden]{display:none!important}
+@keyframes push-in{from{transform:translateX(-50%) translateY(46px);opacity:0}}
+.push-pop .pp-ic{grid-row:span 2;width:44px;height:44px;border-radius:13px;display:grid;place-items:center;background:var(--lamp-soft);color:var(--lamp-deep);animation:push-ring 1.6s ease-in-out .5s 2}
+.push-pop .pp-ic svg{width:24px;height:24px}
+@keyframes push-ring{0%,100%{transform:rotate(0)}15%{transform:rotate(14deg)}30%{transform:rotate(-12deg)}45%{transform:rotate(8deg)}60%{transform:rotate(-4deg)}}
+.push-pop b{font-family:var(--f-display);font-size:1.08rem;line-height:1.25;padding-top:2px}
+.push-pop small{grid-column:2;display:block;color:var(--muted);font-size:.86rem;line-height:1.4}
+.push-pop .pp-x{grid-column:3;grid-row:1}
+.push-pop .pp-act{grid-column:1/-1;display:flex;gap:8px 16px;flex-wrap:wrap;align-items:center;margin-top:10px}
+.push-pop.on{border-color:var(--ok);box-shadow:0 7px 0 var(--ok),0 18px 40px rgba(18,51,46,.22)}
+.push-pop.on .pp-ic{background:var(--ok-soft);color:var(--ok)}
+.push-btn{position:relative}
+.push-btn.on::after{content:"";position:absolute;top:6px;right:6px;width:9px;height:9px;border-radius:50%;background:var(--ok);border:2px solid var(--enamel)}
 </style>
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <script>
 (function () {
   var APP_ID = '7964c8ab-71b9-4ba5-b4ee-e04a0d97d13e';
   var BELL = '<svg class="i" viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z"/><path d="M10 20a2 2 0 0 0 4 0"/></svg>';
+  var X = '<svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>';
+  var LATER_KEY = 'tunaa.pushLater', LATER_MS = 3 * 24 * 3600 * 1000;
+  var get = function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } };
+  var set = function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} };
   window.OneSignalDeferred = window.OneSignalDeferred || [];
   window.OneSignalDeferred.push(async function (OneSignal) {
     try {
@@ -2974,43 +2984,70 @@ if (hot && typeof hot.ready === 'function') hot.ready(boot); else boot((hot && h
     } catch (e) { console.warn('OneSignal', e); return; }
     var N = OneSignal.Notifications, P = OneSignal.User && OneSignal.User.PushSubscription;
     if (!N || !P || !N.isPushSupported()) return;
-    var box = document.createElement('div');
-    box.className = 'push-box'; box.setAttribute('aria-live', 'polite');
-    var anchor = document.getElementById('lobby-stats');
-    if (!anchor) return;
-    anchor.insertAdjacentElement('afterend', box);
-    var busy = false, blocked = false;
-    function render() {
-      if (N.permissionNative === 'denied') blocked = true;
-      var on = N.permission && P.optedIn;
-      box.classList.toggle('on', !!on);
-      if (on) {
-        box.innerHTML = '<span class="pb-ic">' + BELL + '</span><b>Đã bật thông báo cập nhật</b><small>Điện thoại sẽ báo khi app có bản mới.</small>' +
-          '<div class="pb-act"><button class="btn-link" type="button" data-push="off">Tắt thông báo</button></div>';
-      } else if (blocked) {
-        box.innerHTML = '<span class="pb-ic">' + BELL + '</span><b>Thông báo đang bị chặn</b><small>Vào Cài đặt điện thoại → Ứng dụng → app này (hoặc Chrome) → Thông báo → bật lại, rồi mở lại app.</small>';
-      } else {
-        box.innerHTML = '<span class="pb-ic">' + BELL + '</span><b>Nhận thông báo khi có bản cập nhật</b><small>Có câu hỏi, bài học hay tính năng mới là điện thoại báo ngay.</small>' +
-          '<div class="pb-act"><button class="btn btn-sm btn-scrub" type="button" data-push="on">Bật thông báo</button></div>';
-      }
+
+    // Khung nổi + nút chuông trên thanh trên cùng của sảnh
+    var pop = document.createElement('div');
+    pop.className = 'push-pop'; pop.hidden = true;
+    pop.setAttribute('role', 'dialog'); pop.setAttribute('aria-label', 'Thông báo cập nhật'); pop.setAttribute('aria-live', 'polite');
+    document.body.appendChild(pop);
+    var bell = document.createElement('button');
+    bell.type = 'button'; bell.className = 'icon-btn push-btn'; bell.innerHTML = BELL;
+    var bar = document.querySelector('#scr-lobby .topbar'), anchor = bar && bar.querySelector('.music-btn, .sound-btn');
+    if (bar) bar.insertBefore(bell, anchor || null);
+
+    var busy = false, autoShown = false, hideTimer = null;
+    var isOn = function () { return !!(N.permission && P.optedIn); };
+    var isDenied = function () { return N.permissionNative === 'denied'; };
+    function paint() {
+      var on = isOn(), denied = !on && isDenied();
+      pop.classList.toggle('on', on);
+      bell.classList.toggle('on', on);
+      bell.setAttribute('aria-label', on ? 'Đã bật thông báo cập nhật' : 'Bật thông báo cập nhật');
+      var head = '<span class="pp-ic">' + BELL + '</span>';
+      var close = '<button class="icon-btn sm pp-x" type="button" data-push="close" aria-label="Đóng">' + X + '</button>';
+      if (on) pop.innerHTML = head + '<b>Đã bật thông báo cập nhật</b>' + close + '<small>Có bản mới là điện thoại báo ngay, kể cả khi đang tắt app.</small>' +
+        '<div class="pp-act"><button class="btn-link" type="button" data-push="off">Tắt thông báo</button></div>';
+      else if (denied) pop.innerHTML = head + '<b>Thông báo đang bị chặn</b>' + close + '<small>Vào Cài đặt điện thoại → Ứng dụng → app này (hoặc Chrome) → Thông báo → bật lại, rồi mở lại app.</small>';
+      else pop.innerHTML = head + '<b>Nhận thông báo khi có bản mới?</b>' + close + '<small>Có câu hỏi, bài học hay tính năng mới là điện thoại báo ngay.</small>' +
+        '<div class="pp-act"><button class="btn btn-sm btn-gum" type="button" data-push="on">Bật thông báo</button><button class="btn-link" type="button" data-push="later">Để sau</button></div>';
     }
-    box.addEventListener('click', async function (e) {
+    function open() { clearTimeout(hideTimer); paint(); pop.hidden = false; }
+    function close() { clearTimeout(hideTimer); pop.hidden = true; }
+
+    pop.addEventListener('click', async function (e) {
       var b = e.target.closest('[data-push]'); if (!b || busy) return;
+      var act = b.dataset.push;
+      if (act === 'close' || act === 'later') { if (!isOn()) set(LATER_KEY, String(Date.now())); close(); return; }
       busy = true; b.disabled = true;
       try {
-        if (b.dataset.push === 'on') {
+        if (act === 'on') {
           if (!N.permission) await N.requestPermission();
-          if (N.permission) { if (!P.optedIn) await P.optIn(); }
-          else blocked = true;
-        } else {
+          if (N.permission && !P.optedIn) await P.optIn();
+        } else if (act === 'off') {
           await P.optOut();
         }
       } catch (err) { console.warn('OneSignal', err); }
-      busy = false; render();
+      busy = false; paint();
+      if (act === 'on' && isOn()) hideTimer = setTimeout(close, 2600);
     });
-    N.addEventListener('permissionChange', function () { blocked = false; render(); });
-    P.addEventListener('change', render);
-    render();
+    bell.addEventListener('click', function () { if (pop.hidden) open(); else close(); });
+    N.addEventListener('permissionChange', paint);
+    P.addEventListener('change', paint);
+
+    // Tự hiện một lần khi vào sảnh, nếu chưa bật và không bấm "Để sau" trong 3 ngày gần đây
+    function maybeAuto() {
+      if (autoShown || isOn() || isDenied()) return;
+      if (document.body.dataset.scr !== 'lobby' || document.body.classList.contains('intro-on')) return;
+      var later = +(get(LATER_KEY) || 0);
+      if (later && Date.now() - later < LATER_MS) return;
+      autoShown = true;
+      setTimeout(function () { if (document.body.dataset.scr === 'lobby') open(); }, 1200);
+    }
+    new MutationObserver(function () {
+      if (document.body.dataset.scr !== 'lobby') close();
+      maybeAuto();
+    }).observe(document.body, { attributes: true, attributeFilter: ['data-scr', 'class'] });
+    paint(); maybeAuto();
   });
 })();
 </script>
