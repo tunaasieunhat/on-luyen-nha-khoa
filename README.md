@@ -17,6 +17,7 @@
   - Anh văn chuyên ngành 2: 15 Unit, mỗi Unit 30 câu.
 - **Hình minh hoạ** cho từng câu hỏi, vẽ sẵn trong file nên không cần mạng.
 - **Ôn tập lý thuyết:** 26 bài tóm tắt, bài nào cũng tải về được dạng PDF.
+- **Sơ đồ tư duy** cho cả 26 bài: xem dạng toả tròn hoặc dạng cây, che ý nhỏ để tự kiểm tra, tải về dạng ảnh PNG.
 - **Flashcard và tự soạn câu hỏi.**
 - **Màn mở đầu có nhạc nền** (nhạc do trình duyệt tự phát, không cần tải) và **nền phòng khám hoạt hình** có chuyển động.
 
