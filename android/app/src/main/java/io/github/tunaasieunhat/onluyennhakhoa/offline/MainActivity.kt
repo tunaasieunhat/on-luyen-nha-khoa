@@ -38,7 +38,7 @@ import java.net.URL
 import kotlin.concurrent.thread
 
 /**
- * Ôn Luyện Nha Khoa - Offline (bản app Android).
+ * Ôn Luyện Nha Khoa (bản app Android, version 1.0).
  * Toàn bộ giao diện, câu hỏi, tóm tắt và PDF nằm sẵn trong app (thư mục assets/www),
  * được hiển thị bằng bộ hiển thị web có sẵn của Android nên không cần mở Chrome hay có mạng.
  */

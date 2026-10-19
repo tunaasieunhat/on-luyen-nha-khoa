@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Ôn Luyện Nha Khoa - Offline",
+  "name": "Ôn Luyện Nha Khoa",
   "short_name": "Ôn Luyện NK",
-  "description": "Ôn Luyện Nha Khoa - Offline: trắc nghiệm theo môn học có hình minh hoạ, câu hỏi hệ thống, ôn tập lý thuyết có tóm tắt PDF, flashcard và tự soạn câu hỏi. Dùng được cả khi mất mạng.",
+  "description": "Ôn Luyện Nha Khoa: trắc nghiệm theo môn học có hình minh hoạ, câu hỏi hệ thống, ôn tập lý thuyết có tóm tắt PDF, flashcard và tự soạn câu hỏi. Dùng được cả khi mất mạng.",
   "lang": "vi",
   "dir": "ltr",
   "start_url": "./?source=app",
@@ -46,7 +46,7 @@
       "sizes": "1200x630",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Ôn Luyện Nha Khoa - Offline"
+      "label": "Ôn Luyện Nha Khoa"
     }
   ]
 }

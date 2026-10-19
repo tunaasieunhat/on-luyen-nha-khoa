@@ -1,14 +1,15 @@
 # Ôn Luyện Nha Khoa
 
-Ứng dụng ôn thi Răng Hàm Mặt dạng trò chơi phòng khám: làm trắc nghiệm, đọc tóm tắt lý thuyết, ôn flashcard. Có hai phiên bản.
+Ứng dụng ôn thi Răng Hàm Mặt dạng trò chơi phòng khám: làm trắc nghiệm, đọc tóm tắt lý thuyết, ôn flashcard. **Version 1.0** là phiên bản chính thức; các môn học sẽ được liên tục thêm vào.
 
-| | **Ôn Luyện Nha Khoa - Offline** | **Ôn Luyện Nha Khoa - Online** |
-| --- | --- | --- |
-| Mở ở đâu | Trình duyệt, cài lên màn hình chính hoặc đóng gói APK | Trên Claude (claude.ai) |
-| Cần mạng | Chỉ lần mở đầu tiên, sau đó dùng offline | Có |
-| AI soạn câu hỏi, flashcard từ PDF/Word | Không | Có (cần đăng nhập Claude) |
-| Ngân hàng câu hỏi dùng chung | Không (lưu trên máy) | Có |
-| Link | https://tunaasieunhat.github.io/on-luyen-nha-khoa/ | https://claude.ai/artifact/VfrBVHMcBpcCVMh52af7pn |
+| | Link |
+| --- | --- |
+| **App Android** (khuyên dùng, chạy offline, không cần Chrome) | [OnLuyenNhaKhoa.apk](https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk) |
+| **Bản web** (iPhone, máy tính; dùng offline sau lần mở đầu) | https://tunaasieunhat.github.io/on-luyen-nha-khoa/ |
+
+Bản Online beta 2.3 (có AI, chạy trên Claude) đã chính thức đóng cửa: link cũ và trang `online/` chỉ còn thông báo kèm link tải app.
+
+Phát hiện lỗi, sai đáp án hay câu hỏi có vấn đề: liên hệ tunaasieunhat@gmail.com.
 
 ## Tính năng chung
 
@@ -25,13 +26,13 @@
 ## Cấu trúc thư mục
 
 ```
-index.html, 404.html     Bản Offline (trang chính của GitHub Pages)
+index.html, 404.html     Bản web (trang chính của GitHub Pages)
 manifest.json, sw.js     Cài như ứng dụng và lưu để dùng offline
 pdf/                     35 file PDF tóm tắt lý thuyết
 icon-*.png, og.png       Biểu tượng và ảnh chia sẻ
-online/                  Trang mở bản Online: chuyển thẳng vào link Claude
+online/                  Thông báo bản Online đã đóng cửa, kèm link tải app
 source/                  Mã nguồn hai bản đang chạy trên Claude (mỗi bản một file HTML)
-android/                 App Android viết bằng Kotlin (bản Offline gói sẵn, không cần trình duyệt)
+android/                 App Android viết bằng Kotlin (gói sẵn toàn bộ app, không cần trình duyệt)
 .github/workflows/       Tự build file APK mỗi khi thư mục android/ thay đổi
 ```
 
@@ -41,21 +42,19 @@ android/                 App Android viết bằng Kotlin (bản Offline gói s�
 2. Ở **Build and deployment**, chọn **Source: Deploy from a branch**.
 3. Chọn nhánh **main**, thư mục **/ (root)**, bấm **Save**.
 4. Đợi 1–2 phút, trang chạy ở:
-   - Bản Offline: https://tunaasieunhat.github.io/on-luyen-nha-khoa/
-   - Trang mở bản Online: https://tunaasieunhat.github.io/on-luyen-nha-khoa/online/
+   - Bản web: https://tunaasieunhat.github.io/on-luyen-nha-khoa/
 
 ## Cài lên điện thoại
 
-- **App Android (khuyên dùng):** tải [OnLuyenNhaKhoa.apk](https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk), mở file và cho phép cài. App tên **Nha Khoa Offline**, chạy hoàn toàn offline, không cần Chrome; có bản mới thì app tự báo.
+- **App Android (khuyên dùng):** tải [OnLuyenNhaKhoa.apk](https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk), mở file và cho phép cài. App tên **Ôn Luyện Nha Khoa**, chạy hoàn toàn offline, không cần Chrome; có bản mới thì app tự báo.
   - Mã nguồn ở thư mục `android/` (Kotlin). Mỗi lần đẩy thay đổi lên, GitHub Actions tự build và đăng APK lên **Releases** (tăng `VERSION_CODE` trong `android/version.properties` để app trên máy nhận bản mới).
   - Khóa ký nằm trong **Settings → Secrets and variables → Actions → `ANDROID_KEYSTORE_B64`**, không để trong repo. Cất kỹ bản sao của khóa này.
-- **Thêm vào màn hình chính:** mở link bản Offline bằng Chrome → menu ⋮ → **Thêm vào màn hình chính** (hoặc **Cài đặt ứng dụng**).
+- **Thêm vào màn hình chính:** mở link bản web bằng Chrome → menu ⋮ → **Thêm vào màn hình chính** (hoặc **Cài đặt ứng dụng**).
 - **Đóng gói APK:** vào https://www.pwabuilder.com, dán link rồi chọn **Package For Stores → Android → Google Play**.
   - Bản Offline: link gốc, Package ID `io.github.tunaasieunhat.onluyennhakhoa`, tên ngắn `Ôn Luyện NK`.
-  - Bản Online: link `online/`, Package ID `io.github.tunaasieunhat.onluyennhakhoa.online`, tên ngắn `NK Online`. Biểu tượng có huy hiệu AI màu xanh để dễ phân biệt.
   - Cất kỹ `signing.keystore` và `signing-key-info.txt` trong gói tải về: sau này làm lại APK phải dùng đúng khoá này.
 
-## Thông báo cập nhật (bản Offline)
+## Thông báo cập nhật (bản web)
 
 - Ở sảnh có khung **Nhận thông báo khi có bản cập nhật**, bấm **Bật thông báo** rồi cho phép.
 - Mỗi lần có bản mới: vào [OneSignal](https://dashboard.onesignal.com) → app **Ôn Luyện Nha Khoa** → **Messages → New Push**, điền tiêu đề, nội dung, **Launch URL** `https://tunaasieunhat.github.io/on-luyen-nha-khoa/` → **Send**.
@@ -63,5 +62,5 @@ android/                 App Android viết bằng Kotlin (bản Offline gói s�
 
 ## Ghi chú
 
-- AI của bản Online chỉ chạy khi mở trong Claude. Trang `online/` và file trong `source/` chỉ để mở app và lưu dự phòng.
+- File trong `source/` là mã nguồn lưu dự phòng (bản Online beta 2.3 đã đóng cửa).
 - Repo đang để công khai, ai có link cũng xem được câu hỏi và phần tóm tắt. Nội dung soạn theo giáo trình môn học, dùng để ôn tập.

@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Ôn Luyện Nha Khoa - Offline</title>
-<meta name="description" content="Ôn Luyện Nha Khoa - Offline: trắc nghiệm theo môn học có hình minh hoạ, câu hỏi hệ thống, ôn tập lý thuyết có tóm tắt PDF, flashcard và tự soạn câu hỏi. Dùng được cả khi mất mạng.">
+<title>Ôn Luyện Nha Khoa</title>
+<meta name="description" content="Ôn Luyện Nha Khoa: trắc nghiệm theo môn học có hình minh hoạ, câu hỏi hệ thống, ôn tập lý thuyết có tóm tắt PDF, flashcard và tự soạn câu hỏi. Dùng được cả khi mất mạng.">
 <meta name="theme-color" content="#0B544C">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
@@ -13,8 +13,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Ôn Luyện NK">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Ôn Luyện Nha Khoa - Offline">
-<meta property="og:description" content="Ôn Luyện Nha Khoa - Offline: trắc nghiệm theo môn học có hình minh hoạ, câu hỏi hệ thống, ôn tập lý thuyết có tóm tắt PDF, flashcard và tự soạn câu hỏi. Dùng được cả khi mất mạng.">
+<meta property="og:title" content="Ôn Luyện Nha Khoa">
+<meta property="og:description" content="Ôn Luyện Nha Khoa: trắc nghiệm theo môn học có hình minh hoạ, câu hỏi hệ thống, ôn tập lý thuyết có tóm tắt PDF, flashcard và tự soạn câu hỏi. Dùng được cả khi mất mạng.">
 <meta property="og:url" content="https://tunaasieunhat.github.io/on-luyen-nha-khoa/">
 <meta property="og:image" content="https://tunaasieunhat.github.io/on-luyen-nha-khoa/og.png">
 <meta property="og:image:width" content="1200">
@@ -712,6 +712,21 @@ body.mm-lock{overflow:hidden}
 @media (max-width:400px){.th-new{display:none}}
 @media (prefers-reduced-motion:reduce){.mm-svg .mm-b{transition:none}.mm-svg.quiz .mm-lf.shown .mm-tx{animation:none}}
 /* @@MM-CSS-END */
+/* ---------- Version 1.0 ---------- */
+/* Sảnh: bỏ khung hình phòng khám, chỉ giữ lời chào */
+#lobby-scene{display:none}
+.lobby .bubble{position:static;max-width:none;margin:0;border:0;border-radius:0;padding:16px 18px;font-size:clamp(.98rem,1.5vw,1.12rem);animation:none}
+.lobby .bubble::after{display:none}
+/* Dòng liên hệ thay cho nút Báo lỗi */
+.report-contact{margin:0;max-width:64ch;text-align:center;font-size:.9rem;line-height:1.55;color:var(--muted)}
+.report-contact a{color:var(--scrub-deep);font-weight:700;overflow-wrap:anywhere}
+/* Thông báo nổi */
+.v1-card{gap:12px}
+.v1-card .modal-head{flex-wrap:wrap}
+.v1-txt{margin:0;font-size:1.02rem;line-height:1.55;font-weight:600}
+.v1-dl{justify-content:center;text-decoration:none;text-align:center}
+.v1-url{margin:0;font-family:var(--f-mono);font-size:.74rem;line-height:1.45;color:var(--muted);overflow-wrap:anywhere;user-select:all}
+
 /* ---------- Responsive ---------- */
 @media (max-width:980px){
   .lobby{grid-template-columns:minmax(0,1fr)}
@@ -762,10 +777,10 @@ body.mm-lock{overflow:hidden}
     <div class="start">
       <div class="start-hero">
         <div class="brand-row"><span class="logo-slot"></span><span class="eyebrow">Phòng khám luyện thi Răng Hàm Mặt</span></div>
-        <h1 id="start-title">Ôn Luyện <span>Nha Khoa</span><span class="vh"> - </span> <b class="off-badge">Offline</b></h1>
+        <h1 id="start-title">Ôn Luyện <span>Nha Khoa</span></h1>
         <div class="beta-note" role="note">
-          <span class="beta-tag">Beta 2.3</span>
-          <span class="beta-txt">Đã thêm môn Nhi Khoa: 9 bài có tóm tắt, sơ đồ tư duy và 540 câu trắc nghiệm (lý thuyết và tình huống lâm sàng).</span>
+          <span class="beta-tag">Version 1.0</span>
+          <span class="beta-txt">Phiên bản chính thức đã ra mắt, các môn học sẽ được liên tục thêm vào.</span>
         </div>
       </div>
       <div class="start-cast">
@@ -797,7 +812,7 @@ body.mm-lock{overflow:hidden}
   <!-- ============ LOBBY ============ -->
   <section id="scr-lobby" class="screen" hidden aria-label="Sảnh chờ">
     <header class="topbar">
-      <div class="brand"><span class="logo-slot"></span><span>Ôn Luyện Nha Khoa <b class="off-badge">Offline</b></span></div>
+      <div class="brand"><span class="logo-slot"></span><span>Ôn Luyện Nha Khoa</span></div>
       <div class="pc-slot"></div>
       <span class="spacer"></span>
       <button class="icon-btn music-btn" type="button" aria-pressed="true" aria-label="Nhạc nền đang bật"></button>
@@ -904,7 +919,6 @@ body.mm-lock{overflow:hidden}
           <p class="qtext" id="qz-q"></p>
           <div class="opts" id="qz-opts"></div>
           <div class="q-actions">
-            <button class="btn-link" id="qz-report" type="button">Báo câu này sai</button>
             <span class="kbd-hint" id="qz-hint">Phím A–D để chọn</span>
             <button class="btn btn-scrub" id="qz-next" type="button" hidden>Câu tiếp theo<svg class="i" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
           </div>
@@ -1054,10 +1068,7 @@ body.mm-lock{overflow:hidden}
 
   <!-- ============ REPORT KEY ============ -->
   <footer class="report-bar" id="report-bar" hidden>
-    <button class="keycap" id="btn-report" type="button">
-      <svg class="i" viewBox="0 0 24 24"><path d="M12 3l10 18H2L12 3z"/><path d="M12 10v5M12 18h.01"/></svg>Báo lỗi
-    </button>
-    <span class="report-hint">Thấy câu sai, chữ lỗi hay nút không chạy? Nhấn phím này.</span>
+    <p class="report-contact">Phát hiện lỗi? Sai đáp án? Câu hỏi có vấn đề? Hãy liên hệ qua mail: <a href="mailto:tunaasieunhat@gmail.com">tunaasieunhat@gmail.com</a> để được hỗ trợ &lt;3</p>
   </footer>
 </div>
 
@@ -1107,13 +1118,23 @@ body.mm-lock{overflow:hidden}
     <span class="intro-spark" style="left:4%;top:6%"></span><span class="intro-spark" style="right:6%;top:14%"></span><span class="intro-spark" style="left:10%;top:52%"></span><span class="intro-spark" style="right:3%;top:58%"></span>
     <div class="intro-mascot" id="intro-mascot" aria-hidden="true"></div>
     <p class="intro-eyebrow">Phòng khám luyện thi Răng Hàm Mặt</p>
-    <h1 class="intro-title" id="intro-title" aria-label="Ôn Luyện Nha Khoa - Offline"><span class="w w1">Ôn Luyện</span> <span class="w w2">Nha Khoa</span></h1>
-    <div class="intro-off" aria-hidden="true"><svg class="i" viewBox="0 0 24 24"><path d="M2 8.5a15 15 0 0 1 20 0M5.5 12a10 10 0 0 1 13 0M9 15.5a5 5 0 0 1 6 0"/><circle cx="12" cy="19" r="1.2"/><path d="M3 3l18 18"/></svg>Offline</div>
+    <h1 class="intro-title" id="intro-title" aria-label="Ôn Luyện Nha Khoa"><span class="w w1">Ôn Luyện</span> <span class="w w2">Nha Khoa</span></h1>
     <p class="intro-sub">Trắc nghiệm, ôn lý thuyết, flashcard. Học mọi lúc, kể cả khi không có mạng.</p>
     <div class="intro-eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
     <button class="btn btn-gum intro-go" id="intro-go" type="button">Nhấn để bắt đầu<svg class="i" viewBox="0 0 24 24"><path d="M8 5l11 7-11 7V5z"/></svg></button>
-    <div class="intro-row"><button class="intro-music" id="intro-music" type="button" aria-pressed="true"></button><span class="intro-ver">Beta 2.3</span></div>
+    <div class="intro-row"><button class="intro-music" id="intro-music" type="button" aria-pressed="true"></button><span class="intro-ver">Version 1.0</span></div>
     <p class="intro-tap" id="intro-tap" aria-live="polite"></p>
+  </div>
+</div>
+
+<!-- ============ THÔNG BÁO NỔI (Version 1.0) ============ -->
+<div class="modal" id="v1-modal" hidden role="dialog" aria-modal="true" aria-labelledby="v1-title">
+  <div class="modal-card v1-card">
+    <div class="modal-head"><span class="beta-tag">Version 1.0</span><h2 id="v1-title">Thông báo</h2><button class="icon-btn sm" type="button" id="v1-close" aria-label="Đóng"><svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <p class="v1-txt">Chính thức đóng cửa bản Online beta 2.3. Các tính năng AI sẽ không còn khả dụng. Mong mọi người trải nghiệm version 1.0:</p>
+    <a class="btn btn-gum btn-lg v1-dl" id="v1-dl" href="https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk" target="_blank" rel="noopener"><svg class="i" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Tải app version 1.0 (Android)</a>
+    <p class="v1-url">https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk</p>
+    <button class="btn" type="button" id="v1-ok">Đã hiểu</button>
   </div>
 </div>
 
@@ -1693,6 +1714,7 @@ function closeIntro() {
   $('#app').inert = false; document.body.classList.remove('intro-on');
   setTimeout(() => {
     el.hidden = true; el.classList.remove('out');
+    if (typeof openV1Notice === 'function') openV1Notice();
   }, reduced ? 0 : 520);
 }
 
@@ -2165,6 +2187,16 @@ function paintArt(q) {
   fig.innerHTML = `${artSVG(id)}<figcaption>Minh hoạ · ${esc(cap)}</figcaption>`;
 }
 /* @@FUN-JS-END */
+/* ---------- Thông báo nổi Version 1.0: hiện mỗi lần mở app (trừ app Android version 1.0) ---------- */
+let v1Shown = false;
+function openV1Notice() {
+  if (v1Shown || window.AndroidApp) return;
+  const m = $('#v1-modal'); if (!m) return;
+  v1Shown = true; m.hidden = false;
+  setTimeout(() => { try { $('#v1-ok').focus(); } catch {} }, 60);
+}
+function closeV1Notice() { const m = $('#v1-modal'); if (m) m.hidden = true; }
+
 /* ================= HELPERS ================= */
 let toastTimer;
 function toast(msg) {
@@ -3489,10 +3521,6 @@ function wire() {
     b.dataset.armed = '1'; b.textContent = 'Bấm lần nữa để dừng';
     clearTimeout(b._armT); b._armT = setTimeout(() => { if (b.dataset.armed) { delete b.dataset.armed; b.textContent = 'Dừng bài'; } }, 3000);
   });
-  $('#qz-report').addEventListener('click', () => {
-    const z = S.quiz, q = z && z.qs[z.i];
-    openReport(q ? `${q.subject} · ${q.topic}${q.file ? ' · ' + q.file : ''} · “${q.q.slice(0, 120)}”` : '');
-  });
   $('#res-again').addEventListener('click', againQuiz);
   $('#dn-close').addEventListener('click', closeDone);
   $('#done-modal').addEventListener('click', e => { if (e.target.id === 'done-modal') closeDone(); });
@@ -3501,7 +3529,9 @@ function wire() {
   $('#dn-lobby').addEventListener('click', () => { closeDone(); show('lobby'); });
   $('#res-pick').addEventListener('click', () => { showQuizPhase('pick'); renderPick(); });
 
-  $('#btn-report').addEventListener('click', () => openReport(''));
+  $('#v1-ok').addEventListener('click', closeV1Notice);
+  $('#v1-close').addEventListener('click', closeV1Notice);
+  $('#v1-modal').addEventListener('click', e => { if (e.target.id === 'v1-modal') closeV1Notice(); });
   $('#rp-close').addEventListener('click', closeReport);
   $('#rp-cancel').addEventListener('click', closeReport);
   $('#report-modal').addEventListener('click', e => { if (e.target.id === 'report-modal') closeReport(); });
@@ -3567,7 +3597,7 @@ function wire() {
 
   document.addEventListener('keydown', e => {
     if (S.introOpen) { if ((e.key === 'Enter' || e.key === ' ') && !(e.target && e.target.closest && e.target.closest('button'))) { e.preventDefault(); closeIntro(); } return; }
-    if (e.key === 'Escape') { if (!$('#report-modal').hidden) closeReport(); else if (!$('#done-modal').hidden) closeDone(); return; }
+    if (e.key === 'Escape') { if (!$('#v1-modal').hidden) closeV1Notice(); else if (!$('#report-modal').hidden) closeReport(); else if (!$('#done-modal').hidden) closeDone(); return; }
     if (!$('#report-modal').hidden || !$('#done-modal').hidden || !$('#loading').hidden) return;
     const tag = (e.target && e.target.tagName) || '';
     if (/INPUT|TEXTAREA|SELECT/.test(tag) || e.metaKey || e.ctrlKey || e.altKey) return;
@@ -3603,7 +3633,7 @@ function start(data) {
   document.addEventListener('visibilitychange', () => { if (document.hidden) Music.sleep(); else Music.wake(); });
   const saved = (data && data.player) || store.get('player', null);
   if (saved && saved.name) { $('#in-name').value = saved.name; $('#in-school').value = saved.school || ''; }
-  if (data && data.player && data.screen && data.screen !== 'start') { S.player = data.player; show('lobby'); }
+  if (data && data.player && data.screen && data.screen !== 'start') { S.player = data.player; show('lobby'); openV1Notice(); }
   else { show('start'); openIntro(); }
   initCaps();
 }

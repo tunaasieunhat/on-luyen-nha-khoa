@@ -3,60 +3,97 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Ôn Luyện Nha Khoa - Online</title>
-<meta name="description" content="Ôn Luyện Nha Khoa - Online: trắc nghiệm có hình minh hoạ, câu hỏi hệ thống theo bài, ôn lý thuyết tải PDF, flashcard và AI soạn câu hỏi từ file PDF hoặc Word.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Ôn Luyện Nha Khoa - Online">
-<meta property="og:description" content="Ôn Luyện Nha Khoa - Online: trắc nghiệm có hình minh hoạ, câu hỏi hệ thống theo bài, ôn lý thuyết tải PDF, flashcard và AI soạn câu hỏi từ file PDF hoặc Word.">
-<meta property="og:url" content="https://tunaasieunhat.github.io/on-luyen-nha-khoa/online/">
-<meta property="og:image" content="https://tunaasieunhat.github.io/on-luyen-nha-khoa/online/og.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#0B544C">
-<!-- Dùng để cài như ứng dụng / đóng gói APK -->
 <link rel="manifest" href="manifest.json">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="NK Online">
-<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
-<link rel="alternate icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 66 74'%3E%3Cpath d='M14 6C6 6 2 14 3 24C4 34 8 40 10 52C11 62 14 68 19 68C24 68 25 60 27 50C28 45 30 43 32 43C34 43 36 45 37 50C39 60 40 68 45 68C50 68 53 62 54 52C56 40 60 34 61 24C62 14 58 6 50 6C42 6 38 10 32 10C26 10 22 6 14 6Z' fill='%23fff' stroke='%230B544C' stroke-width='5'/%3E%3C/svg%3E">
-<!-- Đường link tới trò chơi trên Claude. Nếu link thay đổi, chỉ cần sửa dòng dưới. -->
-<script>window.GAME_URL = 'https://claude.ai/artifact/VfrBVHMcBpcCVMh52af7pn';</script>
-<script>
-  // Người dùng thật: chuyển ngay vào trò chơi.
-  // Công cụ kiểm tra tự động (như PWABuilder) thì ở lại để đọc được manifest.
-  try { if (!navigator.webdriver) location.replace(window.GAME_URL); } catch (e) {}
-</script>
-<noscript><meta http-equiv="refresh" content="0; url=https://claude.ai/artifact/VfrBVHMcBpcCVMh52af7pn"></noscript>
+<link rel="icon" type="image/png" href="icon-192.png">
+<title>Ôn Luyện Nha Khoa Online</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
 <style>
-  :root{--wall:#EEF7F3;--tile:#DCEEE7;--ink:#12332E;--muted:#4F6D69;--scrub-deep:#0B544C;--gum:#CF4C64;--gum-deep:#9E3349;--paper:#FFFFFF;color-scheme:light}
-  html,body{height:100%}
-  body{margin:0;display:grid;place-items:center;background-color:var(--wall);background-image:linear-gradient(var(--tile) 1px,transparent 1px),linear-gradient(90deg,var(--tile) 1px,transparent 1px);background-size:38px 38px;color:var(--ink);font-family:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:24px max(16px,env(safe-area-inset-left)) 24px max(16px,env(safe-area-inset-right));box-sizing:border-box;text-align:center}
-  main{display:flex;flex-direction:column;align-items:center;gap:14px;max-width:440px}
-  svg{width:64px;height:72px}
-  h1{margin:0;font-size:clamp(2.2rem,9vw,3.2rem);line-height:1;color:var(--scrub-deep);font-weight:800}
-  h1 span{color:var(--gum)}
-  p{margin:0;color:var(--muted);line-height:1.5}
-  a.btn{display:inline-block;margin-top:6px;padding:14px 22px;border-radius:14px;background:var(--gum);color:var(--paper);font-weight:700;text-decoration:none;border:2px solid var(--gum-deep);box-shadow:0 4px 0 var(--gum-deep)}
-  a.btn:focus-visible{outline:3px solid var(--scrub-deep);outline-offset:3px}
-</style>
+/* Bố cục: một tấm phiếu thông báo của phòng khám đặt giữa nền gạch men, nút tải app là điểm nhấn duy nhất */
+:root{
+  --wall:#EEF7F3; --tile:#DCEEE7; --paper:#FFFDF8; --ink:#12332E; --muted:#4F6D69;
+  --scrub:#0B544C; --gum:#C2405A; --gum-deep:#8E2C42; --lamp:#F2C14E; --lamp-soft:#FFF4D6; --lamp-deep:#6B4A00; --line:#CFE3DC;
+  --f-display:"Baloo 2","Be Vietnam Pro",system-ui,sans-serif;
+  --f-body:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --wall:#0E1E1B; --tile:#14302A; --paper:#162925; --ink:#E4F2EE; --muted:#9DBAB4;
+  --scrub:#7FD3C2; --gum:#E8677D; --gum-deep:#B8475C; --lamp:#D9A93A; --lamp-soft:#2E2610; --lamp-deep:#F2C96B; --line:#2A4A43; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --wall:#0E1E1B; --tile:#14302A; --paper:#162925; --ink:#E4F2EE; --muted:#9DBAB4;
+  --scrub:#7FD3C2; --gum:#E8677D; --gum-deep:#B8475C; --lamp:#D9A93A; --lamp-soft:#2E2610; --lamp-deep:#F2C96B; --line:#2A4A43; color-scheme:dark}
+*{box-sizing:border-box}
+html,body{min-height:100%}
+body{margin:0;background:var(--wall);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.6;
+  background-image:linear-gradient(var(--tile) 1px,transparent 1px),linear-gradient(90deg,var(--tile) 1px,transparent 1px);background-size:44px 44px;
+  display:grid;place-items:center;padding-block:40px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{width:min(540px,100%);display:flex;flex-direction:column;gap:18px}
+.brand{display:flex;align-items:center;gap:10px}
+.brand svg{width:40px;height:40px;flex:none}
+.brand b{font-family:var(--f-display);font-weight:800;font-size:1.35rem;line-height:1;color:var(--scrub)}
+.slip{background:var(--paper);border:2px solid var(--ink);border-radius:22px;box-shadow:0 7px 0 var(--ink);padding:24px clamp(18px,5vw,30px) 26px;display:flex;flex-direction:column;gap:16px;min-width:0}
+.slip-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding-bottom:14px;border-bottom:2px dashed var(--line)}
+.tag{font-family:var(--f-mono);font-weight:700;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;line-height:1;padding:6px 9px;border-radius:7px;background:var(--lamp-soft);color:var(--lamp-deep);border:1.5px solid var(--lamp)}
+.tag.closed{background:transparent;color:var(--gum);border-color:var(--gum)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(1.9rem,7vw,2.5rem);line-height:1.05;margin:0;text-wrap:balance}
+.msg{margin:0;font-size:1.06rem;font-weight:500}
+.dl{display:flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;text-align:center;font-weight:700;font-size:1.08rem;line-height:1.3;
+  color:#FFFFFF;background:var(--gum);border:2px solid var(--ink);border-radius:16px;padding:15px 18px 17px;box-shadow:0 5px 0 var(--gum-deep);transition:transform .12s,box-shadow .12s}
+.dl:hover{transform:translateY(-1px)}
+.dl:active{transform:translateY(4px);box-shadow:0 1px 0 var(--gum-deep)}
+.dl:focus-visible,.copy:focus-visible,a:focus-visible{outline:3px solid var(--lamp);outline-offset:3px}
+.dl svg{width:22px;height:22px;flex:none}
+.link-row{display:flex;gap:8px;align-items:stretch}
+.url{flex:1;min-width:0;margin:0;font-family:var(--f-mono);font-size:.76rem;line-height:1.5;color:var(--muted);background:var(--wall);border:1.5px solid var(--line);border-radius:10px;padding:8px 10px;overflow-wrap:anywhere;user-select:all}
+.copy{flex:none;font:600 .86rem var(--f-body);color:var(--ink);background:var(--paper);border:2px solid var(--ink);border-radius:10px;padding:0 12px;cursor:pointer}
+.alt{margin:0;font-size:.92rem;color:var(--muted)}
+.alt a{color:var(--scrub);font-weight:700;overflow-wrap:anywhere}
+.contact{margin:0;text-align:center;font-size:.86rem;line-height:1.55;color:var(--muted)}
+.contact b{color:var(--ink);font-weight:700;user-select:all;overflow-wrap:anywhere}
+@media (prefers-reduced-motion: reduce){.dl{transition:none}}
+html,body{margin:0}</style>
+
 </head>
 <body>
 <main>
-  <svg viewBox="0 0 66 74" aria-hidden="true"><path d="M14 6C6 6 2 14 3 24C4 34 8 40 10 52C11 62 14 68 19 68C24 68 25 60 27 50C28 45 30 43 32 43C34 43 36 45 37 50C39 60 40 68 45 68C50 68 53 62 54 52C56 40 60 34 61 24C62 14 58 6 50 6C42 6 38 10 32 10C26 10 22 6 14 6Z" fill="#fff" stroke="#0B544C" stroke-width="4"/></svg>
-  <h1>Ôn Luyện <span>Nha Khoa</span></h1>
-  <p style="font-weight:700;color:#1C8A5C;letter-spacing:.14em;font-size:13px">ONLINE · CÓ AI</p>
-  <p>Đang mở ứng dụng… Nếu trang không tự chuyển, bấm nút bên dưới.</p>
-  <a class="btn" id="go" href="https://claude.ai/artifact/VfrBVHMcBpcCVMh52af7pn">Vào phòng khám</a>
-  <p style="font-size:13px">Ứng dụng chạy trên Claude. Hãy đăng nhập Claude để dùng AI soạn câu hỏi và ngân hàng câu hỏi chung.</p>
+  <div class="brand" aria-label="Ôn Luyện Nha Khoa">
+    <svg viewBox="0 0 66 74" aria-hidden="true"><path d="M33 8C26 2 14 2 8 9 2 16 3 27 6 36c3 9 4 16 5 24 1 7 4 11 8 11s6-5 7-12c1-6 3-10 7-10s6 4 7 10c1 7 3 12 7 12s7-4 8-11c1-8 2-15 5-24 3-9 4-20-2-27-6-7-18-7-25-1z" fill="var(--paper)" stroke="var(--scrub)" stroke-width="5" stroke-linejoin="round"/><path d="M15 22c2-6 7-9 13-8" fill="none" stroke="#7FC3EA" stroke-width="4" stroke-linecap="round"/></svg>
+    <b>Ôn Luyện Nha Khoa</b>
+  </div>
+
+  <section class="slip" aria-labelledby="t">
+    <div class="slip-head"><span class="tag">Thông báo</span><span class="tag closed">Online beta 2.3 · đã đóng</span></div>
+    <h1 id="t">Bản Online đã đóng cửa</h1>
+    <p class="msg">Chính thức đóng cửa bản Online beta 2.3. Các tính năng AI sẽ không còn khả dụng. Mong mọi người trải nghiệm version 1.0:</p>
+    <a class="dl" id="dl" href="https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+      Tải app version 1.0 (Android)
+    </a>
+    <div class="link-row">
+      <p class="url" id="url">https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk</p>
+      <button class="copy" id="copy" type="button">Sao chép</button>
+    </div>
+    <p class="alt">Dùng iPhone hoặc máy tính? Mở bản web: <a href="https://tunaasieunhat.github.io/on-luyen-nha-khoa/" target="_blank" rel="noopener">tunaasieunhat.github.io/on-luyen-nha-khoa</a></p>
+  </section>
+
+  <p class="contact">Phát hiện lỗi? Sai đáp án? Câu hỏi có vấn đề? Hãy liên hệ qua mail: <b>tunaasieunhat@gmail.com</b> để được hỗ trợ &lt;3</p>
 </main>
+
 <script>
-  document.getElementById('go').href = window.GAME_URL;
-  if ('serviceWorker' in navigator) {
-    try { navigator.serviceWorker.register('sw.js').catch(function () {}); } catch (e) {}
-  }
+(function () {
+  var btn = document.getElementById('copy'), url = document.getElementById('url');
+  function done(t) { btn.textContent = t; setTimeout(function () { btn.textContent = 'Sao chép'; }, 1800); }
+  function selectText() { try { var r = document.createRange(); r.selectNodeContents(url); var s = getSelection(); s.removeAllRanges(); s.addRange(r); } catch (e) {} }
+  btn.addEventListener('click', function () {
+    var text = url.textContent.trim();
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function () { done('Đã chép'); }, function () { selectText(); done('Đã chọn'); });
+    } else { selectText(); done('Đã chọn'); }
+  });
+})();
 </script>
+
 </body>
 </html>

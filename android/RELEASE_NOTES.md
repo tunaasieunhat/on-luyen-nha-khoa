@@ -1,7 +1,8 @@
-Ôn Luyện Nha Khoa - Offline bản app Android (Beta 2.3).
+Ôn Luyện Nha Khoa – Version 1.0, phiên bản chính thức.
 
-- Chạy hoàn toàn offline, không cần trình duyệt Chrome.
-- Đủ 3 môn: Vật liệu nha khoa, Anh văn chuyên ngành 2, Nhi khoa (2.090 câu, 35 bài tóm tắt, sơ đồ tư duy).
-- Tải PDF và ảnh sơ đồ lưu vào thư mục Tải xuống › On Luyen Nha Khoa.
+- Đổi tên app thành Ôn Luyện Nha Khoa.
+- Giao diện sảnh gọn hơn (bỏ khung hình phòng khám).
+- Phát hiện lỗi, sai đáp án hay câu hỏi có vấn đề: liên hệ tunaasieunhat@gmail.com.
+- Bản Online beta 2.3 đã đóng cửa; các môn học sẽ được liên tục thêm vào app.
 
-Cài: tải file OnLuyenNhaKhoa.apk bên dưới, mở file và cho phép cài ứng dụng.
+Cài: tải file OnLuyenNhaKhoa.apk bên dưới, mở file và bấm Cập nhật (hoặc Cài đặt).

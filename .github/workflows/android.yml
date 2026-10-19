@@ -1,4 +1,4 @@
-# Build app Android "Ôn Luyện Nha Khoa - Offline" (thư mục android/) thành file APK
+# Build app Android "Ôn Luyện Nha Khoa" (thư mục android/) thành file APK
 # Có secret ANDROID_KEYSTORE_B64 thì ký bằng khóa riêng và đăng lên Releases;
 # chưa có thì chỉ build thử (ký tạm) để kiểm tra lỗi.
 name: Build APK Android
@@ -99,7 +99,7 @@ jobs:
         run: |
           TAG="apk-${VERSION_CODE}"
           if ! gh release view "$TAG" >/dev/null 2>&1; then
-            gh release create "$TAG" --title "Ôn Luyện Nha Khoa Offline ${VERSION_NAME}" --notes-file android/RELEASE_NOTES.md --latest
+            gh release create "$TAG" --title "Ôn Luyện Nha Khoa ${VERSION_NAME} (bản ${VERSION_CODE})" --notes-file android/RELEASE_NOTES.md --latest
           fi
           gh release upload "$TAG" OnLuyenNhaKhoa.apk --clobber
           echo "::notice title=Đã phát hành::https://github.com/${GH_REPO}/releases/tag/${TAG}"
