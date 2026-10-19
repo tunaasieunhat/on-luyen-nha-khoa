@@ -1,0 +1,53 @@
+{
+  "id": "./",
+  "name": "Ôn Luyện Nha Khoa - Online",
+  "short_name": "Ôn Luyện NK",
+  "description": "Ôn Luyện Nha Khoa - Online: trắc nghiệm có hình minh hoạ, câu hỏi hệ thống theo bài, ôn lý thuyết tải PDF, flashcard và AI soạn câu hỏi từ file PDF hoặc Word.",
+  "lang": "vi",
+  "dir": "ltr",
+  "start_url": "./?source=app",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#EEF7F3",
+  "theme_color": "#0B544C",
+  "categories": [
+    "education",
+    "games"
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "og.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Ôn Luyện Nha Khoa - Online"
+    }
+  ]
+}
