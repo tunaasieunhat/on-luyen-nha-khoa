@@ -2996,6 +2996,13 @@ if (hot && typeof hot.ready === 'function') hot.ready(boot); else boot((hot && h
     if (bar) bar.insertBefore(bell, anchor || null);
 
     var busy = false, autoShown = false, hideTimer = null;
+    // Thông tin chẩn đoán ngắn khi bị chặn: quyền của trình duyệt + đang chạy trong APK hay Chrome
+    try { if (document.referrer.indexOf('android-app://') === 0) sessionStorage.setItem('tunaa.twa', '1'); } catch (e) {}
+    var diag = function () {
+      var twa = false; try { twa = sessionStorage.getItem('tunaa.twa') === '1'; } catch (e) {}
+      var np = 'n/a'; try { np = Notification.permission; } catch (e) {}
+      return (twa ? 'APK' : 'WEB') + '-' + np + '-' + N.permissionNative;
+    };
     var isOn = function () { return !!(N.permission && P.optedIn); };
     var isDenied = function () { return N.permissionNative === 'denied'; };
     function paint() {
@@ -3008,7 +3015,7 @@ if (hot && typeof hot.ready === 'function') hot.ready(boot); else boot((hot && h
       if (on) pop.innerHTML = head + '<b>Đã bật thông báo cập nhật</b>' + close + '<small>Có bản mới là điện thoại báo ngay, kể cả khi đang tắt app.</small>' +
         '<div class="pp-act"><button class="btn-link" type="button" data-push="off">Tắt thông báo</button></div>';
       else if (denied) pop.innerHTML = head + '<b>Thông báo đang bị chặn</b>' + close + '<small>Bật lại ở Cài đặt điện thoại → Ứng dụng → Ôn Luyện NK → Thông báo. Mở bằng Chrome thì vào Chrome → Cài đặt → Cài đặt trang web → Thông báo. Bật xong bấm Kiểm tra lại.</small>' +
-        '<div class="pp-act"><button class="btn btn-sm btn-scrub" type="button" data-push="recheck">Kiểm tra lại</button></div>';
+        '<div class="pp-act"><button class="btn btn-sm btn-scrub" type="button" data-push="recheck">Kiểm tra lại</button><span class="fine">Mã: ' + diag() + '</span></div>';
       else pop.innerHTML = head + '<b>Nhận thông báo khi có bản mới?</b>' + close + '<small>Có câu hỏi, bài học hay tính năng mới là điện thoại báo ngay.</small>' +
         '<div class="pp-act"><button class="btn btn-sm btn-gum" type="button" data-push="on">Bật thông báo</button><button class="btn-link" type="button" data-push="later">Để sau</button></div>';
     }
