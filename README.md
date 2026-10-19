@@ -12,12 +12,13 @@
 
 ## Tính năng chung
 
-- **Câu hỏi hệ thống:** 1.550 câu, chia theo môn và theo bài.
+- **Câu hỏi hệ thống:** 2.090 câu của 3 môn, chia theo môn và theo bài.
   - Vật liệu nha khoa: 11 bài, mỗi bài 100 câu.
   - Anh văn chuyên ngành 2: 15 Unit, mỗi Unit 30 câu.
+  - Nhi khoa: 9 bài, mỗi bài 60 câu (30 câu lý thuyết, 30 câu tình huống lâm sàng).
 - **Hình minh hoạ** cho từng câu hỏi, vẽ sẵn trong file nên không cần mạng.
-- **Ôn tập lý thuyết:** 26 bài tóm tắt, bài nào cũng tải về được dạng PDF.
-- **Sơ đồ tư duy** cho cả 26 bài: xem dạng toả tròn hoặc dạng cây, che ý nhỏ để tự kiểm tra, tải về dạng ảnh PNG.
+- **Ôn tập lý thuyết:** 35 bài tóm tắt, bài nào cũng tải về được dạng PDF.
+- **Sơ đồ tư duy** cho cả 35 bài: xem dạng toả tròn hoặc dạng cây, che ý nhỏ để tự kiểm tra, tải về dạng ảnh PNG.
 - **Flashcard và tự soạn câu hỏi.**
 - **Màn mở đầu có nhạc nền** (nhạc do trình duyệt tự phát, không cần tải) và **nền phòng khám hoạt hình** có chuyển động.
 
@@ -26,7 +27,7 @@
 ```
 index.html, 404.html     Bản Offline (trang chính của GitHub Pages)
 manifest.json, sw.js     Cài như ứng dụng và lưu để dùng offline
-pdf/                     26 file PDF tóm tắt lý thuyết
+pdf/                     35 file PDF tóm tắt lý thuyết
 icon-*.png, og.png       Biểu tượng và ảnh chia sẻ
 online/                  Trang mở bản Online: chuyển thẳng vào link Claude
 source/                  Mã nguồn hai bản đang chạy trên Claude (mỗi bản một file HTML)
