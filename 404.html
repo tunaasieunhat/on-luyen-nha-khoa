@@ -2947,5 +2947,72 @@ if (hot && typeof hot.ready === 'function') hot.ready(boot); else boot((hot && h
     window.addEventListener('load', function () { try { navigator.serviceWorker.register('sw.js').catch(function () {}); } catch (e) {} });
   }
 </script>
+<!-- Thông báo đẩy khi có bản cập nhật (OneSignal). Chỉ có trong bản trên GitHub Pages. -->
+<style>
+.push-box{display:grid;grid-template-columns:40px minmax(0,1fr);gap:4px 12px;align-items:center;padding:12px 14px;border-radius:16px;border:2px solid var(--line);background:var(--enamel)}
+.push-box .pb-ic{grid-row:span 2;width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:var(--lamp-soft);color:var(--lamp-deep)}
+.push-box .pb-ic svg{width:22px;height:22px}
+.push-box b{font-size:.95rem;line-height:1.3}
+.push-box small{display:block;color:var(--muted);font-size:.84rem;line-height:1.4}
+.push-box .pb-act{grid-column:1/-1;display:flex;gap:8px 14px;flex-wrap:wrap;align-items:center;margin-top:6px}
+.push-box.on{border-color:var(--ok);background:var(--ok-soft)}
+.push-box.on .pb-ic{background:var(--paper);color:var(--ok)}
+</style>
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+(function () {
+  var APP_ID = '7964c8ab-71b9-4ba5-b4ee-e04a0d97d13e';
+  var BELL = '<svg class="i" viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z"/><path d="M10 20a2 2 0 0 0 4 0"/></svg>';
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  window.OneSignalDeferred.push(async function (OneSignal) {
+    try {
+      await OneSignal.init({
+        appId: APP_ID,
+        serviceWorkerPath: 'on-luyen-nha-khoa/push/onesignal/OneSignalSDKWorker.js',
+        serviceWorkerParam: { scope: '/on-luyen-nha-khoa/push/onesignal/' }
+      });
+    } catch (e) { console.warn('OneSignal', e); return; }
+    var N = OneSignal.Notifications, P = OneSignal.User && OneSignal.User.PushSubscription;
+    if (!N || !P || !N.isPushSupported()) return;
+    var box = document.createElement('div');
+    box.className = 'push-box'; box.setAttribute('aria-live', 'polite');
+    var anchor = document.getElementById('lobby-stats');
+    if (!anchor) return;
+    anchor.insertAdjacentElement('afterend', box);
+    var busy = false, blocked = false;
+    function render() {
+      if (N.permissionNative === 'denied') blocked = true;
+      var on = N.permission && P.optedIn;
+      box.classList.toggle('on', !!on);
+      if (on) {
+        box.innerHTML = '<span class="pb-ic">' + BELL + '</span><b>Đã bật thông báo cập nhật</b><small>Điện thoại sẽ báo khi app có bản mới.</small>' +
+          '<div class="pb-act"><button class="btn-link" type="button" data-push="off">Tắt thông báo</button></div>';
+      } else if (blocked) {
+        box.innerHTML = '<span class="pb-ic">' + BELL + '</span><b>Thông báo đang bị chặn</b><small>Vào Cài đặt điện thoại → Ứng dụng → app này (hoặc Chrome) → Thông báo → bật lại, rồi mở lại app.</small>';
+      } else {
+        box.innerHTML = '<span class="pb-ic">' + BELL + '</span><b>Nhận thông báo khi có bản cập nhật</b><small>Có câu hỏi, bài học hay tính năng mới là điện thoại báo ngay.</small>' +
+          '<div class="pb-act"><button class="btn btn-sm btn-scrub" type="button" data-push="on">Bật thông báo</button></div>';
+      }
+    }
+    box.addEventListener('click', async function (e) {
+      var b = e.target.closest('[data-push]'); if (!b || busy) return;
+      busy = true; b.disabled = true;
+      try {
+        if (b.dataset.push === 'on') {
+          if (!N.permission) await N.requestPermission();
+          if (N.permission) { if (!P.optedIn) await P.optIn(); }
+          else blocked = true;
+        } else {
+          await P.optOut();
+        }
+      } catch (err) { console.warn('OneSignal', err); }
+      busy = false; render();
+    });
+    N.addEventListener('permissionChange', function () { blocked = false; render(); });
+    P.addEventListener('change', render);
+    render();
+  });
+})();
+</script>
 </body>
 </html>
