@@ -48,6 +48,12 @@ source/                  Mã nguồn hai bản đang chạy trên Claude (mỗi 
   - Bản Online: link `online/`, Package ID `io.github.tunaasieunhat.onluyennhakhoa.online`, tên ngắn `NK Online`. Biểu tượng có huy hiệu AI màu xanh để dễ phân biệt.
   - Cất kỹ `signing.keystore` và `signing-key-info.txt` trong gói tải về: sau này làm lại APK phải dùng đúng khoá này.
 
+## Thông báo cập nhật (bản Offline)
+
+- Ở sảnh có khung **Nhận thông báo khi có bản cập nhật**, bấm **Bật thông báo** rồi cho phép.
+- Mỗi lần có bản mới: vào [OneSignal](https://dashboard.onesignal.com) → app **Ôn Luyện Nha Khoa** → **Messages → New Push**, điền tiêu đề, nội dung, **Launch URL** `https://tunaasieunhat.github.io/on-luyen-nha-khoa/` → **Send**.
+- Mã nguồn: đoạn OneSignal ở cuối `index.html`, service worker riêng ở `push/onesignal/OneSignalSDKWorker.js`.
+
 ## Ghi chú
 
 - AI của bản Online chỉ chạy khi mở trong Claude. Trang `online/` và file trong `source/` chỉ để mở app và lưu dự phòng.
