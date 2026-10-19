@@ -404,6 +404,38 @@ select.input{appearance:none;background-image:linear-gradient(45deg,transparent 
 .modal-card{width:min(520px,100%);max-height:100%;overflow:auto;background:var(--enamel);border:2px solid var(--ink);border-radius:var(--r-l);box-shadow:0 8px 0 var(--ink);padding:20px;display:flex;flex-direction:column;gap:14px}
 .modal-head{display:flex;align-items:center;gap:10px}
 .modal-head h2{font-family:var(--f-display);font-size:1.4rem;margin:0;line-height:1;margin-right:auto}
+/* Bảng kết quả nổi khi xong hoặc dừng bài (Beta 2.1) */
+.done-card{width:min(440px,100%);align-items:center;text-align:center;gap:12px;animation:done-pop .42s cubic-bezier(.3,1.5,.5,1)}
+@keyframes done-pop{from{transform:scale(.84) translateY(26px);opacity:0}}
+.done-card .modal-head{width:100%}
+.done-card .modal-head h2{text-align:left}
+.dn-badge{width:62px;height:62px;border-radius:20px;display:grid;place-items:center;background:var(--ok-soft);color:var(--ok);border:2px solid var(--ok);box-shadow:0 4px 0 var(--ok);flex:none}
+.dn-badge svg{width:32px;height:32px;stroke-width:2.4}
+.done-card.stopped .dn-badge{background:var(--lamp-soft);color:var(--lamp-deep);border-color:var(--lamp);box-shadow:0 4px 0 var(--lamp)}
+.dn-subj{display:flex;flex-direction:column;align-items:center;gap:4px;max-width:100%;min-width:0}
+.dn-subj b{font-family:var(--f-display);font-size:1.28rem;line-height:1.25;overflow-wrap:anywhere}
+.dn-subj small{color:var(--muted);font-size:.86rem;line-height:1.35;overflow-wrap:anywhere}
+.dn-subj small[hidden]{display:none}
+.dn-score{font-family:var(--f-display);font-weight:800;font-size:clamp(3rem,15vw,4.4rem);line-height:.9;color:var(--gum);font-variant-numeric:tabular-nums}
+.dn-score small{font-size:1.05rem;color:var(--muted);font-weight:700;margin-left:6px}
+.dn-line{margin:0;font-weight:600;color:var(--muted);line-height:1.4}
+.done-card .tally{width:100%;justify-content:center;flex-wrap:nowrap}
+.done-card .tally-item{flex:1;min-width:0;padding:8px 12px 8px 10px;gap:10px;text-align:left}
+.done-card .tally-item .ti{width:36px;height:36px}
+.done-card .tally-item b{font-size:1.7rem}
+.dn-best{margin:0;font-size:.92rem;font-weight:600;color:var(--lamp-deep);line-height:1.4}
+.dn-best:empty{display:none}
+.dn-actions{display:flex;flex-direction:column;gap:10px;width:100%;margin-top:4px}
+.dn-actions .btn{width:100%;justify-content:center}
+.dn-row{display:flex;gap:10px}
+.dn-row .btn{flex:1;min-width:0;padding-inline:10px}
+/* Điểm còn lại của câu đang làm */
+.qpts{margin-left:auto;display:inline-flex;align-items:center;font-family:var(--f-mono);font-weight:700;font-size:.88rem;font-variant-numeric:tabular-nums;line-height:1;padding:4px 9px;border-radius:999px;background:var(--lamp-soft);color:var(--lamp-deep);border:1.5px solid var(--lamp)}
+.qpts + .secs{margin-left:0}
+.qpts.drop{animation:qpts-drop .5s ease-out}
+@keyframes qpts-drop{0%{transform:scale(1.3);background:var(--bad-soft);color:var(--bad);border-color:var(--bad)}100%{transform:none}}
+.qpts.got{background:var(--ok-soft);color:var(--ok);border-color:var(--ok)}
+.qpts.miss{background:var(--bad-soft);color:var(--bad);border-color:var(--bad)}
 .ctx{font-family:var(--f-mono);font-size:11.5px;background:var(--wall);border-radius:8px;padding:8px 10px;color:var(--muted);line-height:1.5;word-break:break-word}
 .toast{position:fixed;left:50%;bottom:calc(28px + env(safe-area-inset-bottom,0px));transform:translate(-50%,16px);opacity:0;pointer-events:none;background:var(--ink);color:var(--enamel);padding:10px 16px;border-radius:12px;font-weight:600;transition:opacity .2s,transform .2s;z-index:90;max-width:min(460px,calc(100% - 32px));text-align:center;line-height:1.4}
 .toast.show{opacity:1;transform:translate(-50%,0)}
@@ -680,8 +712,8 @@ body[data-scr="start"]:not(.intro-on) :is(.bg-win,.bg-shelf,.bg-plant,.bg-aqua){
         <div class="brand-row"><span class="logo-slot"></span><span class="eyebrow">Phòng khám luyện thi Răng Hàm Mặt</span></div>
         <h1 id="start-title">Ôn Luyện <span>Nha Khoa</span><span class="vh"> - </span> <b class="off-badge on">Online</b></h1>
         <div class="beta-note" role="note">
-          <span class="beta-tag">Beta 02</span>
-          <span class="beta-txt">Cập nhật thêm 2 môn Vật Liệu Nha Khoa và Anh Văn Chuyên ngành 2. Vẫn có AI soạn câu hỏi.</span>
+          <span class="beta-tag">Beta 2.1</span>
+          <span class="beta-txt">Cập nhật giao diện và sửa lỗi: bảng kết quả nổi lên khi xong hoặc dừng bài, nhạc tích tắc khi làm bài, tính điểm mới (đúng 1 câu 10 điểm, cứ 3 giây bớt 1 điểm). Kỷ lục được tính lại từ đầu.</span>
         </div>
       </div>
       <div class="start-cast">
@@ -736,7 +768,7 @@ body[data-scr="start"]:not(.intro-on) :is(.bg-win,.bg-shelf,.bg-plant,.bg-aqua){
         <nav class="menu" aria-label="Chức năng chính">
           <button class="menu-btn primary" id="go-quiz" type="button">
             <span class="mi"><svg class="i" viewBox="0 0 24 24"><path d="M8 5l11 7-11 7V5z"/></svg></span>
-            <strong>Bắt đầu</strong><span class="d">Chọn Tổng hợp, tick môn học, Câu hỏi hệ thống hoặc Ngân hàng câu hỏi. Mỗi câu 30 giây.</span>
+            <strong>Bắt đầu</strong><span class="d">Chọn Tổng hợp, tick môn học, Câu hỏi hệ thống hoặc Ngân hàng câu hỏi. Mỗi câu 30 giây, đúng ngay được 10 điểm.</span>
           </button>
           <button class="menu-btn theory" id="go-theory" type="button">
             <span class="mi"><svg class="i" viewBox="0 0 24 24"><path d="M3 5h6a3 3 0 0 1 3 3v12a2.5 2.5 0 0 0-2.5-2.5H3z"/><path d="M21 5h-6a3 3 0 0 0-3 3v12a2.5 2.5 0 0 1 2.5-2.5H21z"/></svg></span>
@@ -771,7 +803,7 @@ body[data-scr="start"]:not(.intro-on) :is(.bg-win,.bg-shelf,.bg-plant,.bg-aqua){
       <div class="page-head">
         <span class="eyebrow">Bước 1 · Chọn phạm vi khám</span>
         <h2>Hôm nay bạn muốn khám phần nào?</h2>
-        <p>Mỗi lượt lấy ngẫu nhiên số câu bạn chọn bên dưới. Đúng được 100 điểm, cộng thêm tới 50 điểm nếu trả lời nhanh.</p>
+        <p>Mỗi lượt lấy ngẫu nhiên số câu bạn chọn bên dưới. Mỗi câu đúng được 10 điểm, cứ 3 giây trôi qua bớt 1 điểm (chậm nhất vẫn còn 1 điểm).</p>
       </div>
       <div class="count-pick">
         <span class="lbl" id="count-lbl">Số câu mỗi lượt</span>
@@ -831,7 +863,7 @@ body[data-scr="start"]:not(.intro-on) :is(.bg-win,.bg-shelf,.bg-plant,.bg-aqua){
       </div>
       <div class="quiz-body">
         <article class="qcard">
-          <div class="qmeta"><span class="eyebrow" id="qz-label">Câu 1</span><span class="tag" id="qz-subj"></span><span class="tag topic" id="qz-topic"></span><span class="tag" id="qz-src"></span><span class="secs" id="qz-secs">30s</span></div>
+          <div class="qmeta"><span class="eyebrow" id="qz-label">Câu 1</span><span class="tag" id="qz-subj"></span><span class="tag topic" id="qz-topic"></span><span class="tag" id="qz-src"></span><span class="qpts" id="qz-pts" title="Điểm nếu trả lời đúng lúc này">10đ</span><span class="secs" id="qz-secs">30s</span></div>
           <div class="timer" aria-hidden="true"><i id="qz-timer"></i></div>
           <figure class="q-art" id="qz-art" role="img" aria-label="Hình minh hoạ"></figure>
           <p class="qtext" id="qz-q"></p>
@@ -976,6 +1008,26 @@ body[data-scr="start"]:not(.intro-on) :is(.bg-win,.bg-shelf,.bg-plant,.bg-aqua){
 <datalist id="subject-list"></datalist>
 <datalist id="topic-list"></datalist>
 
+<!-- ============ BẢNG KẾT QUẢ NỔI (xong hoặc dừng bài) ============ -->
+<div class="modal" id="done-modal" hidden role="dialog" aria-modal="true" aria-labelledby="dn-title">
+  <div class="modal-card done-card" id="done-card">
+    <div class="modal-head"><h2 id="dn-title">Hoàn thành bài!</h2><button class="icon-btn sm" type="button" id="dn-close" aria-label="Đóng"><svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <span class="dn-badge" id="dn-badge" aria-hidden="true"></span>
+    <div class="dn-subj"><span class="eyebrow" id="dn-eyebrow">Môn vừa hoàn thành</span><b id="dn-subj"></b><small id="dn-sel"></small></div>
+    <div class="dn-score"><span id="dn-score">0</span><small>điểm</small></div>
+    <p class="dn-line" id="dn-line"></p>
+    <div class="tally">
+      <div class="tally-item ok"><span class="ti"><svg class="i" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span><b id="dn-ok">0</b><small>Câu đúng</small></span></div>
+      <div class="tally-item bad"><span class="ti"><svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></span><span><b id="dn-bad">0</b><small>Câu sai</small></span></div>
+    </div>
+    <p class="dn-best" id="dn-best"></p>
+    <div class="dn-actions">
+      <button class="btn btn-gum" id="dn-again" type="button">Làm lại bài này</button>
+      <div class="dn-row"><button class="btn" id="dn-pick" type="button">Chọn bài khác</button><button class="btn" id="dn-lobby" type="button">Về sảnh</button></div>
+    </div>
+  </div>
+</div>
+
 <!-- ============ REPORT MODAL ============ -->
 <div class="modal" id="report-modal" hidden role="dialog" aria-modal="true" aria-labelledby="rp-title">
   <form class="modal-card" id="report-form" novalidate>
@@ -1005,7 +1057,7 @@ body[data-scr="start"]:not(.intro-on) :is(.bg-win,.bg-shelf,.bg-plant,.bg-aqua){
     <p class="intro-sub">Trắc nghiệm, ôn lý thuyết, flashcard và AI soạn câu hỏi từ tài liệu của bạn.</p>
     <div class="intro-eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
     <button class="btn btn-gum intro-go" id="intro-go" type="button">Nhấn để bắt đầu<svg class="i" viewBox="0 0 24 24"><path d="M8 5l11 7-11 7V5z"/></svg></button>
-    <div class="intro-row"><button class="intro-music" id="intro-music" type="button" aria-pressed="true"></button><span class="intro-ver">Beta 02</span></div>
+    <div class="intro-row"><button class="intro-music" id="intro-music" type="button" aria-pressed="true"></button><span class="intro-ver">Beta 2.1</span></div>
     <p class="intro-tap" id="intro-tap" aria-live="polite"></p>
   </div>
 </div>
@@ -1507,8 +1559,10 @@ const Music = (() => {
   const FIFTH = { C: 'G2', Am: 'E3', F: 'C3', G: 'D3', Em: 'B2', Dm: 'A2' };
   const TOTAL = MEL.length * 8;
   const NI = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 };
-  const hz = n => 440 * Math.pow(2, (NI[n[0]] + (+n[n.length - 1] + 1) * 12 - 69) / 12);
+  const hz = n => 440 * Math.pow(2, (NI[n[0]] + (n[1] === '#' ? 1 : 0) + (+n[n.length - 1] + 1) * 12 - 69) / 12);
   let C = null, bus = null, noise = null, timer = null, next = 0, step = 0, playing = false, vol = .5;
+  // 'main': nhạc vui ở sảnh; 'quiz': nhạc tích tắc hồi hộp khi đang làm bài; urgent: sắp hết giờ
+  let mode = 'main', urgent = false;
 
   function wire(ctx) {
     const b = ctx.createGain(), comp = ctx.createDynamicsCompressor();
@@ -1556,10 +1610,32 @@ const Music = (() => {
     if (s === 2 || s === 6) hit(t, .1, 'bandpass', 1800, .8, .11);
     hit(t, s % 2 ? .045 : .022, 'highpass', 7500, 0, .045);
   }
+  // Nhạc làm bài: đồng hồ tích – tắc, nền trầm hồi hộp, sắp hết giờ thì tích tắc dồn dập kèm nhịp tim
+  const QCH = [['A2', 'E3', 'A3'], ['F2', 'C3', 'A3'], ['D3', 'F3', 'A3'], ['E2', 'B2', 'G#3']];
+  const QHI = ['E5', 'C5', 'F5', 'B4'];
+  function wood(t, f, v) { tone('sine', f, t, .07, v, .001); hit(t, v * .55, 'bandpass', f * 1.6, 6, .03); }
+  function thump(t, v) {
+    const o = C.createOscillator(), g = C.createGain();
+    o.type = 'sine'; o.frequency.setValueAtTime(95, t); o.frequency.exponentialRampToValueAtTime(42, t + .16); env(g, t, .004, v, .2);
+    o.connect(g); g.connect(bus); o.start(t); o.stop(t + .24);
+  }
+  function playQuiz(i, t) {
+    const s = i % 8, bar = Math.floor(i / 8) % 4;
+    if (urgent) {
+      wood(t, s % 2 ? 1500 : 2100, .26);
+      if (s === 0 || s === 1 || s === 4 || s === 5) thump(t, s % 2 ? .24 : .34);
+    } else {
+      if (s % 2 === 0) wood(t, s % 4 === 0 ? 2000 : 1350, .22);
+      if (s === 0) thump(t, .26);
+    }
+    if (s === 0) QCH[bar].forEach(n => tone('triangle', hz(n), t, ST * 8, .055, .35));
+    if (s === 4 && !urgent) tone('sine', hz(QHI[bar]), t, .9, .035, .2);
+  }
+  function playAny(i, t) { if (mode === 'quiz') playQuiz(i, t); else play(i % TOTAL, t); }
   function tick() {
     if (!C || !playing) return;
     if (next < C.currentTime - .15) next = C.currentTime + .05;
-    while (next < C.currentTime + .22) { play(step, next); next += ST; step = (step + 1) % TOTAL; }
+    while (next < C.currentTime + .22) { playAny(step, next); next += ST; step = (step + 1) % TOTAL; }
   }
   function ramp(v, tc = .25) { if (bus) { const t = C.currentTime; bus.gain.cancelScheduledValues(t); bus.gain.setTargetAtTime(v, t, tc); } }
   return {
@@ -1576,6 +1652,12 @@ const Music = (() => {
     },
     stop() { playing = false; clearInterval(timer); timer = null; if (C) ramp(0, .12); paintIntro(); },
     volume(v) { vol = v; if (playing) ramp(v, .6); },
+    setMode(m) {
+      if (m === mode) return;
+      mode = m; urgent = false; step = 0;
+      if (C && playing) next = C.currentTime + .06;
+    },
+    urgent(on) { urgent = !!on && mode === 'quiz'; },
     sleep() { if (C && C.state === 'running') C.suspend().catch(() => {}); },
     wake() { if (C && C.state === 'suspended' && (playing || S.sound)) C.resume().catch(() => {}); },
     fanfare() {
@@ -1587,12 +1669,13 @@ const Music = (() => {
       if (!playing) setTimeout(() => { if (!playing) ramp(0, .2); }, 1200);
     },
     // Dùng khi kiểm tra: dựng thử vài giây nhạc ngoài màn hình, trả về mức to nhỏ
-    async offline(sec = 8) {
+    async offline(sec = 8, m = 'main', u = false) {
       const OC = window.OfflineAudioContext || window.webkitOfflineAudioContext;
       const ctx = new OC(1, Math.floor(44100 * sec), 44100), keep = [C, bus, noise];
       const w = wire(ctx); C = ctx; bus = w.b; noise = w.nb; bus.gain.value = .5;
-      for (let i = 0, t = .05; t < sec; i++, t += ST) play(i % TOTAL, t);
-      [C, bus, noise] = keep;
+      const km = [mode, urgent]; mode = m; urgent = u;
+      for (let i = 0, t = .05; t < sec; i++, t += ST) playAny(i, t);
+      [C, bus, noise] = keep; [mode, urgent] = km;
       const buf = await ctx.startRendering(), d = buf.getChannelData(0);
       let peak = 0, sum = 0; for (let i = 0; i < d.length; i++) { const a = Math.abs(d[i]); if (a > peak) peak = a; sum += d[i] * d[i]; }
       return { peak: +peak.toFixed(3), rms: +Math.sqrt(sum / d.length).toFixed(3), loop: +(TOTAL * ST).toFixed(1) };
@@ -2230,7 +2313,7 @@ const poolFor = sel => {
   if (sel.mode === 'bank') return qs.filter(q => (q.fixed || AI_SRC.includes(q.source)) && bankIdOf(q) === sel.bank);
   return qs.filter(q => sel.keys.includes(q.sk));
 };
-const bestKey = k => `${slug(S.player.name)}_${slug(S.player.school)}__${k}`;
+const bestKey = k => `${slug(S.player.name)}_${slug(S.player.school)}__s10__${k}`;
 const getBest = k => { const m = store.get('best', {}) || {}; return m[bestKey(k)] || null; };
 const setBest = (k, rec) => { const m = store.get('best', {}) || {}; m[bestKey(k)] = rec; store.set('best', m); };
 
@@ -2371,6 +2454,8 @@ const SCREENS = ['start', 'lobby', 'quiz', 'addq', 'flash', 'theory'];
 function show(name) {
   if (name !== 'start' && !S.player) name = 'start';
   if (S.screen === 'quiz' && name !== 'quiz') stopTimer();
+  if (name !== 'quiz') Music.setMode('main');
+  closeDone();
   SCREENS.forEach(n => { $('#scr-' + n).hidden = n !== name; });
   document.body.dataset.scr = name;
   S.screen = name;
@@ -2555,6 +2640,7 @@ async function downloadPdf(id) {
 /* ================= QUIZ: PICK ================= */
 function showQuizPhase(p) {
   $('#quiz-pick').hidden = p !== 'pick'; $('#quiz-play').hidden = p !== 'play'; $('#quiz-result').hidden = p !== 'result';
+  Music.setMode(p === 'play' ? 'quiz' : 'main');
 }
 const PICK_MODES = ['all', 'some', 'sys', 'bank'];
 function setPickMode(mode) {
@@ -2744,6 +2830,8 @@ function startQuiz(sel) {
 function bumpTally(box) { box.classList.remove('bump'); void box.offsetWidth; box.classList.add('bump'); }
 let tick = null, tout = null;
 function stopTimer() { clearInterval(tick); clearTimeout(tout); tick = tout = null; }
+// Đúng 1 câu = 10 điểm, cứ mỗi 3 giây trôi qua bớt 1 điểm (thấp nhất 1 điểm)
+const ptsFor = left => Math.max(1, 10 - Math.floor(Math.max(0, 30 - left) / 3));
 function renderQuestion() {
   const z = S.quiz, q = z.qs[z.i];
   z.answered = false;
@@ -2757,11 +2845,12 @@ function renderQuestion() {
   $('#qz-opts').innerHTML = q.options.map((o, i) => `<button class="opt" type="button" data-i="${i}"><span class="k">${'ABCD'[i]}</span><span>${esc(o)}</span></button>`).join('');
   $('#qz-next').hidden = true; $('#qz-hint').hidden = false;
   const fb = $('#qz-fb'); fb.className = 'feedback';
-  fb.innerHTML = `<span class="fb-who">BS. Tunaa</span><p>Đọc kỹ nhé! Bạn có 30 giây cho câu này.</p>`;
+  fb.innerHTML = `<span class="fb-who">BS. Tunaa</span><p>Đọc kỹ nhé! Bạn có 30 giây. Đúng ngay được 10 điểm, cứ 3 giây bớt 1 điểm.</p>`;
   const sc = $('#quiz-scene svg'); if (sc) sc.setAttribute('data-mood', 'open');
   stopTimer();
   const bar = $('#qz-timer'), secs = $('#qz-secs');
   bar.classList.remove('low'); secs.classList.remove('low');
+  const pv = $('#qz-pts'); pv.className = 'qpts'; pv.textContent = '10đ';
   bar.style.transition = 'none'; bar.style.transform = 'scaleX(1)';
   void bar.offsetWidth;
   bar.style.transition = reduced ? 'none' : 'transform 30s linear';
@@ -2771,6 +2860,9 @@ function renderQuestion() {
     const left = Math.max(0, Math.ceil((z.deadline - performance.now()) / 1000));
     secs.textContent = left + 's';
     const low = left <= 8; secs.classList.toggle('low', low); bar.classList.toggle('low', low);
+    Music.urgent(low && !z.answered);
+    const now = ptsFor(Math.max(0, z.deadline - performance.now()) / 1000) + 'đ';
+    if (pv.textContent !== now) { pv.textContent = now; pv.classList.remove('drop'); void pv.offsetWidth; pv.classList.add('drop'); }
     if (reduced) bar.style.transform = `scaleX(${(left / 30).toFixed(3)})`;
   };
   upd(); tick = setInterval(upd, 250);
@@ -2778,11 +2870,12 @@ function renderQuestion() {
 }
 function answer(choice) {
   const z = S.quiz; if (!z || z.answered) return;
-  z.answered = true; stopTimer();
+  z.answered = true; stopTimer(); Music.urgent(false);
   const q = z.qs[z.i];
   const left = Math.max(0, z.deadline - performance.now()) / 1000;
   const ok = choice === q.answer;
-  const pts = ok ? 100 + Math.round(Math.min(30, left) / 30 * 50) : 0;
+  const pts = ok ? ptsFor(left) : 0;
+  const pv = $('#qz-pts'); pv.classList.remove('drop'); pv.classList.add(ok ? 'got' : 'miss'); pv.textContent = '+' + pts + 'đ';
   z.score += pts; if (ok) z.correct++; else z.wrong++;
   $('#qz-score').textContent = z.score;
   $('#qz-ok').textContent = z.correct; $('#qz-bad').textContent = z.wrong;
@@ -2796,7 +2889,7 @@ function answer(choice) {
   const sc = $('#quiz-scene svg'); if (sc) sc.setAttribute('data-mood', ok ? 'happy' : 'ouch');
   const fb = $('#qz-fb'); fb.className = 'feedback ' + (ok ? 'ok' : 'bad');
   const L = 'ABCD'[q.answer];
-  const head = ok ? `Chính xác! +${pts} điểm` : choice === -1 ? `Hết giờ! Đáp án đúng là ${L}` : `Chưa đúng rồi. Đáp án đúng là ${L}`;
+  const head = ok ? `Chính xác! +${pts} điểm (trả lời sau ${Math.min(30, Math.max(1, Math.ceil(30 - left)))} giây)` : choice === -1 ? `Hết giờ! Đáp án đúng là ${L}` : `Chưa đúng rồi. Đáp án đúng là ${L}`;
   fb.innerHTML = `<span class="fb-who">BS. Tunaa</span><span class="fb-h">${esc(head)}</span>${q.explain ? `<p>${esc(q.explain)}</p>` : ''}${q.file ? `<p class="muted" style="font-size:.85rem">Nguồn: ${esc(q.file)}</p>` : ''}<p class="muted" style="font-size:.85rem">${ok ? 'Bé Sún cười tít mắt.' : 'Bé Sún kêu “á!”.'}</p>`;
   beep(ok);
   const nx = $('#qz-next');
@@ -2815,7 +2908,7 @@ function finishQuiz() {
   showQuizPhase('result');
   $('#res-subj').textContent = 'Kết quả · ' + z.name;
   $('#res-score').textContent = z.score;
-  $('#res-line').textContent = `Đúng ${z.correct}/${n} câu`;
+  $('#res-line').textContent = `Đúng ${z.correct}/${n} câu · tối đa ${n * 10} điểm`;
   $('#res-ok').textContent = z.correct; $('#res-bad').textContent = z.wrong;
   $('#res-msg').textContent = pct >= .9 ? 'Răng đều tăm tắp! BS. Tunaa muốn mời bạn về làm cùng phòng khám.'
     : pct >= .7 ? 'Hàm răng khỏe mạnh, chỉ cần cạo vôi chút xíu. Ôn thêm vài thẻ là hoàn hảo.'
@@ -2830,6 +2923,48 @@ function finishQuiz() {
     $('#res-best').textContent = `Kỷ lục của bạn với lựa chọn này vẫn là ${prev.best} điểm.`;
   }
   try { window.scrollTo(0, 0); } catch {}
+  openDone(false);
+  if (pct >= .5) Music.fanfare();
+}
+
+/* ================= BẢNG KẾT QUẢ NỔI ================= */
+const DN_ICON = {
+  done: '<svg class="i" viewBox="0 0 24 24"><path d="M8 4h8v5a4 4 0 0 1-8 0zM8 6H5a3 3 0 0 0 3 4M16 6h3a3 3 0 0 1-3 4M12 13v4M8 20h8M10 17h4"/></svg>',
+  stop: '<svg class="i" viewBox="0 0 24 24"><path d="M9 6v12M15 6v12"/></svg>'
+};
+// Tên môn của các câu đã làm (một môn thì kèm luôn bài nếu cả lượt cùng một bài)
+function doneSubject(z, n) {
+  const qs = z.qs.slice(0, Math.max(1, n));
+  const subs = [...new Set(qs.map(q => q.subject).filter(Boolean))];
+  if (!subs.length) return z.name;
+  if (subs.length === 1) {
+    const tops = [...new Set(qs.map(q => q.topic).filter(Boolean))];
+    return tops.length === 1 && tops[0] !== subs[0] ? `${subs[0]} · ${tops[0]}` : subs[0];
+  }
+  return subs.length === 2 ? subs.join(' + ') : `${subs[0]} + ${subs.length - 1} môn khác`;
+}
+function openDone(stopped) {
+  const z = S.quiz; if (!z) return;
+  const n = z.qs.length, done = z.correct + z.wrong;
+  const subj = doneSubject(z, stopped ? done : n);
+  $('#done-card').classList.toggle('stopped', stopped);
+  $('#dn-badge').innerHTML = stopped ? DN_ICON.stop : DN_ICON.done;
+  $('#dn-title').textContent = stopped ? 'Đã dừng bài' : 'Hoàn thành bài!';
+  $('#dn-eyebrow').textContent = stopped ? 'Môn vừa làm' : 'Môn vừa hoàn thành';
+  $('#dn-subj').textContent = subj;
+  const sel = $('#dn-sel'); sel.textContent = z.name; sel.hidden = !z.name || subj.includes(z.name);
+  $('#dn-score').textContent = z.score;
+  $('#dn-line').textContent = stopped ? `Đã làm ${done}/${n} câu · tối đa ${done * 10} điểm` : `Đúng ${z.correct}/${n} câu · tối đa ${n * 10} điểm`;
+  $('#dn-ok').textContent = z.correct; $('#dn-bad').textContent = z.wrong;
+  $('#dn-best').textContent = stopped ? 'Bài dừng giữa chừng nên không tính kỷ lục.' : $('#res-best').textContent;
+  $('#done-modal').hidden = false;
+  setTimeout(() => { const b = $('#dn-again'); try { b.focus({ preventScroll: true }); } catch { b.focus(); } }, 40);
+}
+function closeDone() { const m = $('#done-modal'); if (m) m.hidden = true; }
+function againQuiz() {
+  if (!S.lastSel) return;
+  const keep = S.pick.count; S.pick.count = S.lastSel.count === undefined ? keep : S.lastSel.count;
+  startQuiz(S.lastSel); S.pick.count = keep;
 }
 
 /* ================= REPORT ================= */
@@ -3573,19 +3708,26 @@ function wire() {
   $('#qz-next').addEventListener('click', nextQuestion);
   $('#qz-quit').addEventListener('click', e => {
     const b = e.currentTarget;
-    if (b.dataset.armed) { delete b.dataset.armed; b.textContent = 'Dừng bài'; stopTimer(); showQuizPhase('pick'); renderPick(); return; }
+    if (b.dataset.armed) {
+      delete b.dataset.armed; clearTimeout(b._armT); b.textContent = 'Dừng bài'; stopTimer();
+      const z = S.quiz, any = !!z && z.correct + z.wrong > 0;
+      showQuizPhase('pick'); renderPick();
+      if (any) openDone(true); else toast('Đã dừng bài. Bạn chưa trả lời câu nào nên chưa có điểm.');
+      return;
+    }
     b.dataset.armed = '1'; b.textContent = 'Bấm lần nữa để dừng';
-    setTimeout(() => { if (b.dataset.armed) { delete b.dataset.armed; b.textContent = 'Dừng bài'; } }, 3000);
+    clearTimeout(b._armT); b._armT = setTimeout(() => { if (b.dataset.armed) { delete b.dataset.armed; b.textContent = 'Dừng bài'; } }, 3000);
   });
   $('#qz-report').addEventListener('click', () => {
     const z = S.quiz, q = z && z.qs[z.i];
     openReport(q ? `${q.subject} · ${q.topic}${q.file ? ' · ' + q.file : ''} · “${q.q.slice(0, 120)}”` : '');
   });
-  $('#res-again').addEventListener('click', () => {
-    if (!S.lastSel) return;
-    const keep = S.pick.count; S.pick.count = S.lastSel.count === undefined ? keep : S.lastSel.count;
-    startQuiz(S.lastSel); S.pick.count = keep;
-  });
+  $('#res-again').addEventListener('click', againQuiz);
+  $('#dn-close').addEventListener('click', closeDone);
+  $('#done-modal').addEventListener('click', e => { if (e.target.id === 'done-modal') closeDone(); });
+  $('#dn-again').addEventListener('click', () => { closeDone(); againQuiz(); });
+  $('#dn-pick').addEventListener('click', () => { closeDone(); showQuizPhase('pick'); renderPick(); try { window.scrollTo(0, 0); } catch {} });
+  $('#dn-lobby').addEventListener('click', () => { closeDone(); show('lobby'); });
   $('#res-pick').addEventListener('click', () => { showQuizPhase('pick'); renderPick(); });
 
   $('#btn-report').addEventListener('click', () => openReport(''));
@@ -3713,8 +3855,8 @@ function wire() {
 
   document.addEventListener('keydown', e => {
     if (S.introOpen) { if ((e.key === 'Enter' || e.key === ' ') && !(e.target && e.target.closest && e.target.closest('button'))) { e.preventDefault(); closeIntro(); } return; }
-    if (e.key === 'Escape') { if (!$('#report-modal').hidden) closeReport(); return; }
-    if (!$('#report-modal').hidden || !$('#loading').hidden) return;
+    if (e.key === 'Escape') { if (!$('#report-modal').hidden) closeReport(); else if (!$('#done-modal').hidden) closeDone(); return; }
+    if (!$('#report-modal').hidden || !$('#done-modal').hidden || !$('#loading').hidden) return;
     const tag = (e.target && e.target.tagName) || '';
     if (/INPUT|TEXTAREA|SELECT/.test(tag) || e.metaKey || e.ctrlKey || e.altKey) return;
     if (S.screen === 'quiz' && !$('#quiz-play').hidden && S.quiz) {
