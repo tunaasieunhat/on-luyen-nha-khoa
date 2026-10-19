@@ -3007,7 +3007,8 @@ if (hot && typeof hot.ready === 'function') hot.ready(boot); else boot((hot && h
       var close = '<button class="icon-btn sm pp-x" type="button" data-push="close" aria-label="Đóng">' + X + '</button>';
       if (on) pop.innerHTML = head + '<b>Đã bật thông báo cập nhật</b>' + close + '<small>Có bản mới là điện thoại báo ngay, kể cả khi đang tắt app.</small>' +
         '<div class="pp-act"><button class="btn-link" type="button" data-push="off">Tắt thông báo</button></div>';
-      else if (denied) pop.innerHTML = head + '<b>Thông báo đang bị chặn</b>' + close + '<small>Vào Cài đặt điện thoại → Ứng dụng → app này (hoặc Chrome) → Thông báo → bật lại, rồi mở lại app.</small>';
+      else if (denied) pop.innerHTML = head + '<b>Thông báo đang bị chặn</b>' + close + '<small>Bật lại ở Cài đặt điện thoại → Ứng dụng → Ôn Luyện NK → Thông báo. Mở bằng Chrome thì vào Chrome → Cài đặt → Cài đặt trang web → Thông báo. Bật xong bấm Kiểm tra lại.</small>' +
+        '<div class="pp-act"><button class="btn btn-sm btn-scrub" type="button" data-push="recheck">Kiểm tra lại</button></div>';
       else pop.innerHTML = head + '<b>Nhận thông báo khi có bản mới?</b>' + close + '<small>Có câu hỏi, bài học hay tính năng mới là điện thoại báo ngay.</small>' +
         '<div class="pp-act"><button class="btn btn-sm btn-gum" type="button" data-push="on">Bật thông báo</button><button class="btn-link" type="button" data-push="later">Để sau</button></div>';
     }
@@ -3017,6 +3018,7 @@ if (hot && typeof hot.ready === 'function') hot.ready(boot); else boot((hot && h
     pop.addEventListener('click', async function (e) {
       var b = e.target.closest('[data-push]'); if (!b || busy) return;
       var act = b.dataset.push;
+      if (act === 'recheck') { try { location.reload(); } catch (err) {} return; }
       if (act === 'close' || act === 'later') { if (!isOn()) set(LATER_KEY, String(Date.now())); close(); return; }
       busy = true; b.disabled = true;
       try {
