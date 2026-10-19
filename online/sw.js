@@ -1,6 +1,6 @@
 // Service worker nhỏ cho ứng dụng Ôn Luyện Nha Khoa - Online.
 // Lưu sẵn trang mở đầu + icon để app vẫn mở được khi mạng chập chờn.
-const CACHE = 'onluyen-online-gh-v1';
+const CACHE = 'onluyen-online-gh-v2';
 const FILES = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', (e) => {

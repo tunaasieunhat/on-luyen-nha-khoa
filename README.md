@@ -43,7 +43,10 @@ source/                  Mã nguồn hai bản đang chạy trên Claude (mỗi 
 ## Cài lên điện thoại
 
 - **Thêm vào màn hình chính:** mở link bản Offline bằng Chrome → menu ⋮ → **Thêm vào màn hình chính** (hoặc **Cài đặt ứng dụng**).
-- **Đóng gói APK:** vào https://www.pwabuilder.com, dán link bản Offline (hoặc link `online/`), chọn **Android** để tải APK.
+- **Đóng gói APK:** vào https://www.pwabuilder.com, dán link rồi chọn **Package For Stores → Android → Google Play**.
+  - Bản Offline: link gốc, Package ID `io.github.tunaasieunhat.onluyennhakhoa`, tên ngắn `Ôn Luyện NK`.
+  - Bản Online: link `online/`, Package ID `io.github.tunaasieunhat.onluyennhakhoa.online`, tên ngắn `NK Online`. Biểu tượng có huy hiệu AI màu xanh để dễ phân biệt.
+  - Cất kỹ `signing.keystore` và `signing-key-info.txt` trong gói tải về: sau này làm lại APK phải dùng đúng khoá này.
 
 ## Ghi chú
 
