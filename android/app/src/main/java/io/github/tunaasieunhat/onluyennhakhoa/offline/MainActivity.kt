@@ -38,7 +38,7 @@ import java.net.URL
 import kotlin.concurrent.thread
 
 /**
- * Ôn Luyện Nha Khoa (bản app Android, version 1.0).
+ * Ôn Luyện Nha Khoa (bản app Android).
  * Toàn bộ giao diện, câu hỏi, tóm tắt và PDF nằm sẵn trong app (thư mục assets/www),
  * được hiển thị bằng bộ hiển thị web có sẵn của Android nên không cần mở Chrome hay có mạng.
  */
@@ -235,34 +235,65 @@ class MainActivity : ComponentActivity() {
         lastCheck = now
         val current = BuildConfig.VERSION_CODE.toLong()
         thread(isDaemon = true) {
-            try {
-                val conn = URL(RELEASE_API).openConnection() as HttpURLConnection
-                conn.connectTimeout = 8000
-                conn.readTimeout = 8000
-                conn.setRequestProperty("Accept", "application/vnd.github+json")
-                conn.setRequestProperty("User-Agent", "OnLuyenNhaKhoaApp")
-                if (conn.responseCode != 200) return@thread
-                val json = JSONObject(conn.inputStream.bufferedReader().use { it.readText() })
-                val code = Regex("^apk-(\\d+)$").find(json.optString("tag_name"))
-                    ?.groupValues?.get(1)?.toLongOrNull() ?: return@thread
-                if (code <= current || code == shownUpdate) return@thread
-                var link = json.optString("html_url")
-                val assets = json.optJSONArray("assets")
-                if (assets != null) {
-                    for (i in 0 until assets.length()) {
-                        val a = assets.optJSONObject(i) ?: continue
-                        if (a.optString("name").endsWith(".apk")) {
-                            link = a.optString("browser_download_url", link)
-                            break
+            // 1) Cách nhẹ, không bị giới hạn lượt gọi: trang releases/latest chuyển hướng tới .../tag/apk-N
+            var code = try { latestByRedirect() } catch (e: Exception) { null }
+            var title = ""
+            var notes = ""
+            var link = APK_URL
+            // 2) Chỉ khi có bản mới hơn (hoặc cách 1 lỗi) mới hỏi API để lấy tên bản và ghi chú
+            if (code == null || code > current) {
+                try {
+                    val conn = URL(RELEASE_API).openConnection() as HttpURLConnection
+                    conn.connectTimeout = 8000
+                    conn.readTimeout = 8000
+                    conn.setRequestProperty("Accept", "application/vnd.github+json")
+                    conn.setRequestProperty("User-Agent", "OnLuyenNhaKhoaApp")
+                    if (conn.responseCode == 200) {
+                        val json = JSONObject(conn.inputStream.bufferedReader().use { it.readText() })
+                        val apiCode = Regex("^apk-(\\d+)$").find(json.optString("tag_name"))
+                            ?.groupValues?.get(1)?.toLongOrNull()
+                        if (apiCode != null && (code == null || apiCode >= code)) {
+                            code = apiCode
+                            title = json.optString("name")
+                            notes = json.optString("body").take(600)
+                            val assets = json.optJSONArray("assets")
+                            if (assets != null) {
+                                for (i in 0 until assets.length()) {
+                                    val a = assets.optJSONObject(i) ?: continue
+                                    if (a.optString("name").endsWith(".apk")) {
+                                        link = a.optString("browser_download_url", link)
+                                        break
+                                    }
+                                }
+                            }
                         }
                     }
+                    conn.disconnect()
+                } catch (e: Exception) {
+                    // API hết lượt hoặc không có mạng: vẫn dùng kết quả của cách 1
                 }
-                val title = json.optString("name").ifBlank { "Bản mới" }
-                val notes = json.optString("body").take(600)
-                runOnUiThread { shownUpdate = code; showUpdate(title, notes, link) }
-            } catch (e: Exception) {
-                // Không có mạng hoặc GitHub không trả lời: bỏ qua, lần sau kiểm tra lại
             }
+            val latest = code ?: return@thread
+            if (latest <= current || latest == shownUpdate) return@thread
+            val t = title.ifBlank { "Ôn Luyện Nha Khoa (bản $latest)" }
+            runOnUiThread { shownUpdate = latest; showUpdate(t, notes, link) }
+        }
+    }
+
+    /** Đọc số bản mới nhất từ chuyển hướng của github.com/.../releases/latest (không tốn lượt API). */
+    private fun latestByRedirect(): Long? {
+        val conn = URL(RELEASE_PAGE).openConnection() as HttpURLConnection
+        try {
+            conn.instanceFollowRedirects = false
+            conn.requestMethod = "HEAD"
+            conn.connectTimeout = 8000
+            conn.readTimeout = 8000
+            conn.setRequestProperty("User-Agent", "OnLuyenNhaKhoaApp")
+            if (conn.responseCode !in 300..399) return null
+            val loc = conn.getHeaderField("Location") ?: return null
+            return Regex("/tag/apk-(\\d+)").find(loc)?.groupValues?.get(1)?.toLongOrNull()
+        } finally {
+            conn.disconnect()
         }
     }
 
@@ -303,6 +334,8 @@ class MainActivity : ComponentActivity() {
         private const val HOST = "appassets.androidplatform.net"
         private const val START_URL = "https://$HOST/assets/www/index.html"
         private const val RELEASE_API = "https://api.github.com/repos/tunaasieunhat/on-luyen-nha-khoa/releases/latest"
+        private const val RELEASE_PAGE = "https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest"
+        private const val APK_URL = "https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk"
         private const val FOLDER = "On Luyen Nha Khoa"
         private val BRAND = Color.rgb(11, 84, 76)
         private val WALL = Color.rgb(238, 247, 243)
