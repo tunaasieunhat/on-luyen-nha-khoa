@@ -1,6 +1,6 @@
 # Ôn Luyện Nha Khoa
 
-Ứng dụng ôn thi Răng Hàm Mặt dạng trò chơi phòng khám: làm trắc nghiệm, đọc tóm tắt lý thuyết, ôn flashcard. **Version 1.2** là phiên bản mới nhất; các môn học sẽ được liên tục thêm vào.
+Ứng dụng ôn thi Răng Hàm Mặt dạng trò chơi phòng khám: làm trắc nghiệm, đọc tóm tắt lý thuyết, ôn flashcard. **Version 2.0** là phiên bản mới nhất; các môn học sẽ được liên tục thêm vào.
 
 | | Link |
 | --- | --- |
@@ -13,17 +13,20 @@ Phát hiện lỗi, sai đáp án hay câu hỏi có vấn đề: liên hệ tun
 
 ## Tính năng chung
 
-- **Câu hỏi hệ thống:** 2.750 câu của 5 môn, chia theo môn và theo bài.
-  - Vật liệu nha khoa: 11 bài, mỗi bài 100 câu.
-  - Anh văn chuyên ngành 2: 15 Unit, mỗi Unit 30 câu.
-  - Nhi khoa: 9 bài, mỗi bài 60 câu (30 câu lý thuyết, 30 câu tình huống lâm sàng).
-  - Mắt: 5 bài, mỗi bài 60 câu (30 câu lý thuyết, 30 câu tình huống lâm sàng).
-  - Tai - Mũi - Họng: 6 bài, mỗi bài 60 câu (30 câu lý thuyết, 30 câu tình huống lâm sàng).
+- **Câu hỏi hệ thống:** 3.950 câu của 5 môn, chia theo môn, theo bài và theo mức độ (Dễ, Vận dụng, Nâng cao).
+  - Vật liệu nha khoa: 11 bài, mỗi bài 100 câu Dễ.
+  - Anh văn chuyên ngành 2: 15 Unit, mỗi Unit 30 câu Dễ.
+  - Nhi khoa: 9 bài, mỗi bài 60 câu Dễ, 30 câu Vận dụng, 30 câu Nâng cao.
+  - Mắt: 5 bài, mỗi bài 60 câu Dễ, 30 câu Vận dụng, 30 câu Nâng cao.
+  - Tai - Mũi - Họng: 6 bài, mỗi bài 60 câu Dễ, 30 câu Vận dụng, 30 câu Nâng cao.
+  - Câu Vận dụng và Nâng cao cho Vật liệu nha khoa và Anh văn chuyên ngành 2 sẽ thêm ở bản sau.
+- **Chọn mức độ** khi làm Câu Hỏi: Tất cả, Dễ, Vận dụng hoặc Nâng cao.
+- **Phòng Thi:** thi thử có giờ theo từng môn, đề 60% Dễ, 30% Vận dụng, 10% Nâng cao; chọn 30/60/90 phút và 30/45/60/75/90/105/120 câu; chấm thang 10, xem lại câu sai, lưu lịch sử và làm tiếp bài đang dở. Hiện mở cho Nhi khoa, Mắt, Tai - Mũi - Họng.
 - **Hình minh hoạ** cho từng câu hỏi, vẽ sẵn trong file nên không cần mạng.
 - **Ôn tập lý thuyết:** 46 bài tóm tắt, bài nào cũng tải về được dạng PDF.
 - **Sơ đồ tư duy** cho cả 46 bài: xem dạng toả tròn hoặc dạng cây, che ý nhỏ để tự kiểm tra, tải về dạng ảnh PNG.
 - **Flashcard và tự soạn câu hỏi.**
-- **Màn mở đầu có nhạc nền** (nhạc do trình duyệt tự phát, không cần tải) và **nền phòng khám hoạt hình** có chuyển động.
+- **Giao diện mùa đông:** tuyết rơi, đèn nháy, **nhạc nền phong cách mùa đông** (do trình duyệt tự phát, không cần tải) và **nền phòng khám hoạt hình** có chuyển động.
 
 ## Cấu trúc thư mục
 
