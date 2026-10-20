@@ -46,6 +46,8 @@ class MainActivity : ComponentActivity() {
 
     private lateinit var web: WebView
     private var lastBack = 0L
+    private var lastCheck = 0L      // lần kiểm tra cập nhật gần nhất trong phiên này
+    private var shownUpdate = 0L    // bản đã báo trong phiên này (không báo lặp lại)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         enableEdgeToEdge(
@@ -84,7 +86,7 @@ class MainActivity : ComponentActivity() {
             override fun handleOnBackPressed() = onBack()
         })
 
-        web.postDelayed({ checkUpdate() }, 4000)
+        web.postDelayed({ checkUpdate() }, 2500)
     }
 
     @SuppressLint("SetJavaScriptEnabled")
@@ -226,11 +228,11 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    /** Có mạng thì xem trên GitHub có bản APK mới hơn không (tối đa 6 giờ một lần). */
+    /** Mỗi lần mở app (có mạng) thì xem trên GitHub có bản APK mới hơn không. */
     private fun checkUpdate() {
-        val prefs = getSharedPreferences("app", MODE_PRIVATE)
-        val now = System.currentTimeMillis()
-        if (now - prefs.getLong("lastCheck", 0L) < 6L * 60 * 60 * 1000) return
+        val now = SystemClock.elapsedRealtime()
+        if (lastCheck != 0L && now - lastCheck < 2 * 60 * 1000L) return  // vừa kiểm tra xong thì thôi
+        lastCheck = now
         val current = BuildConfig.VERSION_CODE.toLong()
         thread(isDaemon = true) {
             try {
@@ -241,10 +243,9 @@ class MainActivity : ComponentActivity() {
                 conn.setRequestProperty("User-Agent", "OnLuyenNhaKhoaApp")
                 if (conn.responseCode != 200) return@thread
                 val json = JSONObject(conn.inputStream.bufferedReader().use { it.readText() })
-                prefs.edit().putLong("lastCheck", now).apply()
                 val code = Regex("^apk-(\\d+)$").find(json.optString("tag_name"))
                     ?.groupValues?.get(1)?.toLongOrNull() ?: return@thread
-                if (code <= current) return@thread
+                if (code <= current || code == shownUpdate) return@thread
                 var link = json.optString("html_url")
                 val assets = json.optJSONArray("assets")
                 if (assets != null) {
@@ -258,7 +259,7 @@ class MainActivity : ComponentActivity() {
                 }
                 val title = json.optString("name").ifBlank { "Bản mới" }
                 val notes = json.optString("body").take(600)
-                runOnUiThread { showUpdate(title, notes, link) }
+                runOnUiThread { shownUpdate = code; showUpdate(title, notes, link) }
             } catch (e: Exception) {
                 // Không có mạng hoặc GitHub không trả lời: bỏ qua, lần sau kiểm tra lại
             }
@@ -288,6 +289,8 @@ class MainActivity : ComponentActivity() {
     override fun onResume() {
         super.onResume()
         web.onResume()
+        // Mở lại app từ nền sau một lúc cũng kiểm tra bản mới
+        if (lastCheck != 0L) checkUpdate()
     }
 
     override fun onDestroy() {
