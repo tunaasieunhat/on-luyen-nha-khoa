@@ -1,6 +1,6 @@
 # Ôn Luyện Nha Khoa
 
-Ứng dụng ôn thi Răng Hàm Mặt dạng trò chơi phòng khám: làm trắc nghiệm, đọc tóm tắt lý thuyết, ôn flashcard. **Version 1.0** là phiên bản chính thức; các môn học sẽ được liên tục thêm vào.
+Ứng dụng ôn thi Răng Hàm Mặt dạng trò chơi phòng khám: làm trắc nghiệm, đọc tóm tắt lý thuyết, ôn flashcard. **Version 1.1** là phiên bản mới nhất; các môn học sẽ được liên tục thêm vào.
 
 | | Link |
 | --- | --- |
@@ -13,13 +13,14 @@ Phát hiện lỗi, sai đáp án hay câu hỏi có vấn đề: liên hệ tun
 
 ## Tính năng chung
 
-- **Câu hỏi hệ thống:** 2.090 câu của 3 môn, chia theo môn và theo bài.
+- **Câu hỏi hệ thống:** 2.390 câu của 4 môn, chia theo môn và theo bài.
   - Vật liệu nha khoa: 11 bài, mỗi bài 100 câu.
   - Anh văn chuyên ngành 2: 15 Unit, mỗi Unit 30 câu.
   - Nhi khoa: 9 bài, mỗi bài 60 câu (30 câu lý thuyết, 30 câu tình huống lâm sàng).
+  - Mắt: 5 bài, mỗi bài 60 câu (30 câu lý thuyết, 30 câu tình huống lâm sàng).
 - **Hình minh hoạ** cho từng câu hỏi, vẽ sẵn trong file nên không cần mạng.
-- **Ôn tập lý thuyết:** 35 bài tóm tắt, bài nào cũng tải về được dạng PDF.
-- **Sơ đồ tư duy** cho cả 35 bài: xem dạng toả tròn hoặc dạng cây, che ý nhỏ để tự kiểm tra, tải về dạng ảnh PNG.
+- **Ôn tập lý thuyết:** 40 bài tóm tắt, bài nào cũng tải về được dạng PDF.
+- **Sơ đồ tư duy** cho cả 40 bài: xem dạng toả tròn hoặc dạng cây, che ý nhỏ để tự kiểm tra, tải về dạng ảnh PNG.
 - **Flashcard và tự soạn câu hỏi.**
 - **Màn mở đầu có nhạc nền** (nhạc do trình duyệt tự phát, không cần tải) và **nền phòng khám hoạt hình** có chuyển động.
 
@@ -28,7 +29,7 @@ Phát hiện lỗi, sai đáp án hay câu hỏi có vấn đề: liên hệ tun
 ```
 index.html, 404.html     Bản web (trang chính của GitHub Pages)
 manifest.json, sw.js     Cài như ứng dụng và lưu để dùng offline
-pdf/                     35 file PDF tóm tắt lý thuyết
+pdf/                     40 file PDF tóm tắt lý thuyết
 icon-*.png, og.png       Biểu tượng và ảnh chia sẻ
 online/                  Thông báo bản Online đã đóng cửa, kèm link tải app
 source/                  Mã nguồn hai bản đang chạy trên Claude (mỗi bản một file HTML)

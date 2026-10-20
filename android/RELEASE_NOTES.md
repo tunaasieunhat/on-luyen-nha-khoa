@@ -1,6 +1,7 @@
-Ôn Luyện Nha Khoa – Version 1.0 (bản 3).
+Ôn Luyện Nha Khoa – Version 1.1.
 
-- App kiểm tra bản mới ngay mỗi lần mở (khi có mạng), có cập nhật là báo liền.
-- Giữ nguyên các thay đổi của Version 1.0: tên Ôn Luyện Nha Khoa, sảnh gọn hơn, liên hệ lỗi qua tunaasieunhat@gmail.com.
+- Đã thêm môn Mắt: 5 bài (Đỏ mắt, Viêm kết mạc, Viêm loét giác mạc, Đục thủy tinh thể, Glaucoma).
+- Mỗi bài có tóm tắt, sơ đồ tư duy và 60 câu trắc nghiệm (30 lý thuyết, 30 tình huống lâm sàng).
+- Tổng cộng 4 môn, 2.390 câu, 40 bài tóm tắt.
 
 Cài: tải file OnLuyenNhaKhoa.apk bên dưới, mở file và bấm Cập nhật.
