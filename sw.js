@@ -1,5 +1,5 @@
 // Service worker của Ôn Luyện Nha Khoa - Offline: lưu ứng dụng để dùng được khi mất mạng.
-const CACHE = 'onluyen-offline-gh-v9';
+const CACHE = 'onluyen-offline-gh-v10';
 const FILES = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png'];
 const FONT_HOSTS = ['fonts.googleapis.com', 'fonts.gstatic.com'];
 
