@@ -1,9 +1,8 @@
-Ôn Luyện Nha Khoa – Version 2.3.
+Ôn Luyện Nha Khoa – Version 2.4.
 
-- Giáo trình trọn bộ cho môn Mắt và Nhi khoa: gộp tất cả các bài thành 1 quyển PDF (Mắt 33 trang, Nhi khoa 72 trang), tải về đọc liền một mạch.
-- Mỗi quyển có bìa riêng (tên app, tên môn, hình minh hoạ, dòng "Tài liệu mang tính tham khảo") và trang mục lục có số trang; bấm vào tên bài hoặc tên mục trong PDF là nhảy tới trang đó.
-- Trong app: thẻ "Giáo trình" ở đầu danh sách bài của Mắt và Nhi khoa, chạm vào bìa để xem lớn, có mục lục mở nhanh từng bài.
-- Vẫn xem từng bài như cũ: đọc tóm tắt, sơ đồ tư duy, tải PDF từng bài. Sửa PDF bài 5 môn Mắt (Glaucoma) bị thiếu hình.
-- Các môn khác sẽ có giáo trình trọn bộ ở bản sau.
+- Anh văn chuyên ngành 2 biên soạn lại: 15 Unit, 177 từ vựng, mỗi từ có phiên âm (với từ khó đọc), loại từ, định nghĩa Glossary, keyword làm trắc nghiệm, giải thích dễ hiểu, cấu tạo từ và câu ví dụ kèm bản dịch.
+- Mỗi Unit có bảng từ dễ nhầm, đoạn đọc hiểu tình huống (hội thoại ở quầy lễ tân, hóa đơn bảo hiểm…) và các lưu ý ngữ pháp như teeth/tooth, advice không đếm được, explain something to someone.
+- Giáo trình trọn bộ Anh văn chuyên ngành 2: bìa riêng, mục lục có số trang và cả 15 Unit trong 1 file PDF (71 trang).
+- Vẫn học từng Unit như cũ: đọc trong app, sơ đồ tư duy, tải PDF từng Unit. Ảnh bìa giáo trình Mắt, Nhi khoa trong app được cập nhật đúng bản cuối.
 
 Cài: tải file OnLuyenNhaKhoa.apk bên dưới, mở file và bấm Cập nhật.
