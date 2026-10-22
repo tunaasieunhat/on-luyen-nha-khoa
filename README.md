@@ -1,6 +1,6 @@
 # Ôn Luyện Nha Khoa
 
-Ứng dụng ôn thi Răng Hàm Mặt dạng trò chơi phòng khám: làm trắc nghiệm, đọc tóm tắt lý thuyết, ôn flashcard. **Version 2.4** là phiên bản mới nhất; các môn học sẽ được liên tục thêm vào.
+Ứng dụng ôn thi Răng Hàm Mặt dạng trò chơi phòng khám: làm trắc nghiệm, đọc tóm tắt lý thuyết, ôn flashcard. **Version 2.5** là phiên bản mới nhất; các môn học sẽ được liên tục thêm vào.
 
 | | Link |
 | --- | --- |
@@ -22,6 +22,7 @@ Phát hiện lỗi, sai đáp án hay câu hỏi có vấn đề: liên hệ tun
 - **Chọn mức độ** khi làm Câu Hỏi: Tất cả, Dễ, Vận dụng hoặc Nâng cao.
 - **Phòng Thi:** thi thử có giờ theo từng môn, đề 60% Dễ, 30% Vận dụng, 10% Nâng cao; chọn 30/60/90 phút và 30/45/60/75/90/105/120 câu; chấm thang 10, xem lại câu sai, lưu lịch sử và làm tiếp bài đang dở. Mở cho cả 5 môn.
 - **Hình minh hoạ** cho từng câu hỏi, vẽ sẵn trong file nên không cần mạng.
+- **Mô Phỏng Nha Khoa (beta, từ bản 2.5):** vào vai bác sĩ trong 6 ca bệnh dạng hội thoại: hỏi bệnh, khám, cận lâm sàng (có phim X-quang minh hoạ), chẩn đoán, điều trị, dặn dò. Mỗi lựa chọn đều có điểm và hậu quả; cuối ca có kết cục, số sao và phần xem lại từng bước.
 - **Ôn tập lý thuyết:** 46 bài, bài nào cũng tải về được dạng PDF. Môn Mắt (bản 2.1.1) được biên soạn lại theo lối giảng giải, kèm 30 hình minh hoạ từ bài giảng (nhãn tiếng Việt, chạm để phóng to); môn Nhi khoa (bản 2.1.2) cũng được biên soạn lại, có ví dụ tính toán và phần liên hệ Răng Hàm Mặt. Từ bản 2.3, Mắt và Nhi khoa có thêm **giáo trình trọn bộ**: 1 file PDF gồm bìa, mục lục có số trang (bấm để nhảy trang) và toàn bộ các bài. Bản 2.4 biên soạn lại 15 Unit Anh văn chuyên ngành 2 (phiên âm, cấu tạo từ, ví dụ, từ dễ nhầm, đọc hiểu tình huống) và thêm giáo trình trọn bộ cho môn này.
 - **Sơ đồ tư duy** cho cả 46 bài: xem dạng toả tròn hoặc dạng cây, che ý nhỏ để tự kiểm tra, tải về dạng ảnh PNG.
 - **Flashcard và tự soạn câu hỏi.**

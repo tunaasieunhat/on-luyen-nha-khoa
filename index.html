@@ -964,6 +964,192 @@ body.fo-open{overflow:hidden}
 .tb-toc button i{flex:none;font-style:normal;color:var(--muted);font-size:.8rem;white-space:nowrap}
 @media (max-width:560px){.th-book{grid-template-columns:92px minmax(0,1fr);grid-template-rows:auto;gap:12px 14px;padding:13px}.tb-fig{grid-row:1}.tb-info{align-self:center}.tb-info strong{font-size:1.25rem}.tb-info p{font-size:.84rem}.tb-eb{letter-spacing:.08em}.tb-act,.tb-toc{grid-column:1/-1;grid-row:auto}.tb-act .btn{flex:1;justify-content:center}}
 /* @@V23-CSS-END */
+/* @@V25-CSS */
+/* ---- Menu chính 2 mục (Version 2.5) ---- */
+.menu-btn.sim{background:#2F6FB5;border-color:#1F4E85;box-shadow:0 5px 0 #1F4E85;color:var(--paper)}
+.menu-btn.sim:hover{box-shadow:0 7px 0 #1F4E85}
+.menu-btn.sim:active{box-shadow:0 1px 0 #1F4E85}
+.menu-btn.sim .mi{background:var(--paper);color:#1F4E85}
+.menu-btn.sim span.d{color:#E1ECF9}
+.menu-btn.sim strong,.menu-btn.learn strong{font-size:1.75rem}
+.menu-btn.sim,.menu-btn.learn{padding:22px 20px}
+#menu-main{gap:18px}
+.menu-learn{display:flex;flex-direction:column;gap:12px;min-width:0;animation:ml-in .22s ease}
+.menu-learn[hidden],#menu-main[hidden]{display:none}
+#menu-main{animation:ml-in .22s ease}
+@keyframes ml-in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.ml-head{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+.ml-head h3{margin:0;font-family:var(--f-display);font-size:1.45rem;line-height:1.1}
+/* ---- Màn mô phỏng ---- */
+.sim-beta{align-self:center}
+.sim-list .page-head h2{color:#1F4E85}
+.sim-how{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.sim-how div{display:flex;gap:10px;align-items:center;padding:10px 12px;border-radius:var(--r-m);background:#E1ECF9;font-weight:600;font-size:.9rem;line-height:1.35;color:#1F4E85}
+.sim-how b{flex:none;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:#2F6FB5;color:#fff;font-family:var(--f-display);font-size:1rem}
+.sim-cases{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.sim-case{display:flex;flex-direction:column;gap:10px;padding:16px;border:2px solid var(--ink);border-radius:var(--r-l);background:var(--enamel);box-shadow:0 4px 0 var(--ink);min-width:0}
+.sc-top{display:flex;gap:12px;align-items:center;min-width:0}
+.sc-t{min-width:0}
+.sc-t h3{margin:2px 0 2px;font-family:var(--f-display);font-size:1.3rem;line-height:1.1}
+.sc-t p{margin:0;color:var(--muted);font-size:.86rem}
+.sc-lv{display:inline-block;font-family:var(--f-mono);font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:6px}
+.sc-lv.lv-easy{background:var(--ok-soft);color:var(--ok)}.sc-lv.lv-mid{background:var(--lamp-soft);color:var(--lamp-deep)}.sc-lv.lv-hard{background:var(--gum-soft);color:var(--gum-deep)}
+.sc-c{margin:0;font-style:italic;color:var(--ink);line-height:1.45}
+.sc-tags{display:flex;flex-wrap:wrap;gap:6px}
+.sc-tags span{font-size:.76rem;font-weight:700;padding:3px 8px;border-radius:99px;background:#E1ECF9;color:#1F4E85}
+.sc-foot{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:auto;flex-wrap:wrap}
+.sc-best{display:inline-flex;align-items:center;gap:5px;font-size:.84rem;font-weight:700;color:var(--lamp-deep)}
+.sc-best .i{width:16px;height:16px;fill:var(--lamp);stroke:var(--lamp-deep)}
+.sc-best.none{color:var(--muted);font-weight:600}
+.sim-note{margin-top:2px}
+.sm-av{flex:none;width:44px;height:44px;border-radius:50%;background:#E1ECF9;border:2px solid var(--ink);overflow:hidden;display:block}
+.sm-av svg{width:100%;height:100%;display:block}
+.sm-av.lg{width:58px;height:58px}.sm-av.xl{width:72px;height:72px}
+.sim-play{display:grid;grid-template-columns:290px minmax(0,1fr);gap:18px;align-items:start}
+.sim-play[hidden]{display:none}
+.sim-side{position:sticky;top:12px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.sim-pt{display:flex;gap:12px;align-items:flex-start;padding:14px;border:2px solid var(--ink);border-radius:var(--r-l);background:var(--enamel);box-shadow:0 4px 0 var(--ink)}
+.sp-t{min-width:0}
+.sp-t h3{margin:2px 0;font-family:var(--f-display);font-size:1.2rem;line-height:1.1}
+.sp-t p{margin:0;font-size:.84rem;color:var(--muted);line-height:1.4}
+.sp-t .sp-c{margin-top:6px;color:var(--ink)}
+#sim-meters{display:grid;gap:8px}
+.sim-m{position:relative;padding:9px 12px 12px;border-radius:14px;border:2px solid var(--line);background:var(--paper);display:flex;align-items:baseline;justify-content:space-between;gap:8px;overflow:hidden}
+.sim-m span{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;font-weight:700;color:var(--muted)}
+.sim-m span .i{width:17px;height:17px}
+.sim-m b{font-family:var(--f-display);font-size:1.25rem;line-height:1}
+.sim-m b small{font-size:.75rem;color:var(--muted);font-weight:600}
+.sim-m i{position:absolute;left:0;bottom:0;height:4px;width:var(--w);background:var(--scrub);transition:width .4s ease}
+.sim-m.sc .i{fill:var(--lamp);stroke:var(--lamp-deep)}
+.sim-m.md.hi i{background:var(--ok)}.sim-m.md.mid i{background:var(--lamp)}.sim-m.md.lo i{background:var(--gum)}
+.sim-steps{list-style:none;margin:0;padding:12px 14px;border-radius:var(--r-m);background:var(--paper);border:2px solid var(--line);display:flex;flex-direction:column;gap:6px;counter-reset:st}
+.sim-steps li{counter-increment:st;display:flex;align-items:center;gap:8px;font-size:.86rem;font-weight:600;color:var(--muted)}
+.sim-steps li::before{content:counter(st);flex:none;width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:.72rem;font-weight:800;background:var(--line);color:var(--muted)}
+.sim-steps li.done{color:var(--ink)}
+.sim-steps li.done::before{content:"✓";background:var(--ok);color:#fff}
+.sim-steps li.on{color:#1F4E85;font-weight:800}
+.sim-steps li.on::before{background:#2F6FB5;color:#fff}
+.sim-main{display:flex;flex-direction:column;gap:12px;min-width:0;padding:18px;border:2px solid var(--ink);border-radius:var(--r-l);background:var(--paper)}
+.sim-chat{display:flex;flex-direction:column;gap:12px;min-width:0}
+.sm-start{display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 0 4px;text-align:center}
+.sm-start b{font-family:var(--f-display);font-size:1.3rem;color:#1F4E85}
+.sm-start span{font-size:.8rem;color:var(--muted);font-weight:600}
+.sm-ph{display:flex;align-items:center;gap:10px;margin:6px 0 0;font-family:var(--f-mono);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#2F6FB5}
+.sm-ph::before,.sm-ph::after{content:"";flex:1;height:2px;background:#E1ECF9}
+.sm-row{display:flex;gap:10px;align-items:flex-end;max-width:min(560px,92%);animation:sm-in .25s ease both}
+.sm-row .sm-av{width:40px;height:40px}
+.sm-bub{padding:10px 14px;border-radius:16px 16px 16px 4px;border:2px solid var(--ink);background:var(--enamel);line-height:1.5;min-width:0;overflow-wrap:anywhere}
+.sm-bub small{display:flex;align-items:center;gap:5px;font-size:.72rem;font-weight:800;letter-spacing:.04em;color:var(--muted);margin-bottom:2px}
+.sm-bub small .i{width:14px;height:14px}
+.sm-row.rec .sm-bub{background:var(--lamp-soft)}
+.sm-row.fam .sm-bub{background:#F1ECFB}
+.sm-row.doc{align-self:flex-end;flex-direction:row-reverse}
+.sm-row.doc .sm-bub{border-radius:16px 16px 4px 16px;background:var(--scrub-soft);border-color:var(--scrub-deep)}
+.sm-row.doc.act .sm-bub{background:#E1ECF9;border-color:#1F4E85;border-style:dashed}
+.sm-nar{align-self:center;max-width:min(560px,96%);text-align:center;font-style:italic;color:var(--muted);font-size:.92rem;line-height:1.45;padding:6px 12px;animation:sm-in .25s ease both}
+.sm-card,.sm-xray{align-self:center;width:min(520px,100%);margin:0;border:2px solid var(--ink);border-radius:var(--r-m);background:var(--paper);overflow:hidden;animation:sm-in .25s ease both}
+.sm-card-h{display:flex;align-items:center;gap:8px;padding:8px 12px;background:#E1ECF9;border-bottom:2px solid var(--ink);font-size:.9rem;color:#1F4E85}
+.sm-card-h .i{width:18px;height:18px}
+.sm-card dl{margin:0;padding:6px 12px 10px}
+.sm-card dl div{display:grid;grid-template-columns:minmax(0,38%) minmax(0,1fr);gap:10px;padding:6px 0;border-bottom:1px dashed var(--line);font-size:.9rem;line-height:1.4}
+.sm-card dl div:last-child{border-bottom:0}
+.sm-card dt{font-weight:700;color:var(--muted)}.sm-card dd{margin:0;font-weight:600}
+.sm-xray{background:#0B1214}
+.sm-xray .sm-card-h{background:#1A2327;color:#E1ECF9;border-color:#2A3438}
+.sm-xray .xr-svg{display:block;width:100%;height:auto}
+.sm-xray figcaption{padding:9px 12px 11px;color:#DCE6E8;font-size:.88rem;line-height:1.45}
+.sm-typing{display:flex;gap:5px;padding:12px 14px;margin-left:50px;border-radius:14px;background:var(--wall);width:max-content}
+.sm-typing i{width:7px;height:7px;border-radius:50%;background:var(--muted);animation:sm-dot 1s infinite}
+.sm-typing i:nth-child(2){animation-delay:.15s}.sm-typing i:nth-child(3){animation-delay:.3s}
+@keyframes sm-dot{0%,80%,100%{opacity:.3;transform:none}40%{opacity:1;transform:translateY(-3px)}}
+@keyframes sm-in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.sm-fb{align-self:stretch;padding:10px 14px;border-radius:14px;border:2px solid;animation:sm-in .25s ease both}
+.sm-fb p{margin:4px 0 0;line-height:1.5;font-size:.92rem}
+.fb-h{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px}
+.fb-h b{font-family:var(--f-display);font-size:1.05rem}
+.fb-h span{font-family:var(--f-mono);font-size:12px;font-weight:700}
+.sm-fb.good{background:var(--ok-soft);border-color:var(--ok)}.sm-fb.good b{color:var(--ok)}
+.sm-fb.ok{background:var(--lamp-soft);border-color:#E0A100}.sm-fb.ok b{color:var(--lamp-deep)}
+.sm-fb.meh{background:var(--wall);border-color:var(--line)}.sm-fb.meh b{color:var(--muted)}
+.sm-fb.bad{background:var(--gum-soft);border-color:var(--gum)}.sm-fb.bad b{color:var(--gum-deep)}
+.sm-fb.crit{background:#FDE6E3;border-color:var(--bad);border-width:3px}.sm-fb.crit b{color:var(--bad)}
+.sim-act{display:flex;flex-direction:column;gap:10px;scroll-margin-bottom:16px}
+.sim-act:empty{display:none}
+.sim-q{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;padding-top:10px;border-top:2px dashed var(--line)}
+.sim-q b{font-family:var(--f-display);font-size:1.15rem;line-height:1.25}
+.sim-left{font-family:var(--f-mono);font-size:11px;font-weight:700;letter-spacing:.06em;background:#E1ECF9;color:#1F4E85;padding:3px 8px;border-radius:6px}
+.sim-opts{display:grid;gap:8px}
+.sim-opt{display:grid;grid-template-columns:30px minmax(0,1fr);gap:10px;align-items:center;text-align:left;padding:10px 14px;border-radius:14px;border:2px solid var(--line);background:var(--paper);font-weight:600;line-height:1.45;color:var(--ink);cursor:pointer;transition:border-color .1s,background .1s,transform .08s}
+.sim-opt:hover{border-color:#2F6FB5;background:#F1F6FD}
+.sim-opt:active{transform:translateY(1px)}
+.so-i{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;background:#E1ECF9;color:#1F4E85;font-family:var(--f-display);font-weight:800}
+.so-i .i{width:18px;height:18px}
+.sim-next{align-self:flex-end}
+.sim-end{display:flex;flex-direction:column;gap:16px}
+.sim-end[hidden]{display:none}
+.sim-res{border:2px solid var(--ink);border-radius:var(--r-l);box-shadow:0 6px 0 var(--ink);padding:20px;display:flex;flex-direction:column;gap:16px;background:var(--enamel)}
+.sim-res.good{background:linear-gradient(135deg,var(--ok-soft),var(--enamel) 70%)}
+.sim-res.ok{background:linear-gradient(135deg,var(--lamp-soft),var(--enamel) 70%)}
+.sim-res.bad{background:linear-gradient(135deg,var(--gum-soft),var(--enamel) 70%)}
+.sr-top{display:flex;gap:14px;align-items:flex-start}
+.sr-top h2{margin:2px 0 4px;font-family:var(--f-display);font-size:clamp(1.4rem,3.4vw,2rem);line-height:1.1}
+.sim-res.bad .sr-top h2{color:var(--gum-deep)}.sim-res.good .sr-top h2{color:var(--ok)}
+.sr-top p{margin:0;line-height:1.55}
+.sr-score{display:flex;flex-wrap:wrap;align-items:center;gap:12px 24px;padding-top:12px;border-top:2px dashed var(--line)}
+.sr-big b,.sr-mood b{display:block;font-family:var(--f-display);font-size:2.2rem;line-height:1}
+.sr-mood b{font-size:1.5rem}
+.sr-big span,.sr-mood span{font-size:.82rem;color:var(--muted);font-weight:600}
+.sr-stars{display:flex;gap:4px}
+.sr-stars .i{width:30px;height:30px;fill:var(--line);stroke:var(--muted)}
+.sr-stars .on .i{fill:var(--lamp);stroke:var(--lamp-deep)}
+.sim-sum h3,.sim-rev h3{margin:0;font-family:var(--f-display);font-size:1.3rem}
+.sim-sum h4{margin:4px 0 0;font-size:1rem}
+.sim-sum dl{margin:0;display:grid;gap:8px}
+.sim-sum dl div{display:grid;grid-template-columns:130px minmax(0,1fr);gap:10px}
+.sim-sum dt{font-weight:700;color:var(--muted)}.sim-sum dd{margin:0;line-height:1.5}
+.sim-sum ul{margin:0;padding-left:20px;line-height:1.55}
+.rv-step{border:2px solid var(--line);border-radius:14px;background:var(--paper)}
+.rv-step.miss{border-color:#F2C27A}
+.rv-step summary{display:flex;align-items:center;gap:10px;padding:10px 12px;cursor:pointer;list-style:none}
+.rv-step summary::-webkit-details-marker{display:none}
+.rv-step summary>span:nth-child(2){flex:1;min-width:0;display:flex;flex-direction:column;font-size:.88rem;color:var(--muted);line-height:1.35}
+.rv-step summary b{color:var(--ink);font-size:.95rem}
+.rv-n{flex:none;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:#E1ECF9;color:#1F4E85;font-weight:800;font-size:.8rem}
+.rv-st{flex:none;font-size:.74rem;font-weight:800;padding:3px 8px;border-radius:99px;background:var(--ok-soft);color:var(--ok)}
+.rv-step.miss .rv-st{background:var(--lamp-soft);color:var(--lamp-deep)}
+.rv-mine{list-style:none;margin:0;padding:0 12px 10px;display:grid;gap:6px}
+.rv-mine li{font-size:.9rem;line-height:1.45}
+.rv-g{display:inline-block;margin-right:8px;font-size:.72rem;font-weight:800;padding:2px 7px;border-radius:6px;background:var(--wall)}
+.rv-mine li.good .rv-g{background:var(--ok-soft);color:var(--ok)}.rv-mine li.ok .rv-g{background:var(--lamp-soft);color:var(--lamp-deep)}
+.rv-mine li.bad .rv-g{background:var(--gum-soft);color:var(--gum-deep)}.rv-mine li.crit .rv-g{background:var(--bad);color:#fff}
+.rv-best{margin:0 12px 12px;padding:10px 12px;border-radius:12px;background:var(--ok-soft)}
+.rv-best ul{margin:6px 0 0;padding-left:18px;display:grid;gap:6px}
+.rv-best li{font-size:.9rem;line-height:1.45}
+.rv-best small{display:block;color:var(--muted);margin-top:2px}
+.sim-rev{gap:10px}
+.sim-end-act{display:flex;flex-wrap:wrap;gap:10px}
+@media (max-width:860px){
+  .sim-play{grid-template-columns:minmax(0,1fr)}
+  .sim-side{position:static}
+  .sim-pt{padding:12px}
+  .sim-pt .sm-av.xl{width:56px;height:56px}
+  #sim-meters{grid-template-columns:1fr 1fr}
+  .sim-m{flex-direction:column;align-items:flex-start;gap:2px}
+  .sim-steps{flex-direction:row;overflow-x:auto;gap:10px;padding:10px 12px;scrollbar-width:none}
+  .sim-steps li{flex:none;white-space:nowrap;font-size:.8rem}
+  .sim-main{padding:14px}
+  .sim-how{grid-template-columns:1fr}
+}
+@media (max-width:520px){
+  .menu-btn.sim strong,.menu-btn.learn strong{font-size:1.45rem}
+  .menu-btn.sim,.menu-btn.learn{padding:18px 16px}
+  .sm-row{max-width:100%}
+  .sm-row .sm-av{width:34px;height:34px}
+  .sim-sum dl div{grid-template-columns:1fr;gap:2px}
+  .sr-top .sm-av.xl{width:56px;height:56px}
+  .sim-case{padding:14px}
+}
+/* @@V25-CSS-END */
 </style>
 </head>
 <body>
@@ -976,8 +1162,8 @@ body.fo-open{overflow:hidden}
         <div class="brand-row"><span class="logo-slot"></span><span class="eyebrow">Phòng khám luyện thi Răng Hàm Mặt</span></div>
         <h1 id="start-title">Ôn Luyện <span>Nha Khoa</span></h1>
         <div class="beta-note" role="note">
-          <span class="beta-tag">Version 2.4</span>
-          <span class="beta-txt">Bản cập nhật 2.4: Anh văn chuyên ngành 2 biên soạn lại, có giáo trình trọn bộ.</span>
+          <span class="beta-tag">Version 2.5</span>
+          <span class="beta-txt">Bản cập nhật 2.5: Mô Phỏng Nha Khoa (beta) và menu chính gọn hơn.</span>
         </div>
       </div>
       <div class="start-cast">
@@ -1021,33 +1207,78 @@ body.fo-open{overflow:hidden}
         <div class="bubble" id="lobby-bubble"></div>
       </div>
       <div class="lobby-side">
-        <nav class="menu" aria-label="Chức năng chính">
-          <button class="menu-btn primary" id="go-quiz" type="button">
-            <span class="mi"><svg class="i" viewBox="0 0 24 24"><path d="M8 5l11 7-11 7V5z"/></svg></span>
-            <strong>Bắt đầu</strong><span class="d">Chọn môn, mức độ rồi làm bài ngay.</span>
-          </button>
-          <button class="menu-btn exam" id="go-exam" type="button">
-            <span class="mi"><svg class="i" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V3h6v1M8.5 10h7M8.5 14h7M8.5 18h4"/></svg></span>
-            <strong>Phòng Thi<span class="new">MỚI</span></strong><span class="d">Thi thử có giờ, chấm thang 10.</span>
-          </button>
-          <button class="menu-btn theory" id="go-theory" type="button">
+        <nav class="menu" id="menu-main" aria-label="Chức năng chính">
+          <button class="menu-btn primary learn" id="go-learn" type="button">
             <span class="mi"><svg class="i" viewBox="0 0 24 24"><path d="M3 5h6a3 3 0 0 1 3 3v12a2.5 2.5 0 0 0-2.5-2.5H3z"/><path d="M21 5h-6a3 3 0 0 0-3 3v12a2.5 2.5 0 0 1 2.5-2.5H21z"/></svg></span>
-            <strong>Ôn tập lý thuyết</strong><span class="d">Đọc bài, xem sơ đồ, tải PDF.</span>
+            <strong>Ôn Luyện Kiến Thức</strong><span class="d">Làm bài, Phòng Thi, lý thuyết, thêm câu hỏi, flashcard.</span>
           </button>
-          <button class="menu-btn" id="go-addq" type="button">
-            <span class="mi"><svg class="i" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M12 8v8M8 12h8"/></svg></span>
-            <strong>Thêm câu hỏi</strong><span class="d">Tự soạn câu hỏi theo môn.</span>
-          </button>
-          <button class="menu-btn" id="go-flash" type="button">
-            <span class="mi"><svg class="i" viewBox="0 0 24 24"><rect x="3" y="7" width="13" height="14" rx="2"/><path d="M8 3h11a2 2 0 0 1 2 2v12"/></svg></span>
-            <strong>Flashcard</strong><span class="d">Lật thẻ ôn nhanh, tự tạo thẻ.</span>
+          <button class="menu-btn sim" id="go-sim" type="button">
+            <span class="mi"><svg class="i" viewBox="0 0 24 24"><path d="M6 3v6a5 5 0 0 0 10 0V3"/><path d="M11 14v2a5 5 0 0 0 10 0v-2"/><circle cx="21" cy="12" r="2"/></svg></span>
+            <strong>Mô Phỏng Nha Khoa<span class="new">BETA</span></strong><span class="d">Vào vai bác sĩ: hỏi bệnh, khám, chẩn đoán, điều trị.</span>
           </button>
         </nav>
+        <div class="menu-learn" id="menu-learn" hidden>
+          <div class="ml-head"><button class="btn btn-sm" id="learn-back" type="button"><svg class="i" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>Menu chính</button><h3>Ôn Luyện Kiến Thức</h3></div>
+          <nav class="menu" aria-label="Ôn luyện kiến thức">
+            <button class="menu-btn primary" id="go-quiz" type="button">
+              <span class="mi"><svg class="i" viewBox="0 0 24 24"><path d="M8 5l11 7-11 7V5z"/></svg></span>
+              <strong>Bắt đầu</strong><span class="d">Chọn môn, mức độ rồi làm bài ngay.</span>
+            </button>
+            <button class="menu-btn exam" id="go-exam" type="button">
+              <span class="mi"><svg class="i" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V3h6v1M8.5 10h7M8.5 14h7M8.5 18h4"/></svg></span>
+              <strong>Phòng Thi<span class="new">MỚI</span></strong><span class="d">Thi thử có giờ, chấm thang 10.</span>
+            </button>
+            <button class="menu-btn theory" id="go-theory" type="button">
+              <span class="mi"><svg class="i" viewBox="0 0 24 24"><path d="M3 5h6a3 3 0 0 1 3 3v12a2.5 2.5 0 0 0-2.5-2.5H3z"/><path d="M21 5h-6a3 3 0 0 0-3 3v12a2.5 2.5 0 0 1 2.5-2.5H21z"/></svg></span>
+              <strong>Ôn tập lý thuyết</strong><span class="d">Đọc bài, xem sơ đồ, tải PDF.</span>
+            </button>
+            <button class="menu-btn" id="go-addq" type="button">
+              <span class="mi"><svg class="i" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M12 8v8M8 12h8"/></svg></span>
+              <strong>Thêm câu hỏi</strong><span class="d">Tự soạn câu hỏi theo môn.</span>
+            </button>
+            <button class="menu-btn" id="go-flash" type="button">
+              <span class="mi"><svg class="i" viewBox="0 0 24 24"><rect x="3" y="7" width="13" height="14" rx="2"/><path d="M8 3h11a2 2 0 0 1 2 2v12"/></svg></span>
+              <strong>Flashcard</strong><span class="d">Lật thẻ ôn nhanh, tự tạo thẻ.</span>
+            </button>
+        </nav>
+        </div>
         <div class="stats" id="lobby-stats"></div>
       </div>
     </div>
   </section>
 
+<!-- @@V25-SIM -->
+  <!-- ============ MÔ PHỎNG NHA KHOA (Version 2.5) ============ -->
+  <section id="scr-sim" class="screen" hidden aria-label="Mô phỏng nha khoa">
+    <header class="topbar">
+      <button class="btn btn-sm" data-back type="button"><svg class="i" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>Sảnh</button>
+      <h1 class="screen-title">Mô Phỏng Nha Khoa</h1><span class="beta-tag sim-beta">Beta</span>
+      <span class="spacer"></span>
+      <button class="icon-btn music-btn" type="button" aria-pressed="true" aria-label="Nhạc nền đang bật"></button>
+      <button class="icon-btn sound-btn" type="button" aria-pressed="true" aria-label="Âm thanh đang bật"></button>
+      <div class="pc-slot"></div>
+    </header>
+    <div class="panel sim-list" id="sim-list">
+      <div class="page-head"><span class="eyebrow">Mô phỏng phòng khám · Beta</span><h2>Hôm nay bạn là bác sĩ</h2><p>Nhận một ca bệnh, trò chuyện với bệnh nhân, khám, chọn cận lâm sàng, chẩn đoán và đưa ra hướng điều trị. Mỗi lựa chọn đều có kết quả tốt hoặc không tốt.</p></div>
+      <div class="sim-how"><div><b>1</b>Hỏi bệnh như ngoài đời: chọn câu hỏi trong số lượt có hạn</div><div><b>2</b>Khám, chụp phim, chẩn đoán, điều trị từng bước</div><div><b>3</b>Nhận điểm, kết cục của bệnh nhân và lời giải thích</div></div>
+      <div class="sim-cases" id="sim-cases"></div>
+      <p class="fine sim-note">Ca bệnh là tình huống giả định để luyện tư duy lâm sàng. Thuốc và phác đồ chỉ mang tính tham khảo; khi thực hành luôn theo hướng dẫn của giảng viên và phác đồ hiện hành.</p>
+    </div>
+    <div class="sim-play" id="sim-play" hidden>
+      <aside class="sim-side">
+        <button class="btn btn-sm" id="sim-exit" type="button"><svg class="i" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>Danh sách ca</button>
+        <div class="sim-pt" id="sim-pt"></div>
+        <div id="sim-meters"></div>
+        <ol class="sim-steps" id="sim-steps" aria-label="Các bước khám"></ol>
+      </aside>
+      <div class="sim-main">
+        <div class="sim-chat" id="sim-chat" aria-live="polite"></div>
+        <div class="sim-act" id="sim-act"></div>
+      </div>
+    </div>
+    <div class="sim-end" id="sim-end" hidden></div>
+  </section>
+<!-- @@V25-SIM-END -->
   <!-- ============ QUIZ ============ -->
   <section id="scr-quiz" class="screen" hidden aria-label="Làm bài">
     <header class="topbar">
@@ -1416,7 +1647,7 @@ body.fo-open{overflow:hidden}
     <p class="intro-sub">Ôn thi mọi lúc, kể cả khi mất mạng.</p>
     <div class="intro-eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
     <button class="btn btn-gum intro-go" id="intro-go" type="button">Nhấn để bắt đầu<svg class="i" viewBox="0 0 24 24"><path d="M8 5l11 7-11 7V5z"/></svg></button>
-    <div class="intro-row"><button class="intro-music" id="intro-music" type="button" aria-pressed="true"></button><span class="intro-ver">Version 2.4</span></div>
+    <div class="intro-row"><button class="intro-music" id="intro-music" type="button" aria-pressed="true"></button><span class="intro-ver">Version 2.5</span></div>
     <p class="intro-tap" id="intro-tap" aria-live="polite"></p>
   </div>
 </div>
@@ -1424,14 +1655,14 @@ body.fo-open{overflow:hidden}
 <!-- ============ THÔNG BÁO NỔI (Version 1.0) ============ -->
 <div class="modal" id="v1-modal" hidden role="dialog" aria-modal="true" aria-labelledby="v1-title">
   <div class="modal-card v1-card">
-    <div class="modal-head"><span class="beta-tag">Version 2.4</span><h2 id="v1-title">Bản cập nhật 2.4</h2><button class="icon-btn sm" type="button" id="v1-close" aria-label="Đóng"><svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
-    <p class="v1-txt">Bản cập nhật 2.4 đã mở mang đến những sự thay đổi mới. Cùng khám phá nhé</p>
+    <div class="modal-head"><span class="beta-tag">Version 2.5</span><h2 id="v1-title">Bản cập nhật 2.5</h2><button class="icon-btn sm" type="button" id="v1-close" aria-label="Đóng"><svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <p class="v1-txt">Bản cập nhật 2.5 đã mở mang đến những sự thay đổi mới. Cùng khám phá nhé</p>
     <ul class="v1-new">
-      <li><b>Anh văn chuyên ngành 2 biên soạn lại</b>: 15 Unit giải thích dễ hiểu, có phiên âm, cấu tạo từ, câu ví dụ kèm bản dịch, bảng từ dễ nhầm và đoạn đọc hiểu tình huống.</li>
-      <li><b>Giáo trình trọn bộ Anh văn chuyên ngành 2</b>: bìa riêng, mục lục có số trang và cả 15 Unit trong 1 file PDF.</li>
-      <li><b>Vẫn học từng Unit như cũ</b>: đọc trong app, xem sơ đồ, tải PDF từng Unit. Định nghĩa Glossary và keyword làm trắc nghiệm vẫn giữ nguyên.</li>
+      <li><b>Mô Phỏng Nha Khoa (beta)</b>: vào vai bác sĩ, trò chuyện với bệnh nhân, hỏi bệnh, khám, chụp phim, chẩn đoán và điều trị. 6 ca bệnh, mỗi lựa chọn đều có hậu quả.</li>
+      <li><b>Chấm điểm và kết cục</b>: điểm chuyên môn, mức hài lòng của bệnh nhân, kết cục của ca bệnh và phần xem lại từng bước kèm giải thích.</li>
+      <li><b>Menu chính gọn hơn</b>: chỉ còn 2 mục. Các chức năng cũ (Bắt đầu, Phòng Thi, lý thuyết, thêm câu hỏi, flashcard) nằm trong <b>Ôn Luyện Kiến Thức</b>.</li>
     </ul>
-    <a class="btn btn-gum btn-lg v1-dl" id="v1-dl" href="https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk" target="_blank" rel="noopener"><svg class="i" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Tải app version 2.4 (Android)</a>
+    <a class="btn btn-gum btn-lg v1-dl" id="v1-dl" href="https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk" target="_blank" rel="noopener"><svg class="i" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Tải app version 2.5 (Android)</a>
     <p class="v1-url">https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk</p>
     <button class="btn" type="button" id="v1-ok">Khám phá ngay</button>
   </div>
@@ -2731,9 +2962,9 @@ function paintArt(q) {
 let v1Shown = false;
 function openV1Notice() {
   // Bản web: hiện mỗi lần mở (kèm nút tải app). App Android: chỉ hiện một lần cho mỗi phiên bản, không có nút tải.
-  if (v1Shown || (window.AndroidApp && store.get('seenNotice', '') === '2.4')) return;
+  if (v1Shown || (window.AndroidApp && store.get('seenNotice', '') === '2.5')) return;
   const m = $('#v1-modal'); if (!m) return;
-  if (window.AndroidApp) { $('#v1-dl').hidden = true; const u = $('.v1-url'); if (u) u.hidden = true; store.set('seenNotice', '2.4'); }
+  if (window.AndroidApp) { $('#v1-dl').hidden = true; const u = $('.v1-url'); if (u) u.hidden = true; store.set('seenNotice', '2.5'); }
   v1Shown = true; m.hidden = false;
   setTimeout(() => { try { $('#v1-ok').focus(); } catch {} }, 60);
 }
@@ -2969,7 +3200,7 @@ function initCaps() {
 }
 
 /* ================= NAVIGATION ================= */
-const SCREENS = ['start', 'lobby', 'quiz', 'addq', 'flash', 'theory', 'exam'];
+const SCREENS = ['start', 'lobby', 'quiz', 'addq', 'flash', 'theory', 'exam', 'sim'];
 function show(name) {
   if (name !== 'start' && !S.player) name = 'start';
   if (S.screen === 'quiz' && name !== 'quiz') stopTimer();
@@ -2983,7 +3214,9 @@ function show(name) {
   $('#report-bar').hidden = name === 'start';
   renderPlayerChips();
   try { window.scrollTo(0, 0); } catch {}
-  if (name === 'lobby') renderLobby();
+  if (name === 'lobby') { renderLobby(); setLobbyView(S.lobbyView); }
+  if (name === 'sim') renderSim();
+  if (name !== 'sim') document.body.classList.remove('sim-playing');
   if (name === 'quiz') { showQuizPhase('pick'); setPickMode(S.pick.mode); renderPick(); }
   if (name === 'addq') { renderSubjectList(); renderQFilter(); renderQList(); }
   if (name === 'flash') { renderSubjectList(); renderDeckFilter(); renderDeck(false); }
@@ -3038,10 +3271,11 @@ function renderLobby() {
   const bub = $('#lobby-bubble');
   if (!bub.dataset.set || (bub.dataset.empty === '1' && nQ > 0)) {
     let line;
-    if (!nQ) { line = `Chào <b>${esc(S.player.name)}</b>! Phòng khám chưa có câu hỏi nào. Vào “Thêm câu hỏi”, đặt tên môn học và chủ đề để soạn câu đầu tiên nhé!`; bub.dataset.empty = '1'; }
+    if (!nQ) { line = `Chào <b>${esc(S.player.name)}</b>! Phòng khám chưa có câu hỏi nào. Vào “Ôn Luyện Kiến Thức” → “Thêm câu hỏi”, đặt tên môn học và chủ đề để soạn câu đầu tiên nhé!`; bub.dataset.empty = '1'; }
     else {
       const lines = [
-        `Chào <b>${esc(S.player.name)}</b>! Mình là BS. Tunaa. Phòng khám đang có ${nQ} câu hỏi trong ${nS} môn học. Bấm “Bắt đầu” để lên ghế nhé!`,
+        `Chào <b>${esc(S.player.name)}</b>! Mình là BS. Tunaa. Phòng khám đang có ${nQ} câu hỏi trong ${nS} môn học. Vào “Ôn Luyện Kiến Thức” để lên ghế nhé!`,
+        `Hôm nay thử làm bác sĩ không, <b>${esc(S.player.name)}</b>? Vào “Mô Phỏng Nha Khoa” nhận một ca bệnh nhé!`,
         `Bé Sún đang chờ khám đấy, <b>${esc(S.player.name)}</b>. Trả lời đúng để giữ răng cho bé nhé!`,
         `Đội ${esc(S.player.school)} cố lên! Ôn ${nC} thẻ ghi nhớ trước khi vào ghế cũng là một ý hay.`
       ];
@@ -3185,6 +3419,1124 @@ function thBook(sub) {
   el.hidden = false;
 }
 /* @@V23-JS-END */
+/* @@V25-JS */
+const SIM_CASES = [];
+SIM_CASES.push({
+  id: "pulpitis", title: "Đau nhức răng về đêm", tags: ["Nội nha", "Cấp cứu đau"], level: "Cơ bản",
+  pt: { name: "Trần Minh Quân", call: "anh Quân", age: 28, sex: "Nam", job: "Nhân viên văn phòng", av: { kind: "man", coat: "#9ED8F5", hair: "#2A2F3A" } },
+  complaint: "Đau nhức răng hàm dưới bên trái, đau nhiều về đêm",
+  intro: [
+    { w: "rec", t: "Bác sĩ ơi, có anh Quân 28 tuổi đến khám. Anh ấy đau răng hàm dưới bên trái, kể là đêm qua không ngủ được." },
+    { w: "nar", t: "Anh Quân bước vào, tay ôm má trái, mắt thâm quầng." },
+    { w: "pt", t: "Chào bác sĩ. Răng hàm dưới bên trái em đau quá, đêm qua đau nhức lan lên tận tai. Em uống thuốc giảm đau mà chỉ đỡ được một lúc." }
+  ],
+  steps: [
+    {
+      ph: "Tiếp nhận", q: "Bạn mở đầu buổi khám thế nào?", type: "one",
+      choices: [
+        { t: "Chào anh, mời anh ngồi. Anh kể giúp tôi răng đau từ khi nào và đau như thế nào nhé?", s: 10, p: 10,
+          r: ["Dạ, khoảng một tuần nay em thấy buốt khi uống nước đá, buốt lâu lắm mới hết. Hai hôm nay thì tự nhiên đau, nhất là tối nằm xuống, đau giật từng cơn lan lên tai."],
+          fb: "Câu hỏi mở giúp bệnh nhân tự kể bệnh sử. Chỉ một câu mà bạn đã có 3 dấu hiệu quan trọng: buốt kéo dài, đau tự nhiên, đau về đêm và lan lên tai." },
+        { t: "Anh há miệng ra tôi xem luôn cho nhanh.", s: 2, p: -10,
+          r: [{ w: "nar", t: "Anh Quân lúng túng há miệng." }, "Dạ... nhưng em đau từ tuần trước rồi bác sĩ ạ. Lúc đầu chỉ buốt khi uống đá, hai hôm nay thì tự đau, nhất là ban đêm."],
+          fb: "Khám ngay mà chưa hỏi bệnh dễ bỏ sót thông tin, và bệnh nhân thấy mình không được lắng nghe. Hỏi bệnh sử trước bao giờ cũng là bước đầu tiên." },
+        { t: "Đau thế này thì nhổ đi cho xong anh ạ.", s: -10, p: -20,
+          r: [{ w: "nar", t: "Anh Quân giật mình, nhìn bạn đầy lo lắng." }, "Nhổ luôn ạ? Em còn chưa kể gì mà... Em bị buốt khi uống đá cả tuần nay, hai hôm nay đau cả đêm."],
+          fb: "Kết luận điều trị trước khi hỏi bệnh và khám là sai nguyên tắc. Răng này hoàn toàn có thể giữ lại được." }
+      ]
+    },
+    {
+      ph: "Hỏi bệnh", q: "Bạn có thời gian hỏi thêm 3 câu. Chọn câu hỏi:", type: "multi", k: 3,
+      choices: [
+        { t: "Uống lạnh hay nóng thì đau thế nào? Bỏ nước ra rồi thì cơn đau kéo dài bao lâu?", s: 4, p: 2,
+          r: ["Nước đá thì buốt rất lâu, hơn một phút mới dịu. Giờ uống nước nóng cũng đau."],
+          fb: "Rất tốt. Đau kéo dài sau khi bỏ kích thích là dấu hiệu then chốt của viêm tủy không hồi phục. Viêm tủy có hồi phục thì hết đau ngay khi bỏ kích thích." },
+        { t: "Có lúc nào đang ngồi yên mà răng tự đau không? Đau có lan đi đâu không?", s: 4, p: 2,
+          r: ["Có ạ. Đang ngồi làm việc cũng đau, tối nằm xuống đau nhói, lan lên tai và thái dương bên trái."],
+          fb: "Đau tự nhiên, đau về đêm, đau lan là các dấu hiệu tủy đã viêm không hồi phục." },
+        { t: "Anh có bệnh gì toàn thân không? Có dị ứng thuốc nào không, đang uống thuốc gì?", s: 4, p: 2,
+          r: ["Em khỏe, không có bệnh gì. Em không dị ứng thuốc. Hai hôm nay em uống paracetamol 500 mg, mỗi lần một viên."],
+          fb: "Tiền sử bệnh và dị ứng thuốc là câu bắt buộc trước mọi can thiệp và trước khi kê đơn." },
+        { t: "Cắn vào răng đó có đau không? Có thấy răng như cao lên không?", s: 2, p: 1,
+          r: ["Cắn thì không đau ạ, chỉ đau khi ăn đồ lạnh, đồ ngọt."],
+          fb: "Câu hỏi có ích: đau khi cắn gợi ý viêm đã lan xuống vùng quanh chóp. Ở anh Quân chưa có dấu hiệu này." },
+        { t: "Anh làm nghề gì, lương tháng được bao nhiêu?", s: -3, p: -6,
+          r: ["Em làm văn phòng... Sao bác sĩ lại hỏi lương ạ?"],
+          fb: "Hỏi thu nhập không giúp gì cho chẩn đoán và dễ làm bệnh nhân khó chịu. Nếu cần tư vấn chi phí, hãy hỏi khi bàn kế hoạch điều trị." },
+        { t: "Nhà anh có ai bị ung thư không?", s: 0, p: -2,
+          r: ["Dạ không ạ. Răng em đau là bị ung thư hả bác sĩ?"],
+          fb: "Câu hỏi không liên quan đến triệu chứng hiện tại, lại làm bệnh nhân lo lắng thêm." }
+      ]
+    },
+    {
+      ph: "Khám", act: true, q: "Chọn 3 việc khám lâm sàng:", type: "multi", k: 3,
+      choices: [
+        { t: "Khám trong miệng răng 36 bằng gương và thám trâm", s: 4, p: 0,
+          r: [{ w: "card", h: "Khám trong miệng", rows: [["Răng 36", "Lỗ sâu lớn mặt nhai – xa, đáy sâu, nhiều ngà mềm, chưa thấy lộ tủy"], ["Nướu quanh 36", "Hồng, không sưng, không có lỗ dò"], ["Các răng khác", "Không thấy lỗ sâu lớn"]] }],
+          fb: "Bắt buộc: tìm nguyên nhân gây đau. Lỗ sâu sâu sát tủy giải thích được triệu chứng." },
+        { t: "Gõ dọc và gõ ngang răng 36, so với răng bên cạnh", s: 4, p: 0,
+          r: [{ w: "card", h: "Gõ răng", rows: [["Răng 36", "Gõ dọc và gõ ngang không đau"], ["Răng 35, 37", "Không đau"]] }],
+          fb: "Gõ không đau cho biết vùng quanh chóp còn bình thường. Thông tin này giúp chẩn đoán phần quanh chóp." },
+        { t: "Khám ngoài miệng: mặt có sưng không, sờ hạch dưới hàm", s: 3, p: 0,
+          r: [{ w: "card", h: "Khám ngoài miệng", rows: [["Mặt", "Cân đối, không sưng"], ["Hạch dưới hàm", "Không sờ thấy"], ["Há miệng", "Bình thường"]] }],
+          fb: "Khám ngoài miệng giúp loại trừ nhiễm trùng lan rộng. Kết quả bình thường." },
+        { t: "Đo độ lung lay răng 36", s: 1, p: 0,
+          r: [{ w: "card", h: "Độ lung lay", rows: [["Răng 36", "Không lung lay"]] }],
+          fb: "Có ích nhưng ít giá trị trong ca này." },
+        { t: "Khám tai mũi họng vì bệnh nhân kêu đau lan lên tai", s: 0, p: -2,
+          r: [{ w: "card", h: "Khám tai", rows: [["Ống tai, màng nhĩ", "Bình thường"]] }],
+          fb: "Đau răng hàm dưới thường lan lên tai (đau quy chiếu). Khi đã có nguyên nhân rõ ở răng thì chưa cần khám tai." }
+      ]
+    },
+    {
+      ph: "Cận lâm sàng", act: true, q: "Chọn 2 thăm dò cận lâm sàng:", type: "multi", k: 2,
+      choices: [
+        { t: "Thử lạnh răng 36 và răng 37 để so sánh", s: 5, p: 0,
+          r: [{ w: "nar", t: "Bạn đặt viên bông lạnh lên răng 36. Anh Quân nhăn mặt, nắm chặt tay ghế." }, "Á... buốt quá bác sĩ ơi!", { w: "card", h: "Thử lạnh", rows: [["Răng 36", "Đau dữ dội ngay, còn đau khoảng 40 giây sau khi bỏ lạnh"], ["Răng 37 (đối chứng)", "Ê nhẹ, hết ngay khi bỏ lạnh"]] }],
+          fb: "Thử nghiệm quan trọng nhất ca này: đau kéo dài sau khi bỏ kích thích lạnh xác nhận tủy viêm không hồi phục, và tủy vẫn còn sống." },
+        { t: "Chụp phim X-quang cận chóp răng 36", s: 5, p: 0,
+          r: [{ w: "xray", x: "pulp", h: "Phim cận chóp răng 36", t: "Lỗ sâu mặt xa rất sát buồng tủy. Khoảng dây chằng quanh chóp đều, không thấy vùng thấu quang ở chóp." }],
+          fb: "Phim cho thấy độ sâu của lỗ sâu và tình trạng vùng chóp. Không có thấu quang chóp nên chưa có tổn thương quanh chóp." },
+        { t: "Chụp CT Cone Beam (CBCT) cả hàm", s: -3, p: -5,
+          r: [{ w: "nar", t: "Kết quả CBCT không cho thêm thông tin gì so với phim cận chóp." }, "Chụp cái này tốn kém quá bác sĩ ạ..."],
+          fb: "CBCT không phải thăm dò đầu tay cho đau răng thông thường: liều tia cao hơn, chi phí cao hơn mà không đổi được chẩn đoán." },
+        { t: "Thử điện tủy (EPT) răng 36", s: 2, p: 0,
+          r: [{ w: "card", h: "Thử điện tủy", rows: [["Răng 36", "Có đáp ứng"], ["Răng 37", "Có đáp ứng"]] }],
+          fb: "Cho biết tủy còn sống, nhưng thử điện không phân biệt được viêm tủy có hồi phục hay không hồi phục. Thử lạnh có giá trị hơn ở ca này." },
+        { t: "Xét nghiệm công thức máu, đường huyết", s: 0, p: -3,
+          r: [{ w: "card", h: "Xét nghiệm máu", rows: [["Công thức máu", "Trong giới hạn bình thường"], ["Đường huyết", "5,2 mmol/L"]] }],
+          fb: "Không cần thiết ở người trẻ khỏe mạnh, không sốt, không có dấu hiệu nhiễm trùng toàn thân." }
+      ]
+    },
+    {
+      ph: "Chẩn đoán", q: "Chẩn đoán của bạn là gì?", type: "one",
+      choices: [
+        { t: "Viêm tủy không hồi phục có triệu chứng răng 36, vùng quanh chóp bình thường", s: 15, p: 0,
+          fb: "Chính xác. Đủ bộ dấu hiệu: buốt kéo dài sau kích thích lạnh, đau tự nhiên, đau về đêm, lan lên tai; tủy còn đáp ứng; gõ không đau; phim không có thấu quang chóp." },
+        { t: "Viêm tủy có hồi phục răng 36", s: -5, p: 0,
+          fb: "Chưa đúng. Viêm tủy có hồi phục chỉ buốt khi có kích thích và hết ngay khi bỏ kích thích, không đau tự nhiên, không đau về đêm." },
+        { t: "Tủy hoại tử, áp xe quanh chóp răng 36", s: -5, p: 0,
+          fb: "Chưa đúng. Tủy hoại tử thì không còn đáp ứng với lạnh; áp xe thường có đau khi cắn, sưng, và thấu quang ở chóp trên phim." },
+        { t: "Đau dây thần kinh sinh ba", s: -8, p: 0,
+          fb: "Chưa đúng. Đau dây V thường như điện giật vài giây, có điểm kích phát trên mặt, và không giải thích được bằng một răng sâu sát tủy." }
+      ]
+    },
+    {
+      ph: "Điều trị", q: "Bạn chọn hướng điều trị nào?", type: "one",
+      choices: [
+        { t: "Gây tê, mở tủy và lấy tủy cấp cứu ngay hôm nay; sau đó hoàn tất điều trị tủy răng 36 và phục hồi bằng onlay hoặc mão răng", s: 15, p: 10,
+          r: [{ w: "nar", t: "Sau khi gây tê và mở tủy, cơn đau của anh Quân dịu hẳn." }, "Ôi, hết nhói rồi bác sĩ ạ. Cả tuần nay em mới thấy nhẹ người như vậy."],
+          fb: "Đúng. Lấy bỏ tủy viêm là cách cắt cơn đau triệt để. Răng sau điều trị tủy nên được phục hồi bằng onlay hoặc mão để tránh vỡ răng. Một số ca chọn lọc còn có thể lấy tủy buồng toàn phần (pulpotomy) để bảo tồn tủy chân." },
+        { t: "Kê amoxicillin 7 ngày kèm giảm đau, hẹn tuần sau hết đau thì trám", s: -10, p: -5, crit: true,
+          end: { h: "Anh Quân quay lại sau 3 ngày", t: "Uống kháng sinh 3 ngày mà vẫn đau dữ dội, anh Quân mất ngủ thêm 3 đêm và quay lại phòng khám rất bực bội. Kháng sinh không giải quyết được viêm tủy không hồi phục vì không lấy được tủy viêm ra; dùng kháng sinh khi không có chỉ định còn góp phần gây kháng thuốc." },
+          fb: "Sai. Kháng sinh không có tác dụng giảm đau trong viêm tủy không hồi phục. Nguyên nhân là tủy viêm trong buồng tủy kín, cần được lấy bỏ." },
+        { t: "Nạo sạch ngà mềm rồi trám kín bằng composite luôn trong buổi này", s: -10, p: -5, crit: true,
+          end: { h: "Đêm đó anh Quân đau dữ dội hơn", t: "Trám kín lên một tủy đang viêm không hồi phục khiến áp lực trong buồng tủy tăng. Đêm đó anh Quân đau dữ dội hơn, vài tuần sau tủy hoại tử và răng sưng mủ. Cuối cùng vẫn phải tháo miếng trám để điều trị tủy." },
+          fb: "Sai. Trám kín chỉ phù hợp với viêm tủy có hồi phục. Tủy đã viêm không hồi phục thì miếng trám không cứu được, còn làm cơn đau nặng hơn." },
+        { t: "Nhổ răng 36", s: 0, p: -10,
+          r: ["Nhổ đi thì em mất một cái răng hàm lớn à bác sĩ? Không giữ được hả?"],
+          fb: "Chưa tối ưu. Nhổ cũng hết đau, nhưng răng 36 còn phục hồi được. Mất răng hàm lớn thứ nhất gây xô lệch răng, giảm sức nhai. Chỉ nhổ khi răng không phục hồi được hoặc bệnh nhân đã hiểu rõ và từ chối điều trị tủy." }
+      ]
+    },
+    {
+      ph: "Giải thích và dặn dò", q: "Trước khi kết thúc buổi hẹn, bạn nói gì với anh Quân?", type: "one",
+      choices: [
+        { t: "Giải thích chẩn đoán, các bước điều trị tủy, số lần hẹn và chi phí; dặn uống ibuprofen 400 mg mỗi 6–8 giờ khi đau (có thể phối hợp paracetamol), tránh nhai bên trái, quay lại ngay nếu sưng hoặc sốt", s: 10, p: 12,
+          r: ["Em hiểu rồi. Cảm ơn bác sĩ đã giải thích kỹ, em yên tâm hơn nhiều."],
+          fb: "Tốt. Bệnh nhân hiểu bệnh, biết kế hoạch và đồng ý điều trị. Phối hợp NSAID với paracetamol là lựa chọn giảm đau răng hiệu quả khi không có chống chỉ định." },
+        { t: "“Cứ để tôi lo, anh không cần biết nhiều đâu.”", s: -5, p: -15,
+          r: ["Dạ... nhưng em muốn biết răng em bị làm sao, mấy lần thì xong..."],
+          fb: "Bệnh nhân có quyền được biết chẩn đoán, các lựa chọn điều trị và chi phí trước khi đồng ý. Giải thích rõ còn giúp họ quay lại đủ các buổi hẹn." },
+        { t: "Dặn mua thêm kháng sinh uống cho chắc, hết đau thì không cần quay lại", s: -8, p: -5,
+          r: ["Hết đau là khỏi rồi hả bác sĩ?"],
+          fb: "Sai. Ống tủy mới làm sạch một phần, nếu bỏ dở sẽ nhiễm trùng trở lại. Kháng sinh cũng không cần thiết." }
+      ]
+    }
+  ],
+  end: {
+    good: { h: "Anh Quân hết đau và rất hài lòng", t: "Ngay đêm đó anh Quân ngủ ngon. Hai tuần sau răng 36 được trám bít ống tủy, sau đó làm onlay sứ. Anh còn giới thiệu đồng nghiệp đến phòng khám." },
+    ok: { h: "Anh Quân đỡ đau nhưng chưa thật yên tâm", t: "Cơn đau được giải quyết, nhưng vài bước của bạn chưa tối ưu nên anh Quân còn nhiều thắc mắc. Xem lại phần nhận xét để biết cách làm tốt hơn." }
+  },
+  sum: { dx: "Viêm tủy không hồi phục có triệu chứng răng 36, vùng quanh chóp bình thường", tx: "Lấy tủy cấp cứu, hoàn tất điều trị tủy, phục hồi bằng onlay hoặc mão; giảm đau bằng NSAID ± paracetamol; không cần kháng sinh",
+    key: ["Buốt kéo dài sau khi bỏ kích thích lạnh + đau tự nhiên, đau về đêm = viêm tủy không hồi phục", "Thử lạnh và phim cận chóp là hai thăm dò quan trọng nhất", "Kháng sinh không giảm đau viêm tủy"] }
+});
+SIM_CASES.push({
+  id: "abscess", title: "Sưng má, sốt", tags: ["Nhiễm trùng", "Kê đơn an toàn"], level: "Trung bình",
+  pt: { name: "Lê Thu Hà", call: "chị Hà", age: 35, sex: "Nữ", job: "Giáo viên", av: { kind: "woman", coat: "#F7B6C2", hair: "#3B2418", swell: true } },
+  complaint: "Sưng má phải 3 ngày, đau khi cắn, sốt",
+  intro: [
+    { w: "rec", t: "Bác sĩ ơi, chị Hà 35 tuổi bị sưng má bên phải, nói tối qua sốt. Chị ấy đang chờ ở ghế." },
+    { w: "nar", t: "Má phải của chị Hà sưng rõ, chị nói hơi khó vì đau." },
+    { w: "pt", t: "Bác sĩ ơi, má em sưng ba ngày nay rồi, đau lắm, cắn vào răng hàm bên phải là đau điếng. Tối qua em còn sốt." }
+  ],
+  steps: [
+    {
+      ph: "Tiếp nhận", q: "Việc đầu tiên bạn làm là gì?", type: "one",
+      choices: [
+        { t: "Chị có thấy khó thở, khó nuốt, nuốt nước bọt đau không? Chị há miệng thử cho tôi xem được bao nhiêu?", s: 10, p: 6,
+          r: ["Em thở bình thường, nuốt vẫn được. Há to thì hơi đau thôi ạ.", { w: "nar", t: "Chị Hà há miệng được khoảng 3 khoát ngón tay." }],
+          fb: "Rất tốt. Với bệnh nhân sưng mặt có sốt, phải loại trừ ngay dấu hiệu nguy hiểm: khó thở, khó nuốt, khít hàm nặng, sưng sàn miệng, sưng lan xuống cổ. Có các dấu hiệu này thì chuyển cấp cứu ngay." },
+        { t: "Mời chị đi chụp phim toàn cảnh trước rồi tôi khám sau", s: 0, p: -5,
+          r: ["Em phải đi chụp luôn ạ? Em đau quá, bác sĩ xem giúp em trước được không?"],
+          fb: "Chưa tối ưu. Chưa hỏi, chưa khám đã chỉ định phim, lại chưa đánh giá dấu hiệu nguy hiểm, là thứ quan trọng nhất ở bệnh nhân sưng mặt có sốt." },
+        { t: "Kê ngay kháng sinh và thuốc giảm đau, hẹn chị tuần sau quay lại", s: -10, p: -5,
+          r: ["Em chưa được khám gì mà đã có đơn rồi ạ?"],
+          fb: "Sai. Kê đơn khi chưa hỏi tiền sử dị ứng, chưa khám, chưa tìm và xử lý ổ mủ là rất nguy hiểm." }
+      ]
+    },
+    {
+      ph: "Hỏi bệnh", q: "Bạn hỏi thêm 3 câu:", type: "multi", k: 3,
+      choices: [
+        { t: "Chị có dị ứng thuốc nào không? Đang uống thuốc gì không?", s: 5, p: 2, flag: "askedAllergy",
+          r: ["Có ạ! Em dị ứng penicillin. Năm ngoái uống amoxicillin xong em nổi mề đay khắp người, phải đi cấp cứu."],
+          fb: "Câu hỏi cứu cả ca bệnh. Chị Hà dị ứng penicillin, nên không được kê amoxicillin hay các thuốc cùng nhóm." },
+        { t: "Răng hàm bên phải trước đây đã từng đau chưa?", s: 4, p: 1,
+          r: ["Mấy tháng trước răng đó đau dữ dội mấy đêm liền, em uống thuốc rồi tự hết đau, nên em không đi khám."],
+          fb: "Rất có giá trị. Răng từng đau dữ dội rồi tự hết là gợi ý tủy đã hoại tử, nay nhiễm trùng lan ra vùng chóp." },
+        { t: "Chị có bệnh tiểu đường, bệnh tim hay bệnh gì làm giảm miễn dịch không?", s: 4, p: 1,
+          r: ["Em không có bệnh gì cả ạ."],
+          fb: "Cần thiết. Đái tháo đường, suy giảm miễn dịch làm nhiễm trùng lan nhanh và cần xử trí tích cực hơn." },
+        { t: "Sưng có to nhanh lên không? Có lan xuống cổ, xuống dưới cằm không?", s: 3, p: 1,
+          r: ["Hôm qua sưng to hơn hôm kia, nhưng chỉ ở má thôi, không xuống cổ ạ."],
+          fb: "Tốt. Theo dõi tốc độ và hướng lan của sưng giúp phát hiện sớm nhiễm trùng lan tỏa." },
+        { t: "Chị có hay ăn đồ ngọt không?", s: 0, p: 0,
+          r: ["Em cũng thích đồ ngọt... nhưng liên quan gì đến sưng má ạ?"],
+          fb: "Không giúp gì cho việc xử trí lúc này. Tư vấn ăn uống để vào buổi sau." },
+        { t: "Chị đã có gia đình chưa?", s: -3, p: -6,
+          r: ["...Em không hiểu sao bác sĩ hỏi vậy."],
+          fb: "Câu hỏi riêng tư, không liên quan. Chỉ hỏi khả năng có thai khi việc đó ảnh hưởng đến chụp phim hay chọn thuốc, và cần hỏi tế nhị." }
+      ]
+    },
+    {
+      ph: "Khám", act: true, q: "Chọn 3 việc khám:", type: "multi", k: 3,
+      choices: [
+        { t: "Đo nhiệt độ, mạch, huyết áp", s: 4, p: 0,
+          r: [{ w: "card", h: "Dấu hiệu sinh tồn", rows: [["Nhiệt độ", "38,3 °C"], ["Mạch", "96 lần/phút"], ["Huyết áp", "120/75 mmHg"]] }],
+          fb: "Quan trọng: sốt 38,3 °C, mạch nhanh nhẹ là biểu hiện nhiễm trùng có ảnh hưởng toàn thân. Đây là căn cứ để dùng kháng sinh phối hợp." },
+        { t: "Khám ngoài miệng: vùng sưng, hạch, sàn miệng, cổ", s: 4, p: 0,
+          r: [{ w: "card", h: "Khám ngoài miệng", rows: [["Vùng sưng", "Má phải, nóng đỏ, ranh giới rõ, không lan xuống dưới hàm"], ["Hạch", "Hạch dưới hàm phải sưng, đau"], ["Sàn miệng, cổ", "Mềm, không sưng"]] }],
+          fb: "Cần thiết. Sàn miệng và cổ bình thường giúp loại trừ viêm mô tế bào lan tỏa nguy hiểm." },
+        { t: "Khám trong miệng vùng răng hàm dưới phải", s: 4, p: 0,
+          r: [{ w: "card", h: "Khám trong miệng", rows: [["Răng 46", "Đổi màu xám, lỗ sâu lớn mặt nhai, gõ dọc đau nhiều"], ["Ngách tiền đình ngoài 46", "Sưng phồng, ấn thấy lùng nhùng (có mủ)"], ["Răng 45, 47", "Bình thường"]] }],
+          fb: "Tìm được răng nguyên nhân và một ổ mủ khu trú ở ngách tiền đình, có thể rạch dẫn lưu." },
+        { t: "Đo độ há miệng bằng thước", s: 2, p: 0,
+          r: [{ w: "card", h: "Há miệng", rows: [["Khoảng cách hai răng cửa", "35 mm"]] }],
+          fb: "Có ích: há miệng 35 mm, không có khít hàm nặng." },
+        { t: "Khám tuyến giáp", s: 0, p: -2,
+          r: [{ w: "card", h: "Tuyến giáp", rows: [["Tuyến giáp", "Không to"]] }],
+          fb: "Không liên quan đến tình trạng hiện tại." }
+      ]
+    },
+    {
+      ph: "Cận lâm sàng", act: true, q: "Chọn 2 thăm dò:", type: "multi", k: 2,
+      choices: [
+        { t: "Chụp phim X-quang cận chóp răng 46", s: 5, p: 0,
+          r: [{ w: "xray", x: "abscess", h: "Phim cận chóp răng 46", t: "Lỗ sâu lớn thông vào buồng tủy. Vùng thấu quang ranh giới không rõ quanh chóp chân gần răng 46." }],
+          fb: "Phim xác nhận tổn thương quanh chóp và giúp lập kế hoạch điều trị tủy hoặc nhổ răng." },
+        { t: "Thử lạnh răng 46 so với răng 45", s: 4, p: 0,
+          r: [{ w: "card", h: "Thử lạnh", rows: [["Răng 46", "Không đáp ứng"], ["Răng 45 (đối chứng)", "Đáp ứng bình thường"]] }],
+          fb: "Không đáp ứng với lạnh giúp xác định tủy răng 46 đã hoại tử." },
+        { t: "Chụp CT Cone Beam (CBCT)", s: -2, p: -4,
+          r: [{ w: "nar", t: "CBCT cho thấy đúng những gì phim cận chóp đã thấy." }],
+          fb: "Không cần thiết ở giai đoạn này. Nếu nghi nhiễm trùng lan vào các khoang sâu ở cổ thì bệnh nhân cần chuyển viện để chụp CT có cản quang." },
+        { t: "Cấy mủ làm kháng sinh đồ", s: 0, p: -2,
+          r: [{ w: "nar", t: "Kết quả cấy phải 2–3 ngày sau mới có." }],
+          fb: "Không làm thường quy với áp xe răng khu trú; chỉ cân nhắc khi nhiễm trùng nặng hoặc không đáp ứng điều trị." }
+      ]
+    },
+    {
+      ph: "Chẩn đoán", q: "Chẩn đoán của bạn?", type: "one",
+      choices: [
+        { t: "Áp xe quanh chóp cấp răng 46 do tủy hoại tử, có biểu hiện toàn thân (sốt), chưa có dấu hiệu lan tỏa nguy hiểm", s: 15, p: 0,
+          fb: "Chính xác: tủy không đáp ứng, gõ đau, ổ mủ ngách tiền đình, thấu quang chóp, kèm sốt và hạch." },
+        { t: "Viêm tủy không hồi phục răng 46", s: -5, p: 0,
+          fb: "Chưa đúng. Tủy răng 46 không còn đáp ứng với lạnh nên đã hoại tử; bệnh đã lan ra quanh chóp và tạo mủ." },
+        { t: "Viêm mô tế bào lan tỏa sàn miệng (Ludwig), chuyển viện cấp cứu", s: -4, p: -4,
+          fb: "Chưa đúng. Sàn miệng mềm, không khó thở, không khó nuốt, sưng khu trú ở má. Nếu có các dấu hiệu đó thì đúng là phải chuyển cấp cứu." },
+        { t: "Viêm tuyến mang tai", s: -5, p: 0,
+          fb: "Chưa đúng. Có răng nguyên nhân rõ ràng và ổ mủ ở ngách tiền đình cạnh răng 46." }
+      ]
+    },
+    {
+      ph: "Điều trị", q: "Bạn xử trí thế nào hôm nay?", type: "one",
+      choices: [
+        { t: "Rạch dẫn lưu mủ ở ngách tiền đình và mở tủy làm sạch răng 46; kê kháng sinh không thuộc nhóm penicillin (ví dụ azithromycin hoặc clindamycin) và thuốc giảm đau; hẹn tái khám sau 24–72 giờ", s: 15, p: 12,
+          r: [{ w: "nar", t: "Mủ thoát ra sau đường rạch. Chị Hà thở phào." }, "Đỡ căng hẳn rồi bác sĩ ạ."],
+          fb: "Đúng. Cốt lõi là loại bỏ ổ nhiễm trùng (dẫn lưu, làm sạch ống tủy). Kháng sinh chỉ là hỗ trợ và được chỉ định vì có sốt; chọn thuốc ngoài nhóm penicillin vì chị Hà dị ứng." },
+        { t: "Rạch dẫn lưu, kê amoxicillin 500 mg ngày 3 lần và thuốc giảm đau", s: -10, p: -10, crit: true,
+          end: { h: "Chị Hà phải đi cấp cứu vì dị ứng thuốc", t: "Tối hôm đó, sau liều amoxicillin đầu tiên, chị Hà nổi mề đay khắp người, môi sưng và phải vào cấp cứu. Rất may chưa đến mức sốc phản vệ. Chị Hà dị ứng penicillin; vì vậy câu hỏi về dị ứng thuốc luôn phải được hỏi trước khi kê đơn." },
+          fb: "Sai nghiêm trọng. Chị Hà dị ứng penicillin; amoxicillin thuộc nhóm penicillin. Luôn hỏi và kiểm tra tiền sử dị ứng trước khi kê bất kỳ thuốc nào." },
+        { t: "Chỉ kê kháng sinh, đợi hết sưng rồi mới xử lý răng", s: -8, p: -5, crit: true,
+          end: { h: "Nhiễm trùng lan rộng", t: "Kháng sinh không vào được ổ mủ kín. 4 ngày sau chị Hà sưng lan xuống dưới hàm, sốt 39 °C và phải nhập viện để rạch dẫn lưu." },
+          fb: "Sai. Kháng sinh không thay được việc dẫn lưu mủ và loại bỏ nguyên nhân. Ổ mủ không được dẫn lưu có thể lan sang các khoang ở cổ." },
+        { t: "Nhổ răng 46 ngay để dẫn lưu, kèm kháng sinh không thuộc nhóm penicillin và giảm đau", s: 6, p: -2,
+          r: ["Nhổ luôn ạ? Răng này không giữ được hả bác sĩ?"],
+          fb: "Chấp nhận được nếu răng không còn khả năng phục hồi: nhổ răng cũng là cách loại bỏ ổ nhiễm. Nhưng răng 46 còn có thể điều trị tủy, nên cần bàn với bệnh nhân trước khi chọn nhổ." }
+      ]
+    },
+    {
+      ph: "Dặn dò", q: "Bạn dặn chị Hà điều gì?", type: "one",
+      choices: [
+        { t: "Súc miệng nước muối ấm, uống thuốc đủ liều, uống nhiều nước; đến bệnh viện ngay nếu sưng lan xuống cổ, khó nuốt, khó thở hoặc sốt cao; tái khám đúng hẹn để điều trị tủy", s: 10, p: 8,
+          r: ["Dạ, em nhớ rồi. Có gì bất thường em đi khám ngay."],
+          fb: "Tốt. Bệnh nhân biết các dấu hiệu cần đi cấp cứu và hiểu răng vẫn phải điều trị tiếp." },
+        { t: "Về nhà chườm nóng lên má cho nhanh tan sưng", s: -5, p: 0,
+          r: ["Chườm nóng ạ? Vâng..."],
+          fb: "Không nên. Chườm nóng ngoài da có thể kéo ổ mủ vỡ ra ngoài da tạo lỗ dò. Nếu muốn giảm đau, chườm lạnh ngoài má từng đợt ngắn." },
+        { t: "Hết sưng là khỏi rồi, không cần quay lại", s: -8, p: -2,
+          r: ["Vậy thì tốt quá!"],
+          fb: "Sai. Nguyên nhân là tủy hoại tử chưa được điều trị dứt điểm; áp xe sẽ tái phát." }
+      ]
+    }
+  ],
+  end: {
+    good: { h: "Chị Hà hết sốt sau 48 giờ", t: "Hai ngày sau chị Hà hết sốt, má xẹp rõ. Răng 46 được điều trị tủy hoàn tất sau hai lần hẹn rồi làm mão sứ. Chị cảm ơn bạn vì đã hỏi kỹ tiền sử dị ứng." },
+    ok: { h: "Chị Hà đỡ sưng", t: "Nhiễm trùng được kiểm soát, nhưng vài bước của bạn chưa tối ưu. Xem lại phần nhận xét để biết cách làm tốt hơn." }
+  },
+  sum: { dx: "Áp xe quanh chóp cấp răng 46 do tủy hoại tử, có sốt, chưa có dấu hiệu lan tỏa nguy hiểm; dị ứng penicillin", tx: "Rạch dẫn lưu + mở tủy làm sạch (hoặc nhổ nếu không giữ được răng); kháng sinh ngoài nhóm penicillin vì có sốt; giảm đau; tái khám 24–72 giờ",
+    key: ["Bệnh nhân sưng mặt: kiểm tra dấu hiệu nguy hiểm trước tiên", "Kháng sinh chỉ hỗ trợ, không thay được dẫn lưu", "Luôn hỏi dị ứng thuốc trước khi kê đơn"] }
+});
+SIM_CASES.push({
+  id: "perio", title: "Chảy máu chân răng", tags: ["Nha chu", "Bệnh toàn thân"], level: "Trung bình",
+  pt: { name: "Nguyễn Văn Hùng", call: "chú Hùng", age: 52, sex: "Nam", job: "Tài xế", av: { kind: "man", coat: "#FFD66B", hair: "#5A5A5A", mustache: true } },
+  complaint: "Chảy máu khi chải răng, hôi miệng, răng hơi lung lay",
+  intro: [
+    { w: "rec", t: "Có chú Hùng 52 tuổi, tài xế, đến khám vì chảy máu chân răng. Chú có vẻ hơi ngại." },
+    { w: "pt", t: "Bác sĩ ạ, mấy tháng nay chải răng là chảy máu, vợ chú còn chê miệng hôi. Mấy cái răng hàm dưới hình như hơi lung lay." }
+  ],
+  steps: [
+    {
+      ph: "Tiếp nhận", q: "Bạn phản hồi thế nào?", type: "one",
+      choices: [
+        { t: "Cảm ơn chú đã đi khám sớm. Chú kể thêm giúp cháu: chảy máu từ bao giờ, lúc chải răng hay cả lúc không làm gì?", s: 10, p: 10,
+          r: ["Chảy máu chắc cũng nửa năm rồi, chủ yếu lúc chải răng, có hôm ăn táo cũng thấy máu. Không đau nên chú cứ để."],
+          fb: "Tốt. Bệnh nhân đang ngại; lời ghi nhận và câu hỏi mở giúp chú cởi mở hơn." },
+        { t: "Chảy máu chân răng là do chú lười đánh răng thôi.", s: -6, p: -18,
+          r: [{ w: "nar", t: "Chú Hùng đỏ mặt, im lặng một lúc." }, "Chú vẫn đánh răng mà... Chảy máu nửa năm nay rồi."],
+          fb: "Phán xét làm bệnh nhân xấu hổ và giấu thông tin. Bệnh nha chu có nhiều yếu tố nguy cơ, không chỉ do vệ sinh." },
+        { t: "Để cháu lấy cao răng luôn cho chú, 15 phút là xong.", s: 0, p: -3,
+          r: ["Lấy cao răng là hết chảy máu hả cháu? Chảy cũng nửa năm rồi đấy."],
+          fb: "Chưa tối ưu. Chưa khám nha chu đầy đủ thì chưa biết là viêm lợi hay viêm nha chu, mà hai bệnh điều trị khác nhau." }
+      ]
+    },
+    {
+      ph: "Hỏi bệnh", q: "Hỏi thêm 3 câu:", type: "multi", k: 3,
+      choices: [
+        { t: "Chú có hút thuốc lá không? Mỗi ngày bao nhiêu điếu?", s: 4, p: 1,
+          r: ["Có, chú hút gần 20 năm nay, mỗi ngày khoảng một bao."],
+          fb: "Rất quan trọng. Hút thuốc ≥ 10 điếu/ngày là yếu tố làm bệnh nha chu tiến triển nhanh, và còn che lấp dấu hiệu chảy máu." },
+        { t: "Chú có bệnh tiểu đường, huyết áp hay bệnh gì đang điều trị không?", s: 4, p: 1,
+          r: ["Năm ngoái bác sĩ bảo chú bị tiểu đường, cho thuốc uống. Uống được vài tháng thấy khỏe nên chú bỏ."],
+          fb: "Rất quan trọng. Đái tháo đường kiểm soát kém và bệnh nha chu làm nặng lẫn nhau." },
+        { t: "Chú chải răng mấy lần một ngày, có dùng chỉ nha khoa không?", s: 3, p: 1,
+          r: ["Sáng chải một lần thôi, chỉ nha khoa thì chú chưa dùng bao giờ."],
+          fb: "Giúp đánh giá thói quen vệ sinh và chuẩn bị hướng dẫn phù hợp." },
+        { t: "Chú có dị ứng thuốc nào không?", s: 2, p: 0,
+          r: ["Chú không dị ứng gì."],
+          fb: "Luôn nên hỏi, dù ca này không cần kê kháng sinh." },
+        { t: "Bố mẹ chú có ai rụng răng sớm không?", s: 1, p: 0,
+          r: ["Bố chú 60 tuổi đã mất gần hết răng."],
+          fb: "Có chút giá trị: tiền sử gia đình gợi ý cơ địa nhạy cảm với bệnh nha chu." },
+        { t: "Xe chú chạy tuyến nào, có hay phải chạy đêm không?", s: 0, p: 0,
+          r: ["Chú chạy xe khách Sài Gòn – Đà Lạt, hay chạy đêm."],
+          fb: "Ít liên quan đến chẩn đoán." }
+      ]
+    },
+    {
+      ph: "Khám", act: true, q: "Chọn 2 việc khám:", type: "multi", k: 2,
+      choices: [
+        { t: "Khám nha chu toàn hàm bằng cây đo túi: độ sâu túi, chảy máu khi thăm dò, mất bám dính", s: 6, p: 0,
+          r: [{ w: "card", h: "Khám nha chu", rows: [["Độ sâu túi", "5–7 mm ở nhiều răng, sâu nhất 7 mm ở mặt gần 36 và 46"], ["Chảy máu khi thăm dò", "Khoảng 60% vị trí"], ["Mất bám dính", "5–6 mm ở vùng răng hàm"], ["Phạm vi", "Hơn 30% số răng bị ảnh hưởng"]] }],
+          fb: "Không thể thiếu. Đo túi và mất bám dính là cách duy nhất để phân biệt viêm nha chu với viêm lợi đơn thuần." },
+        { t: "Khám mảng bám, cao răng và độ lung lay răng", s: 4, p: 0,
+          r: [{ w: "card", h: "Mảng bám, cao răng, lung lay", rows: [["Cao răng", "Nhiều trên nướu và dưới nướu, nhất là mặt trong răng cửa dưới"], ["Lung lay", "Răng 36 và 46 lung lay độ I"]] }],
+          fb: "Cần thiết để đánh giá mức độ và lập kế hoạch làm sạch." },
+        { t: "Chỉ nhìn bằng mắt: nướu đỏ, sưng là đủ", s: -3, p: 0,
+          r: [{ w: "nar", t: "Nướu viền đỏ nhẹ. Nhìn bằng mắt không thấy được độ sâu túi." }],
+          fb: "Không đủ. Người hút thuốc thường có nướu trông ít viêm hơn thực tế. Phải đo túi mới đánh giá được." },
+        { t: "Khám khớp thái dương hàm", s: 0, p: 0,
+          r: [{ w: "card", h: "Khớp thái dương hàm", rows: [["Khớp hai bên", "Không đau, không tiếng kêu"]] }],
+          fb: "Không liên quan đến lý do đến khám." }
+      ]
+    },
+    {
+      ph: "Cận lâm sàng", act: true, q: "Chọn 2 thăm dò:", type: "multi", k: 2,
+      choices: [
+        { t: "Chụp phim X-quang (phim toàn cảnh và cận chóp vùng răng hàm)", s: 5, p: 0,
+          r: [{ w: "xray", x: "perio", h: "Phim cận chóp vùng răng 46", t: "Tiêu xương ngang tới 1/3 giữa chân răng, tiêu xương chéo mặt gần 46, có gai cao răng ở mặt bên chân răng." }],
+          fb: "Phim cho biết mức độ tiêu xương, căn cứ để phân giai đoạn bệnh nha chu." },
+        { t: "Xét nghiệm HbA1c, đường huyết", s: 5, p: 0,
+          r: [{ w: "card", h: "Xét nghiệm máu", rows: [["HbA1c", "9,2 %"], ["Đường huyết lúc đói", "10,8 mmol/L"]] }],
+          fb: "Rất quan trọng. HbA1c 9,2 % cho thấy đái tháo đường kiểm soát kém, vừa làm bệnh nha chu nặng thêm, vừa cần chuyển chú đi điều trị nội khoa." },
+        { t: "Chụp CT Cone Beam toàn hàm", s: -2, p: -3,
+          r: [{ w: "nar", t: "CBCT không làm thay đổi kế hoạch điều trị ban đầu." }],
+          fb: "Không cần cho chẩn đoán ban đầu viêm nha chu; liều tia và chi phí cao hơn." },
+        { t: "Cấy vi khuẩn trong túi nha chu", s: 0, p: -2,
+          r: [{ w: "nar", t: "Kết quả cấy mất nhiều ngày và không đổi hướng điều trị ban đầu." }],
+          fb: "Không làm thường quy." }
+      ]
+    },
+    {
+      ph: "Chẩn đoán", q: "Chẩn đoán của bạn?", type: "one",
+      choices: [
+        { t: "Viêm nha chu toàn thể giai đoạn III, độ C (do hút thuốc ≥ 10 điếu/ngày và HbA1c ≥ 7 %), trên nền đái tháo đường type 2 kiểm soát kém", s: 15, p: 0,
+          fb: "Chính xác theo phân loại 2017: mất bám dính ≥ 5 mm, túi đến 7 mm, tiêu xương tới 1/3 giữa → giai đoạn III; hút thuốc nhiều và HbA1c ≥ 7 % → độ C; hơn 30% số răng bị ảnh hưởng → toàn thể." },
+        { t: "Viêm lợi do mảng bám", s: -6, p: 0,
+          fb: "Chưa đúng. Viêm lợi không có mất bám dính và không tiêu xương. Ở đây đã có túi 7 mm và tiêu xương." },
+        { t: "Viêm nha chu giai đoạn I, độ A", s: -3, p: 0,
+          fb: "Đánh giá quá nhẹ. Giai đoạn I chỉ mất bám dính 1–2 mm; độ A là tiến triển chậm, không có yếu tố nguy cơ. Chú Hùng có cả hai yếu tố làm bệnh tiến triển nhanh." },
+        { t: "Bệnh bạch cầu cấp gây chảy máu nướu", s: -5, p: 0,
+          fb: "Chưa có căn cứ: không có sốt, mệt, xuất huyết dưới da hay bất thường trên công thức máu. Cao răng, túi sâu, tiêu xương giải thích đủ triệu chứng." }
+      ]
+    },
+    {
+      ph: "Điều trị", q: "Kế hoạch điều trị giai đoạn đầu?", type: "one",
+      choices: [
+        { t: "Hướng dẫn vệ sinh răng miệng (chải răng 2 lần/ngày, làm sạch kẽ răng); cạo vôi và làm láng gốc răng dưới nướu theo từng vùng; tư vấn bỏ thuốc lá; gửi bác sĩ nội tiết kiểm soát đường huyết; đánh giá lại sau 6–8 tuần", s: 15, p: 8,
+          fb: "Đúng hướng: kiểm soát mảng bám và yếu tố nguy cơ trước, sau đó làm sạch dưới nướu, rồi đánh giá lại để quyết định bước tiếp theo." },
+        { t: "Nhổ hết các răng lung lay rồi làm răng giả cho đỡ phiền", s: -10, p: -10, crit: true,
+          end: { h: "Chú Hùng mất răng không cần thiết", t: "Các răng lung lay độ I hoàn toàn có thể giữ lại nếu điều trị nha chu đúng cách. Nhổ răng sớm khiến chú Hùng ăn nhai kém và tốn kém hơn nhiều, trong khi bệnh nha chu ở các răng còn lại vẫn tiếp tục tiến triển vì yếu tố nguy cơ chưa được kiểm soát." },
+          fb: "Sai. Răng lung lay độ I do viêm nha chu thường giữ được sau điều trị. Nhổ răng không giải quyết nguyên nhân." },
+        { t: "Chỉ kê kháng sinh và nước súc miệng chlorhexidine", s: -8, p: -3,
+          fb: "Sai. Mảng bám và cao răng dưới nướu là màng sinh học, kháng sinh và nước súc miệng không loại bỏ được. Phải làm sạch cơ học." },
+        { t: "Cạo vôi trên nướu, đánh bóng, hẹn một năm sau khám lại", s: -3, p: 0,
+          fb: "Chưa đủ. Túi 5–7 mm cần làm sạch dưới nướu và đánh giá lại sau 6–8 tuần, không thể chờ một năm." }
+      ]
+    },
+    {
+      ph: "Tư vấn", q: "Bạn tư vấn chuyện hút thuốc thế nào?", type: "one",
+      choices: [
+        { t: "Giải thích thuốc lá và đường huyết cao làm bệnh nướu nặng nhanh, điều trị kém hiệu quả; hỏi chú có muốn bỏ thuốc không và giới thiệu chỗ hỗ trợ cai thuốc", s: 10, p: 10,
+          r: ["Chú không biết thuốc lá ảnh hưởng đến răng nhiều vậy. Chú sẽ thử giảm, cháu cho chú số đường dây hỗ trợ nhé."],
+          fb: "Tốt: hỏi – khuyên – hỗ trợ. Lời khuyên ngắn, đúng lúc từ nhân viên y tế làm tăng rõ tỉ lệ cai thuốc thành công." },
+        { t: "“Chú hút thuốc thế này thì rụng hết răng là đúng rồi.”", s: -6, p: -18,
+          r: [{ w: "nar", t: "Chú Hùng cau mày, không nói gì thêm." }],
+          fb: "Câu nói mang tính trách móc làm bệnh nhân phòng thủ, giảm khả năng thay đổi hành vi." },
+        { t: "Không nhắc đến thuốc lá để chú khỏi phật lòng", s: -3, p: 0,
+          fb: "Bỏ lỡ cơ hội can thiệp. Không cai thuốc thì kết quả điều trị nha chu kém đi đáng kể." }
+      ]
+    }
+  ],
+  end: {
+    good: { h: "Ba tháng sau, nướu chú Hùng khỏe hơn hẳn", t: "Độ sâu túi giảm, gần như hết chảy máu khi chải răng. Chú uống lại thuốc tiểu đường, HbA1c xuống 7,6 %, và đã giảm còn 5 điếu thuốc mỗi ngày. Chú được hẹn duy trì nha chu 3 tháng một lần." },
+    ok: { h: "Chú Hùng cải thiện một phần", t: "Bệnh nha chu được kiểm soát một phần, nhưng các yếu tố nguy cơ chưa được xử lý đầy đủ. Xem lại phần nhận xét." }
+  },
+  sum: { dx: "Viêm nha chu toàn thể giai đoạn III, độ C; đái tháo đường type 2 kiểm soát kém; hút thuốc nhiều", tx: "Hướng dẫn vệ sinh, kiểm soát yếu tố nguy cơ (cai thuốc, điều trị đái tháo đường), cạo vôi và làm láng gốc răng dưới nướu, đánh giá lại sau 6–8 tuần, duy trì nha chu định kỳ",
+    key: ["Phải đo túi và mất bám dính mới phân biệt được viêm lợi với viêm nha chu", "Hút thuốc ≥ 10 điếu/ngày, HbA1c ≥ 7 % → độ C", "Kháng sinh không thay được làm sạch cơ học"] }
+});
+SIM_CASES.push({
+  id: "wisdom", title: "Răng khôn sưng đau", tags: ["Phẫu thuật miệng", "Không lạm dụng kháng sinh"], level: "Cơ bản",
+  pt: { name: "Phạm Ngọc Lan", call: "Lan", age: 22, sex: "Nữ", job: "Sinh viên", av: { kind: "woman", coat: "#9FE0CF", hair: "#1E1A18" } },
+  complaint: "Đau góc hàm trái 2 ngày, hôi miệng",
+  intro: [
+    { w: "rec", t: "Bạn Lan 22 tuổi, sinh viên, đau vùng răng trong cùng hàm dưới bên trái hai ngày nay." },
+    { w: "pt", t: "Em chào bác sĩ. Hai hôm nay chỗ răng trong cùng hàm dưới bên trái đau quá, nhai đau, miệng còn có mùi hôi. Em đang mùa thi, mấy tuần nay thức khuya suốt." }
+  ],
+  steps: [
+    {
+      ph: "Hỏi bệnh", q: "Hỏi 3 câu:", type: "multi", k: 3,
+      choices: [
+        { t: "Em có sốt không? Há miệng, nuốt có khó không?", s: 4, p: 1,
+          r: ["Em không sốt ạ. Há miệng và nuốt vẫn bình thường, chỉ nhai bên trái là đau."],
+          fb: "Rất quan trọng: không sốt, không khít hàm, không khó nuốt nghĩa là chưa có dấu hiệu lan rộng hay ảnh hưởng toàn thân." },
+        { t: "Trước đây chỗ này đã từng sưng đau như vậy chưa?", s: 3, p: 1,
+          r: ["Năm ngoái cũng bị một lần, mấy ngày thì tự hết."],
+          fb: "Có giá trị: viêm tái phát là một trong những lý do chính để chỉ định nhổ răng khôn." },
+        { t: "Em có dị ứng thuốc hay bệnh gì không, có đang mang thai không?", s: 4, p: 1,
+          r: ["Em không dị ứng, không bệnh gì, cũng không mang thai ạ."],
+          fb: "Cần hỏi trước khi chụp phim và kê đơn, hỏi một cách tế nhị." },
+        { t: "Em chải răng vùng đó có tới được không?", s: 2, p: 0,
+          r: ["Răng trong cùng khó chải lắm, chạm vào là đau nên em né."],
+          fb: "Giúp giải thích vì sao thức ăn và vi khuẩn đọng lại dưới lợi trùm." },
+        { t: "Em thi môn gì mà căng thẳng thế?", s: 0, p: 1,
+          r: ["Em học kế toán, đang thi cuối kỳ ạ."],
+          fb: "Câu xã giao, không ảnh hưởng điểm chuyên môn, có thể giúp bệnh nhân thoải mái hơn." },
+        { t: "Em ăn uống thế nào mà để răng sưng thế này?", s: -4, p: -10,
+          r: ["...Em vẫn ăn uống bình thường mà."],
+          fb: "Mang tính trách móc, không giúp chẩn đoán." }
+      ]
+    },
+    {
+      ph: "Khám", act: true, q: "Chọn 2 việc khám:", type: "multi", k: 2,
+      choices: [
+        { t: "Khám trong miệng vùng răng 38 và răng đối diện 28", s: 5, p: 0,
+          r: [{ w: "card", h: "Khám trong miệng", rows: [["Răng 38", "Mọc một phần, nghiêng về phía gần"], ["Lợi trùm 38", "Sưng đỏ, ấn đau, có ít mủ chảy ra"], ["Răng 28", "Mọc trồi, khi cắn chạm vào lợi trùm đang sưng"]] }],
+          fb: "Cần thiết. Răng 28 cắn vào lợi trùm làm vết viêm nặng thêm, một chi tiết dễ bị bỏ sót." },
+        { t: "Khám ngoài miệng: sưng mặt, hạch, há miệng", s: 4, p: 0,
+          r: [{ w: "card", h: "Khám ngoài miệng", rows: [["Mặt", "Không sưng"], ["Hạch dưới hàm", "Không sưng"], ["Há miệng", "40 mm, bình thường"], ["Nhiệt độ", "36,9 °C"]] }],
+          fb: "Xác nhận không có sưng lan, không khít hàm, không sốt: viêm khu trú tại chỗ." },
+        { t: "Khám amidan và họng", s: 1, p: 0,
+          r: [{ w: "card", h: "Khám họng", rows: [["Amidan, họng", "Bình thường"]] }],
+          fb: "Có thể làm để loại trừ, nhưng ở đây nguyên nhân đã rõ." },
+        { t: "Gõ thử tất cả các răng hàm dưới", s: 1, p: 0,
+          r: [{ w: "card", h: "Gõ răng", rows: [["Răng 36, 37", "Không đau"]] }],
+          fb: "Ít giá trị trong ca này." }
+      ]
+    },
+    {
+      ph: "Cận lâm sàng", act: true, q: "Chọn 1 thăm dò cần làm:", type: "one",
+      choices: [
+        { t: "Chụp phim toàn cảnh (panorama)", s: 10, p: 0,
+          r: [{ w: "xray", x: "wisdom", h: "Phim toàn cảnh – vùng răng 38", t: "Răng 38 mọc lệch gần khoảng 45°, kẹt dưới cổ răng 37. Chóp chân răng chồng lên ống thần kinh răng dưới, chân răng sẫm màu ở chỗ chồng lên và đường viền trắng của ống bị gián đoạn." }],
+          fb: "Đúng. Panorama cho thấy tư thế răng 38 và mối liên quan với ống thần kinh răng dưới. Hai dấu hiệu chân răng sẫm màu và đường viền ống bị gián đoạn gợi ý ống thần kinh rất sát chân răng." },
+        { t: "Chụp CT Cone Beam ngay hôm nay", s: 2, p: -3,
+          r: [{ w: "nar", t: "CBCT thấy rõ vị trí ống thần kinh, nhưng chưa cần thiết trong lúc đang viêm cấp." }],
+          fb: "Chưa cần ngay. Nên chụp panorama trước; CBCT dành cho lúc lên kế hoạch nhổ nếu panorama gợi ý chân răng sát ống thần kinh." },
+        { t: "Xét nghiệm công thức máu", s: -2, p: -3,
+          r: [{ w: "card", h: "Công thức máu", rows: [["Bạch cầu", "Bình thường"]] }],
+          fb: "Không cần thiết khi không có sốt hay dấu hiệu toàn thân." }
+      ]
+    },
+    {
+      ph: "Chẩn đoán", q: "Chẩn đoán của bạn?", type: "one",
+      choices: [
+        { t: "Viêm quanh thân răng cấp (viêm lợi trùm) răng 38 mọc lệch gần, khu trú, không có dấu hiệu toàn thân", s: 15, p: 0,
+          fb: "Chính xác: lợi trùm sưng đỏ có mủ quanh răng 38 mọc một phần, không sốt, không sưng lan." },
+        { t: "Viêm amidan cấp", s: -5, p: 0,
+          fb: "Chưa đúng. Họng và amidan bình thường; tổn thương nằm ở lợi trùm răng 38." },
+        { t: "Áp xe quanh chóp răng 37", s: -5, p: 0,
+          fb: "Chưa đúng. Răng 37 gõ không đau, không có lỗ sâu, phim không có thấu quang chóp." },
+        { t: "Viêm mô tế bào vùng góc hàm", s: -5, p: 0,
+          fb: "Chưa đúng. Không sưng mặt, không sốt, há miệng bình thường." }
+      ]
+    },
+    {
+      ph: "Điều trị", q: "Xử trí hôm nay thế nào?", type: "one",
+      choices: [
+        { t: "Bơm rửa dưới lợi trùm bằng nước muối sinh lý hoặc chlorhexidine, kê thuốc giảm đau, hướng dẫn súc miệng; chưa cần kháng sinh; hẹn nhổ răng 38 khi hết viêm cấp", s: 15, p: 8,
+          r: [{ w: "nar", t: "Bơm rửa xong, mảnh thức ăn và ít mủ trôi ra. Lan thấy nhẹ hẳn." }],
+          fb: "Đúng. Viêm khu trú, không sốt, không sưng lan: làm sạch tại chỗ và giảm đau là đủ. Kháng sinh chỉ dùng khi có biểu hiện toàn thân hoặc sưng lan." },
+        { t: "Kê amoxicillin và metronidazole 7 ngày, không cần làm gì tại chỗ", s: -8, p: -2, crit: true,
+          end: { h: "Lan uống kháng sinh mà vẫn đau", t: "Mảnh thức ăn và mủ dưới lợi trùm không được làm sạch nên Lan vẫn đau suốt kỳ thi, lại bị rối loạn tiêu hóa do hai loại kháng sinh. Một tuần sau Lan quay lại và được bơm rửa – điều lẽ ra nên làm từ đầu." },
+          fb: "Sai. Không có chỉ định kháng sinh khi viêm khu trú, không sốt. Bỏ qua làm sạch tại chỗ là bỏ qua bước quan trọng nhất." },
+        { t: "Nhổ răng 38 ngay trong buổi này", s: 0, p: -6,
+          r: ["Nhổ luôn hôm nay ạ? Mai em còn thi..."],
+          fb: "Chưa tối ưu. Phẫu thuật răng khôn mọc lệch khi đang viêm cấp khó gây tê hơn và dễ biến chứng; hơn nữa chân răng sát ống thần kinh cần được đánh giá kỹ trước." },
+        { t: "Cắt bỏ lợi trùm ngay để hết viêm vĩnh viễn", s: 0, p: -3,
+          fb: "Chưa tối ưu. Với răng mọc lệch kẹt dưới răng 37, lợi trùm thường mọc lại, viêm sẽ tái phát. Giải pháp lâu dài là nhổ răng 38." }
+      ]
+    },
+    {
+      ph: "Giải thích", q: "Lan hỏi: “Nhổ răng khôn có nguy hiểm không ạ?”", type: "one",
+      choices: [
+        { t: "Giải thích chân răng nằm sát ống thần kinh nên cần chụp CBCT trước khi nhổ; có nguy cơ tê môi cằm, thường tạm thời, hiếm khi kéo dài; ngoài ra có thể sưng, đau vài ngày. Em đọc kỹ và ký giấy đồng ý trước khi làm", s: 10, p: 8,
+          r: ["Em hiểu rồi ạ. Em sẽ hẹn nhổ sau khi thi xong."],
+          fb: "Tốt. Bệnh nhân được thông tin đầy đủ về nguy cơ trước khi đồng ý (informed consent)." },
+        { t: "“Đơn giản lắm em, không có biến chứng gì đâu.”", s: -8, p: 0,
+          r: ["Vậy thì em yên tâm rồi!"],
+          fb: "Sai. Che giấu nguy cơ tổn thương thần kinh là vi phạm nguyên tắc đồng thuận có hiểu biết; nếu biến chứng xảy ra, bệnh nhân sẽ mất tin tưởng." },
+        { t: "“Rất nguy hiểm, có thể liệt mặt, em nên để vậy luôn.”", s: -6, p: -10,
+          r: ["Liệt mặt ạ? Em sợ quá..."],
+          fb: "Sai và gây hoảng sợ không cần thiết. Nguy cơ cần nói là tê môi cằm do dây thần kinh răng dưới, không phải liệt mặt; răng viêm tái phát vẫn nên nhổ." }
+      ]
+    }
+  ],
+  end: {
+    good: { h: "Lan hết đau và thi tốt", t: "Hai ngày sau Lan hết đau, ăn nhai bình thường. Thi xong, Lan được chụp CBCT và nhổ răng 38 an toàn, chỉ tê nhẹ môi dưới hai ngày rồi hết." },
+    ok: { h: "Lan đỡ đau", t: "Cơn viêm được kiểm soát nhưng vài bước của bạn chưa tối ưu. Xem lại phần nhận xét." }
+  },
+  sum: { dx: "Viêm quanh thân răng cấp răng 38 mọc lệch gần, khu trú, không có dấu hiệu toàn thân", tx: "Bơm rửa dưới lợi trùm, giảm đau, súc miệng; không kháng sinh; panorama (± CBCT) rồi nhổ 38 khi hết viêm cấp",
+    key: ["Kháng sinh chỉ khi có sốt, sưng lan, khít hàm", "Panorama: chân răng sẫm màu, đường viền ống bị gián đoạn → cân nhắc CBCT", "Giải thích nguy cơ tê môi cằm trước khi nhổ"] }
+});
+SIM_CASES.push({
+  id: "avulsion", title: "Bé ngã rơi răng cửa", tags: ["Nhi", "Chấn thương", "Cấp cứu"], level: "Khó",
+  pt: { name: "Nguyễn Gia An", call: "bé An", age: 9, sex: "Nam", job: "Học sinh lớp 4", av: { kind: "kid", coat: "#FFD66B", hair: "#4A2E1C", gap: true } },
+  fam: "Chị Mai (mẹ bé)",
+  complaint: "Ngã xe đạp, rơi hẳn răng cửa trên ra ngoài",
+  intro: [
+    { w: "rec", t: "Bác sĩ ơi, có chị Mai gọi điện, giọng rất hoảng: bé An nhà chị 9 tuổi ngã xe đạp ở sân trường, rơi hẳn một răng cửa trên ra ngoài." },
+    { w: "fam", t: "Bác sĩ ơi, cháu ngã, rơi mất cái răng cửa, tôi nhặt được răng rồi nhưng dính đầy đất. Giờ tôi phải làm gì ạ?" }
+  ],
+  steps: [
+    {
+      ph: "Tư vấn qua điện thoại", q: "Bạn hướng dẫn chị Mai qua điện thoại thế nào?", type: "one",
+      choices: [
+        { t: "Chị cầm răng ở phần thân trắng, không chạm vào chân răng. Nếu bẩn thì rửa nhanh dưới vòi nước lạnh khoảng 10 giây. Nếu được, chị cắm nhẹ răng lại vào chỗ cũ rồi cho bé cắn khăn sạch; nếu không, ngâm răng vào sữa tươi và đưa bé đến ngay", s: 15, p: 10,
+          r: [{ w: "fam", t: "Vâng, cháu sợ quá không dám cắm lại. Tôi ngâm răng vào sữa rồi đưa cháu đến ngay đây." }],
+          fb: "Chuẩn xác. Thời gian và môi trường giữ răng quyết định số phận tế bào dây chằng nha chu trên chân răng. Sữa, nước muối sinh lý, nước bọt đều tốt hơn để khô; cắm lại ngay tại chỗ là tốt nhất." },
+        { t: "Chị gói răng vào khăn giấy cho khô rồi mang đến", s: -10, p: 0, crit: true, flag: "dry",
+          r: [{ w: "fam", t: "Vâng, tôi gói lại rồi đến ngay." }],
+          fb: "Sai nghiêm trọng. Để răng khô quá 60 phút, tế bào dây chằng nha chu trên chân răng chết, khả năng giữ răng lâu dài rất thấp." },
+        { t: "Chị lấy bàn chải chà thật sạch đất ở chân răng rồi mang đến", s: -10, p: 0, crit: true, flag: "scrub",
+          r: [{ w: "fam", t: "Tôi chà sạch rồi đây, giờ tôi đưa cháu đi." }],
+          fb: "Sai nghiêm trọng. Chà chân răng phá hủy lớp tế bào dây chằng nha chu, chính lớp tế bào giúp răng bám lại vào xương." },
+        { t: "Bé 9 tuổi thì đó là răng sữa, chị không cần lo, rơi rồi răng khác sẽ mọc", s: -10, p: -5, crit: true, flag: "late",
+          r: [{ w: "fam", t: "Ồ vậy à, thế thì may quá..." }],
+          fb: "Sai. Răng cửa giữa hàm trên vĩnh viễn mọc lúc 7–8 tuổi; ở trẻ 9 tuổi đây gần như chắc chắn là răng vĩnh viễn, không có răng nào mọc thay nữa." }
+      ]
+    },
+    {
+      ph: "Tiếp nhận", q: "Bé đã đến phòng khám. Việc đầu tiên bạn làm?", type: "one",
+      say: [
+        { w: "nar", t: "25 phút sau, chị Mai đưa bé An đến. Chiếc răng được ngâm trong một cốc sữa tươi.", not: ["dry", "scrub", "late"] },
+        { w: "nar", t: "Chị Mai đưa bé An đến. Chiếc răng gói trong khăn giấy; tính từ lúc ngã đến lúc vào ghế, răng đã khô khoảng 70 phút.", if: "dry" },
+        { w: "nar", t: "Chị Mai đưa bé An đến. Chân răng đã bị chà bằng bàn chải, lớp mô mỏng trên chân răng gần như mất hết.", if: "scrub" },
+        { w: "nar", t: "Nghe nói là răng sữa nên chị Mai không vội. Hơn 2 tiếng sau, thấy bé vẫn chảy máu, chị mới đưa đến; chiếc răng để khô trong túi áo.", if: "late" },
+        { w: "pt", t: "Bác sĩ ơi, cháu đau..." }
+      ],
+      choices: [
+        { t: "Hỏi nhanh: lúc ngã bé có ngất, buồn nôn, nôn, đau đầu không; kiểm tra các vết thương khác trên mặt và người", s: 10, p: 8,
+          r: [{ w: "fam", t: "Cháu không ngất, không nôn, chỉ khóc nhiều và bị trầy cằm thôi bác sĩ." }],
+          fb: "Đúng ưu tiên. Trước khi lo chiếc răng, phải loại trừ chấn thương sọ não và các tổn thương nặng khác; nếu có dấu hiệu đó thì chuyển cấp cứu trước." },
+        { t: "Cắm răng lại ngay, chưa cần hỏi gì", s: -2, p: 0,
+          r: [{ w: "fam", t: "Bác sĩ không hỏi cháu có bị sao khác không ạ? Cháu ngã khá mạnh..." }],
+          fb: "Chưa đúng ưu tiên. Thời gian rất quý, nhưng vẫn cần vài chục giây để loại trừ chấn thương đầu và các tổn thương khác." },
+        { t: "Cho bé đi chụp phim toàn bộ răng trước", s: 0, p: -3,
+          fb: "Chưa tối ưu. Phim cần thiết, nhưng trước hết phải đánh giá toàn thân, và không để răng nằm ngoài miệng lâu thêm." }
+      ]
+    },
+    {
+      ph: "Hỏi bệnh", q: "Hỏi thêm 3 câu:", type: "multi", k: 3,
+      choices: [
+        { t: "Bé ngã lúc mấy giờ? Răng để ngoài miệng bao lâu, giữ trong gì?", s: 4, p: 1,
+          r: [
+            { w: "fam", t: "Cháu ngã lúc 3 giờ 10, giờ là gần 3 giờ 40. Răng nằm dưới đất chắc 5 phút rồi tôi mới nhặt, sau đó ngâm sữa.", not: ["dry", "scrub", "late"] },
+            { w: "fam", t: "Cháu ngã lúc 2 giờ 30, giờ là gần 3 giờ 40. Tôi gói răng trong khăn giấy từ lúc nhặt được.", if: "dry" },
+            { w: "fam", t: "Cháu ngã lúc 3 giờ 10. Tôi chà sạch đất bằng bàn chải rồi gói lại mang đến.", if: "scrub" },
+            { w: "fam", t: "Cháu ngã lúc 1 giờ chiều, giờ hơn 3 giờ rồi. Răng tôi để trong túi áo.", if: "late" }
+          ],
+          fb: "Câu hỏi then chốt: thời gian khô ngoài miệng (dưới hay trên 60 phút) và môi trường giữ răng quyết định tiên lượng và cách xử trí." },
+        { t: "Bé đã tiêm phòng uốn ván đủ chưa?", s: 4, p: 1,
+          r: [{ w: "fam", t: "Cháu tiêm đủ theo chương trình tiêm chủng, mũi nhắc thì tôi không nhớ rõ." }],
+          fb: "Cần thiết: răng dính đất cát, phải kiểm tra tình trạng tiêm phòng uốn ván và cho tiêm nhắc nếu cần." },
+        { t: "Bé có dị ứng thuốc, có bệnh gì không?", s: 4, p: 1,
+          r: [{ w: "fam", t: "Cháu không dị ứng gì, khỏe mạnh." }],
+          fb: "Cần trước khi gây tê và kê kháng sinh." },
+        { t: "Bé ngã ở đâu, đất có bẩn không?", s: 2, p: 0,
+          r: [{ w: "fam", t: "Ngã ở sân đất sau trường." }],
+          fb: "Có ích để đánh giá nguy cơ nhiễm bẩn và uốn ván." },
+        { t: "Bé học lớp mấy, học có giỏi không?", s: 0, p: 0,
+          r: [{ w: "fam", t: "Cháu học lớp 4..." }],
+          fb: "Không giúp gì cho xử trí cấp cứu." }
+      ]
+    },
+    {
+      ph: "Khám và cận lâm sàng", act: true, q: "Chọn 2 việc:", type: "multi", k: 2,
+      choices: [
+        { t: "Khám ổ răng 11, môi và các răng bên cạnh", s: 5, p: 0,
+          r: [{ w: "card", h: "Khám trong miệng", rows: [["Ổ răng 11", "Có cục máu đông, thành ổ không gãy"], ["Môi trên", "Rách nhỏ niêm mạc, không cần khâu"], ["Răng 21, 12", "Không lung lay, không gãy"]] }],
+          fb: "Cần thiết: ổ răng còn nguyên vẹn thì cắm lại được; các răng bên cạnh cũng cần được kiểm tra." },
+        { t: "Chụp phim X-quang cận chóp vùng răng cửa trên", s: 5, p: 0,
+          r: [{ w: "xray", x: "avulsion", h: "Phim cận chóp vùng răng cửa trên", t: "Ổ răng 11 trống, không thấy đường gãy xương ổ răng. Răng 21 có chóp chân răng còn mở rộng (chưa đóng chóp)." }],
+          fb: "Phim loại trừ gãy xương ổ răng và cho biết chân răng chưa đóng chóp – thông tin quyết định cách xử lý tủy sau này." },
+        { t: "Quan sát chiếc răng: chân răng đã hình thành bao nhiêu, chóp đóng hay mở", s: 4, p: 0,
+          r: [{ w: "card", h: "Chiếc răng 11", rows: [["Chân răng", "Khoảng 3/4 chiều dài, chóp mở rộng"], ["Thân răng", "Nguyên vẹn"]] }],
+          fb: "Có ích: cầm răng ở thân, quan sát nhanh rồi trả răng vào môi trường giữ ngay." },
+        { t: "Chụp CT Cone Beam", s: -3, p: -2,
+          fb: "Chưa cần ở bước đầu, lại làm chậm việc cắm lại răng." }
+      ]
+    },
+    {
+      ph: "Chẩn đoán", q: "Chẩn đoán của bạn?", type: "one",
+      choices: [
+        { t: "Răng 11 vĩnh viễn bật khỏi ổ hoàn toàn (trật khớp hoàn toàn), chóp chưa đóng, ổ răng nguyên vẹn", s: 15, p: 0,
+          fb: "Chính xác. Ghi rõ thêm thời gian khô ngoài miệng và môi trường giữ răng vì chúng quyết định tiên lượng." },
+        { t: "Răng sữa 51 rơi, không cắm lại", s: -10, p: -5,
+          fb: "Sai. Ở trẻ 9 tuổi răng cửa giữa trên là răng vĩnh viễn. Nguyên tắc “không cắm lại” chỉ áp dụng cho răng sữa." },
+        { t: "Răng 11 lún vào xương ổ răng", s: -5, p: 0,
+          fb: "Chưa đúng. Răng đã rơi hẳn ra ngoài, ổ răng trống." },
+        { t: "Gãy thân răng 11", s: -5, p: 0,
+          fb: "Chưa đúng. Thân răng nguyên vẹn, cả chiếc răng rời khỏi ổ." }
+      ]
+    },
+    {
+      ph: "Điều trị", q: "Bạn xử trí thế nào?", type: "one",
+      choices: [
+        { t: "Rửa chân răng bằng nước muối sinh lý (không chà), bơm rửa ổ răng, gây tê, cắm lại răng nhẹ nhàng đúng vị trí, kiểm tra trên phim, cố định bằng nẹp mềm 2 tuần; cân nhắc kháng sinh phù hợp lứa tuổi (amoxicillin, không dùng nhóm tetracycline cho trẻ dưới 12 tuổi) và kiểm tra tiêm phòng uốn ván", s: 15, p: 10,
+          r: [{ w: "nar", t: "Răng 11 về đúng vị trí, phim xác nhận. Bé An được gắn nẹp mềm." }, { w: "fam", t: "Cảm ơn bác sĩ, tôi cứ tưởng cháu mất răng rồi." }],
+          fb: "Đúng theo hướng dẫn chấn thương răng: cắm lại sớm, nẹp mềm ngắn ngày giúp dây chằng lành. Răng chóp mở còn có cơ hội tủy tự tái tạo mạch nên chưa lấy tủy ngay." },
+        { t: "Không cắm lại nữa, đợi lớn làm răng giả", s: -10, p: -10, crit: true,
+          end: { h: "Bé An mất răng cửa vĩnh viễn", t: "Răng vĩnh viễn được giữ đúng cách lẽ ra có cơ hội sống rất tốt. Không cắm lại khiến bé An mất răng cửa ở tuổi 9, xương vùng đó tiêu dần và việc phục hình sau này khó khăn, tốn kém hơn nhiều." },
+          fb: "Sai. Răng vĩnh viễn bật khỏi ổ nên được cắm lại, kể cả khi đã để khô lâu, để giữ xương ổ răng cho trẻ đang phát triển." },
+        { t: "Cắm lại rồi nẹp cứng bằng dây thép trong 2 tháng", s: -5, p: 0,
+          fb: "Chưa đúng. Nẹp cứng, để lâu làm tăng nguy cơ dính khớp răng – xương (ankylosis). Hướng dẫn hiện nay là nẹp mềm khoảng 2 tuần." },
+        { t: "Lấy tủy răng ngoài miệng rồi mới cắm lại", s: -5, p: 0,
+          fb: "Chưa đúng. Kéo dài thời gian răng ở ngoài miệng; răng chóp mở còn có khả năng tái tạo mạch tủy, chỉ điều trị tủy khi có dấu hiệu hoại tử hoặc tiêu chân răng." }
+      ]
+    },
+    {
+      ph: "Dặn dò", q: "Bạn dặn chị Mai và bé An gì?", type: "one",
+      choices: [
+        { t: "Ăn mềm 2 tuần; chải răng nhẹ bằng bàn chải lông mềm sau mỗi bữa; súc miệng chlorhexidine 0,1% ngày 2 lần trong 1 tuần; tạm ngừng chơi thể thao va chạm; tái khám sau 2 tuần để tháo nẹp và theo dõi nhiều năm; đến ngay nếu răng sưng, đau, đổi màu", s: 10, p: 8,
+          r: [{ w: "fam", t: "Tôi ghi lại hết rồi. Có gì bất thường tôi đưa cháu đến ngay." }],
+          fb: "Tốt. Răng cắm lại cần theo dõi lâm sàng và phim nhiều lần trong ít nhất 5 năm để phát hiện sớm hoại tử tủy và tiêu chân răng." },
+        { t: "Bé hết đau là được, không cần tái khám", s: -8, p: -2,
+          fb: "Sai. Nhiều biến chứng như tiêu chân răng, hoại tử tủy diễn ra âm thầm, chỉ phát hiện qua tái khám và chụp phim." },
+        { t: "Tuần này bé cứ chơi bóng đá bình thường", s: -5, p: 0,
+          fb: "Không nên. Va chạm khi răng đang nẹp có thể làm răng bật ra lần nữa." }
+      ]
+    }
+  ],
+  end: {
+    good: { h: "Răng 11 của bé An sống lại", t: "Hai tuần sau, nẹp được tháo, răng 11 chắc. Ba tháng sau, phim cho thấy chân răng tiếp tục dài ra, tủy có dấu hiệu tái tạo mạch. Bé An được hẹn theo dõi định kỳ." },
+    ok: { h: "Răng 11 được cắm lại", t: "Răng được cắm lại nhưng vài bước của bạn chưa tối ưu. Xem lại phần nhận xét." },
+    flags: [{ f: ["dry", "scrub", "late"], h: "Răng 11 bị dính khớp và tiêu chân răng", t: "Bạn cắm lại răng đúng kỹ thuật, nhưng vì lời hướng dẫn ban đầu, tế bào dây chằng trên chân răng đã chết. Vài tháng sau răng 11 bị dính khớp và tiêu chân răng thay thế, dần thấp hơn răng bên cạnh khi bé lớn. Bé An sẽ cần kế hoạch giữ khoảng và phục hình lâu dài. Lời khuyên qua điện thoại là bước quan trọng nhất của ca này." }]
+  },
+  sum: { dx: "Răng 11 vĩnh viễn bật khỏi ổ hoàn toàn ở trẻ 9 tuổi, chóp chưa đóng", tx: "Hướng dẫn giữ răng đúng (cắm lại ngay hoặc ngâm sữa), cắm lại sớm, nẹp mềm 2 tuần, cân nhắc kháng sinh phù hợp lứa tuổi, kiểm tra uốn ván, theo dõi tủy và chân răng nhiều năm",
+    key: ["Cầm răng ở thân, không chà chân răng, không để khô", "Răng vĩnh viễn thì cắm lại; răng sữa thì không", "Chóp mở: theo dõi tái tạo mạch, chưa lấy tủy ngay"] }
+});
+SIM_CASES.push({
+  id: "warfarin", title: "Nhổ răng khi đang uống thuốc chống đông", tags: ["Bệnh toàn thân", "An toàn người bệnh"], level: "Khó",
+  pt: { name: "Trần Văn Bình", call: "bác Bình", age: 68, sex: "Nam", job: "Hưu trí", av: { kind: "old", coat: "#BFE0F7", hair: "#D9D9D9", glasses: true } },
+  fam: "Chị Hoa (con gái)",
+  complaint: "Chân răng hàm dưới phải lung lay, ăn vướng",
+  intro: [
+    { w: "rec", t: "Bác Bình 68 tuổi muốn nhổ một chân răng hàm dưới bên phải. Con gái bác đi cùng." },
+    { w: "pt", t: "Bác sĩ nhổ giúp tôi cái chân răng này, nó lung lay, ăn cứ vướng. À, tôi đang uống thuốc chống đông máu đấy nhé." }
+  ],
+  steps: [
+    {
+      ph: "Tiếp nhận", q: "Bạn trả lời bác Bình thế nào?", type: "one",
+      choices: [
+        { t: "Dạ, bác cho cháu xem đơn thuốc đang dùng và kể giúp cháu bác bị bệnh tim mạch gì nhé", s: 10, p: 8,
+          r: ["Đây, đơn của bác sĩ tim mạch đây. Tôi bị rung nhĩ ba năm nay, uống warfarin mỗi tối."],
+          fb: "Đúng. Phải biết chính xác thuốc chống đông, lý do dùng và mức kiểm soát trước khi lên kế hoạch nhổ răng." },
+        { t: "Bác về ngưng thuốc chống đông 5 ngày rồi quay lại nhổ cho an toàn", s: -10, p: 0, crit: true,
+          end: { h: "Bác Bình bị đột quỵ", t: "Ngưng warfarin 5 ngày, bác Bình bị đột quỵ do cục máu đông từ tim (rung nhĩ) và phải nhập viện. Nguy cơ chảy máu sau nhổ một chân răng có thể kiểm soát tại chỗ, còn nguy cơ huyết khối khi ngưng thuốc có thể gây tử vong hoặc tàn tật. Phần lớn các thủ thuật nha khoa đơn giản không cần ngưng warfarin nếu INR trong giới hạn cho phép." },
+          fb: "Sai nghiêm trọng. Nha sĩ không tự ý cho ngưng thuốc chống đông. Ngưng warfarin ở bệnh nhân rung nhĩ làm tăng nguy cơ đột quỵ." },
+        { t: "Không sao bác ạ, cháu nhổ luôn bây giờ", s: -8, p: 2,
+          fb: "Chưa đúng. Chưa biết INR và các bệnh kèm theo thì chưa thể đánh giá nguy cơ chảy máu." }
+      ]
+    },
+    {
+      ph: "Hỏi bệnh", q: "Hỏi thêm 3 câu:", type: "multi", k: 3,
+      choices: [
+        { t: "Bác thử INR lần gần nhất khi nào, kết quả bao nhiêu?", s: 5, p: 1,
+          r: [{ w: "fam", t: "Sáng nay bố tôi vừa thử ở bệnh viện, INR 2,6. Mấy tháng nay đều ổn định quanh 2,5." }],
+          fb: "Câu hỏi quan trọng nhất. INR đo trong vòng 24 giờ trước nhổ (tối đa 72 giờ nếu INR ổn định) và dưới 4 thì thường nhổ răng đơn giản được mà không ngưng thuốc." },
+        { t: "Ngoài warfarin bác còn uống thuốc gì không? Có dị ứng thuốc không?", s: 4, p: 1,
+          r: ["Tôi uống thêm amlodipine trị huyết áp. Không dị ứng gì."],
+          fb: "Cần thiết. Nhiều thuốc tương tác với warfarin, và cần biết bệnh huyết áp kèm theo." },
+        { t: "Trước đây nhổ răng bác có chảy máu lâu không?", s: 3, p: 1,
+          r: ["Lần trước nhổ răng ở chỗ khác, máu rỉ cả tối mới cầm."],
+          fb: "Có giá trị: báo trước cần chuẩn bị tốt các biện pháp cầm máu tại chỗ." },
+        { t: "Bác có hay bị bầm tím, chảy máu cam không?", s: 2, p: 0,
+          r: ["Thỉnh thoảng va nhẹ cũng bầm, chảy máu cam thì không."],
+          fb: "Có ích để đánh giá xu hướng chảy máu." },
+        { t: "Con cháu bác làm gì cả rồi ạ?", s: 0, p: 1,
+          r: ["Hai đứa, đứa làm giáo viên, đứa làm kỹ sư."],
+          fb: "Câu xã giao, không ảnh hưởng chuyên môn." }
+      ]
+    },
+    {
+      ph: "Khám", act: true, q: "Chọn 2 việc khám, thăm dò:", type: "multi", k: 2,
+      choices: [
+        { t: "Đo huyết áp, mạch", s: 4, p: 0,
+          r: [{ w: "card", h: "Dấu hiệu sinh tồn", rows: [["Huyết áp", "150/90 mmHg"], ["Mạch", "78 lần/phút, không đều"]] }],
+          fb: "Cần thiết với bệnh nhân tim mạch. Huyết áp 150/90 vẫn làm được thủ thuật nhỏ; hoãn thủ thuật không cấp cứu khi huyết áp ≥ 180/110." },
+        { t: "Khám và chụp phim cận chóp chân răng 46", s: 5, p: 0,
+          r: [{ w: "card", h: "Khám trong miệng", rows: [["Răng 46", "Chỉ còn hai chân răng dưới mức nướu, lung lay độ II"], ["Nướu quanh 46", "Đỏ nhẹ"]] }, { w: "xray", x: "root", h: "Phim cận chóp răng 46", t: "Hai chân răng tách rời, tiêu xương quanh chân, không có tổn thương lớn quanh chóp." }],
+          fb: "Cần thiết: chân răng lung lay, tách rời → có thể nhổ ít sang chấn, không cần mở xương." },
+        { t: "Xét nghiệm lại toàn bộ đông máu và công thức máu", s: 0, p: -3,
+          r: [{ w: "nar", t: "Bệnh nhân phải chờ thêm hơn một giờ để có kết quả." }],
+          fb: "Không cần thiết: INR vừa đo sáng nay và ổn định." },
+        { t: "Chụp CT Cone Beam", s: -3, p: -3,
+          fb: "Không cần cho nhổ chân răng lung lay đơn giản." }
+      ]
+    },
+    {
+      ph: "Đánh giá", q: "Kết luận của bạn?", type: "one",
+      choices: [
+        { t: "Chân răng 46 có chỉ định nhổ; INR 2,6 trong khoảng cho phép, huyết áp chấp nhận được → nhổ tại phòng khám, không ngưng warfarin, chuẩn bị cầm máu tại chỗ; ưu tiên hẹn buổi sáng đầu tuần", s: 15, p: 5,
+          fb: "Đúng. Hẹn sớm trong ngày và đầu tuần để nếu có chảy máu thì vẫn còn thời gian xử trí." },
+        { t: "Bệnh nhân dùng chống đông nên phải chuyển bệnh viện", s: -3, p: -6,
+          fb: "Không cần thiết với INR 2,6 và một chân răng lung lay. Chuyển viện khi INR quá cao, cần phẫu thuật lớn hoặc có rối loạn đông máu khác." },
+        { t: "Hoãn lại, chờ bác sĩ tim mạch cho ngưng warfarin rồi mới nhổ", s: -8, p: -5,
+          fb: "Chưa đúng. Không cần ngưng thuốc cho thủ thuật này; ngưng thuốc làm tăng nguy cơ đột quỵ." },
+        { t: "Huyết áp 150/90 là quá cao, không làm gì hôm nay", s: -3, p: -5,
+          fb: "Chưa đúng. Ngưỡng nên hoãn thủ thuật không cấp cứu là khoảng 180/110 mmHg." }
+      ]
+    },
+    {
+      ph: "Điều trị", q: "Bạn nhổ răng thế nào?", type: "one",
+      choices: [
+        { t: "Gây tê tại chỗ (hút ngược trước khi bơm), nhổ ít sang chấn, đặt vật liệu cầm máu vào ổ răng, khâu mép lợi, cho cắn gạc 20–30 phút, chỉ cho về khi đã hết chảy máu", s: 15, p: 8,
+          r: [{ w: "nar", t: "Hai chân răng được lấy ra nhẹ nhàng. Sau 30 phút cắn gạc, ổ răng khô ráo." }],
+          fb: "Đúng: kiểm soát chảy máu bằng biện pháp tại chỗ thay vì can thiệp vào thuốc chống đông." },
+        { t: "Nhổ bình thường, cắn gạc 5 phút rồi cho về", s: -5, p: -3,
+          fb: "Chưa đủ. Bệnh nhân dùng warfarin cần vật liệu cầm máu, khâu và theo dõi tại chỗ đến khi hết chảy máu." },
+        { t: "Cho uống vitamin K trước khi nhổ để máu đông nhanh", s: -10, p: 0, crit: true,
+          end: { h: "Bác Bình có nguy cơ huyết khối", t: "Vitamin K đảo ngược tác dụng của warfarin. INR của bác Bình tụt thấp kéo dài nhiều ngày, bác sĩ tim mạch phải điều chỉnh lại thuốc vì nguy cơ đột quỵ tăng cao. Nha sĩ không tự ý dùng thuốc làm thay đổi tác dụng chống đông." },
+          fb: "Sai nghiêm trọng. Vitamin K đảo ngược warfarin, làm mất tác dụng phòng đột quỵ." },
+        { t: "Rạch lật vạt, mài xương rộng để lấy chân răng cho triệt để", s: -5, p: -3,
+          fb: "Chưa đúng. Chân răng đã lung lay; phẫu thuật rộng không cần thiết và làm tăng chảy máu." }
+      ]
+    },
+    {
+      ph: "Kê đơn", q: "Thuốc sau nhổ răng?", type: "one",
+      choices: [
+        { t: "Paracetamol khi đau; tránh ibuprofen, aspirin; không cần kháng sinh", s: 10, p: 4,
+          fb: "Đúng. Thuốc chống viêm không steroid làm tăng nguy cơ chảy máu khi dùng cùng warfarin. Nhổ chân răng đơn giản không cần kháng sinh." },
+        { t: "Ibuprofen 400 mg ngày 3 lần trong 3 ngày", s: -8, p: 0, crit: true,
+          end: { h: "Ổ răng chảy máu kéo dài", t: "Ibuprofen cộng với warfarin làm máu khó đông hơn. Đêm đó ổ răng chảy máu rỉ không cầm, chị Hoa phải đưa bác Bình đi cấp cứu." },
+          fb: "Sai. NSAID (như ibuprofen, aspirin) tăng nguy cơ chảy máu khi dùng cùng warfarin." },
+        { t: "Kê metronidazole để phòng nhiễm trùng", s: -8, p: 0,
+          fb: "Sai. Không có chỉ định kháng sinh; metronidazole còn tương tác làm tăng INR, tăng nguy cơ chảy máu." }
+      ]
+    },
+    {
+      ph: "Dặn dò", q: "Bạn dặn bác Bình và chị Hoa gì?", type: "one",
+      choices: [
+        { t: "Trong 24 giờ đầu không súc miệng mạnh, không khạc nhổ, không mút ổ răng, không dùng ống hút; ăn đồ mềm nguội; nếu rỉ máu thì cắn chặt gạc ẩm 20 phút; chảy máu không cầm thì gọi phòng khám hoặc đến cấp cứu; vẫn uống warfarin như thường lệ", s: 10, p: 8,
+          r: [{ w: "fam", t: "Tôi ghi lại rồi bác sĩ. Cảm ơn bác sĩ đã giải thích kỹ cho bố tôi." }],
+          fb: "Tốt. Hướng dẫn cụ thể giúp người nhà tự xử trí rỉ máu nhẹ và biết khi nào cần đi cấp cứu." },
+        { t: "Về súc miệng thật mạnh bằng nước muối cho sạch máu", s: -8, p: 0,
+          fb: "Sai. Súc mạnh làm bong cục máu đông, gây chảy máu lại." },
+        { t: "Tối nay bỏ một liều warfarin cho chắc", s: -8, p: 0,
+          fb: "Sai. Không tự ý thay đổi liều thuốc chống đông." }
+      ]
+    }
+  ],
+  end: {
+    good: { h: "Ca nhổ răng an toàn", t: "Bác Bình được theo dõi 30 phút, ổ răng khô ráo. Sáng hôm sau chị Hoa gọi báo không chảy máu thêm. Một tuần sau cắt chỉ, ổ răng lành tốt." },
+    ok: { h: "Nhổ răng xong", t: "Ca nhổ răng ổn, nhưng một vài bước còn làm tăng nguy cơ cho bệnh nhân. Xem lại phần nhận xét." }
+  },
+  sum: { dx: "Chân răng 46 lung lay có chỉ định nhổ; bệnh nhân rung nhĩ dùng warfarin, INR 2,6; tăng huyết áp", tx: "Không ngưng warfarin; INR trong 24 giờ; nhổ ít sang chấn, vật liệu cầm máu, khâu, cắn gạc; paracetamol thay NSAID; dặn dò chống chảy máu",
+    key: ["Không tự ý ngưng thuốc chống đông", "INR < 4 (đo trong 24–72 giờ) thì nhổ răng đơn giản được", "Tránh NSAID và các thuốc tương tác với warfarin"] }
+});
+/* Phim X-quang minh hoạ cho Mô Phỏng Nha Khoa (Version 2.5): vẽ SVG, không dùng ảnh thật */
+const SIM_XRAY = (() => {
+  const C = { bg: '#0B1214', soft: '#1A2327', bone: '#5F6E73', dentin: '#BFCACD', enamel: '#EEF4F5', pulp: '#36444A', hole: '#121A1C', ld: '#DCE6E8', note: '#FFD66B' };
+  let uid = 0;
+  // Răng hàm lớn hàm dưới (thân ở trên), gốc tọa độ ở giữa mặt nhai, cao ~170
+  const MOLAR = 'M-53 28C-55 6-40-2-26 0C-14 2-8 6 0 4C8 6 14 2 26 0C40-2 55 6 53 28L49 72C47 100 46 135 38 166C34 174 26 172 24 164C22 135 18 105 10 88C6 82-6 82-10 88C-18 105-22 135-24 164C-26 172-34 174-38 166C-46 135-47 100-49 72Z';
+  const MOLAR_CORE = 'M-43 30C-43 15-30 10-20 12C-10 14-4 16 0 15C4 16 10 14 20 12C30 10 43 15 43 30L42 66L-42 66Z';
+  const MOLAR_PULP = 'M-26 37C-27 29 27 29 26 37L24 62C22 70 15 74 12 84L28 160L24 162L8 93C4 87-4 87-8 93L-24 162L-28 160L-12 84C-15 74-22 70-24 62Z';
+  // Răng tiền hàm (một chân), thân ở trên
+  const PRE = 'M-30 26C-31 6-18-2 0 0C18-2 31 6 30 26L26 66C24 100 18 140 6 170C3 176-3 176-6 170C-18 140-24 100-26 66Z';
+  const PRE_CORE = 'M-22 28C-22 14-12 8 0 9C12 8 22 14 22 28L21 64L-21 64Z';
+  const PRE_PULP = 'M-10 34C-10 26 10 26 10 34L7 70L2 166L-2 166L-7 70Z';
+  // Răng cửa hàm trên (thân ở dưới), gốc tọa độ ở rìa cắn
+  const INC = 'M-24 0C-28-20-28-46-24-70C-20-100-14-140-6-178C-3-184 3-184 6-178C14-140 20-100 24-70C28-46 28-20 24 0C12 6-12 6-24 0Z';
+  const INC_CORE = 'M-17-6C-20-22-20-40-17-62L17-62C20-40 20-22 17-6Z';
+  const INC_PULP = 'M-7-30C-8-40-8-56-6-70L-3-170L3-170L6-70C8-56 8-40 7-30Z';
+  const INC_OPEN = 'M-24 0C-28-20-28-46-24-70C-21-96-18-118-16-138L-12-142L12-142L16-138C18-118 21-96 24-70C28-46 28-20 24 0C12 6-12 6-24 0Z';
+  const INC_OPEN_PULP = 'M-7-30C-9-46-10-60-9-74L-11-140L11-140L9-74C10-60 9-46 7-30Z';
+
+  function tooth(x, y, s, shape, core, pulp, o = {}) {
+    const id = 'xt' + (++uid);
+    const halo = o.halo === false ? '' : `<g clip-path="url(#${id}b)"><path d="${shape}" fill="none" stroke="${C.ld}" stroke-width="9" opacity=".55"/><path d="${shape}" fill="none" stroke="${C.hole}" stroke-width="${o.pdl || 5}"/></g>`;
+    return `<g transform="translate(${x} ${y}) scale(${s})${o.r ? ` rotate(${o.r})` : ''}">
+      <defs><clipPath id="${id}b">${o.flip ? `<rect x="-80" y="-400" width="160" height="${400 + (o.boneY || 0)}"/>` : `<rect x="-80" y="${o.boneY != null ? o.boneY : 74}" width="160" height="300"/>`}</clipPath><clipPath id="${id}t"><path d="${shape}"/></clipPath></defs>
+      ${halo}<path d="${shape}" fill="${C.dentin}"/>
+      <g clip-path="url(#${id}t)"><rect x="-80" y="${o.flip ? -66 : -20}" width="160" height="86" fill="${C.enamel}"/><path d="${core}" fill="${C.dentin}"/></g>
+      <path d="${pulp}" fill="${o.pulpFill || C.pulp}"/>${o.extra || ''}</g>`;
+  }
+  const bonePattern = id => `<pattern id="${id}" width="22" height="18" patternUnits="userSpaceOnUse"><rect width="22" height="18" fill="${C.bone}"/><ellipse cx="6" cy="5" rx="4" ry="2.4" fill="#4A575B"/><ellipse cx="16" cy="12" rx="3.4" ry="2" fill="#4E5B5F"/><ellipse cx="18" cy="3" rx="1.8" ry="1.2" fill="#7B898D"/><ellipse cx="7" cy="14" rx="2" ry="1.3" fill="#7B898D"/></pattern>`;
+  const blur = (id, s) => `<filter id="${id}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="${s}"/></filter>`;
+  const label = (x, y, tx, ty, t, anchor = 'start') => `<path d="M${tx} ${ty}L${x} ${y}" stroke="${C.note}" stroke-width="1.6"/><circle cx="${x}" cy="${y}" r="2.6" fill="${C.note}"/><text x="${tx + (anchor === 'end' ? -4 : 4)}" y="${ty + 4}" text-anchor="${anchor}" font-family="Be Vietnam Pro,system-ui,sans-serif" font-size="11.5" font-weight="700" fill="${C.note}">${t}</text>`;
+  function film(inner, defs, alt) {
+    return `<svg class="xr-svg" viewBox="0 0 320 210" role="img" aria-label="${alt}"><defs>${defs}</defs><rect width="320" height="210" rx="12" fill="${C.bg}"/>${inner}<circle cx="300" cy="18" r="4" fill="#2A3438"/><rect x="1" y="1" width="318" height="208" rx="12" fill="none" stroke="#2A3438" stroke-width="2"/></svg>`;
+  }
+  // Nền xương hàm dưới: mào xương ở crest
+  const lowerBone = (pid, crest = 108) => `<rect x="0" y="${crest}" width="320" height="${210 - crest}" fill="url(#${pid})"/><rect x="0" y="0" width="320" height="${crest}" fill="${C.soft}" opacity=".7"/>`;
+
+  const F = {
+    pulp() {
+      const p = 'bp' + (++uid), b = 'bl' + uid;
+      const caries = `<path d="M50 12C44 6 35 8 31 16C27 24 25 33 27 39C33 42 44 40 51 31Z" fill="${C.hole}" filter="url(#${b})"/>`;
+      const inner = lowerBone(p, 86) + tooth(42, 28, .72, PRE, PRE_CORE, PRE_PULP, { boneY: 80 }) + tooth(160, 26, .72, MOLAR, MOLAR_CORE, MOLAR_PULP, { boneY: 82, extra: caries }) + tooth(300, 28, .72, MOLAR, MOLAR_CORE, MOLAR_PULP, { boneY: 80 })
+        + label(190, 46, 210, 18, 'Sâu sát tủy') + label(138, 150, 112, 192, 'Chóp bình thường', 'end');
+      return film(inner, bonePattern(p) + blur(b, 1.2), 'Phim cận chóp răng 36: lỗ sâu sát buồng tủy, vùng chóp bình thường');
+    },
+    abscess() {
+      const p = 'bp' + (++uid), b = 'bl' + uid, b2 = 'bm' + uid;
+      const caries = `<path d="M-16 2C-8 -2 10-2 18 4C22 14 18 28 8 34C0 38-12 34-16 26C-20 18-20 8-16 2Z" fill="${C.hole}" filter="url(#${b})"/>`;
+      const inner = lowerBone(p, 86) + `<ellipse cx="137" cy="150" rx="21" ry="16" fill="${C.hole}" filter="url(#${b2})" opacity=".95"/>`
+        + tooth(42, 28, .72, PRE, PRE_CORE, PRE_PULP, { boneY: 80 }) + tooth(160, 26, .72, MOLAR, MOLAR_CORE, MOLAR_PULP, { boneY: 82, extra: caries }) + tooth(300, 28, .72, MOLAR, MOLAR_CORE, MOLAR_PULP, { boneY: 80 })
+        + label(162, 34, 196, 16, 'Sâu thông tủy') + label(128, 158, 104, 194, 'Thấu quang chóp', 'end');
+      return film(inner, bonePattern(p) + blur(b, 1.2) + blur(b2, 5), 'Phim cận chóp răng 46: thấu quang quanh chóp chân gần');
+    },
+    perio() {
+      const p = 'bp' + (++uid), b = 'bl' + uid;
+      const crest = 104, by = (crest - 18) / .7;
+      const defect = `<path d="M185 ${crest}L198 ${crest}L197 131L190 132Z" fill="${C.hole}" filter="url(#${b})"/>`;
+      const inner = lowerBone(p, crest) + `<path d="M0 74H320" stroke="${C.ld}" stroke-width="1.2" stroke-dasharray="4 5" opacity=".45"/>`
+        + tooth(88, 18, .7, MOLAR, MOLAR_CORE, MOLAR_PULP, { boneY: by }) + tooth(226, 18, .7, MOLAR, MOLAR_CORE, MOLAR_PULP, { boneY: by }) + defect
+        + `<path d="M122 76l7 4l-7 5z" fill="#F4F8F9"/><path d="M192 78l-7 4l7 5z" fill="#F4F8F9"/>`
+        + label(127, 81, 136, 46, 'Cao răng') + label(193, 122, 166, 196, 'Tiêu xương chéo', 'end') + label(282, crest, 312, 190, 'Mào xương thấp', 'end')
+;
+      return film(inner, bonePattern(p) + blur(b, 1.5), 'Phim cận chóp vùng răng 46: tiêu xương ngang tới một phần ba giữa chân răng, tiêu xương chéo');
+    },
+    wisdom() {
+      const p = 'bp' + (++uid);
+      const cv = 'M0 184C90 176 170 166 215 152C255 139 290 118 320 92';
+      const canal = `<path d="${cv}" fill="none" stroke="${C.ld}" stroke-width="16" opacity=".5"/><path d="${cv}" fill="none" stroke="#2C383C" stroke-width="10"/>`;
+      const inner = `<rect width="320" height="210" fill="url(#${p})"/><path d="M0 0H320V40C300 52 286 70 270 92C250 100 160 100 0 98Z" fill="${C.soft}"/>`
+        + canal + tooth(90, 58, .62, MOLAR, MOLAR_CORE, MOLAR_PULP, { halo: false })
+        + tooth(146, 88, .62, MOLAR, MOLAR_CORE, MOLAR_PULP, { r: -45, halo: false })
+        + `<path d="M192 159C205 155 220 150 236 144" fill="none" stroke="#1B2629" stroke-width="12" opacity=".6"/>`
+        + label(92, 84, 60, 26, 'Răng 37', 'end') + label(162, 100, 178, 22, 'Răng 38 lệch gần') + label(46, 181, 16, 202, 'Ống thần kinh răng dưới') + label(214, 152, 312, 194, 'Chân răng sẫm màu', 'end');
+      return film(inner, bonePattern(p), 'Phim toàn cảnh vùng răng 38 mọc lệch gần, chân răng chồng lên ống thần kinh răng dưới');
+    },
+    avulsion() {
+      const p = 'bp' + (++uid), cp = 'sc' + uid;
+      const socket = `<g transform="translate(124 196) scale(.7)"><defs><clipPath id="${cp}"><rect x="-60" y="-400" width="120" height="320"/></clipPath></defs><g clip-path="url(#${cp})"><path d="${INC}" fill="#263135" stroke="${C.ld}" stroke-width="6" stroke-opacity=".7"/></g></g>`;
+      const inner = `<rect width="320" height="140" fill="url(#${p})"/><rect y="140" width="320" height="70" fill="${C.soft}"/>`
+        + tooth(36, 196, .7, INC, INC_CORE, INC_PULP, { flip: true, halo: false }) + socket
+        + tooth(212, 196, .7, INC_OPEN, INC_CORE, INC_OPEN_PULP, { flip: true, halo: false }) + tooth(300, 196, .7, INC, INC_CORE, INC_PULP, { flip: true, halo: false })
+        + label(124, 108, 98, 26, 'Ổ răng 11 trống', 'end') + label(212, 99, 312, 26, 'Chóp 21 còn mở', 'end');
+      return film(inner, bonePattern(p), 'Phim cận chóp vùng răng cửa trên: ổ răng 11 trống, chóp răng 21 còn mở');
+    },
+    root() {
+      const p = 'bp' + (++uid), b = 'bl' + uid;
+      const rootM = 'M-14 0C-16 30-14 70-6 98C-3 104 3 104 6 98C12 70 14 30 12 0Z';
+      const roots = `<g transform="translate(160 96) scale(.85)">${[-24, 24].map(dx => `<g transform="translate(${dx} 0)"><path d="${rootM}" fill="none" stroke="${C.hole}" stroke-width="12" filter="url(#${b})"/><path d="${rootM}" fill="${C.dentin}"/><path d="M-3 4L-1 94L1 94L3 4Z" fill="${C.pulp}"/></g>`).join('')}</g>`;
+      const inner = lowerBone(p, 100) + tooth(46, 30, .72, PRE, PRE_CORE, PRE_PULP, { boneY: 88 }) + roots + tooth(298, 28, .72, MOLAR, MOLAR_CORE, MOLAR_PULP, { boneY: 90 })
+        + label(140, 140, 14, 194, 'Hai chân răng tách rời') + label(196, 150, 312, 194, 'Tiêu xương quanh chân', 'end');
+      return film(inner, bonePattern(p) + blur(b, 2), 'Phim cận chóp răng 46: còn hai chân răng tách rời');
+    }
+  };
+  return key => (F[key] ? F[key]() : '');
+})();
+/* ================= MÔ PHỎNG NHA KHOA (Version 2.5, beta) ================= */
+const SIM = { cur: null };
+const simWait = ms => new Promise(r => setTimeout(r, (reduced || window.__simFast) ? 0 : ms));
+const SIM_ICON = {
+  bell: '<svg class="i" viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z"/><path d="M10 20a2 2 0 0 0 4 0"/></svg>',
+  steth: '<svg class="i" viewBox="0 0 24 24"><path d="M6 3v6a5 5 0 0 0 10 0V3"/><path d="M11 14v2a5 5 0 0 0 10 0v-2"/><circle cx="21" cy="12" r="2"/></svg>',
+  clip: '<svg class="i" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V3h6v1M8.5 10h7M8.5 14h7M8.5 18h4"/></svg>',
+  film: '<svg class="i" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M7 15l3-4 3 3 2-2 3 3"/></svg>',
+  star: '<svg class="i" viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg>',
+  back: '<svg class="i" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>',
+  next: '<svg class="i" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>'
+};
+function simFace(o = {}) {
+  const sk = o.skin || '#F2C29B', IKc = IK;
+  if (o.kind === 'kid') return KID(0, 0, 1, { shirt: o.coat, hair: o.hair, sad: true, noLegs: true });
+  let hair, extra = '';
+  if (o.kind === 'woman') hair = `<path d="M-22 8q-1-26 22-26t22 26q-6-11-22-12t-22 12z" fill="${o.hair}"/><path d="M-21 4q-5 18 0 36l6-4q-4-14 0-30zM21 4q5 18 0 36l-6-4q4-14 0-30z" fill="${o.hair}"/>`;
+  else if (o.kind === 'old') hair = `<path d="M-20 6q0-12 6-16M20 6q0-12-6-16" fill="none" stroke="${o.hair}" stroke-width="5"/><path d="M-12-9q12-6 24 0" fill="none" stroke="${o.hair}" stroke-width="3"/>`;
+  else hair = `<path d="M-20 6q0-20 20-20t20 20q-8-8-20-8T-20 6z" fill="${o.hair}"/>`;
+  if (o.glasses) extra += `<circle cx="-7" cy="12" r="5.6" fill="none" stroke="${IKc}" stroke-width="1.8"/><circle cx="7" cy="12" r="5.6" fill="none" stroke="${IKc}" stroke-width="1.8"/><path d="M-1.4 12h2.8" stroke="${IKc}" stroke-width="1.8"/>`;
+  if (o.mustache) extra += `<path d="M-7 18q7-4 14 0q-7 3-14 0z" fill="${o.hair}"/>`;
+  if (o.swell) extra += `<ellipse cx="-12" cy="17" rx="9" ry="7.5" fill="#F08DA0" opacity=".75"/>`;
+  return PERSON(0, 0, 1, { coat: o.coat, tie: o.tie || '#FFFFFF', skin: sk, hair, extra });
+}
+function simAv(o, cls = '') {
+  const vb = o && o.kind === 'kid' ? '-26 -24 52 60' : '-31 -22 62 72';
+  return `<span class="sm-av ${cls}"><svg viewBox="${vb}" aria-hidden="true" stroke-linejoin="round" stroke-linecap="round">${simFace(o || {})}</svg></span>`;
+}
+const SIM_REC = { kind: 'woman', coat: '#FFD66B', hair: '#2A2F3A', tie: '#CF4C64' };
+const SIM_FAM = { kind: 'woman', coat: '#C9B8F0', hair: '#4A2E1C' };
+function simCond(l) {
+  const f = SIM.cur ? SIM.cur.flags : new Set();
+  if (l.if && !f.has(l.if)) return false;
+  if (l.not && l.not.some(x => f.has(x))) return false;
+  return true;
+}
+function simMax(c) {
+  return c.steps.reduce((a, st) => a + st.choices.map(x => x.s).sort((p, q) => q - p).slice(0, st.type === 'multi' ? st.k : 1).reduce((p, q) => p + Math.max(0, q), 0), 0);
+}
+function simGrade(st, ch) {
+  if (ch.crit) return ['crit', 'Sai nghiêm trọng'];
+  if (st.type === 'multi') return ch.s >= 4 ? ['good', 'Rất tốt'] : ch.s >= 1 ? ['ok', 'Có ích'] : ch.s === 0 ? ['meh', 'Chưa cần thiết'] : ['bad', 'Không nên'];
+  const best = Math.max(...st.choices.map(x => x.s));
+  return ch.s >= best * .8 ? ['good', 'Chính xác'] : ch.s > 0 ? ['ok', 'Chấp nhận được'] : ['bad', 'Chưa đúng'];
+}
+function simLineHTML(l, c) {
+  if (typeof l === 'string') l = { w: 'pt', t: l };
+  const t = esc(l.t || '');
+  if (l.w === 'nar') return `<div class="sm-nar">${t}</div>`;
+  if (l.w === 'card') return `<div class="sm-card"><div class="sm-card-h">${SIM_ICON.clip}<b>${esc(l.h)}</b></div><dl>${l.rows.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl></div>`;
+  if (l.w === 'xray') return `<figure class="sm-xray"><div class="sm-card-h">${SIM_ICON.film}<b>${esc(l.h)}</b></div>${SIM_XRAY(l.x)}<figcaption>${t}</figcaption></figure>`;
+  if (l.w === 'rec') return `<div class="sm-row rec">${simAv(SIM_REC)}<div class="sm-bub"><small>Lễ tân</small>${t}</div></div>`;
+  if (l.w === 'fam') return `<div class="sm-row fam">${simAv(SIM_FAM)}<div class="sm-bub"><small>${esc(c.fam || 'Người nhà')}</small>${t}</div></div>`;
+  return `<div class="sm-row pt">${simAv(c.pt.av)}<div class="sm-bub"><small>${esc(c.pt.name)}</small>${t}</div></div>`;
+}
+function simScroll() {
+  const a = $('#sim-act'); if (!a) return;
+  try { a.scrollIntoView({ block: 'end', behavior: reduced ? 'auto' : 'smooth' }); } catch {}
+}
+async function simLines(lines) {
+  const cur = SIM.cur, chat = $('#sim-chat');
+  for (const l0 of lines || []) {
+    if (SIM.cur !== cur) return;
+    const l = typeof l0 === 'string' ? { w: 'pt', t: l0 } : l0;
+    if (!simCond(l)) continue;
+    if (['pt', 'fam', 'rec'].includes(l.w) && !(reduced || window.__simFast)) {
+      chat.insertAdjacentHTML('beforeend', '<div class="sm-typing" aria-hidden="true"><i></i><i></i><i></i></div>'); simScroll();
+      await simWait(520); const ty = chat.querySelector('.sm-typing'); if (ty) ty.remove();
+      if (SIM.cur !== cur) return;
+    }
+    chat.insertAdjacentHTML('beforeend', simLineHTML(l, cur.c)); simScroll();
+    await simWait(l.w === 'xray' || l.w === 'card' ? 380 : 260);
+  }
+}
+function simMeters() {
+  const cur = SIM.cur; if (!cur) return;
+  const pct = Math.max(0, Math.min(100, Math.round(cur.score / cur.max * 100)));
+  const mood = cur.pat, face = mood >= 70 ? 'M8 14q4 4 8 0' : mood >= 45 ? 'M8 15h8' : 'M8 16q4-4 8 0';
+  $('#sim-meters').innerHTML = `<div class="sim-m sc"><span>${SIM_ICON.star}Điểm chuyên môn</span><b>${Math.max(0, cur.score)}<small>/${cur.max}</small></b><i style="--w:${pct}%"></i></div>
+    <div class="sim-m md ${mood >= 70 ? 'hi' : mood >= 45 ? 'mid' : 'lo'}"><span><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="9" cy="10" r=".8"/><circle cx="15" cy="10" r=".8"/><path d="${face}"/></svg>Bệnh nhân hài lòng</span><b>${mood}<small>/100</small></b><i style="--w:${mood}%"></i></div>`;
+}
+function simStepper() {
+  const cur = SIM.cur, phs = [];
+  cur.c.steps.forEach((s, i) => { if (!phs.length || phs[phs.length - 1].ph !== s.ph) phs.push({ ph: s.ph, i }); });
+  const curPh = cur.i >= 0 && cur.i < cur.c.steps.length ? cur.c.steps[cur.i].ph : null;
+  let past = true;
+  $('#sim-steps').innerHTML = phs.map(p => { const on = p.ph === curPh; if (on) past = false; const cls = cur.done ? 'done' : on ? 'on' : past ? 'done' : ''; return `<li class="${cls}"${on ? ' aria-current="step"' : ''}>${esc(p.ph)}</li>`; }).join('') + `<li class="${cur.done ? 'on' : ''}">Kết quả</li>`;
+  const on = $('#sim-steps li.on'); if (on) try { on.scrollIntoView({ block: 'nearest', inline: 'center' }); } catch {}
+}
+function simListHTML() {
+  const best = store.get('simBest', {}) || {};
+  return SIM_CASES.map(c => {
+    const b = best[c.id];
+    return `<article class="sim-case">
+      <div class="sc-top">${simAv(c.pt.av, 'lg')}<div class="sc-t"><span class="sc-lv lv-${c.level === 'Khó' ? 'hard' : c.level === 'Trung bình' ? 'mid' : 'easy'}">${esc(c.level)}</span><h3>${esc(c.title)}</h3><p>${esc(c.pt.name)}, ${c.pt.age} tuổi · ${esc(c.pt.job)}</p></div></div>
+      <p class="sc-c">“${esc(c.complaint)}”</p>
+      <div class="sc-tags">${c.tags.map(t => `<span>${esc(t)}</span>`).join('')}</div>
+      <div class="sc-foot">${b ? `<span class="sc-best">${SIM_ICON.star}Điểm cao nhất ${b.pct}%</span>` : '<span class="sc-best none">Chưa khám</span>'}<button class="btn btn-sm btn-scrub" type="button" data-simgo="${esc(c.id)}">${SIM_ICON.steth}${b ? 'Khám lại' : 'Nhận ca'}</button></div>
+    </article>`;
+  }).join('');
+}
+function simShow(view) {
+  $('#sim-list').hidden = view !== 'list'; $('#sim-play').hidden = view !== 'play'; $('#sim-end').hidden = view !== 'end';
+  document.body.classList.toggle('sim-playing', view === 'play');
+}
+function renderSim() {
+  SIM.cur = null;
+  $('#sim-cases').innerHTML = simListHTML();
+  simShow('list');
+}
+async function simStart(id) {
+  const c = SIM_CASES.find(x => x.id === id); if (!c) return;
+  SIM.cur = { c, i: -1, score: 0, max: simMax(c), pat: 70, flags: new Set(), hist: [], picks: [], busy: true, done: false, exitArm: 0 };
+  simShow('play');
+  $('#sim-exit').innerHTML = `${SIM_ICON.back}Danh sách ca`;
+  $('#sim-pt').innerHTML = `${simAv(c.pt.av, 'xl')}<div class="sp-t"><span class="eyebrow">Bệnh nhân</span><h3>${esc(c.pt.name)}</h3><p>${esc(c.pt.sex)}, ${c.pt.age} tuổi · ${esc(c.pt.job)}</p><p class="sp-c">Lý do đến khám: <b>${esc(c.complaint)}</b></p></div>`;
+  $('#sim-chat').innerHTML = `<div class="sm-start"><b>${esc(c.title)}</b><span>${esc(c.tags.join(' · '))}</span></div>`;
+  $('#sim-act').innerHTML = '';
+  simMeters(); simStepper();
+  try { window.scrollTo(0, 0); } catch {}
+  await simLines(c.intro);
+  if (SIM.cur && SIM.cur.c === c) simStep(0);
+}
+async function simStep(i) {
+  const cur = SIM.cur; if (!cur) return;
+  cur.i = i; cur.picks = []; cur.busy = true;
+  const st = cur.c.steps[i];
+  simStepper();
+  $('#sim-act').innerHTML = '';
+  $('#sim-chat').insertAdjacentHTML('beforeend', `<div class="sm-ph"><span>${esc(st.ph)}</span></div>`);
+  await simLines(st.say);
+  if (SIM.cur !== cur) return;
+  cur.busy = false;
+  simRenderOpts();
+}
+function simRenderOpts() {
+  const cur = SIM.cur, st = cur.c.steps[cur.i];
+  const left = st.type === 'multi' ? st.k - cur.picks.length : (cur.picks.length ? 0 : 1);
+  const head = `<div class="sim-q"><b>${esc(st.q)}</b>${st.type === 'multi' ? `<span class="sim-left">Còn ${left} lượt</span>` : ''}</div>`;
+  if (left <= 0) {
+    const last = cur.i === cur.c.steps.length - 1;
+    $('#sim-act').innerHTML = `<button class="btn btn-scrub sim-next" id="sim-next" type="button">${last ? 'Xem kết quả' : 'Tiếp tục'}${SIM_ICON.next}</button>`;
+    simScroll(); setTimeout(() => { try { $('#sim-next').focus({ preventScroll: true }); } catch {} }, 30);
+    return;
+  }
+  $('#sim-act').innerHTML = head + `<div class="sim-opts">${st.choices.map((ch, j) => cur.picks.includes(j) ? '' : `<button class="sim-opt${st.act ? ' act' : ''}" type="button" data-simpick="${j}"><span class="so-i">${st.act ? SIM_ICON.steth : String.fromCharCode(65 + j)}</span><span>${esc(ch.t)}</span></button>`).join('')}</div>`;
+  simScroll();
+}
+async function simPick(j) {
+  const cur = SIM.cur; if (!cur || cur.busy) return;
+  const st = cur.c.steps[cur.i], ch = st.choices[j];
+  if (!ch || cur.picks.includes(j)) return;
+  cur.busy = true; cur.picks.push(j);
+  $('#sim-act').innerHTML = '';
+  const chat = $('#sim-chat');
+  chat.insertAdjacentHTML('beforeend', st.act
+    ? `<div class="sm-row doc act"><div class="sm-bub"><small>${SIM_ICON.steth}Bạn thực hiện</small>${esc(ch.t)}</div></div>`
+    : `<div class="sm-row doc"><div class="sm-bub"><small>Bạn (bác sĩ)</small>${esc(ch.t)}</div></div>`);
+  simScroll();
+  if (ch.flag) cur.flags.add(ch.flag);
+  await simWait(300);
+  await simLines(ch.r);
+  if (SIM.cur !== cur) return;
+  cur.score += ch.s; cur.pat = Math.max(0, Math.min(100, cur.pat + (ch.p || 0)));
+  const [g, lab] = simGrade(st, ch);
+  const fbt = simFbText(ch.fb, g);
+  if (ch.crit) cur.crit = cur.crit || ch;
+  let h = cur.hist.find(x => x.i === cur.i); if (!h) { h = { i: cur.i, picks: [] }; cur.hist.push(h); } h.picks.push(j);
+  chat.insertAdjacentHTML('beforeend', `<div class="sm-fb ${g}"><div class="fb-h"><b>${lab}</b><span>${ch.s > 0 ? '+' : ch.s < 0 ? '−' : ''}${Math.abs(ch.s)} điểm</span>${ch.p ? `<span class="fb-p">${ch.p > 0 ? '+' : '−'}${Math.abs(ch.p)} hài lòng</span>` : ''}</div><p>${esc(fbt)}</p></div>`);
+  try { beep(g === 'good' || g === 'ok'); } catch {}
+  simMeters();
+  cur.busy = false;
+  simRenderOpts();
+}
+// Bỏ chữ mở đầu trùng với nhãn đánh giá (vd. nhãn “Rất tốt” và câu “Rất tốt. …”)
+function simFbText(t, g) {
+  const re = { good: /^(Rất tốt|Tốt|Đúng|Chính xác|Bắt buộc|Cần thiết)[.:,]\s+/, crit: /^(Sai nghiêm trọng|Sai)[.:,]\s+/, bad: /^(Sai|Chưa đúng|Không nên)[.:,]\s+/ }[g];
+  const out = re ? t.replace(re, '') : t;
+  return out.charAt(0).toUpperCase() + out.slice(1);
+}
+function simOutcome(cur) {
+  const c = cur.c, pct = Math.max(0, Math.round(cur.score / cur.max * 100));
+  if (cur.crit && cur.crit.end) return { tone: 'bad', ...cur.crit.end, pct };
+  const fl = (c.end.flags || []).find(f => f.f.some(x => cur.flags.has(x)));
+  if (fl) return { tone: 'bad', h: fl.h, t: fl.t, pct };
+  if (cur.crit) return { tone: 'bad', h: 'Ca bệnh có sai sót nghiêm trọng', t: 'Một lựa chọn của bạn có thể gây hại cho bệnh nhân. Xem lại phần nhận xét để biết vì sao.', pct };
+  return pct >= 80 ? { tone: 'good', ...c.end.good, pct } : { tone: 'ok', ...c.end.ok, pct };
+}
+function simFinish() {
+  const cur = SIM.cur; if (!cur) return;
+  cur.done = true; simStepper();
+  const c = cur.c, o = simOutcome(cur);
+  const stars = cur.crit ? (o.pct >= 60 ? 1 : 0) : o.pct >= 85 ? 3 : o.pct >= 65 ? 2 : o.pct >= 40 ? 1 : 0;
+  const best = store.get('simBest', {}) || {};
+  if (!best[c.id] || best[c.id].pct < o.pct) { best[c.id] = { pct: o.pct, stars }; store.set('simBest', best); }
+  const rev = c.steps.map((st, i) => {
+    const h = cur.hist.find(x => x.i === i) || { picks: [] };
+    const k = st.type === 'multi' ? st.k : 1;
+    const order = st.choices.map((x, j) => j).sort((a, b) => st.choices[b].s - st.choices[a].s), bestSet = order.slice(0, k);
+    const allBest = h.picks.every(j => bestSet.includes(j)) && h.picks.length === k;
+    const mine = h.picks.map(j => { const ch = st.choices[j], [g, lab] = simGrade(st, ch); return `<li class="${g}"><span class="rv-g">${lab}</span>${esc(ch.t)}</li>`; }).join('');
+    const sug = allBest ? '' : `<div class="rv-best"><b>Nên chọn:</b><ul>${bestSet.filter(j => !h.picks.includes(j)).map(j => `<li>${esc(st.choices[j].t)}<small>${esc(st.choices[j].fb)}</small></li>`).join('')}</ul></div>`;
+    return `<details class="rv-step ${allBest ? 'ok' : 'miss'}"${allBest ? '' : ' open'}><summary><span class="rv-n">${i + 1}</span><span><b>${esc(st.ph)}</b>${esc(st.q)}</span><span class="rv-st">${allBest ? 'Tối ưu' : 'Cần xem lại'}</span></summary><ul class="rv-mine">${mine}</ul>${sug}</details>`;
+  }).join('');
+  const starHTML = [0, 1, 2].map(n => `<span class="${n < stars ? 'on' : ''}">${SIM_ICON.star}</span>`).join('');
+  $('#sim-end').innerHTML = `<div class="sim-res ${o.tone}">
+      <div class="sr-top">${simAv(c.pt.av, 'xl')}<div><span class="eyebrow">Kết cục · ${esc(c.title)}</span><h2>${esc(o.h)}</h2><p>${esc(o.t)}</p></div></div>
+      <div class="sr-score"><div class="sr-big"><b>${o.pct}%</b><span>điểm chuyên môn</span></div><div class="sr-stars" aria-label="${stars} trên 3 sao">${starHTML}</div><div class="sr-mood"><b>${cur.pat}/100</b><span>bệnh nhân hài lòng</span></div></div>
+    </div>
+    <div class="panel sim-sum"><h3>Tóm tắt ca bệnh</h3><dl><div><dt>Chẩn đoán</dt><dd>${esc(c.sum.dx)}</dd></div><div><dt>Hướng xử trí</dt><dd>${esc(c.sum.tx)}</dd></div></dl>
+      <h4>Điểm mấu chốt</h4><ul>${c.sum.key.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>
+    <div class="panel sim-rev"><h3>Xem lại từng bước</h3>${rev}</div>
+    <div class="sim-end-act"><button class="btn btn-scrub" type="button" data-simgo="${esc(c.id)}">${SIM_ICON.steth}Khám lại ca này</button><button class="btn" type="button" id="sim-to-list">Chọn ca khác</button></div>
+    <p class="fine sim-note">Ca bệnh giả định để luyện tư duy lâm sàng; thuốc và phác đồ chỉ mang tính tham khảo.</p>`;
+  simShow('end');
+  try { window.scrollTo(0, 0); } catch {}
+  try { beep(o.tone !== 'bad'); } catch {}
+}
+function simExit() {
+  const cur = SIM.cur, b = $('#sim-exit');
+  if (cur && !cur.done && cur.hist.length && Date.now() - cur.exitArm > 3000) {
+    cur.exitArm = Date.now(); b.innerHTML = `${SIM_ICON.back}Bấm lần nữa để rời ca`;
+    setTimeout(() => { if (SIM.cur === cur && b) b.innerHTML = `${SIM_ICON.back}Danh sách ca`; }, 3000);
+    return;
+  }
+  renderSim(); try { window.scrollTo(0, 0); } catch {}
+}
+document.addEventListener('click', e => {
+  const t = e.target.closest('button'); if (!t) return;
+  if (t.dataset.simgo) { simStart(t.dataset.simgo); return; }
+  if (t.dataset.simpick != null) { simPick(+t.dataset.simpick); return; }
+  if (t.id === 'sim-next') { const cur = SIM.cur; if (!cur || cur.busy) return; if (cur.i + 1 < cur.c.steps.length) simStep(cur.i + 1); else simFinish(); return; }
+  if (t.id === 'sim-exit') { simExit(); return; }
+  if (t.id === 'sim-to-list') { renderSim(); try { window.scrollTo(0, 0); } catch {} return; }
+  if (t.id === 'go-learn') { setLobbyView('learn', true); return; }
+  if (t.id === 'learn-back') { setLobbyView('main', true); return; }
+  if (t.id === 'go-sim') { go('sim', 'Đang mở phòng khám mô phỏng'); return; }
+});
+/* Menu chính: 2 mục (Ôn Luyện Kiến Thức, Mô Phỏng Nha Khoa); mục Ôn Luyện chứa các chức năng cũ */
+function setLobbyView(v, focus) {
+  S.lobbyView = v === 'learn' ? 'learn' : 'main';
+  const m = $('#menu-main'), l = $('#menu-learn'); if (!m || !l) return;
+  m.hidden = S.lobbyView === 'learn'; l.hidden = S.lobbyView !== 'learn';
+  if (focus) setTimeout(() => { try { (S.lobbyView === 'learn' ? $('#go-quiz') : $('#go-learn')).focus({ preventScroll: true }); } catch {} }, 30);
+}
+// Cho phép kiểm thử tự động đọc trạng thái ca bệnh (chỉ đọc)
+try { Object.defineProperty(window, '__sim', { value: { get cur() { return SIM.cur; }, cases: SIM_CASES }, configurable: true }); } catch {}
+/* @@V25-JS-END */
 /* @@MM-JS */
 /* ================= SƠ ĐỒ TƯ DUY (Beta 2.2) ================= */
 // Dữ liệu: { id bài: { c: chủ đề, b: [{ t: nhánh, k: [ý] }] } }; ý là chuỗi, [ý, dòng phụ] hoặc { w: từ, m: nghĩa, k: keyword }
