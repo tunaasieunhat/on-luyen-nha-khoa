@@ -1,8 +1,9 @@
-Ôn Luyện Nha Khoa – Version 2.5.
+Ôn Luyện Nha Khoa – Version 2.5.1.
 
-- Mới: Mô Phỏng Nha Khoa (beta). Bạn vào vai bác sĩ, đi hết một ca bệnh dạng hội thoại: đón bệnh nhân, hỏi bệnh (số câu hỏi có hạn), khám, chọn cận lâm sàng (có phim X-quang minh hoạ), chẩn đoán, điều trị và dặn dò.
-- 6 ca bệnh: viêm tủy không hồi phục, áp xe răng ở người dị ứng penicillin, viêm nha chu ở người hút thuốc và tiểu đường, viêm quanh thân răng khôn, trẻ ngã rơi răng cửa vĩnh viễn, nhổ răng cho người đang uống warfarin.
-- Mỗi lựa chọn có điểm, ảnh hưởng mức hài lòng của bệnh nhân và có thể dẫn tới kết cục xấu (dị ứng thuốc, đột quỵ, mất răng…). Cuối ca có điểm, số sao, tóm tắt ca bệnh và phần xem lại từng bước kèm giải thích.
-- Menu chính gọn còn 2 mục: Ôn Luyện Kiến Thức (bên trong vẫn đủ Bắt đầu, Phòng Thi, Ôn tập lý thuyết, Thêm câu hỏi, Flashcard) và Mô Phỏng Nha Khoa. Nút Quay lại của điện thoại đưa bạn về đúng màn trước.
+- Mô Phỏng Nha Khoa dễ nhìn hơn: màn khám giờ là một khung hội thoại cố định, các lựa chọn nằm ngay bên dưới khung, không còn phải kéo trang lên xuống. Phim X-quang hiện trọn trong khung.
+- Khó hơn nhiều. Chế độ Bác sĩ (mặc định): không gợi ý, không hiện điểm từng bước, thứ tự đáp án xáo trộn mỗi lần chơi, các đáp án dài ngắn như nhau và nghe đều hợp lý; chọn sai nghiêm trọng là ca bệnh kết thúc ngay. Nhận xét đầy đủ chỉ hiện ở cuối ca.
+- Ca cấp cứu có đếm giờ: do dự quá lâu là bệnh nhân không chờ được. Thêm 2 ca mới: phản vệ trên ghế nha và đau hàm trái do hội chứng vành cấp (có bước ép tim, sốc điện). 6 ca cũ được viết lại khó hơn.
+- Chế độ Luyện tập: vẫn có nhận xét và điểm sau mỗi lựa chọn, không đếm giờ.
+- Sảnh gọn hơn: bỏ hộp chữ phía trên menu chính.
 
 Cài: tải file OnLuyenNhaKhoa.apk bên dưới, mở file và bấm Cập nhật.
