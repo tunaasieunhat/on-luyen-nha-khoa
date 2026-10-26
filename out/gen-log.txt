@@ -1,0 +1,97 @@
+1/83 wisdom rec Mai Anh  cer=0.138 dur=4.94 cps=18.2 f0=205.1 try=4 | Bạn Lan 22 tuổi, sinh viên, đau vùng răng trong cùng hàm dưới trái hai ngày nay.
+2/83 wisdom pt Trúc Ly  cer=0.027 dur=7.44 cps=20.4 f0=265.4 try=1 | Em chào bác sĩ, chỗ răng trong cùng hàm dưới bên trái đau 2 hôm nay, nha đau miệng có mùi, bạn em bảo uống kháng sinh là khỏi, bác sĩ kê cho em nhé.
+3/83 wisdom pt Trúc Ly  cer=0.0 dur=2.09 cps=20.6 f0=251.3 try=1 | Em không sốt, há miệng và nuốt bình thường
+4/83 wisdom pt Trúc Ly  cer=0.048 dur=3.13 cps=20.1 f0=242.6 try=1 | Em uống Amoxicillin của bạn còn thừa được 2 ngày mà không đỡ
+5/83 wisdom pt Trúc Ly  cer=0.022 dur=2.05 cps=23.4 f0=240.0 try=1 | Em không dị ứng, không bệnh dì, không mang thai
+6/83 wisdom pt Trúc Ly  cer=0.0 dur=2.06 cps=18.4 f0=275.9 try=1 | Năm ngoái bị một lần vài ngày tự hết
+7/83 wisdom pt Trúc Ly  cer=0.026 dur=2.28 cps=17.5 f0=238.4 try=1 | Khó chảy lắm, chạm vào là đau nên em né.
+8/83 wisdom pt Trúc Ly  cer=0.333 dur=0.71 cps=14.1 f0=245.0 try=4 | kết đoạn ạ
+9/83 wisdom pt Trúc Ly  cer=0.0 dur=1.14 cps=17.5 f0=255.2 try=1 | Dạ, vậy em hiểu rồi.
+10/83 avulsion rec Mai Anh  cer=0.051 dur=6.07 cps=16.8 f0=200.2 try=1 | Chị Mai gọi điện, giọng rất hoàng, bé An 9 tuổi ngã xe đạp ở sân trường, rơi hẳn một răng cửa trên.
+11/83 avulsion fam Ngọc Linh  cer=0.014 dur=4.27 cps=17.3 f0=199.3 try=1 | Mác sĩ ơi, tôi nhặt được răng rồi nhưng dính đầy đất, giờ tôi phải làm gì?
+12/83 avulsion fam Ngọc Linh  cer=0.079 dur=3.88 cps=17.8 f0=209.3 try=1 | Hello, bác sĩ ơi, thôi tôi bỏ răng vào túi áo rồi trở cháu đến luôn.
+13/83 avulsion fam Ngọc Linh  cer=0.0 dur=4.54 cps=16.5 f0=199.1 try=1 | Cháu sợ quá không cho cắm lại.  Tôi ngâm răng vào sữa rồi đưa cháu đến ngay.
+14/83 avulsion fam Ngọc Linh  cer=0.086 dur=2.1 cps=17.6 f0=202.5 try=1 | Vâng, cây ngâm nước lọc rồi đến ngay.
+15/83 avulsion fam Ngọc Linh  cer=0.0 dur=2.96 cps=19.3 f0=197.3 try=1 | Cháu khóc quá không ngậm được tôi gói tạm vào khăn ướt.
+16/83 avulsion pt Trúc Ly kid cer=0.111 dur=1.09 cps=20.2 f0=343.0 try=1 | Bác sĩ ơi, chào đau!
+17/83 avulsion fam Ngọc Linh  cer=0.158 dur=2.45 cps=16.7 f0=206.5 try=1 | Cháu không ngất, không nồn, chị cháy cam
+18/83 avulsion fam Ngọc Linh  cer=0.223 dur=5.31 cps=18.3 f0=194.9 try=2 | ngã lúc 3 giờ 10, giờ gần 3 giờ 40, sang nằm dưới đất khoảng 5 phút rồi tôi mới ngâm.
+19/83 avulsion fam Ngọc Linh  cer=0.021 dur=2.63 cps=19.0 f0=198.6 try=1 | tiêm đủ theo chương trình mỗi nhắc tôi không nhớ.
+20/83 avulsion fam Ngọc Linh  cer=0.0 dur=1.27 cps=18.9 f0=195.0 try=1 | không dị ứng khỏe mạnh.
+21/83 avulsion fam Ngọc Linh  cer=0.0 dur=1.13 cps=16.8 f0=208.2 try=4 | sân đất sau trường.
+22/83 avulsion fam Ngọc Linh  cer=0.0 dur=0.46 cps=10.9 f0=199.8 try=1 | Chưa
+23/83 avulsion fam Ngọc Linh  cer=0.115 dur=1.54 cps=17.5 f0=190.0 try=1 | Tôi ghi lại hết số bác sĩ
+24/83 warfarin rec Mai Anh  cer=0.157 dur=4.89 cps=17.4 f0=194.4 try=1 | Bác Bình 68 tuổi muốn nhổ một chân răng hàm dưới phai, con gái Bác đi cùng
+25/83 warfarin pt Phạm Tuyên old cer=0.071 dur=5.74 cps=18.1 f0=95.2 try=1 | Vạc sĩ nhổ giúp tôi cái chân răng này, nó lung lành, ăn vướng lắm.  Tôi đang uống thuốc chống đông đấy.
+26/83 warfarin pt Phạm Tuyên old cer=0.02 dur=3.61 cps=14.4 f0=96.4 try=1 | Dung nhĩ ba năm nay uống Warfarin mỗi tối đơn đây.
+27/83 warfarin fam Ngọc Huyền  cer=0.256 dur=2.74 cps=16.8 f0=223.8 try=1 | Có đây, lần gần nhất tuần trước, 2,6.
+28/83 warfarin fam Ngọc Huyền  cer=0.205 dur=4.22 cps=19.0 f0=219.6 try=1 | Tuần trước 2,6, tháng này bác sĩ vừa tăng liều vì lần trước y nở giờ thấp.
+29/83 warfarin pt Phạm Tuyên old cer=0.025 dur=5.73 cps=14.5 f0=96.4 try=2 | Tuần này bác sĩ tiết niệu cho tôi uống Ciproflosacin, huyết áp thì uống Amlodipin.
+30/83 warfarin pt Phạm Tuyên old cer=0.097 dur=2.02 cps=15.8 f0=94.6 try=1 | lần trước máu gì cả tôi mới cầm.
+31/83 warfarin pt Phạm Tuyên old cer=0.0 dur=0.49 cps=12.2 f0=94.3 try=1 | Không.
+32/83 warfarin pt Phạm Tuyên old cer=0.087 dur=1.45 cps=17.2 f0=104.8 try=1 | Không, chỉ Dung nghĩ thôi
+33/83 warfarin pt Phạm Tuyên old cer=0.048 dur=1.2 cps=18.3 f0=96.4 try=1 | Thỉnh thoảng mụt chén
+34/83 warfarin fam Ngọc Huyền  cer=0.0 dur=1.27 cps=18.1 f0=214.0 try=1 | Tôi ghi lại rồi bác sĩ.
+35/83 cardiac rec Mai Anh  cer=0.153 dur=5.43 cps=18.6 f0=213.9 try=1 | Chú Long 58 tuổi đau răng hàm dưới trái. Chú vừa leo cầu thang lên tầng 2 trông hơi mệt.
+36/83 cardiac pt Xuân Vĩnh  cer=0.008 dur=5.96 cps=20.3 f0=106.4 try=1 | Hai tuần nay chú cứ đau âm ở chỗ răng hàm dưới bên trái, hôm nay đau nhiều quá, từ lúc đi bộ đến đây tới giờ vẫn chưa đỡ.
+37/83 cardiac pt Xuân Vĩnh  cer=0.082 dur=8.52 cps=18.0 f0=107.9 try=1 | Hay đâu khi leo cầu thang, khuân vác, ngồi nghỉ 5 phút là hết. Hôm nay đau từ 20 phút trước, ngồi nghỉ vẫn không hết, hơi tức ngực, mỏi vai trái.
+38/83 cardiac pt Xuân Vĩnh  cer=0.02 dur=2.8 cps=18.9 f0=97.4 try=1 | Chú không chỉ được, cứ đau cả vũng hàm dưới bên trái.
+39/83 cardiac pt Xuân Vĩnh  cer=0.103 dur=2.1 cps=19.5 f0=95.9 try=1 | Không, ăn ổ nóng lạnh đều bình thường.
+40/83 cardiac pt Xuân Vĩnh  cer=0.077 dur=2.27 cps=18.9 f0=102.8 try=1 | Có một hôi da nhiều, hơi khó thở, buồn nôn.
+41/83 cardiac pt Xuân Vĩnh  cer=0.106 dur=3.38 cps=20.4 f0=108.6 try=4 | huyết áp cao, mỡ máu cao không uống thuốc đều, hút thuốc 30 năm.
+42/83 cardiac pt Xuân Vĩnh  cer=0.053 dur=3.01 cps=19.9 f0=106.6 try=1 | không dị ứng, không đau dạ dày, không ngủ thuốc chống đông.
+43/83 cardiac pt Xuân Vĩnh  cer=0.0 dur=0.4 cps=15.0 f0=111.4 try=1 | Không.
+44/83 cardiac pt Xuân Vĩnh  cer=0.0 dur=0.93 cps=14.0 f0=114.9 try=3 | Chưa bao giờ.
+45/83 cardiac pt Xuân Vĩnh  cer=0.0 dur=0.66 cps=16.7 f0=108.7 try=2 | Chắc không?
+46/83 ecc rec Mai Anh  cer=0.076 dur=4.17 cps=16.5 f0=198.7 try=1 | Chị Linh đưa bé Na 4 tuổi đến khám, bé nét sau lưng mẹ ôm máp phải
+47/83 ecc fam Quỳnh Anh  cer=0.0 dur=8.2 cps=16.7 f0=226.6 try=1 | Bác sĩ ơi, răng cửa của cháu đen hết rồi, mấy hôm nay ăn kẹo là cháu kêu buốt bên phải, răng sữa rồi cũng thay, có cần chữa không bác sĩ?
+48/83 ecc fam Quỳnh Anh  cer=0.0 dur=5.1 cps=19.8 f0=218.6 try=1 | Tối nào cháu cũng ngậm bình sữa công thức pha thêm đường mới ngủ được, nửa đêm dậy đòi thêm một bình.
+49/83 ecc fam Quỳnh Anh  cer=0.026 dur=4.6 cps=17.2 f0=228.9 try=1 | Cháu tự đánh buổi sáng thôi. Tôi mua kem trẻ em không có flu vì sợ cháu nuốt.
+50/83 ecc fam Quỳnh Anh  cer=0.158 dur=2.43 cps=16.5 f0=205.2 try=3 | chắc 6-7 lần, cháu ăn vặt suốt ngày.
+51/83 ecc fam Quỳnh Anh  cer=0.012 dur=5.03 cps=17.1 f0=216.4 try=1 | Cháu chỉ kêu buốt khi ăn kẹo, xúc miệng là hết, đêm ngủ không kêu đau, chưa thấy sưng.
+52/83 ecc fam Quỳnh Anh  cer=0.0 dur=1.46 cps=16.4 f0=221.2 try=1 | Cháu khỏe không dị ứng
+53/83 ecc fam Quỳnh Anh  cer=0.042 dur=1.61 cps=16.1 f0=223.1 try=1 | mà nội trông sáng đi lớp.
+54/83 ecc fam Quỳnh Anh  cer=0.0 dur=4.07 cps=16.2 f0=220.0 try=1 | Vâng, tối nay tôi thử cho cháu uống nước lọc sau sữa, bỏ dần bình."
+55/83 herpes rec Mai Anh  cer=0.094 dur=3.79 cps=17.7 f0=201.9 try=2 | Chị trang bé bé binh ba tuổi vào, bé cuối khóc chảy nhiều nước xãi
+56/83 herpes fam Đoan Trang  cer=0.099 dur=8.97 cps=17.7 f0=240.7 try=1 | Vác sĩ ơi, cháu xốt 2 hôm nay, giờ lợi xương đỏ trong miệng red lắm tấm, không chịu ăn gì, có phải nhiễm chủng răng không, cho cháu kháng sinh được không ạ?
+57/83 herpes fam Đoan Trang  cer=0.295 dur=4.84 cps=16.5 f0=243.6 try=1 | Sốt 38,8 độ từ 2 hôm trước. Hôm qua mới thấy lợi xưng và loét.
+58/83 herpes fam Đoan Trang  cer=0.031 dur=3.9 cps=17.2 f0=255.4 try=1 | Cháu uống ít, tá sáng này ít ướt hơn mọi ngày, nhưng vẫn chơi được.
+59/83 herpes fam Đoan Trang  cer=0.0 dur=1.29 cps=19.4 f0=239.3 try=1 | Không thấy gì ở tay chân.
+60/83 herpes fam Đoan Trang  cer=0.017 dur=3.57 cps=16.8 f0=236.3 try=1 | Bố cháu tuần trước bị nổi mụ nước ở môi, vẫn hôn cháu suốt.
+61/83 herpes fam Đoan Trang  cer=0.032 dur=2.28 cps=14.0 f0=229.5 try=2 | tôi cho uống paracetamol hạ xốt.
+62/83 herpes fam Đoan Trang  cer=0.0 dur=1.65 cps=13.3 f0=248.2 try=1 | Có cháu hay ngậm tay?
+63/83 denture rec Mai Anh  cer=0.154 dur=4.74 cps=16.9 f0=198.4 try=2 | Bà Hạnh 74 tuổi đeo hàm giả tháo lắp toàn bộ hai hàm, đến vì sát miệng.
+64/83 denture pt Quỳnh Anh old cer=0.04 dur=8.43 cps=15.4 f0=205.0 try=1 | Bác sĩ ơi, bà đeo hàm thấy rát rát cả vòm, ăn mặn là sót. Khóe miệng thì nứt mãi không lành, hàm trên lòng lắm, phải dùng kêu rán.
+65/83 denture pt Quỳnh Anh old cer=0.086 dur=5.7 cps=14.7 f0=211.9 try=1 | Đeo hơn 10 năm, bà đeo cả lúc ngủ cho khỏi móng, sáng da tráng qua nước là đeo lại.
+66/83 denture pt Quỳnh Anh old cer=0.073 dur=5.46 cps=15.6 f0=215.6 try=1 | Bà đi tiểu đường, tim đập không đều phải uống warfarin thêm thuốc xịt Hencoticoy.
+67/83 denture pt Quỳnh Anh old cer=0.037 dur=3.45 cps=16.5 f0=211.2 try=1 | Hàm trên lỏng ăn hay rơi, nhét cũng yếu hơn trước nhiều.
+68/83 denture pt Quỳnh Anh old cer=0.111 dur=2.11 cps=13.7 f0=199.2 try=1 | Bảy tháng nay, ăn mặn là sót.
+69/83 denture pt Quỳnh Anh old cer=0.0 dur=1.81 cps=17.1 f0=189.2 try=1 | Có đêm hay phải dậy uống nước
+70/83 denture pt Quỳnh Anh old cer=0.077 dur=1.78 cps=15.7 f0=202.8 try=1 | Bà không hút, không ăn chầu
+71/83 tmd rec Mai Anh  cer=0.19 dur=3.8 cps=17.4 f0=200.8 try=1 | Vì 24 tuổi, sinh viên năm cuối, đến vì đau vùng hàm phải.
+72/83 tmd pt Ngọc Linh  cer=0.02 dur=8.53 cps=18.5 f0=193.5 try=1 | Em đau ở trước tai bên phải, nhai lâu làm mỏi, há miệng thì kêu lục cục. Em sợ bị lịch hàm. Bạn em bảo phải mái răng cho khớp cắn đều mới hết, có đúng không ạ?
+73/83 tmd pt Ngọc Linh  cer=0.0 dur=4.35 cps=16.3 f0=192.7 try=1 | đau trước tai và má phải, sáng dậy mỏi hàm, nhai đồ dai lâu là đau hơn.
+74/83 tmd pt Ngọc Linh  cer=0.055 dur=5.36 cps=17.7 f0=204.8 try=1 | Anh đang làm luận văn, căng thẳng lắm hay cắn chặt răng khi tập trung, nhà kẹo cao su cả ngày.
+75/83 tmd pt Ngọc Linh  cer=0.0 dur=1.24 cps=18.5 f0=192.3 try=3 | Chưa bao giờ bị kẹt cả.
+76/83 tmd pt Ngọc Linh  cer=0.087 dur=2.46 cps=19.5 f0=183.2 try=1 | hay đau đau vùng thấy dương phải tại không sao.
+77/83 tmd pt Ngọc Linh  cer=0.0 dur=0.68 cps=11.8 f0=188.8 try=2 | không ạ?
+78/83 tmd pt Ngọc Linh  cer=0.022 dur=2.79 cps=17.2 f0=194.9 try=1 | Em đỡ nhiều rồi, nhưng sáng ngủ dậy vẫn mỏi ham.
+79/83 tmd pt Ngọc Linh  cer=0.0 dur=1.19 cps=16.0 f0=192.3 try=1 | Vậy em yên tâm rồi
+80/83 hypo rec Mai Anh  cer=0.196 dur=6.71 cps=17.3 f0=197.4 try=3 | Chú Phúc 63 tuổi bị tiểu đường, hẹn nhổ chân răng 45 lúc 10 giờ, chú đến đúng giờ ngồi chờ hơi lâu.
+81/83 hypo pt Minh Đức old cer=0.041 dur=4.83 cps=12.6 f0=144.9 try=1 | Nhổ, nhổ nhanh đi bác sĩ, sao chú thấy? Bồn trồn quá!
+82/83 hypo pt Minh Đức old cer=0.075 dur=3.45 cps=15.1 f0=136.3 try=1 | Tiếm, tiếm rồi, sợ nhổ răng lên, chưa ăn gì.
+83/83 hypo pt Minh Đức old cer=0.032 dur=2.32 cps=14.2 f0=157.4 try=1 | Chú thấy đỡ hẳn rồi, hết ruôn rồi.
+Tệ nhất:
+  wisdom 0.333 Kế toán ạ. | kết đoạn ạ
+  herpes 0.295 Sốt ba mươi tám phẩy tám độ từ hai hôm trước. Hôm qua mới thấy lợi sưng và loét. | Sốt 38,8 độ từ 2 hôm trước. Hôm qua mới thấy lợi xưng và loét.
+  warfarin 0.256 Có đây, lần gần nhất tuần trước, hai phẩy sáu. | Có đây, lần gần nhất tuần trước, 2,6.
+  avulsion 0.223 Ngã lúc ba giờ mười, giờ gần ba giờ bốn mươi. Răng nằm dưới đất khoảng năm phút rồi tôi mới ngâm. | ngã lúc 3 giờ 10, giờ gần 3 giờ 40, sang nằm dưới đất khoảng 5 phút rồi tôi mới ngâm.
+  warfarin 0.205 Tuần trước hai phẩy sáu. Tháng này bác sĩ vừa tăng liều vì lần trước I N R thấp. | Tuần trước 2,6, tháng này bác sĩ vừa tăng liều vì lần trước y nở giờ thấp.
+  hypo 0.196 Chú Phúc sáu mươi ba tuổi bị tiểu đường, hẹn nhổ chân răng bốn lăm lúc mười giờ. Chú đến đúng giờ, ngồi chờ hơi lâu. | Chú Phúc 63 tuổi bị tiểu đường, hẹn nhổ chân răng 45 lúc 10 giờ, chú đến đúng giờ ngồi chờ hơi lâu.
+  tmd 0.19 Vy hai mươi tư tuổi, sinh viên năm cuối, đến vì đau vùng hàm phải. | Vì 24 tuổi, sinh viên năm cuối, đến vì đau vùng hàm phải.
+  avulsion 0.158 Cháu không ngất, không nôn, chỉ trầy cằm. | Cháu không ngất, không nồn, chị cháy cam
+  ecc 0.158 Chắc sáu bảy lần, cháu ăn vặt suốt ngày. | chắc 6-7 lần, cháu ăn vặt suốt ngày.
+  warfarin 0.157 Bác Bình sáu mươi tám tuổi muốn nhổ một chân răng hàm dưới phải. Con gái bác đi cùng. | Bác Bình 68 tuổi muốn nhổ một chân răng hàm dưới phai, con gái Bác đi cùng
+  denture 0.154 Bà Hạnh bảy mươi tư tuổi đeo hàm giả tháo lắp toàn bộ hai hàm, đến vì rát miệng. | Bà Hạnh 74 tuổi đeo hàm giả tháo lắp toàn bộ hai hàm, đến vì sát miệng.
+  cardiac 0.153 Chú Long năm mươi tám tuổi đau răng hàm dưới trái. Chú vừa leo cầu thang lên tầng hai, trông hơi mệt. | Chú Long 58 tuổi đau răng hàm dưới trái. Chú vừa leo cầu thang lên tầng 2 trông hơi mệt.
+Trung bình CER 0.063 tổng 4.7 phút
