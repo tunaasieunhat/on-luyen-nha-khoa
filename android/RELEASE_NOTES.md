@@ -1,8 +1,8 @@
-Ôn Luyện Nha Khoa – Version 2.5.3.
+Ôn Luyện Nha Khoa – Version 2.5.4.
 
-- Nhạc nền mới: nhạc chính là Questions by the Hearth; khi trả lời câu hỏi (Làm bài, Phòng Thi) chuyển sang Where Snowfall Settles. Hai bản nhạc được cân lại âm lượng, nối vòng lặp êm và nén nhẹ cho app. Khi sắp hết giờ, nhạc nhỏ lại và có tiếng tích tắc như trước.
-- Màn tải mới có logo và tên app Ôn Luyện Nha Khoa.
-- Thêm phần Cài đặt (nút ở menu chính): bật/tắt nhạc nền, chỉnh âm lượng nhạc, đổi nhạc chính (Questions by the Hearth, Answers in the Snow, Lo-fi mùa đông của bản cũ), bật/tắt nhạc riêng khi trả lời câu hỏi, bật/tắt âm thanh hiệu ứng. Cài đặt được lưu trên máy.
-- Nhạc nằm sẵn trong app, nghe được cả khi không có mạng.
+- Âm thanh hiệu ứng rõ hơn: tiếng trả lời đúng, sai, chọn đáp án ở Phòng Thi và tiếng chúc mừng được làm lại, to và sáng hơn, đi qua kênh riêng có giới hạn để không bị rè. Khi có tiếng đúng/sai/chúc mừng, nhạc nền tự nhỏ lại khoảng nửa giây để hiệu ứng không bị chìm.
+- Thêm tiếng “tách” ngắn, nhẹ mỗi khi nhấn nút.
+- Hiệu ứng nhấn hình bông tuyết: chạm vào đâu, một bông tuyết xanh nở ra, xoay và tung các bông nhỏ ở chỗ đó.
+- Cài đặt có thêm: âm lượng hiệu ứng, bật/tắt tiếng khi nhấn nút, bật/tắt bông tuyết khi nhấn.
 
 Cài: tải file OnLuyenNhaKhoa.apk bên dưới, mở file và bấm Cập nhật.

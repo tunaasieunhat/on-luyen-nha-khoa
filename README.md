@@ -1,6 +1,6 @@
 # Ôn Luyện Nha Khoa
 
-Ứng dụng ôn thi Răng Hàm Mặt dạng trò chơi phòng khám: làm trắc nghiệm, đọc tóm tắt lý thuyết, ôn flashcard. **Version 2.5.3** là phiên bản mới nhất; các môn học sẽ được liên tục thêm vào.
+Ứng dụng ôn thi Răng Hàm Mặt dạng trò chơi phòng khám: làm trắc nghiệm, đọc tóm tắt lý thuyết, ôn flashcard. **Version 2.5.4** là phiên bản mới nhất; các môn học sẽ được liên tục thêm vào.
 
 | | Link |
 | --- | --- |
@@ -27,7 +27,7 @@ Phát hiện lỗi, sai đáp án hay câu hỏi có vấn đề: liên hệ tun
 - **Sơ đồ tư duy** cho cả 46 bài: xem dạng toả tròn hoặc dạng cây, che ý nhỏ để tự kiểm tra, tải về dạng ảnh PNG.
 - **Flashcard và tự soạn câu hỏi.**
 - **Giao diện mùa đông:** tuyết rơi, đèn nháy, **nhạc nền mùa đông** (nhạc chính *Questions by the Hearth*, khi trả lời câu hỏi chuyển sang *Where Snowfall Settles*) và **nền phòng khám hoạt hình** có chuyển động.
-- **Cài đặt (từ bản 2.5.3):** bật/tắt nhạc nền, chỉnh âm lượng, đổi nhạc chính (Questions by the Hearth, Answers in the Snow, Lo-fi mùa đông), bật/tắt nhạc riêng khi làm bài và âm thanh hiệu ứng.
+- **Cài đặt (từ bản 2.5.3):** bật/tắt nhạc nền, chỉnh âm lượng, đổi nhạc chính (Questions by the Hearth, Answers in the Snow, Lo-fi mùa đông), bật/tắt nhạc riêng khi làm bài, âm thanh hiệu ứng và âm lượng hiệu ứng, tiếng khi nhấn nút, **bông tuyết khi nhấn** (từ bản 2.5.4).
 
 ## Cấu trúc thư mục
 
