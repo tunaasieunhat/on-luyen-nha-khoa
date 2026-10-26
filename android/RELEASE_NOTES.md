@@ -1,9 +1,7 @@
-Ôn Luyện Nha Khoa – Version 2.5.1.
+Ôn Luyện Nha Khoa – Version 2.5.2.
 
-- Mô Phỏng Nha Khoa dễ nhìn hơn: màn khám giờ là một khung hội thoại cố định, các lựa chọn nằm ngay bên dưới khung, không còn phải kéo trang lên xuống. Phim X-quang hiện trọn trong khung.
-- Khó hơn nhiều. Chế độ Bác sĩ (mặc định): không gợi ý, không hiện điểm từng bước, thứ tự đáp án xáo trộn mỗi lần chơi, các đáp án dài ngắn như nhau và nghe đều hợp lý; chọn sai nghiêm trọng là ca bệnh kết thúc ngay. Nhận xét đầy đủ chỉ hiện ở cuối ca.
-- Ca cấp cứu có đếm giờ: do dự quá lâu là bệnh nhân không chờ được. Thêm 2 ca mới: phản vệ trên ghế nha và đau hàm trái do hội chứng vành cấp (có bước ép tim, sốc điện). 6 ca cũ được viết lại khó hơn.
-- Chế độ Luyện tập: vẫn có nhận xét và điểm sau mỗi lựa chọn, không đếm giờ.
-- Sảnh gọn hơn: bỏ hộp chữ phía trên menu chính.
+- Thêm 10 tình huống lâm sàng thường gặp trong Mô Phỏng Nha Khoa (nay có 18 ca): răng nứt khi nhai, viêm ổ răng khô sau nhổ răng, thông xoang hàm sau nhổ răng 26, sâu răng sớm ở trẻ 4 tuổi, viêm lợi miệng do herpes ở trẻ, vết loét lưỡi không lành, viêm miệng do hàm giả ở người dùng thuốc chống đông, rối loạn thái dương hàm, thai phụ 20 tuần khám răng, hạ đường huyết trên ghế nha (có đếm giờ). Có thêm 3 phim X-quang minh hoạ mới.
+- Thẻ chuyên ngành cho từng ca: Nội nha, Nha chu, Phẫu thuật miệng, Răng trẻ em, Bệnh lý miệng, Phục hình, Khớp thái dương hàm, Bệnh toàn thân, Cấp cứu. Bấm thẻ để lọc; có ô tìm kiếm, gõ không dấu cũng tìm được.
+- Phần Đã làm: ca đã khám xong có dấu Đã làm, điểm cao nhất, số lần khám và ngày gần nhất. Lọc nhanh Tất cả / Chưa làm / Đã làm, thanh tiến độ bao nhiêu ca đã làm. Cuối mỗi ca có nút sang ca chưa làm tiếp theo.
 
 Cài: tải file OnLuyenNhaKhoa.apk bên dưới, mở file và bấm Cập nhật.
