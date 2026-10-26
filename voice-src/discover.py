@@ -5,6 +5,11 @@ OUT = sys.argv[1]; os.makedirs(OUT, exist_ok=True)
 import vieneu
 from vieneu import Vieneu
 rep = {'version': getattr(vieneu, '__version__', '?')}
+try:
+    from vieneu.v3turbo import V3TurboVieNeuTTS
+    rep['init_sig'] = str(inspect.signature(V3TurboVieNeuTTS.__init__))
+except Exception as e: rep['init_sig'] = repr(e)
+print(json.dumps(rep, ensure_ascii=False), flush=True)
 t0 = time.time(); tts = Vieneu(); rep['load_s'] = round(time.time() - t0, 1)
 rep['infer_sig'] = str(inspect.signature(tts.infer))
 rep['infer_doc'] = (tts.infer.__doc__ or '')[:2000]

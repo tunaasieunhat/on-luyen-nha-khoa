@@ -19,7 +19,7 @@ jobs:
           mkdir -p out
           (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg) > out/apt.txt 2>&1 || true
           python -m pip install --upgrade pip > /dev/null
-          pip install "vieneu==3.8.3" soundfile praat-parselmouth faster-whisper > out/pip.txt 2>&1 || (tail -50 out/pip.txt; exit 1)
+          pip install "vieneu==3.8.3" "onnxruntime==1.22.1" soundfile praat-parselmouth faster-whisper > out/pip.txt 2>&1 || (tail -50 out/pip.txt; exit 1)
           pip show vieneu >> out/pip.txt; pip freeze > out/freeze.txt
       - name: Thử giọng
         run: python voice-src/discover.py out 2>&1 | tee out/log.txt; exit ${PIPESTATUS[0]}
