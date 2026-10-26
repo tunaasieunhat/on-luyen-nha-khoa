@@ -7,7 +7,7 @@ permissions:
   contents: write
 jobs:
   run:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 90
     steps:
       - uses: actions/checkout@v5
@@ -16,19 +16,22 @@ jobs:
           python-version: '3.11'
       - name: Cài VieNeu-TTS + công cụ kiểm tra
         run: |
-          python -m pip install --upgrade pip
-          pip install "vieneu==3.8.3" soundfile praat-parselmouth faster-whisper
-          pip show vieneu | head -5
+          mkdir -p out
+          (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg) > out/apt.txt 2>&1 || true
+          python -m pip install --upgrade pip > /dev/null
+          pip install "vieneu==3.8.3" soundfile praat-parselmouth faster-whisper > out/pip.txt 2>&1 || (tail -50 out/pip.txt; exit 1)
+          pip show vieneu >> out/pip.txt; pip freeze > out/freeze.txt
       - name: Thử giọng
-        run: python voice-src/discover.py out
+        run: python voice-src/discover.py out 2>&1 | tee out/log.txt; exit ${PIPESTATUS[0]}
       - name: Đẩy kết quả lên nhánh voice-out
         if: always()
         run: |
-          cd out && for f in *.wav; do [ -f "$f" ] && ffmpeg -loglevel error -y -i "$f" -ac 1 -b:a 64k "${f%.wav}.mp3" && rm "$f"; done; cd ..
+          mkdir -p out
+          for f in out/*.wav; do if [ -f "$f" ]; then ffmpeg -loglevel error -y -i "$f" -ac 1 -b:a 64k "${f%.wav}.mp3" && rm "$f"; fi; done
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout --orphan voice-out
-          git rm -rq --cached .
+          git rm -rq --cached . || true
           git add -f out
           git commit -qm "Voice discover ${GITHUB_SHA::7}"
           git push -f origin HEAD:voice-out
