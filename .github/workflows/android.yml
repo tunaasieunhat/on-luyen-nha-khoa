@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - 'android/**'
+      - 'voice/**'
       - '.github/workflows/android.yml'
   workflow_dispatch:
 
@@ -34,12 +35,14 @@ jobs:
         with:
           gradle-version: '8.14.3'
 
-      - name: Gói PDF, nhạc nền và phông chữ vào app
+      - name: Gói PDF, nhạc nền, lồng tiếng và phông chữ vào app
         run: |
-          mkdir -p android/app/src/main/assets/www/pdf android/app/src/main/assets/www/music
+          mkdir -p android/app/src/main/assets/www/pdf android/app/src/main/assets/www/music android/app/src/main/assets/www/voice
           cp pdf/*.pdf android/app/src/main/assets/www/pdf/
           cp music/*.mp3 android/app/src/main/assets/www/music/
           ls -la android/app/src/main/assets/www/music
+          cp voice/*.mp3 android/app/src/main/assets/www/voice/
+          ls -la android/app/src/main/assets/www/voice | head -5
           python3 android/tools/fonts.py android/app/src/main/assets/www
           ls android/app/src/main/assets/www/pdf | wc -l
 

@@ -1,6 +1,6 @@
 # Ôn Luyện Nha Khoa
 
-Ứng dụng ôn thi Răng Hàm Mặt dạng trò chơi phòng khám: làm trắc nghiệm, đọc tóm tắt lý thuyết, ôn flashcard. **Version 2.5.4** là phiên bản mới nhất; các môn học sẽ được liên tục thêm vào.
+Ứng dụng ôn thi Răng Hàm Mặt dạng trò chơi phòng khám: làm trắc nghiệm, đọc tóm tắt lý thuyết, ôn flashcard. **Version 2.5.5** là phiên bản mới nhất; các môn học sẽ được liên tục thêm vào.
 
 | | Link |
 | --- | --- |
@@ -22,12 +22,12 @@ Phát hiện lỗi, sai đáp án hay câu hỏi có vấn đề: liên hệ tun
 - **Chọn mức độ** khi làm Câu Hỏi: Tất cả, Dễ, Vận dụng hoặc Nâng cao.
 - **Phòng Thi:** thi thử có giờ theo từng môn, đề 60% Dễ, 30% Vận dụng, 10% Nâng cao; chọn 30/60/90 phút và 30/45/60/75/90/105/120 câu; chấm thang 10, xem lại câu sai, lưu lịch sử và làm tiếp bài đang dở. Mở cho cả 5 môn.
 - **Hình minh hoạ** cho từng câu hỏi, vẽ sẵn trong file nên không cần mạng.
-- **Mô Phỏng Nha Khoa (beta, từ bản 2.5):** vào vai bác sĩ trong 18 tình huống lâm sàng dạng hội thoại (có ca cấp cứu đếm giờ), lọc theo chuyên ngành, tìm kiếm, đánh dấu ca Đã làm: hỏi bệnh, khám, cận lâm sàng (có phim X-quang minh hoạ), chẩn đoán, điều trị, dặn dò. Một khung hội thoại cố định, lựa chọn nằm ngay bên dưới. Chế độ Bác sĩ không gợi ý, đáp án xáo trộn, sai nghiêm trọng là kết thúc ca; chế độ Luyện tập có nhận xét từng bước. Cuối ca có kết cục, số sao và phần xem lại từng bước.
+- **Mô Phỏng Nha Khoa (beta, từ bản 2.5):** vào vai bác sĩ trong 18 tình huống lâm sàng dạng hội thoại (có ca cấp cứu đếm giờ), lọc theo chuyên ngành, tìm kiếm, đánh dấu ca Đã làm: hỏi bệnh, khám, cận lâm sàng (có phim X-quang minh hoạ), chẩn đoán, điều trị, dặn dò. Một khung hội thoại cố định, lựa chọn nằm ngay bên dưới. Chế độ Bác sĩ không gợi ý, đáp án xáo trộn, sai nghiêm trọng là kết thúc ca; chế độ Luyện tập có nhận xét từng bước. Cuối ca có kết cục, số sao và phần xem lại từng bước. Từ bản 2.5.5 các nhân vật được **lồng tiếng** (bệnh nhân, người nhà, lễ tân mỗi người một giọng, đọc bằng VieNeu-TTS), nghe được cả khi offline; bấm biểu tượng loa trên lời thoại để nghe lại.
 - **Ôn tập lý thuyết:** 46 bài, bài nào cũng tải về được dạng PDF. Môn Mắt (bản 2.1.1) được biên soạn lại theo lối giảng giải, kèm 30 hình minh hoạ từ bài giảng (nhãn tiếng Việt, chạm để phóng to); môn Nhi khoa (bản 2.1.2) cũng được biên soạn lại, có ví dụ tính toán và phần liên hệ Răng Hàm Mặt. Từ bản 2.3, Mắt và Nhi khoa có thêm **giáo trình trọn bộ**: 1 file PDF gồm bìa, mục lục có số trang (bấm để nhảy trang) và toàn bộ các bài. Bản 2.4 biên soạn lại 15 Unit Anh văn chuyên ngành 2 (phiên âm, cấu tạo từ, ví dụ, từ dễ nhầm, đọc hiểu tình huống) và thêm giáo trình trọn bộ cho môn này.
 - **Sơ đồ tư duy** cho cả 46 bài: xem dạng toả tròn hoặc dạng cây, che ý nhỏ để tự kiểm tra, tải về dạng ảnh PNG.
 - **Flashcard và tự soạn câu hỏi.**
-- **Giao diện mùa đông:** tuyết rơi, đèn nháy, **nhạc nền mùa đông** (nhạc chính *Questions by the Hearth*, khi trả lời câu hỏi chuyển sang *Where Snowfall Settles*) và **nền phòng khám hoạt hình** có chuyển động.
-- **Cài đặt (từ bản 2.5.3):** bật/tắt nhạc nền, chỉnh âm lượng, đổi nhạc chính (Questions by the Hearth, Answers in the Snow, Lo-fi mùa đông), bật/tắt nhạc riêng khi làm bài, âm thanh hiệu ứng và âm lượng hiệu ứng, tiếng khi nhấn nút, **bông tuyết khi nhấn** (từ bản 2.5.4).
+- **Giao diện mùa đông:** tuyết rơi, đèn nháy, **nhạc nền mùa đông** (nhạc chính *Questions by the Hearth*, khi trả lời câu hỏi chuyển sang *Where Snowfall Settles*) và **nền phòng khám hoạt hình** có chuyển động. Từ bản 2.5.5 nhạc nền tự nhỏ đi một nửa khi vào Mô phỏng và khi trả lời câu hỏi.
+- **Cài đặt (từ bản 2.5.3):** bật/tắt nhạc nền, chỉnh âm lượng, đổi nhạc chính (Questions by the Hearth, Answers in the Snow, Lo-fi mùa đông), bật/tắt nhạc riêng khi làm bài, âm thanh hiệu ứng và âm lượng hiệu ứng, tiếng khi nhấn nút, **bông tuyết khi nhấn** (từ bản 2.5.4), **lồng tiếng nhân vật** và âm lượng giọng nói (từ bản 2.5.5).
 
 ## Cấu trúc thư mục
 
@@ -35,11 +35,14 @@ Phát hiện lỗi, sai đáp án hay câu hỏi có vấn đề: liên hệ tun
 index.html, 404.html     Bản web (trang chính của GitHub Pages)
 manifest.json, sw.js     Cài như ứng dụng và lưu để dùng offline
 pdf/                     46 file PDF tóm tắt lý thuyết
+music/                   Nhạc nền MP3
+voice/                   Lồng tiếng nhân vật Mô phỏng (mỗi ca một file MP3)
+voice-src/               Lời thoại và script tạo giọng (chạy trên GitHub Actions)
 icon-*.png, og.png       Biểu tượng và ảnh chia sẻ
 online/                  Thông báo bản Online đã đóng cửa, kèm link tải app
 source/                  Mã nguồn hai bản đang chạy trên Claude (mỗi bản một file HTML)
 android/                 App Android viết bằng Kotlin (gói sẵn toàn bộ app, không cần trình duyệt)
-.github/workflows/       Tự build file APK mỗi khi thư mục android/ thay đổi
+.github/workflows/       Tự build file APK mỗi khi thư mục android/ thay đổi; tạo lại giọng lồng tiếng khi cần
 ```
 
 ## Bật trang web miễn phí (GitHub Pages)
@@ -69,4 +72,5 @@ android/                 App Android viết bằng Kotlin (gói sẵn toàn bộ
 ## Ghi chú
 
 - File trong `source/` là mã nguồn lưu dự phòng (bản Online beta 2.3 đã đóng cửa).
+- Giọng lồng tiếng trong `voice/` được tạo bằng [VieNeu-TTS](https://github.com/pnnbao97/VieNeu-TTS) (giấy phép Apache-2.0) với các giọng có sẵn của mô hình; các ca bệnh và nhân vật đều là giả định.
 - Repo đang để công khai, ai có link cũng xem được câu hỏi và phần tóm tắt. Nội dung soạn theo giáo trình môn học, dùng để ôn tập.

@@ -1,0 +1,24 @@
+{
+ "rec": {"voice": "Mai Anh"},
+ "cases": {
+  "pulpitis":    {"pt": {"voice": "Hải Đăng"}},
+  "abscess":     {"pt": {"voice": "Ngọc Huyền"}},
+  "perio":       {"pt": {"voice": "Phạm Tuyên"}},
+  "wisdom":      {"pt": {"voice": "Trúc Ly"}},
+  "avulsion":    {"pt": {"voice": "Trúc Ly", "fx": "kid"}, "fam": {"voice": "Ngọc Linh"}},
+  "warfarin":    {"pt": {"voice": "Phạm Tuyên", "fx": "old"}, "fam": {"voice": "Ngọc Huyền"}},
+  "anaphylaxis": {"pt": {"voice": "Đoan Trang"}},
+  "cardiac":     {"pt": {"voice": "Xuân Vĩnh"}},
+  "cracked":     {"pt": {"voice": "Quốc Tuấn"}},
+  "drysocket":   {"pt": {"voice": "Quỳnh Anh"}},
+  "oroantral":   {"pt": {"voice": "Thiện Minh"}},
+  "ecc":         {"pt": {"voice": "Trúc Ly", "fx": "kid"}, "fam": {"voice": "Quỳnh Anh"}},
+  "herpes":      {"pt": {"voice": "Trúc Ly", "fx": "kid"}, "fam": {"voice": "Đoan Trang"}},
+  "ulcer":       {"pt": {"voice": "Thiền Tâm Đức"}},
+  "denture":     {"pt": {"voice": "Quỳnh Anh", "fx": "old"}},
+  "tmd":         {"pt": {"voice": "Ngọc Linh"}},
+  "pregnancy":   {"pt": {"voice": "Ngọc Huyền"}},
+  "hypo":        {"pt": {"voice": "Minh Đức", "fx": "old"}}
+ },
+ "sample": ["pulpitis", "h74hgb"]
+}

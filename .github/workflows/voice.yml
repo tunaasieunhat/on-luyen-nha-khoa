@@ -1,0 +1,45 @@
+# Lồng tiếng nhân vật cho Mô phỏng (Version 2.5.5): đọc lời thoại bằng VieNeu-TTS (Apache-2.0) trên máy GitHub,
+# kiểm tra lại bằng nhận dạng giọng nói (faster-whisper), rồi đẩy voice/*.mp3 + index.json lên nhánh voice-out
+name: Voice generate
+on:
+  push:
+    branches: [voice-gen]
+    paths: ['voice-src/lines.json', 'voice-src/gen.py', 'voice-src/only.txt', '.github/workflows/voice.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: voice-src/requirements.txt
+      - name: Lưu sẵn mô hình giọng đọc và nhận dạng
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: voice-models-vieneu-3.8.3-whisper-medium
+      - name: Cài VieNeu-TTS + công cụ kiểm tra
+        run: |
+          mkdir -p out
+          (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg) > out/apt.txt 2>&1 || true
+          python -m pip install --upgrade pip > /dev/null
+          pip install -r voice-src/requirements.txt > out/pip.txt 2>&1 || (tail -50 out/pip.txt; exit 1)
+      - name: Đọc lời thoại
+        run: python voice-src/gen.py out 2>&1 | tee out/log.txt; exit ${PIPESTATUS[0]}
+      - name: Đẩy kết quả lên nhánh voice-out
+        if: always()
+        run: |
+          mkdir -p out && rm -rf out/_tmp out/apt.txt out/pip.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan voice-out
+          git rm -rq --cached . || true
+          git add -f out
+          git commit -qm "Voice generate ${GITHUB_SHA::7}"
+          git push -f origin HEAD:voice-out

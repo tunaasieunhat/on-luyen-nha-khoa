@@ -1,0 +1,1128 @@
+{
+ "cases": [
+  {
+   "id": "pulpitis",
+   "name": "Trần Minh Quân",
+   "age": 28,
+   "sex": "Nam",
+   "kind": "man",
+   "fam": ""
+  },
+  {
+   "id": "abscess",
+   "name": "Lê Thu Hà",
+   "age": 35,
+   "sex": "Nữ",
+   "kind": "woman",
+   "fam": ""
+  },
+  {
+   "id": "perio",
+   "name": "Nguyễn Văn Hùng",
+   "age": 52,
+   "sex": "Nam",
+   "kind": "man",
+   "fam": ""
+  },
+  {
+   "id": "wisdom",
+   "name": "Phạm Ngọc Lan",
+   "age": 22,
+   "sex": "Nữ",
+   "kind": "woman",
+   "fam": ""
+  },
+  {
+   "id": "avulsion",
+   "name": "Nguyễn Gia An",
+   "age": 9,
+   "sex": "Nam",
+   "kind": "kid",
+   "fam": "Chị Mai (mẹ bé)"
+  },
+  {
+   "id": "warfarin",
+   "name": "Trần Văn Bình",
+   "age": 68,
+   "sex": "Nam",
+   "kind": "old",
+   "fam": "Chị Hoa (con gái)"
+  },
+  {
+   "id": "anaphylaxis",
+   "name": "Võ Thanh Tâm",
+   "age": 30,
+   "sex": "Nữ",
+   "kind": "woman",
+   "fam": ""
+  },
+  {
+   "id": "cardiac",
+   "name": "Đặng Văn Long",
+   "age": 58,
+   "sex": "Nam",
+   "kind": "man",
+   "fam": ""
+  },
+  {
+   "id": "cracked",
+   "name": "Lê Văn Tuấn",
+   "age": 42,
+   "sex": "Nam",
+   "kind": "man",
+   "fam": ""
+  },
+  {
+   "id": "drysocket",
+   "name": "Đỗ Bảo Ngọc",
+   "age": 29,
+   "sex": "Nữ",
+   "kind": "woman",
+   "fam": ""
+  },
+  {
+   "id": "oroantral",
+   "name": "Hoàng Văn Sơn",
+   "age": 51,
+   "sex": "Nam",
+   "kind": "man",
+   "fam": ""
+  },
+  {
+   "id": "ecc",
+   "name": "Phạm Khánh Na",
+   "age": 4,
+   "sex": "Nữ",
+   "kind": "kid",
+   "fam": "Chị Linh (mẹ bé)"
+  },
+  {
+   "id": "herpes",
+   "name": "Vũ Gia Bảo",
+   "age": 3,
+   "sex": "Nam",
+   "kind": "kid",
+   "fam": "Chị Trang (mẹ bé)"
+  },
+  {
+   "id": "ulcer",
+   "name": "Trịnh Văn Định",
+   "age": 58,
+   "sex": "Nam",
+   "kind": "man",
+   "fam": ""
+  },
+  {
+   "id": "denture",
+   "name": "Nguyễn Thị Hạnh",
+   "age": 74,
+   "sex": "Nữ",
+   "kind": "woman",
+   "fam": ""
+  },
+  {
+   "id": "tmd",
+   "name": "Trần Thảo Vy",
+   "age": 24,
+   "sex": "Nữ",
+   "kind": "woman",
+   "fam": ""
+  },
+  {
+   "id": "pregnancy",
+   "name": "Bùi Thu Hương",
+   "age": 30,
+   "sex": "Nữ",
+   "kind": "woman",
+   "fam": ""
+  },
+  {
+   "id": "hypo",
+   "name": "Lý Hồng Phúc",
+   "age": 63,
+   "sex": "Nam",
+   "kind": "old",
+   "fam": ""
+  }
+ ],
+ "lines": [
+  {
+   "case": "pulpitis",
+   "key": "nlk1jq",
+   "w": "rec",
+   "text": "Bác sĩ ơi, anh Quân 28 tuổi đau răng hàm dưới bên trái, đêm qua không ngủ được."
+  },
+  {
+   "case": "pulpitis",
+   "key": "1by3yhc",
+   "w": "pt",
+   "text": "Chào bác sĩ. Bên trái hàm dưới em đau quá, đau lan lên cả tai. Em không chắc là răng nào nữa."
+  },
+  {
+   "case": "pulpitis",
+   "key": "5pem8a",
+   "w": "pt",
+   "text": "Khoảng một tuần nay uống đá là buốt, buốt lâu mới hết. Hai hôm nay tự nhiên đau, nằm xuống buổi tối là đau giật, lan lên tai."
+  },
+  {
+   "case": "pulpitis",
+   "key": "1a7pgjj",
+   "w": "pt",
+   "text": "Em cũng không rõ, cứ thấy cả vùng hàm dưới bên trái nhức, lan lên tai."
+  },
+  {
+   "case": "pulpitis",
+   "key": "8367zm",
+   "w": "pt",
+   "text": "Chắc 8 điểm ạ. Em uống paracetamol, đỡ được một lúc rồi lại đau."
+  },
+  {
+   "case": "pulpitis",
+   "key": "5vtd1c",
+   "w": "pt",
+   "text": "Dạ... chụp luôn ạ? Em còn chưa kể gì."
+  },
+  {
+   "case": "pulpitis",
+   "key": "brdosy",
+   "w": "pt",
+   "text": "Uống đá buốt hơn một phút mới dịu. Giờ uống nóng cũng ê."
+  },
+  {
+   "case": "pulpitis",
+   "key": "2nsp52",
+   "w": "pt",
+   "text": "Có, đang ngồi làm cũng đau. Tối nằm xuống đau giật từng cơn."
+  },
+  {
+   "case": "pulpitis",
+   "key": "1s8esxu",
+   "w": "pt",
+   "text": "Cắn mạnh thì ê ê, hai hôm nay mới bị. Không thấy nhói khi nhả ra."
+  },
+  {
+   "case": "pulpitis",
+   "key": "12ygnlt",
+   "w": "pt",
+   "text": "Em khỏe, không dị ứng gì. Hai hôm nay uống paracetamol, mỗi ngày 4 viên 500 mg."
+  },
+  {
+   "case": "pulpitis",
+   "key": "1bd5qg1",
+   "w": "pt",
+   "text": "Răng hàm lớn dưới trái trám 3 năm trước, mấy tháng nay hình như miếng trám bị mẻ."
+  },
+  {
+   "case": "pulpitis",
+   "key": "sxwnf6",
+   "w": "pt",
+   "text": "Dạo này nhiều việc, vợ em bảo đêm em có nghiến răng."
+  },
+  {
+   "case": "pulpitis",
+   "key": "d5ael9",
+   "w": "pt",
+   "text": "Không ạ, mũi em bình thường."
+  },
+  {
+   "case": "pulpitis",
+   "key": "2zzvk3",
+   "w": "pt",
+   "text": "Á! Bác sĩ khoan gì mà buốt thế?"
+  },
+  {
+   "case": "pulpitis",
+   "key": "r9ban6",
+   "w": "pt",
+   "text": "Á! Đau quá bác sĩ ơi!"
+  },
+  {
+   "case": "pulpitis",
+   "key": "1j3al93",
+   "w": "pt",
+   "text": "Hết nhói rồi bác sĩ ạ."
+  },
+  {
+   "case": "pulpitis",
+   "key": "h74hgb",
+   "w": "pt",
+   "text": "Em hiểu rồi, em sẽ quay lại đủ các buổi."
+  },
+  {
+   "case": "abscess",
+   "key": "uf6cfe",
+   "w": "rec",
+   "text": "Chị Hà 35 tuổi sưng má phải, nói tối qua sốt. Chị đang chờ ở ghế."
+  },
+  {
+   "case": "abscess",
+   "key": "bnlxn4",
+   "w": "pt",
+   "text": "Bác sĩ ơi, má em sưng ba ngày nay, cắn vào răng hàm bên phải là đau điếng. Tối qua em sốt."
+  },
+  {
+   "case": "abscess",
+   "key": "1ojp2zv",
+   "w": "pt",
+   "text": "Em thở bình thường, nuốt được. Há to thì hơi đau."
+  },
+  {
+   "case": "abscess",
+   "key": "zsdbrw",
+   "w": "pt",
+   "text": "Sưng từ hôm kia, hôm qua to hơn. Em vẫn ăn cháo được."
+  },
+  {
+   "case": "abscess",
+   "key": "1s9m0ql",
+   "w": "pt",
+   "text": "Hôm qua em mua thuốc ở hiệu thuốc uống 2 viên, thấy ngứa nên em ngưng."
+  },
+  {
+   "case": "abscess",
+   "key": "12x1nu7",
+   "w": "pt",
+   "text": "Có, năm ngoái uống amoxicillin em nổi mề đay khắp người, phải đi cấp cứu."
+  },
+  {
+   "case": "abscess",
+   "key": "1nta8x4",
+   "w": "pt",
+   "text": "Hôm qua em mua cephalexin uống 2 viên thì thấy ngứa người nên em ngưng."
+  },
+  {
+   "case": "abscess",
+   "key": "18d6na6",
+   "w": "pt",
+   "text": "Mấy tháng trước đau dữ dội mấy đêm rồi tự hết."
+  },
+  {
+   "case": "abscess",
+   "key": "1x3gvmw",
+   "w": "pt",
+   "text": "Em không có bệnh gì."
+  },
+  {
+   "case": "abscess",
+   "key": "rtg4f4",
+   "w": "pt",
+   "text": "Không ạ."
+  },
+  {
+   "case": "abscess",
+   "key": "bbmmry",
+   "w": "pt",
+   "text": "Em cũng hay uống trà sữa..."
+  },
+  {
+   "case": "abscess",
+   "key": "150tjgy",
+   "w": "pt",
+   "text": "Dạ, em nhớ rồi ạ."
+  },
+  {
+   "case": "perio",
+   "key": "sp9s4x",
+   "w": "rec",
+   "text": "Chú Hùng 52 tuổi, tài xế, đến khám vì chảy máu chân răng. Chú có vẻ hơi ngại."
+  },
+  {
+   "case": "perio",
+   "key": "1gkk6gx",
+   "w": "pt",
+   "text": "Mấy tháng nay chải răng là chảy máu, vợ chú chê miệng hôi. Mấy cái răng hàm dưới hình như lung lay."
+  },
+  {
+   "case": "perio",
+   "key": "1esb4o6",
+   "w": "pt",
+   "text": "Nửa năm nay rồi, chủ yếu lúc chải răng. Không đau nên chú cứ để."
+  },
+  {
+   "case": "perio",
+   "key": "6wltcm",
+   "w": "pt",
+   "text": "Không, chú chỉ chảy máu chân răng thôi."
+  },
+  {
+   "case": "perio",
+   "key": "nv2xnr",
+   "w": "pt",
+   "text": "Thì chú vẫn chải bình thường..."
+  },
+  {
+   "case": "perio",
+   "key": "1mnxzrl",
+   "w": "pt",
+   "text": "Gần 20 năm nay, mỗi ngày khoảng một bao."
+  },
+  {
+   "case": "perio",
+   "key": "1lzqsp4",
+   "w": "pt",
+   "text": "Năm ngoái bác sĩ bảo chú tiểu đường, chú uống thuốc vài tháng rồi bỏ. Huyết áp thì uống amlodipine."
+  },
+  {
+   "case": "perio",
+   "key": "rhfbbt",
+   "w": "pt",
+   "text": "Năm ngoái nhổ cái răng hàm trên bên phải trong cùng vì lung lay quá."
+  },
+  {
+   "case": "perio",
+   "key": "34ge5p",
+   "w": "pt",
+   "text": "Sáng chải một lần, chưa dùng chỉ hay bàn chải kẽ bao giờ."
+  },
+  {
+   "case": "perio",
+   "key": "ls95qk",
+   "w": "pt",
+   "text": "Bố chú 60 tuổi đã mất gần hết răng."
+  },
+  {
+   "case": "perio",
+   "key": "gtrgog",
+   "w": "pt",
+   "text": "Chạy xe đêm suốt."
+  },
+  {
+   "case": "perio",
+   "key": "n0092o",
+   "w": "pt",
+   "text": "Chú sẽ thử. Cháu cho chú số đường dây hỗ trợ nhé."
+  },
+  {
+   "case": "wisdom",
+   "key": "19n4f65",
+   "w": "rec",
+   "text": "Bạn Lan 22 tuổi, sinh viên, đau vùng răng trong cùng hàm dưới trái hai ngày nay."
+  },
+  {
+   "case": "wisdom",
+   "key": "1w8wb74",
+   "w": "pt",
+   "text": "Em chào bác sĩ. Chỗ răng trong cùng hàm dưới bên trái đau hai hôm nay, nhai đau, miệng có mùi. Bạn em bảo uống kháng sinh là khỏi, bác sĩ kê cho em nhé?"
+  },
+  {
+   "case": "wisdom",
+   "key": "72wox4",
+   "w": "pt",
+   "text": "Em không sốt, há miệng và nuốt bình thường."
+  },
+  {
+   "case": "wisdom",
+   "key": "1vlbv5v",
+   "w": "pt",
+   "text": "Em uống amoxicillin của bạn còn thừa được 2 ngày mà không đỡ."
+  },
+  {
+   "case": "wisdom",
+   "key": "93dc87",
+   "w": "pt",
+   "text": "Em không dị ứng, không bệnh gì, không mang thai."
+  },
+  {
+   "case": "wisdom",
+   "key": "122i2kf",
+   "w": "pt",
+   "text": "Năm ngoái bị một lần, vài ngày tự hết."
+  },
+  {
+   "case": "wisdom",
+   "key": "1dwmhpy",
+   "w": "pt",
+   "text": "Khó chải lắm, chạm vào là đau nên em né."
+  },
+  {
+   "case": "wisdom",
+   "key": "14nmrgr",
+   "w": "pt",
+   "text": "Kế toán ạ."
+  },
+  {
+   "case": "wisdom",
+   "key": "ovmx6j",
+   "w": "pt",
+   "text": "Dạ, vậy em hiểu rồi."
+  },
+  {
+   "case": "avulsion",
+   "key": "1bsw609",
+   "w": "rec",
+   "text": "Chị Mai gọi điện, giọng rất hoảng: bé An 9 tuổi ngã xe đạp ở sân trường, rơi hẳn một răng cửa trên."
+  },
+  {
+   "case": "avulsion",
+   "key": "cmbwu4",
+   "w": "fam",
+   "text": "Bác sĩ ơi, tôi nhặt được răng rồi nhưng dính đầy đất. Giờ tôi phải làm gì?"
+  },
+  {
+   "case": "avulsion",
+   "key": "7fmsko",
+   "w": "fam",
+   "text": "Alo? Bác sĩ ơi?... Thôi tôi bỏ răng vào túi áo rồi chở cháu đến luôn!"
+  },
+  {
+   "case": "avulsion",
+   "key": "44xvhv",
+   "w": "fam",
+   "text": "Cháu sợ quá không cho cắm lại. Tôi ngâm răng vào sữa rồi đưa cháu đến ngay."
+  },
+  {
+   "case": "avulsion",
+   "key": "bz3174",
+   "w": "fam",
+   "text": "Vâng, tôi ngâm nước lọc rồi đến ngay."
+  },
+  {
+   "case": "avulsion",
+   "key": "br2wqt",
+   "w": "fam",
+   "text": "Cháu khóc quá, không ngậm được, tôi gói tạm vào khăn ướt."
+  },
+  {
+   "case": "avulsion",
+   "key": "6eu6f9",
+   "w": "pt",
+   "text": "Bác sĩ ơi, cháu đau..."
+  },
+  {
+   "case": "avulsion",
+   "key": "1g780be",
+   "w": "fam",
+   "text": "Cháu không ngất, không nôn, chỉ trầy cằm."
+  },
+  {
+   "case": "avulsion",
+   "key": "1d9ers2",
+   "w": "fam",
+   "text": "Ngã lúc 3 giờ 10, giờ gần 3 giờ 40. Răng nằm dưới đất khoảng 5 phút rồi tôi mới ngâm."
+  },
+  {
+   "case": "avulsion",
+   "key": "4gd3sl",
+   "w": "fam",
+   "text": "Tiêm đủ theo chương trình, mũi nhắc tôi không nhớ."
+  },
+  {
+   "case": "avulsion",
+   "key": "1890hcp",
+   "w": "fam",
+   "text": "Không dị ứng, khỏe mạnh."
+  },
+  {
+   "case": "avulsion",
+   "key": "13pqeej",
+   "w": "fam",
+   "text": "Sân đất sau trường."
+  },
+  {
+   "case": "avulsion",
+   "key": "10nmk3n",
+   "w": "fam",
+   "text": "Chưa."
+  },
+  {
+   "case": "avulsion",
+   "key": "gv7of",
+   "w": "fam",
+   "text": "Tôi ghi lại hết rồi bác sĩ."
+  },
+  {
+   "case": "warfarin",
+   "key": "1rld860",
+   "w": "rec",
+   "text": "Bác Bình 68 tuổi muốn nhổ một chân răng hàm dưới phải. Con gái bác đi cùng."
+  },
+  {
+   "case": "warfarin",
+   "key": "dlojaq",
+   "w": "pt",
+   "text": "Bác sĩ nhổ giúp tôi cái chân răng này, nó lung lay, ăn vướng lắm. À, tôi đang uống thuốc chống đông đấy."
+  },
+  {
+   "case": "warfarin",
+   "key": "fr957f",
+   "w": "pt",
+   "text": "Rung nhĩ ba năm nay, uống warfarin mỗi tối. Đơn đây."
+  },
+  {
+   "case": "warfarin",
+   "key": "18gv9i1",
+   "w": "fam",
+   "text": "Có đây, lần gần nhất tuần trước, 2,6."
+  },
+  {
+   "case": "warfarin",
+   "key": "1mxfuwt",
+   "w": "fam",
+   "text": "Tuần trước 2,6. Tháng này bác sĩ vừa tăng liều vì lần trước INR thấp."
+  },
+  {
+   "case": "warfarin",
+   "key": "1ii6usz",
+   "w": "pt",
+   "text": "Tuần này bác sĩ tiết niệu cho tôi uống ciprofloxacin. Huyết áp thì uống amlodipine."
+  },
+  {
+   "case": "warfarin",
+   "key": "scs78a",
+   "w": "pt",
+   "text": "Lần trước máu rỉ cả tối mới cầm."
+  },
+  {
+   "case": "warfarin",
+   "key": "n5dk9m",
+   "w": "pt",
+   "text": "Không."
+  },
+  {
+   "case": "warfarin",
+   "key": "uakfqn",
+   "w": "pt",
+   "text": "Không, chỉ rung nhĩ thôi."
+  },
+  {
+   "case": "warfarin",
+   "key": "bxuqid",
+   "w": "pt",
+   "text": "Thỉnh thoảng một chén."
+  },
+  {
+   "case": "warfarin",
+   "key": "wc547j",
+   "w": "fam",
+   "text": "Tôi ghi lại rồi bác sĩ."
+  },
+  {
+   "case": "anaphylaxis",
+   "key": "1t9ad6c",
+   "w": "pt",
+   "text": "Bác sĩ ơi... em ngứa quá, người nóng ran... sao em thấy khó thở..."
+  },
+  {
+   "case": "anaphylaxis",
+   "key": "ljn2mc",
+   "w": "pt",
+   "text": "Em... từng ngứa khi rửa tay bằng dung dịch sát khuẩn ở bệnh viện..."
+  },
+  {
+   "case": "cardiac",
+   "key": "lw391r",
+   "w": "rec",
+   "text": "Chú Long 58 tuổi đau răng hàm dưới trái. Chú vừa leo cầu thang lên tầng hai, trông hơi mệt."
+  },
+  {
+   "case": "cardiac",
+   "key": "m94wcv",
+   "w": "pt",
+   "text": "Hai tuần nay chú cứ đau âm ỉ chỗ răng hàm dưới bên trái. Hôm nay đau nhiều quá, từ lúc đi bộ đến đây tới giờ vẫn chưa đỡ."
+  },
+  {
+   "case": "cardiac",
+   "key": "x6eiy",
+   "w": "pt",
+   "text": "Hay đau khi leo cầu thang, khuân vác; ngồi nghỉ năm phút là hết. Hôm nay đau từ 20 phút trước, ngồi nghỉ vẫn không hết, hơi tức ngực, mỏi vai trái."
+  },
+  {
+   "case": "cardiac",
+   "key": "txt4qc",
+   "w": "pt",
+   "text": "Chú không chỉ được, cứ đau cả vùng hàm dưới bên trái."
+  },
+  {
+   "case": "cardiac",
+   "key": "1t848nt",
+   "w": "pt",
+   "text": "Không, ăn uống nóng lạnh đều bình thường."
+  },
+  {
+   "case": "cardiac",
+   "key": "1cqsk9j",
+   "w": "pt",
+   "text": "Có, mồ hôi ra nhiều, hơi khó thở, buồn nôn."
+  },
+  {
+   "case": "cardiac",
+   "key": "10vq8mg",
+   "w": "pt",
+   "text": "Huyết áp cao, mỡ máu cao không uống thuốc đều, hút thuốc 30 năm."
+  },
+  {
+   "case": "cardiac",
+   "key": "aexxu0",
+   "w": "pt",
+   "text": "Không dị ứng, không đau dạ dày, không uống thuốc chống đông."
+  },
+  {
+   "case": "cardiac",
+   "key": "n5dk9m",
+   "w": "pt",
+   "text": "Không."
+  },
+  {
+   "case": "cardiac",
+   "key": "1qqxxse",
+   "w": "pt",
+   "text": "Chưa bao giờ."
+  },
+  {
+   "case": "cardiac",
+   "key": "1vcd19a",
+   "w": "pt",
+   "text": "Chắc không."
+  },
+  {
+   "case": "cracked",
+   "key": "112wksw",
+   "w": "rec",
+   "text": "Anh Tuấn 42 tuổi, kỹ sư, đến khám vì nhai bên phải thỉnh thoảng nhói. Anh đã khám hai nơi, được bảo là răng không sâu."
+  },
+  {
+   "case": "cracked",
+   "key": "pudr0r",
+   "w": "pt",
+   "text": "Bác sĩ ơi, cứ nhai trúng chỗ nào đó bên phải là nhói lên một cái như điện giật, rồi hết ngay. Chỗ khác bảo răng tôi không sao, nhưng tôi phải nhai bên trái cả tháng nay rồi."
+  },
+  {
+   "case": "cracked",
+   "key": "18htxmf",
+   "w": "pt",
+   "text": "Nhói nhất là lúc nhả ra. Hay bị khi nhai sụn, hạt hoặc cắn đá."
+  },
+  {
+   "case": "cracked",
+   "key": "1ra01kc",
+   "w": "pt",
+   "text": "Không, ngồi yên thì không sao, đêm ngủ bình thường."
+  },
+  {
+   "case": "cracked",
+   "key": "1eln22i",
+   "w": "pt",
+   "text": "Vợ bảo đêm tôi nghiến kèn kẹt. Tôi nghiện nhai đá trong cốc trà đá."
+  },
+  {
+   "case": "cracked",
+   "key": "1kgb5ni",
+   "w": "pt",
+   "text": "Uống đá thì ê một chút, hết ngay."
+  },
+  {
+   "case": "cracked",
+   "key": "1d36m0e",
+   "w": "pt",
+   "text": "Răng hàm dưới phải trám bạc to từ hồi sinh viên, chắc 15 năm rồi."
+  },
+  {
+   "case": "cracked",
+   "key": "1gzokd1",
+   "w": "pt",
+   "text": "Không có gì."
+  },
+  {
+   "case": "cracked",
+   "key": "1m2x2px",
+   "w": "pt",
+   "text": "Vậy tôi hiểu rồi, có gì lạ là tôi quay lại ngay."
+  },
+  {
+   "case": "drysocket",
+   "key": "1etr5nh",
+   "w": "rec",
+   "text": "Chị Ngọc được nhổ răng 38 ở phòng khám mình 3 ngày trước. Chị gọi xin khám gấp vì đau quá."
+  },
+  {
+   "case": "drysocket",
+   "key": "7p0gnv",
+   "w": "pt",
+   "text": "Bác sĩ ơi, hai hôm đầu em thấy ổn lắm, sao từ hôm qua đau giật lên tai, uống thuốc giảm đau cũng không ăn thua. Có phải bị nhiễm trùng rồi không? Bác sĩ cho em kháng sinh mạnh nhé."
+  },
+  {
+   "case": "drysocket",
+   "key": "19smw40",
+   "w": "pt",
+   "text": "Hai ngày đầu hơi ê. Từ chiều hôm qua tự nhiên đau dữ dội, giật lên tai trái, cả đêm không ngủ được."
+  },
+  {
+   "case": "drysocket",
+   "key": "hyy7qm",
+   "w": "pt",
+   "text": "Em không sốt, má không sưng, nuốt bình thường. Há miệng hơi khó vì đau."
+  },
+  {
+   "case": "drysocket",
+   "key": "1lp74pc",
+   "w": "pt",
+   "text": "Em hút thuốc lại từ tối hôm nhổ. Sáng hôm sau súc nước muối nhiều vì sợ bẩn."
+  },
+  {
+   "case": "drysocket",
+   "key": "1qqbt7l",
+   "w": "pt",
+   "text": "Em uống thuốc tránh thai hằng ngày. Mấy hôm nay uống ibuprofen 400 mg, ngày 3 viên, không đỡ."
+  },
+  {
+   "case": "drysocket",
+   "key": "1du2v2v",
+   "w": "pt",
+   "text": "Em không dị ứng gì."
+  },
+  {
+   "case": "drysocket",
+   "key": "ritkkx",
+   "w": "pt",
+   "text": "Đau quá nên em chỉ ăn cháo."
+  },
+  {
+   "case": "oroantral",
+   "key": "1usugc4",
+   "w": "pt",
+   "text": "Ơ bác sĩ, sao nước súc miệng chảy ra cả lỗ mũi bên trái thế này?"
+  },
+  {
+   "case": "ecc",
+   "key": "1gfk7mm",
+   "w": "rec",
+   "text": "Chị Linh đưa bé Na 4 tuổi đến khám. Bé nép sau lưng mẹ, ôm má phải."
+  },
+  {
+   "case": "ecc",
+   "key": "qdfong",
+   "w": "fam",
+   "text": "Bác sĩ ơi, răng cửa của cháu đen hết rồi. Mấy hôm nay ăn kẹo là cháu kêu buốt bên phải. Răng sữa rồi cũng thay, có cần chữa không bác sĩ?"
+  },
+  {
+   "case": "ecc",
+   "key": "2jrcx0",
+   "w": "fam",
+   "text": "Tối nào cháu cũng ngậm bình sữa công thức pha thêm đường mới ngủ được, nửa đêm dậy đòi thêm một bình."
+  },
+  {
+   "case": "ecc",
+   "key": "kuxytv",
+   "w": "fam",
+   "text": "Cháu tự đánh buổi sáng thôi. Tôi mua kem trẻ em không có fluor vì sợ cháu nuốt."
+  },
+  {
+   "case": "ecc",
+   "key": "148473w",
+   "w": "fam",
+   "text": "Chắc 6–7 lần, cháu ăn vặt suốt ngày."
+  },
+  {
+   "case": "ecc",
+   "key": "1lgjw5d",
+   "w": "fam",
+   "text": "Cháu chỉ kêu buốt khi ăn kẹo, súc miệng là hết. Đêm ngủ không kêu đau, chưa thấy sưng."
+  },
+  {
+   "case": "ecc",
+   "key": "1ox7l0e",
+   "w": "fam",
+   "text": "Cháu khỏe, không dị ứng."
+  },
+  {
+   "case": "ecc",
+   "key": "bh5qpr",
+   "w": "fam",
+   "text": "Bà nội trông, sáng đi lớp."
+  },
+  {
+   "case": "ecc",
+   "key": "1i85ii5",
+   "w": "fam",
+   "text": "Vâng, tối nay tôi thử cho cháu uống nước lọc sau sữa, bỏ dần bình."
+  },
+  {
+   "case": "herpes",
+   "key": "5ik72b",
+   "w": "rec",
+   "text": "Chị Trang bế bé Bin 3 tuổi vào, bé quấy khóc, chảy nhiều nước dãi."
+  },
+  {
+   "case": "herpes",
+   "key": "a3vzaf",
+   "w": "fam",
+   "text": "Bác sĩ ơi, cháu sốt hai hôm nay, giờ lợi sưng đỏ, trong miệng loét lấm tấm, không chịu ăn gì. Có phải nhiễm trùng răng không, cho cháu kháng sinh được không ạ?"
+  },
+  {
+   "case": "herpes",
+   "key": "4so3ai",
+   "w": "fam",
+   "text": "Sốt 38,8 độ từ hai hôm trước. Hôm qua mới thấy lợi sưng và loét."
+  },
+  {
+   "case": "herpes",
+   "key": "v1sp87",
+   "w": "fam",
+   "text": "Cháu uống ít, tã sáng nay ít ướt hơn mọi ngày, nhưng vẫn chơi được."
+  },
+  {
+   "case": "herpes",
+   "key": "wi61h0",
+   "w": "fam",
+   "text": "Không thấy gì ở tay chân."
+  },
+  {
+   "case": "herpes",
+   "key": "1tp3sj0",
+   "w": "fam",
+   "text": "Bố cháu tuần trước bị nổi mụn nước ở môi, vẫn hôn cháu suốt."
+  },
+  {
+   "case": "herpes",
+   "key": "9d4xjr",
+   "w": "fam",
+   "text": "Tôi cho uống paracetamol hạ sốt."
+  },
+  {
+   "case": "herpes",
+   "key": "1se60gi",
+   "w": "fam",
+   "text": "Có, cháu hay ngậm tay."
+  },
+  {
+   "case": "ulcer",
+   "key": "1kkvfax",
+   "w": "rec",
+   "text": "Chú Định 58 tuổi đến vì vết loét ở lưỡi. Chú đã đi hiệu thuốc hai lần."
+  },
+  {
+   "case": "ulcer",
+   "key": "1ijaomt",
+   "w": "pt",
+   "text": "Bác sĩ ơi, cái nhiệt miệng này lâu khỏi quá. Chú bôi thuốc, uống cả kháng sinh rồi mà nó cứ thế. Chắc tại cái răng vỡ nó cọ vào, bác sĩ mài giúp chú cái răng là được."
+  },
+  {
+   "case": "ulcer",
+   "key": "kr8mmu",
+   "w": "pt",
+   "text": "Chắc năm tuần rồi, thấy to dần. Bôi thuốc nhiệt miệng, uống kháng sinh một tuần mà không đỡ."
+  },
+  {
+   "case": "ulcer",
+   "key": "drq0dc",
+   "w": "pt",
+   "text": "Thuốc lào, thuốc lá hơn 30 năm, ngày một bao. Rượu thì bữa nào cũng vài chén."
+  },
+  {
+   "case": "ulcer",
+   "key": "15ad4s4",
+   "w": "pt",
+   "text": "Hai tháng nay sụt 3 cân. Thỉnh thoảng đau nhói lên tai phải."
+  },
+  {
+   "case": "ulcer",
+   "key": "17zoi0x",
+   "w": "pt",
+   "text": "Cái răng hàm dưới bên phải vỡ lâu rồi, sắc lắm."
+  },
+  {
+   "case": "ulcer",
+   "key": "1udpfkl",
+   "w": "pt",
+   "text": "Không, lần đầu bị lâu thế này."
+  },
+  {
+   "case": "ulcer",
+   "key": "15zp83",
+   "w": "pt",
+   "text": "Không có ai."
+  },
+  {
+   "case": "ulcer",
+   "key": "1t2x020",
+   "w": "pt",
+   "text": "Chú hiểu rồi. Chú sẽ đi khám sớm."
+  },
+  {
+   "case": "ulcer",
+   "key": "1082i37",
+   "w": "pt",
+   "text": "Thôi được, mai con trai chú đưa chú đi."
+  },
+  {
+   "case": "denture",
+   "key": "q6y0jd",
+   "w": "rec",
+   "text": "Bà Hạnh 74 tuổi đeo hàm giả tháo lắp toàn bộ hai hàm, đến vì rát miệng."
+  },
+  {
+   "case": "denture",
+   "key": "12jxanu",
+   "w": "pt",
+   "text": "Bác sĩ ơi, bà đeo hàm thấy rát rát cả vòm, ăn mặn là xót. Khóe miệng thì nứt mãi không lành. Hàm trên lỏng lắm, phải dùng keo dán."
+  },
+  {
+   "case": "denture",
+   "key": "xj771v",
+   "w": "pt",
+   "text": "Đeo hơn mười năm. Bà đeo cả lúc ngủ cho khỏi móm. Sáng ra tráng qua nước là đeo lại."
+  },
+  {
+   "case": "denture",
+   "key": "1apme99",
+   "w": "pt",
+   "text": "Bà bị tiểu đường, tim đập không đều phải uống warfarin, thêm thuốc xịt hen corticoid."
+  },
+  {
+   "case": "denture",
+   "key": "rryirj",
+   "w": "pt",
+   "text": "Hàm trên lỏng, ăn hay rơi. Nhai cũng yếu hơn trước nhiều."
+  },
+  {
+   "case": "denture",
+   "key": "c7mgap",
+   "w": "pt",
+   "text": "Mấy tháng nay, ăn mặn là xót."
+  },
+  {
+   "case": "denture",
+   "key": "1cmefky",
+   "w": "pt",
+   "text": "Có, đêm hay phải dậy uống nước."
+  },
+  {
+   "case": "denture",
+   "key": "zvws8t",
+   "w": "pt",
+   "text": "Bà không hút, không ăn trầu."
+  },
+  {
+   "case": "tmd",
+   "key": "72cvj0",
+   "w": "rec",
+   "text": "Vy 24 tuổi, sinh viên năm cuối, đến vì đau vùng hàm phải."
+  },
+  {
+   "case": "tmd",
+   "key": "1ryuhb7",
+   "w": "pt",
+   "text": "Em đau ở trước tai bên phải, nhai lâu là mỏi. Há miệng thì kêu lục cục, em sợ bị lệch hàm. Bạn em bảo phải mài răng cho khớp cắn đều mới hết, có đúng không ạ?"
+  },
+  {
+   "case": "tmd",
+   "key": "jhamf",
+   "w": "pt",
+   "text": "Đau trước tai và má phải. Sáng dậy mỏi hàm, nhai đồ dai lâu là đau hơn."
+  },
+  {
+   "case": "tmd",
+   "key": "quy2q",
+   "w": "pt",
+   "text": "Em đang làm luận văn, căng thẳng lắm. Hay cắn chặt răng khi tập trung, nhai kẹo cao su cả ngày."
+  },
+  {
+   "case": "tmd",
+   "key": "c8tv47",
+   "w": "pt",
+   "text": "Chưa bao giờ bị kẹt cả."
+  },
+  {
+   "case": "tmd",
+   "key": "1dtcjvt",
+   "w": "pt",
+   "text": "Hay đau đầu vùng thái dương phải, tai không sao."
+  },
+  {
+   "case": "tmd",
+   "key": "rtg4f4",
+   "w": "pt",
+   "text": "Không ạ."
+  },
+  {
+   "case": "tmd",
+   "key": "16vbnbp",
+   "w": "pt",
+   "text": "Em đỡ nhiều rồi, nhưng sáng ngủ dậy vẫn mỏi hàm."
+  },
+  {
+   "case": "tmd",
+   "key": "fn0kew",
+   "w": "pt",
+   "text": "Vậy em yên tâm rồi."
+  },
+  {
+   "case": "pregnancy",
+   "key": "jqxsbn",
+   "w": "rec",
+   "text": "Chị Hương mang thai 20 tuần, đến khám vì chảy máu lợi và ê răng."
+  },
+  {
+   "case": "pregnancy",
+   "key": "hl3eo8",
+   "w": "pt",
+   "text": "Em đánh răng là chảy máu, chỗ lợi răng nanh trên còn mọc lên một cục đỏ. Răng hàm dưới ăn ngọt là ê. Nhưng em sợ chụp phim, tiêm thuốc tê ảnh hưởng đến con, hay để sinh xong rồi chữa ạ?"
+  },
+  {
+   "case": "pregnancy",
+   "key": "1etmgwq",
+   "w": "pt",
+   "text": "20 tuần, bác sĩ sản bảo mọi thứ bình thường."
+  },
+  {
+   "case": "pregnancy",
+   "key": "10ew0s6",
+   "w": "pt",
+   "text": "Ăn ngọt, uống lạnh thì ê, hết ngay. Không đau đêm."
+  },
+  {
+   "case": "pregnancy",
+   "key": "p3dve0",
+   "w": "pt",
+   "text": "Em uống sắt, acid folic, canxi. Không dị ứng."
+  },
+  {
+   "case": "pregnancy",
+   "key": "3h7kah",
+   "w": "pt",
+   "text": "Nôn nhiều lắm. Giờ em hay đói, ăn vặt nhiều bữa."
+  },
+  {
+   "case": "pregnancy",
+   "key": "1nakoeg",
+   "w": "pt",
+   "text": "Thỉnh thoảng thôi, giờ thì nhiều hơn hẳn."
+  },
+  {
+   "case": "pregnancy",
+   "key": "17k4fvi",
+   "w": "pt",
+   "text": "Em chưa biết ạ."
+  },
+  {
+   "case": "pregnancy",
+   "key": "103uezq",
+   "w": "pt",
+   "text": "Bác sĩ ơi... em chóng mặt quá, buồn nôn..."
+  },
+  {
+   "case": "hypo",
+   "key": "mp6j1s",
+   "w": "rec",
+   "text": "Chú Phúc 63 tuổi bị tiểu đường, hẹn nhổ chân răng 45 lúc 10 giờ. Chú đến đúng giờ, ngồi chờ hơi lâu."
+  },
+  {
+   "case": "hypo",
+   "key": "1l6rdos",
+   "w": "pt",
+   "text": "Nhổ... nhổ nhanh đi bác sĩ... sao chú thấy... bồn chồn quá..."
+  },
+  {
+   "case": "hypo",
+   "key": "jgyeki",
+   "w": "pt",
+   "text": "Tiêm... tiêm rồi... sợ nhổ răng nên... chưa ăn gì..."
+  },
+  {
+   "case": "hypo",
+   "key": "1snj1m7",
+   "w": "pt",
+   "text": "Chú thấy đỡ hẳn rồi, hết run rồi."
+  }
+ ]
+}

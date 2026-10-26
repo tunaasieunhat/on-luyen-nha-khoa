@@ -1308,6 +1308,34 @@ body.sim-playing #scr-sim>.topbar{display:none}
 .tf.calm .tf-ring{display:none}
 @keyframes tf-calm{0%{opacity:0}30%{opacity:.9}100%{opacity:0}}
 /* @@V254-CSS-END */
+/* @@V255-CSS */
+/* ---- 2.5.5: Lồng tiếng nhân vật trong Mô phỏng ---- */
+.sim-vb{width:38px;height:38px;flex:none}
+.sim-vb .i{width:22px;height:22px}
+.sim-vb.off{color:var(--muted);border-color:var(--line)}
+.sm-say{position:relative;display:inline-flex;align-items:flex-end;justify-content:center;gap:2px;width:26px;height:18px;padding:3px 5px;margin-left:3px;border:1.5px solid currentColor;border-radius:99px;background:transparent;color:var(--scrub-deep);cursor:pointer;flex:none}
+.sm-say::before{content:'';position:absolute;inset:-12px -10px}
+.sm-say i{display:block;width:3px;height:100%;border-radius:2px;background:currentColor;transform-origin:bottom;transform:scaleY(.45)}
+.sm-say i:nth-child(2){transform:scaleY(.85)}
+.sm-say i:nth-child(3){transform:scaleY(.6)}
+.sm-say:hover{background:var(--scrub-soft)}
+.sm-say:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.sm-row.talking .sm-say{background:var(--scrub-deep);border-color:var(--scrub-deep);color:#fff}
+.sm-row.talking .sm-say i{animation:sm-say .75s ease-in-out infinite}
+.sm-row.talking .sm-say i:nth-child(2){animation-delay:-.25s}
+.sm-row.talking .sm-say i:nth-child(3){animation-delay:-.5s}
+.sm-row.talking .sm-bub{box-shadow:0 0 0 3px var(--scrub-soft)}
+.sim-chat.mute .sm-say{opacity:.5}
+@keyframes sm-say{0%,100%{transform:scaleY(.3)}50%{transform:scaleY(1)}}
+@media (prefers-reduced-motion:reduce){.sm-row.talking .sm-say i{animation:none;transform:scaleY(.8)}}
+@media (max-height:720px){.sim-vb{width:34px;height:34px}}
+@media (max-width:480px){
+  .sim-bar{gap:6px;padding:6px 8px}
+  .sim-bar .sim-who>.sm-av{display:none}
+  .sim-x,.sim-vb{width:34px;height:34px}
+  .sim-vb .i{width:20px;height:20px}
+}
+/* @@V255-CSS-END */
 </style>
 <script>
 /* Cầu nối với app Android: lưu file vào thư mục Tải xuống, nút Quay lại của điện thoại */
@@ -1377,8 +1405,8 @@ body.sim-playing #scr-sim>.topbar{display:none}
         <div class="brand-row"><span class="logo-slot"></span><span class="eyebrow">Phòng khám luyện thi Răng Hàm Mặt</span></div>
         <h1 id="start-title">Ôn Luyện <span>Nha Khoa</span></h1>
         <div class="beta-note" role="note">
-          <span class="beta-tag">Version 2.5.4</span>
-          <span class="beta-txt">Bản cập nhật 2.5.4: âm thanh hiệu ứng rõ hơn, bông tuyết khi nhấn.</span>
+          <span class="beta-tag">Version 2.5.5</span>
+          <span class="beta-txt">Bản cập nhật 2.5.5: lồng tiếng nhân vật trong Mô phỏng, nhạc nền nhỏ một nửa khi khám và làm bài.</span>
         </div>
       </div>
       <div class="start-cast">
@@ -1431,7 +1459,7 @@ body.sim-playing #scr-sim>.topbar{display:none}
             <span class="mi"><svg class="i" viewBox="0 0 24 24"><path d="M6 3v6a5 5 0 0 0 10 0V3"/><path d="M11 14v2a5 5 0 0 0 10 0v-2"/><circle cx="21" cy="12" r="2"/></svg></span>
             <strong>Mô Phỏng Nha Khoa<span class="new">BETA</span></strong><span class="d">Vào vai bác sĩ: hỏi bệnh, khám, chẩn đoán, điều trị.</span>
           </button>
-          <!-- @@V253-MENU --><button class="menu-set" id="go-settings" type="button"><span class="ms-i"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></span><span><b>Cài đặt</b><small>Nhạc nền, âm lượng, đổi nhạc chính, âm thanh</small></span></button><!-- @@V253-MENU-END -->
+          <!-- @@V253-MENU --><button class="menu-set" id="go-settings" type="button"><span class="ms-i"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></span><span><b>Cài đặt</b><small>Nhạc nền, lồng tiếng nhân vật, âm lượng, âm thanh</small></span></button><!-- @@V253-MENU-END -->
         </nav>
         <div class="menu-learn" id="menu-learn" hidden>
           <div class="ml-head"><button class="btn btn-sm" id="learn-back" type="button"><svg class="i" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>Menu chính</button><h3>Ôn Luyện Kiến Thức</h3></div>
@@ -1487,6 +1515,7 @@ body.sim-playing #scr-sim>.topbar{display:none}
         <button class="icon-btn sim-x" id="sim-exit" type="button" aria-label="Rời ca, về danh sách ca"><svg class="i" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
         <div class="sim-who" id="sim-pt"></div>
         <div id="sim-meters"></div>
+        <button class="icon-btn sim-vb" id="sim-voice" type="button" aria-pressed="true" aria-label="Tắt lồng tiếng nhân vật"></button>
       </div>
       <div class="sim-prog"><span class="sp-t" id="sim-prog-t"></span><span class="sp-bar"><i id="sim-prog-bar"></i></span><span class="sim-timer" id="sim-timer" role="timer" hidden></span></div>
       <div class="sim-frame" id="sim-frame"><div class="sim-chat" id="sim-chat" aria-live="polite"></div></div>
@@ -1863,7 +1892,7 @@ body.sim-playing #scr-sim>.topbar{display:none}
     <p class="intro-sub">Ôn thi mọi lúc, kể cả khi mất mạng.</p>
     <div class="intro-eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
     <button class="btn btn-gum intro-go" id="intro-go" type="button">Nhấn để bắt đầu<svg class="i" viewBox="0 0 24 24"><path d="M8 5l11 7-11 7V5z"/></svg></button>
-    <div class="intro-row"><button class="intro-music" id="intro-music" type="button" aria-pressed="true"></button><span class="intro-ver">Version 2.5.4</span></div>
+    <div class="intro-row"><button class="intro-music" id="intro-music" type="button" aria-pressed="true"></button><span class="intro-ver">Version 2.5.5</span></div>
     <p class="intro-tap" id="intro-tap" aria-live="polite"></p>
   </div>
 </div>
@@ -1871,14 +1900,14 @@ body.sim-playing #scr-sim>.topbar{display:none}
 <!-- ============ THÔNG BÁO NỔI (Version 1.0) ============ -->
 <div class="modal" id="v1-modal" hidden role="dialog" aria-modal="true" aria-labelledby="v1-title">
   <div class="modal-card v1-card">
-    <div class="modal-head"><span class="beta-tag">Version 2.5.4</span><h2 id="v1-title">Bản cập nhật 2.5.4</h2><button class="icon-btn sm" type="button" id="v1-close" aria-label="Đóng"><svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
-    <p class="v1-txt">Bản cập nhật 2.5.4 đã mở mang đến những sự thay đổi mới. Cùng khám phá nhé</p>
+    <div class="modal-head"><span class="beta-tag">Version 2.5.5</span><h2 id="v1-title">Bản cập nhật 2.5.5</h2><button class="icon-btn sm" type="button" id="v1-close" aria-label="Đóng"><svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <p class="v1-txt">Bản cập nhật 2.5.5 đã mở mang đến những sự thay đổi mới. Cùng khám phá nhé</p>
     <ul class="v1-new">
-      <li><b>Âm thanh hiệu ứng rõ hơn</b>: tiếng đúng, sai, chúc mừng to và sáng hơn; nhạc nền tự nhỏ lại một chút khi có hiệu ứng để không bị chìm. Thêm tiếng “tách” nhẹ mỗi khi nhấn nút.</li>
-      <li><b>Bông tuyết khi nhấn</b>: chạm vào đâu, một bông tuyết nở ra và tung các bông nhỏ ở chỗ đó.</li>
-      <li><b>Cài đặt</b> có thêm: âm lượng hiệu ứng, bật/tắt tiếng khi nhấn nút, bật/tắt bông tuyết.</li>
+      <li><b>Lồng tiếng nhân vật</b> trong Mô phỏng: bệnh nhân, người nhà, lễ tân nói bằng giọng riêng (nam, nữ, người lớn tuổi, trẻ con). Bấm biểu tượng loa trên lời thoại để nghe lại hoặc bỏ qua câu đang đọc.</li>
+      <li><b>Nhạc nền nhỏ đi một nửa</b> khi vào Mô phỏng và khi trả lời câu hỏi (Làm bài, Phòng Thi), và nhỏ thêm khi nhân vật đang nói.</li>
+      <li><b>Cài đặt</b> có thêm: bật/tắt lồng tiếng, âm lượng giọng nói. Trong ca bệnh có nút bật/tắt nhanh ở góc trên.</li>
     </ul>
-    <a class="btn btn-gum btn-lg v1-dl" id="v1-dl" href="https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk" target="_blank" rel="noopener"><svg class="i" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Tải app version 2.5.4 (Android)</a>
+    <a class="btn btn-gum btn-lg v1-dl" id="v1-dl" href="https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk" target="_blank" rel="noopener"><svg class="i" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Tải app version 2.5.5 (Android)</a>
     <p class="v1-url">https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk</p>
     <button class="btn" type="button" id="v1-ok">Khám phá ngay</button>
   </div>
@@ -2585,6 +2614,8 @@ const MUSIC_TRACKS = {
 };
 const QUIZ_TRACK = { t: 'Where Snowfall Settles', src: 'music/where-snowfall-settles.mp3' };
 const MUSIC_VOL = { intro: 1, app: .72 };
+// 2.5.5: vào Mô phỏng hoặc đang trả lời câu hỏi (Làm bài, Phòng Thi) thì nhạc nền cố định nhỏ đi một nửa
+const MUSIC_ZONE = .5;
 (() => {
   let v = .8; try { v = +store.get('musicVol', .8); } catch {}
   S.musicVol = Number.isFinite(v) ? Math.max(0, Math.min(1, v)) : .8;
@@ -2601,9 +2632,10 @@ const Music = (() => {
   const gain = () => Math.pow(S.musicVol, 1.6) * level;
   // 2.5.4: nhỏ nhạc một chút khi có âm thanh hiệu ứng (đúng/sai/chúc mừng) để hiệu ứng nghe rõ
   const ducked = () => performance.now() < duckUntil;
-  const target = () => Math.max(0, Math.min(1, gain() * (urgent ? .6 : 1) * (ducked() ? .4 : 1)));
-  const synthVolD = () => Math.min(1, gain() * .85 * (ducked() ? .4 : 1));
-  const synthVol = () => Math.min(1, gain() * .85);
+  const zone = () => (S.screen === 'sim' || mode === 'quiz' ? MUSIC_ZONE : 1);
+  const target = () => Math.max(0, Math.min(1, gain() * zone() * (urgent ? .6 : 1) * (ducked() ? .4 : 1)));
+  const synthVolD = () => Math.min(1, gain() * zone() * .85 * (ducked() ? .4 : 1));
+  const synthVol = () => Math.min(1, gain() * zone() * .85);
   const notify = () => { try { paintIntro(); } catch {} try { setPaint(); } catch {} };
   function fade(el, to, ms, done) {
     clearInterval(el.__f);
@@ -2689,6 +2721,10 @@ const Music = (() => {
       duckUntil = performance.now() + ms; refresh();
       clearTimeout(duckT); duckT = setTimeout(refresh, ms + 20);
     },
+    // Lồng tiếng xong sớm (bỏ qua, rời ca): trả nhạc về mức thường
+    unduck() { if (performance.now() >= duckUntil) return; duckUntil = 0; clearTimeout(duckT); refresh(); },
+    // Đổi màn hình: áp lại mức nhạc theo vùng (Mô phỏng / câu hỏi nhỏ một nửa)
+    rezone() { refresh(); },
     offline(...a) { return Synth.offline(...a); },
     setVol(v) { S.musicVol = Math.max(0, Math.min(1, v)); try { store.set('musicVol', S.musicVol); } catch {} refresh(); },
     setTrack(id) { if (!MUSIC_TRACKS[id]) return; S.musicTrack = id; try { store.set('musicTrack', id); } catch {} if (playing) apply(); },
@@ -2697,7 +2733,7 @@ const Music = (() => {
     get state() {
       const files = {};
       for (const k in P) { const x = P[k]; files[k] = { state: x.state, paused: x.el ? x.el.paused : null, t: x.el ? +x.el.currentTime.toFixed(1) : 0, vol: x.el ? +x.el.volume.toFixed(2) : 0 }; }
-      return { cur, mode, urgent, playing, level, files };
+      return { cur, mode, urgent, playing, level, zone: zone(), ducked: ducked(), files };
     }
   };
 })();
@@ -2711,7 +2747,7 @@ function renderSettings() {
     <section class="set-sec">
       <h3>${MUSIC_ICON.on}Nhạc nền</h3>
       <div class="set-row"><div class="set-l"><b>Phát nhạc nền</b><small>Ở sảnh, khi đọc lý thuyết, mô phỏng và khi làm bài</small></div>${setSw('music', S.music, 'Phát nhạc nền')}</div>
-      <div class="set-row set-volrow"><div class="set-l"><b>Âm lượng nhạc</b></div><div class="set-vol"><input type="range" id="set-vol" min="0" max="100" step="5" value="${v}" aria-label="Âm lượng nhạc nền"><output id="set-vol-v" for="set-vol">${v}%</output></div></div>
+      <div class="set-row set-volrow"><div class="set-l"><b>Âm lượng nhạc</b><small>Tự nhỏ đi một nửa khi vào Mô phỏng và khi trả lời câu hỏi</small></div><div class="set-vol"><input type="range" id="set-vol" min="0" max="100" step="5" value="${v}" aria-label="Âm lượng nhạc nền"><output id="set-vol-v" for="set-vol">${v}%</output></div></div>
       <div class="set-sub">Nhạc chính</div>
       <div class="set-tracks" role="radiogroup" aria-label="Chọn nhạc chính">${Object.entries(MUSIC_TRACKS).map(([k, t]) => `<button type="button" class="set-track" role="radio" aria-checked="${S.musicTrack === k}" data-settrack="${k}"><span class="st-dot" aria-hidden="true"></span><span class="st-t"><b>${esc(t.t)}</b><small>${esc(t.d)}${k === 'hearth' ? ' · mặc định' : ''}</small></span><span class="st-eq" aria-hidden="true"><i></i><i></i><i></i></span></button>`).join('')}</div>
       <div class="set-row"><div class="set-l"><b>Nhạc riêng khi trả lời câu hỏi</b><small>${esc(QUIZ_TRACK.t)} · khi Làm bài và ở Phòng Thi</small></div>${setSw('quiz', S.musicQuiz, 'Nhạc riêng khi trả lời câu hỏi')}</div>
@@ -2723,6 +2759,11 @@ function renderSettings() {
       <div class="set-row"><div class="set-l"><b>Tiếng “tách” khi nhấn nút</b><small>Tiếng ngắn, nhẹ mỗi lần bấm</small></div>${setSw('tap', S.tapSound, 'Tiếng khi nhấn nút')}</div>
     </section>
     <section class="set-sec">
+      <h3>${VOICE_ICON.on}Lồng tiếng nhân vật</h3>
+      <div class="set-row"><div class="set-l"><b>Lồng tiếng trong Mô phỏng</b><small>Bệnh nhân, người nhà, lễ tân nói bằng giọng riêng; nhạc nền tự nhỏ lại khi nhân vật nói</small></div>${setSw('voice', S.voice, 'Lồng tiếng nhân vật')}</div>
+      <div class="set-row set-volrow set-voicerow"><div class="set-l"><b>Âm lượng giọng nói</b></div><div class="set-vol"><input type="range" id="set-voice" min="0" max="100" step="5" value="${Math.round(S.voiceVol * 100)}" aria-label="Âm lượng giọng nói"><output id="set-voice-v" for="set-voice">${Math.round(S.voiceVol * 100)}%</output></div></div>
+    </section>
+    <section class="set-sec">
       <h3><svg class="i" viewBox="-12 -12 24 24"><g>${[0, 60, 120].map(r => `<path transform="rotate(${r})" d="M0-10V10M0-6.4l-2.7-2.5M0-6.4l2.7-2.5M0 6.4l-2.7 2.5M0 6.4l2.7 2.5"/>`).join('')}</g></svg>Hiệu ứng</h3>
       <div class="set-row"><div class="set-l"><b>Bông tuyết khi nhấn</b><small>Mỗi lần chạm, một bông tuyết nở ra ở chỗ bạn nhấn</small></div>${setSw('flake', S.tapFlake, 'Bông tuyết khi nhấn')}</div>
     </section>
@@ -2731,7 +2772,7 @@ function renderSettings() {
 }
 function setPaint() {
   const m = $('#set-modal'); if (!m || m.hidden || !$('#set-body').firstElementChild) return;
-  const sw = { music: S.music, quiz: S.musicQuiz, sound: S.sound, tap: S.tapSound, flake: S.tapFlake };
+  const sw = { music: S.music, quiz: S.musicQuiz, sound: S.sound, tap: S.tapSound, flake: S.tapFlake, voice: S.voice };
   $$('#set-body [data-setsw]').forEach(b => { const on = !!sw[b.dataset.setsw]; b.classList.toggle('on', on); b.setAttribute('aria-checked', String(on)); });
   const live = Music.running(), ld = Music.loading();
   $$('#set-body [data-settrack]').forEach(b => {
@@ -2742,6 +2783,7 @@ function setPaint() {
   });
   const vr = $('#set-body .set-volrow'); if (vr) vr.classList.toggle('off', !S.music);
   const sr = $('#set-body .set-sfxrow'); if (sr) sr.classList.toggle('off', !S.sound);
+  const vr2 = $('#set-body .set-voicerow'); if (vr2) vr2.classList.toggle('off', !S.voice);
   const note = $('#set-note');
   if (note) note.textContent = !S.music ? 'Nhạc nền đang tắt. Chọn một bản nhạc chính để bật và nghe thử.' : ld ? 'Đang tải nhạc…' : (S.music && Music.playing && !live ? 'Chạm vào màn hình để bật nhạc.' : '');
 }
@@ -2769,9 +2811,11 @@ document.addEventListener('click', e => {
   if (t.dataset.setsw === 'quiz') { Music.setQuiz(!S.musicQuiz); setPaint(); return; }
   if (t.dataset.setsw === 'sound') { S.sound = !S.sound; store.set('sound', S.sound); renderSoundBtns(); if (S.sound) beep(true); setPaint(); return; }
   if (t.dataset.setsw === 'tap') { S.tapSound = !S.tapSound; try { store.set('tapSound', S.tapSound); } catch {} if (S.tapSound) Sfx.play('tap'); setPaint(); return; }
+  if (t.dataset.setsw === 'voice') { Voice.setOn(!S.voice); if (S.voice) voiceSample(); setPaint(); return; }
   if (t.dataset.setsw === 'flake') { S.tapFlake = !S.tapFlake; try { store.set('tapFlake', S.tapFlake); } catch {} setPaint(); return; }
 });
 document.addEventListener('input', e => {
+  if (e.target && e.target.id === 'set-voice') { const v = +e.target.value; $('#set-voice-v').textContent = v + '%'; Voice.setVol(v / 100); return; }
   if (e.target && e.target.id === 'set-sfx') { const v = +e.target.value; $('#set-sfx-v').textContent = v + '%'; S.sfxVol = v / 100; try { store.set('sfxVol', S.sfxVol); } catch {} return; }
   if (!e.target || e.target.id !== 'set-vol') return;
   const v = +e.target.value;
@@ -2779,7 +2823,7 @@ document.addEventListener('input', e => {
   Music.setVol(v / 100);
 });
 // thả thanh âm lượng hiệu ứng: phát thử tiếng “đúng” để nghe mức mới
-document.addEventListener('change', e => { if (e.target && e.target.id === 'set-sfx') beep(true); });
+document.addEventListener('change', e => { if (e.target && e.target.id === 'set-sfx') beep(true); if (e.target && e.target.id === 'set-voice') voiceSample(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') { const m = $('#set-modal'); if (m && !m.hidden) { e.preventDefault(); closeSettings(); } } });
 // Cho kiểm thử tự động: đọc trạng thái nhạc, giả lập sắp hết giờ
 try { Object.defineProperty(window, '__music', { value: { get state() { return Music.state; }, running: () => Music.running(), urgent: on => Music.urgent(on) }, configurable: true }); } catch {}
@@ -2896,7 +2940,7 @@ const TapFx = (() => {
 })();
 const TAP_SEL = 'button, a[href], [role="button"], [role="radio"], [role="switch"], [role="tab"], summary, label, select, input[type="checkbox"], input[type="radio"], input[type="range"]';
 // Các nút đã có tiếng riêng (đáp án, nút âm thanh) thì không thêm tiếng “tách”
-const TAP_SKIP = '#qz-opts .opt, #ex-opts .opt, .sound-btn, [data-setsw="sound"]';
+const TAP_SKIP = '#qz-opts .opt, #ex-opts .opt, .sound-btn, [data-setsw="sound"], .sm-say';
 document.addEventListener('click', e => {
   if (!e.isTrusted || e.detail === 0) return; // bỏ qua bấm bằng bàn phím / do mã kích hoạt
   const t = e.target;
@@ -2906,6 +2950,154 @@ document.addEventListener('click', e => {
 // Cho kiểm thử tự động
 try { Object.defineProperty(window, '__sfx', { value: { offline: (k, v) => Sfx.offline(k, v), play: k => Sfx.play(k), get state() { return { vol: S.sfxVol, tap: S.tapSound, flake: S.tapFlake, sound: S.sound }; } }, configurable: true }); } catch {}
 /* @@V254-FX-END */
+/* @@V255-VOICE */
+const SIM_VOICE = {"pulpitis":{"f":"voice/pulpitis.mp3","l":{"nlk1jq":[0.3,5.34],"1by3yhc":[5.94,4.95],"5pem8a":[11.19,6.03],"1a7pgjj":[17.52,3.64],"8367zm":[21.46,4.05],"5vtd1c":[25.81,2.14],"brdosy":[28.25,2.9],"2nsp52":[31.45,2.97],"1s8esxu":[34.72,3.76],"12ygnlt":[38.78,5.0],"1bd5qg1":[44.08,3.99],"sxwnf6":[48.37,2.64],"d5ael9":[51.31,1.27],"2zzvk3":[52.88,2.11],"r9ban6":[55.29,1.62],"1j3al93":[57.21,1.32],"h74hgb":[58.83,2.3]}},"abscess":{"f":"voice/abscess.mp3","l":{"uf6cfe":[0.3,4.73],"bnlxn4":[5.33,5.23],"1ojp2zv":[10.86,2.71],"zsdbrw":[13.87,3.33],"1s9m0ql":[17.5,3.58],"12x1nu7":[21.38,4.44],"1nta8x4":[26.12,3.98],"18d6na6":[30.4,2.34],"1x3gvmw":[33.04,1.12],"rtg4f4":[34.46,0.48],"bbmmry":[35.24,1.39],"150tjgy":[36.93,1.46]}},"perio":{"f":"voice/perio.mp3","l":{"sp9s4x":[0.3,5.04],"1gkk6gx":[5.64,5.01],"1esb4o6":[10.95,3.8],"6wltcm":[15.05,2.18],"nv2xnr":[17.53,1.78],"1mnxzrl":[19.61,2.48],"1lzqsp4":[22.39,5.19],"rhfbbt":[27.88,3.31],"34ge5p":[31.49,3.07],"ls95qk":[34.86,2.52],"gtrgog":[37.68,1.02],"n0092o":[39.0,3.22]}},"wisdom":{"f":"voice/wisdom.mp3","l":{"19n4f65":[0.3,4.94],"1w8wb74":[5.54,7.44],"72wox4":[13.28,2.09],"1vlbv5v":[15.67,3.13],"93dc87":[19.1,2.05],"122i2kf":[21.45,2.06],"1dwmhpy":[23.81,2.28],"14nmrgr":[26.39,0.71],"ovmx6j":[27.4,1.14]}},"avulsion":{"f":"voice/avulsion.mp3","l":{"1bsw609":[0.3,6.07],"cmbwu4":[6.67,4.27],"7fmsko":[11.24,3.88],"44xvhv":[15.42,4.54],"bz3174":[20.26,2.1],"br2wqt":[22.66,2.96],"6eu6f9":[25.92,1.09],"1g780be":[27.31,2.45],"1d9ers2":[30.06,5.31],"4gd3sl":[35.67,2.63],"1890hcp":[38.6,1.27],"13pqeej":[40.17,1.13],"10nmk3n":[41.6,0.46],"gv7of":[42.36,1.54]}},"warfarin":{"f":"voice/warfarin.mp3","l":{"1rld860":[0.3,4.89],"dlojaq":[5.49,5.74],"fr957f":[11.53,3.61],"18gv9i1":[15.44,2.74],"1mxfuwt":[18.48,4.22],"1ii6usz":[23.0,5.73],"scs78a":[29.03,2.02],"n5dk9m":[31.35,0.49],"uakfqn":[32.14,1.45],"bxuqid":[33.89,1.2],"wc547j":[35.39,1.27]}},"anaphylaxis":{"f":"voice/anaphylaxis.mp3","l":{"1t9ad6c":[0.3,4.01],"ljn2mc":[4.61,3.75]}},"cardiac":{"f":"voice/cardiac.mp3","l":{"lw391r":[0.3,5.43],"m94wcv":[6.03,5.96],"x6eiy":[12.29,8.52],"txt4qc":[21.11,2.8],"1t848nt":[24.21,2.1],"1cqsk9j":[26.61,2.27],"10vq8mg":[29.18,3.38],"aexxu0":[32.86,3.01],"n5dk9m":[36.17,0.4],"1qqxxse":[36.87,0.93],"1vcd19a":[38.1,0.66]}},"cracked":{"f":"voice/cracked.mp3","l":{"112wksw":[0.3,7.77],"pudr0r":[8.37,8.82],"18htxmf":[17.49,3.76],"1ra01kc":[21.55,2.63],"1eln22i":[24.48,3.69],"1kgb5ni":[28.47,1.84],"1d36m0e":[30.61,3.69],"1gzokd1":[34.6,0.62],"1m2x2px":[35.52,2.66]}},"drysocket":{"f":"voice/drysocket.mp3","l":{"1etr5nh":[0.3,5.61],"7p0gnv":[6.21,10.57],"19smw40":[17.08,5.59],"hyy7qm":[22.97,4.25],"1lp74pc":[27.52,4.35],"1qqbt7l":[32.17,6.1],"1du2v2v":[38.57,1.3],"ritkkx":[40.17,1.75]}},"oroantral":{"f":"voice/oroantral.mp3","l":{"1usugc4":[0.3,3.67]}},"ecc":{"f":"voice/ecc.mp3","l":{"1gfk7mm":[0.3,4.17],"qdfong":[4.77,8.2],"2jrcx0":[13.27,5.1],"kuxytv":[18.67,4.6],"148473w":[23.57,2.43],"1lgjw5d":[26.3,5.03],"1ox7l0e":[31.63,1.46],"bh5qpr":[33.39,1.61],"1i85ii5":[35.3,4.07]}},"herpes":{"f":"voice/herpes.mp3","l":{"5ik72b":[0.3,3.79],"a3vzaf":[4.39,8.97],"4so3ai":[13.66,4.84],"v1sp87":[18.8,3.9],"wi61h0":[23.0,1.29],"1tp3sj0":[24.59,3.57],"9d4xjr":[28.46,2.28],"1se60gi":[31.04,1.65]}},"ulcer":{"f":"voice/ulcer.mp3","l":{"1kkvfax":[0.3,4.79],"1ijaomt":[5.39,11.78],"kr8mmu":[17.47,6.07],"drq0dc":[23.84,5.65],"15ad4s4":[29.79,4.13],"17zoi0x":[34.22,3.27],"1udpfkl":[37.79,2.27],"15zp83":[40.36,0.82],"1t2x020":[41.48,2.47],"1082i37":[44.25,2.61]}},"denture":{"f":"voice/denture.mp3","l":{"q6y0jd":[0.3,4.74],"12jxanu":[5.34,8.43],"xj771v":[14.07,5.7],"1apme99":[20.07,5.46],"rryirj":[25.83,3.45],"c7mgap":[29.58,2.11],"1cmefky":[31.99,1.81],"zvws8t":[34.1,1.78]}},"tmd":{"f":"voice/tmd.mp3","l":{"72cvj0":[0.3,3.8],"1ryuhb7":[4.4,8.53],"jhamf":[13.23,4.35],"quy2q":[17.88,5.36],"c8tv47":[23.54,1.24],"1dtcjvt":[25.08,2.46],"rtg4f4":[27.84,0.68],"16vbnbp":[28.82,2.79],"fn0kew":[31.91,1.19]}},"pregnancy":{"f":"voice/pregnancy.mp3","l":{"jqxsbn":[0.3,3.78],"hl3eo8":[4.38,10.44],"1etmgwq":[15.12,2.71],"10ew0s6":[18.13,2.94],"p3dve0":[21.37,3.05],"3h7kah":[24.72,2.78],"1nakoeg":[27.8,2.02],"17k4fvi":[30.12,1.0],"103uezq":[31.42,2.38]}},"hypo":{"f":"voice/hypo.mp3","l":{"mp6j1s":[0.3,6.71],"1l6rdos":[7.31,4.83],"jgyeki":[12.44,3.45],"1snj1m7":[16.19,2.32]}}};
+const SIM_VOICE_SAMPLE = ["pulpitis", "h74hgb"];
+/* ================= LỒNG TIẾNG NHÂN VẬT TRONG MÔ PHỎNG (Version 2.5.5) =================
+   Lời thoại của bệnh nhân, người nhà, lễ tân được đọc sẵn bằng VieNeu-TTS (Apache-2.0), mỗi ca gộp thành một file
+   voice/<ca>.mp3; SIM_VOICE ghi vị trí từng câu trong file. Phát bằng WebAudio để cắt đúng từng câu, dùng được offline.
+   Nhạc nền tự nhỏ lại khi nhân vật nói; bấm vào biểu tượng loa trên bong bóng để nghe lại hoặc bỏ qua câu đang đọc. */
+(() => {
+  let v = true; try { v = store.get('voice', true) !== false; } catch {}
+  S.voice = v;
+  let k = 1; try { k = +store.get('voiceVol', 1); } catch {}
+  S.voiceVol = Number.isFinite(k) ? Math.max(0, Math.min(1, k)) : 1;
+})();
+const VOICE_ICON = {
+  on: '<svg class="i" viewBox="0 0 24 24"><path d="M3 6.5h10.5a2 2 0 0 1 2 2V14a2 2 0 0 1-2 2H8l-3.5 3v-3H3a2 2 0 0 1-2-2V8.5a2 2 0 0 1 2-2z"/><path d="M18.5 8.6a4 4 0 0 1 0 5.3M21 6.4a7.2 7.2 0 0 1 0 9.7"/></svg>',
+  off: '<svg class="i" viewBox="0 0 24 24"><path d="M3 6.5h10.5a2 2 0 0 1 2 2V14a2 2 0 0 1-2 2H8l-3.5 3v-3H3a2 2 0 0 1-2-2V8.5a2 2 0 0 1 2-2z"/><path d="M18 8.5l5 5M23 8.5l-5 5"/></svg>'
+};
+// Mã của một câu thoại: FNV-1a 32 bit trên UTF-8 của "người nói|lời" (khớp với bộ dựng giọng)
+function voiceKey(l) {
+  if (typeof l === 'string') l = { w: 'pt', t: l };
+  const s = (l.w || 'pt') + '|' + String(l.t || '').normalize('NFC');
+  let h = 0x811c9dc5;
+  for (const b of new TextEncoder().encode(s)) { h ^= b; h = Math.imul(h, 0x01000193) >>> 0; }
+  return h.toString(36);
+}
+const Voice = (() => {
+  let C = null, out = null, cur = null;
+  const packs = {};
+  const vol = () => Math.pow(S.voiceVol, 1.3);
+  function ctx() {
+    if (C) return C;
+    try { C = new (window.AudioContext || window.webkitAudioContext)(); } catch { return null; }
+    out = C.createGain(); out.gain.value = 1; out.connect(C.destination);
+    return C;
+  }
+  const meta = id => (typeof SIM_VOICE !== 'undefined' && SIM_VOICE[id]) || null;
+  function pack(id) {
+    const m = meta(id); if (!m) return null;
+    if (packs[id] && packs[id].state !== 'fail') return packs[id];
+    const c = ctx(); if (!c) return null;
+    // chỉ giữ ca đang khám trong bộ nhớ
+    for (const k in packs) if (k !== id) delete packs[k];
+    const x = packs[id] = { state: 'loading', buf: null };
+    x.p = fetch(m.f).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.arrayBuffer(); })
+      .then(ab => new Promise((res, rej) => { const p = c.decodeAudioData(ab, res, rej); if (p && p.then) p.then(res, rej); }))
+      .then(b => { x.buf = b; x.state = 'ready'; return x; })
+      .catch(() => { x.state = 'fail'; return x; });
+    return x;
+  }
+  function end(me) {
+    if (me.ended) return;
+    me.ended = true; clearTimeout(me.to); clearTimeout(me.lim);
+    if (me.el) me.el.classList.remove('talking');
+    if (cur === me) cur = null;
+    me.done();
+  }
+  function stop(release) {
+    const me = cur; if (!me) { if (release) try { Music.unduck(); } catch {} return; }
+    me.stopped = true;
+    if (me.src) {
+      me.src.onended = null;
+      try { const t = C.currentTime; me.g.gain.cancelScheduledValues(t); me.g.gain.setValueAtTime(me.g.gain.value, t); me.g.gain.linearRampToValueAtTime(0, t + .08); me.src.stop(t + .1); } catch {}
+    }
+    end(me);
+    if (release) try { Music.unduck(); } catch {}
+  }
+  function play(id, key, el) {
+    stop();
+    if (!S.voice || window.__simFast) return Promise.resolve(false);
+    const m = meta(id), seg = m && m.l[key]; if (!seg) return Promise.resolve(false);
+    const x = pack(id); if (!x || x.state === 'fail') return Promise.resolve(false);
+    const me = { id, key, el, src: null, g: null, ended: false, stopped: false, played: false };
+    me.p = new Promise(r => { me.done = () => r(me.played); });
+    cur = me;
+    const go = () => {
+      if (cur !== me || me.ended || x.state !== 'ready' || !S.voice) return end(me);
+      const c = C;
+      if (c.state === 'suspended') { try { c.resume(); } catch {} }
+      const src = c.createBufferSource(), g = c.createGain();
+      src.buffer = x.buf; g.gain.value = vol();
+      src.connect(g); g.connect(out);
+      me.src = src; me.g = g;
+      src.onended = () => end(me);
+      try { src.start(0, seg[0], seg[1]); } catch { return end(me); }
+      me.played = true;
+      if (el) el.classList.add('talking');
+      // nhạc nhỏ lại trong lúc nói và thêm một chút sau câu, để các câu liên tiếp không làm nhạc lên xuống
+      try { Music.duck(seg[1] * 1000 + 1200); } catch {}
+      // phòng khi trình duyệt không báo phát xong (âm thanh bị treo)
+      me.to = setTimeout(() => end(me), seg[1] * 1000 + 1500);
+    };
+    if (x.state === 'ready') go();
+    else { me.lim = setTimeout(() => end(me), 2500); x.p.then(go); }
+    return me.p;
+  }
+  return {
+    key: voiceKey,
+    // không tải được file giọng của ca thì thôi hiện nút loa ở các câu sau
+    has(id, l) { const m = meta(id); if (!m || (packs[id] && packs[id].state === 'fail')) return false; return !!m.l[voiceKey(l)]; },
+    preload(id) { if (S.voice && !window.__simFast) pack(id); },
+    say(id, l, el) { return play(id, voiceKey(l), el); },
+    replay(id, key, el) { return play(id, key, el); },
+    // chờ câu đang đọc xong (kể cả câu được bấm nghe lại giữa chừng)
+    async idle() { while (cur) await cur.p; },
+    stop,
+    get talking() { return !!cur; },
+    unlock() { if (C && C.state === 'suspended') { try { C.resume(); } catch {} } },
+    setOn(on) {
+      S.voice = !!on; try { store.set('voice', S.voice); } catch {}
+      if (!S.voice) stop(true);
+      voicePaint();
+    },
+    setVol(v) { S.voiceVol = Math.max(0, Math.min(1, v)); try { store.set('voiceVol', S.voiceVol); } catch {} if (cur && cur.g) { try { cur.g.gain.value = vol(); } catch {} } },
+    // Cho kiểm thử tự động (chỉ đọc)
+    get state() {
+      const p = {}; for (const k in packs) p[k] = { state: packs[k].state, dur: packs[k].buf ? +packs[k].buf.duration.toFixed(2) : 0 };
+      return { on: S.voice, vol: S.voiceVol, talking: !!cur, cur: cur ? { id: cur.id, key: cur.key, played: cur.played } : null, ctx: C ? C.state : null, packs: p };
+    }
+  };
+})();
+function voicePaint() {
+  const b = document.getElementById('sim-voice');
+  if (b) { b.innerHTML = S.voice ? VOICE_ICON.on : VOICE_ICON.off; b.setAttribute('aria-pressed', String(S.voice)); b.setAttribute('aria-label', S.voice ? 'Tắt lồng tiếng nhân vật' : 'Bật lồng tiếng nhân vật'); b.classList.toggle('off', !S.voice); }
+  const chat = document.getElementById('sim-chat'); if (chat) chat.classList.toggle('mute', !S.voice);
+  try { setPaint(); } catch {}
+}
+// Nút loa trên bong bóng: đang đọc thì bỏ qua câu, không thì nghe lại
+function voiceSayBtn() { return '<button class="sm-say" type="button" aria-label="Nghe lại lời thoại"><i></i><i></i><i></i></button>'; }
+document.addEventListener('click', e => {
+  const t = e.target && e.target.closest && e.target.closest('button'); if (!t) return;
+  if (t.id === 'sim-voice') { Voice.setOn(!S.voice); if (S.voice) toast('Đã bật lồng tiếng nhân vật'); else toast('Đã tắt lồng tiếng nhân vật'); return; }
+  if (t.classList.contains('sm-say')) {
+    const row = t.closest('.sm-row'); if (!row || !SIM.cur) return;
+    if (row.classList.contains('talking')) { Voice.stop(); return; }
+    if (!S.voice) Voice.setOn(true);
+    Voice.replay(SIM.cur.c.id, row.dataset.vk, row);
+  }
+});
+document.addEventListener('pointerdown', () => Voice.unlock(), true);
+document.addEventListener('visibilitychange', () => { if (document.hidden) Voice.stop(true); });
+try { Object.defineProperty(window, '__voice', { value: { get state() { return Voice.state; }, key: voiceKey, stop: () => Voice.stop(true) }, configurable: true }); } catch {}
+// Nghe thử trong Cài đặt: một câu ngắn của bệnh nhân
+function voiceSample() {
+  if (!S.voice || typeof SIM_VOICE_SAMPLE === 'undefined' || !SIM_VOICE_SAMPLE) return;
+  if (SIM.cur && !$('#sim-play').hidden) return; // đang khám thì không chen câu mẫu
+  Voice.replay(SIM_VOICE_SAMPLE[0], SIM_VOICE_SAMPLE[1]);
+}
+/* @@V255-VOICE-END */
 function renderMusicBtns() {
   $$('.music-btn').forEach(b => {
     b.innerHTML = S.music ? MUSIC_ICON.on : MUSIC_ICON.off;
@@ -3523,9 +3715,9 @@ function paintArt(q) {
 let v1Shown = false;
 function openV1Notice() {
   // Bản web: hiện mỗi lần mở (kèm nút tải app). App Android: chỉ hiện một lần cho mỗi phiên bản, không có nút tải.
-  if (v1Shown || (window.AndroidApp && store.get('seenNotice', '') === '2.5.4')) return;
+  if (v1Shown || (window.AndroidApp && store.get('seenNotice', '') === '2.5.5')) return;
   const m = $('#v1-modal'); if (!m) return;
-  if (window.AndroidApp) { $('#v1-dl').hidden = true; const u = $('.v1-url'); if (u) u.hidden = true; store.set('seenNotice', '2.5.4'); }
+  if (window.AndroidApp) { $('#v1-dl').hidden = true; const u = $('.v1-url'); if (u) u.hidden = true; store.set('seenNotice', '2.5.5'); }
   v1Shown = true; m.hidden = false;
   setTimeout(() => { try { $('#v1-ok').focus(); } catch {} }, 60);
 }
@@ -3761,6 +3953,8 @@ function show(name) {
   SCREENS.forEach(n => { $('#scr-' + n).hidden = n !== name; });
   document.body.dataset.scr = name;
   S.screen = name;
+  try { Music.rezone(); } catch {}
+  if (name !== 'sim') { try { Voice.stop(true); } catch {} }
   $('#report-bar').hidden = name === 'start';
   renderPlayerChips();
   try { window.scrollTo(0, 0); } catch {}
@@ -6571,7 +6765,7 @@ const SIM_XRAY = (() => {
   };
   return key => (F[key] ? F[key]() : '');
 })();
-/* ================= MÔ PHỎNG NHA KHOA (Version 2.5 beta; khung hội thoại + chế độ Bác sĩ từ 2.5.1; chuyên ngành, tìm kiếm, Đã làm từ 2.5.2) ================= */
+/* ================= MÔ PHỎNG NHA KHOA (Version 2.5 beta; khung hội thoại + chế độ Bác sĩ từ 2.5.1; chuyên ngành, tìm kiếm, Đã làm từ 2.5.2; lồng tiếng nhân vật từ 2.5.5) ================= */
 const SIM = { cur: null, mode: 'hard', anchor: null };
 try { SIM.mode = store.get('simMode', 'hard') === 'learn' ? 'learn' : 'hard'; } catch {}
 const simFastOn = () => reduced || window.__simFast;
@@ -6637,9 +6831,11 @@ function simLineHTML(l, c) {
   if (l.w === 'nar') return `<div class="sm-nar">${t}</div>`;
   if (l.w === 'card') return `<div class="sm-card"><div class="sm-card-h">${SIM_ICON.clip}<b>${esc(l.h)}</b></div><dl>${l.rows.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl></div>`;
   if (l.w === 'xray') return `<figure class="sm-xray"><div class="sm-card-h">${SIM_ICON.film}<b>${esc(l.h)}</b></div>${SIM_XRAY(l.x)}<figcaption>${t}</figcaption></figure>`;
-  if (l.w === 'rec') return `<div class="sm-row rec">${simAv(SIM_REC)}<div class="sm-bub"><small>Lễ tân</small>${t}</div></div>`;
-  if (l.w === 'fam') return `<div class="sm-row fam">${simAv(SIM_FAM)}<div class="sm-bub"><small>${esc(c.fam || 'Người nhà')}</small>${t}</div></div>`;
-  return `<div class="sm-row pt">${simAv(c.pt.av)}<div class="sm-bub"><small>${esc(c.pt.name)}</small>${t}</div></div>`;
+  // 2.5.5: câu có lồng tiếng thì kèm nút loa (nghe lại / bỏ qua)
+  const vk = Voice.has(c.id, l) ? Voice.key(l) : '', vd = vk ? ` data-vk="${vk}"` : '', vb = vk ? voiceSayBtn() : '';
+  if (l.w === 'rec') return `<div class="sm-row rec"${vd}>${simAv(SIM_REC)}<div class="sm-bub"><small>Lễ tân${vb}</small>${t}</div></div>`;
+  if (l.w === 'fam') return `<div class="sm-row fam"${vd}>${simAv(SIM_FAM)}<div class="sm-bub"><small>${esc(c.fam || 'Người nhà')}${vb}</small>${t}</div></div>`;
+  return `<div class="sm-row pt"${vd}>${simAv(c.pt.av)}<div class="sm-bub"><small>${esc(c.pt.name)}${vb}</small>${t}</div></div>`;
 }
 /* Khung hội thoại cuộn bên trong; phim/thẻ cao hơn khung thì giữ phần đầu trong tầm nhìn */
 function simScroll(el) {
@@ -6655,12 +6851,16 @@ async function simLines(lines) {
     if (SIM.cur !== cur) return;
     const l = typeof l0 === 'string' ? { w: 'pt', t: l0 } : l0;
     if (!simCond(l)) continue;
-    if (['pt', 'fam', 'rec'].includes(l.w) && !simFastOn()) {
+    const talk = ['pt', 'fam', 'rec'].includes(l.w);
+    // 2.5.5: nhân vật trước nói xong thì nhân vật sau mới nói (câu cuối không chặn, đọc tiếp trong lúc chọn)
+    if (talk) { await Voice.idle(); if (SIM.cur !== cur) return; }
+    if (talk && !simFastOn()) {
       chat.insertAdjacentHTML('beforeend', '<div class="sm-typing" aria-hidden="true"><i></i><i></i><i></i></div>'); simScroll();
       await simWait(520); const ty = chat.querySelector('.sm-typing'); if (ty) ty.remove();
       if (SIM.cur !== cur) return;
     }
-    chat.insertAdjacentHTML('beforeend', simLineHTML(l, cur.c)); simScroll(chat.lastElementChild);
+    chat.insertAdjacentHTML('beforeend', simLineHTML(l, cur.c)); const el = chat.lastElementChild; simScroll(el);
+    if (talk) Voice.say(cur.c.id, l, el);
     await simWait(l.w === 'xray' || l.w === 'card' ? 420 : 280);
   }
 }
@@ -6794,6 +6994,7 @@ function simRenderList(tools) {
   try { store.set('simFilter', { sp: SIM.f.sp, st: SIM.f.st }); } catch {}
 }
 function simShow(view) {
+  if (view !== 'play') Voice.stop(true);
   $('#sim-list').hidden = view !== 'list'; $('#sim-play').hidden = view !== 'play'; $('#sim-end').hidden = view !== 'end';
   document.body.classList.toggle('sim-playing', view === 'play');
 }
@@ -6809,8 +7010,11 @@ async function simStart(id) {
   const c = SIM_CASES.find(x => x.id === id); if (!c) return;
   simTimerStop();
   const cur = { c, mode: SIM.mode, i: -1, score: 0, max: simMax(c), pat: 70, flags: new Set(), hist: [], picks: [], busy: true, done: false, ended: false, crit: null, exitArm: 0, touts: 0, tm: null, ord: c.steps.map(st => simShuffle(st.choices.length)) };
+  Voice.stop(true);
   SIM.cur = cur; SIM.anchor = null;
+  Voice.preload(c.id);
   simShow('play');
+  voicePaint();
   $('#sim-exit').classList.remove('armed');
   $('#sim-pt').innerHTML = `${simAv(c.pt.av)}<span class="sw-t"><b>${esc(c.pt.name)}</b><small>${esc(c.pt.sex)}, ${c.pt.age} tuổi · ${esc(c.pt.job)}</small></span>`;
   $('#sim-chat').innerHTML = `<div class="sm-start"><span class="sc-lv lv-${simLv(c.level)}">${esc(c.level)} · Chế độ ${esc(SIM_MODES[cur.mode].t)}</span><b>${esc(c.title)}</b><span>Lý do đến khám: ${esc(c.complaint)}</span></div>`;
@@ -6854,6 +7058,7 @@ async function simPick(j) {
   const st = cur.c.steps[cur.i], ch = st.choices[j];
   if (!ch || cur.picks.includes(j)) return;
   cur.busy = true; cur.picks.push(j);
+  Voice.stop(); // bác sĩ trả lời thì nhân vật dừng nói
   const stepDone = st.type !== 'multi' || cur.picks.length >= st.k;
   if (stepDone || ch.crit) simTimerStop();
   $('#sim-act').innerHTML = simWaitHTML();
