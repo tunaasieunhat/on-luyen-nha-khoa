@@ -1,0 +1,1475 @@
+{
+ "lines": [
+  {
+   "case": "pulpitis",
+   "key": "nlk1jq",
+   "w": "rec",
+   "text": "Bác sĩ ơi, anh Quân 28 tuổi đau răng hàm dưới bên trái, đêm qua không ngủ được.",
+   "say": "Bác sĩ ơi, anh Quân hai mươi tám tuổi đau răng hàm dưới bên trái, đêm qua không ngủ được.",
+   "voice": "Mai Anh",
+   "fx": ""
+  },
+  {
+   "case": "pulpitis",
+   "key": "1by3yhc",
+   "w": "pt",
+   "text": "Chào bác sĩ. Bên trái hàm dưới em đau quá, đau lan lên cả tai. Em không chắc là răng nào nữa.",
+   "say": "Chào bác sĩ. Bên trái hàm dưới em đau quá, đau lan lên cả tai. Em không chắc là răng nào nữa.",
+   "voice": "Hải Đăng",
+   "fx": ""
+  },
+  {
+   "case": "pulpitis",
+   "key": "5pem8a",
+   "w": "pt",
+   "text": "Khoảng một tuần nay uống đá là buốt, buốt lâu mới hết. Hai hôm nay tự nhiên đau, nằm xuống buổi tối là đau giật, lan lên tai.",
+   "say": "Khoảng một tuần nay uống đá là buốt, buốt lâu mới hết. Hai hôm nay tự nhiên đau, nằm xuống buổi tối là đau giật, lan lên tai.",
+   "voice": "Hải Đăng",
+   "fx": ""
+  },
+  {
+   "case": "pulpitis",
+   "key": "1a7pgjj",
+   "w": "pt",
+   "text": "Em cũng không rõ, cứ thấy cả vùng hàm dưới bên trái nhức, lan lên tai.",
+   "say": "Em cũng không rõ, cứ thấy cả vùng hàm dưới bên trái nhức, lan lên tai.",
+   "voice": "Hải Đăng",
+   "fx": ""
+  },
+  {
+   "case": "pulpitis",
+   "key": "8367zm",
+   "w": "pt",
+   "text": "Chắc 8 điểm ạ. Em uống paracetamol, đỡ được một lúc rồi lại đau.",
+   "say": "Chắc tám điểm ạ. Em uống paracetamol, đỡ được một lúc rồi lại đau.",
+   "voice": "Hải Đăng",
+   "fx": ""
+  },
+  {
+   "case": "pulpitis",
+   "key": "5vtd1c",
+   "w": "pt",
+   "text": "Dạ... chụp luôn ạ? Em còn chưa kể gì.",
+   "say": "Dạ... chụp luôn ạ? Em còn chưa kể gì.",
+   "voice": "Hải Đăng",
+   "fx": ""
+  },
+  {
+   "case": "pulpitis",
+   "key": "brdosy",
+   "w": "pt",
+   "text": "Uống đá buốt hơn một phút mới dịu. Giờ uống nóng cũng ê.",
+   "say": "Uống đá buốt hơn một phút mới dịu. Giờ uống nóng cũng ê.",
+   "voice": "Hải Đăng",
+   "fx": ""
+  },
+  {
+   "case": "pulpitis",
+   "key": "2nsp52",
+   "w": "pt",
+   "text": "Có, đang ngồi làm cũng đau. Tối nằm xuống đau giật từng cơn.",
+   "say": "Có, đang ngồi làm cũng đau. Tối nằm xuống đau giật từng cơn.",
+   "voice": "Hải Đăng",
+   "fx": ""
+  },
+  {
+   "case": "pulpitis",
+   "key": "1s8esxu",
+   "w": "pt",
+   "text": "Cắn mạnh thì ê ê, hai hôm nay mới bị. Không thấy nhói khi nhả ra.",
+   "say": "Cắn mạnh thì ê ê, hai hôm nay mới bị. Không thấy nhói khi nhả ra.",
+   "voice": "Hải Đăng",
+   "fx": ""
+  },
+  {
+   "case": "pulpitis",
+   "key": "12ygnlt",
+   "w": "pt",
+   "text": "Em khỏe, không dị ứng gì. Hai hôm nay uống paracetamol, mỗi ngày 4 viên 500 mg.",
+   "say": "Em khỏe, không dị ứng gì. Hai hôm nay uống paracetamol, mỗi ngày bốn viên năm trăm mi li gam.",
+   "voice": "Hải Đăng",
+   "fx": ""
+  },
+  {
+   "case": "pulpitis",
+   "key": "1bd5qg1",
+   "w": "pt",
+   "text": "Răng hàm lớn dưới trái trám 3 năm trước, mấy tháng nay hình như miếng trám bị mẻ.",
+   "say": "Răng hàm lớn dưới trái trám ba năm trước, mấy tháng nay hình như miếng trám bị mẻ.",
+   "voice": "Hải Đăng",
+   "fx": ""
+  },
+  {
+   "case": "pulpitis",
+   "key": "sxwnf6",
+   "w": "pt",
+   "text": "Dạo này nhiều việc, vợ em bảo đêm em có nghiến răng.",
+   "say": "Dạo này nhiều việc, vợ em bảo đêm em có nghiến răng.",
+   "voice": "Hải Đăng",
+   "fx": ""
+  },
+  {
+   "case": "pulpitis",
+   "key": "d5ael9",
+   "w": "pt",
+   "text": "Không ạ, mũi em bình thường.",
+   "say": "Không ạ, mũi em bình thường.",
+   "voice": "Hải Đăng",
+   "fx": ""
+  },
+  {
+   "case": "pulpitis",
+   "key": "2zzvk3",
+   "w": "pt",
+   "text": "Á! Bác sĩ khoan gì mà buốt thế?",
+   "say": "Á! Bác sĩ khoan gì mà buốt thế?",
+   "voice": "Hải Đăng",
+   "fx": ""
+  },
+  {
+   "case": "pulpitis",
+   "key": "r9ban6",
+   "w": "pt",
+   "text": "Á! Đau quá bác sĩ ơi!",
+   "say": "Á! Đau quá bác sĩ ơi!",
+   "voice": "Hải Đăng",
+   "fx": ""
+  },
+  {
+   "case": "pulpitis",
+   "key": "1j3al93",
+   "w": "pt",
+   "text": "Hết nhói rồi bác sĩ ạ.",
+   "say": "Hết nhói rồi bác sĩ ạ.",
+   "voice": "Hải Đăng",
+   "fx": ""
+  },
+  {
+   "case": "pulpitis",
+   "key": "h74hgb",
+   "w": "pt",
+   "text": "Em hiểu rồi, em sẽ quay lại đủ các buổi.",
+   "say": "Em hiểu rồi, em sẽ quay lại đủ các buổi.",
+   "voice": "Hải Đăng",
+   "fx": ""
+  },
+  {
+   "case": "abscess",
+   "key": "uf6cfe",
+   "w": "rec",
+   "text": "Chị Hà 35 tuổi sưng má phải, nói tối qua sốt. Chị đang chờ ở ghế.",
+   "say": "Chị Hà ba mươi lăm tuổi sưng má phải, nói tối qua sốt. Chị đang chờ ở ghế.",
+   "voice": "Mai Anh",
+   "fx": ""
+  },
+  {
+   "case": "abscess",
+   "key": "bnlxn4",
+   "w": "pt",
+   "text": "Bác sĩ ơi, má em sưng ba ngày nay, cắn vào răng hàm bên phải là đau điếng. Tối qua em sốt.",
+   "say": "Bác sĩ ơi, má em sưng ba ngày nay, cắn vào răng hàm bên phải là đau điếng. Tối qua em sốt.",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "abscess",
+   "key": "1ojp2zv",
+   "w": "pt",
+   "text": "Em thở bình thường, nuốt được. Há to thì hơi đau.",
+   "say": "Em thở bình thường, nuốt được. Há to thì hơi đau.",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "abscess",
+   "key": "zsdbrw",
+   "w": "pt",
+   "text": "Sưng từ hôm kia, hôm qua to hơn. Em vẫn ăn cháo được.",
+   "say": "Sưng từ hôm kia, hôm qua to hơn. Em vẫn ăn cháo được.",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "abscess",
+   "key": "1s9m0ql",
+   "w": "pt",
+   "text": "Hôm qua em mua thuốc ở hiệu thuốc uống 2 viên, thấy ngứa nên em ngưng.",
+   "say": "Hôm qua em mua thuốc ở hiệu thuốc uống hai viên, thấy ngứa nên em ngưng.",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "abscess",
+   "key": "12x1nu7",
+   "w": "pt",
+   "text": "Có, năm ngoái uống amoxicillin em nổi mề đay khắp người, phải đi cấp cứu.",
+   "say": "Có, năm ngoái uống amoxicillin em nổi mề đay khắp người, phải đi cấp cứu.",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "abscess",
+   "key": "1nta8x4",
+   "w": "pt",
+   "text": "Hôm qua em mua cephalexin uống 2 viên thì thấy ngứa người nên em ngưng.",
+   "say": "Hôm qua em mua cephalexin uống hai viên thì thấy ngứa người nên em ngưng.",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "abscess",
+   "key": "18d6na6",
+   "w": "pt",
+   "text": "Mấy tháng trước đau dữ dội mấy đêm rồi tự hết.",
+   "say": "Mấy tháng trước đau dữ dội mấy đêm rồi tự hết.",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "abscess",
+   "key": "1x3gvmw",
+   "w": "pt",
+   "text": "Em không có bệnh gì.",
+   "say": "Em không có bệnh gì.",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "abscess",
+   "key": "rtg4f4",
+   "w": "pt",
+   "text": "Không ạ.",
+   "say": "Không ạ.",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "abscess",
+   "key": "bbmmry",
+   "w": "pt",
+   "text": "Em cũng hay uống trà sữa...",
+   "say": "Em cũng hay uống trà sữa...",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "abscess",
+   "key": "150tjgy",
+   "w": "pt",
+   "text": "Dạ, em nhớ rồi ạ.",
+   "say": "Dạ, em nhớ rồi ạ.",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "perio",
+   "key": "sp9s4x",
+   "w": "rec",
+   "text": "Chú Hùng 52 tuổi, tài xế, đến khám vì chảy máu chân răng. Chú có vẻ hơi ngại.",
+   "say": "Chú Hùng năm mươi hai tuổi, tài xế, đến khám vì chảy máu chân răng. Chú có vẻ hơi ngại.",
+   "voice": "Mai Anh",
+   "fx": ""
+  },
+  {
+   "case": "perio",
+   "key": "1gkk6gx",
+   "w": "pt",
+   "text": "Mấy tháng nay chải răng là chảy máu, vợ chú chê miệng hôi. Mấy cái răng hàm dưới hình như lung lay.",
+   "say": "Mấy tháng nay chải răng là chảy máu, vợ chú chê miệng hôi. Mấy cái răng hàm dưới hình như lung lay.",
+   "voice": "Phạm Tuyên",
+   "fx": ""
+  },
+  {
+   "case": "perio",
+   "key": "1esb4o6",
+   "w": "pt",
+   "text": "Nửa năm nay rồi, chủ yếu lúc chải răng. Không đau nên chú cứ để.",
+   "say": "Nửa năm nay rồi, chủ yếu lúc chải răng. Không đau nên chú cứ để.",
+   "voice": "Phạm Tuyên",
+   "fx": ""
+  },
+  {
+   "case": "perio",
+   "key": "6wltcm",
+   "w": "pt",
+   "text": "Không, chú chỉ chảy máu chân răng thôi.",
+   "say": "Không, chú chỉ chảy máu chân răng thôi.",
+   "voice": "Phạm Tuyên",
+   "fx": ""
+  },
+  {
+   "case": "perio",
+   "key": "nv2xnr",
+   "w": "pt",
+   "text": "Thì chú vẫn chải bình thường...",
+   "say": "Thì chú vẫn chải bình thường...",
+   "voice": "Phạm Tuyên",
+   "fx": ""
+  },
+  {
+   "case": "perio",
+   "key": "1mnxzrl",
+   "w": "pt",
+   "text": "Gần 20 năm nay, mỗi ngày khoảng một bao.",
+   "say": "Gần hai mươi năm nay, mỗi ngày khoảng một bao.",
+   "voice": "Phạm Tuyên",
+   "fx": ""
+  },
+  {
+   "case": "perio",
+   "key": "1lzqsp4",
+   "w": "pt",
+   "text": "Năm ngoái bác sĩ bảo chú tiểu đường, chú uống thuốc vài tháng rồi bỏ. Huyết áp thì uống amlodipine.",
+   "say": "Năm ngoái bác sĩ bảo chú tiểu đường, chú uống thuốc vài tháng rồi bỏ. Huyết áp thì uống amlodipine.",
+   "voice": "Phạm Tuyên",
+   "fx": ""
+  },
+  {
+   "case": "perio",
+   "key": "rhfbbt",
+   "w": "pt",
+   "text": "Năm ngoái nhổ cái răng hàm trên bên phải trong cùng vì lung lay quá.",
+   "say": "Năm ngoái nhổ cái răng hàm trên bên phải trong cùng vì lung lay quá.",
+   "voice": "Phạm Tuyên",
+   "fx": ""
+  },
+  {
+   "case": "perio",
+   "key": "34ge5p",
+   "w": "pt",
+   "text": "Sáng chải một lần, chưa dùng chỉ hay bàn chải kẽ bao giờ.",
+   "say": "Sáng chải một lần, chưa dùng chỉ hay bàn chải kẽ bao giờ.",
+   "voice": "Phạm Tuyên",
+   "fx": ""
+  },
+  {
+   "case": "perio",
+   "key": "ls95qk",
+   "w": "pt",
+   "text": "Bố chú 60 tuổi đã mất gần hết răng.",
+   "say": "Bố chú sáu mươi tuổi đã mất gần hết răng.",
+   "voice": "Phạm Tuyên",
+   "fx": ""
+  },
+  {
+   "case": "perio",
+   "key": "gtrgog",
+   "w": "pt",
+   "text": "Chạy xe đêm suốt.",
+   "say": "Chạy xe đêm suốt.",
+   "voice": "Phạm Tuyên",
+   "fx": ""
+  },
+  {
+   "case": "perio",
+   "key": "n0092o",
+   "w": "pt",
+   "text": "Chú sẽ thử. Cháu cho chú số đường dây hỗ trợ nhé.",
+   "say": "Chú sẽ thử. Cháu cho chú số đường dây hỗ trợ nhé.",
+   "voice": "Phạm Tuyên",
+   "fx": ""
+  },
+  {
+   "case": "wisdom",
+   "key": "19n4f65",
+   "w": "rec",
+   "text": "Bạn Lan 22 tuổi, sinh viên, đau vùng răng trong cùng hàm dưới trái hai ngày nay.",
+   "say": "Bạn Lan hai mươi hai tuổi, sinh viên, đau vùng răng trong cùng hàm dưới trái hai ngày nay.",
+   "voice": "Mai Anh",
+   "fx": ""
+  },
+  {
+   "case": "wisdom",
+   "key": "1w8wb74",
+   "w": "pt",
+   "text": "Em chào bác sĩ. Chỗ răng trong cùng hàm dưới bên trái đau hai hôm nay, nhai đau, miệng có mùi. Bạn em bảo uống kháng sinh là khỏi, bác sĩ kê cho em nhé?",
+   "say": "Em chào bác sĩ. Chỗ răng trong cùng hàm dưới bên trái đau hai hôm nay, nhai đau, miệng có mùi. Bạn em bảo uống kháng sinh là khỏi, bác sĩ kê cho em nhé?",
+   "voice": "Trúc Ly",
+   "fx": ""
+  },
+  {
+   "case": "wisdom",
+   "key": "72wox4",
+   "w": "pt",
+   "text": "Em không sốt, há miệng và nuốt bình thường.",
+   "say": "Em không sốt, há miệng và nuốt bình thường.",
+   "voice": "Trúc Ly",
+   "fx": ""
+  },
+  {
+   "case": "wisdom",
+   "key": "1vlbv5v",
+   "w": "pt",
+   "text": "Em uống amoxicillin của bạn còn thừa được 2 ngày mà không đỡ.",
+   "say": "Em uống amoxicillin của bạn còn thừa được hai ngày mà không đỡ.",
+   "voice": "Trúc Ly",
+   "fx": ""
+  },
+  {
+   "case": "wisdom",
+   "key": "93dc87",
+   "w": "pt",
+   "text": "Em không dị ứng, không bệnh gì, không mang thai.",
+   "say": "Em không dị ứng, không bệnh gì, không mang thai.",
+   "voice": "Trúc Ly",
+   "fx": ""
+  },
+  {
+   "case": "wisdom",
+   "key": "122i2kf",
+   "w": "pt",
+   "text": "Năm ngoái bị một lần, vài ngày tự hết.",
+   "say": "Năm ngoái bị một lần, vài ngày tự hết.",
+   "voice": "Trúc Ly",
+   "fx": ""
+  },
+  {
+   "case": "wisdom",
+   "key": "1dwmhpy",
+   "w": "pt",
+   "text": "Khó chải lắm, chạm vào là đau nên em né.",
+   "say": "Khó chải lắm, chạm vào là đau nên em né.",
+   "voice": "Trúc Ly",
+   "fx": ""
+  },
+  {
+   "case": "wisdom",
+   "key": "14nmrgr",
+   "w": "pt",
+   "text": "Kế toán ạ.",
+   "say": "Kế toán ạ.",
+   "voice": "Trúc Ly",
+   "fx": ""
+  },
+  {
+   "case": "wisdom",
+   "key": "ovmx6j",
+   "w": "pt",
+   "text": "Dạ, vậy em hiểu rồi.",
+   "say": "Dạ, vậy em hiểu rồi.",
+   "voice": "Trúc Ly",
+   "fx": ""
+  },
+  {
+   "case": "avulsion",
+   "key": "1bsw609",
+   "w": "rec",
+   "text": "Chị Mai gọi điện, giọng rất hoảng: bé An 9 tuổi ngã xe đạp ở sân trường, rơi hẳn một răng cửa trên.",
+   "say": "Chị Mai gọi điện, giọng rất hoảng: bé An chín tuổi ngã xe đạp ở sân trường, rơi hẳn một răng cửa trên.",
+   "voice": "Mai Anh",
+   "fx": ""
+  },
+  {
+   "case": "avulsion",
+   "key": "cmbwu4",
+   "w": "fam",
+   "text": "Bác sĩ ơi, tôi nhặt được răng rồi nhưng dính đầy đất. Giờ tôi phải làm gì?",
+   "say": "Bác sĩ ơi, tôi nhặt được răng rồi nhưng dính đầy đất. Giờ tôi phải làm gì?",
+   "voice": "Ngọc Linh",
+   "fx": ""
+  },
+  {
+   "case": "avulsion",
+   "key": "7fmsko",
+   "w": "fam",
+   "text": "Alo? Bác sĩ ơi?... Thôi tôi bỏ răng vào túi áo rồi chở cháu đến luôn!",
+   "say": "Alo? Bác sĩ ơi?... Thôi tôi bỏ răng vào túi áo rồi chở cháu đến luôn!",
+   "voice": "Ngọc Linh",
+   "fx": ""
+  },
+  {
+   "case": "avulsion",
+   "key": "44xvhv",
+   "w": "fam",
+   "text": "Cháu sợ quá không cho cắm lại. Tôi ngâm răng vào sữa rồi đưa cháu đến ngay.",
+   "say": "Cháu sợ quá không cho cắm lại. Tôi ngâm răng vào sữa rồi đưa cháu đến ngay.",
+   "voice": "Ngọc Linh",
+   "fx": ""
+  },
+  {
+   "case": "avulsion",
+   "key": "bz3174",
+   "w": "fam",
+   "text": "Vâng, tôi ngâm nước lọc rồi đến ngay.",
+   "say": "Vâng, tôi ngâm nước lọc rồi đến ngay.",
+   "voice": "Ngọc Linh",
+   "fx": ""
+  },
+  {
+   "case": "avulsion",
+   "key": "br2wqt",
+   "w": "fam",
+   "text": "Cháu khóc quá, không ngậm được, tôi gói tạm vào khăn ướt.",
+   "say": "Cháu khóc quá, không ngậm được, tôi gói tạm vào khăn ướt.",
+   "voice": "Ngọc Linh",
+   "fx": ""
+  },
+  {
+   "case": "avulsion",
+   "key": "6eu6f9",
+   "w": "pt",
+   "text": "Bác sĩ ơi, cháu đau...",
+   "say": "Bác sĩ ơi, cháu đau...",
+   "voice": "Trúc Ly",
+   "fx": "kid"
+  },
+  {
+   "case": "avulsion",
+   "key": "1g780be",
+   "w": "fam",
+   "text": "Cháu không ngất, không nôn, chỉ trầy cằm.",
+   "say": "Cháu không ngất, không nôn, chỉ trầy cằm.",
+   "voice": "Ngọc Linh",
+   "fx": ""
+  },
+  {
+   "case": "avulsion",
+   "key": "1d9ers2",
+   "w": "fam",
+   "text": "Ngã lúc 3 giờ 10, giờ gần 3 giờ 40. Răng nằm dưới đất khoảng 5 phút rồi tôi mới ngâm.",
+   "say": "Ngã lúc ba giờ mười, giờ gần ba giờ bốn mươi. Răng nằm dưới đất khoảng năm phút rồi tôi mới ngâm.",
+   "voice": "Ngọc Linh",
+   "fx": ""
+  },
+  {
+   "case": "avulsion",
+   "key": "4gd3sl",
+   "w": "fam",
+   "text": "Tiêm đủ theo chương trình, mũi nhắc tôi không nhớ.",
+   "say": "Tiêm đủ theo chương trình, mũi nhắc tôi không nhớ.",
+   "voice": "Ngọc Linh",
+   "fx": ""
+  },
+  {
+   "case": "avulsion",
+   "key": "1890hcp",
+   "w": "fam",
+   "text": "Không dị ứng, khỏe mạnh.",
+   "say": "Không dị ứng, khỏe mạnh.",
+   "voice": "Ngọc Linh",
+   "fx": ""
+  },
+  {
+   "case": "avulsion",
+   "key": "13pqeej",
+   "w": "fam",
+   "text": "Sân đất sau trường.",
+   "say": "Sân đất sau trường.",
+   "voice": "Ngọc Linh",
+   "fx": ""
+  },
+  {
+   "case": "avulsion",
+   "key": "10nmk3n",
+   "w": "fam",
+   "text": "Chưa.",
+   "say": "Chưa.",
+   "voice": "Ngọc Linh",
+   "fx": ""
+  },
+  {
+   "case": "avulsion",
+   "key": "gv7of",
+   "w": "fam",
+   "text": "Tôi ghi lại hết rồi bác sĩ.",
+   "say": "Tôi ghi lại hết rồi bác sĩ.",
+   "voice": "Ngọc Linh",
+   "fx": ""
+  },
+  {
+   "case": "warfarin",
+   "key": "1rld860",
+   "w": "rec",
+   "text": "Bác Bình 68 tuổi muốn nhổ một chân răng hàm dưới phải. Con gái bác đi cùng.",
+   "say": "Bác Bình sáu mươi tám tuổi muốn nhổ một chân răng hàm dưới phải. Con gái bác đi cùng.",
+   "voice": "Mai Anh",
+   "fx": ""
+  },
+  {
+   "case": "warfarin",
+   "key": "dlojaq",
+   "w": "pt",
+   "text": "Bác sĩ nhổ giúp tôi cái chân răng này, nó lung lay, ăn vướng lắm. À, tôi đang uống thuốc chống đông đấy.",
+   "say": "Bác sĩ nhổ giúp tôi cái chân răng này, nó lung lay, ăn vướng lắm. À, tôi đang uống thuốc chống đông đấy.",
+   "voice": "Phạm Tuyên",
+   "fx": "old"
+  },
+  {
+   "case": "warfarin",
+   "key": "fr957f",
+   "w": "pt",
+   "text": "Rung nhĩ ba năm nay, uống warfarin mỗi tối. Đơn đây.",
+   "say": "Rung nhĩ ba năm nay, uống warfarin mỗi tối. Đơn đây.",
+   "voice": "Phạm Tuyên",
+   "fx": "old"
+  },
+  {
+   "case": "warfarin",
+   "key": "18gv9i1",
+   "w": "fam",
+   "text": "Có đây, lần gần nhất tuần trước, 2,6.",
+   "say": "Có đây, lần gần nhất tuần trước, hai phẩy sáu.",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "warfarin",
+   "key": "1mxfuwt",
+   "w": "fam",
+   "text": "Tuần trước 2,6. Tháng này bác sĩ vừa tăng liều vì lần trước INR thấp.",
+   "say": "Tuần trước hai phẩy sáu. Tháng này bác sĩ vừa tăng liều vì lần trước I N R thấp.",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "warfarin",
+   "key": "1ii6usz",
+   "w": "pt",
+   "text": "Tuần này bác sĩ tiết niệu cho tôi uống ciprofloxacin. Huyết áp thì uống amlodipine.",
+   "say": "Tuần này bác sĩ tiết niệu cho tôi uống ciprofloxacin. Huyết áp thì uống amlodipine.",
+   "voice": "Phạm Tuyên",
+   "fx": "old"
+  },
+  {
+   "case": "warfarin",
+   "key": "scs78a",
+   "w": "pt",
+   "text": "Lần trước máu rỉ cả tối mới cầm.",
+   "say": "Lần trước máu rỉ cả tối mới cầm.",
+   "voice": "Phạm Tuyên",
+   "fx": "old"
+  },
+  {
+   "case": "warfarin",
+   "key": "n5dk9m",
+   "w": "pt",
+   "text": "Không.",
+   "say": "Không.",
+   "voice": "Phạm Tuyên",
+   "fx": "old"
+  },
+  {
+   "case": "warfarin",
+   "key": "uakfqn",
+   "w": "pt",
+   "text": "Không, chỉ rung nhĩ thôi.",
+   "say": "Không, chỉ rung nhĩ thôi.",
+   "voice": "Phạm Tuyên",
+   "fx": "old"
+  },
+  {
+   "case": "warfarin",
+   "key": "bxuqid",
+   "w": "pt",
+   "text": "Thỉnh thoảng một chén.",
+   "say": "Thỉnh thoảng một chén.",
+   "voice": "Phạm Tuyên",
+   "fx": "old"
+  },
+  {
+   "case": "warfarin",
+   "key": "wc547j",
+   "w": "fam",
+   "text": "Tôi ghi lại rồi bác sĩ.",
+   "say": "Tôi ghi lại rồi bác sĩ.",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "anaphylaxis",
+   "key": "1t9ad6c",
+   "w": "pt",
+   "text": "Bác sĩ ơi... em ngứa quá, người nóng ran... sao em thấy khó thở...",
+   "say": "Bác sĩ ơi... em ngứa quá, người nóng ran... sao em thấy khó thở...",
+   "voice": "Đoan Trang",
+   "fx": ""
+  },
+  {
+   "case": "anaphylaxis",
+   "key": "ljn2mc",
+   "w": "pt",
+   "text": "Em... từng ngứa khi rửa tay bằng dung dịch sát khuẩn ở bệnh viện...",
+   "say": "Em... từng ngứa khi rửa tay bằng dung dịch sát khuẩn ở bệnh viện...",
+   "voice": "Đoan Trang",
+   "fx": ""
+  },
+  {
+   "case": "cardiac",
+   "key": "lw391r",
+   "w": "rec",
+   "text": "Chú Long 58 tuổi đau răng hàm dưới trái. Chú vừa leo cầu thang lên tầng hai, trông hơi mệt.",
+   "say": "Chú Long năm mươi tám tuổi đau răng hàm dưới trái. Chú vừa leo cầu thang lên tầng hai, trông hơi mệt.",
+   "voice": "Mai Anh",
+   "fx": ""
+  },
+  {
+   "case": "cardiac",
+   "key": "m94wcv",
+   "w": "pt",
+   "text": "Hai tuần nay chú cứ đau âm ỉ chỗ răng hàm dưới bên trái. Hôm nay đau nhiều quá, từ lúc đi bộ đến đây tới giờ vẫn chưa đỡ.",
+   "say": "Hai tuần nay chú cứ đau âm ỉ chỗ răng hàm dưới bên trái. Hôm nay đau nhiều quá, từ lúc đi bộ đến đây tới giờ vẫn chưa đỡ.",
+   "voice": "Xuân Vĩnh",
+   "fx": ""
+  },
+  {
+   "case": "cardiac",
+   "key": "x6eiy",
+   "w": "pt",
+   "text": "Hay đau khi leo cầu thang, khuân vác; ngồi nghỉ năm phút là hết. Hôm nay đau từ 20 phút trước, ngồi nghỉ vẫn không hết, hơi tức ngực, mỏi vai trái.",
+   "say": "Hay đau khi leo cầu thang, khuân vác; ngồi nghỉ năm phút là hết. Hôm nay đau từ hai mươi phút trước, ngồi nghỉ vẫn không hết, hơi tức ngực, mỏi vai trái.",
+   "voice": "Xuân Vĩnh",
+   "fx": ""
+  },
+  {
+   "case": "cardiac",
+   "key": "txt4qc",
+   "w": "pt",
+   "text": "Chú không chỉ được, cứ đau cả vùng hàm dưới bên trái.",
+   "say": "Chú không chỉ được, cứ đau cả vùng hàm dưới bên trái.",
+   "voice": "Xuân Vĩnh",
+   "fx": ""
+  },
+  {
+   "case": "cardiac",
+   "key": "1t848nt",
+   "w": "pt",
+   "text": "Không, ăn uống nóng lạnh đều bình thường.",
+   "say": "Không, ăn uống nóng lạnh đều bình thường.",
+   "voice": "Xuân Vĩnh",
+   "fx": ""
+  },
+  {
+   "case": "cardiac",
+   "key": "1cqsk9j",
+   "w": "pt",
+   "text": "Có, mồ hôi ra nhiều, hơi khó thở, buồn nôn.",
+   "say": "Có, mồ hôi ra nhiều, hơi khó thở, buồn nôn.",
+   "voice": "Xuân Vĩnh",
+   "fx": ""
+  },
+  {
+   "case": "cardiac",
+   "key": "10vq8mg",
+   "w": "pt",
+   "text": "Huyết áp cao, mỡ máu cao không uống thuốc đều, hút thuốc 30 năm.",
+   "say": "Huyết áp cao, mỡ máu cao không uống thuốc đều, hút thuốc ba mươi năm.",
+   "voice": "Xuân Vĩnh",
+   "fx": ""
+  },
+  {
+   "case": "cardiac",
+   "key": "aexxu0",
+   "w": "pt",
+   "text": "Không dị ứng, không đau dạ dày, không uống thuốc chống đông.",
+   "say": "Không dị ứng, không đau dạ dày, không uống thuốc chống đông.",
+   "voice": "Xuân Vĩnh",
+   "fx": ""
+  },
+  {
+   "case": "cardiac",
+   "key": "n5dk9m",
+   "w": "pt",
+   "text": "Không.",
+   "say": "Không.",
+   "voice": "Xuân Vĩnh",
+   "fx": ""
+  },
+  {
+   "case": "cardiac",
+   "key": "1qqxxse",
+   "w": "pt",
+   "text": "Chưa bao giờ.",
+   "say": "Chưa bao giờ.",
+   "voice": "Xuân Vĩnh",
+   "fx": ""
+  },
+  {
+   "case": "cardiac",
+   "key": "1vcd19a",
+   "w": "pt",
+   "text": "Chắc không.",
+   "say": "Chắc không.",
+   "voice": "Xuân Vĩnh",
+   "fx": ""
+  },
+  {
+   "case": "cracked",
+   "key": "112wksw",
+   "w": "rec",
+   "text": "Anh Tuấn 42 tuổi, kỹ sư, đến khám vì nhai bên phải thỉnh thoảng nhói. Anh đã khám hai nơi, được bảo là răng không sâu.",
+   "say": "Anh Tuấn bốn mươi hai tuổi, kỹ sư, đến khám vì nhai bên phải thỉnh thoảng nhói. Anh đã khám hai nơi, được bảo là răng không sâu.",
+   "voice": "Mai Anh",
+   "fx": ""
+  },
+  {
+   "case": "cracked",
+   "key": "pudr0r",
+   "w": "pt",
+   "text": "Bác sĩ ơi, cứ nhai trúng chỗ nào đó bên phải là nhói lên một cái như điện giật, rồi hết ngay. Chỗ khác bảo răng tôi không sao, nhưng tôi phải nhai bên trái cả tháng nay rồi.",
+   "say": "Bác sĩ ơi, cứ nhai trúng chỗ nào đó bên phải là nhói lên một cái như điện giật, rồi hết ngay. Chỗ khác bảo răng tôi không sao, nhưng tôi phải nhai bên trái cả tháng nay rồi.",
+   "voice": "Quốc Tuấn",
+   "fx": ""
+  },
+  {
+   "case": "cracked",
+   "key": "18htxmf",
+   "w": "pt",
+   "text": "Nhói nhất là lúc nhả ra. Hay bị khi nhai sụn, hạt hoặc cắn đá.",
+   "say": "Nhói nhất là lúc nhả ra. Hay bị khi nhai sụn, hạt hoặc cắn đá.",
+   "voice": "Quốc Tuấn",
+   "fx": ""
+  },
+  {
+   "case": "cracked",
+   "key": "1ra01kc",
+   "w": "pt",
+   "text": "Không, ngồi yên thì không sao, đêm ngủ bình thường.",
+   "say": "Không, ngồi yên thì không sao, đêm ngủ bình thường.",
+   "voice": "Quốc Tuấn",
+   "fx": ""
+  },
+  {
+   "case": "cracked",
+   "key": "1eln22i",
+   "w": "pt",
+   "text": "Vợ bảo đêm tôi nghiến kèn kẹt. Tôi nghiện nhai đá trong cốc trà đá.",
+   "say": "Vợ bảo đêm tôi nghiến kèn kẹt. Tôi nghiện nhai đá trong cốc trà đá.",
+   "voice": "Quốc Tuấn",
+   "fx": ""
+  },
+  {
+   "case": "cracked",
+   "key": "1kgb5ni",
+   "w": "pt",
+   "text": "Uống đá thì ê một chút, hết ngay.",
+   "say": "Uống đá thì ê một chút, hết ngay.",
+   "voice": "Quốc Tuấn",
+   "fx": ""
+  },
+  {
+   "case": "cracked",
+   "key": "1d36m0e",
+   "w": "pt",
+   "text": "Răng hàm dưới phải trám bạc to từ hồi sinh viên, chắc 15 năm rồi.",
+   "say": "Răng hàm dưới phải trám bạc to từ hồi sinh viên, chắc mười lăm năm rồi.",
+   "voice": "Quốc Tuấn",
+   "fx": ""
+  },
+  {
+   "case": "cracked",
+   "key": "1gzokd1",
+   "w": "pt",
+   "text": "Không có gì.",
+   "say": "Không có gì.",
+   "voice": "Quốc Tuấn",
+   "fx": ""
+  },
+  {
+   "case": "cracked",
+   "key": "1m2x2px",
+   "w": "pt",
+   "text": "Vậy tôi hiểu rồi, có gì lạ là tôi quay lại ngay.",
+   "say": "Vậy tôi hiểu rồi, có gì lạ là tôi quay lại ngay.",
+   "voice": "Quốc Tuấn",
+   "fx": ""
+  },
+  {
+   "case": "drysocket",
+   "key": "1etr5nh",
+   "w": "rec",
+   "text": "Chị Ngọc được nhổ răng 38 ở phòng khám mình 3 ngày trước. Chị gọi xin khám gấp vì đau quá.",
+   "say": "Chị Ngọc được nhổ răng ba tám ở phòng khám mình ba ngày trước. Chị gọi xin khám gấp vì đau quá.",
+   "voice": "Mai Anh",
+   "fx": ""
+  },
+  {
+   "case": "drysocket",
+   "key": "7p0gnv",
+   "w": "pt",
+   "text": "Bác sĩ ơi, hai hôm đầu em thấy ổn lắm, sao từ hôm qua đau giật lên tai, uống thuốc giảm đau cũng không ăn thua. Có phải bị nhiễm trùng rồi không? Bác sĩ cho em kháng sinh mạnh nhé.",
+   "say": "Bác sĩ ơi, hai hôm đầu em thấy ổn lắm, sao từ hôm qua đau giật lên tai, uống thuốc giảm đau cũng không ăn thua. Có phải bị nhiễm trùng rồi không? Bác sĩ cho em kháng sinh mạnh nhé.",
+   "voice": "Quỳnh Anh",
+   "fx": ""
+  },
+  {
+   "case": "drysocket",
+   "key": "19smw40",
+   "w": "pt",
+   "text": "Hai ngày đầu hơi ê. Từ chiều hôm qua tự nhiên đau dữ dội, giật lên tai trái, cả đêm không ngủ được.",
+   "say": "Hai ngày đầu hơi ê. Từ chiều hôm qua tự nhiên đau dữ dội, giật lên tai trái, cả đêm không ngủ được.",
+   "voice": "Quỳnh Anh",
+   "fx": ""
+  },
+  {
+   "case": "drysocket",
+   "key": "hyy7qm",
+   "w": "pt",
+   "text": "Em không sốt, má không sưng, nuốt bình thường. Há miệng hơi khó vì đau.",
+   "say": "Em không sốt, má không sưng, nuốt bình thường. Há miệng hơi khó vì đau.",
+   "voice": "Quỳnh Anh",
+   "fx": ""
+  },
+  {
+   "case": "drysocket",
+   "key": "1lp74pc",
+   "w": "pt",
+   "text": "Em hút thuốc lại từ tối hôm nhổ. Sáng hôm sau súc nước muối nhiều vì sợ bẩn.",
+   "say": "Em hút thuốc lại từ tối hôm nhổ. Sáng hôm sau súc nước muối nhiều vì sợ bẩn.",
+   "voice": "Quỳnh Anh",
+   "fx": ""
+  },
+  {
+   "case": "drysocket",
+   "key": "1qqbt7l",
+   "w": "pt",
+   "text": "Em uống thuốc tránh thai hằng ngày. Mấy hôm nay uống ibuprofen 400 mg, ngày 3 viên, không đỡ.",
+   "say": "Em uống thuốc tránh thai hằng ngày. Mấy hôm nay uống ibuprofen bốn trăm mi li gam, ngày ba viên, không đỡ.",
+   "voice": "Quỳnh Anh",
+   "fx": ""
+  },
+  {
+   "case": "drysocket",
+   "key": "1du2v2v",
+   "w": "pt",
+   "text": "Em không dị ứng gì.",
+   "say": "Em không dị ứng gì.",
+   "voice": "Quỳnh Anh",
+   "fx": ""
+  },
+  {
+   "case": "drysocket",
+   "key": "ritkkx",
+   "w": "pt",
+   "text": "Đau quá nên em chỉ ăn cháo.",
+   "say": "Đau quá nên em chỉ ăn cháo.",
+   "voice": "Quỳnh Anh",
+   "fx": ""
+  },
+  {
+   "case": "oroantral",
+   "key": "1usugc4",
+   "w": "pt",
+   "text": "Ơ bác sĩ, sao nước súc miệng chảy ra cả lỗ mũi bên trái thế này?",
+   "say": "Ơ bác sĩ, sao nước súc miệng chảy ra cả lỗ mũi bên trái thế này?",
+   "voice": "Thiện Minh",
+   "fx": ""
+  },
+  {
+   "case": "ecc",
+   "key": "1gfk7mm",
+   "w": "rec",
+   "text": "Chị Linh đưa bé Na 4 tuổi đến khám. Bé nép sau lưng mẹ, ôm má phải.",
+   "say": "Chị Linh đưa bé Na bốn tuổi đến khám. Bé nép sau lưng mẹ, ôm má phải.",
+   "voice": "Mai Anh",
+   "fx": ""
+  },
+  {
+   "case": "ecc",
+   "key": "qdfong",
+   "w": "fam",
+   "text": "Bác sĩ ơi, răng cửa của cháu đen hết rồi. Mấy hôm nay ăn kẹo là cháu kêu buốt bên phải. Răng sữa rồi cũng thay, có cần chữa không bác sĩ?",
+   "say": "Bác sĩ ơi, răng cửa của cháu đen hết rồi. Mấy hôm nay ăn kẹo là cháu kêu buốt bên phải. Răng sữa rồi cũng thay, có cần chữa không bác sĩ?",
+   "voice": "Quỳnh Anh",
+   "fx": ""
+  },
+  {
+   "case": "ecc",
+   "key": "2jrcx0",
+   "w": "fam",
+   "text": "Tối nào cháu cũng ngậm bình sữa công thức pha thêm đường mới ngủ được, nửa đêm dậy đòi thêm một bình.",
+   "say": "Tối nào cháu cũng ngậm bình sữa công thức pha thêm đường mới ngủ được, nửa đêm dậy đòi thêm một bình.",
+   "voice": "Quỳnh Anh",
+   "fx": ""
+  },
+  {
+   "case": "ecc",
+   "key": "kuxytv",
+   "w": "fam",
+   "text": "Cháu tự đánh buổi sáng thôi. Tôi mua kem trẻ em không có fluor vì sợ cháu nuốt.",
+   "say": "Cháu tự đánh buổi sáng thôi. Tôi mua kem trẻ em không có fluor vì sợ cháu nuốt.",
+   "voice": "Quỳnh Anh",
+   "fx": ""
+  },
+  {
+   "case": "ecc",
+   "key": "148473w",
+   "w": "fam",
+   "text": "Chắc 6–7 lần, cháu ăn vặt suốt ngày.",
+   "say": "Chắc sáu bảy lần, cháu ăn vặt suốt ngày.",
+   "voice": "Quỳnh Anh",
+   "fx": ""
+  },
+  {
+   "case": "ecc",
+   "key": "1lgjw5d",
+   "w": "fam",
+   "text": "Cháu chỉ kêu buốt khi ăn kẹo, súc miệng là hết. Đêm ngủ không kêu đau, chưa thấy sưng.",
+   "say": "Cháu chỉ kêu buốt khi ăn kẹo, súc miệng là hết. Đêm ngủ không kêu đau, chưa thấy sưng.",
+   "voice": "Quỳnh Anh",
+   "fx": ""
+  },
+  {
+   "case": "ecc",
+   "key": "1ox7l0e",
+   "w": "fam",
+   "text": "Cháu khỏe, không dị ứng.",
+   "say": "Cháu khỏe, không dị ứng.",
+   "voice": "Quỳnh Anh",
+   "fx": ""
+  },
+  {
+   "case": "ecc",
+   "key": "bh5qpr",
+   "w": "fam",
+   "text": "Bà nội trông, sáng đi lớp.",
+   "say": "Bà nội trông, sáng đi lớp.",
+   "voice": "Quỳnh Anh",
+   "fx": ""
+  },
+  {
+   "case": "ecc",
+   "key": "1i85ii5",
+   "w": "fam",
+   "text": "Vâng, tối nay tôi thử cho cháu uống nước lọc sau sữa, bỏ dần bình.",
+   "say": "Vâng, tối nay tôi thử cho cháu uống nước lọc sau sữa, bỏ dần bình.",
+   "voice": "Quỳnh Anh",
+   "fx": ""
+  },
+  {
+   "case": "herpes",
+   "key": "5ik72b",
+   "w": "rec",
+   "text": "Chị Trang bế bé Bin 3 tuổi vào, bé quấy khóc, chảy nhiều nước dãi.",
+   "say": "Chị Trang bế bé Bin ba tuổi vào, bé quấy khóc, chảy nhiều nước dãi.",
+   "voice": "Mai Anh",
+   "fx": ""
+  },
+  {
+   "case": "herpes",
+   "key": "a3vzaf",
+   "w": "fam",
+   "text": "Bác sĩ ơi, cháu sốt hai hôm nay, giờ lợi sưng đỏ, trong miệng loét lấm tấm, không chịu ăn gì. Có phải nhiễm trùng răng không, cho cháu kháng sinh được không ạ?",
+   "say": "Bác sĩ ơi, cháu sốt hai hôm nay, giờ lợi sưng đỏ, trong miệng loét lấm tấm, không chịu ăn gì. Có phải nhiễm trùng răng không, cho cháu kháng sinh được không ạ?",
+   "voice": "Đoan Trang",
+   "fx": ""
+  },
+  {
+   "case": "herpes",
+   "key": "4so3ai",
+   "w": "fam",
+   "text": "Sốt 38,8 độ từ hai hôm trước. Hôm qua mới thấy lợi sưng và loét.",
+   "say": "Sốt ba mươi tám phẩy tám độ từ hai hôm trước. Hôm qua mới thấy lợi sưng và loét.",
+   "voice": "Đoan Trang",
+   "fx": ""
+  },
+  {
+   "case": "herpes",
+   "key": "v1sp87",
+   "w": "fam",
+   "text": "Cháu uống ít, tã sáng nay ít ướt hơn mọi ngày, nhưng vẫn chơi được.",
+   "say": "Cháu uống ít, tã sáng nay ít ướt hơn mọi ngày, nhưng vẫn chơi được.",
+   "voice": "Đoan Trang",
+   "fx": ""
+  },
+  {
+   "case": "herpes",
+   "key": "wi61h0",
+   "w": "fam",
+   "text": "Không thấy gì ở tay chân.",
+   "say": "Không thấy gì ở tay chân.",
+   "voice": "Đoan Trang",
+   "fx": ""
+  },
+  {
+   "case": "herpes",
+   "key": "1tp3sj0",
+   "w": "fam",
+   "text": "Bố cháu tuần trước bị nổi mụn nước ở môi, vẫn hôn cháu suốt.",
+   "say": "Bố cháu tuần trước bị nổi mụn nước ở môi, vẫn hôn cháu suốt.",
+   "voice": "Đoan Trang",
+   "fx": ""
+  },
+  {
+   "case": "herpes",
+   "key": "9d4xjr",
+   "w": "fam",
+   "text": "Tôi cho uống paracetamol hạ sốt.",
+   "say": "Tôi cho uống paracetamol hạ sốt.",
+   "voice": "Đoan Trang",
+   "fx": ""
+  },
+  {
+   "case": "herpes",
+   "key": "1se60gi",
+   "w": "fam",
+   "text": "Có, cháu hay ngậm tay.",
+   "say": "Có, cháu hay ngậm tay.",
+   "voice": "Đoan Trang",
+   "fx": ""
+  },
+  {
+   "case": "ulcer",
+   "key": "1kkvfax",
+   "w": "rec",
+   "text": "Chú Định 58 tuổi đến vì vết loét ở lưỡi. Chú đã đi hiệu thuốc hai lần.",
+   "say": "Chú Định năm mươi tám tuổi đến vì vết loét ở lưỡi. Chú đã đi hiệu thuốc hai lần.",
+   "voice": "Mai Anh",
+   "fx": ""
+  },
+  {
+   "case": "ulcer",
+   "key": "1ijaomt",
+   "w": "pt",
+   "text": "Bác sĩ ơi, cái nhiệt miệng này lâu khỏi quá. Chú bôi thuốc, uống cả kháng sinh rồi mà nó cứ thế. Chắc tại cái răng vỡ nó cọ vào, bác sĩ mài giúp chú cái răng là được.",
+   "say": "Bác sĩ ơi, cái nhiệt miệng này lâu khỏi quá. Chú bôi thuốc, uống cả kháng sinh rồi mà nó cứ thế. Chắc tại cái răng vỡ nó cọ vào, bác sĩ mài giúp chú cái răng là được.",
+   "voice": "Thiền Tâm Đức",
+   "fx": ""
+  },
+  {
+   "case": "ulcer",
+   "key": "kr8mmu",
+   "w": "pt",
+   "text": "Chắc năm tuần rồi, thấy to dần. Bôi thuốc nhiệt miệng, uống kháng sinh một tuần mà không đỡ.",
+   "say": "Chắc năm tuần rồi, thấy to dần. Bôi thuốc nhiệt miệng, uống kháng sinh một tuần mà không đỡ.",
+   "voice": "Thiền Tâm Đức",
+   "fx": ""
+  },
+  {
+   "case": "ulcer",
+   "key": "drq0dc",
+   "w": "pt",
+   "text": "Thuốc lào, thuốc lá hơn 30 năm, ngày một bao. Rượu thì bữa nào cũng vài chén.",
+   "say": "Thuốc lào, thuốc lá hơn ba mươi năm, ngày một bao. Rượu thì bữa nào cũng vài chén.",
+   "voice": "Thiền Tâm Đức",
+   "fx": ""
+  },
+  {
+   "case": "ulcer",
+   "key": "15ad4s4",
+   "w": "pt",
+   "text": "Hai tháng nay sụt 3 cân. Thỉnh thoảng đau nhói lên tai phải.",
+   "say": "Hai tháng nay sụt ba cân. Thỉnh thoảng đau nhói lên tai phải.",
+   "voice": "Thiền Tâm Đức",
+   "fx": ""
+  },
+  {
+   "case": "ulcer",
+   "key": "17zoi0x",
+   "w": "pt",
+   "text": "Cái răng hàm dưới bên phải vỡ lâu rồi, sắc lắm.",
+   "say": "Cái răng hàm dưới bên phải vỡ lâu rồi, sắc lắm.",
+   "voice": "Thiền Tâm Đức",
+   "fx": ""
+  },
+  {
+   "case": "ulcer",
+   "key": "1udpfkl",
+   "w": "pt",
+   "text": "Không, lần đầu bị lâu thế này.",
+   "say": "Không, lần đầu bị lâu thế này.",
+   "voice": "Thiền Tâm Đức",
+   "fx": ""
+  },
+  {
+   "case": "ulcer",
+   "key": "15zp83",
+   "w": "pt",
+   "text": "Không có ai.",
+   "say": "Không có ai.",
+   "voice": "Thiền Tâm Đức",
+   "fx": ""
+  },
+  {
+   "case": "ulcer",
+   "key": "1t2x020",
+   "w": "pt",
+   "text": "Chú hiểu rồi. Chú sẽ đi khám sớm.",
+   "say": "Chú hiểu rồi. Chú sẽ đi khám sớm.",
+   "voice": "Thiền Tâm Đức",
+   "fx": ""
+  },
+  {
+   "case": "ulcer",
+   "key": "1082i37",
+   "w": "pt",
+   "text": "Thôi được, mai con trai chú đưa chú đi.",
+   "say": "Thôi được, mai con trai chú đưa chú đi.",
+   "voice": "Thiền Tâm Đức",
+   "fx": ""
+  },
+  {
+   "case": "denture",
+   "key": "q6y0jd",
+   "w": "rec",
+   "text": "Bà Hạnh 74 tuổi đeo hàm giả tháo lắp toàn bộ hai hàm, đến vì rát miệng.",
+   "say": "Bà Hạnh bảy mươi tư tuổi đeo hàm giả tháo lắp toàn bộ hai hàm, đến vì rát miệng.",
+   "voice": "Mai Anh",
+   "fx": ""
+  },
+  {
+   "case": "denture",
+   "key": "12jxanu",
+   "w": "pt",
+   "text": "Bác sĩ ơi, bà đeo hàm thấy rát rát cả vòm, ăn mặn là xót. Khóe miệng thì nứt mãi không lành. Hàm trên lỏng lắm, phải dùng keo dán.",
+   "say": "Bác sĩ ơi, bà đeo hàm thấy rát rát cả vòm, ăn mặn là xót. Khóe miệng thì nứt mãi không lành. Hàm trên lỏng lắm, phải dùng keo dán.",
+   "voice": "Quỳnh Anh",
+   "fx": "old"
+  },
+  {
+   "case": "denture",
+   "key": "xj771v",
+   "w": "pt",
+   "text": "Đeo hơn mười năm. Bà đeo cả lúc ngủ cho khỏi móm. Sáng ra tráng qua nước là đeo lại.",
+   "say": "Đeo hơn mười năm. Bà đeo cả lúc ngủ cho khỏi móm. Sáng ra tráng qua nước là đeo lại.",
+   "voice": "Quỳnh Anh",
+   "fx": "old"
+  },
+  {
+   "case": "denture",
+   "key": "1apme99",
+   "w": "pt",
+   "text": "Bà bị tiểu đường, tim đập không đều phải uống warfarin, thêm thuốc xịt hen corticoid.",
+   "say": "Bà bị tiểu đường, tim đập không đều phải uống warfarin, thêm thuốc xịt hen corticoid.",
+   "voice": "Quỳnh Anh",
+   "fx": "old"
+  },
+  {
+   "case": "denture",
+   "key": "rryirj",
+   "w": "pt",
+   "text": "Hàm trên lỏng, ăn hay rơi. Nhai cũng yếu hơn trước nhiều.",
+   "say": "Hàm trên lỏng, ăn hay rơi. Nhai cũng yếu hơn trước nhiều.",
+   "voice": "Quỳnh Anh",
+   "fx": "old"
+  },
+  {
+   "case": "denture",
+   "key": "c7mgap",
+   "w": "pt",
+   "text": "Mấy tháng nay, ăn mặn là xót.",
+   "say": "Mấy tháng nay, ăn mặn là xót.",
+   "voice": "Quỳnh Anh",
+   "fx": "old"
+  },
+  {
+   "case": "denture",
+   "key": "1cmefky",
+   "w": "pt",
+   "text": "Có, đêm hay phải dậy uống nước.",
+   "say": "Có, đêm hay phải dậy uống nước.",
+   "voice": "Quỳnh Anh",
+   "fx": "old"
+  },
+  {
+   "case": "denture",
+   "key": "zvws8t",
+   "w": "pt",
+   "text": "Bà không hút, không ăn trầu.",
+   "say": "Bà không hút, không ăn trầu.",
+   "voice": "Quỳnh Anh",
+   "fx": "old"
+  },
+  {
+   "case": "tmd",
+   "key": "72cvj0",
+   "w": "rec",
+   "text": "Vy 24 tuổi, sinh viên năm cuối, đến vì đau vùng hàm phải.",
+   "say": "Vy hai mươi tư tuổi, sinh viên năm cuối, đến vì đau vùng hàm phải.",
+   "voice": "Mai Anh",
+   "fx": ""
+  },
+  {
+   "case": "tmd",
+   "key": "1ryuhb7",
+   "w": "pt",
+   "text": "Em đau ở trước tai bên phải, nhai lâu là mỏi. Há miệng thì kêu lục cục, em sợ bị lệch hàm. Bạn em bảo phải mài răng cho khớp cắn đều mới hết, có đúng không ạ?",
+   "say": "Em đau ở trước tai bên phải, nhai lâu là mỏi. Há miệng thì kêu lục cục, em sợ bị lệch hàm. Bạn em bảo phải mài răng cho khớp cắn đều mới hết, có đúng không ạ?",
+   "voice": "Ngọc Linh",
+   "fx": ""
+  },
+  {
+   "case": "tmd",
+   "key": "jhamf",
+   "w": "pt",
+   "text": "Đau trước tai và má phải. Sáng dậy mỏi hàm, nhai đồ dai lâu là đau hơn.",
+   "say": "Đau trước tai và má phải. Sáng dậy mỏi hàm, nhai đồ dai lâu là đau hơn.",
+   "voice": "Ngọc Linh",
+   "fx": ""
+  },
+  {
+   "case": "tmd",
+   "key": "quy2q",
+   "w": "pt",
+   "text": "Em đang làm luận văn, căng thẳng lắm. Hay cắn chặt răng khi tập trung, nhai kẹo cao su cả ngày.",
+   "say": "Em đang làm luận văn, căng thẳng lắm. Hay cắn chặt răng khi tập trung, nhai kẹo cao su cả ngày.",
+   "voice": "Ngọc Linh",
+   "fx": ""
+  },
+  {
+   "case": "tmd",
+   "key": "c8tv47",
+   "w": "pt",
+   "text": "Chưa bao giờ bị kẹt cả.",
+   "say": "Chưa bao giờ bị kẹt cả.",
+   "voice": "Ngọc Linh",
+   "fx": ""
+  },
+  {
+   "case": "tmd",
+   "key": "1dtcjvt",
+   "w": "pt",
+   "text": "Hay đau đầu vùng thái dương phải, tai không sao.",
+   "say": "Hay đau đầu vùng thái dương phải, tai không sao.",
+   "voice": "Ngọc Linh",
+   "fx": ""
+  },
+  {
+   "case": "tmd",
+   "key": "rtg4f4",
+   "w": "pt",
+   "text": "Không ạ.",
+   "say": "Không ạ.",
+   "voice": "Ngọc Linh",
+   "fx": ""
+  },
+  {
+   "case": "tmd",
+   "key": "16vbnbp",
+   "w": "pt",
+   "text": "Em đỡ nhiều rồi, nhưng sáng ngủ dậy vẫn mỏi hàm.",
+   "say": "Em đỡ nhiều rồi, nhưng sáng ngủ dậy vẫn mỏi hàm.",
+   "voice": "Ngọc Linh",
+   "fx": ""
+  },
+  {
+   "case": "tmd",
+   "key": "fn0kew",
+   "w": "pt",
+   "text": "Vậy em yên tâm rồi.",
+   "say": "Vậy em yên tâm rồi.",
+   "voice": "Ngọc Linh",
+   "fx": ""
+  },
+  {
+   "case": "pregnancy",
+   "key": "jqxsbn",
+   "w": "rec",
+   "text": "Chị Hương mang thai 20 tuần, đến khám vì chảy máu lợi và ê răng.",
+   "say": "Chị Hương mang thai hai mươi tuần, đến khám vì chảy máu lợi và ê răng.",
+   "voice": "Mai Anh",
+   "fx": ""
+  },
+  {
+   "case": "pregnancy",
+   "key": "hl3eo8",
+   "w": "pt",
+   "text": "Em đánh răng là chảy máu, chỗ lợi răng nanh trên còn mọc lên một cục đỏ. Răng hàm dưới ăn ngọt là ê. Nhưng em sợ chụp phim, tiêm thuốc tê ảnh hưởng đến con, hay để sinh xong rồi chữa ạ?",
+   "say": "Em đánh răng là chảy máu, chỗ lợi răng nanh trên còn mọc lên một cục đỏ. Răng hàm dưới ăn ngọt là ê. Nhưng em sợ chụp phim, tiêm thuốc tê ảnh hưởng đến con, hay để sinh xong rồi chữa ạ?",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "pregnancy",
+   "key": "1etmgwq",
+   "w": "pt",
+   "text": "20 tuần, bác sĩ sản bảo mọi thứ bình thường.",
+   "say": "Hai mươi tuần, bác sĩ sản bảo mọi thứ bình thường.",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "pregnancy",
+   "key": "10ew0s6",
+   "w": "pt",
+   "text": "Ăn ngọt, uống lạnh thì ê, hết ngay. Không đau đêm.",
+   "say": "Ăn ngọt, uống lạnh thì ê, hết ngay. Không đau đêm.",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "pregnancy",
+   "key": "p3dve0",
+   "w": "pt",
+   "text": "Em uống sắt, acid folic, canxi. Không dị ứng.",
+   "say": "Em uống sắt, acid folic, canxi. Không dị ứng.",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "pregnancy",
+   "key": "3h7kah",
+   "w": "pt",
+   "text": "Nôn nhiều lắm. Giờ em hay đói, ăn vặt nhiều bữa.",
+   "say": "Nôn nhiều lắm. Giờ em hay đói, ăn vặt nhiều bữa.",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "pregnancy",
+   "key": "1nakoeg",
+   "w": "pt",
+   "text": "Thỉnh thoảng thôi, giờ thì nhiều hơn hẳn.",
+   "say": "Thỉnh thoảng thôi, giờ thì nhiều hơn hẳn.",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "pregnancy",
+   "key": "17k4fvi",
+   "w": "pt",
+   "text": "Em chưa biết ạ.",
+   "say": "Em chưa biết ạ.",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "pregnancy",
+   "key": "103uezq",
+   "w": "pt",
+   "text": "Bác sĩ ơi... em chóng mặt quá, buồn nôn...",
+   "say": "Bác sĩ ơi... em chóng mặt quá, buồn nôn...",
+   "voice": "Ngọc Huyền",
+   "fx": ""
+  },
+  {
+   "case": "hypo",
+   "key": "mp6j1s",
+   "w": "rec",
+   "text": "Chú Phúc 63 tuổi bị tiểu đường, hẹn nhổ chân răng 45 lúc 10 giờ. Chú đến đúng giờ, ngồi chờ hơi lâu.",
+   "say": "Chú Phúc sáu mươi ba tuổi bị tiểu đường, hẹn nhổ chân răng bốn lăm lúc mười giờ. Chú đến đúng giờ, ngồi chờ hơi lâu.",
+   "voice": "Mai Anh",
+   "fx": ""
+  },
+  {
+   "case": "hypo",
+   "key": "1l6rdos",
+   "w": "pt",
+   "text": "Nhổ... nhổ nhanh đi bác sĩ... sao chú thấy... bồn chồn quá...",
+   "say": "Nhổ... nhổ nhanh đi bác sĩ... sao chú thấy... bồn chồn quá...",
+   "voice": "Minh Đức",
+   "fx": "old"
+  },
+  {
+   "case": "hypo",
+   "key": "jgyeki",
+   "w": "pt",
+   "text": "Tiêm... tiêm rồi... sợ nhổ răng nên... chưa ăn gì...",
+   "say": "Tiêm... tiêm rồi... sợ nhổ răng nên... chưa ăn gì...",
+   "voice": "Minh Đức",
+   "fx": "old"
+  },
+  {
+   "case": "hypo",
+   "key": "1snj1m7",
+   "w": "pt",
+   "text": "Chú thấy đỡ hẳn rồi, hết run rồi.",
+   "say": "Chú thấy đỡ hẳn rồi, hết run rồi.",
+   "voice": "Minh Đức",
+   "fx": "old"
+  }
+ ],
+ "sample": [
+  "pulpitis",
+  "h74hgb"
+ ]
+}
