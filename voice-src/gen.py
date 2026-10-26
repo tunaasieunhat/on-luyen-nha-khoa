@@ -9,6 +9,8 @@ TMP = os.path.join(OUT, '_tmp'); os.makedirs(TMP, exist_ok=True)
 job = json.load(open(os.path.join(D, 'lines.json'), encoding='utf8'))
 LINES = job['lines']
 ONLY = set(filter(None, os.environ.get('ONLY_CASES', '').split(',')))
+OF = os.path.join(D, 'only.txt')
+if not ONLY and os.path.exists(OF): ONLY = set(filter(None, open(OF).read().replace('\n', ',').split(',')))
 if ONLY: LINES = [l for l in LINES if l['case'] in ONLY]
 SR = 24000
 from vieneu import Vieneu
@@ -66,16 +68,27 @@ def level(a, target_db=-20.0, peak=.89):
 FX = {
     '': [],
     # trẻ con: cao giọng (đổi cả âm sắc), nói nhanh hơn một chút
-    'kid': ['-af', f'asetrate={SR}*1.22,aresample={SR},atempo=0.9'],
+    'kid': ['-af', f'asetrate={TSR}*1.22,aresample={TSR},atempo=0.9'],
     # người lớn tuổi: trầm hơn một chút, chậm hơn
-    'old': ['-af', f'asetrate={SR}*0.94,aresample={SR},atempo=0.98'],
+    'old': ['-af', f'asetrate={TSR}*0.94,aresample={TSR},atempo=0.98'],
     'slow': ['-af', 'atempo=0.94'],
 }
 
 
+def pitch(b):
+    # cao độ trung vị (Hz) để kiểm tra giọng trẻ con / người lớn tuổi
+    try:
+        import parselmouth
+        f = parselmouth.Sound(b.astype('float64'), SR).to_pitch().selected_array['frequency']; f = f[f > 0]
+        return round(float(np.median(f)), 1) if len(f) else 0
+    except Exception:
+        return 0
+
+
 def synth(line, n):
     best = None
-    for k in range(3):
+    short = len(line['say']) < 22
+    for k in range(6 if short else 4):
         t0 = time.time()
         audio = tts.infer(line['say'], voice=line['voice'])
         a = np.asarray(audio, dtype=np.float32).squeeze()
@@ -87,9 +100,11 @@ def synth(line, n):
         hyp = ' '.join(s.text for s in segs).strip()
         c = cer(line['say'], hyp)
         cps = len(line['say']) / max(.1, len(b) / SR)
-        bad = c > .25 or cps < 7 or cps > 24
-        r = {'k': k, 'cer': round(c, 3), 'dur': round(len(b) / SR, 2), 'cps': round(cps, 1), 'asr': hyp, 't': round(time.time() - t0, 1)}
-        if best is None or (r['cer'] < best[1]['cer']): best = (b, r)
+        bad = c > (.2 if short else .25) or cps < 9 or cps > 24
+        f0 = pitch(b)
+        r = {'k': k, 'cer': round(c, 3), 'dur': round(len(b) / SR, 2), 'cps': round(cps, 1), 'f0': f0, 'asr': hyp, 't': round(time.time() - t0, 1)}
+        score = c + (.5 if cps < 9 or cps > 24 else 0)
+        if best is None or score < best[2]: best = (b, r, score)
         if not bad and c <= .12: break
     return best
 
@@ -97,11 +112,11 @@ def synth(line, n):
 rep = {'lines': [], 'tsr': TSR}
 by_case = {}
 for n, line in enumerate(LINES):
-    a, r = synth(line, n)
+    a, r, _ = synth(line, n)
     a = level(a)
     by_case.setdefault(line['case'], []).append((line, a))
     rep['lines'].append({'case': line['case'], 'key': line['key'], 'w': line['w'], 'voice': line['voice'], 'fx': line['fx'], 'say': line['say'], **r})
-    P(f"{n + 1}/{len(LINES)} {line['case']} {line['w']} {line['voice']} cer={r['cer']} dur={r['dur']} cps={r['cps']} try={r['k'] + 1} | {r['asr']}")
+    P(f"{n + 1}/{len(LINES)} {line['case']} {line['w']} {line['voice']} {line['fx']} cer={r['cer']} dur={r['dur']} cps={r['cps']} f0={r['f0']} try={r['k'] + 1} | {r['asr']}")
 GAP = np.zeros(int(SR * .3), dtype=np.float32)
 index = {'cases': {}, 'sample': job.get('sample')}
 for cid, items in by_case.items():
