@@ -1,5 +1,5 @@
 // Service worker của Ôn Luyện Nha Khoa - Offline: lưu ứng dụng để dùng được khi mất mạng.
-const CACHE = 'onluyen-offline-gh-v17';
+const CACHE = 'onluyen-offline-gh-v18';
 const FILES = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png'];
 const FONT_HOSTS = ['fonts.googleapis.com', 'fonts.gstatic.com'];
 
@@ -30,8 +30,8 @@ self.addEventListener('fetch', (e) => {
     return res;
   }).catch(() => caches.match(req, { ignoreSearch: true }).then((hit) => {
     if (hit) return hit;
-    // File PDF chưa lưu thì báo lỗi mạng, không trả về trang chính
-    if (url.pathname.includes('/pdf/')) return Response.error();
+    // File PDF, nhạc chưa lưu thì báo lỗi mạng, không trả về trang chính
+    if (/\/(pdf|music)\//.test(url.pathname)) return Response.error();
     return caches.match('./index.html');
   })));
 });
