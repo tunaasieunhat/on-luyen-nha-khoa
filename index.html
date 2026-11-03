@@ -22,7 +22,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Pacifico&display=swap">
 <style>body{margin:0}</style>
 <style>
 [hidden]{display:none!important}
@@ -1370,6 +1370,28 @@ body.sim-playing #scr-sim>.topbar{display:none}
 @keyframes boot-bob{50%{transform:translateY(-8px)}}
 @keyframes boot-load{0%{transform:translateX(-100%)}to{transform:translateX(250%)}}
 @media (prefers-reduced-motion:reduce){.boot-logo,.boot-bar i{animation:none}.boot-bar i{width:100%}}
+/* ---- Màn giới thiệu studio “Dreamer Games” (trước màn tải) ---- */
+.studio{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none;overflow:hidden;
+  background:radial-gradient(900px 520px at 82% -4%,rgba(124,92,220,.48),transparent 65%),radial-gradient(820px 440px at 8% 104%,rgba(244,182,207,.26),transparent 70%),linear-gradient(180deg,#060818 0%,#10153A 55%,#22185A 100%);
+  transition:opacity .7s ease,filter .7s ease}
+.studio[hidden]{display:none}
+.studio.out{opacity:0;filter:blur(6px)}
+.studio-stars{position:absolute;inset:0}
+.studio-stars i{position:absolute;width:var(--s,2px);height:var(--s,2px);border-radius:50%;background:#FFF6DA;box-shadow:0 0 6px rgba(255,246,218,.8);animation:st-tw 3.2s ease-in-out infinite;animation-delay:var(--dl,0s)}
+.studio-card{position:relative;display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center;padding:0 16px}
+.studio-icon{width:clamp(64px,16vw,88px);height:auto;filter:drop-shadow(0 0 18px rgba(255,231,179,.6));animation:st-in .9s cubic-bezier(.2,.75,.2,1) both,st-float 5s ease-in-out 1s infinite}
+.studio-icon .m{fill:#FFE7B3}.studio-icon .s{fill:#FFF6DA;transform-box:fill-box;transform-origin:center;animation:st-tw 2.4s ease-in-out infinite}
+.studio-name{margin:0;font:400 clamp(2.7rem,12vw,4.6rem)/1.2 "Pacifico","Baloo 2",cursive;color:#EEF0FF;padding:0 .12em;
+  text-shadow:0 0 24px rgba(244,182,207,.45),0 0 60px rgba(124,92,220,.55);animation:st-in .9s cubic-bezier(.2,.75,.2,1) .25s both,st-glow 4s ease-in-out 1.2s infinite}
+.studio-tag{margin:0;font:800 clamp(1.05rem,4.4vw,1.5rem)/1.2 var(--f-display);background:linear-gradient(90deg,#FFE7B3,#F4B6CF,#A9C7FF,#72E3CB,#FFE7B3);background-size:300% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;
+  animation:st-in .9s cubic-bezier(.2,.75,.2,1) .6s both,st-shimmer 6s linear infinite}
+.studio-sub{position:absolute;left:0;right:0;bottom:max(22px,env(safe-area-inset-bottom,0px));margin:0;text-align:center;font:700 11px/1.4 var(--f-mono);letter-spacing:.18em;text-transform:uppercase;color:#A8AED6;animation:st-in .9s ease 1s both}
+@keyframes st-in{from{opacity:0;transform:translateY(18px) scale(.96);filter:blur(6px)}}
+@keyframes st-float{50%{transform:translateY(-8px)}}
+@keyframes st-tw{0%,100%{opacity:.3;transform:scale(.7)}50%{opacity:1;transform:scale(1.15)}}
+@keyframes st-glow{0%,100%{text-shadow:0 0 22px rgba(244,182,207,.4),0 0 56px rgba(124,92,220,.5)}50%{text-shadow:0 0 30px rgba(255,231,179,.6),0 0 84px rgba(124,92,220,.8)}}
+@keyframes st-shimmer{to{background-position:300% 0}}
+@media (prefers-reduced-motion:reduce){.studio *{animation:none!important}.studio{transition:opacity .3s}}
 /* @@V256-CSS-END */
 </style>
 </head>
@@ -1384,7 +1406,7 @@ body.sim-playing #scr-sim>.topbar{display:none}
         <h1 id="start-title">Ôn Luyện <span>Nha Khoa</span></h1>
         <div class="beta-note" role="note">
           <span class="beta-tag">Version 2.5.6</span>
-          <span class="beta-txt">Bản cập nhật 2.5.6: màn mở đầu mới, tự vào app.</span>
+          <span class="beta-txt">Bản cập nhật 2.5.6: màn mở đầu mới có giới thiệu Dreamer Games.</span>
         </div>
       </div>
       <div class="start-cast">
@@ -1871,6 +1893,15 @@ body.sim-playing #scr-sim>.topbar{display:none}
     <div class="boot-bar" aria-hidden="true"><i></i></div>
   </div>
   <span class="intro-ver boot-ver">Version 2.5.6</span>
+  <div class="studio" id="studio" hidden>
+    <div class="studio-stars" id="studio-stars" aria-hidden="true"></div>
+    <div class="studio-card">
+      <svg class="studio-icon" viewBox="0 0 32 32" aria-hidden="true"><path class="m" d="M19.5 4.5A12 12 0 1 0 27.6 23A9.6 9.6 0 0 1 19.5 4.5Z"/><path class="s" d="M25.5 3l.9 2.4 2.4.9-2.4.9-.9 2.4-.9-2.4-2.4-.9 2.4-.9Z"/></svg>
+      <p class="studio-name">Dreamer Games</p>
+      <p class="studio-tag">Biến giấc mơ thành games</p>
+    </div>
+    <p class="studio-sub">Dreamer Games giới thiệu</p>
+  </div>
 </div>
 <!-- @@V256-INTRO-END -->
 
@@ -1880,7 +1911,7 @@ body.sim-playing #scr-sim>.topbar{display:none}
     <div class="modal-head"><span class="beta-tag">Version 2.5.6</span><h2 id="v1-title">Bản cập nhật 2.5.6</h2><button class="icon-btn sm" type="button" id="v1-close" aria-label="Đóng"><svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
     <p class="v1-txt">Bản cập nhật 2.5.6 đã mở mang đến những sự thay đổi mới. Cùng khám phá nhé</p>
     <ul class="v1-new">
-      <li><b>Màn mở đầu mới</b>: nền hồng nhạt chuyển xanh, logo răng nhún nhảy, thanh tải chạy qua lại rồi tự mờ dần vào app. Chạm vào màn hình để vào ngay.</li>
+      <li><b>Màn mở đầu mới</b>: giới thiệu studio <b>Dreamer Games</b> trên nền trời đêm đầy sao, rồi màn tải nền hồng chuyển xanh, logo răng nhún nhảy, thanh tải chạy qua lại và tự mờ dần vào app. Chạm vào màn hình để vào ngay.</li>
       <li>Không cần bấm “Nhấn để bắt đầu” nữa; nhạc nền tự bật (trên web, nhạc bật sau lần chạm đầu tiên).</li>
       <li>Giữ nguyên lồng tiếng nhân vật và nhạc nền nhỏ một nửa khi khám, làm bài từ bản 2.5.5.</li>
     </ul>
@@ -3077,15 +3108,30 @@ function voiceSample() {
 /* @@V255-VOICE-END */
 /* @@V256-JS */
 /* ================= MÀN MỞ ĐẦU (Version 2.5.6) =================
-   Kiểu màn tải của Tiệm Hoa Giấc Mơ: nền hồng → xanh nhạt, logo nhún nhảy, tên app, dòng chữ và thanh tải chạy qua lại,
-   rồi tự mờ dần vào app. Chạm vào màn hình để vào ngay. */
+   1) Giới thiệu studio “Dreamer Games”: bầu trời đêm, sao lấp lánh, trăng, chữ Dreamer Games phát sáng.
+   2) Màn tải kiểu Tiệm Hoa Giấc Mơ: nền hồng → xanh nhạt, logo nhún nhảy, thanh tải chạy qua lại.
+   Rồi tự mờ dần vào app. Chạm vào màn hình lúc nào cũng vào app ngay. */
+function studioStars() {
+  const box = $('#studio-stars'); if (!box || box.childElementCount) return;
+  let h = '';
+  for (let i = 0; i < 46; i++) {
+    const s = (Math.random() < .2 ? 3 : Math.random() < .5 ? 2 : 1.4).toFixed(1);
+    h += `<i style="left:${(Math.random() * 100).toFixed(1)}%;top:${(Math.random() * 100).toFixed(1)}%;--s:${s}px;--dl:${(-Math.random() * 3.2).toFixed(2)}s"></i>`;
+  }
+  box.innerHTML = h;
+}
 function openIntro() {
   const el = $('#intro'); if (!el) return;
   S.introOpen = true;
   el.classList.remove('out'); el.hidden = false; $('#app').inert = true; document.body.classList.add('intro-on');
+  const st = $('#studio'); studioStars(); st.hidden = false; st.classList.remove('out');
   if (S.music) Music.start(MUSIC_VOL.app);
   clearTimeout(openIntro.t);
-  openIntro.t = setTimeout(closeIntro, reduced ? 900 : 2400);
+  // giới thiệu studio ~2,6 giây → mờ sang màn tải ~2,2 giây → vào app
+  openIntro.t = setTimeout(() => {
+    st.classList.add('out');
+    openIntro.t = setTimeout(() => { st.hidden = true; openIntro.t = setTimeout(closeIntro, reduced ? 600 : 1500); }, reduced ? 300 : 700);
+  }, reduced ? 900 : 2600);
 }
 function closeIntro() {
   const el = $('#intro'); if (!el || el.hidden || el.classList.contains('out')) return;
@@ -3096,6 +3142,7 @@ function closeIntro() {
   $('#app').inert = false; document.body.classList.remove('intro-on');
   setTimeout(() => {
     el.hidden = true; el.classList.remove('out');
+    const st = $('#studio'); if (st) { st.hidden = true; st.classList.remove('out'); }
     if (typeof openV1Notice === 'function') openV1Notice();
   }, reduced ? 0 : 600);
 }

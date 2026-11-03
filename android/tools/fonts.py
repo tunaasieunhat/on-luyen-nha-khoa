@@ -5,7 +5,7 @@ import os, re, sys, urllib.request
 
 WWW = sys.argv[1]
 CSS_URL = ('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800'
-           '&family=Be+Vietnam+Pro:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap')
+           '&family=Be+Vietnam+Pro:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Pacifico&display=swap')
 UA = 'Mozilla/5.0 (Linux; Android 14; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Mobile Safari/537.36'
 KEEP = {'vietnamese', 'latin', 'latin-ext'}
 MARK = '<!--FONTS-->'
