@@ -1352,6 +1352,25 @@ body.sim-playing #scr-sim>.topbar{display:none}
   .sim-vb .i{width:20px;height:20px}
 }
 /* @@V255-CSS-END */
+/* @@V256-CSS */
+/* ---- 2.5.6: màn mở đầu kiểu màn tải (giống Tiệm Hoa Giấc Mơ) ---- */
+.intro.boot,body.winter .intro.boot{display:grid;place-items:center;overflow:hidden;background:linear-gradient(#FFE6EC,#CDEBFF);transition:opacity .6s ease;transform:none}
+.intro.boot.out{opacity:0;transform:none;pointer-events:none}
+.boot-skip{position:absolute;inset:0;width:100%;height:100%;margin:0;padding:0;border:0;background:transparent;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.boot-skip:focus{outline:none}
+.boot-card{position:relative;display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center;pointer-events:none;padding:0 16px}
+.boot-logo{display:block;width:84px;height:94px;animation:boot-bob 1.2s ease-in-out infinite;filter:drop-shadow(0 6px 0 rgba(11,84,76,.12))}
+.boot-logo svg{display:block;width:100%;height:100%}
+.boot-title{margin:6px 0 0;font-family:var(--f-display);font-weight:800;font-size:clamp(2rem,8.4vw,2.7rem);line-height:1.05;letter-spacing:-.01em;color:var(--scrub-deep);text-wrap:balance}
+.boot-title .w2{color:var(--gum)}
+.boot-text{margin:0;font-weight:700;font-size:1rem;color:#8A7D86}
+.boot-bar{width:180px;height:10px;margin-top:8px;border-radius:6px;background:#fff;overflow:hidden}
+.boot-bar i{display:block;width:40%;height:100%;border-radius:6px;background:#F3A0B3;animation:boot-load 1s ease-in-out infinite}
+.intro.boot .boot-ver{position:absolute;left:0;right:0;bottom:max(18px,env(safe-area-inset-bottom,0px));margin:0;padding:0;border:0;background:none;text-align:center;font-family:var(--f-mono);font-size:11px;font-weight:700;letter-spacing:.1em;color:#9AA7B4;pointer-events:none}
+@keyframes boot-bob{50%{transform:translateY(-8px)}}
+@keyframes boot-load{0%{transform:translateX(-100%)}to{transform:translateX(250%)}}
+@media (prefers-reduced-motion:reduce){.boot-logo,.boot-bar i{animation:none}.boot-bar i{width:100%}}
+/* @@V256-CSS-END */
 </style>
 </head>
 <body>
@@ -1364,8 +1383,8 @@ body.sim-playing #scr-sim>.topbar{display:none}
         <div class="brand-row"><span class="logo-slot"></span><span class="eyebrow">Phòng khám luyện thi Răng Hàm Mặt</span></div>
         <h1 id="start-title">Ôn Luyện <span>Nha Khoa</span></h1>
         <div class="beta-note" role="note">
-          <span class="beta-tag">Version 2.5.5</span>
-          <span class="beta-txt">Bản cập nhật 2.5.5: lồng tiếng nhân vật trong Mô phỏng, nhạc nền nhỏ một nửa khi khám và làm bài.</span>
+          <span class="beta-tag">Version 2.5.6</span>
+          <span class="beta-txt">Bản cập nhật 2.5.6: màn mở đầu mới, tự vào app.</span>
         </div>
       </div>
       <div class="start-cast">
@@ -1842,31 +1861,30 @@ body.sim-playing #scr-sim>.topbar{display:none}
 </div>
 
 <!-- ============ MÀN MỞ ĐẦU ============ -->
-<div class="intro" id="intro" role="dialog" aria-modal="true" aria-labelledby="intro-title" hidden>
-  <div class="intro-stage">
-    <span class="intro-spark" style="left:4%;top:6%"></span><span class="intro-spark" style="right:6%;top:14%"></span><span class="intro-spark" style="left:10%;top:52%"></span><span class="intro-spark" style="right:3%;top:58%"></span>
-    <div class="intro-mascot" id="intro-mascot" aria-hidden="true"></div>
-    <p class="intro-eyebrow">Phòng khám luyện thi Răng Hàm Mặt</p>
-    <h1 class="intro-title" id="intro-title" aria-label="Ôn Luyện Nha Khoa"><span class="w w1">Ôn Luyện</span> <span class="w w2">Nha Khoa</span></h1>
-    <p class="intro-sub">Ôn thi mọi lúc, kể cả khi mất mạng.</p>
-    <div class="intro-eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
-    <button class="btn btn-gum intro-go" id="intro-go" type="button">Nhấn để bắt đầu<svg class="i" viewBox="0 0 24 24"><path d="M8 5l11 7-11 7V5z"/></svg></button>
-    <div class="intro-row"><button class="intro-music" id="intro-music" type="button" aria-pressed="true"></button><span class="intro-ver">Version 2.5.5</span></div>
-    <p class="intro-tap" id="intro-tap" aria-live="polite"></p>
+<!-- @@V256-INTRO -->
+<div class="intro boot" id="intro" role="dialog" aria-modal="true" aria-labelledby="intro-title" hidden>
+  <button class="boot-skip" id="intro-go" type="button" aria-label="Vào app ngay"></button>
+  <div class="boot-card">
+    <span class="logo-slot boot-logo" aria-hidden="true"></span>
+    <h1 class="boot-title" id="intro-title"><span class="w1">Ôn Luyện</span> <span class="w2">Nha Khoa</span></h1>
+    <p class="boot-text">Đang khử khuẩn dụng cụ...</p>
+    <div class="boot-bar" aria-hidden="true"><i></i></div>
   </div>
+  <span class="intro-ver boot-ver">Version 2.5.6</span>
 </div>
+<!-- @@V256-INTRO-END -->
 
 <!-- ============ THÔNG BÁO NỔI (Version 1.0) ============ -->
 <div class="modal" id="v1-modal" hidden role="dialog" aria-modal="true" aria-labelledby="v1-title">
   <div class="modal-card v1-card">
-    <div class="modal-head"><span class="beta-tag">Version 2.5.5</span><h2 id="v1-title">Bản cập nhật 2.5.5</h2><button class="icon-btn sm" type="button" id="v1-close" aria-label="Đóng"><svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
-    <p class="v1-txt">Bản cập nhật 2.5.5 đã mở mang đến những sự thay đổi mới. Cùng khám phá nhé</p>
+    <div class="modal-head"><span class="beta-tag">Version 2.5.6</span><h2 id="v1-title">Bản cập nhật 2.5.6</h2><button class="icon-btn sm" type="button" id="v1-close" aria-label="Đóng"><svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <p class="v1-txt">Bản cập nhật 2.5.6 đã mở mang đến những sự thay đổi mới. Cùng khám phá nhé</p>
     <ul class="v1-new">
-      <li><b>Lồng tiếng nhân vật</b> trong Mô phỏng: bệnh nhân, người nhà, lễ tân nói bằng giọng riêng (nam, nữ, người lớn tuổi, trẻ con). Bấm biểu tượng loa trên lời thoại để nghe lại hoặc bỏ qua câu đang đọc.</li>
-      <li><b>Nhạc nền nhỏ đi một nửa</b> khi vào Mô phỏng và khi trả lời câu hỏi (Làm bài, Phòng Thi), và nhỏ thêm khi nhân vật đang nói.</li>
-      <li><b>Cài đặt</b> có thêm: bật/tắt lồng tiếng, âm lượng giọng nói. Trong ca bệnh có nút bật/tắt nhanh ở góc trên.</li>
+      <li><b>Màn mở đầu mới</b>: nền hồng nhạt chuyển xanh, logo răng nhún nhảy, thanh tải chạy qua lại rồi tự mờ dần vào app. Chạm vào màn hình để vào ngay.</li>
+      <li>Không cần bấm “Nhấn để bắt đầu” nữa; nhạc nền tự bật (trên web, nhạc bật sau lần chạm đầu tiên).</li>
+      <li>Giữ nguyên lồng tiếng nhân vật và nhạc nền nhỏ một nửa khi khám, làm bài từ bản 2.5.5.</li>
     </ul>
-    <a class="btn btn-gum btn-lg v1-dl" id="v1-dl" href="https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk" target="_blank" rel="noopener"><svg class="i" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Tải app version 2.5.5 (Android)</a>
+    <a class="btn btn-gum btn-lg v1-dl" id="v1-dl" href="https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk" target="_blank" rel="noopener"><svg class="i" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Tải app version 2.5.6 (Android)</a>
     <p class="v1-url">https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk</p>
     <button class="btn" type="button" id="v1-ok">Khám phá ngay</button>
   </div>
@@ -3057,6 +3075,33 @@ function voiceSample() {
   Voice.replay(SIM_VOICE_SAMPLE[0], SIM_VOICE_SAMPLE[1]);
 }
 /* @@V255-VOICE-END */
+/* @@V256-JS */
+/* ================= MÀN MỞ ĐẦU (Version 2.5.6) =================
+   Kiểu màn tải của Tiệm Hoa Giấc Mơ: nền hồng → xanh nhạt, logo nhún nhảy, tên app, dòng chữ và thanh tải chạy qua lại,
+   rồi tự mờ dần vào app. Chạm vào màn hình để vào ngay. */
+function openIntro() {
+  const el = $('#intro'); if (!el) return;
+  S.introOpen = true;
+  el.classList.remove('out'); el.hidden = false; $('#app').inert = true; document.body.classList.add('intro-on');
+  if (S.music) Music.start(MUSIC_VOL.app);
+  clearTimeout(openIntro.t);
+  openIntro.t = setTimeout(closeIntro, reduced ? 900 : 2400);
+}
+function closeIntro() {
+  const el = $('#intro'); if (!el || el.hidden || el.classList.contains('out')) return;
+  clearTimeout(openIntro.t);
+  try { if (S.music) Music.start(MUSIC_VOL.app); else Music.unlock(); } catch {}
+  el.classList.add('out');
+  S.introOpen = false;
+  $('#app').inert = false; document.body.classList.remove('intro-on');
+  setTimeout(() => {
+    el.hidden = true; el.classList.remove('out');
+    if (typeof openV1Notice === 'function') openV1Notice();
+  }, reduced ? 0 : 600);
+}
+// Trình duyệt chặn tự phát nhạc khi chưa chạm: lần chạm đầu tiên ở bất kỳ đâu sẽ bật nhạc
+document.addEventListener('pointerdown', () => { try { if (S.music && Music.playing && !Music.running()) Music.start(); } catch {} }, true);
+/* @@V256-JS-END */
 function renderMusicBtns() {
   $$('.music-btn').forEach(b => {
     b.innerHTML = S.music ? MUSIC_ICON.on : MUSIC_ICON.off;
@@ -3080,37 +3125,8 @@ function paintIntro() {
   const tip = $('#intro-tap');
   if (tip) tip.textContent = S.music && Music.playing && !Music.running() ? 'Chạm vào màn hình để bật nhạc' : '';
 }
-function openIntro() {
-  const el = $('#intro');
-  S.introOpen = true;
-  $('#intro-mascot').innerHTML = mascotSVG();
-  let k = 0;
-  $$('#intro-title .w').forEach(w => {
-    w.innerHTML = Array.from(w.textContent).map(c => c === ' ' ? ' ' : `<span class="ch" style="--d:${(.35 + k++ * .06).toFixed(2)}s">${esc(c)}</span>`).join('');
-  });
-  $$('.intro-spark', el).forEach((s, i) => { s.innerHTML = STAR(i % 2 ? '#7FD3F7' : '#FFD66B', i % 2 ? '#127B70' : '#7A5600'); s.style.animationDelay = (-i * .7) + 's'; });
-  el.hidden = false; $('#app').inert = true; document.body.classList.add('intro-on');
-  renderMusicBtns();
-  if (S.music) Music.start(MUSIC_VOL.intro);
-  setTimeout(paintIntro, 400);
-  // Trình duyệt chặn tự phát âm thanh: chạm bất kỳ đâu trên màn mở đầu để bật nhạc
-  const wake = e => { if (e.target.closest && e.target.closest('#intro-music')) return; if (S.music) Music.start(); else Music.unlock(); };
-  el.addEventListener('pointerdown', wake);
-  el.addEventListener('keydown', wake);
-}
-function closeIntro() {
-  const el = $('#intro'); if (!el || el.hidden || el.classList.contains('out')) return;
-  Music.unlock();
-  if (S.music) { Music.start(); setTimeout(() => Music.volume(MUSIC_VOL.app), 900); }
-  Music.fanfare();
-  el.classList.add('out');
-  S.introOpen = false;
-  $('#app').inert = false; document.body.classList.remove('intro-on');
-  setTimeout(() => {
-    el.hidden = true; el.classList.remove('out');
-    if (typeof openV1Notice === 'function') openV1Notice();
-  }, reduced ? 0 : 520);
-}
+// openIntro(): xem Version 2.5.6
+// closeIntro(): xem Version 2.5.6
 
 /* ================= HÌNH MINH HOẠ CÂU HỎI (vẽ sẵn, nằm trong file, dùng được khi offline) ================= */
 const IK = '#12332E';
@@ -3674,9 +3690,9 @@ function paintArt(q) {
 let v1Shown = false;
 function openV1Notice() {
   // Bản web: hiện mỗi lần mở (kèm nút tải app). App Android: chỉ hiện một lần cho mỗi phiên bản, không có nút tải.
-  if (v1Shown || (window.AndroidApp && store.get('seenNotice', '') === '2.5.5')) return;
+  if (v1Shown || (window.AndroidApp && store.get('seenNotice', '') === '2.5.6')) return;
   const m = $('#v1-modal'); if (!m) return;
-  if (window.AndroidApp) { $('#v1-dl').hidden = true; const u = $('.v1-url'); if (u) u.hidden = true; store.set('seenNotice', '2.5.5'); }
+  if (window.AndroidApp) { $('#v1-dl').hidden = true; const u = $('.v1-url'); if (u) u.hidden = true; store.set('seenNotice', '2.5.6'); }
   v1Shown = true; m.hidden = false;
   setTimeout(() => { try { $('#v1-ok').focus(); } catch {} }, 60);
 }

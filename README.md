@@ -1,6 +1,6 @@
 # Ôn Luyện Nha Khoa
 
-Ứng dụng ôn thi Răng Hàm Mặt dạng trò chơi phòng khám: làm trắc nghiệm, đọc tóm tắt lý thuyết, ôn flashcard. **Version 2.5.5** là phiên bản mới nhất; các môn học sẽ được liên tục thêm vào.
+Ứng dụng ôn thi Răng Hàm Mặt dạng trò chơi phòng khám: làm trắc nghiệm, đọc tóm tắt lý thuyết, ôn flashcard. **Version 2.5.6** là phiên bản mới nhất; các môn học sẽ được liên tục thêm vào.
 
 | | Link |
 | --- | --- |
@@ -26,6 +26,7 @@ Phát hiện lỗi, sai đáp án hay câu hỏi có vấn đề: liên hệ tun
 - **Ôn tập lý thuyết:** 46 bài, bài nào cũng tải về được dạng PDF. Môn Mắt (bản 2.1.1) được biên soạn lại theo lối giảng giải, kèm 30 hình minh hoạ từ bài giảng (nhãn tiếng Việt, chạm để phóng to); môn Nhi khoa (bản 2.1.2) cũng được biên soạn lại, có ví dụ tính toán và phần liên hệ Răng Hàm Mặt. Từ bản 2.3, Mắt và Nhi khoa có thêm **giáo trình trọn bộ**: 1 file PDF gồm bìa, mục lục có số trang (bấm để nhảy trang) và toàn bộ các bài. Bản 2.4 biên soạn lại 15 Unit Anh văn chuyên ngành 2 (phiên âm, cấu tạo từ, ví dụ, từ dễ nhầm, đọc hiểu tình huống) và thêm giáo trình trọn bộ cho môn này.
 - **Sơ đồ tư duy** cho cả 46 bài: xem dạng toả tròn hoặc dạng cây, che ý nhỏ để tự kiểm tra, tải về dạng ảnh PNG.
 - **Flashcard và tự soạn câu hỏi.**
+- **Màn mở đầu (từ bản 2.5.6):** kiểu màn tải nền hồng chuyển xanh, logo răng nhún nhảy, thanh tải chạy qua lại rồi tự vào app; chạm để vào ngay.
 - **Giao diện mùa đông:** tuyết rơi, đèn nháy, **nhạc nền mùa đông** (nhạc chính *Questions by the Hearth*, khi trả lời câu hỏi chuyển sang *Where Snowfall Settles*) và **nền phòng khám hoạt hình** có chuyển động. Từ bản 2.5.5 nhạc nền tự nhỏ đi một nửa khi vào Mô phỏng và khi trả lời câu hỏi.
 - **Cài đặt (từ bản 2.5.3):** bật/tắt nhạc nền, chỉnh âm lượng, đổi nhạc chính (Questions by the Hearth, Answers in the Snow, Lo-fi mùa đông), bật/tắt nhạc riêng khi làm bài, âm thanh hiệu ứng và âm lượng hiệu ứng, tiếng khi nhấn nút, **bông tuyết khi nhấn** (từ bản 2.5.4), **lồng tiếng nhân vật** và âm lượng giọng nói (từ bản 2.5.5).
 
