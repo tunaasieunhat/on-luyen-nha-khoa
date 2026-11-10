@@ -1375,6 +1375,18 @@ body.sim-playing #scr-sim>.topbar{display:none}
 .intro.boot.show .boot-title{animation:bt-in .8s cubic-bezier(.2,.8,.2,1) .18s both}
 @keyframes bt-in{from{opacity:0;transform:translateY(14px) scale(.96);filter:blur(4px)}to{opacity:1;transform:none;filter:none}}
 @keyframes bt-float{50%{transform:translateY(-5px)}}
+/* màn tải đầu tiên (như "Đang tưới hoa..." của Tiệm Hoa Giấc Mơ) */
+.boot-load{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0;text-align:center;pointer-events:none;
+  background:linear-gradient(180deg,#FFE0E8 0%,#E9E3F2 45%,#C6E5FB 100%);transition:opacity .35s ease}
+.boot-load[hidden]{display:none}
+.boot-load .bl-logo{display:block;width:40px;height:auto;aspect-ratio:84/94;margin-bottom:10px}
+.boot-load .bl-logo svg{display:block;width:100%;height:100%}
+.boot-load .bl-name{margin:0;font:600 clamp(1.15rem,4.6vw,1.45rem)/1.2 var(--f-body,"Be Vietnam Pro",sans-serif);color:#C2577E}
+.boot-load .bl-text{margin:18px 0 0;font:500 12px/1.2 var(--f-body,"Be Vietnam Pro",sans-serif);color:#8C6B6B}
+.boot-load .bl-bar{width:104px;height:6px;margin-top:12px;border-radius:4px;background:#fff;overflow:hidden}
+.boot-load .bl-bar i{display:block;width:16px;height:100%;border-radius:4px;background:#F2A7BC;animation:bl-run 1.3s ease-in-out infinite alternate}
+@keyframes bl-run{to{transform:translateX(88px)}}
+.intro.load .boot-pass{opacity:0}
 /* trời sao + chữ DREAMER GAMES */
 .studio{position:absolute;inset:0;z-index:2;display:grid;place-items:center;pointer-events:none;overflow:hidden;
   background:radial-gradient(70% 60% at 50% 55%,#2A2266 0%,#181747 45%,#0B0C26 100%);transition:opacity .5s ease}
@@ -1386,12 +1398,19 @@ body.sim-playing #scr-sim>.topbar{display:none}
 .studio-stars i.x::before,.studio-stars i.x::after{content:"";position:absolute;left:4px;top:0;width:1px;height:9px;background:rgba(255,255,255,.85)}
 .studio-stars i.x::after{transform:rotate(90deg)}
 .studio-card{position:relative;display:flex;flex-direction:column;align-items:center;gap:clamp(6px,2vw,14px);text-align:center;padding:0 16px}
-.studio-word{margin:0;font:800 clamp(3rem,15.5vw,7.4rem)/1 var(--f-display);letter-spacing:.02em;padding:.08em .06em 0;
-  background:linear-gradient(100deg,#8FDCFF 0%,#A8A4FF 22%,#B98CF4 40%,#F6EEFF 50%,#C58FEE 60%,#E7A6E6 80%,#F7C9EE 100%);background-size:220% 100%;background-position:100% 0;
-  -webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 14px rgba(184,150,255,.55)) drop-shadow(0 0 2px rgba(255,255,255,.5));
-  animation:st-in .8s cubic-bezier(.2,.8,.2,1) both,st-sheen 2.4s ease-in-out .2s both}
+.studio-word{display:flex;margin:0;font:800 clamp(3rem,15.5vw,7.4rem)/1 var(--f-display);letter-spacing:.02em;padding:.08em .06em 0}
+.studio-word b{display:inline-block;font-weight:800;color:var(--c);opacity:0;text-shadow:0 0 12px color-mix(in srgb,var(--c) 70%,transparent),0 0 28px rgba(170,140,255,.45)}
+.studio.go .studio-word b{animation:sw-up .42s cubic-bezier(.25,.9,.3,1.15) var(--d) both,sw-glow 2.4s ease-in-out calc(var(--d) + .5s) infinite}
+@keyframes sw-up{from{opacity:0;transform:translateY(.32em) scale(.86);filter:blur(2px)}60%{opacity:1}to{opacity:1;transform:none;filter:none}}
+@keyframes sw-glow{50%{text-shadow:0 0 18px color-mix(in srgb,var(--c) 85%,transparent),0 0 40px rgba(190,160,255,.6)}}
 .studio-games{display:flex;align-items:center;gap:clamp(12px,4vw,26px);margin:0;font:700 clamp(1.1rem,4.6vw,2rem)/1 var(--f-display);letter-spacing:.42em;padding-left:.42em;color:#FFEBD2;
-  text-shadow:0 0 10px rgba(255,220,180,.35);animation:st-in .8s cubic-bezier(.2,.8,.2,1) .25s both}
+  text-shadow:0 0 10px rgba(255,220,180,.35);opacity:0}
+.studio.go .studio-games{animation:sg-in .7s ease .78s both}
+.studio-games i{transform:scaleX(0)}
+.studio.go .studio-games i{animation:sg-line .6s ease 1.15s both}
+.studio.go .studio-games i:first-child{transform-origin:right}.studio.go .studio-games i:last-child{transform-origin:left}
+@keyframes sg-in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes sg-line{to{transform:scaleX(1)}}
 .studio-games i{display:block;width:clamp(48px,15vw,120px);height:1px;background:linear-gradient(90deg,transparent,rgba(255,235,210,.75))}
 .studio-games i:last-child{background:linear-gradient(90deg,rgba(255,235,210,.75),transparent)}
 @keyframes st-in{from{opacity:0;transform:scale(.94);filter:blur(6px)}}
@@ -1404,7 +1423,7 @@ body.sim-playing #scr-sim>.topbar{display:none}
 .boot-bloom.fade{animation:bl-out .9s ease forwards}
 @keyframes bl-out{from{opacity:1;transform:scale(1.6)}to{opacity:0;transform:scale(1.7)}}
 @keyframes bl-grow{0%{opacity:.2;transform:scale(.05)}35%{opacity:.95}100%{opacity:1;transform:scale(1.6)}}
-@media (prefers-reduced-motion:reduce){.studio *,.boot-confetti i,.intro.boot.show .boot-logo,.intro.boot.show .boot-title{animation:none!important}.intro.boot.show .boot-logo,.intro.boot.show .boot-title{opacity:1}.boot-bloom{display:none}}
+@media (prefers-reduced-motion:reduce){.studio-word b,.studio-games,.studio-games i{opacity:1!important;transform:none!important}.boot-load .bl-bar i,.studio *,.boot-confetti i,.intro.boot.show .boot-logo,.intro.boot.show .boot-title{animation:none!important}.intro.boot.show .boot-logo,.intro.boot.show .boot-title{opacity:1}.boot-bloom{display:none}}
 /* @@V256-CSS-END */
 </style>
 </head>
@@ -1418,8 +1437,8 @@ body.sim-playing #scr-sim>.topbar{display:none}
         <div class="brand-row"><span class="logo-slot"></span><span class="eyebrow">Phòng khám luyện thi Răng Hàm Mặt</span></div>
         <h1 id="start-title">Ôn Luyện <span>Nha Khoa</span></h1>
         <div class="beta-note" role="note">
-          <span class="beta-tag">Version 2.5.8</span>
-          <span class="beta-txt">Bản cập nhật 2.5.8: màn mở đầu đồng bộ với Tiệm Hoa Giấc Mơ.</span>
+          <span class="beta-tag">Version 2.5.9</span>
+          <span class="beta-txt">Bản cập nhật 2.5.9: màn mở đầu giống hệt Tiệm Hoa Giấc Mơ.</span>
         </div>
       </div>
       <div class="start-cast">
@@ -1897,36 +1916,42 @@ body.sim-playing #scr-sim>.topbar{display:none}
 
 <!-- ============ MÀN MỞ ĐẦU ============ -->
 <!-- @@V256-INTRO -->
-<div class="intro boot night" id="intro" role="dialog" aria-modal="true" aria-labelledby="intro-title" hidden>
+<div class="intro boot load" id="intro" role="dialog" aria-modal="true" aria-labelledby="intro-title" hidden>
   <button class="boot-skip" id="intro-go" type="button" aria-label="Bỏ qua, vào app ngay"></button>
   <div class="boot-confetti" id="boot-confetti" aria-hidden="true"></div>
   <div class="boot-card">
     <span class="logo-slot boot-logo" aria-hidden="true"></span>
     <h1 class="boot-title" id="intro-title">Ôn Luyện Nha Khoa</h1>
   </div>
+  <div class="boot-load" id="boot-load">
+    <span class="logo-slot bl-logo" aria-hidden="true"></span>
+    <p class="bl-name">Ôn Luyện Nha Khoa</p>
+    <p class="bl-text">Đang khử khuẩn dụng cụ...</p>
+    <div class="bl-bar" aria-hidden="true"><i></i></div>
+  </div>
   <div class="studio" id="studio" hidden>
     <div class="studio-stars" id="studio-stars" aria-hidden="true"></div>
     <div class="studio-card" aria-label="Dreamer Games">
-      <p class="studio-word">DREAMER</p>
+      <p class="studio-word"><b style="--c:#8FD8FF;--d:0.000s">D</b><b style="--c:#9CC0FF;--d:0.085s">R</b><b style="--c:#A9A8FF;--d:0.170s">E</b><b style="--c:#B48DF7;--d:0.255s">A</b><b style="--c:#C38CF0;--d:0.340s">M</b><b style="--c:#DA8EE5;--d:0.425s">E</b><b style="--c:#F29BCF;--d:0.510s">R</b></p>
       <p class="studio-games"><i></i>GAMES<i></i></p>
     </div>
   </div>
   <div class="boot-bloom" id="boot-bloom" aria-hidden="true"></div>
   <span class="boot-pass" aria-hidden="true">Bỏ qua ›</span>
-  <span class="intro-ver boot-ver" hidden>Version 2.5.8</span>
+  <span class="intro-ver boot-ver" hidden>Version 2.5.9</span>
 </div>
 <!-- @@V256-INTRO-END -->
 
 <!-- ============ THÔNG BÁO NỔI (Version 1.0) ============ -->
 <div class="modal" id="v1-modal" hidden role="dialog" aria-modal="true" aria-labelledby="v1-title">
   <div class="modal-card v1-card">
-    <div class="modal-head"><span class="beta-tag">Version 2.5.8</span><h2 id="v1-title">Bản cập nhật 2.5.8</h2><button class="icon-btn sm" type="button" id="v1-close" aria-label="Đóng"><svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
-    <p class="v1-txt">Bản cập nhật 2.5.8 đã mở mang đến những sự thay đổi mới. Cùng khám phá nhé</p>
+    <div class="modal-head"><span class="beta-tag">Version 2.5.9</span><h2 id="v1-title">Bản cập nhật 2.5.9</h2><button class="icon-btn sm" type="button" id="v1-close" aria-label="Đóng"><svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <p class="v1-txt">Bản cập nhật 2.5.9 đã mở mang đến những sự thay đổi mới. Cùng khám phá nhé</p>
     <ul class="v1-new">
-      <li><b>Màn mở đầu đồng bộ với Tiệm Hoa Giấc Mơ</b>: chữ <b>DREAMER GAMES</b> trên trời sao, quầng sáng hồng nở ra, rồi nền pastel hồng xanh có hoa giấy rơi cùng logo và tên app. Chạm “Bỏ qua” để vào ngay.</li>
+      <li><b>Màn mở đầu đồng bộ với Tiệm Hoa Giấc Mơ</b>: màn tải “Đang khử khuẩn dụng cụ...”, chữ <b>DREAMER</b> trồi lên từng chữ cái trên trời sao rồi hiện <b>GAMES</b>, quầng sáng hồng nở ra, sau đó nền pastel có hoa giấy rơi cùng logo và tên app. Chạm “Bỏ qua” để vào ngay.</li>
       <li>Giữ nguyên <b>giáo trình Vật liệu nha khoa</b> 21 bài và quyển PDF trọn bộ 216 trang từ bản 2.5.7.</li>
     </ul>
-    <a class="btn btn-gum btn-lg v1-dl" id="v1-dl" href="https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk" target="_blank" rel="noopener"><svg class="i" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Tải app version 2.5.8 (Android)</a>
+    <a class="btn btn-gum btn-lg v1-dl" id="v1-dl" href="https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk" target="_blank" rel="noopener"><svg class="i" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Tải app version 2.5.9 (Android)</a>
     <p class="v1-url">https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk</p>
     <button class="btn" type="button" id="v1-ok">Khám phá ngay</button>
   </div>
@@ -3118,7 +3143,8 @@ function voiceSample() {
 }
 /* @@V255-VOICE-END */
 /* @@V256-JS */
-/* ================= MÀN MỞ ĐẦU (Version 2.5.7, đồng bộ với Tiệm Hoa Giấc Mơ) =================
+/* ================= MÀN MỞ ĐẦU (Version 2.5.8, đồng bộ với Tiệm Hoa Giấc Mơ) =================
+   0) Màn tải nhỏ: logo, tên app, “Đang khử khuẩn dụng cụ...”, thanh tải.
    1) Trời sao, chữ DREAMER (ánh sáng lướt qua) và GAMES.
    2) Quầng sáng hồng nở ra từ giữa, phủ kín màn hình.
    3) Nền pastel hồng → xanh, hoa giấy rơi, logo răng và tên app hiện lên. Rồi mờ dần vào app.
@@ -3145,20 +3171,30 @@ function bootConfetti() {
 function openIntro() {
   const el = $('#intro'); if (!el) return;
   S.introOpen = true;
-  el.classList.remove('out', 'show'); el.classList.add('night'); el.hidden = false; $('#app').inert = true; document.body.classList.add('intro-on');
-  const st = $('#studio'), bl = $('#boot-bloom');
-  studioStars(); bootConfetti(); st.hidden = false; st.classList.remove('out');
+  el.classList.remove('out', 'show', 'night'); el.classList.add('load'); el.hidden = false; $('#app').inert = true; document.body.classList.add('intro-on');
+  const ld = $('#boot-load'), st = $('#studio'), bl = $('#boot-bloom');
+  studioStars(); bootConfetti();
+  if (ld) { ld.hidden = false; ld.style.opacity = ''; }
+  st.hidden = true; st.classList.remove('out', 'go');
   if (bl) bl.className = 'boot-bloom';
   if (S.music) Music.start(MUSIC_VOL.app);
   clearTimeout(openIntro.t);
   const T = (ms, f) => { openIntro.t = setTimeout(f, reduced ? Math.min(ms, 300) : ms); };
-  // DREAMER GAMES ~1,7 giây → quầng hồng nở (0,9 giây) → nền pastel + tên app ~1,9 giây → vào app
-  T(1700, () => {
-    if (bl && !reduced) bl.classList.add('go');
-    T(800, () => {
-      st.hidden = true; el.classList.remove('night'); el.classList.add('show');
-      if (bl) { bl.classList.remove('go'); bl.classList.add('fade'); }
-      T(1900, closeIntro);
+  // 1) màn tải "Đang khử khuẩn dụng cụ..." ~1,8 giây
+  T(1800, () => {
+    // 2) trời sao: DREAMER hiện từng chữ, rồi GAMES và hai vạch kẻ ~2,6 giây
+    el.classList.remove('load'); el.classList.add('night');
+    st.hidden = false; void st.offsetWidth; st.classList.add('go');
+    if (ld) { ld.style.opacity = '0'; setTimeout(() => { ld.hidden = true; }, 360); }
+    T(2600, () => {
+      // 3) quầng sáng hồng nở ra
+      if (bl && !reduced) bl.classList.add('go');
+      T(800, () => {
+        // 4) nền pastel + hoa giấy, logo và tên app ~1,9 giây → vào app
+        st.hidden = true; st.classList.remove('go'); el.classList.remove('night'); el.classList.add('show');
+        if (bl) { bl.classList.remove('go'); bl.classList.add('fade'); }
+        T(1900, closeIntro);
+      });
     });
   });
 }
@@ -3170,8 +3206,9 @@ function closeIntro() {
   S.introOpen = false;
   $('#app').inert = false; document.body.classList.remove('intro-on');
   setTimeout(() => {
-    el.hidden = true; el.classList.remove('out', 'show', 'night');
-    const st = $('#studio'); if (st) { st.hidden = true; st.classList.remove('out'); }
+    el.hidden = true; el.classList.remove('out', 'show', 'night', 'load');
+    const st = $('#studio'); if (st) { st.hidden = true; st.classList.remove('out', 'go'); }
+    const ld = $('#boot-load'); if (ld) ld.hidden = true;
     const bl = $('#boot-bloom'); if (bl) bl.className = 'boot-bloom';
     if (typeof openV1Notice === 'function') openV1Notice();
   }, reduced ? 0 : 600);
@@ -3767,9 +3804,9 @@ function paintArt(q) {
 let v1Shown = false;
 function openV1Notice() {
   // Bản web: hiện mỗi lần mở (kèm nút tải app). App Android: chỉ hiện một lần cho mỗi phiên bản, không có nút tải.
-  if (v1Shown || (window.AndroidApp && store.get('seenNotice', '') === '2.5.8')) return;
+  if (v1Shown || (window.AndroidApp && store.get('seenNotice', '') === '2.5.9')) return;
   const m = $('#v1-modal'); if (!m) return;
-  if (window.AndroidApp) { $('#v1-dl').hidden = true; const u = $('.v1-url'); if (u) u.hidden = true; store.set('seenNotice', '2.5.8'); }
+  if (window.AndroidApp) { $('#v1-dl').hidden = true; const u = $('.v1-url'); if (u) u.hidden = true; store.set('seenNotice', '2.5.9'); }
   v1Shown = true; m.hidden = false;
   setTimeout(() => { try { $('#v1-ok').focus(); } catch {} }, 60);
 }
