@@ -1,11 +1,9 @@
-Ôn Luyện Nha Khoa – Version 2.5.9.
+Ôn Luyện Nha Khoa – Version 2.6.0.
 
-- Màn mở đầu làm lại giống Tiệm Hoa Giấc Mơ, đúng thứ tự:
-  1. Màn tải nền hồng chuyển xanh: logo nhỏ, tên app, “Đang khử khuẩn dụng cụ...” và thanh tải chạy qua lại.
-  2. Trời sao: chữ DREAMER trồi lên lần lượt từng chữ cái (xanh → tím → hồng, phát sáng), rồi hiện GAMES và hai vạch kẻ.
-  3. Quầng sáng hồng nở ra từ giữa màn hình.
-  4. Nền pastel có hoa giấy rơi, logo răng và tên app hiện lên, rồi tự vào app.
-- Nút “Bỏ qua” ở góc dưới; chạm vào màn hình lúc nào cũng vào app ngay.
-- Giữ nguyên giáo trình Vật liệu nha khoa 21 bài (bản 2.5.7).
+- Slide bài giảng Vật liệu nha khoa cho Bài 1–11 (228 slide): mở bài trong Tóm tắt bài học → thẻ “Slide bài giảng”.
+  - Vuốt ngang hoặc chạm hai bên ảnh để chuyển slide; có dải ảnh nhỏ để nhảy nhanh và chế độ toàn màn hình.
+  - Tải bộ slide PowerPoint (.pptx, có ghi chú người trình bày) và bản in PDF 4 slide/trang (A4 ngang).
+- Nội dung slide viết rõ, đủ ý theo giáo trình: mục tiêu, mẹo nhớ, liên hệ lâm sàng, bảng so sánh, 3 câu hỏi nhanh có đáp án và trang ghi nhớ cả bài.
+- Slide được gói sẵn trong app, xem được khi không có mạng. Bài 12–21 sẽ cập nhật sau.
 
 Cài: tải file OnLuyenNhaKhoa.apk bên dưới, mở file và bấm Cập nhật.

@@ -706,6 +706,34 @@ body.winter .intro{background:radial-gradient(ellipse at 50% 42%,rgba(255,253,24
 .th-mm.full{position:fixed;inset:0;z-index:70;background:var(--wall);padding:max(12px,env(safe-area-inset-top,0px)) max(12px,env(safe-area-inset-right,0px)) max(12px,env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px))}
 .th-mm.full .mm-ftitle{display:block}
 .th-mm.full .mm-stage{flex:1;max-height:none;overflow:auto}
+/* @@SL-CSS */
+.th-sl{margin-top:16px;display:flex;flex-direction:column;gap:12px}
+.th-sl[hidden]{display:none}
+.sl-bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.sl-title{margin:0;font-size:1.05rem;color:var(--ink);flex:1 1 220px;min-width:0}
+.sl-count{font-family:var(--f-mono);font-weight:700;font-size:.9rem;color:var(--muted);white-space:nowrap}
+.sl-stage{position:relative;aspect-ratio:16/9;width:100%;background:#fff;border:2px solid var(--ink);border-radius:16px;overflow:hidden;box-shadow:0 5px 0 var(--ink);touch-action:pan-y;user-select:none;-webkit-user-select:none}
+.sl-stage img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;display:block;-webkit-user-drag:none;pointer-events:none}
+.sl-nav{position:absolute;top:0;bottom:0;width:22%;border:0;background:transparent;cursor:pointer;display:flex;align-items:center;padding:0 10px;color:var(--ink);opacity:.0;transition:opacity .15s}
+.sl-nav.prev{left:0;justify-content:flex-start}.sl-nav.next{right:0;justify-content:flex-end}
+.sl-nav span{display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.92);box-shadow:0 0 0 2px var(--ink);font-size:24px;font-weight:800;line-height:1}
+.sl-stage:hover .sl-nav,.sl-nav:focus-visible{opacity:1}
+.sl-nav:disabled{display:none}
+@media (hover:none){.sl-nav{opacity:.85}}
+.sl-thumbs{display:flex;gap:8px;overflow-x:auto;padding:4px 2px 10px;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch}
+.sl-thumbs button{flex:none;width:112px;aspect-ratio:16/9;border:2px solid var(--line);border-radius:8px;padding:0;overflow:hidden;background:#fff;cursor:pointer;scroll-snap-align:start;position:relative}
+.sl-thumbs button[aria-current="true"]{border-color:var(--scrub-deep);box-shadow:0 0 0 2px var(--scrub-deep)}
+.sl-thumbs img{width:100%;height:100%;object-fit:cover;display:block}
+.sl-thumbs b{position:absolute;left:4px;bottom:3px;font:700 10px/1 var(--f-mono);background:rgba(255,255,255,.9);border-radius:4px;padding:2px 4px;color:var(--ink)}
+.sl-dl{display:flex;gap:10px;flex-wrap:wrap}
+.sl-tip{margin:0}
+.th-sl.full{position:fixed;inset:0;z-index:70;margin:0;background:#17122a;justify-content:center;align-items:center;padding:max(12px,env(safe-area-inset-top,0px)) max(12px,env(safe-area-inset-right,0px)) max(12px,env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px))}
+.th-sl.full .sl-bar{width:min(100%,calc((100dvh - 90px) * 16 / 9))}
+.th-sl.full .sl-title,.th-sl.full .sl-count{color:#fff}
+.th-sl.full .sl-stage{width:min(100%,calc((100dvh - 90px) * 16 / 9));border-color:#fff;box-shadow:none}
+.th-sl.full .sl-thumbs,.th-sl.full .sl-dl,.th-sl.full .sl-tip{display:none}
+.th-sl.full #sl-full{background:#fff}
+/* @@SL-CSS-END */
 body.mm-lock{overflow:hidden}
 @media (max-width:520px){
   .th-tabs{width:100%}
@@ -1415,8 +1443,8 @@ body.sim-playing #scr-sim>.topbar{display:none}
         <div class="brand-row"><span class="logo-slot"></span><span class="eyebrow">Phòng khám luyện thi Răng Hàm Mặt</span></div>
         <h1 id="start-title">Ôn Luyện <span>Nha Khoa</span></h1>
         <div class="beta-note" role="note">
-          <span class="beta-tag">Version 2.5.9</span>
-          <span class="beta-txt">Bản cập nhật 2.5.9: màn mở đầu giống hệt Tiệm Hoa Giấc Mơ.</span>
+          <span class="beta-tag">Version 2.6.0</span>
+          <span class="beta-txt">Bản cập nhật 2.6.0: slide bài giảng Vật liệu nha khoa (Bài 1–11), xem và tải ngay trong app.</span>
         </div>
       </div>
       <div class="start-cast">
@@ -1813,7 +1841,8 @@ body.sim-playing #scr-sim>.topbar{display:none}
       </header>
       <div class="th-tabs" role="tablist" aria-label="Cách ôn bài">
         <button class="th-tab" type="button" role="tab" id="th-tab-sum" data-thtab="sum" aria-selected="true" aria-controls="th-sum"><svg class="i" viewBox="0 0 24 24"><path d="M3 5h6a3 3 0 0 1 3 3v12a2.5 2.5 0 0 0-2.5-2.5H3z"/><path d="M21 5h-6a3 3 0 0 0-3 3v12a2.5 2.5 0 0 1 2.5-2.5H21z"/></svg><span>Tóm tắt</span></button>
-        <button class="th-tab" type="button" role="tab" id="th-tab-mm" data-thtab="mm" aria-selected="false" aria-controls="th-mm"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="4.5" cy="5.5" r="2"/><circle cx="19.5" cy="5.5" r="2"/><circle cx="19.5" cy="18.5" r="2"/><circle cx="4.5" cy="18.5" r="2"/><path d="M9.6 10.2L6 7M14.4 10.2L18 7M14.4 13.8l3.6 3.2M9.6 13.8L6 17"/></svg><span>Sơ đồ tư duy</span><small id="th-tab-mm-n"></small><b class="th-new">Mới</b></button>
+        <button class="th-tab" type="button" role="tab" id="th-tab-mm" data-thtab="mm" aria-selected="false" aria-controls="th-mm"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="4.5" cy="5.5" r="2"/><circle cx="19.5" cy="5.5" r="2"/><circle cx="19.5" cy="18.5" r="2"/><circle cx="4.5" cy="18.5" r="2"/><path d="M9.6 10.2L6 7M14.4 10.2L18 7M14.4 13.8l3.6 3.2M9.6 13.8L6 17"/></svg><span>Sơ đồ tư duy</span><small id="th-tab-mm-n"></small></button>
+<!-- @@SL-TAB --><button class="th-tab" type="button" role="tab" id="th-tab-sl" data-thtab="sl" aria-selected="false" aria-controls="th-sl" hidden><svg class="i" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M12 16v4M8 20h8M10 8.5v4l3.5-2z"/></svg><span>Slide bài giảng</span><small id="th-tab-sl-n"></small><b class="th-new">Mới</b></button><!-- @@SL-TAB-END -->
       </div>
       <div class="th-layout" id="th-sum" role="tabpanel" aria-labelledby="th-tab-sum">
         <details class="th-toc" id="th-toc" open><summary>Mục lục</summary><ol id="th-toc-list"></ol></details>
@@ -1836,6 +1865,26 @@ body.sim-playing #scr-sim>.topbar{display:none}
         <p class="mm-tip" id="mm-tip"></p>
         <div class="mm-stage" id="mm-stage"></div>
       </section>
+<!-- @@SL-PANEL -->
+      <section class="th-sl" id="th-sl" role="tabpanel" aria-labelledby="th-tab-sl" hidden>
+        <div class="sl-bar">
+          <h3 class="sl-title" id="sl-title"></h3>
+          <span class="sl-count" id="sl-count" aria-live="polite"></span>
+          <button class="icon-btn sm" type="button" id="sl-full" aria-label="Xem toàn màn hình"><svg class="i" viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+        </div>
+        <div class="sl-stage" id="sl-stage">
+          <img id="sl-img" alt="" decoding="async">
+          <button class="sl-nav prev" type="button" data-slgo="-1" aria-label="Slide trước"><span aria-hidden="true">‹</span></button>
+          <button class="sl-nav next" type="button" data-slgo="1" aria-label="Slide sau"><span aria-hidden="true">›</span></button>
+        </div>
+        <div class="sl-thumbs" id="sl-thumbs" aria-label="Danh sách slide"></div>
+        <div class="sl-dl">
+          <button class="btn btn-sm btn-scrub" type="button" data-sldl="pptx"><svg class="i" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5"/><path d="M5 20h14"/></svg>Tải PowerPoint (.pptx)</button>
+          <button class="btn btn-sm" type="button" data-sldl="print"><svg class="i" viewBox="0 0 24 24"><path d="M7 9V3h10v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M7 14h10v7H7z"/></svg>Tải bản in PDF (4 slide/trang)</button>
+        </div>
+        <p class="fine sl-tip">Vuốt ngang, chạm hai bên ảnh hoặc dùng phím ← → để chuyển slide. Bản PowerPoint có ghi chú người trình bày ở từng slide.</p>
+      </section>
+      <!-- @@SL-PANEL-END -->
       <div class="th-foot">
         <button class="btn btn-sm" id="th-prev" type="button" data-thread=""><svg class="i" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg><span id="th-prev-t">Bài trước</span></button>
         <span class="spacer"></span>
@@ -1916,20 +1965,21 @@ body.sim-playing #scr-sim>.topbar{display:none}
   </div>
   <div class="boot-bloom" id="boot-bloom" aria-hidden="true"></div>
   <span class="boot-pass" aria-hidden="true">Bỏ qua ›</span>
-  <span class="intro-ver boot-ver" hidden>Version 2.5.9</span>
+  <span class="intro-ver boot-ver" hidden>Version 2.6.0</span>
 </div>
 <!-- @@V256-INTRO-END -->
 
 <!-- ============ THÔNG BÁO NỔI (Version 1.0) ============ -->
 <div class="modal" id="v1-modal" hidden role="dialog" aria-modal="true" aria-labelledby="v1-title">
   <div class="modal-card v1-card">
-    <div class="modal-head"><span class="beta-tag">Version 2.5.9</span><h2 id="v1-title">Bản cập nhật 2.5.9</h2><button class="icon-btn sm" type="button" id="v1-close" aria-label="Đóng"><svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
-    <p class="v1-txt">Bản cập nhật 2.5.9 đã mở mang đến những sự thay đổi mới. Cùng khám phá nhé</p>
+    <div class="modal-head"><span class="beta-tag">Version 2.6.0</span><h2 id="v1-title">Bản cập nhật 2.6.0</h2><button class="icon-btn sm" type="button" id="v1-close" aria-label="Đóng"><svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <p class="v1-txt">Bản cập nhật 2.6.0 đã mở mang đến những sự thay đổi mới. Cùng khám phá nhé</p>
     <ul class="v1-new">
-      <li><b>Màn mở đầu đồng bộ với Tiệm Hoa Giấc Mơ</b>: màn tải “Đang khử khuẩn dụng cụ...”, chữ <b>DREAMER</b> trồi lên từng chữ cái trên trời sao rồi hiện <b>GAMES</b>, quầng sáng hồng nở ra, sau đó nền pastel có hoa giấy rơi cùng logo và tên app. Chạm “Bỏ qua” để vào ngay.</li>
-      <li>Giữ nguyên <b>giáo trình Vật liệu nha khoa</b> 21 bài và quyển PDF trọn bộ 216 trang từ bản 2.5.7.</li>
+      <li><b>Slide bài giảng Vật liệu nha khoa</b> cho <b>Bài 1–11</b> (18–25 slide mỗi bài): mở bài trong <b>Tóm tắt bài học</b> rồi chọn thẻ <b>Slide bài giảng</b>. Vuốt hoặc chạm hai bên để chuyển slide, bấm nút góc phải để xem <b>toàn màn hình</b>.</li>
+      <li>Mỗi bộ slide <b>tải được</b> dưới dạng <b>PowerPoint (.pptx)</b> có ghi chú người trình bày, và <b>bản in PDF 4 slide/trang</b> (A4 ngang) để in ra học.</li>
+      <li>Nội dung slide viết rõ ràng, đủ ý theo giáo trình; mỗi bài có mục tiêu, mẹo nhớ, liên hệ lâm sàng, 3 câu hỏi nhanh kèm đáp án và trang ghi nhớ cả bài. Bài 12–21 sẽ cập nhật sau.</li>
     </ul>
-    <a class="btn btn-gum btn-lg v1-dl" id="v1-dl" href="https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk" target="_blank" rel="noopener"><svg class="i" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Tải app version 2.5.9 (Android)</a>
+    <a class="btn btn-gum btn-lg v1-dl" id="v1-dl" href="https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk" target="_blank" rel="noopener"><svg class="i" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Tải app version 2.6.0 (Android)</a>
     <p class="v1-url">https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk</p>
     <button class="btn" type="button" id="v1-ok">Khám phá ngay</button>
   </div>
@@ -3782,9 +3832,9 @@ function paintArt(q) {
 let v1Shown = false;
 function openV1Notice() {
   // Bản web: hiện mỗi lần mở (kèm nút tải app). App Android: chỉ hiện một lần cho mỗi phiên bản, không có nút tải.
-  if (v1Shown || (window.AndroidApp && store.get('seenNotice', '') === '2.5.9')) return;
+  if (v1Shown || (window.AndroidApp && store.get('seenNotice', '') === '2.6.0')) return;
   const m = $('#v1-modal'); if (!m) return;
-  if (window.AndroidApp) { $('#v1-dl').hidden = true; const u = $('.v1-url'); if (u) u.hidden = true; store.set('seenNotice', '2.5.9'); }
+  if (window.AndroidApp) { $('#v1-dl').hidden = true; const u = $('.v1-url'); if (u) u.hidden = true; store.set('seenNotice', '2.6.0'); }
   v1Shown = true; m.hidden = false;
   setTimeout(() => { try { $('#v1-ok').focus(); } catch {} }, 60);
 }
@@ -4123,10 +4173,11 @@ function thLessonHTML(l) {
   const head = `<span class="lesson-no">${esc(l.no || 'Bài')}</span><div class="lesson-t"><strong>${esc(l.title || l.no)}</strong>`;
   if (!l.t) return `<li class="lesson th soon"><div class="lesson-row">${head}<small>Chưa có tóm tắt</small></div></div></li>`;
   const t = l.t;
-  return `<li class="lesson th has" id="th-row-${esc(l.id)}"><div class="lesson-row">${head}<small><b>${t.toc.length} mục</b> · ${t.mins} phút đọc${MINDMAPS[l.id] ? ' · có sơ đồ' : ''}${t.note ? ` · ${esc(t.note)}` : t.pages ? ` · giáo trình trang ${esc(t.pages)}` : ''}</small></div>
+  return `<li class="lesson th has" id="th-row-${esc(l.id)}"><div class="lesson-row">${head}<small><b>${t.toc.length} mục</b> · ${t.mins} phút đọc${MINDMAPS[l.id] ? ' · có sơ đồ' : ''}${slData(l.id) ? ' · có slide' : ''}${t.note ? ` · ${esc(t.note)}` : t.pages ? ` · giáo trình trang ${esc(t.pages)}` : ''}</small></div>
     <div class="lesson-act">
       <button class="btn btn-sm btn-scrub" type="button" data-thread="${esc(l.id)}">${I.book}${esc(t.cta || 'Đọc tóm tắt')}</button>
       ${MINDMAPS[l.id] ? `<button class="btn btn-sm" type="button" data-thmm="${esc(l.id)}">${MM_ICON}Sơ đồ tư duy</button>` : ''}
+      ${slData(l.id) ? `<button class="btn btn-sm" type="button" data-thsl="${esc(l.id)}">${SL_ICON}Slide bài giảng</button>` : ''}
       ${t.pdf ? `<button class="btn btn-sm" type="button" data-thpdf="${esc(l.id)}">${I.download}Tải PDF</button>` : ''}
     </div></div></li>`;
 }
@@ -7552,9 +7603,12 @@ function mmSetFull(on) {
 }
 function mmSetTab(tab) {
   if (tab === 'mm' && !MINDMAPS[S.th.open]) tab = 'sum';
+  if (tab === 'sl' && !slData(S.th.open)) tab = 'sum';
   S.th.tab = tab;
   $('#th-sum').hidden = tab !== 'sum';
   $('#th-mm').hidden = tab !== 'mm';
+  $('#th-sl').hidden = tab !== 'sl';
+  if (tab === 'sl') renderSL(); else if (SL.full) slSetFull(false);
   $$('#th-read [data-thtab]').forEach(b => b.setAttribute('aria-selected', String(b.dataset.thtab === tab)));
   if (tab === 'mm') renderMM(); else if (MM.full) mmSetFull(false);
 }
@@ -7566,6 +7620,7 @@ function mmReader(l) {
   $('#mm-ftitle').textContent = `${l.no}: ${l.title || ''}`;
   const c = m && mmCount(m);
   $('#th-tab-mm-n').textContent = c ? `${c.nb} nhánh` : '';
+  slReader(l);
   mmSetTab(S.th.tab || 'sum');
 }
 async function mmSave(blob, filename) {
@@ -7667,6 +7722,106 @@ async function mmExport() {
   try { if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { if (mmVisible()) renderMM(); }); } catch {}
 })();
 /* @@MM-JS-END */
+/* @@SL-JS */
+var SLIDES = {"vlnk-bai-1": {"n": 18, "dir": "slides/vlnk/img/b1", "pptx": "VLNK-Slide-Bai-01-Dai-cuong-ve-vat-lieu-nha-khoa.pptx", "print": "VLNK-Slide-Bai-01-Dai-cuong-ve-vat-lieu-nha-khoa-BanIn.pdf"}, "vlnk-bai-2": {"n": 18, "dir": "slides/vlnk/img/b2", "pptx": "VLNK-Slide-Bai-02-Vat-lieu-nha-khoa-va-tuong-hop-sinh-hoc.pptx", "print": "VLNK-Slide-Bai-02-Vat-lieu-nha-khoa-va-tuong-hop-sinh-hoc-BanIn.pdf"}, "vlnk-bai-3": {"n": 19, "dir": "slides/vlnk/img/b3", "pptx": "VLNK-Slide-Bai-03-Cau-truc-vat-chat-va-nguyen-tac-dinh.pptx", "print": "VLNK-Slide-Bai-03-Cau-truc-vat-chat-va-nguyen-tac-dinh-BanIn.pdf"}, "vlnk-bai-4": {"n": 20, "dir": "slides/vlnk/img/b4", "pptx": "VLNK-Slide-Bai-04-Polymer-nha-khoa.pptx", "print": "VLNK-Slide-Bai-04-Polymer-nha-khoa-BanIn.pdf"}, "vlnk-bai-5": {"n": 24, "dir": "slides/vlnk/img/b5", "pptx": "VLNK-Slide-Bai-05-Composite.pptx", "print": "VLNK-Slide-Bai-05-Composite-BanIn.pdf"}, "vlnk-bai-6": {"n": 18, "dir": "slides/vlnk/img/b6", "pptx": "VLNK-Slide-Bai-06-Amalgam.pptx", "print": "VLNK-Slide-Bai-06-Amalgam-BanIn.pdf"}, "vlnk-bai-7": {"n": 24, "dir": "slides/vlnk/img/b7", "pptx": "VLNK-Slide-Bai-07-Xi-mang-nha-khoa.pptx", "print": "VLNK-Slide-Bai-07-Xi-mang-nha-khoa-BanIn.pdf"}, "vlnk-bai-8": {"n": 25, "dir": "slides/vlnk/img/b8", "pptx": "VLNK-Slide-Bai-08-Su-nha-khoa.pptx", "print": "VLNK-Slide-Bai-08-Su-nha-khoa-BanIn.pdf"}, "vlnk-bai-9": {"n": 18, "dir": "slides/vlnk/img/b9", "pptx": "VLNK-Slide-Bai-09-Kim-va-chi-khau.pptx", "print": "VLNK-Slide-Bai-09-Kim-va-chi-khau-BanIn.pdf"}, "vlnk-bai-10": {"n": 22, "dir": "slides/vlnk/img/b10", "pptx": "VLNK-Slide-Bai-10-Vat-lieu-noi-nha.pptx", "print": "VLNK-Slide-Bai-10-Vat-lieu-noi-nha-BanIn.pdf"}, "vlnk-bai-11": {"n": 22, "dir": "slides/vlnk/img/b11", "pptx": "VLNK-Slide-Bai-11-Vat-lieu-tai-sinh-mo.pptx", "print": "VLNK-Slide-Bai-11-Vat-lieu-tai-sinh-mo-BanIn.pdf"}};
+const SL_ICON = '<svg class="i" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M12 16v4M8 20h8M10 8.5v4l3.5-2z"/></svg>';
+const SL = { id: null, i: 0, full: false, built: null, x0: null };
+function slData(id) { return (typeof SLIDES === 'object' && SLIDES) ? SLIDES[id] || null : null; }
+const slSrc = (s, i) => `${s.dir}/${String(i + 1).padStart(2, '0')}.webp`;
+function slReader(l) {
+  const s = slData(l.id);
+  $('#th-tab-sl').hidden = !s;
+  $('#th-tab-sl-n').textContent = s ? `${s.n} slide` : '';
+  $('#sl-title').textContent = `${l.no}: ${l.title || ''}`;
+  if (SL.id !== l.id) { SL.id = l.id; SL.i = 0; }
+}
+function renderSL() {
+  const s = slData(SL.id); if (!s) return;
+  const th = $('#sl-thumbs');
+  if (SL.built !== SL.id) {
+    th.innerHTML = Array.from({ length: s.n }, (_, i) => `<button type="button" data-slto="${i}" aria-label="Slide ${i + 1}"><img src="${slSrc(s, i)}" alt="" loading="lazy" decoding="async"><b>${i + 1}</b></button>`).join('');
+    SL.built = SL.id;
+  }
+  SL.i = Math.max(0, Math.min(s.n - 1, SL.i));
+  const img = $('#sl-img');
+  img.src = slSrc(s, SL.i); img.alt = `Slide ${SL.i + 1} trên ${s.n} – ${$('#sl-title').textContent}`;
+  $('#sl-count').textContent = `${SL.i + 1} / ${s.n}`;
+  $$('#sl-stage .sl-nav').forEach(b => { b.disabled = Number(b.dataset.slgo) < 0 ? SL.i === 0 : SL.i === s.n - 1; });
+  th.querySelectorAll('button').forEach((b, i) => {
+    const on = i === SL.i; b.setAttribute('aria-current', String(on));
+    if (on) { try { const L = b.offsetLeft - th.offsetLeft, W = th.clientWidth; if (L < th.scrollLeft || L + b.offsetWidth > th.scrollLeft + W) th.scrollTo({ left: L - (W - b.offsetWidth) / 2, behavior: reduced ? 'auto' : 'smooth' }); } catch {} }
+  });
+  if (SL.i + 1 < s.n) { const n = new Image(); n.src = slSrc(s, SL.i + 1); }
+}
+function slGo(d) { SL.i += d; renderSL(); }
+function slSetFull(on) {
+  SL.full = !!on;
+  $('#th-sl').classList.toggle('full', SL.full);
+  document.body.classList.toggle('mm-lock', SL.full);
+  $('#sl-full').setAttribute('aria-label', SL.full ? 'Thoát toàn màn hình' : 'Xem toàn màn hình');
+}
+const SL_REMOTE = 'https://tunaasieunhat.github.io/on-luyen-nha-khoa/';
+const SL_MIME = { pptx: 'application/vnd.openxmlformats-officedocument.presentationml.presentation', print: 'application/pdf' };
+let slBusy = false;
+async function slDownload(kind) {
+  const s = slData(SL.id); if (!s || slBusy) return;
+  const file = kind === 'print' ? s.print : s.pptx, url = `slides/vlnk/${file}`, what = kind === 'print' ? 'bản in PDF' : 'file PowerPoint';
+  slBusy = true;
+  try {
+    const cl = window.claude;
+    if (cl && typeof cl.use === 'function') {
+      let dl = null;
+      try { dl = await cl.use('downloads'); } catch {}
+      if (dl) {
+        try {
+          toast(`Đang chuẩn bị ${what}…`);
+          const res = await fetch(url);
+          if (!res.ok && !window.AndroidApp) {
+            // Bản trên Claude không kèm được file .pptx: mở bản trên GitHub Pages để tải
+            const a = document.createElement('a');
+            a.href = SL_REMOTE + url; a.target = '_blank'; a.rel = 'noopener';
+            document.body.appendChild(a); a.click(); a.remove();
+            toast(`Đang mở trang tải ${what}…`);
+            return;
+          }
+          if (!res.ok) throw new Error('fetch ' + res.status);
+          const blob = new Blob([await res.blob()], { type: SL_MIME[kind] });
+          await dl.save({ filename: file, data: blob });
+          toast(`Đã lưu ${what}.`);
+          return;
+        } catch (e) {
+          const code = e && e.code;
+          if (code === 'declined') { toast('Đã hủy tải.'); return; }
+          if (code === 'rate_limited') { toast('Đang có một hộp thoại tải xuống, thử lại sau giây lát.'); return; }
+          if (code && code !== 'unavailable' && code !== 'not_granted') { toast('Chưa tải được lúc này. Hãy thử lại.'); return; }
+        }
+      }
+    }
+    const a = document.createElement('a');
+    a.href = url; a.download = file; a.rel = 'noopener';
+    if (cl) a.target = '_blank';
+    document.body.appendChild(a); a.click(); a.remove();
+    toast(`Đang tải ${what}…`);
+  } finally { slBusy = false; }
+}
+(function () {
+  const st = $('#sl-stage');
+  st.addEventListener('pointerdown', e => { SL.x0 = e.clientX; SL.y0 = e.clientY; });
+  st.addEventListener('pointerup', e => {
+    if (SL.x0 == null) return;
+    const dx = e.clientX - SL.x0, dy = e.clientY - SL.y0; SL.x0 = null;
+    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) slGo(dx < 0 ? 1 : -1);
+  });
+  st.addEventListener('pointercancel', () => { SL.x0 = null; });
+  document.addEventListener('keydown', e => {
+    const p = $('#th-sl'); if (!p || p.hidden || $('#th-read').hidden) return;
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
+    if (e.key === 'ArrowRight' || e.key === 'PageDown') { e.preventDefault(); slGo(1); }
+    else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); slGo(-1); }
+    else if (e.key === 'Escape' && SL.full) slSetFull(false);
+  });
+})();
+/* @@SL-JS-END */
 let pdfBusy = false;
 async function downloadPdf(id) {
   const t = THEORY.lessons[id] || (THEORY.books || {})[id];
@@ -8157,6 +8312,11 @@ function wire() {
     if (t.dataset.thsub) { S.th.sub = t.dataset.thsub; store.set('thSub', S.th.sub); renderTheory(); return; }
     if (t.dataset.thmm) { S.th.tab = 'mm'; openLesson(t.dataset.thmm); return; }
     if (t.dataset.thtab) { mmSetTab(t.dataset.thtab); return; }
+    if (t.dataset.thsl) { S.th.tab = 'sl'; openLesson(t.dataset.thsl); return; }
+    if (t.dataset.slgo) { slGo(Number(t.dataset.slgo)); return; }
+    if (t.dataset.slto) { SL.i = Number(t.dataset.slto); renderSL(); return; }
+    if (t.dataset.sldl) { slDownload(t.dataset.sldl); return; }
+    if (t.id === 'sl-full') { slSetFull(!SL.full); return; }
     if (t.dataset.thread) { if (!t.closest('.th-foot')) S.th.tab = 'sum'; openLesson(t.dataset.thread); return; }
     if (t.dataset.thpdf) { downloadPdf(t.dataset.thpdf); return; }
     if (t.dataset.thcover) { const im = t.querySelector('img'); if (im) figOpen(im); return; }
