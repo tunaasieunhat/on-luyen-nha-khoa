@@ -4,6 +4,13 @@
     <!-- Chỉ dùng mạng để kiểm tra bản cập nhật; mọi nội dung học đều nằm sẵn trong app -->
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <!-- Tìm dịch vụ giọng đọc (Android 11 trở lên) cho nút loa ở môn Anh văn -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+    </queries>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"

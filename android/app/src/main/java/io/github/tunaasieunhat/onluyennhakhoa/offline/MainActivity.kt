@@ -12,6 +12,7 @@ import android.os.Bundle
 import android.os.Environment
 import android.os.SystemClock
 import android.provider.MediaStore
+import android.speech.tts.TextToSpeech
 import android.util.Base64
 import android.view.ViewGroup
 import android.webkit.JavascriptInterface
@@ -35,6 +36,7 @@ import java.io.File
 import java.io.IOException
 import java.net.HttpURLConnection
 import java.net.URL
+import java.util.Locale
 import kotlin.concurrent.thread
 
 /**
@@ -48,6 +50,11 @@ class MainActivity : ComponentActivity() {
     private var lastBack = 0L
     private var lastCheck = 0L      // lần kiểm tra cập nhật gần nhất trong phiên này
     private var shownUpdate = 0L    // bản đã báo trong phiên này (không báo lặp lại)
+    // Giọng đọc tiếng Anh cho nút loa ở môn Anh văn chuyên ngành (2.6.1)
+    private var tts: TextToSpeech? = null
+    @Volatile private var ttsReady = false
+    @Volatile private var ttsPending: String? = null
+    @Volatile private var ttsRate = 0.9f
 
     override fun onCreate(savedInstanceState: Bundle?) {
         enableEdgeToEdge(
@@ -162,6 +169,48 @@ class MainActivity : ComponentActivity() {
 
         @JavascriptInterface
         fun appVersion(): String = BuildConfig.VERSION_NAME
+
+        /** Đọc to một từ / câu tiếng Anh. Trả về false khi giọng đọc đang khởi động (sẽ tự đọc khi sẵn sàng). */
+        @JavascriptInterface
+        fun speak(text: String?, rate: Float): Boolean {
+            val t = text?.trim()?.take(300) ?: return false
+            if (t.isEmpty()) return false
+            ttsRate = if (rate in 0.3f..2f) rate else 0.9f
+            if (ttsReady) {
+                runOnUiThread { sayNow(t) }
+                return true
+            }
+            ttsPending = t
+            runOnUiThread { initTts() }
+            return true
+        }
+    }
+
+    private fun initTts() {
+        if (tts != null) return
+        try {
+            tts = TextToSpeech(this) { status ->
+                if (status == TextToSpeech.SUCCESS) {
+                    val engine = tts ?: return@TextToSpeech
+                    val r = engine.setLanguage(Locale.US)
+                    if (r == TextToSpeech.LANG_MISSING_DATA || r == TextToSpeech.LANG_NOT_SUPPORTED) engine.setLanguage(Locale.ENGLISH)
+                    ttsReady = true
+                    ttsPending?.let { p -> ttsPending = null; runOnUiThread { sayNow(p) } }
+                } else {
+                    runOnUiThread { Toast.makeText(this, "Máy chưa có giọng đọc tiếng Anh. Có thể cài trong Cài đặt > Chuyển văn bản thành giọng nói.", Toast.LENGTH_LONG).show() }
+                }
+            }
+        } catch (e: Exception) {
+            tts = null
+        }
+    }
+
+    private fun sayNow(text: String) {
+        val engine = tts ?: return
+        try {
+            engine.setSpeechRate(ttsRate)
+            engine.speak(text, TextToSpeech.QUEUE_FLUSH, null, "say")
+        } catch (e: Exception) { }
     }
 
     private fun cleanName(name: String): String =
@@ -325,6 +374,8 @@ class MainActivity : ComponentActivity() {
     }
 
     override fun onDestroy() {
+        try { tts?.stop(); tts?.shutdown() } catch (e: Exception) { }
+        tts = null
         (web.parent as? ViewGroup)?.removeView(web)
         web.destroy()
         super.onDestroy()
