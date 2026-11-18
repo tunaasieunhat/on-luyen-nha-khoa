@@ -4300,6 +4300,34 @@
 },
 {
 "b": 3,
+"s": 15,
+"i": 12,
+"text": "Hãy hình dung trên lâm sàng: sau khi bôi acid phosphoric và rửa sạch, men răng được xoi mòn đúng cách sẽ có màu trắng đục như phấn.",
+"say": "Hãy hình dung trên lâm sàng: sau khi bôi a xít phốt pho ríc và rửa sạch, men răng được xoi mòn đúng cách sẽ có màu trắng đục như phấn."
+},
+{
+"b": 3,
+"s": 15,
+"i": 13,
+"text": "Nếu men không có màu trắng đục, có thể thời gian xoi mòn chưa đủ, hoặc bề mặt đã bị nhiễm nước bọt.",
+"say": "Nếu men không có màu trắng đục, có thể thời gian xoi mòn chưa đủ, hoặc bề mặt đã bị nhiễm nước bọt."
+},
+{
+"b": 3,
+"s": 15,
+"i": 14,
+"text": "Sau khi xoi mòn, tuyệt đối không để nước bọt chạm vào bề mặt men, vì protein trong nước bọt sẽ bám lên và làm giảm năng lượng bề mặt ngay lập tức.",
+"say": "Sau khi xoi mòn, tuyệt đối không để nước bọt chạm vào bề mặt men, vì prô tê in trong nước bọt sẽ bám lên và làm giảm năng lượng bề mặt ngay lập tức."
+},
+{
+"b": 3,
+"s": 15,
+"i": 15,
+"text": "Nếu lỡ bị nhiễm, cách đơn giản nhất là rửa sạch, rồi xoi mòn lại thêm vài giây.",
+"say": "Nếu lỡ bị nhiễm, cách đơn giản nhất là rửa sạch, rồi xoi mòn lại thêm vài giây."
+},
+{
+"b": 3,
 "s": 16,
 "i": 0,
 "text": "Vậy dán vào cấu trúc răng khó ở đâu? Có ba khó khăn chính.",
@@ -4381,6 +4409,34 @@
 "i": 11,
 "text": "không cần mài răng để tạo lưu giữ cơ học. Màng này còn giúp ngăn mảng bám và sâu răng.",
 "say": "không cần mài răng để tạo lưu giữ cơ học. Màng này còn giúp ngăn mảng bám và sâu răng."
+},
+{
+"b": 3,
+"s": 16,
+"i": 12,
+"text": "Hãy liên hệ ngược lại với những gì chúng ta vừa học ở đầu bài.",
+"say": "Hãy liên hệ ngược lại với những gì chúng ta vừa học ở đầu bài."
+},
+{
+"b": 3,
+"s": 16,
+"i": 13,
+"text": "Men răng có năng lượng bề mặt cao, khoảng chín mươi hai, nên sau khi xoi mòn và làm khô, keo dán lan rất tốt trên men.",
+"say": "Men răng có năng lượng bề mặt cao, khoảng chín mươi hai, nên sau khi xoi mòn và làm khô, keo dán lan rất tốt trên men."
+},
+{
+"b": 3,
+"s": 16,
+"i": 14,
+"text": "Ngà răng cũng có năng lượng bề mặt khá cao, nhưng vì luôn ẩm, keo dán kỵ nước sẽ không thấm ướt được.",
+"say": "Ngà răng cũng có năng lượng bề mặt khá cao, nhưng vì luôn ẩm, keo dán kỵ nước sẽ không thấm ướt được."
+},
+{
+"b": 3,
+"s": 16,
+"i": 15,
+"text": "Đó là lý do primer trong hệ thống dán ngà thường có những phân tử vừa có đầu ưa nước để bám vào ngà ẩm, vừa có đầu kỵ nước để nối với nhựa phía trên.",
+"say": "Đó là lý do prai mơ trong hệ thống dán ngà thường có những phân tử vừa có đầu ưa nước để bám vào ngà ẩm, vừa có đầu kỵ nước để nối với nhựa phía trên."
 },
 {
 "b": 3,
@@ -4540,13 +4596,34 @@
 "b": 3,
 "s": 19,
 "i": 11,
+"text": "Trước khi kết thúc, mình gợi ý một cách ôn bài này cho dễ nhớ.",
+"say": "Trước khi kết thúc, mình gợi ý một cách ôn bài này cho dễ nhớ."
+},
+{
+"b": 3,
+"s": 19,
+"i": 12,
+"text": "Hãy thử tự trả lời ba câu hỏi: vì sao kim loại cản quang, vì sao amalgam đông cứng trong miệng, và vì sao phải xoi mòn men trước khi dán composite.",
+"say": "Hãy thử tự trả lời ba câu hỏi: vì sao kim loại cản quang, vì sao a man gam đông cứng trong miệng, và vì sao phải xoi mòn men trước khi dán com pô dít."
+},
+{
+"b": 3,
+"s": 19,
+"i": 13,
+"text": "Nếu các bạn giải thích được cả ba câu này bằng lời của mình, nghĩa là các bạn đã nắm được phần cốt lõi của bài.",
+"say": "Nếu các bạn giải thích được cả ba câu này bằng lời của mình, nghĩa là các bạn đã nắm được phần cốt lõi của bài."
+},
+{
+"b": 3,
+"s": 19,
+"i": 14,
 "text": "Những kiến thức nền này sẽ được dùng lại ở các bài Tính chất vật liệu, Hợp kim, và Dán nha khoa.",
 "say": "Những kiến thức nền này sẽ được dùng lại ở các bài Tính chất vật liệu, Hợp kim, và Dán nha khoa."
 },
 {
 "b": 3,
 "s": 19,
-"i": 12,
+"i": 15,
 "text": "Cảm ơn các bạn đã theo dõi. Hẹn gặp lại các bạn ở bài bốn.",
 "say": "Cảm ơn các bạn đã theo dõi. Hẹn gặp lại các bạn ở bài bốn."
 },

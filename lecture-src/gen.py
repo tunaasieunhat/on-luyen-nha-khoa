@@ -8,6 +8,10 @@ OUT, K, N = sys.argv[1], int(sys.argv[2]), int(sys.argv[3])
 os.makedirs(OUT, exist_ok=True); TMP = os.path.join(OUT, '_tmp'); os.makedirs(TMP, exist_ok=True)
 VOICE = os.environ.get('VOICE', 'Mai Anh')
 L = json.load(open(os.path.join(D, 'lines.json'), encoding='utf8'))['lines']
+OF = os.path.join(D, 'only.txt')  # đọc lại riêng vài slide, vd 3-15,3-16
+if os.path.exists(OF):
+    ONLY = set(filter(None, open(OF).read().replace('\n', ',').split(',')))
+    L = [l for l in L if f"{l['b']}-{l['s']}" in ONLY]
 # chia theo slide, cân bằng số ký tự
 slides = []
 for l in L:
