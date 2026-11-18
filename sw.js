@@ -1,5 +1,5 @@
 // Service worker của Ôn Luyện Nha Khoa - Offline: lưu ứng dụng để dùng được khi mất mạng.
-const CACHE = 'onluyen-offline-gh-v26';
+const CACHE = 'onluyen-offline-gh-v27';
 const FILES = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png'];
 const FONT_HOSTS = ['fonts.googleapis.com', 'fonts.gstatic.com'];
 
@@ -24,6 +24,8 @@ self.addEventListener('fetch', (e) => {
     return;
   }
   if (url.origin !== self.location.origin) return;
+  // Video bài giảng: để trình duyệt tự tải từng đoạn (không lưu vào bộ nhớ đệm)
+  if (/\/video\//.test(url.pathname)) return;
   // Trang và tệp của trò chơi: ưu tiên bản mới trên mạng, mất mạng thì dùng bản đã lưu
   e.respondWith(fetch(req).then((res) => {
     if (res.ok) { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(req, copy)); }

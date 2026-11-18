@@ -5,6 +5,7 @@ import android.app.AlertDialog
 import android.content.ActivityNotFoundException
 import android.content.ContentValues
 import android.content.Intent
+import android.content.pm.ActivityInfo
 import android.graphics.Color
 import android.net.Uri
 import android.os.Build
@@ -14,6 +15,7 @@ import android.os.SystemClock
 import android.provider.MediaStore
 import android.speech.tts.TextToSpeech
 import android.util.Base64
+import android.view.View
 import android.view.ViewGroup
 import android.webkit.JavascriptInterface
 import android.webkit.WebChromeClient
@@ -30,6 +32,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.core.content.FileProvider
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.WindowInsetsControllerCompat
 import androidx.webkit.WebViewAssetLoader
 import org.json.JSONObject
 import java.io.File
@@ -47,6 +50,10 @@ import kotlin.concurrent.thread
 class MainActivity : ComponentActivity() {
 
     private lateinit var web: WebView
+    private lateinit var root: FrameLayout
+    // Video bài giảng xem toàn màn hình (2.6.2)
+    private var fullView: View? = null
+    private var fullCallback: WebChromeClient.CustomViewCallback? = null
     private var lastBack = 0L
     private var lastCheck = 0L      // lần kiểm tra cập nhật gần nhất trong phiên này
     private var shownUpdate = 0L    // bản đã báo trong phiên này (không báo lặp lại)
@@ -63,7 +70,7 @@ class MainActivity : ComponentActivity() {
         )
         super.onCreate(savedInstanceState)
 
-        val root = FrameLayout(this)
+        root = FrameLayout(this)
         root.setBackgroundColor(BRAND)
         web = WebView(this)
         web.setBackgroundColor(WALL)
@@ -117,7 +124,24 @@ class MainActivity : ComponentActivity() {
             userAgentString = "$userAgentString OnLuyenNhaKhoaApp/${BuildConfig.VERSION_NAME}"
         }
         web.addJavascriptInterface(Bridge(), "AndroidApp")
-        web.webChromeClient = WebChromeClient()
+        web.webChromeClient = object : WebChromeClient() {
+            override fun onShowCustomView(view: View?, callback: CustomViewCallback?) {
+                if (view == null) return
+                if (fullView != null) { callback?.onCustomViewHidden(); return }
+                fullView = view; fullCallback = callback
+                view.setBackgroundColor(Color.BLACK)
+                root.addView(view, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT))
+                web.visibility = View.INVISIBLE
+                root.setPadding(0, 0, 0, 0)
+                WindowInsetsControllerCompat(window, root).apply {
+                    hide(WindowInsetsCompat.Type.systemBars())
+                    systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+                }
+                requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_SENSOR_LANDSCAPE
+            }
+
+            override fun onHideCustomView() = exitFull()
+        }
         web.webViewClient = object : WebViewClient() {
             override fun shouldInterceptRequest(view: WebView?, request: WebResourceRequest?): WebResourceResponse? {
                 val url = request?.url ?: return null
@@ -136,7 +160,20 @@ class MainActivity : ComponentActivity() {
     }
 
     /** Nút Quay lại: đóng hộp thoại / về màn trước trong app; ở sảnh thì bấm 2 lần để thoát. */
+    private fun exitFull() {
+        val v = fullView ?: return
+        fullView = null
+        root.removeView(v)
+        web.visibility = View.VISIBLE
+        WindowInsetsControllerCompat(window, root).show(WindowInsetsCompat.Type.systemBars())
+        requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED
+        ViewCompat.requestApplyInsets(root)
+        fullCallback?.onCustomViewHidden()
+        fullCallback = null
+    }
+
     private fun onBack() {
+        if (fullView != null) { exitFull(); return }
         web.evaluateJavascript(
             "(function(){try{return window.__androidBack&&window.__androidBack()?1:0}catch(e){return 0}})()"
         ) { result ->
