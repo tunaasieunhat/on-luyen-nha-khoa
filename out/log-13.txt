@@ -1,0 +1,18 @@
+b3s19.0 cer=0.17 dur=2.69 cps=18.2 try=2 t=2.9 | Cuối cùng chúng ta tóm cách 10 ý chính của bài.
+b3s19.1 cer=0.12 dur=6.68 cps=16.0 try=1 t=5.9 | một có ba liền kết sứ cấp, Ion như trong thải cao, cộng hóa chỉ, như trong dây xin và liền kết kim loại.
+b3s19.2 cer=0.171 dur=4.52 cps=16.4 try=2 t=4.0 | Hai, Electron tử do suốt kim loại dẫn điện, dẫn nhiệt, cản quan và rèo.
+b3s19.3 cer=0.156 dur=6.59 cps=17.0 try=1 t=5.9 | Ba, liên kết thứ cấp cùng lực văn Đê Văn và liên kết thi đở zoo.  Liên kết thi đở zoo giải thích vì sao nhựa hút nước.
+b3s19.4 cer=0.095 dur=3.96 cps=16.9 try=1 t=3.9 | Bốn sắt là tâm khối, đồng là tâm diện, thay tơn là nục giác xếp chặt.
+b3s19.5 cer=0.094 dur=5.75 cps=17.4 try=1 t=5.2 | Năm Thủy Tinh, G.S.I.N và sát có cấu trúc vô định hình và có nhiệt độ chuyển tiếp Thủy Tinh T.G.
+b3s19.6 cer=0.084 dur=5.35 cps=16.3 try=1 t=4.8 | 6. Liên kết càng mạnh thì vật dịu gián nở càng ít, nóng chảy càng cao và càng cứng.
+b3s19.7 cer=0.118 dur=2.83 cps=18.7 try=3 t=3.0 | 7. Khuích tản là nguyên lý đông cứng của A Mangam.
+b3s19.8 cer=0.358 dur=6.96 cps=17.8 try=1 t=6.0 | Tám năng lượng bị mặt của men là 92, ngàn lạc 87, còn tê phở lông chỉ 20 ml trun trên mết vuông.
+b3s19.9 cer=0.0 dur=4.95 cps=17.0 try=1 t=4.5 | Chín, muốn dính tốt thì cần bề mặt sạch, năng lượng bề mặt cao và góc tiếp xúc nhỏ.
+b3s19.10 cer=0.101 dur=4.26 cps=16.9 try=1 t=4.0 | Mười soan món men tạo vi ngằm còn ngàn luôn ẩm nên keo sán phải ưa nước.
+b3s19.11 cer=0.0 dur=3.45 cps=18.0 try=1 t=3.3 | Trước khi kết thúc mình gợi ý một cách ôn bài này cho dễ nhớ.
+b3s19.12 cer=0.123 dur=8.92 cps=16.8 try=1 t=7.7 | Hãy tử tử trả lời ba câu hỏi vì sao kim loại cảm quan, vì sao Aman găm đông cứng trong biện và vì sao phải soi món men trước khi rắn composite.
+b3s19.13 cer=0.028 dur=5.91 cps=18.8 try=1 t=5.2 | nếu các bạn giải thích được cả 3 câu này bằng lời của mình,  nghĩa là các bạn đã nắm được phần cốt lói của bài.
+b3s19.14 cer=0.011 dur=5.3 cps=18.1 try=1 t=5.1 | những kiến thức nền này sẽ được dùng lại ở các bài tính chất vật liệu, hợp kim và sán Nha Khoa.
+b3s19.15 cer=0.089 dur=3.6 cps=16.1 try=1 t=3.7 | Cảm ơn các bạn đã theo dõi. Hẹn gặp lại các bạn ở bay 4.
+== b3s19 88.0s  (đã chạy 1.7 phút)
+Xong shard 13 slide 1 tổng 1.5 phút CER tb 0.107

@@ -1,0 +1,18 @@
+b3s15.0 cer=0.022 dur=2.83 cps=16.3 try=1 t=4.6 | Tiếp theo là lưu giữ vi cơ học và soi mòn men.
+b3s15.1 cer=0.132 dur=5.22 cps=17.6 try=1 t=6.6 | các loại si mang gắn truyền thống, nhiều phút phát kém và các bô si lá thoạt động rất đơn sản.
+b3s15.2 cer=0.044 dur=7.07 cps=16.5 try=1 t=8.4 | Chúng chạy vào những chỗ hồ gề trên bề mặt rồi đông cứng lại, tạo thành những cái neo nhò.  Đó là lưu giữ pi cơ học.
+b3s15.3 cer=0.149 dur=6.3 cps=16.8 try=3 t=7.4 | trước đây, composite không sán bền được vào sang, kết quả là do gì ở bờ nhiễm màu và sâu sang tái phát.
+b3s15.4 cer=0.231 dur=7.67 cps=15.6 try=2 t=9.2 | Bước ngoặt đến từ kỹ thuật soi mòn men bằng acid-foad-4gc.  Acid được bôi lên men dưới 60 giây rồi rửa sạch.
+b3s15.5 cer=0.25 dur=1.65 cps=17.6 try=1 t=3.4 | Xoài mòn mang lại 2 lời ít.
+b3s15.6 cer=0.11 dur=6.0 cps=15.7 try=1 t=7.3 | Thứ nhất, nó tạo ra vô số phi ngạm, những lỗ sắt nhỏ để nhựa chảy vào và tạo lưu sứ phi cơ học.
+b3s15.7 cer=0.045 dur=3.74 cps=19.0 try=1 t=5.2 | Thứ 2, nó làm sạch bề mặt tăng diện tích và tăng năng lượng bề mặt.
+b3s15.8 cer=0.027 dur=4.49 cps=16.7 try=1 t=5.8 | nhưng các bạn cần chú ý một điều những chỗ gồ ghề cũng có thể cạt bọt khí.
+b3s15.9 cer=0.013 dur=4.7 cps=16.8 try=1 t=6.1 | ứng xuất sẽ tập trung quanh các bọt khí này và có thể làm phục hồi bị bong ra.
+b3s15.10 cer=0.176 dur=4.32 cps=17.4 try=1 t=5.8 | Hình trên sở lay Minh hoạ bọt khí bị kẹt trong chỗ cổ gể dưới lớp kêu sắn.
+b3s15.11 cer=0.167 dur=9.37 cps=15.9 try=1 t=10.8 | Vần này là cầu núi sang bài 14 gián nhà khoa.  Ở đó chúng ta sẽ thấy men được xoay mon để tạo vi ngạm, còn ngà thì cần thêm primer và lớp ngay.
+b3s15.12 cer=0.16 dur=8.01 cps=16.7 try=1 t=9.4 | Hãy hình dung trên lâm sàng.  Sau khi bôi acid phút fozice tê và giựa sạch,  men rằng được soi món đúng cách sẽ có màu trắng độc như phấn.
+b3s15.13 cer=0.073 dur=5.67 cps=17.5 try=1 t=7.1 | nếu men không có màu trắng đục, có thể cười xan xoay món chưa đủ hoặc bề mặt đã bị nhiễm nước bọt.
+b3s15.14 cer=0.041 dur=8.36 cps=17.7 try=1 t=9.8 | Sau khi soi mòn, tuyệt đối không để nước bọt chạm vào bề mặt men vì pezotein trong nước bọt sẽ bám lên  và làm giảm năng lượng bề mặt ngay lập tức.
+b3s15.15 cer=0.079 dur=4.34 cps=18.2 try=1 t=5.8 | Nếu lỡ bị nhiễm, cách đơn giản nhất là dừa sạch rồi xoay mòn lại thêm vài xây.
+== b3s15 96.0s  (đã chạy 2.6 phút)
+Xong shard 2 slide 1 tổng 1.6 phút CER tb 0.107

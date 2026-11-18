@@ -1,0 +1,18 @@
+b3s16.0 cer=0.071 dur=3.72 cps=15.6 try=1 t=4.1 | Vậy dán vào cấu trúc sang khó ở đâu có 3 khó khăn chính.
+b3s16.1 cer=0.026 dur=2.06 cps=19.4 try=1 t=2.7 | khó khăn thứ nhất rằng không đồng nhất.
+b3s16.2 cer=0.059 dur=7.47 cps=18.5 try=1 t=7.0 | Mèn rằng chứ rất nhiều khoáng chất, còn nà rằng chứ nhiều chất hiệu cơ và nước.  Một chất dính tốt vào men chưa chắc đã dính tốt vào ngà.
+b3s16.3 cer=0.133 dur=2.7 cps=17.4 try=1 t=3.2 | Khó khăn thứ 2 về mặt sang sau khi sửa soạn.
+b3s16.4 cer=0.058 dur=6.5 cps=16.6 try=1 t=6.4 | Bề mặt này thô giáp bề mùn ngà và dễ nhất bọt khí.  Chúng ta phải xử lý bề mặt và tránh để nhiễm nước bọt.
+b3s16.5 cer=0.188 dur=2.0 cps=17.0 try=1 t=2.6 | Khó khăn thứ 3, ngả sang luân ẩm.
+b3s16.6 cer=0.026 dur=4.4 cps=17.7 try=1 t=4.6 | Dịch trông ống ngà làm cho keo xán phải cạnh tranh với nước để bám vào bề mặt.
+b3s16.7 cer=0.046 dur=6.16 cps=18.2 try=1 t=6.1 | Vì vậy, các loại kêu sán hiện nay được thiết kế ưa nước và có những nhóm chức có thể phản ứng hóa học với sang.
+b3s16.8 cer=0.135 dur=5.29 cps=17.0 try=1 t=5.3 | Ba khó khăn này chính là lý do cao rắn ngã phức tạp hơn nhiều so với biệt trị soi mòn mên.
+b3s16.9 cer=0.028 dur=1.86 cps=19.9 try=1 t=2.6 | Còn bục tiêu trong tương lai thì sao?
+b3s16.10 cer=0.087 dur=4.8 cps=19.6 try=1 t=4.9 | Các nhà khoa học hướng đến một loại keo sán tạo được màng mỏng, bên vẫn trên sang nguyên vẻ.
+b3s16.11 cer=0.119 dur=5.19 cps=16.6 try=1 t=5.2 | Không cần mài dăng để tạo lưu giữa cơ học, mạng này còn suốt ngăn mạng bám và sâu sang.
+b3s16.12 cer=0.0 dur=3.48 cps=17.8 try=1 t=3.8 | Hãy liên hệ ngược lại với những gì chúng ta vừa học ở đầu bài.
+b3s16.13 cer=0.175 dur=6.85 cps=17.2 try=2 t=6.4 | Mên rằng có năng lượng bề mặt cao khoảng 92 nên sau khi xoay món và làm khô, keo gián lan rất tốt trên men.
+b3s16.14 cer=0.082 dur=5.83 cps=17.3 try=1 t=5.7 | Ngã sang cũng có năng lượng bề mặt khá cao, nhưng vì luận ẩm, cao gán kỷ nước sẽ không thấm ướt được.
+b3s16.15 cer=0.061 dur=8.99 cps=16.7 try=1 t=8.3 | Đó là lý do Prime trong hệ thống sán ngả thường có những phân tử vừa có đầu ưu nước để bám vào ngã ẩm, vừa có đầu kị nước để đối với nhựa phía trên.
+== b3s16 83.6s  (đã chạy 1.5 phút)
+Xong shard 8 slide 1 tổng 1.4 phút CER tb 0.081
