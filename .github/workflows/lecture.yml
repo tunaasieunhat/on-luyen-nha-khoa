@@ -1,0 +1,64 @@
+# Video bài giảng Vật liệu nha khoa (Version 2.6.2): đọc lời giảng bằng VieNeu-TTS trên máy GitHub, chia 16 phần chạy song song,
+# rồi gom tất cả b*s*.opus + index.json lên nhánh lecture-out (video được dựng sau từ các file này)
+name: Lecture voice
+on:
+  push:
+    branches: [video-gen]
+    paths: ['lecture-src/**', '.github/workflows/lecture.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  tts:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: voice-src/requirements.txt
+      - name: Lưu sẵn mô hình
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: lecture-models-vieneu-3.8.3-whisper-small
+      - name: Cài VieNeu-TTS
+        run: |
+          mkdir -p out
+          (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg) > out/apt.txt 2>&1 || true
+          python -m pip install --upgrade pip > /dev/null
+          pip install -r voice-src/requirements.txt > out/pip.txt 2>&1 || (tail -50 out/pip.txt; exit 1)
+      - name: Đọc lời giảng
+        run: python lecture-src/gen.py out ${{ matrix.shard }} 16 2>&1 | tail -n +1; exit ${PIPESTATUS[0]}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: part-${{ matrix.shard }}
+          path: |
+            out/*.opus
+            out/*.json
+            out/log-*.txt
+          retention-days: 7
+  gather:
+    needs: tts
+    if: always()
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: parts
+      - name: Đẩy lên nhánh lecture-out
+        run: |
+          mkdir -p out && find parts -type f -exec cp {} out/ \;
+          ls out | wc -l
+          git init -q -b lecture-out . && git remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out && git commit -qm "Lecture voice ${GITHUB_SHA::7}"
+          git push -f origin HEAD:lecture-out
