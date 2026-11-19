@@ -1,0 +1,237 @@
+# U6 | Unit này gọi tên các bộ phận trong khoang miệng: môi, nướu, răng, lưỡi, khẩu cái (vòm miệng), lưỡi gà, amidan. Định nghĩa thường là "The … is … in/of the mouth" và mô tả vị trí (gần mũi, gần cằm, phía sau…). Hãy hình dung miệng mình khi học.
+@mouth | /maʊθ/ | mao-th | miệng
++ Từ quen. Dùng để ăn (eating), thở (breathing) và nói (speaking).
+= Open your mouth, please. => Vui lòng há miệng ra.
+~ The mouth is = Miệng là | an opening in the face, = một lỗ mở trên mặt, | used for eating, breathing and speaking = dùng để ăn, thở và nói
+@oral cavity | /ˈɔːrəl ˈkævəti/ | O-rồ CA-vờ-ti | khoang miệng
++ oral = thuộc miệng (U1) + cavity = khoang, hốc. Là "another word for mouth" (tên khác của miệng).
+= The dentist checked my oral cavity. => Nha sĩ kiểm tra khoang miệng của tôi.
+~ The oral cavity is = Khoang miệng là | an opening in the face, = một lỗ mở trên mặt, | and is another word for mouth = và là một từ khác chỉ miệng
+@upper lip | /ˈʌpər lɪp/ | Ă-pờ líp | môi trên
++ upper = phía trên. Môi trên gần với mũi (closest to the nose).
+= He has a small cut on his upper lip. => Anh ấy có vết xước nhỏ ở môi trên.
+~ The upper lip is = Môi trên là | the fleshy tissue = phần mô mềm | around the opening of the mouth = quanh lỗ miệng | which is closest to the nose = nằm gần mũi nhất
+@lower lip | /ˈləʊər lɪp/ | LÂU-ờ líp | môi dưới
++ lower = phía dưới. Môi dưới gần với cằm (closest to the chin). Phân biệt với upper lip: nose ↔ chin.
+= Bite your lower lip gently. => Cắn nhẹ môi dưới của bạn.
+~ The lower lip is = Môi dưới là | the fleshy tissue = phần mô mềm | around the opening of the mouth = quanh lỗ miệng | which is closest to the chin = nằm gần cằm nhất
+@gums | /ɡʌmz/ | găm-x | nướu, lợi
++ Mô bao quanh và nối răng với xương hàm. Gum còn nghĩa là kẹo cao su, nhưng ở đây là nướu.
+= My gums bleed when I brush. => Nướu của tôi chảy máu khi đánh răng.
+~ Gums are tissues = Nướu là những mô | that covers and connects = bao phủ và nối | the teeth to the jaw bones = răng với xương hàm
+@teeth | /tiːθ/ | tít-th | răng (số nhiều)
++ Một cái răng: tooth; nhiều cái: teeth (giống foot → feet). Cứng, dùng để cắn và nhai.
+= Brush your teeth twice a day. => Đánh răng hai lần mỗi ngày.
+~ The teeth are = Răng là | hard structures in the mouth, = những cấu trúc cứng trong miệng, | used for biting and chewing = dùng để cắn và nhai
+@tongue | /tʌŋ/ | tăng | lưỡi
++ Đọc là "tăng", chữ "ue" cuối câm. Cơ quan dày, mềm, dùng để nếm (taste) thức ăn.
+= Please put your tongue up. => Vui lòng nâng lưỡi lên.
+~ The tongue is = Lưỡi là | a thick, soft organ in the mouth = một cơ quan dày, mềm trong miệng | which is used to taste food = dùng để nếm thức ăn
+@hard palate | /hɑːrd ˈpælət/ | hát PA-lợt | khẩu cái cứng
++ palate = vòm miệng (trần miệng); hard = cứng. Phần phía trước, cấu tạo từ xương (bones).
+= Touch the hard palate with your tongue. => Chạm lưỡi vào khẩu cái cứng.
+~ The hard palate extends = Khẩu cái cứng trải dài | over the roof of the mouth = trên trần miệng | and is formed from maxillae and palatine bones = và được tạo từ xương hàm trên và xương khẩu cái
+@soft palate | /sɒft ˈpælət/ | xop PA-lợt | khẩu cái mềm
++ soft = mềm. Nằm phía sau khẩu cái cứng (behind the hard palate), làm từ mô và cơ.
+= The soft palate moves when you swallow. => Khẩu cái mềm cử động khi bạn nuốt.
+~ The soft palate is located = Khẩu cái mềm nằm | behind the hard palate = phía sau khẩu cái cứng | and is made from tissue and muscle = và được làm từ mô và cơ
+@uvula | /ˈjuːvjələ/ | DIU-viu-lờ | lưỡi gà
++ Miếng mô mềm treo ở khẩu cái mềm, chặn thức ăn đi lên mũi (nasal cavity).
+= Say "ah" so I can see your uvula. => Nói "a" để tôi thấy lưỡi gà của bạn.
+~ The uvula is = Lưỡi gà là | a piece of soft tissue = một mẩu mô mềm | that hangs from the soft palate = treo từ khẩu cái mềm | and stops food = và ngăn thức ăn | from entering the nasal cavity = đi vào khoang mũi
+@tonsil | /ˈtɒnsl/ | TON-xồ | amidan
++ Làm từ mô bạch huyết (lymphoid tissue), là một phần của hệ miễn dịch (immune system).
+= Her tonsil is red and swollen. => Amidan của cô ấy đỏ và sưng.
+~ A tonsil is made of = Amidan được tạo từ | lymphoid tissue = mô bạch huyết | and forms part of the immune system = và là một phần của hệ miễn dịch
+@palatoglossal arch | /ˌpælətəʊˈɡlɒsl ɑːrtʃ/ | pa-lờ-tâu-GLO-xồ át-ch | cung khẩu cái – lưỡi
++ palato = khẩu cái + glossal = lưỡi (gloss- = lưỡi) + arch = hình vòm. Cấu trúc hình cung ở phía sau miệng.
+= The palatoglossal arch is at the back of the mouth. => Cung khẩu cái – lưỡi nằm ở phía sau miệng.
+~ The palatoglossal arch is = Cung khẩu cái – lưỡi là | an arch-shaped structure = một cấu trúc hình vòm | at the back of the mouth = ở phía sau miệng
+
+# U7 | Unit này đi từ ngoài vào trong một chiếc răng: thân răng (crown) và chân răng (root), cổ răng (neck) ở giữa; các lớp men (enamel), ngà (dentin), tủy (pulp); phần giữ răng vào xương (cementum, periodontal ligament). Hãy vẽ một chiếc răng và ghi tên từng phần.
+@crown | /kraʊn/ | crao | thân răng
++ Nghĩa quen là "vương miện": phần đội trên đầu, nhìn thấy được, nằm trên đường viền nướu.
+= The crown is the part of the tooth you can see. => Thân răng là phần răng bạn nhìn thấy.
+~ The crown is the section of the tooth = Thân răng là phần của răng | that sits above the gumline = nằm trên đường viền nướu | and that is visible = và nhìn thấy được
+@root | /ruːt/ | rút | chân răng
++ Nghĩa quen là "rễ cây": nằm dưới nướu, không nhìn thấy, dài hơn thân răng.
+= The root holds the tooth in the bone. => Chân răng giữ răng trong xương.
+~ The root is the section of the tooth = Chân răng là phần của răng | that extends below the gumline = kéo dài xuống dưới đường viền nướu | and is not visible = và không nhìn thấy được
+@neck | /nek/ | néc | cổ răng
++ Nghĩa quen là "cái cổ": chỗ thắt hẹp giữa thân răng và chân răng, ngay viền nướu.
+= The neck of the tooth is at the gumline. => Cổ răng nằm ở viền nướu.
+~ The neck is the separation = Cổ răng là chỗ phân chia | between the crown and root of a tooth = giữa thân răng và chân răng
+@enamel | /ɪˈnæml/ | i-NA-mồ | men răng
++ Lớp ngoài cùng, cứng, màu trắng; làm từ canxi phosphat; bảo vệ răng khi nhai.
+= Sugar and acid can damage tooth enamel. => Đường và axit có thể làm hỏng men răng.
+~ Enamel is = Men răng là | the hard, white, exterior part of the tooth = phần bên ngoài, cứng, màu trắng của răng
+@dentin | /ˈdentɪn/ | ĐEN-tin | ngà răng
++ dent- = răng. Lớp nằm dưới men (underneath the enamel), có tế bào sống.
+= Dentin is softer than enamel. => Ngà răng mềm hơn men răng.
+~ Dentin is = Ngà răng là | the layer of the tooth = lớp của răng | underneath the enamel = nằm bên dưới men răng
+@pulp | /pʌlp/ | pănp | tủy răng
++ Nghĩa quen là "cùi, ruột trái cây": phần mềm, sống bên trong răng, có mạch máu và dây thần kinh.
+= The pulp is inside the tooth. => Tủy nằm bên trong răng.
+~ Pulp is = Tủy răng là | the soft, living tissue inside the tooth = mô mềm, sống bên trong răng
+@nerve | /nɜːrv/ | nơv | dây thần kinh
++ Trông như sợi chỉ (thread), mang tín hiệu giữa não và cơ thể. Đau răng là do dây thần kinh.
+= The nerve in this tooth is damaged. => Dây thần kinh trong răng này bị tổn thương.
+~ A nerve is a body part = Dây thần kinh là một bộ phận cơ thể | that looks like a thread = trông như một sợi chỉ | and carries messages = và mang tín hiệu | between the brain and the rest of the body = giữa não và phần còn lại của cơ thể
+@blood vessel | /blʌd ˈvesl/ | blất VÉT-xồ | mạch máu
++ blood = máu + vessel = ống, mạch. Ống dẫn máu đi khắp cơ thể.
+= Each tooth has a blood vessel inside the pulp. => Mỗi răng có mạch máu bên trong tủy.
+~ A blood vessel is a tube = Mạch máu là một cái ống | that moves blood around the body = đưa máu đi khắp cơ thể
+@bone | /bəʊn/ | bâun | xương
++ Phần cứng tạo thành khung bên trong cơ thể. Jawbone = xương hàm.
+= The tooth sits in the jaw bone. => Răng nằm trong xương hàm.
+~ A bone is one of the hard parts = Xương là một trong những phần cứng | that make a frame inside the body = tạo nên khung bên trong cơ thể
+@cementum | /sɪˈmentəm/ | xi-MEN-tầm | xê măng (chân răng)
++ Giống "xi măng" gắn gạch: lớp mô liên kết gắn chân răng với nướu và xương hàm.
+= Cementum covers the root of the tooth. => Xê măng phủ lên chân răng.
+~ Cementum is a layer of connective tissue = Xê măng là một lớp mô liên kết | that joins the roots of the teeth = gắn chân răng | to the gums and jawbone = với nướu và xương hàm
+@periodontal ligament | /ˌperiəˈdɒntl ˈlɪɡəmənt/ | pe-ri-ồ-ĐON-tồ LI-gờ-mừnt | dây chằng nha chu
++ peri- = quanh + odont = răng; ligament = dây chằng. Giữ răng bám chặt vào xương, nối xê măng với xương hàm.
+= The periodontal ligament holds the tooth in place. => Dây chằng nha chu giữ răng ở đúng chỗ.
+~ The periodontal ligament is tissue = Dây chằng nha chu là mô | that helps keep the teeth = giúp giữ răng | tightly attached to the bone = bám chặt vào xương
+@root canal | /ruːt kəˈnæl/ | rút cờ-NEN | ống tủy, điều trị tủy
++ root = chân răng + canal = kênh, ống. Vừa là khoảng hẹp trong chân răng, vừa là tên thủ thuật lấy phần nhiễm trùng ra.
+= I need a root canal on this tooth. => Tôi cần điều trị tủy cho chiếc răng này.
+~ A root canal is a set of narrow spaces = Ống tủy là các khoảng hẹp | inside the root of a tooth = bên trong chân răng | that can become infected = có thể bị nhiễm trùng
+
+# U8 | Unit này có hai nhóm: tên các loại răng (incisor, canine, premolar, molar, wisdom tooth) và động từ chỉ việc răng làm với thức ăn (cut, tear, crush, grind, chew, chop). Mỗi loại răng gắn với một động từ: răng cửa cắt, răng nanh xé, răng cối nghiền.
+@incisor | /ɪnˈsaɪzər/ | in-XAI-dờ | răng cửa
++ incise = cắt (như incision: vết rạch). 8 răng phẳng, sắc ở phía trước, dùng để cắt và cắn.
+= I chipped my front incisor. => Tôi bị mẻ răng cửa phía trước.
+~ An incisor is one of the eight = Răng cửa là một trong tám | flat, sharp teeth = chiếc răng phẳng và sắc | found at the front of the mouth = ở phía trước miệng
+@canine | /ˈkeɪnaɪn/ | CÂY-nai | răng nanh
++ canine = thuộc loài chó (răng nanh chó). 4 răng nhọn, sắc, dùng để xé (tear) thức ăn.
+= The canine is the longest tooth. => Răng nanh là chiếc răng dài nhất.
+~ A canine is one of the four, = Răng nanh là một trong bốn | sharp, pointed teeth = chiếc răng sắc, nhọn | found towards the front of the mouth = ở về phía trước miệng
+@premolar | /ˌpriːˈməʊlər/ | pri-MÂU-lờ | răng cối nhỏ, răng tiền hàm
++ pre- = trước + molar: răng đứng TRƯỚC răng cối lớn, ngay cạnh răng nanh. Có gờ (ridges), để nghiền.
+= The premolar is next to the canine. => Răng cối nhỏ nằm cạnh răng nanh.
+~ A premolar is one of the eight teeth = Răng cối nhỏ là một trong tám chiếc răng | with ridges, = có gờ, | found next to the canines = nằm cạnh răng nanh
+@molar | /ˈməʊlər/ | MÂU-lờ | răng cối lớn, răng hàm
++ 8 răng to, rộng ở phía sau miệng, dùng để nghiền (grind) thức ăn như cối xay.
+= Food often gets stuck in my molar. => Thức ăn hay bị mắc ở răng hàm của tôi.
+~ A molar is one of the eight = Răng hàm là một trong tám | large, wide teeth, = chiếc răng to, rộng, | found at the back of the mouth = ở phía sau miệng
+@wisdom tooth | /ˈwɪzdəm tuːθ/ | UÍT-đầm tút-th | răng khôn
++ wisdom = sự khôn ngoan. 4 răng mọc tận cùng phía sau khi đã trưởng thành (adulthood).
+= My wisdom tooth hurts. => Răng khôn của tôi bị đau.
+~ A wisdom tooth is one of the four teeth = Răng khôn là một trong bốn chiếc răng | that grow in the very back of the mouth = mọc ở tận cùng phía sau miệng | when a person reaches adulthood = khi một người đến tuổi trưởng thành
+@cut | /kʌt/ | cắt | cắt
++ Dùng một vật để chia thứ gì đó thành hai phần trở lên. Răng cửa dùng để cắt.
+= Incisors cut food. => Răng cửa cắt thức ăn.
+~ To cut something = Cắt một thứ | to use an object = là dùng một vật | to divide it into two or more pieces = để chia nó thành hai hoặc nhiều mảnh
+@tear | /teər/ | te-ờ | xé
++ Đọc "te-ờ" khi là động từ xé (khác tear /tɪər/ = nước mắt). Kéo rách thứ gì đó ra từng mảnh. Răng nanh xé thức ăn.
+= Canines tear meat. => Răng nanh xé thịt.
+~ To tear something is = Xé một thứ là | to pull it apart = kéo nó ra | into separate pieces = thành những mảnh rời
+@crush | /krʌʃ/ | crắt-s | nghiền nát
++ Ép mạnh đến mức vỡ thành mảnh nhỏ. Răng cối nhỏ nghiền thức ăn.
+= Premolars crush food. => Răng cối nhỏ nghiền nát thức ăn.
+~ To crush something is = Nghiền nát một thứ là | to press it so hard = ép nó thật mạnh | that it breaks into smaller pieces = đến mức nó vỡ thành mảnh nhỏ hơn
+@grind | /ɡraɪnd/ | grai-n | nghiền (thành bột)
++ Dùng hai mặt cứng chà vào nhau để nghiền thành mảnh rất nhỏ hoặc bột, như cối xay. Răng hàm nghiền.
+= Molars grind food into small pieces. => Răng hàm nghiền thức ăn thành mảnh nhỏ.
+~ To grind something is = Nghiền một thứ là | to use two hard surfaces = dùng hai bề mặt cứng | to break it into tiny pieces, = để làm nó vỡ thành mảnh rất nhỏ, | or into powder = hoặc thành bột
+@chew | /tʃuː/ | chu | nhai
++ Cắn thức ăn nhiều lần để đủ nhỏ mà nuốt (swallow).
+= Chew your food slowly. => Nhai thức ăn chậm thôi.
+~ To chew is = Nhai là | to bite food several times with your teeth = cắn thức ăn nhiều lần bằng răng | in order to make it small enough to swallow = để làm nó đủ nhỏ mà nuốt
+@chop | /tʃɒp/ | chóp | chặt, băm nhỏ
++ Cắt thứ gì đó thành nhiều miếng nhỏ hơn (như băm rau).
+= Chop the vegetables into small pieces. => Băm rau thành miếng nhỏ.
+~ To chop something is = Chặt một thứ là | to cut it into several, smaller pieces = cắt nó thành nhiều miếng nhỏ hơn
+
+# U9 | Unit này về chống lây nhiễm trong phòng khám: đồ bảo hộ cá nhân (PPE) như găng, khẩu trang, kính, tấm chắn mặt; dịch cơ thể (máu, nước bọt) có thể lây bệnh; đồ dùng một lần và đồ dùng lại được.
+@PPE | /ˌpiː piː ˈiː/ | pi pi I | đồ bảo hộ cá nhân
++ Viết tắt của Personal Protective Equipment: quần áo, thiết bị nhân viên mặc để chống tác nhân lây nhiễm.
+= Wear PPE before you treat a patient. => Mặc đồ bảo hộ trước khi điều trị bệnh nhân.
+~ PPE consists of = PPE gồm | specialized clothing and equipment = quần áo và thiết bị chuyên dụng | worn by an employee = do nhân viên mặc | for protection against infectious contaminants = để bảo vệ khỏi tác nhân lây nhiễm
+@surgical gloves | /ˈsɜːrdʒɪkl ɡlʌvz/ | XƠ-chi-cồ glăv-z | găng tay phẫu thuật
++ surgical = thuộc phẫu thuật (surgery, U2). Găng cao su dùng một lần, ngăn lây nhiễm giữa người chăm sóc và bệnh nhân.
+= Put on surgical gloves before the exam. => Đeo găng tay phẫu thuật trước khi khám.
+~ Surgical gloves are = Găng tay phẫu thuật là | disposable latex gloves = găng cao su dùng một lần | worn by health professionals = do nhân viên y tế đeo | during medical examinations and procedures = trong khi khám và làm thủ thuật | in order to prevent contamination = để ngăn lây nhiễm | between caregivers and patients = giữa người chăm sóc và bệnh nhân
+@surgical mask | /ˈsɜːrdʒɪkl mɑːsk/ | XƠ-chi-cồ mát-x | khẩu trang y tế
++ Còn gọi "procedure mask". Che một phần mặt, giữ lại vi khuẩn trong giọt bắn từ miệng và mũi.
+= The dentist wears a surgical mask. => Nha sĩ đeo khẩu trang y tế.
+~ A surgical mask, = Khẩu trang y tế, | also called a "procedure mask," = còn gọi là "khẩu trang thủ thuật", | is a partial covering for the face = là đồ che một phần khuôn mặt | that is worn by health professionals = do nhân viên y tế đeo | to catch bacteria = để giữ lại vi khuẩn | dispensed from liquid droplets = thoát ra từ giọt bắn | emitted from the wearer's mouth and nose = phát ra từ miệng và mũi người đeo
+@goggles | /ˈɡɒɡlz/ | GO-gồ-z | kính bảo hộ
++ Kính bảo vệ bằng nhựa, có khung mềm ôm sát mặt (fits securely against the face). Luôn dùng số nhiều.
+= Wear goggles to protect your eyes. => Đeo kính bảo hộ để bảo vệ mắt.
+~ Goggles are protective glasses, = Kính bảo hộ là kính bảo vệ, | usually made of plastic, = thường bằng nhựa, | that are set in a flexible frame, = gắn trong một khung mềm, | often made of plastic or rubber, = thường bằng nhựa hoặc cao su, | which fits securely against the face = ôm chặt vào mặt
+@face shield | /feɪs ʃiːld/ | phây xin | tấm chắn mặt
++ face = mặt + shield = cái khiên. Bảo vệ cả khuôn mặt khỏi mảnh vụn, tia bắn, dịch lây nhiễm.
+= A face shield covers your whole face. => Tấm chắn mặt che cả khuôn mặt.
+~ A face shield is a device, = Tấm chắn mặt là một thiết bị, | usually made from plastic, = thường làm bằng nhựa, | used to protect the wearer's entire face or part of it = dùng để bảo vệ cả mặt hoặc một phần mặt người đeo | from debris, splashes, and infectious fluids = khỏi mảnh vụn, tia bắn và dịch lây nhiễm
+@blood | /blʌd/ | blất | máu
++ Chất lỏng chảy qua tim và mạch máu, mang chất dinh dưỡng, oxy và đưa chất thải ra ngoài.
+= Clean the blood from the chair. => Lau sạch máu trên ghế.
+~ Blood is the fluid = Máu là chất lỏng | that moves through the heart, arteries, capillaries, and veins = chảy qua tim, động mạch, mao mạch và tĩnh mạch | of vertebrate creatures, = của động vật có xương sống, | carrying nutrients and oxygen = mang chất dinh dưỡng và oxy | and moving waste out of the body = và đưa chất thải ra khỏi cơ thể
+@saliva | /səˈlaɪvə/ | xơ-LAI-vờ | nước bọt
++ Chất lỏng trong, đặc do tuyến nước bọt (salivary glands) tiết ra, giúp phân giải thức ăn.
+= Saliva can carry germs. => Nước bọt có thể mang mầm bệnh.
+~ Saliva is a clear, thick fluid = Nước bọt là chất lỏng trong và đặc | which is released into the mouth = được tiết vào miệng | by salivary glands = bởi tuyến nước bọt | to help break down food = để giúp phân giải thức ăn
+@contaminant | /kənˈtæmɪnənt/ | cần-TA-mi-nừnt | chất gây nhiễm bẩn
++ contaminate = làm nhiễm bẩn + -ant = vật gây ra. Thứ làm bẩn, làm ố hoặc làm lây nhiễm khi tiếp xúc.
+= Blood is a common contaminant in dental offices. => Máu là chất gây nhiễm bẩn thường gặp ở phòng khám nha.
+~ A contaminant is an element = Chất gây nhiễm bẩn là một tác nhân | that soils, stains, or infects = làm bẩn, làm ố hoặc làm nhiễm trùng | as a result of contact or association = do tiếp xúc hoặc liên hệ
+@infectious | /ɪnˈfekʃəs/ | in-PHÉC-sợt | lây nhiễm, truyền nhiễm
++ infect = làm nhiễm trùng → infection → infectious (tính từ): có thể gây nhiễm trùng.
+= Some diseases are very infectious. => Một số bệnh rất dễ lây.
+~ If something is infectious, = Nếu một thứ là "infectious", | it is capable of causing infection, = nó có thể gây nhiễm trùng, | or a harmful effect on one's health = hoặc gây hại cho sức khỏe
+@disposable | /dɪˈspəʊzəbl/ | đi-XPÂU-dờ-bồ | dùng một lần
++ dispose = vứt bỏ + -able = có thể: "có thể vứt đi". Dùng xong là bỏ.
+= Use a disposable cup for each patient. => Dùng cốc dùng một lần cho mỗi bệnh nhân.
+~ If something is disposable = Nếu một thứ là dùng một lần | it was designed = nó được thiết kế | to be used and then thrown away = để dùng rồi vứt đi
+@reusable | /ˌriːˈjuːzəbl/ | ri-DIU-dờ-bồ | dùng lại được
++ re- = lại + use = dùng + -able = có thể. Ngược nghĩa với disposable.
+= Metal tools are reusable after sterilization. => Dụng cụ kim loại dùng lại được sau khi tiệt trùng.
+~ If something is reusable, = Nếu một thứ dùng lại được, | it can be used more than once = nó có thể được dùng hơn một lần
+
+# U10 | Unit này về công nghệ trong nha khoa: máy tính, phần cứng, phần mềm, công nghệ thông tin, và các máy móc lâm sàng như X-quang kỹ thuật số, camera trong miệng, laser, thổi cát, CAD/CAM. Nhiều từ là từ ghép hoặc chữ viết tắt, hãy tách ra để đoán nghĩa.
+@computer | /kəmˈpjuːtər/ | cầm-PIU-tờ | máy tính
++ Thiết bị điện tử lập trình được, dùng để lưu, xử lý, lấy ra và gửi dữ liệu.
+= We keep patient records on the computer. => Chúng tôi lưu hồ sơ bệnh nhân trên máy tính.
+~ A computer is = Máy tính là | a programmable electronic device = một thiết bị điện tử lập trình được | that is used to store, process, retrieve, and transmit data = dùng để lưu, xử lý, truy xuất và truyền dữ liệu
+@hardware | /ˈhɑːrdweər/ | HÁT-que | phần cứng
++ hard = cứng + ware = đồ vật: những thứ cầm được (dây cáp, nguồn điện, bo mạch…).
+= The hardware needs to be replaced. => Phần cứng cần được thay.
+~ Hardware includes = Phần cứng bao gồm | computer machinery and equipment, = máy móc và thiết bị máy tính, | including memory, cables, power supply, devices, and circuit boards, = gồm bộ nhớ, dây cáp, nguồn điện, thiết bị và bo mạch, | which are used to operate computer systems = dùng để vận hành hệ thống máy tính
+@software | /ˈsɒftweər/ | XÓP-que | phần mềm
++ soft = mềm: các chương trình không cầm được, điều khiển máy tính. Ngược với hardware.
+= The new software makes scheduling easy. => Phần mềm mới giúp xếp lịch dễ dàng.
+~ Software is = Phần mềm là | the set of programs, procedures, and routines = tập hợp các chương trình, quy trình và thủ tục | which control and direct the computer = điều khiển và chỉ dẫn máy tính
+@information technology | /ˌɪnfərˈmeɪʃn tekˈnɒlədʒi/ | in-phờ-MÂY-sừn tếch-NO-lờ-chi | công nghệ thông tin
++ Viết tắt IT. Mọi công nghệ về phát triển, bảo trì và dùng máy tính, phần mềm, mạng.
+= Our clinic hired an information technology expert. => Phòng khám thuê một chuyên gia công nghệ thông tin.
+~ Information technology is all technology = Công nghệ thông tin là mọi công nghệ | that involves the development, maintenance, and use = liên quan đến việc phát triển, bảo trì và sử dụng | of computers, software, and networks = máy tính, phần mềm và mạng | used to process and transmit data = dùng để xử lý và truyền dữ liệu
+@clinical technology | /ˈklɪnɪkl tekˈnɒlədʒi/ | CLI-ni-cồ tếch-NO-lờ-chi | công nghệ lâm sàng
++ clinical = thuộc lâm sàng (khám chữa bệnh). Mọi máy móc điện tử dùng để chăm sóc răng: camera, laser, X-quang số…
+= Lasers are a type of clinical technology. => Laser là một loại công nghệ lâm sàng.
+~ Clinical technology includes = Công nghệ lâm sàng bao gồm | all electronic instruments and equipment = mọi dụng cụ và thiết bị điện tử | used to provide dental care, = dùng để chăm sóc răng, | including intraoral cameras, digital radiology, computerized probes, lasers, and air abrasion units = gồm camera trong miệng, X-quang số, cây đo vi tính, laser và máy thổi cát
+@digital X-ray | /ˌdɪdʒɪtl ˈeks reɪ/ | ĐI-chi-tồ ÉC-xrây | X-quang kỹ thuật số
++ digital = kỹ thuật số. Đặt một cảm biến (sensor) giống miếng phim lên răng để chụp.
+= A digital X-ray shows the image right away. => X-quang kỹ thuật số cho thấy hình ngay lập tức.
+~ A digital X-ray, = X-quang kỹ thuật số, | or digital radiography, = hay chụp phim kỹ thuật số, | is a picture = là một tấm hình | that is taken by placing a sensor, = được chụp bằng cách đặt một cảm biến, | designed to look like a piece of film, = trông giống một miếng phim, | over a tooth = lên răng
+@intraoral camera | /ˌɪntrəˈɔːrəl ˈkæmərə/ | in-trờ-O-rồ CA-mờ-rờ | camera trong miệng
++ intra- = bên trong + oral = miệng. Dụng cụ hình que, chiếu hình phóng to của miệng lên màn hình.
+= The intraoral camera showed a crack in my tooth. => Camera trong miệng cho thấy vết nứt trên răng tôi.
+~ An intraoral camera is = Camera trong miệng là | a wand-like instrument = một dụng cụ hình que | used during dental examinations = dùng khi khám răng | that projects a magnified image = chiếu hình phóng to | of a patient's mouth onto a screen = của miệng bệnh nhân lên màn hình
+@laser | /ˈleɪzər/ | LÂY-dờ | tia laser
++ Thiết bị tạo chùm ánh sáng hẹp, mạnh (narrow, intense beam of light).
+= The dentist used a laser on my gums. => Nha sĩ dùng laser trên nướu của tôi.
+~ A laser is a device = Laser là một thiết bị | that generates = tạo ra | a narrow, intense beam of light energy = một chùm năng lượng ánh sáng hẹp và mạnh
+@air abrasion | /eər əˈbreɪʒn/ | e ơ-BRÂY-dừn | thổi cát (mài mòn bằng khí)
++ air = không khí + abrasion = mài mòn. Thổi hạt rất nhỏ lên răng để lấy phần sâu, thay cho khoan.
+= Air abrasion can remove decay without a drill. => Thổi cát có thể lấy phần sâu răng mà không cần khoan.
+~ Air abrasion is = Thổi cát là | an air compression device = một thiết bị khí nén | that delivers tiny particles of aluminum dioxide = phun những hạt nhôm oxit rất nhỏ | onto a tooth's surface = lên bề mặt răng | to remove areas of decay = để loại bỏ vùng sâu răng
+@CAD | /kæd/ | ca-đ | thiết kế bằng máy tính
++ Viết tắt computer-aided design: dùng máy tính để thiết kế (D = design).
+= The crown was designed with CAD. => Mão răng được thiết kế bằng CAD.
+~ CAD (computer-aided design) is = CAD (thiết kế có máy tính hỗ trợ) là | the use of computer systems = việc dùng hệ thống máy tính | to help with creation, revision, or analysis of design, = để giúp tạo, sửa hoặc phân tích thiết kế, | particularly technical drawings = đặc biệt là bản vẽ kỹ thuật
+@CAM | /kæm/ | cam | sản xuất bằng máy tính
++ Viết tắt computer-aided manufacturing: dùng máy tính điều khiển máy để sản xuất (M = manufacturing). CAD vẽ, CAM làm.
+= CAM machines can mill a crown in one hour. => Máy CAM có thể mài một mão răng trong một giờ.
+~ CAM (computer-aided manufacturing) is = CAM (sản xuất có máy tính hỗ trợ) là | the use of computer software = việc dùng phần mềm máy tính | to control machine tools and related machinery = để điều khiển máy công cụ và máy móc liên quan | and to work on items in the process of manufacture = và gia công sản phẩm trong quá trình sản xuất

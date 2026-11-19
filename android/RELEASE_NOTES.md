@@ -1,9 +1,9 @@
-Ôn Luyện Nha Khoa – Version 2.6.2.
+Ôn Luyện Nha Khoa – Version 2.6.3.
 
-- Video bài giảng Vật liệu nha khoa Bài 1–5 (mỗi bài 20–26 phút, 480p):
-  - Giọng giảng nữ đọc và giải thích từng slide, có phụ đề tiếng Việt (bật/tắt được).
-  - Danh sách slide bên cạnh video: chạm để nhảy tới đoạn cần xem; app nhớ chỗ đang xem dở để xem tiếp.
-  - Chỉnh tốc độ 0.75× đến 1.5×, xem toàn màn hình (tự xoay ngang), tải video MP4 về máy.
-- Mở ở nút Video bài giảng trong danh sách bài hoặc tab mới trong trang bài. Video phát trực tuyến nên cần có mạng.
+- Slide Anh văn chuyên ngành 2 cho người mất gốc, đủ 15 Unit (18–24 slide mỗi Unit):
+  - Mỗi từ một slide: nút loa nghe đọc, phiên âm, cách đọc gần giống, nghĩa, mẹo nhớ, 3 câu ví dụ có dịch, câu định nghĩa giống đề thi kèm chữ khóa.
+  - Cứ 4 từ có một bài trắc nghiệm nhanh, cuối Unit có bài kiểm tra 8 câu (định nghĩa → từ, điền từ, nghĩa, cách đọc). Chạm vào đáp án để biết đúng sai và xem giải thích.
+  - Tải PowerPoint chỉnh sửa được (có ghi chú) và bản in 4 slide/trang có thêm slide đáp án.
+- Mở ở nút Slide bài giảng trong mỗi Unit của môn Anh văn chuyên ngành 2.
 
 Cài: tải file OnLuyenNhaKhoa.apk bên dưới, mở file và bấm Cập nhật.

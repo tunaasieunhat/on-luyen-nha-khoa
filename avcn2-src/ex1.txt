@@ -1,0 +1,179 @@
+# U1
+@dentist
+= My dentist is very kind. => Nha sĩ của tôi rất tốt bụng.
+= I am afraid of the dentist. => Tôi sợ đi nha sĩ.
+@dentistry
+= Dentistry is a hard subject. => Nha khoa là một môn học khó.
+= He wants a job in dentistry. => Anh ấy muốn làm việc trong ngành nha.
+@professional
+= She is a professional nurse. => Cô ấy là một y tá chuyên nghiệp.
+= Ask a professional for help. => Hãy nhờ người có chuyên môn giúp.
+@practice
+= Our practice opens at 8 a.m. => Phòng khám của chúng tôi mở cửa lúc 8 giờ sáng.
+= The practice has three dentists. => Phòng khám có ba nha sĩ.
+@license
+= He got his license last year. => Anh ấy có giấy phép hành nghề năm ngoái.
+= You cannot work without a license. => Bạn không thể hành nghề nếu không có giấy phép.
+@diagnose
+= Only a dentist can diagnose this. => Chỉ nha sĩ mới chẩn đoán được việc này.
+= X-rays help us diagnose decay. => Phim X-quang giúp chúng tôi chẩn đoán sâu răng.
+@advice
+= Thank you for your advice. => Cảm ơn lời khuyên của bạn.
+= Please follow the dentist's advice. => Hãy làm theo lời khuyên của nha sĩ.
+@instruction
+= Read the instruction on the box. => Hãy đọc lời hướng dẫn trên hộp.
+= Follow each instruction carefully. => Làm theo từng lời dặn thật cẩn thận.
+@health
+= Sugar is bad for your health. => Đường không tốt cho sức khỏe của bạn.
+= Good teeth mean good health. => Răng tốt nghĩa là sức khỏe tốt.
+@oral
+= Brush twice a day for good oral health. => Đánh răng hai lần mỗi ngày để răng miệng khỏe.
+= She has an oral exam today. => Hôm nay cô ấy khám răng miệng.
+# U2
+@specialty
+= What is your specialty? => Chuyên khoa của bạn là gì?
+= Her specialty is children's teeth. => Chuyên khoa của cô ấy là răng trẻ em.
+@referral
+= I need a referral to a specialist. => Tôi cần giấy giới thiệu đến bác sĩ chuyên khoa.
+= The dentist wrote a referral for me. => Nha sĩ viết giấy chuyển tuyến cho tôi.
+@endodontics
+= Root canal treatment is part of endodontics. => Điều trị tủy là một phần của nội nha.
+= He studies endodontics now. => Bây giờ anh ấy học nội nha.
+@orthodontics
+= Braces are used in orthodontics. => Mắc cài được dùng trong chỉnh nha.
+= She works in orthodontics. => Cô ấy làm việc trong ngành chỉnh nha.
+@periodontics
+= Gum disease is treated in periodontics. => Bệnh nướu được điều trị trong nha chu.
+= Periodontics is about the gums. => Nha chu là chuyên khoa về nướu.
+@prosthodontics
+= Dentures are part of prosthodontics. => Hàm giả là một phần của phục hình răng.
+= He chose prosthodontics as his specialty. => Anh ấy chọn phục hình làm chuyên khoa.
+@pediatric dentistry
+= My son goes to a pediatric dentistry clinic. => Con trai tôi đến phòng khám nha khoa trẻ em.
+= Pediatric dentistry needs a lot of patience. => Nha khoa trẻ em cần rất nhiều kiên nhẫn.
+@pathology
+= Pathology looks at the cause of disease. => Bệnh học tìm hiểu nguyên nhân của bệnh.
+= The sample went to pathology. => Mẫu bệnh phẩm đã được gửi đến khoa bệnh học.
+@radiology
+= Radiology uses X-rays. => Chẩn đoán hình ảnh dùng tia X.
+= Go to radiology for your scan. => Hãy đến khoa chẩn đoán hình ảnh để chụp phim.
+@surgery
+= He needs surgery on his jaw. => Anh ấy cần phẫu thuật hàm.
+= The surgery took two hours. => Ca phẫu thuật kéo dài hai giờ.
+@maxillofacial
+= A maxillofacial problem affects the jaw and face. => Một vấn đề hàm mặt ảnh hưởng đến hàm và khuôn mặt.
+= He had a maxillofacial injury after the accident. => Anh ấy bị chấn thương hàm mặt sau tai nạn.
+# U3
+@office
+= The dental office is on the second floor. => Phòng khám nha ở tầng hai.
+= Please come to our office at 9. => Mời bạn đến phòng khám lúc 9 giờ.
+@waiting room
+= The waiting room is quiet today. => Hôm nay phòng chờ yên tĩnh.
+= The waiting room has many magazines. => Phòng chờ có nhiều tạp chí.
+@receptionist desk
+= Please sign in at the receptionist desk. => Vui lòng đăng ký ở quầy lễ tân.
+= The phone is on the receptionist desk. => Điện thoại ở trên quầy lễ tân.
+@operatory
+= The dentist is in the operatory. => Nha sĩ đang ở phòng điều trị.
+= Each operatory has a dental chair. => Mỗi phòng điều trị có một ghế nha.
+@treatment room
+= Please follow me to the treatment room. => Mời bạn theo tôi vào phòng điều trị.
+= The treatment room is very clean. => Phòng điều trị rất sạch sẽ.
+@radiology room
+= Your X-ray is taken in the radiology room. => Bạn được chụp X-quang ở phòng X-quang.
+= Do not enter the radiology room now. => Đừng vào phòng X-quang lúc này.
+@sterilization room
+= Dirty tools go to the sterilization room. => Dụng cụ bẩn được đưa đến phòng tiệt trùng.
+= The sterilization room is behind the lab. => Phòng tiệt trùng ở phía sau phòng lab.
+@recovery room
+= He is resting in the recovery room. => Anh ấy đang nghỉ ở phòng hồi sức.
+= After surgery, she went to the recovery room. => Sau phẫu thuật, cô ấy được đưa đến phòng hồi sức.
+@lab
+= We sent your mold to the lab. => Chúng tôi đã gửi mẫu hàm của bạn đến phòng lab.
+= The lab is next to the office. => Phòng lab ở cạnh văn phòng.
+@storage room
+= Gloves are kept in the storage room. => Găng tay được cất trong kho.
+= The storage room is full. => Kho đã đầy.
+@staff area
+= Patients cannot go into the staff area. => Bệnh nhân không được vào khu vực nhân viên.
+= We eat lunch in the staff area. => Chúng tôi ăn trưa ở khu vực nhân viên.
+@mechanical room
+= The air machine is in the mechanical room. => Máy khí nén ở trong phòng kỹ thuật.
+= Keep the mechanical room door closed. => Hãy đóng cửa phòng kỹ thuật.
+@restroom
+= Where is the restroom, please? => Xin hỏi nhà vệ sinh ở đâu?
+= The restroom is next to the waiting room. => Nhà vệ sinh ở cạnh phòng chờ.
+# U4
+@staff
+= All staff wear name badges. => Tất cả nhân viên đều đeo bảng tên.
+= The clinic has ten staff members. => Phòng khám có mười nhân viên.
+@receptionist
+= The receptionist answers the phone. => Lễ tân trả lời điện thoại.
+= Ask the receptionist for a form. => Hãy xin lễ tân một tờ phiếu.
+@dental assistant
+= The dental assistant hands tools to the dentist. => Trợ thủ nha khoa đưa dụng cụ cho nha sĩ.
+= She works as a dental assistant. => Cô ấy làm trợ thủ nha khoa.
+@dental hygienist
+= The dental hygienist checks your gums first. => Chuyên viên vệ sinh răng kiểm tra nướu của bạn trước.
+= A dental hygienist teaches patients to floss. => Chuyên viên vệ sinh răng dạy bệnh nhân dùng chỉ nha khoa.
+@dental therapist
+= Our dental therapist visits schools. => Chuyên viên trị liệu nha của chúng tôi đến thăm các trường học.
+= The dental therapist works with children. => Chuyên viên trị liệu nha làm việc với trẻ em.
+@lab technician
+= The lab technician made my denture. => Kỹ thuật viên lab đã làm hàm giả cho tôi.
+= He is a lab technician at a big clinic. => Anh ấy là kỹ thuật viên lab ở một phòng khám lớn.
+@office manager
+= The office manager plans the staff schedule. => Quản lý phòng khám lên lịch làm việc cho nhân viên.
+= Please talk to our office manager. => Vui lòng nói chuyện với quản lý phòng khám.
+@financial coordinator
+= The financial coordinator explains the bill. => Điều phối viên tài chính giải thích hóa đơn.
+= Ask the financial coordinator about payment plans. => Hãy hỏi điều phối viên tài chính về kế hoạch trả góp.
+@front office
+= The front office is busy in the morning. => Bộ phận tiền sảnh bận rộn vào buổi sáng.
+= Call the front office to book a visit. => Gọi bộ phận tiền sảnh để đặt lịch khám.
+@back office
+= The back office keeps patient records. => Bộ phận hậu sảnh lưu hồ sơ bệnh nhân.
+= Patients rarely see the back office. => Bệnh nhân hiếm khi thấy bộ phận hậu sảnh.
+# U5
+@mirror
+= The dentist uses a mirror to see your back teeth. => Nha sĩ dùng gương để nhìn răng phía trong.
+= Hold the mirror near the tooth. => Giữ gương gần chiếc răng.
+@probe
+= The probe checks for soft spots. => Cây thám trâm kiểm tra chỗ mềm trên răng.
+= She used a probe to measure the gums. => Cô ấy dùng cây đo túi để đo nướu.
+@drill
+= The drill is very loud. => Máy khoan rất ồn.
+= I hate the sound of the drill. => Tôi ghét tiếng máy khoan.
+@handpiece
+= Clean the handpiece after each patient. => Làm sạch tay khoan sau mỗi bệnh nhân.
+= The handpiece spins very fast. => Tay khoan quay rất nhanh.
+@bur
+= Put a new bur in the handpiece. => Lắp một mũi khoan mới vào tay khoan.
+= This bur is too small. => Mũi khoan này quá nhỏ.
+@excavator
+= The excavator removes soft decay. => Cây nạo ngà lấy đi phần sâu mềm.
+= Pass me the excavator, please. => Làm ơn đưa tôi cây nạo ngà.
+@chisel
+= A chisel can cut enamel. => Cái đục có thể cắt men răng.
+= The dentist picked up a small chisel. => Nha sĩ cầm lên một cái đục nhỏ.
+@curette
+= The hygienist used a curette under the gums. => Chuyên viên vệ sinh dùng cây nạo dưới nướu.
+= A curette has a round tip. => Cây nạo có đầu tròn.
+@burnisher
+= The burnisher has a smooth, round end. => Cây miết bóng có đầu tròn và nhẵn.
+= The burnisher makes the metal shiny. => Cây miết bóng làm kim loại sáng bóng.
+@plugger
+= The plugger pushes the filling into the canal. => Cây lèn đẩy vật liệu trám vào ống tủy.
+= This plugger is long and thin. => Cây lèn này dài và mảnh.
+@retractor
+= The retractor holds the cheek back. => Dụng cụ banh giữ má ra phía sau.
+= Please hold this retractor. => Làm ơn giữ dụng cụ banh này.
+@elevator
+= The elevator loosens the tooth. => Cây bẩy làm lỏng chiếc răng.
+= The dentist used an elevator before the forceps. => Nha sĩ dùng cây bẩy trước khi dùng kìm.
+@forceps
+= The dentist pulled the tooth with forceps. => Nha sĩ nhổ răng bằng kìm.
+= These forceps are for lower teeth. => Cái kìm này dùng cho răng hàm dưới.
+@syringe
+= The syringe has a thin needle. => Ống tiêm có kim mỏng.
+= Fill the syringe with water. => Hãy bơm đầy nước vào ống tiêm.

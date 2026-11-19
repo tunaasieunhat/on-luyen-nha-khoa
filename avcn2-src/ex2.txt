@@ -1,0 +1,176 @@
+# U6
+@mouth
+= Close your mouth slowly. => Hãy ngậm miệng lại từ từ.
+= Rinse your mouth with water. => Súc miệng bằng nước.
+@oral cavity
+= The tongue is in the oral cavity. => Lưỡi nằm trong khoang miệng.
+= The dentist checks the whole oral cavity. => Nha sĩ khám toàn bộ khoang miệng.
+@upper lip
+= Her upper lip is swollen. => Môi trên của cô ấy bị sưng.
+= Lift your upper lip a little. => Hãy nâng môi trên lên một chút.
+@lower lip
+= He bit his lower lip. => Anh ấy cắn vào môi dưới.
+= My lower lip feels numb. => Môi dưới của tôi bị tê.
+@gums
+= The dentist checked my gums. => Nha sĩ đã kiểm tra nướu của tôi.
+= Healthy gums are pink. => Nướu khỏe mạnh có màu hồng.
+@teeth
+= Brush your teeth before bed. => Hãy đánh răng trước khi đi ngủ.
+= Adults have 32 teeth. => Người lớn có 32 chiếc răng.
+@tongue
+= Clean your tongue every day. => Hãy làm sạch lưỡi mỗi ngày.
+= Put your tongue up, please. => Mời bạn nâng lưỡi lên.
+@hard palate
+= The hard palate is behind the upper front teeth. => Khẩu cái cứng nằm sau răng cửa trên.
+= The hard palate is made of bone. => Khẩu cái cứng được tạo bởi xương.
+@soft palate
+= The soft palate has no bone. => Khẩu cái mềm không có xương.
+= The soft palate is at the back of the mouth. => Khẩu cái mềm nằm ở phía sau miệng.
+@uvula
+= The uvula hangs at the back of the throat. => Lưỡi gà treo ở phía sau cổ họng.
+= The uvula is small and soft. => Lưỡi gà nhỏ và mềm.
+@tonsil
+= His left tonsil is red. => Amidan bên trái của anh ấy bị đỏ.
+= A tonsil can get infected. => Amidan có thể bị nhiễm trùng.
+@palatoglossal arch
+= The palatoglossal arch is in front of the tonsil. => Cung khẩu cái – lưỡi nằm trước amidan.
+= Look at the palatoglossal arch in this picture. => Hãy nhìn cung khẩu cái – lưỡi trong hình này.
+# U7
+@crown
+= The crown is the part you can see. => Thân răng là phần bạn nhìn thấy được.
+= The crown of this tooth is broken. => Thân của chiếc răng này bị vỡ.
+@root
+= The root is inside the bone. => Chân răng nằm trong xương.
+= This tooth has two roots, and one root is short. => Răng này có hai chân, và một chân ngắn.
+@neck
+= The neck is near the gum line. => Cổ răng ở gần đường viền nướu.
+= There is a small hole at the neck of the tooth. => Có một lỗ nhỏ ở cổ răng.
+@enamel
+= Enamel is very hard. => Men răng rất cứng.
+= Acid can damage enamel. => Axit có thể làm hỏng men răng.
+@dentin
+= Dentin is under the enamel. => Ngà răng nằm dưới men răng.
+= The decay has reached the dentin. => Sâu răng đã vào đến ngà.
+@pulp
+= The pulp is in the center of the tooth. => Tủy nằm ở giữa chiếc răng.
+= The pulp is alive and has nerves. => Tủy là mô sống và có dây thần kinh.
+@nerve
+= The nerve makes the tooth feel pain. => Dây thần kinh làm răng cảm thấy đau.
+= Cold water touched the nerve. => Nước lạnh chạm vào dây thần kinh.
+@blood vessel
+= A blood vessel brings food to the pulp. => Mạch máu mang chất dinh dưỡng đến tủy.
+= Each blood vessel enters through the root tip. => Mỗi mạch máu đi vào qua chóp chân răng.
+@bone
+= The tooth sits in the bone. => Chiếc răng nằm trong xương.
+= He lost some bone around his teeth. => Anh ấy bị tiêu một ít xương quanh răng.
+@cementum
+= Cementum is yellow and thin. => Xê măng có màu vàng và mỏng.
+= Cementum is softer than enamel. => Xê măng mềm hơn men răng.
+@periodontal ligament
+= Gum disease can damage the periodontal ligament. => Bệnh nướu có thể làm hỏng dây chằng nha chu.
+= The periodontal ligament is very thin. => Dây chằng nha chu rất mỏng.
+@root canal
+= A root canal can save your tooth. => Điều trị tủy có thể giữ lại chiếc răng của bạn.
+= The root canal is very narrow. => Ống tủy rất hẹp.
+# U8
+@incisor
+= An incisor is a front tooth. => Răng cửa là răng ở phía trước.
+= He broke an incisor playing football. => Anh ấy gãy một răng cửa khi chơi bóng đá.
+@canine
+= The canine is long and pointed. => Răng nanh dài và nhọn.
+= You have four canine teeth. => Bạn có bốn răng nanh.
+@premolar
+= A premolar is next to the canine. => Răng cối nhỏ ở cạnh răng nanh.
+= The dentist filled my premolar. => Nha sĩ đã trám răng cối nhỏ của tôi.
+@molar
+= A molar is big and flat. => Răng cối lớn to và phẳng.
+= My back molar hurts. => Răng cối phía trong của tôi bị đau.
+@wisdom tooth
+= My wisdom tooth is coming in. => Răng khôn của tôi đang mọc.
+= She had her wisdom tooth removed. => Cô ấy đã nhổ răng khôn.
+@cut
+= The dentist will cut the thread. => Nha sĩ sẽ cắt sợi chỉ.
+= Cut the apple into small pieces. => Hãy cắt quả táo thành miếng nhỏ.
+@tear
+= Dogs tear meat with their teeth. => Chó xé thịt bằng răng.
+= Do not tear the bread with your teeth. => Đừng xé bánh mì bằng răng.
+@crush
+= Do not crush the tablet. => Đừng nghiền nát viên thuốc.
+= Do not crush ice with your teeth. => Đừng nghiền đá bằng răng.
+@grind
+= Molars grind food into small bits. => Răng cối lớn nghiền thức ăn thành mẩu nhỏ.
+= Some people grind their teeth at night. => Một số người nghiến răng vào ban đêm.
+@chew
+= Chew on the other side today. => Hôm nay hãy nhai bên kia.
+= It hurts when I chew. => Tôi bị đau khi nhai.
+@chop
+= Chop the vegetables for the soup. => Băm nhỏ rau để nấu súp.
+= Incisors chop food like a knife. => Răng cửa chặt thức ăn như con dao.
+# U9
+@PPE
+= Wear PPE in the treatment room. => Hãy mặc đồ bảo hộ cá nhân trong phòng điều trị.
+= PPE protects you from germs. => Đồ bảo hộ cá nhân bảo vệ bạn khỏi vi trùng.
+@surgical gloves
+= Put on surgical gloves before you touch the patient. => Hãy đeo găng tay phẫu thuật trước khi chạm vào bệnh nhân.
+= Throw away the surgical gloves after use. => Hãy vứt găng tay phẫu thuật sau khi dùng.
+@surgical mask
+= Wear a surgical mask over your nose. => Hãy đeo khẩu trang y tế che cả mũi.
+= This surgical mask is wet, so change it. => Khẩu trang này bị ướt, hãy thay cái khác.
+@goggles
+= Goggles protect your eyes. => Kính bảo hộ bảo vệ mắt bạn.
+= The patient also wears goggles. => Bệnh nhân cũng đeo kính bảo hộ.
+@face shield
+= Clean the face shield after each patient. => Lau sạch tấm chắn mặt sau mỗi bệnh nhân.
+= Wear a face shield when you use the drill. => Hãy đeo tấm chắn mặt khi dùng máy khoan.
+@blood
+= There is blood on the tool. => Có máu trên dụng cụ.
+= Blood can carry disease. => Máu có thể mang mầm bệnh.
+@saliva
+= Saliva keeps your mouth wet. => Nước bọt giữ miệng bạn ẩm.
+= The suction removes saliva. => Ống hút lấy đi nước bọt.
+@contaminant
+= Blood is a contaminant. => Máu là một chất gây nhiễm bẩn.
+= Wipe away every contaminant from the chair. => Hãy lau sạch mọi chất gây nhiễm bẩn trên ghế.
+@infectious
+= Some diseases are infectious. => Một số bệnh có tính lây nhiễm.
+= Treat all blood as infectious. => Hãy coi mọi máu là có khả năng lây nhiễm.
+@disposable
+= These cups are disposable. => Những cái cốc này dùng một lần.
+= Use a disposable bib for each patient. => Dùng khăn choàng dùng một lần cho mỗi bệnh nhân.
+@reusable
+= This bag is reusable. => Cái túi này dùng lại được.
+= Is this tray reusable? => Cái khay này có dùng lại được không?
+# U10
+@computer
+= Patient records are on the computer. => Hồ sơ bệnh nhân lưu trong máy tính.
+= Turn on the computer, please. => Làm ơn bật máy tính lên.
+@hardware
+= The printer is hardware. => Máy in là phần cứng.
+= We need new hardware for the office. => Chúng tôi cần phần cứng mới cho phòng khám.
+@software
+= This software books appointments. => Phần mềm này đặt lịch hẹn.
+= Please update the software. => Vui lòng cập nhật phần mềm.
+@information technology
+= Information technology helps us store records. => Công nghệ thông tin giúp chúng tôi lưu hồ sơ.
+= He works in information technology. => Anh ấy làm trong ngành công nghệ thông tin.
+@clinical technology
+= Lasers are a kind of clinical technology. => Laser là một loại công nghệ lâm sàng.
+= Clinical technology makes treatment faster. => Công nghệ lâm sàng làm việc điều trị nhanh hơn.
+@digital X-ray
+= A digital X-ray shows on the screen at once. => Phim X-quang kỹ thuật số hiện trên màn hình ngay lập tức.
+= A digital X-ray uses less radiation. => X-quang kỹ thuật số dùng ít tia xạ hơn.
+@intraoral camera
+= The intraoral camera shows your teeth on TV. => Camera trong miệng chiếu răng của bạn lên màn hình.
+= The intraoral camera is small like a pen. => Camera trong miệng nhỏ như một cây bút.
+@laser
+= The laser does not hurt. => Tia laser không gây đau.
+= A laser makes a thin beam of light. => Laser tạo ra một chùm ánh sáng mảnh.
+@air abrasion
+= Air abrasion removes decay without a drill. => Thổi cát lấy đi phần sâu mà không cần khoan.
+= Children like air abrasion because it is quiet. => Trẻ em thích thổi cát vì nó êm.
+@CAD
+= CAD helps the lab design a crown. => CAD giúp phòng lab thiết kế mão răng.
+= The technician learned CAD at school. => Kỹ thuật viên đã học CAD ở trường.
+@CAM
+= CAM makes the crown in one hour. => CAM làm xong mão răng trong một giờ.
+= With CAM, a machine cuts the crown. => Với CAM, máy móc cắt ra mão răng.

@@ -1,0 +1,191 @@
+# U11
+@appointment
+= I have an appointment at 3 p.m. => Tôi có lịch hẹn lúc 3 giờ chiều.
+= Can I make an appointment for Monday? => Tôi có thể đặt lịch hẹn vào thứ Hai không?
+@schedule
+= Let me schedule your next visit. => Để tôi xếp lịch cho lần khám tới của bạn.
+= We can schedule you on Friday. => Chúng tôi có thể xếp lịch cho bạn vào thứ Sáu.
+@reschedule
+= I need to reschedule my visit. => Tôi cần dời lịch khám.
+= Can we reschedule for next week? => Chúng ta dời lịch sang tuần sau được không?
+@cancel
+= Please call if you need to cancel. => Vui lòng gọi điện nếu bạn cần hủy hẹn.
+= She had to cancel her appointment because she was sick. => Cô ấy phải hủy lịch hẹn vì bị ốm.
+@notice
+= Please give us 24 hours' notice. => Vui lòng báo trước cho chúng tôi 24 giờ.
+= He cancelled without notice. => Anh ấy hủy hẹn mà không báo trước.
+@no-show
+= A no-show wastes the dentist's time. => Người không đến hẹn làm mất thời gian của nha sĩ.
+= We had one no-show this morning. => Sáng nay có một người không đến hẹn.
+@walk-in
+= We accept a walk-in if we have time. => Chúng tôi nhận khách không hẹn nếu còn thời gian.
+= The walk-in waited for an hour. => Người đến không hẹn đã chờ một tiếng.
+@date
+= What date is good for you? => Ngày nào thì tiện cho bạn?
+= Write the date on the form. => Hãy ghi ngày lên tờ phiếu.
+@time
+= What time is my appointment? => Lịch hẹn của tôi lúc mấy giờ?
+= Please arrive on time. => Vui lòng đến đúng giờ.
+@weekday
+= We open every weekday. => Chúng tôi mở cửa tất cả các ngày trong tuần.
+= Is a weekday better for you? => Ngày thường có tiện hơn cho bạn không?
+@weekend
+= We are closed on the weekend. => Chúng tôi đóng cửa vào cuối tuần.
+= Do you have a weekend appointment? => Bạn có lịch hẹn cuối tuần không?
+@evening
+= We are open until 7 in the evening. => Chúng tôi mở cửa đến 7 giờ tối.
+= I can only come in the evening. => Tôi chỉ có thể đến vào buổi tối.
+@business hours
+= The clinic is closed outside business hours. => Phòng khám đóng cửa ngoài giờ làm việc.
+= Please call during business hours. => Vui lòng gọi trong giờ làm việc.
+# U12
+@cost
+= What is the cost of a filling? => Chi phí trám một răng là bao nhiêu?
+= The cost is 500,000 dong. => Chi phí là 500.000 đồng.
+@fee
+= The fee for a check-up is low. => Phí khám định kỳ thấp.
+= Is there a fee for X-rays? => Chụp X-quang có mất phí không?
+@payment
+= Thank you for your payment. => Cảm ơn bạn đã thanh toán.
+= Your first payment is due today. => Khoản thanh toán đầu tiên của bạn đến hạn hôm nay.
+@cash
+= Can I pay in cash? => Tôi trả bằng tiền mặt được không?
+= I don't have any cash with me. => Tôi không mang theo tiền mặt.
+@credit card
+= Can I pay by credit card? => Tôi trả bằng thẻ tín dụng được không?
+= Please sign here for your credit card. => Vui lòng ký vào đây cho giao dịch thẻ tín dụng.
+@personal check
+= We do not accept a personal check. => Chúng tôi không nhận séc cá nhân.
+= He paid with a personal check. => Anh ấy trả bằng séc cá nhân.
+@insurance
+= Do you have dental insurance? => Bạn có bảo hiểm nha khoa không?
+= Please show me your insurance card. => Vui lòng cho tôi xem thẻ bảo hiểm của bạn.
+@cover
+= Does your insurance cover cleaning? => Bảo hiểm của bạn có chi trả cho việc làm sạch răng không?
+= The plan will cover half the cost. => Gói bảo hiểm sẽ chi trả một nửa chi phí.
+@co-payment
+= Your co-payment is 20 dollars. => Khoản đồng chi trả của bạn là 20 đô la.
+= Please pay the co-payment at the front desk. => Vui lòng trả khoản đồng chi trả tại quầy lễ tân.
+@authorization
+= We are waiting for authorization. => Chúng tôi đang chờ giấy chấp thuận.
+= The authorization came this morning. => Giấy chấp thuận đã đến sáng nay.
+@balance
+= You have a balance of 30 dollars. => Bạn còn nợ 30 đô la.
+= Please pay the balance today. => Vui lòng trả số tiền còn nợ hôm nay.
+@financing
+= We offer financing for braces. => Chúng tôi có cho vay trả góp khi niềng răng.
+= Ask about financing at the front desk. => Hãy hỏi về trả góp ở quầy lễ tân.
+@payment plan
+= You can pay with a payment plan. => Bạn có thể trả theo kế hoạch trả góp.
+= The payment plan is six months long. => Kế hoạch trả góp kéo dài sáu tháng.
+@patient responsibility
+= This part is patient responsibility. => Phần này là trách nhiệm thanh toán của bệnh nhân.
+= Your patient responsibility is 40 dollars. => Phần bạn phải tự trả là 40 đô la.
+# U13
+@communication
+= Good communication helps patients relax. => Giao tiếp tốt giúp bệnh nhân thư giãn.
+= Communication is important in dentistry. => Giao tiếp rất quan trọng trong nha khoa.
+@verbal
+= Give clear verbal instructions. => Hãy đưa ra lời dặn rõ ràng bằng lời nói.
+= A smile is not verbal. => Nụ cười không phải là lời nói.
+@nonverbal
+= A nod is nonverbal communication. => Gật đầu là giao tiếp không bằng lời.
+= Watch the patient's nonverbal signs. => Hãy chú ý cử chỉ không lời của bệnh nhân.
+@eye contact
+= Some patients avoid eye contact. => Một số bệnh nhân tránh nhìn vào mắt.
+= Eye contact shows you are listening. => Nhìn vào mắt cho thấy bạn đang lắng nghe.
+@listen
+= Listen to your body when it hurts. => Hãy lắng nghe cơ thể khi bị đau.
+= I listen carefully to every question. => Tôi lắng nghe kỹ từng câu hỏi.
+@explain
+= Let me explain the treatment. => Để tôi giải thích cách điều trị.
+= Can you explain what a root canal is? => Bạn có thể giải thích điều trị tủy là gì không?
+@interrupt
+= Don't interrupt the patient. => Đừng ngắt lời bệnh nhân.
+= Sorry to interrupt, but your next patient is here. => Xin lỗi phải ngắt lời, bệnh nhân tiếp theo đã đến.
+@open-ended question
+= "How do you feel?" is an open-ended question. => "Bạn cảm thấy thế nào?" là một câu hỏi mở.
+= Start with an open-ended question. => Hãy bắt đầu bằng một câu hỏi mở.
+@care
+= We care about your comfort. => Chúng tôi quan tâm đến sự thoải mái của bạn.
+= Show patients that you care. => Hãy cho bệnh nhân thấy bạn quan tâm.
+@concern
+= Do you have any concern about the treatment? => Bạn có lo lắng gì về việc điều trị không?
+= Her main concern is the pain. => Mối lo chính của cô ấy là cơn đau.
+@sympathize
+= I sympathize with you; it hurts a lot. => Tôi hiểu cảm giác của bạn, chắc là đau lắm.
+= Good dentists sympathize with nervous patients. => Nha sĩ giỏi thông cảm với bệnh nhân hay lo lắng.
+@reassurance
+= The child needs reassurance. => Đứa trẻ cần được trấn an.
+= A kind word gives reassurance. => Một lời nói tử tế mang lại sự an tâm.
+# U14
+@hygiene
+= Good hygiene keeps your teeth healthy. => Vệ sinh tốt giữ cho răng khỏe.
+= Hand hygiene is important in the clinic. => Vệ sinh tay rất quan trọng ở phòng khám.
+@daily
+= Daily brushing keeps decay away. => Đánh răng hằng ngày giúp tránh sâu răng.
+= Brushing is a daily habit. => Đánh răng là thói quen hằng ngày.
+@toothbrush
+= Do not share your toothbrush. => Đừng dùng chung bàn chải đánh răng.
+= Use a soft toothbrush. => Hãy dùng bàn chải lông mềm.
+@toothpaste
+= Use a little toothpaste. => Hãy dùng một chút kem đánh răng.
+= This toothpaste has fluoride. => Kem đánh răng này có fluor.
+@floss
+= Floss between your teeth. => Hãy dùng chỉ nha khoa làm sạch kẽ răng.
+= I use floss every night. => Tôi dùng chỉ nha khoa mỗi tối.
+@mouthwash
+= This mouthwash has no alcohol. => Nước súc miệng này không có cồn.
+= Do not swallow the mouthwash. => Đừng nuốt nước súc miệng.
+@fluoride
+= Fluoride makes teeth strong. => Fluor làm răng chắc khỏe.
+= The dentist put fluoride on my child's teeth. => Nha sĩ bôi fluor lên răng con tôi.
+@bacteria
+= Bacteria live in your mouth. => Vi khuẩn sống trong miệng bạn.
+= Brushing removes bacteria. => Đánh răng lấy đi vi khuẩn.
+@sugar
+= Too much sugar causes decay. => Quá nhiều đường gây sâu răng.
+= Drink tea without sugar. => Hãy uống trà không đường.
+@acid
+= Soda has a lot of acid. => Nước ngọt có ga chứa nhiều axit.
+= Acid makes enamel weak. => Axit làm men răng yếu đi.
+@accumulate
+= Food can accumulate between your teeth. => Thức ăn có thể tích tụ giữa các kẽ răng.
+= Bacteria accumulate when you do not brush. => Vi khuẩn tích tụ khi bạn không đánh răng.
+# U15
+@prophylaxis
+= You need a prophylaxis every six months. => Bạn cần làm sạch răng định kỳ sáu tháng một lần.
+= The prophylaxis took thirty minutes. => Buổi làm sạch răng mất ba mươi phút.
+@plaque
+= Plaque is soft and sticky. => Mảng bám mềm và dính.
+= Plaque turns into tartar. => Mảng bám biến thành cao răng.
+@tartar
+= Tartar is hard and yellow. => Cao răng cứng và có màu vàng.
+= Only a dentist can remove tartar. => Chỉ nha sĩ mới lấy được cao răng.
+@deposit
+= There is a hard deposit on this tooth. => Có một lớp cặn cứng trên răng này.
+= Coffee leaves a brown deposit. => Cà phê để lại lớp cặn màu nâu.
+@build up
+= Plaque can build up fast. => Mảng bám có thể tích tụ rất nhanh.
+= Do not let food build up between your teeth. => Đừng để thức ăn tích tụ giữa các kẽ răng.
+@scrape
+= This tool can scrape the root clean. => Dụng cụ này có thể cạo sạch chân răng.
+= Do not scrape your gums with your nails. => Đừng cạo nướu bằng móng tay.
+@remove
+= We will remove the old filling. => Chúng tôi sẽ lấy miếng trám cũ ra.
+= Floss helps remove food. => Chỉ nha khoa giúp lấy thức ăn ra.
+@clean
+= Clean your teeth after meals. => Hãy làm sạch răng sau bữa ăn.
+= The hygienist will clean your teeth today. => Hôm nay chuyên viên vệ sinh sẽ làm sạch răng cho bạn.
+@apply
+= Apply a thin layer of gel. => Hãy bôi một lớp gel mỏng.
+= The dentist will apply fluoride now. => Bây giờ nha sĩ sẽ bôi fluor.
+@prophylaxis paste
+= Prophylaxis paste feels a little gritty. => Kem đánh bóng răng hơi sạn.
+= This prophylaxis paste tastes like mint. => Kem đánh bóng răng này có vị bạc hà.
+@polish
+= We polish your teeth at the end. => Chúng tôi đánh bóng răng cho bạn ở bước cuối.
+= Polish the filling until it is smooth. => Đánh bóng miếng trám cho đến khi láng mịn.
+@spit
+= Rinse your mouth and spit the water out. => Súc miệng rồi nhổ nước ra.
+= Do not spit on the floor. => Đừng nhổ ra sàn.
