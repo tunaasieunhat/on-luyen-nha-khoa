@@ -1565,6 +1565,7 @@ body.sim-playing #scr-sim>.topbar{display:none}
 .pf-form{display:grid;gap:10px;margin-top:14px}
 .pf-form .actions{display:flex;gap:12px;align-items:center}
 .pf-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:16px 0 0}
+@media (max-width:520px){.pf-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.pf-stats div:last-child:nth-child(odd){grid-column:1/-1}}
 .pf-stats div{background:var(--wall);border-radius:12px;padding:10px 8px;text-align:center;min-width:0}
 .pf-stats dt{font-size:.78rem;color:var(--muted);font-weight:600}
 .pf-stats dd{margin:2px 0 0;font-family:var(--f-display);font-weight:800;font-size:1.35rem}
@@ -1583,6 +1584,31 @@ body.sim-playing #scr-sim>.topbar{display:none}
 .step-bar{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
 .step-bar strong{font-family:var(--f-display);font-size:1.15rem;min-width:0;overflow-wrap:anywhere}
 .subj-btns.step-big{grid-template-columns:1fr}
+/* ---- 2.7.0: tiến độ, sổ câu sai, flashcard nhớ/chưa nhớ, sao lưu ---- */
+.pg{display:grid;gap:4px;min-width:0}
+.lesson-row .pg{grid-column:1/-1;margin-top:6px}
+.pg small{font-size:.82rem;color:var(--muted);line-height:1.35}
+.pg small b{color:var(--ink)}
+.pg-bar{display:block;height:7px;border-radius:99px;background:var(--wall);overflow:hidden;border:1px solid var(--line)}
+.pg-bar i{display:block;height:100%;border-radius:99px;background:var(--scrub);transition:width .4s ease}
+.pg small b.pg-ok{color:var(--ok)}.pg small b.pg-mid{color:var(--lamp-deep)}.pg small b.pg-low{color:var(--bad)}
+.pg-sub{margin-top:8px;width:100%}
+.pg-hint{margin:8px 0 0;font-size:.88rem;line-height:1.4;width:100%}
+.sys-subject{flex-wrap:wrap}
+.wb-card{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:12px 14px;border-radius:14px;border:2px solid var(--bad);background:var(--bad-soft,#FCE4E2);margin-bottom:12px}
+.wb-card[hidden]{display:none}
+.wb-t{flex:1;min-width:180px;display:grid;gap:2px}
+.wb-t small{color:var(--muted);font-size:.82rem}
+.fc-srs{text-align:center;font-size:.88rem;color:var(--muted);min-height:1.3em}
+.fc-srs b{font-family:var(--f-mono)}.fc-srs .st-due{color:var(--bad)}.fc-srs .st-new{color:var(--lamp-deep)}.fc-srs .st-ok{color:var(--ok)}
+.fc-judge{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.fc-judge .btn{justify-content:center;min-height:46px;font-size:1rem}
+.fc-no-btn{color:var(--bad)}
+.pf-bk{margin-top:18px;padding-top:14px;border-top:2px dashed var(--line);display:grid;gap:8px}
+.pf-bk h3{margin:0;font-size:1.05rem}
+.pf-bk-act{display:flex;gap:10px;flex-wrap:wrap}
+#bk-msg{margin:0}
+#bk-msg .btn{margin-top:6px}
 /* @@V256-CSS */
 /* ---- 2.5.7: màn mở đầu đồng bộ với Tiệm Hoa Giấc Mơ (Dreamer Games) ----
    DREAMER / GAMES trên trời sao → quầng sáng hồng nở ra → nền pastel hồng–xanh có hoa giấy, logo + tên app → mờ vào app */
@@ -1766,9 +1792,11 @@ body.sim-playing #scr-sim>.topbar{display:none}
       </div>
       <div class="panel" id="pick-panel-sys" role="tabpanel" aria-labelledby="pick-mode-sys">
         <span id="sys-count" hidden></span>
+        <div class="wb-card step-sub" id="wb-all" hidden></div>
         <div class="field step-sub"><span class="lbl">Chọn môn học</span><div class="subj-btns" id="sys-subjects" role="group" aria-label="Chọn môn học"></div></div>
         <div class="step-bar step-list"><button class="btn btn-sm" type="button" data-stepback="q"><svg class="i" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>Đổi môn</button></div>
         <div class="sys-subject step-list" id="sys-subject"></div>
+        <div class="wb-card step-list" id="wb-sub" hidden></div>
         <div class="count-pick step-list">
           <span class="lbl" id="count-lbl">Số câu mỗi lượt</span>
           <div class="chips-row" id="count-chips" role="group" aria-labelledby="count-lbl"></div>
@@ -1938,6 +1966,16 @@ body.sim-playing #scr-sim>.topbar{display:none}
           <div class="actions"><button class="btn btn-gum btn-sm" type="submit">Lưu</button><button class="btn-link" type="button" id="pf-cancel">Huỷ</button></div>
         </form>
         <dl class="pf-stats" id="pf-stats"></dl>
+        <div class="pf-bk">
+          <h3>Sao lưu dữ liệu</h3>
+          <p class="fine">Tiến độ, sổ câu sai, thẻ đã nhớ và lịch sử thi chỉ nằm trên máy này. Xuất file để cất đi hoặc chuyển sang máy khác.</p>
+          <div class="pf-bk-act">
+            <button class="btn btn-sm btn-scrub" type="button" id="bk-export"><svg class="i" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5"/><path d="M5 20h14"/></svg>Xuất file sao lưu</button>
+            <button class="btn btn-sm" type="button" id="bk-import"><svg class="i" viewBox="0 0 24 24"><path d="M12 20V9M7 14l5-5 5 5"/><path d="M5 4h14"/></svg>Nhập file sao lưu</button>
+            <input type="file" id="bk-file" accept=".json,application/json,text/plain" hidden>
+          </div>
+          <p class="fine" id="bk-msg" aria-live="polite"></p>
+        </div>
       </section>
       <section class="panel" id="pf-p-subs" role="tabpanel" aria-labelledby="pf-tab-subs" hidden>
         <span id="pf-subs-n" hidden></span>
@@ -1972,6 +2010,11 @@ body.sim-playing #scr-sim>.topbar{display:none}
             <span class="face back"><span class="face-top"><span class="tag" id="fc-src"></span></span><span class="fc-def" id="fc-back"></span><span class="fc-hint">Chạm để lật lại</span></span>
           </span>
         </button>
+        <div class="fc-srs" id="fc-srs"><span id="fc-stat"></span></div>
+        <div class="deck-ctl fc-judge">
+          <button class="btn btn-sm fc-no-btn" id="f-again" type="button">Chưa nhớ</button>
+          <button class="btn btn-sm btn-scrub fc-yes-btn" id="f-know" type="button">Nhớ rồi</button>
+        </div>
         <div class="deck-ctl">
           <button class="btn btn-sm" id="f-prev" type="button" aria-label="Thẻ trước"><svg class="i" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>Trước</button>
           <span class="deck-count" id="f-count">0 / 0</span>
@@ -4055,8 +4098,9 @@ const roundSize = (n, whole) => whole || curCount() === 'all' ? n : Math.min(cur
 // Kỷ lục tính riêng theo số câu; 10 câu giữ khóa cũ để không mất kỷ lục đã có
 const countSuffix = c => c === 10 || c === undefined ? '' : '#' + c;
 const selKey = sel => selBase(sel) + (sel.mode === 'bank' && sel.whole ? '' : countSuffix(sel.count === undefined ? curCount() : sel.count)) + lvSuffix(sel);
-const selBase = sel => sel.mode === 'all' ? 'ALL' : sel.mode === 'sys' ? 'SYS' + (sel.sk ? ':' + sel.sk : '') : sel.mode === 'bank' ? 'B:' + sel.bank + (sel.whole ? ':all' : '') : 'S:' + [...sel.keys].sort().join('+');
+const selBase = sel => sel.mode === 'wrong' ? 'W' + (sel.sk ? ':' + sel.sk : '') : sel.mode === 'all' ? 'ALL' : sel.mode === 'sys' ? 'SYS' + (sel.sk ? ':' + sel.sk : '') : sel.mode === 'bank' ? 'B:' + sel.bank + (sel.whole ? ':all' : '') : 'S:' + [...sel.keys].sort().join('+');
 function selName(sel) {
+  if (sel.mode === 'wrong') { const sb = sel.sk && subjects().find(x => x.key === sel.sk); return 'Ôn lại câu sai' + (sb ? ' · ' + sb.name : ''); }
   if (sel.mode === 'all') return 'Tổng hợp';
   if (sel.mode === 'sys') { const sb = sel.sk && systemSubjects(banks().filter(b => b.fixed)).find(x => x.key === sel.sk); return 'Câu hỏi hệ thống' + (sb ? ' · ' + sb.name : ''); }
   if (sel.mode === 'bank') { const b = findBank(sel.bank); return (b ? b.name : 'Ngân hàng câu hỏi') + (sel.whole ? ' · cả bộ' : ''); }
@@ -4068,6 +4112,7 @@ const poolForAll = sel => {
   if (sel.mode === 'all') return qs;
   if (sel.mode === 'sys') return qs.filter(q => q.fixed && (!sel.sk || q.sk === sel.sk));
   if (sel.mode === 'bank') return qs.filter(q => (q.fixed || AI_SRC.includes(q.source)) && bankIdOf(q) === sel.bank);
+  if (sel.mode === 'wrong') return wbList(sel.sk);
   return qs.filter(q => sel.keys.includes(q.sk));
 };
 const poolFor = sel => poolForAll(sel).filter(q => lvMatch(q, sel.level || curLevel()));
@@ -5263,7 +5308,8 @@ function lessonHTML(l) {
   const k = roundSize(n, false);
   const best = S.player ? (getBest(selKey({ mode: 'bank', bank: b.id })) || getBest(selKey({ mode: 'bank', bank: b.id, whole: true }))) : null;
   const qs = open ? `<ol class="bank-qs">${b.qs.map(q => `<li class="bq"><p class="gq">${lvBadge(q)}${esc(q.q)}</p><ol class="gopts" type="A">${q.options.map((o, j) => `<li class="${j === q.answer ? 'right' : ''}">${esc(o)}</li>`).join('')}</ol>${q.explain ? `<p class="gex">${esc(q.explain)}</p>` : ''}</li>`).join('')}</ol>` : '';
-  return `<li class="lesson has${open ? ' open' : ''}"><div class="lesson-row">${head}<small><b>${n} câu</b>${best ? ` · Kỷ lục: ${best.best} điểm, đúng ${best.correct}/${best.total}` : ' · Bạn chưa làm bài này'}</small></div>
+  const g = progOf(b.qs);
+  return `<li class="lesson has${open ? ' open' : ''}" id="ls-${esc(b.id)}"><div class="lesson-row">${head}<small><b>${n} câu</b>${best ? ` · Kỷ lục: ${best.best} điểm` : ''}</small><span class="pg">${progBar(g)}<small>${progLine(g)}</small></span></div>
     <div class="lesson-act">
       <button class="btn btn-sm btn-gum" type="button" data-bplay="${esc(b.id)}">${k < n ? `Làm ${k} câu` : `Làm bài (${n} câu)`}</button>
       ${k < n ? `<button class="btn btn-sm" type="button" data-bplayall="${esc(b.id)}">Làm cả bài (${n})</button>` : ''}
@@ -5282,8 +5328,16 @@ function renderSystem() {
       <span class="sb-ic">${I.shield}</span><span><strong>${esc(x.name)}</strong><small>${x.lessons.length ? `${x.lessons.length} bài · ` : ''}${x.nQ ? `${x.nQ} câu` : curLevel() !== 'all' ? 'Chưa có câu ' + LV_NAME[curLevel()] : 'Chưa có câu hỏi'}</small></span></button>`).join('');
   const sub = subs.find(x => x.key === S.sysFilter);
   const head = $('#sys-subject'), mix = $('#sys-mix'), list = $('#sys-list');
+  // Sổ câu sai: tất cả môn (bước 1) và môn đang chọn (bước 2)
+  const wbA = wbList(), wbS = sub ? wbA.filter(q => q.sk === sub.key) : [];
+  const wbHTML = (n, sk, label) => `<div class="wb-t"><strong>${label}</strong><small>${n} câu đang chờ ôn lại · đúng ${WB_OUT} lần liên tiếp thì câu rời sổ</small></div><button class="btn btn-sm btn-gum" type="button" data-wrong="${esc(sk || '')}">Ôn lại câu sai</button>`;
+  $('#wb-all').hidden = !wbA.length; $('#wb-all').innerHTML = wbA.length ? wbHTML(wbA.length, '', 'Sổ câu sai') : '';
+  $('#wb-sub').hidden = !wbS.length; $('#wb-sub').innerHTML = wbS.length ? wbHTML(wbS.length, sub.key, 'Câu sai của môn này') : '';
   if (!sub) { head.innerHTML = ''; mix.hidden = true; list.innerHTML = `<li class="lesson-empty">Chưa có câu hỏi hệ thống nào.</li>`; return; }
-  head.innerHTML = `<h4>${esc(sub.name)}</h4><span>${sub.lessons.length ? `${sub.lessons.length} bài · ${sub.nLessonsWithQ} bài đã có câu hỏi · ` : ''}${sub.nQ} câu${curLevel() !== 'all' ? ' ' + LV_NAME[curLevel()] : ''}</span>`;
+  const gS = progOf(sets.filter(b => b.sk === sub.key).flatMap(b => b.qs)), wk = weakLesson(sub.key);
+  head.innerHTML = `<h4>${esc(sub.name)}</h4><span>${sub.lessons.length ? `${sub.lessons.length} bài · ` : ''}${sub.nQ} câu${curLevel() !== 'all' ? ' ' + LV_NAME[curLevel()] : ''}</span>
+    <div class="pg pg-sub">${progBar(gS)}<small>${progLine(gS)}</small></div>
+    ${wk ? `<p class="pg-hint">💡 <b>${esc(wk.name)}</b> đang yếu nhất (đúng ${pct(wk.g.acc)}). <button class="btn-link" type="button" data-bplay="${esc(wk.id)}">Ôn bài này</button></p>` : ''}`;
   mix.hidden = sub.nLessonsWithQ < 2;
   if (!mix.hidden) {
     const best = S.player ? getBest(selKey({ mode: 'sys', sk: sub.key })) : null;
@@ -5315,14 +5369,14 @@ function updatePickStatus() {
 /* ================= QUIZ: PLAY ================= */
 function startQuiz(sel) {
   let pool = poolFor(sel);
-  if (!pool.length) { toast('Chưa có câu hỏi trong phạm vi này. Hãy vào “Thêm câu hỏi” trước nhé.'); return; }
+  if (!pool.length) { toast(sel.mode === 'wrong' ? 'Sổ câu sai đang trống. Giỏi lắm!' : 'Chưa có câu hỏi trong phạm vi này.'); if (sel.mode === 'wrong' && S.screen === 'quiz') { showQuizPhase('pick'); renderPick(); } return; }
   const count = curCount(), whole = sel.mode === 'bank' && !!sel.whole;
   const limit = whole ? pool.length : roundSize(pool.length, false);
   pool = shuffle(pool.slice()).slice(0, limit).map(q => {
     const idx = shuffle([0, 1, 2, 3]);
     return { ...q, options: idx.map(i => q.options[i]), answer: idx.indexOf(q.answer) };
   });
-  S.lastSel = { mode: sel.mode, keys: [...(sel.keys || [])], count, level: sel.level || curLevel(), ...(sel.mode === 'bank' ? { bank: sel.bank, whole } : {}), ...(sel.mode === 'sys' && sel.sk ? { sk: sel.sk } : {}) };
+  S.lastSel = { mode: sel.mode, keys: [...(sel.keys || [])], count, level: sel.level || curLevel(), ...(sel.mode === 'wrong' && sel.sk ? { sk: sel.sk } : {}), ...(sel.mode === 'bank' ? { bank: sel.bank, whole } : {}), ...(sel.mode === 'sys' && sel.sk ? { sk: sel.sk } : {}) };
   S.quiz = { sel: S.lastSel, key: selKey(S.lastSel), name: selName(S.lastSel), qs: pool, i: 0, score: 0, correct: 0, wrong: 0, answered: false, deadline: 0 };
   $('#qz-subject').textContent = S.quiz.name;
   $('#qz-total').textContent = pool.length;
@@ -5378,6 +5432,7 @@ function answer(choice) {
   const q = z.qs[z.i];
   const left = Math.max(0, z.deadline - performance.now()) / 1000;
   const ok = choice === q.answer;
+  Track.rec(q, ok);
   const pts = ok ? ptsFor(left) : 0;
   const pv = $('#qz-pts'); pv.classList.remove('drop'); pv.classList.add(ok ? 'got' : 'miss'); pv.textContent = '+' + pts + 'đ';
   z.score += pts; if (ok) z.correct++; else z.wrong++;
@@ -5530,7 +5585,10 @@ function renderDeck(keep) {
     const byId = new Map(cards.map(c => [c.id, c]));
     d.list = d.order.map(id => byId.get(id)).filter(Boolean);
     if (d.list.length !== cards.length) d.list = cards;
-  } else d.list = cards;
+  } else {
+    const rank = { due: 0, new: 1, ok: 2 };
+    d.list = cards.map((c, i) => [c, i]).sort((a, b) => (rank[Cards.state(a[0].id)] - rank[Cards.state(b[0].id)]) || (a[1] - b[1])).map(x => x[0]);
+  }
   d.order = d.list.map(c => c.id);
   if (keep && curId) { const j = d.list.findIndex(c => c.id === curId); d.i = j >= 0 ? j : Math.min(d.i, d.list.length - 1); }
   else d.i = 0;
@@ -5545,6 +5603,9 @@ function paintCard() {
   $('#f-count').textContent = d.list.length ? `${d.i + 1} / ${d.list.length}` : '0 / 0';
   $('#f-prev').disabled = $('#f-next').disabled = d.list.length < 2;
   $('#f-shuffle').disabled = d.list.length < 2;
+  const cnt = { due: 0, new: 0, ok: 0 }; d.list.forEach(x => cnt[Cards.state(x.id)]++);
+  $('#fc-stat').innerHTML = d.list.length ? `<b class="st-due">${cnt.due}</b> cần ôn · <b class="st-new">${cnt.new}</b> mới · <b class="st-ok">${cnt.ok}</b> đã nhớ` : '';
+  $('#f-again').disabled = $('#f-know').disabled = !d.list.length;
   if (!c) {
     $('#fc-subj').textContent = ''; $('#fc-no').textContent = '';
     $('#fc-front').textContent = 'Chưa có thẻ nào';
@@ -5552,7 +5613,8 @@ function paintCard() {
     $('#fc-src').textContent = ''; $('#f-del').hidden = true; return;
   }
   $('#fc-subj').textContent = c.tk !== c.sk ? `${c.subject} · ${c.topic}` : c.subject;
-  $('#fc-no').textContent = `THẺ ${String(d.i + 1).padStart(2, '0')}`;
+  const st = Cards.state(c.id);
+  $('#fc-no').textContent = `${st === 'due' ? 'CẦN ÔN' : st === 'new' ? 'MỚI' : 'ĐÃ NHỚ'} · ${String(d.i + 1).padStart(2, '0')}`;
   $('#fc-front').textContent = c.front;
   $('#fc-back').textContent = c.back;
   $('#fc-src').textContent = c.fixed ? 'Thẻ hệ thống' : `Thêm bởi ${c.by || 'ẩn danh'}`;
@@ -5560,6 +5622,15 @@ function paintCard() {
   card.setAttribute('aria-label', d.flipped ? `Mặt sau: ${c.back}. Bấm để lật lại.` : `Mặt trước: ${c.front}. Bấm để lật xem giải thích.`);
 }
 function flip() { S.deck.flipped = !S.deck.flipped; paintCard(); }
+// Nhớ rồi: thẻ thưa dần (1, 3, 7, 14, 30 ngày). Chưa nhớ: thẻ quay lại sau 3 thẻ nữa.
+function judge(remembered) {
+  const d = S.deck, c = d.list[d.i]; if (!c) return;
+  Cards.mark(c.id, remembered);
+  if (!remembered && d.list.length > 1) {
+    d.list.splice(d.i, 1); d.list.splice(Math.min(d.list.length, d.i + 3), 0, c); d.order = d.list.map(x => x.id);
+  } else if (d.list.length > 1) d.i = (d.i + 1) % d.list.length;
+  d.flipped = false; paintCard();
+}
 function step(n) {
   const d = S.deck; if (d.list.length < 2) return;
   d.i = (d.i + n + d.list.length) % d.list.length; d.flipped = false; paintCard();
@@ -5608,6 +5679,7 @@ function wire() {
     if (t.dataset.thcover) { const im = t.querySelector('img'); if (im) figOpen(im); return; }
     if (t.id === 'th-close') { closeLesson(); return; }
     if (t.id === 'th-top') { try { window.scrollTo({ top: 0, behavior: reduced ? 'auto' : 'smooth' }); } catch { window.scrollTo(0, 0); } return; }
+    if (t.dataset.wrong !== undefined) { startQuiz({ mode: 'wrong', sk: t.dataset.wrong || '', level: 'all' }); return; }
     if (t.dataset.bplay || t.dataset.bplayall) { startQuiz({ mode: 'bank', bank: t.dataset.bplay || t.dataset.bplayall, whole: !!t.dataset.bplayall }); return; }
     if (t.dataset.bview) { const id = t.dataset.bview; if (S.bankOpen.has(id)) S.bankOpen.delete(id); else S.bankOpen.add(id); renderBanks(); return; }
     if (t.classList.contains('music-btn') || t.id === 'intro-music') { toggleMusic(); return; }
@@ -5721,6 +5793,8 @@ function wire() {
   $('#fcard').addEventListener('click', flip);
   $('#f-prev').addEventListener('click', () => step(-1));
   $('#f-next').addEventListener('click', () => step(1));
+  $('#f-again').addEventListener('click', () => judge(false));
+  $('#f-know').addEventListener('click', () => judge(true));
   $('#f-shuffle').addEventListener('click', () => { const d = S.deck; shuffle(d.list); d.order = d.list.map(c => c.id); d.i = 0; d.flipped = false; paintCard(); toast('Đã trộn bộ thẻ.'); });
   $('#f-del').addEventListener('click', e => {
     const c = S.deck.list[S.deck.i]; if (!c) return;
@@ -5982,7 +6056,7 @@ function exSubmit(auto) {
   const used = Math.min(r.time * 60000, Math.max(0, Date.now() - r.start));
   const lv = { de: [0, 0], vd: [0, 0], nc: [0, 0] };
   let c = 0;
-  r.items.forEach(it => { const ok = it.a >= 0 && it.o[it.a] === it.q.answer; it.ok = ok; const l = lvOf(it.q); lv[l][1]++; if (ok) { lv[l][0]++; c++; } });
+  r.items.forEach(it => { const ok = it.a >= 0 && it.o[it.a] === it.q.answer; it.ok = ok; const l = lvOf(it.q); lv[l][1]++; if (ok) { lv[l][0]++; c++; } if (it.a >= 0) Track.rec(it.q, ok); });
   const sc = c / r.count * 10;
   const rec = { pk: r.pk, sk: r.sk, subj: r.name, name: r.name + (r.scope && r.scope !== 'Cả môn' ? ' · ' + r.scope : ''), n: r.count, t: r.time, c, sc: Math.round(sc * 100) / 100, used, lv, ts: Date.now() };
   const hist = (store.get('examHist', []) || []).filter(h => h && h.ts); hist.unshift(rec); store.set('examHist', hist.slice(0, 40));
@@ -6073,6 +6147,71 @@ function v20Wire() {
 // Rời màn Phòng Thi giữa chừng: lưu bài, đồng hồ vẫn chạy như thi thật
 function exLeaveScreen() { if (EX.run) { exStop(); exSaveRun(); EX.run = null; toast('Đã lưu bài thi làm dở. Vào Thi Thử để làm tiếp.'); } }
 /* @@V20-JS-END */
+/* ================= THEO DÕI VIỆC HỌC (Version 2.7.0) =================
+   Track: kết quả từng câu (Ôn luyện + Thi thử) và Sổ câu sai, lưu theo người chơi.
+     p[id] = [số lần làm, số lần đúng, lần gần nhất đúng (1/0), thời điểm]
+     w[id] = [số lần đúng liên tiếp kể từ khi vào sổ, thời điểm vào sổ]  — đúng 2 lần liên tiếp thì rời sổ
+   Cards: lặp lại ngắt quãng cho flashcard, c[id] = [hộp 0–5, hạn ôn tiếp] */
+const WB_OUT = 2;
+const Track = (() => {
+  let pk = null, d = null;
+  const key = () => 'track:' + exPlayerKey();
+  function load() { const k = key(); if (pk !== k || !d) { pk = k; d = store.get(k, null) || {}; d.p = d.p || {}; d.w = d.w || {}; } return d; }
+  let saveT = 0;
+  function save() { clearTimeout(saveT); saveT = setTimeout(() => store.set(pk, d), 120); }
+  function rec(q, ok) {
+    if (!q || !q.id || !q.fixed) return;
+    const t = load(), now = Date.now(), p = t.p[q.id] || [0, 0, 0, 0];
+    p[0]++; if (ok) p[1]++; p[2] = ok ? 1 : 0; p[3] = now; t.p[q.id] = p;
+    if (!ok) t.w[q.id] = [0, now];
+    else if (t.w[q.id]) { t.w[q.id][0]++; if (t.w[q.id][0] >= WB_OUT) delete t.w[q.id]; }
+    save();
+  }
+  return {
+    rec, flush() { clearTimeout(saveT); if (d) store.set(pk, d); },
+    get p() { return load().p; }, get w() { return load().w; },
+    reset() { pk = null; d = null; }
+  };
+})();
+// câu trong Sổ câu sai (chỉ câu hệ thống), có thể lọc theo môn
+const wbList = sk => { const w = Track.w; return allQuestions().filter(q => q.fixed && w[q.id] && (!sk || q.sk === sk)); };
+// tiến độ một nhóm câu: đã làm bao nhiêu câu, tỉ lệ đúng trên số lần làm
+function progOf(qs) {
+  const p = Track.p; let done = 0, a = 0, c = 0;
+  qs.forEach(q => { const x = p[q.id]; if (x && x[0]) { done++; a += x[0]; c += x[1]; } });
+  return { n: qs.length, done, acc: a ? c / a : 0, tries: a };
+}
+const pct = v => Math.round(v * 100) + '%';
+const progBar = g => `<span class="pg-bar" role="img" aria-label="Đã làm ${g.done}/${g.n} câu"><i style="width:${g.n ? Math.round(g.done / g.n * 100) : 0}%"></i></span>`;
+const progLine = g => g.done ? `Đã làm <b>${g.done}/${g.n}</b> câu Dễ · đúng <b class="${g.acc >= .8 ? 'pg-ok' : g.acc >= .5 ? 'pg-mid' : 'pg-low'}">${pct(g.acc)}</b>` : `Chưa làm câu nào trong ${g.n} câu Dễ`;
+// bài yếu nhất của một môn (đã làm ít nhất 5 câu, đúng dưới 80%)
+function weakLesson(sk) {
+  const by = new Map();
+  allQuestions().filter(q => q.fixed && q.sk === sk && lvOf(q) === 'de').forEach(q => { const b = bankIdOf(q); if (!by.has(b)) by.set(b, []); by.get(b).push(q); });
+  let best = null;
+  by.forEach((qs, id) => { const g = progOf(qs); if (g.done >= 5 && g.acc < .8 && (!best || g.acc < best.g.acc)) best = { id, g, name: (findBank(id) || {}).name || qs[0].topic }; });
+  return best;
+}
+
+const Cards = (() => {
+  const DAYS = [0, 1, 3, 7, 14, 30];
+  let pk = null, d = null;
+  const key = () => 'cards:' + exPlayerKey();
+  function load() { const k = key(); if (pk !== k || !d) { pk = k; d = store.get(k, null) || {}; } return d; }
+  return {
+    get(id) { return load()[id] || null; },
+    // 'due' cần ôn · 'new' mới · 'ok' đã nhớ (chưa tới hạn)
+    state(id) { const x = load()[id]; return !x ? 'new' : x[1] <= Date.now() ? 'due' : 'ok'; },
+    mark(id, remembered) {
+      const t = load(), x = t[id] || [0, 0];
+      if (remembered) { x[0] = Math.min(5, x[0] + 1); x[1] = Date.now() + DAYS[x[0]] * 864e5; }
+      else { x[0] = 0; x[1] = Date.now(); }
+      t[id] = x; store.set(pk, t);
+    },
+    reset() { pk = null; d = null; }
+  };
+})();
+
 /* ================= HỒ SƠ (Version 2.7.0): thông tin, môn học, lịch sử thi thử ================= */
 const pfHist = () => (store.get('examHist', []) || []).filter(h => h && h.ts && h.pk === exPlayerKey());
 const fmtTime = ts => { try { const d = new Date(ts); return `${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`; } catch { return ''; } };
@@ -6082,20 +6221,24 @@ function renderProfile() {
   $('#pf-av').textContent = ini; $('#pf-name').textContent = p.name; $('#pf-school').textContent = p.school;
   const hist = pfHist(), n = hist.length;
   const avg = n ? hist.reduce((t, h) => t + (+h.sc || 0), 0) / n : 0, best = n ? Math.max(...hist.map(h => +h.sc || 0)) : 0;
-  $('#pf-stats').innerHTML = `<div><dt>Bài thi thử</dt><dd>${n}</dd></div><div><dt>Điểm trung bình</dt><dd>${n ? fmt10(Math.round(avg * 100) / 100) : '–'}</dd></div><div><dt>Điểm cao nhất</dt><dd>${n ? fmt10(best) : '–'}</dd></div>`;
+  const nAns = Object.keys(Track.p).length, nWb = wbList().length;
+  $('#pf-stats').innerHTML = `<div><dt>Câu đã làm</dt><dd>${nAns}</dd></div><div><dt>Câu sai cần ôn</dt><dd>${nWb}</dd></div><div><dt>Bài thi thử</dt><dd>${n}</dd></div><div><dt>Điểm trung bình</dt><dd>${n ? fmt10(Math.round(avg * 100) / 100) : '–'}</dd></div><div><dt>Điểm cao nhất</dt><dd>${n ? fmt10(best) : '–'}</dd></div>`;
   // môn học: theo thứ tự của app, kèm số liệu và thành tích thi thử của bạn
   const th = theorySubjects(), qs = allQuestions().filter(q => q.fixed);
   const subs = th.map(x => {
     const mine = qs.filter(q => q.sk === x.key), de = mine.filter(q => lvOf(q) === 'de').length;
     const hs = hist.filter(h => h.sk ? h.sk === x.key : (h.subj || h.name || '').startsWith(x.name));
     const nSl = x.lessons.filter(l => slData(l.id)).length, nMm = x.lessons.filter(l => MINDMAPS[l.id]).length;
-    return { ...x, nQ: mine.length, de, hs, nSl, nMm };
+    const g = progOf(mine.filter(q => lvOf(q) === 'de')), wk = weakLesson(x.key), nw = wbList(x.key).length;
+    return { ...x, nQ: mine.length, de, hs, nSl, nMm, g, wk, nw };
   });
   $('#pf-subs-n').textContent = `${subs.length} môn`;
   $('#pf-subs').innerHTML = subs.map(x => {
     const b = x.hs.length ? Math.max(...x.hs.map(h => +h.sc || 0)) : null;
     return `<li class="pf-sub"><div class="pf-sub-h"><strong>${esc(x.name)}</strong><span>${x.lessons.length} bài</span></div>
       <p><b>${x.nQ}</b> câu hỏi (${x.de} câu Dễ) · ${x.nReady} bài tóm tắt${x.nSl ? ` · ${x.nSl} bài có slide` : ''}${x.nMm ? ` · ${x.nMm} sơ đồ` : ''}</p>
+      <div class="pg">${progBar(x.g)}<small>${progLine(x.g)}${x.nw ? ` · <b>${x.nw}</b> câu sai cần ôn` : ''}</small></div>
+      ${x.wk ? `<p class="pg-hint">💡 Nên ôn lại <b>${esc(x.wk.name)}</b> (đúng ${pct(x.wk.g.acc)}).</p>` : ''}
       <p>${x.hs.length ? `Đã thi thử <b>${x.hs.length}</b> lần · cao nhất <b>${fmt10(b)}</b> điểm · gần nhất ${fmtDate(x.hs[0].ts)}` : 'Chưa thi thử môn này.'}</p>
       <div class="pf-sub-act">
         <button class="btn btn-sm btn-scrub" type="button" data-pfgo="quiz" data-sk="${esc(x.key)}">Ôn luyện</button>
@@ -6128,6 +6271,7 @@ function pfSave() {
   if (newK !== oldK) {
     try { store.set('examHist', (store.get('examHist', []) || []).map(h => h && h.pk === oldK ? { ...h, pk: newK } : h)); } catch {}
     try { const r = store.get('examRun', null); if (r && r.pk === oldK) store.set('examRun', { ...r, pk: newK }); } catch {}
+    try { Track.flush(); for (const k of ['track:', 'cards:']) { const v = store.get(k + oldK, null); if (v) { store.set(k + newK, v); store.set(k + oldK, null); } } Track.reset(); Cards.reset(); } catch {}
   }
   store.set('player', S.player);
   $('#in-name').value = S.player.name; $('#in-school').value = S.player.school;
@@ -6163,6 +6307,61 @@ document.addEventListener('click', e => {
   renderDeckFilter(); renderDeck(false);
   try { window.scrollTo(0, 0); } catch {}
 });
+/* ---- Sao lưu (2.7.0): mọi dữ liệu của app trong máy (khoá bắt đầu bằng tunaa.) ---- */
+const BK_APP = 'on-luyen-nha-khoa';
+function bkCollect() {
+  try { Track.flush(); } catch {}
+  const data = {};
+  for (let i = 0; i < localStorage.length; i++) { const k = localStorage.key(i); if (k && k.startsWith('tunaa.')) data[k] = localStorage.getItem(k); }
+  return { app: BK_APP, v: 1, ts: Date.now(), player: S.player, data };
+}
+async function bkExport() {
+  const b = bkCollect(), d = new Date(b.ts);
+  const name = `OnLuyenNhaKhoa-saoluu-${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}.json`;
+  const blob = new Blob([JSON.stringify(b)], { type: 'application/json' });
+  const cl = window.claude;
+  if (cl && typeof cl.use === 'function') {
+    let dl = null; try { dl = await cl.use('downloads'); } catch {}
+    if (dl) { try { await dl.save({ filename: name, data: blob }); $('#bk-msg').textContent = `Đã lưu ${name} vào thư mục Tải xuống.`; return; } catch (e) { if (e && e.code === 'declined') return; } }
+  }
+  const url = URL.createObjectURL(blob), a = document.createElement('a');
+  a.href = url; a.download = name; a.rel = 'noopener'; document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 5000);
+  $('#bk-msg').textContent = `Đang tải ${name}…`;
+}
+let bkPending = null;
+async function bkRead(file) {
+  const msg = $('#bk-msg');
+  try {
+    if (!file || file.size > 20 * 1048576) throw new Error('size');
+    const b = JSON.parse(await file.text());
+    if (!b || b.app !== BK_APP || !b.data || typeof b.data !== 'object') throw new Error('format');
+    const keys = Object.keys(b.data).filter(k => k.startsWith('tunaa.') && typeof b.data[k] === 'string');
+    if (!keys.length) throw new Error('empty');
+    bkPending = { b, keys };
+    const who = b.player && b.player.name ? `của ${esc(b.player.name)}${b.player.school ? ' · ' + esc(b.player.school) : ''}` : '';
+    msg.innerHTML = `File sao lưu ${who}, ngày ${fmtDate(b.ts)} lúc ${fmtTime(b.ts)}. Dữ liệu hiện có trên máy này sẽ được thay bằng dữ liệu trong file. <button class="btn btn-sm btn-gum" type="button" id="bk-apply">Khôi phục</button> <button class="btn-link" type="button" id="bk-cancel">Huỷ</button>`;
+  } catch (e) { bkPending = null; msg.textContent = 'File không đúng. Hãy chọn file sao lưu .json được xuất từ app Ôn Luyện Nha Khoa.'; }
+}
+function bkApply() {
+  if (!bkPending) return;
+  const { b, keys } = bkPending;
+  try {
+    const old = []; for (let i = 0; i < localStorage.length; i++) { const k = localStorage.key(i); if (k && k.startsWith('tunaa.')) old.push(k); }
+    old.forEach(k => localStorage.removeItem(k));
+    keys.forEach(k => localStorage.setItem(k, b.data[k]));
+  } catch { $('#bk-msg').textContent = 'Không ghi được dữ liệu (bộ nhớ máy đầy?). Thử lại sau.'; return; }
+  toast('Đã khôi phục dữ liệu. Đang mở lại app…');
+  setTimeout(() => location.reload(), 700);
+}
+document.addEventListener('click', e => {
+  const t = e.target.closest && e.target.closest('button'); if (!t) return;
+  if (t.id === 'bk-export') bkExport();
+  else if (t.id === 'bk-import') { const f = $('#bk-file'); f.value = ''; f.click(); }
+  else if (t.id === 'bk-apply') bkApply();
+  else if (t.id === 'bk-cancel') { bkPending = null; $('#bk-msg').textContent = ''; }
+});
+document.addEventListener('change', e => { if (e.target && e.target.id === 'bk-file' && e.target.files && e.target.files[0]) bkRead(e.target.files[0]); });
 /* ================= BOOT ================= */
 function start(data) {
   buildAddScreens();

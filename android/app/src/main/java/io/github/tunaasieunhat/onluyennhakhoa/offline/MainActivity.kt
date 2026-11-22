@@ -18,6 +18,7 @@ import android.util.Base64
 import android.view.View
 import android.view.ViewGroup
 import android.webkit.JavascriptInterface
+import android.webkit.ValueCallback
 import android.webkit.WebChromeClient
 import android.webkit.WebResourceRequest
 import android.webkit.WebResourceResponse
@@ -29,6 +30,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.OnBackPressedCallback
 import androidx.activity.SystemBarStyle
 import androidx.activity.enableEdgeToEdge
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.FileProvider
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -55,6 +57,12 @@ class MainActivity : ComponentActivity() {
     private var fullView: View? = null
     private var fullCallback: WebChromeClient.CustomViewCallback? = null
     private var lastBack = 0L
+    // Chọn file cho <input type="file"> (nhập file sao lưu, 2.7.0)
+    private var fileCallback: ValueCallback<Array<Uri>>? = null
+    private val pickFile = registerForActivityResult(ActivityResultContracts.GetContent()) { uri ->
+        fileCallback?.onReceiveValue(if (uri != null) arrayOf(uri) else null)
+        fileCallback = null
+    }
     private var lastCheck = 0L      // lần kiểm tra cập nhật gần nhất trong phiên này
     private var shownUpdate = 0L    // bản đã báo trong phiên này (không báo lặp lại)
     // Giọng đọc tiếng Anh cho nút loa ở môn Anh văn chuyên ngành (2.6.1)
@@ -141,6 +149,23 @@ class MainActivity : ComponentActivity() {
             }
 
             override fun onHideCustomView() = exitFull()
+
+            override fun onShowFileChooser(
+                webView: WebView?,
+                filePathCallback: ValueCallback<Array<Uri>>?,
+                fileChooserParams: FileChooserParams?
+            ): Boolean {
+                fileCallback?.onReceiveValue(null)
+                fileCallback = filePathCallback
+                return try {
+                    pickFile.launch("*/*")
+                    true
+                } catch (e: ActivityNotFoundException) {
+                    fileCallback?.onReceiveValue(null)
+                    fileCallback = null
+                    false
+                }
+            }
         }
         web.webViewClient = object : WebViewClient() {
             override fun shouldInterceptRequest(view: WebView?, request: WebResourceRequest?): WebResourceResponse? {
