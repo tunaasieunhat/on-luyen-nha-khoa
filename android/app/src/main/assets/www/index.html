@@ -1621,35 +1621,11 @@ body.sim-playing #scr-sim>.topbar{display:none}
 .boot-load .bl-bar i{display:block;width:16px;height:100%;border-radius:4px;background:#F2A7BC;animation:bl-run 1.3s ease-in-out infinite alternate}
 @keyframes bl-run{to{transform:translateX(88px)}}
 .intro.load .boot-pass{opacity:0}
-/* trời sao + chữ DREAMER GAMES */
-.studio{position:absolute;inset:0;z-index:2;display:grid;place-items:center;pointer-events:none;overflow:hidden;
-  background:radial-gradient(70% 60% at 50% 55%,#2A2266 0%,#181747 45%,#0B0C26 100%);transition:opacity .5s ease}
+/* màn DREAMER GAMES (2.6.4): vẽ bằng canvas, dựng lại theo video mẫu */
+.studio{position:absolute;inset:0;z-index:2;pointer-events:none;overflow:hidden;background:#05060F;transition:opacity .5s ease}
 .studio[hidden]{display:none}
 .studio.out{opacity:0}
-.studio-stars{position:absolute;inset:0}
-.studio-stars i{position:absolute;width:var(--s,2px);height:var(--s,2px);border-radius:50%;background:#FFFFFF;box-shadow:0 0 4px rgba(255,255,255,.8);animation:st-tw 3s ease-in-out infinite;animation-delay:var(--dl,0s)}
-.studio-stars i.x{width:9px;height:9px;border-radius:0;background:none;box-shadow:none}
-.studio-stars i.x::before,.studio-stars i.x::after{content:"";position:absolute;left:4px;top:0;width:1px;height:9px;background:rgba(255,255,255,.85)}
-.studio-stars i.x::after{transform:rotate(90deg)}
-.studio-card{position:relative;display:flex;flex-direction:column;align-items:center;gap:clamp(6px,2vw,14px);text-align:center;padding:0 16px}
-.studio-word{display:flex;margin:0;font:800 clamp(3rem,15.5vw,7.4rem)/1 var(--f-display);letter-spacing:.02em;padding:.08em .06em 0}
-.studio-word b{display:inline-block;font-weight:800;color:var(--c);opacity:0;text-shadow:0 0 12px color-mix(in srgb,var(--c) 70%,transparent),0 0 28px rgba(170,140,255,.45)}
-.studio.go .studio-word b{animation:sw-up .42s cubic-bezier(.25,.9,.3,1.15) var(--d) both,sw-glow 2.4s ease-in-out calc(var(--d) + .5s) infinite}
-@keyframes sw-up{from{opacity:0;transform:translateY(.32em) scale(.86);filter:blur(2px)}60%{opacity:1}to{opacity:1;transform:none;filter:none}}
-@keyframes sw-glow{50%{text-shadow:0 0 18px color-mix(in srgb,var(--c) 85%,transparent),0 0 40px rgba(190,160,255,.6)}}
-.studio-games{display:flex;align-items:center;gap:clamp(12px,4vw,26px);margin:0;font:700 clamp(1.1rem,4.6vw,2rem)/1 var(--f-display);letter-spacing:.42em;padding-left:.42em;color:#FFEBD2;
-  text-shadow:0 0 10px rgba(255,220,180,.35);opacity:0}
-.studio.go .studio-games{animation:sg-in .7s ease .78s both}
-.studio-games i{transform:scaleX(0)}
-.studio.go .studio-games i{animation:sg-line .6s ease 1.15s both}
-.studio.go .studio-games i:first-child{transform-origin:right}.studio.go .studio-games i:last-child{transform-origin:left}
-@keyframes sg-in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
-@keyframes sg-line{to{transform:scaleX(1)}}
-.studio-games i{display:block;width:clamp(48px,15vw,120px);height:1px;background:linear-gradient(90deg,transparent,rgba(255,235,210,.75))}
-.studio-games i:last-child{background:linear-gradient(90deg,rgba(255,235,210,.75),transparent)}
-@keyframes st-in{from{opacity:0;transform:scale(.94);filter:blur(6px)}}
-@keyframes st-sheen{to{background-position:0 0}}
-@keyframes st-tw{0%,100%{opacity:.35;transform:scale(.7)}50%{opacity:1;transform:scale(1.1)}}
+.studio-cv{position:absolute;inset:0;width:100%;height:100%;display:block}
 /* quầng sáng hồng nở ra từ giữa màn hình */
 .boot-bloom{position:absolute;left:50%;top:56%;z-index:3;width:140vmax;height:140vmax;margin:-70vmax 0 0 -70vmax;border-radius:50%;pointer-events:none;opacity:0;transform:scale(.05);
   background:radial-gradient(circle,#FFF4E2 0%,#FBD3E1 22%,#F5B6D2 42%,rgba(245,182,210,.75) 56%,rgba(245,182,210,0) 70%)}
@@ -2281,11 +2257,7 @@ body.sim-playing #scr-sim>.topbar{display:none}
     <div class="bl-bar" aria-hidden="true"><i></i></div>
   </div>
   <div class="studio" id="studio" hidden>
-    <div class="studio-stars" id="studio-stars" aria-hidden="true"></div>
-    <div class="studio-card" aria-label="Dreamer Games">
-      <p class="studio-word"><b style="--c:#8FD8FF;--d:0.000s">D</b><b style="--c:#9CC0FF;--d:0.085s">R</b><b style="--c:#A9A8FF;--d:0.170s">E</b><b style="--c:#B48DF7;--d:0.255s">A</b><b style="--c:#C38CF0;--d:0.340s">M</b><b style="--c:#DA8EE5;--d:0.425s">E</b><b style="--c:#F29BCF;--d:0.510s">R</b></p>
-      <p class="studio-games"><i></i>GAMES<i></i></p>
-    </div>
+    <canvas class="studio-cv" id="studio-cv" role="img" aria-label="Dreamer Games"></canvas>
   </div>
   <div class="boot-bloom" id="boot-bloom" aria-hidden="true"></div>
   <span class="boot-pass" aria-hidden="true">Bỏ qua ›</span>
@@ -3501,16 +3473,6 @@ function voiceSample() {
    2) Quầng sáng hồng nở ra từ giữa, phủ kín màn hình.
    3) Nền pastel hồng → xanh, hoa giấy rơi, logo răng và tên app hiện lên. Rồi mờ dần vào app.
    Chạm vào màn hình (hoặc “Bỏ qua”) lúc nào cũng vào app ngay. */
-function studioStars() {
-  const box = $('#studio-stars'); if (!box || box.childElementCount) return;
-  let h = '';
-  for (let i = 0; i < 70; i++) {
-    const x = Math.random() < .14;
-    const s = (Math.random() < .2 ? 2.4 : Math.random() < .5 ? 1.6 : 1.1).toFixed(1);
-    h += `<i${x ? ' class="x"' : ''} style="left:${(Math.random() * 100).toFixed(1)}%;top:${(Math.random() * 100).toFixed(1)}%;--s:${s}px;--dl:${(-Math.random() * 3).toFixed(2)}s"></i>`;
-  }
-  box.innerHTML = h;
-}
 function bootConfetti() {
   const box = $('#boot-confetti'); if (!box || box.childElementCount) return;
   const C = ['#F7A8C4', '#B9A7F2', '#9FD3F5', '#FFD38A', '#A8E2C8', '#F4B6CF'];
@@ -3520,39 +3482,501 @@ function bootConfetti() {
   }
   box.innerHTML = h;
 }
+/* ================= MÀN MỞ ĐẦU DREAMER GAMES (vẽ bằng canvas, dựng lại theo video mẫu) =================
+   0,0–1,2s  tia sáng nhiều màu phóng ra từ tâm (bay xuyên không gian)
+   0,9–2,2s  tia sáng cong lại thành dải sáng xoắn chữ X; chữ DREAMER khổng lồ mờ thu nhỏ dần
+   1,6–2,6s  DREAMER rõ dần (xanh → tím → hồng), quầng tím phía sau; GAMES hiện bên dưới
+   2,5–3,8s  sao bốn cánh bung quanh chữ rồi tắt; hai vạch kẻ hai bên GAMES dài ra
+   3,5–4,6s  vệt lóe sáng quét ngang qua chữ
+   4,4–6,0s  đốm sáng mờ trôi nhẹ
+   Mọi thứ vẽ theo thời gian thực, giữ nét ở mọi cỡ màn hình; lớp chữ và sao vẽ sẵn một lần cho mượt. */
+const DreamerIntro = (() => {
+  const DUR = 6.0;
+  const FONT = '"Be Vietnam Pro","Baloo 2",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif';
+  const COLORS = ['#FF6FB5', '#5FD8FF', '#FFE36A', '#B58CFF', '#FFFFFF', '#7FE7FF', '#FF9AD5'];
+  const clamp = (v, a = 0, b = 1) => v < a ? a : v > b ? b : v;
+  const prog = (t, a, b) => clamp((t - a) / (b - a));
+  const eOut = p => 1 - Math.pow(1 - p, 3);
+  const eIn = p => p * p * p;
+  const eIO = p => p < .5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2;
+  const eBack = p => { const c = 1.7; return 1 + (c + 1) * Math.pow(p - 1, 3) + c * Math.pow(p - 1, 2); };
+  // số ngẫu nhiên cố định (mỗi lần chạy giống nhau)
+  function rng(seed) { let s = seed >>> 0; return () => { s = (s + 0x6D2B79F5) >>> 0; let x = s; x = Math.imul(x ^ (x >>> 15), x | 1); x ^= x + Math.imul(x ^ (x >>> 7), x | 61); return ((x ^ (x >>> 14)) >>> 0) / 4294967296; }; }
+
+  function mk(w, h) { const c = document.createElement('canvas'); c.width = Math.max(1, Math.ceil(w)); c.height = Math.max(1, Math.ceil(h)); return c; }
+
+  // Sao bốn cánh có quầng (vẽ sẵn)
+  function sparkSprite(color, px) {
+    const c = mk(px, px), g = c.getContext('2d'), m = px / 2;
+    const rg = g.createRadialGradient(m, m, 0, m, m, m);
+    rg.addColorStop(0, 'rgba(255,255,255,.9)'); rg.addColorStop(.12, color); rg.addColorStop(.35, color + '33'); rg.addColorStop(1, color + '00');
+    g.fillStyle = rg; g.globalAlpha = .55; g.fillRect(0, 0, px, px); g.globalAlpha = 1;
+    g.fillStyle = color; g.beginPath();
+    const R = m * .92, r = m * .1;
+    for (let i = 0; i < 4; i++) {
+      const a = i * Math.PI / 2 - Math.PI / 2, b = a + Math.PI / 4;
+      g.lineTo(m + Math.cos(a) * R, m + Math.sin(a) * R);
+      g.lineTo(m + Math.cos(b) * r, m + Math.sin(b) * r);
+    }
+    g.closePath(); g.fill();
+    g.fillStyle = '#fff'; g.beginPath(); g.arc(m, m, m * .09, 0, 7); g.fill();
+    return c;
+  }
+  function bokehSprite(px) {
+    const c = mk(px, px), g = c.getContext('2d'), m = px / 2;
+    const rg = g.createRadialGradient(m, m, 0, m, m, m);
+    rg.addColorStop(0, 'rgba(200,210,255,.42)'); rg.addColorStop(.7, 'rgba(180,190,240,.3)'); rg.addColorStop(.86, 'rgba(210,220,255,.36)'); rg.addColorStop(1, 'rgba(200,210,255,0)');
+    g.fillStyle = rg; g.beginPath(); g.arc(m, m, m, 0, 7); g.fill();
+    return c;
+  }
+  function glowSprite(px, inner, outer) {
+    const c = mk(px, px), g = c.getContext('2d'), m = px / 2;
+    const rg = g.createRadialGradient(m, m, 0, m, m, m);
+    rg.addColorStop(0, inner); rg.addColorStop(.25, outer); rg.addColorStop(1, 'rgba(0,0,0,0)');
+    g.fillStyle = rg; g.fillRect(0, 0, px, px);
+    return c;
+  }
+
+  function create(canvas, opt = {}) {
+    const ctx = canvas.getContext('2d', { alpha: false });
+    let W = 0, H = 0, D = 1, L = null, Q = 1; // Q: hệ số chất lượng (tự giảm khi máy yếu) // L: các lớp vẽ sẵn theo cỡ màn hình
+    const R = rng(20250);
+    // dữ liệu hạt (theo tỉ lệ, không phụ thuộc cỡ màn hình)
+    const warp = Array.from({ length: 170 }, () => ({ a: R() * Math.PI * 2, z: R(), sp: .55 + R() * .9, c: COLORS[(R() * COLORS.length) | 0], w: .6 + R() * 1.6 }));
+    const dust = Array.from({ length: 120 }, () => ({ x: R(), y: R(), s: .4 + R() * 1.3, p: R() * 6.28, f: .6 + R() * 1.8 }));
+    const ribbons = Array.from({ length: 9 }, (_, i) => ({ side: i % 2 ? 1 : -1, c: ['#7FE7FF', '#FF8FD0', '#FFE36A', '#B9A2FF', '#FFFFFF', '#5FD8FF', '#FF6FB5', '#C6B5FF', '#9FF0FF'][i], o: (R() - .5) * .5, k: .7 + R() * .6, w: .8 + R() * 1.4 }));
+    const sparks = Array.from({ length: 64 }, () => {
+      const a = R() * Math.PI * 2, rr = Math.sqrt(R());
+      return { a, rr: .55 + rr * .55, d: R() * .45, s: .35 + R() * .75, c: R() < .5 ? 0 : 1, tw: R() * 6.28, stay: R() < .22 };
+    });
+    const bokeh = Array.from({ length: 22 }, () => ({ x: R(), y: R(), r: .012 + R() * .03, vx: (R() - .5) * .02, vy: -.004 - R() * .016, a: .25 + R() * .55, d: R() * .8 }));
+
+    function layout() {
+      const cw = canvas.clientWidth || innerWidth, ch = canvas.clientHeight || innerHeight;
+      const dpr = Math.max(.6, Math.min(window.devicePixelRatio || 1, 2, Math.sqrt(2.1e6 / (cw * ch)))) * Q;
+      W = cw; H = ch; D = dpr;
+      canvas.width = Math.round(cw * dpr); canvas.height = Math.round(ch * dpr);
+      build();
+    }
+
+    function build() {
+      // cỡ chữ: DREAMER rộng ~84% màn dọc, không quá cao trên màn ngang
+      const tw = Math.min(W * .84, H * .95, 1100);
+      const g0 = mk(10, 10).getContext('2d');
+      g0.font = `800 100px ${FONT}`;
+      const m0 = g0.measureText('DREAMER').width || 520;
+      const fs = 100 * tw / m0;
+      const pad = fs * .6;
+      const s = D;
+      // lớp chữ DREAMER: tô dải màu + viền sáng
+      const tW = tw + pad * 2, tH = fs * 1.3 + pad * 2;
+      const txt = mk(tW * s, tH * s), g = txt.getContext('2d');
+      g.scale(s, s); g.font = `800 ${fs}px ${FONT}`; g.textAlign = 'center'; g.textBaseline = 'middle';
+      const cx = tW / 2, cy = tH / 2;
+      const lg = g.createLinearGradient(cx - tw / 2, 0, cx + tw / 2, 0);
+      lg.addColorStop(0, '#7FD9FF'); lg.addColorStop(.3, '#9DA8FF'); lg.addColorStop(.55, '#B88CF5'); lg.addColorStop(.8, '#E3A2EE'); lg.addColorStop(1, '#FFD1EC');
+      g.fillStyle = lg; g.fillText('DREAMER', cx, cy);
+      // ánh sáng mặt trên của chữ
+      g.globalCompositeOperation = 'source-atop';
+      const vg = g.createLinearGradient(0, cy - fs * .5, 0, cy + fs * .5);
+      vg.addColorStop(0, 'rgba(255,255,255,.55)'); vg.addColorStop(.45, 'rgba(255,255,255,.08)'); vg.addColorStop(.55, 'rgba(60,30,120,.0)'); vg.addColorStop(1, 'rgba(60,30,120,.25)');
+      g.fillStyle = vg; g.fillRect(0, 0, tW, tH);
+      g.globalCompositeOperation = 'source-over';
+      g.lineWidth = Math.max(1, fs * .018); g.strokeStyle = 'rgba(255,255,255,.55)'; g.strokeText('DREAMER', cx, cy);
+      // quầng sáng của chữ
+      // quầng vẽ ở 1/4 độ phân giải rồi phóng lên: nhanh, vẫn mềm
+      const q = Math.min(.25, 160 / fs), glow = mk(tW * q, tH * q), gg = glow.getContext('2d');
+      gg.scale(q, q); gg.font = g.font; gg.textAlign = 'center'; gg.textBaseline = 'middle';
+      gg.shadowColor = 'rgba(170,130,255,.95)'; gg.shadowBlur = fs * .45 * q; gg.fillStyle = lg;
+      gg.fillText('DREAMER', cx, cy); gg.shadowBlur = fs * .18 * q; gg.shadowColor = 'rgba(120,220,255,.8)'; gg.fillText('DREAMER', cx, cy);
+      // chữ khổng lồ mờ (viền tím) cho đoạn thu nhỏ
+      const ghost = mk(tW * s, tH * s), gh = ghost.getContext('2d');
+      gh.scale(s, s); gh.font = g.font; gh.textAlign = 'center'; gh.textBaseline = 'middle';
+      gh.fillStyle = 'rgba(150,120,230,.28)'; gh.fillText('DREAMER', cx, cy);
+      gh.lineWidth = Math.max(1, fs * .03); gh.strokeStyle = 'rgba(190,170,255,.55)'; gh.strokeText('DREAMER', cx, cy);
+      // GAMES: chữ giãn rộng, màu kem ánh vàng
+      const gs = fs * .4, ls = gs * .4;
+      const gc = mk(10, 10).getContext('2d'); gc.font = `600 ${gs}px ${FONT}`;
+      const letters = 'GAMES'.split(''), lw = letters.map(ch => gc.measureText(ch).width);
+      const gw = lw.reduce((a, b) => a + b, 0) + ls * (letters.length - 1);
+      const gW = gw + gs * 2, gH = gs * 2.2;
+      const games = mk(gW * s, gH * s), ga = games.getContext('2d');
+      ga.scale(s, s); ga.font = gc.font; ga.textBaseline = 'middle';
+      const gl = ga.createLinearGradient(0, gH / 2 - gs / 2, 0, gH / 2 + gs / 2);
+      gl.addColorStop(0, '#FFFFFF'); gl.addColorStop(.5, '#F6EBDD'); gl.addColorStop(1, '#E9CD98');
+      ga.fillStyle = gl; ga.shadowColor = 'rgba(255,225,170,.45)'; ga.shadowBlur = Math.min(24, gs * .35 * s);
+      let x = gs; letters.forEach((ch, i) => { ga.fillText(ch, x, gH / 2); x += lw[i] + ls; });
+      const sp = Math.round(Math.max(24, fs * .5) * s);
+      L = {
+        fs, tw, tW, tH, txt, glow, ghost, games, gW, gH, gw, gs,
+        cy: H * .5 - fs * .18, // tâm chữ DREAMER
+        spark: [sparkSprite('#7FE7FF', sp), sparkSprite('#F3A6F0', sp), sparkSprite('#FFFFFF', sp)],
+        bokeh: bokehSprite(128),
+        purple: glowSprite(384, 'rgba(170,120,255,.55)', 'rgba(110,70,210,.28)'),
+        glint: glowSprite(256, 'rgba(255,255,255,.95)', 'rgba(150,200,255,.35)'),
+        bgc: bgCanvas(),
+        band: mk(tW * s, tH * s) // lớp tạm cho vệt sáng quét qua chữ
+      };
+    }
+
+    // nền xanh đen có độ sâu + tối viền: vẽ sẵn ở độ phân giải thấp (chỉ là dải màu mềm)
+    function bgCanvas() {
+      const k = Math.min(1, 480 / Math.max(W, H)), c = mk(W * k, H * k), g = c.getContext('2d');
+      g.scale(k, k);
+      const r = g.createRadialGradient(W / 2, H * .5, 0, W / 2, H * .5, Math.hypot(W, H) * .6);
+      r.addColorStop(0, '#13143A'); r.addColorStop(.55, '#0A0B1F'); r.addColorStop(1, '#04050D');
+      g.fillStyle = r; g.fillRect(0, 0, W, H);
+      return c;
+    }
+    function bg() { ctx.imageSmoothingEnabled = true; ctx.drawImage(L.bgc, 0, 0, W, H); }
+
+    function drawDust(t, a) {
+      if (a <= 0) return;
+      ctx.fillStyle = '#fff';
+      for (const p of dust) {
+        const tw = .45 + .55 * Math.sin(t * p.f * 2 + p.p);
+        ctx.globalAlpha = a * tw * .8;
+        const x = (p.x * W + Math.sin(t * .3 + p.p) * 6), y = (p.y * H - t * 4 * p.s) % H;
+        ctx.fillRect(x, y < 0 ? y + H : y, p.s, p.s);
+      }
+      ctx.globalAlpha = 1;
+    }
+
+    // 1) tia sáng phóng ra từ tâm
+    function drawWarp(t) {
+      const a = 1 - prog(t, .95, 1.45);
+      if (a <= 0) return;
+      const cx = W / 2, cy = H / 2, M = Math.hypot(W, H) * .58;
+      const boost = 1 + eIn(prog(t, .2, 1.1)) * 2.2;
+      ctx.globalCompositeOperation = 'lighter'; ctx.lineCap = 'round';
+      for (const p of warp) {
+        const z = (p.z + t * .55 * p.sp * boost) % 1;
+        const r1 = M * Math.pow(z, 1.8), r0 = r1 * (.62 - .2 * prog(t, 0, 1));
+        if (r1 < 4) continue;
+        const ca = Math.cos(p.a), sa = Math.sin(p.a);
+        ctx.strokeStyle = p.c; ctx.globalAlpha = a * clamp(z * 1.6) * .9;
+        ctx.lineWidth = p.w * (.5 + z * 2.2);
+        ctx.beginPath(); ctx.moveTo(cx + ca * r0, cy + sa * r0); ctx.lineTo(cx + ca * r1, cy + sa * r1); ctx.stroke();
+      }
+      // quầng sáng ở tâm
+      ctx.globalAlpha = a * (.5 + .3 * Math.sin(t * 9));
+      const gs = Math.min(W, H) * .5;
+      ctx.drawImage(L.glint, cx - gs / 2, cy - gs / 2, gs, gs);
+      ctx.globalAlpha = 1; ctx.globalCompositeOperation = 'source-over';
+    }
+
+    // 2) dải sáng xoắn thành chữ X ở tâm
+    function drawRibbons(t) {
+      const a = Math.min(prog(t, .8, 1.15), 1 - prog(t, 1.85, 2.4));
+      if (a <= 0) return;
+      const cx = W / 2, cy = L.cy, M = Math.max(W, H) * .7;
+      const sw = eIO(prog(t, .8, 2.3)); // xoay dần
+      ctx.globalCompositeOperation = 'lighter'; ctx.lineCap = 'round';
+      for (const r of ribbons) {
+        const ang = (r.side > 0 ? -.62 : .62) + r.o * .5 + (sw - .5) * .5 * r.side;
+        const dx = Math.cos(ang) * M, dy = Math.sin(ang) * M;
+        const bend = M * (.2 + .12 * r.k) * Math.sin(t * 1.6 + r.o * 6 + (r.side > 0 ? 0 : 1.4));
+        const nx = -Math.sin(ang), ny = Math.cos(ang);
+        for (let pass = 0; pass < 2; pass++) {
+          ctx.strokeStyle = r.c; ctx.globalAlpha = a * (pass ? .9 : .22);
+          ctx.lineWidth = (pass ? r.w : r.w * 6) * (W < 600 ? .9 : 1.3);
+          ctx.beginPath();
+          ctx.moveTo(cx - dx, cy - dy);
+          ctx.bezierCurveTo(cx - dx * .45 + nx * bend, cy - dy * .45 + ny * bend, cx - dx * .1 - nx * bend * .5, cy - dy * .1 - ny * bend * .5, cx, cy);
+          ctx.bezierCurveTo(cx + dx * .1 + nx * bend * .5, cy + dy * .1 + ny * bend * .5, cx + dx * .45 - nx * bend, cy + dy * .45 - ny * bend, cx + dx, cy + dy);
+          ctx.stroke();
+        }
+      }
+      // điểm hội tụ sáng
+      ctx.globalAlpha = a * .9;
+      const gs = L.fs * 1.6;
+      ctx.drawImage(L.glint, cx - gs / 2, cy - gs / 2, gs, gs);
+      ctx.globalAlpha = 1; ctx.globalCompositeOperation = 'source-over';
+    }
+
+    // vẽ một lớp chữ (canvas vẽ sẵn) quanh tâm với tỉ lệ k
+    function blit(img, k, alpha, y = L.cy, cw = L.tW, ch = L.tH) {
+      if (alpha <= 0) return;
+      ctx.globalAlpha = clamp(alpha);
+      const w = cw * k, h = ch * k;
+      ctx.drawImage(img, W / 2 - w / 2, y - h / 2, w, h);
+      ctx.globalAlpha = 1;
+    }
+
+    function drawTitle(t) {
+      // chữ khổng lồ mờ thu nhỏ
+      const gp = prog(t, .85, 2.0);
+      if (gp > 0 && t < 2.3) {
+        const k = 3.4 - 2.25 * eOut(gp);
+        blit(L.ghost, k, Math.min(prog(t, .85, 1.2), 1 - prog(t, 1.75, 2.3)) * .9);
+      }
+      // quầng tím phía sau (mạnh lúc chữ vừa hiện)
+      const pa = Math.min(prog(t, 1.35, 1.8), 1 - prog(t, 2.2, 3.4) * .75);
+      if (pa > 0) {
+        const s = Math.max(W, H) * (.9 + .25 * prog(t, 1.3, 3));
+        ctx.globalCompositeOperation = 'lighter'; ctx.globalAlpha = pa * .85;
+        ctx.drawImage(L.purple, W / 2 - s / 2, L.cy - s * .28, s, s * .56);
+        // tia ngang sau chữ
+        const hb = ctx.createLinearGradient(0, 0, W, 0);
+        hb.addColorStop(0, 'rgba(150,110,255,0)'); hb.addColorStop(.5, 'rgba(190,160,255,.5)'); hb.addColorStop(1, 'rgba(150,110,255,0)');
+        ctx.fillStyle = hb; ctx.globalAlpha = pa * .5;
+        ctx.fillRect(0, L.cy - L.fs * .5, W, L.fs);
+        ctx.globalAlpha = 1; ctx.globalCompositeOperation = 'source-over';
+      }
+      // chữ chính: thu từ 1,55 về 1
+      const tp = prog(t, 1.45, 2.45);
+      if (tp > 0) {
+        const k = 1 + .55 * (1 - eOut(tp));
+        const glowA = (1 - prog(t, 2.4, 3.4) * .55) * (.85 + .15 * Math.sin(t * 2.4));
+        ctx.globalCompositeOperation = 'lighter';
+        blit(L.glow, k, eOut(tp) * glowA * .75);
+        ctx.globalCompositeOperation = 'source-over';
+        blit(L.txt, k, eOut(prog(t, 1.45, 2.1)));
+      }
+      // vệt sáng quét qua chữ
+      const sp = prog(t, 3.5, 4.55);
+      if (sp > 0 && sp < 1) {
+        const b = L.band, g = b.getContext('2d');
+        g.setTransform(1, 0, 0, 1, 0, 0); g.globalCompositeOperation = 'source-over';
+        g.clearRect(0, 0, b.width, b.height); g.drawImage(L.txt, 0, 0);
+        g.globalCompositeOperation = 'source-in';
+        const x = (-.15 + 1.3 * eIO(sp)) * b.width, bw = b.width * .16;
+        const lg = g.createLinearGradient(x - bw, 0, x + bw, 0);
+        lg.addColorStop(0, 'rgba(255,255,255,0)'); lg.addColorStop(.5, 'rgba(255,255,255,.95)'); lg.addColorStop(1, 'rgba(255,255,255,0)');
+        g.fillStyle = lg; g.fillRect(0, 0, b.width, b.height);
+        ctx.globalCompositeOperation = 'lighter';
+        blit(b, 1, .9);
+        ctx.globalCompositeOperation = 'source-over';
+      }
+    }
+
+    function drawGames(t) {
+      const p = prog(t, 2.0, 2.65);
+      if (p <= 0) return;
+      const y = L.cy + L.fs * .78;
+      ctx.globalAlpha = eOut(p);
+      const w = L.gW, h = L.gH;
+      ctx.drawImage(L.games, W / 2 - w / 2, y - h / 2 + (1 - eOut(p)) * L.gs * .5, w, h);
+      // hai vạch kẻ
+      const lp = eOut(prog(t, 2.55, 3.2));
+      if (lp > 0) {
+        const len = L.gw * .62 * lp, gap = L.gw / 2 + L.gs * .55;
+        for (const dir of [-1, 1]) {
+          const x0 = W / 2 + dir * gap, x1 = x0 + dir * len;
+          const lg = ctx.createLinearGradient(x0, 0, x1, 0);
+          lg.addColorStop(0, 'rgba(255,236,205,.9)'); lg.addColorStop(1, 'rgba(255,236,205,0)');
+          ctx.fillStyle = lg; ctx.fillRect(Math.min(x0, x1), y - .6, Math.abs(len), 1.2);
+        }
+      }
+      ctx.globalAlpha = 1;
+    }
+
+    function drawSparks(t) {
+      if (t < 2.35) return;
+      const rx = L.tw * .6, ry = L.fs * 1.0;
+      ctx.globalCompositeOperation = 'lighter';
+      for (const s of sparks) {
+        const t0 = 2.4 + s.d * .6, p = prog(t, t0, t0 + .45);
+        if (p <= 0) continue;
+        const out = s.stay ? prog(t, 5.4, 6) * .6 : prog(t, 3.3 + s.d * .5, 3.9 + s.d * .5);
+        const tw = .7 + .3 * Math.sin(t * 7 + s.tw);
+        const k = eBack(p) * (1 - out) * tw * (s.stay && t > 3.9 ? .6 : 1);
+        if (k <= .01) continue;
+        const rr = s.rr * (.9 + .1 * eOut(p));
+        const x = W / 2 + Math.cos(s.a) * rx * rr, y = L.cy + L.fs * .2 + Math.sin(s.a) * ry * rr;
+        const sz = L.fs * .56 * s.s * k;
+        ctx.globalAlpha = clamp(k);
+        ctx.drawImage(L.spark[s.c], x - sz / 2, y - sz / 2, sz, sz);
+      }
+      ctx.globalAlpha = 1; ctx.globalCompositeOperation = 'source-over';
+    }
+
+    // lóe sáng ống kính đi theo vệt quét
+    function drawFlare(t) {
+      const p = prog(t, 3.45, 4.7);
+      if (p <= 0 || p >= 1) return;
+      const a = Math.sin(p * Math.PI);
+      const x = W / 2 + (-.6 + 1.2 * eIO(prog(t, 3.5, 4.55))) * L.tw * .55, y = L.cy + L.fs * .12;
+      ctx.globalCompositeOperation = 'lighter';
+      // vệt ngang dài
+      const lg = ctx.createLinearGradient(0, 0, W, 0);
+      lg.addColorStop(0, 'rgba(120,170,255,0)'); lg.addColorStop(clamp(x / W), 'rgba(200,225,255,.85)'); lg.addColorStop(1, 'rgba(120,170,255,0)');
+      ctx.globalAlpha = a * .8; ctx.fillStyle = lg;
+      const th = Math.max(1.5, L.fs * .025);
+      ctx.fillRect(0, y - th / 2, W, th);
+      ctx.globalAlpha = a * .25; ctx.fillRect(0, y - th * 4, W, th * 8);
+      // điểm lóe
+      ctx.globalAlpha = a;
+      const gs = L.fs * (1.6 + .4 * Math.sin(t * 20));
+      ctx.drawImage(L.glint, x - gs / 2, y - gs / 2, gs, gs);
+      const ss = L.fs * .9 * a;
+      ctx.drawImage(L.spark[2], x - ss / 2, y - ss / 2, ss, ss);
+      // vầng sáng xanh lớn
+      ctx.globalAlpha = a * .35;
+      const big = Math.max(W, H) * .5;
+      ctx.drawImage(L.glint, x - big / 2, y - big * .2, big, big * .4);
+      ctx.globalAlpha = 1; ctx.globalCompositeOperation = 'source-over';
+    }
+
+    function drawBokeh(t) {
+      const a = prog(t, 4.2, 5.0);
+      if (a <= 0) return;
+      const M = Math.max(W, H);
+      ctx.globalCompositeOperation = 'lighter';
+      for (const b of bokeh) {
+        const lt = t - 4.2;
+        const x = (b.x + b.vx * lt) * W, y = ((b.y + b.vy * lt * 3) % 1 + 1) % 1 * H;
+        const r = b.r * M;
+        ctx.globalAlpha = a * b.a * prog(t, 4.2 + b.d * .5, 4.9 + b.d * .5) * .4;
+        ctx.drawImage(L.bokeh, x - r, y - r, r * 2, r * 2);
+      }
+      ctx.globalAlpha = 1; ctx.globalCompositeOperation = 'source-over';
+    }
+
+    function frame(t) {
+      ctx.setTransform(D, 0, 0, D, 0, 0);
+      bg(t);
+      drawDust(t, .55 + .45 * prog(t, 2.2, 3));
+      drawWarp(t);
+      drawRibbons(t);
+      drawBokeh(t);
+      drawTitle(t);
+      drawGames(t);
+      drawSparks(t);
+      drawFlare(t);
+    }
+
+    // chạy theo thời gian thực; tab ẩn thì dừng (bước tối đa 50ms)
+    let raf = 0, t = 0, last = 0, done = false, onResize, slow = 0, cnt = 0;
+    // máy vẽ không kịp: chỉ hạ độ phân giải canvas (các lớp vẽ sẵn giữ nguyên, được thu nhỏ khi vẽ)
+    function degrade() {
+      if (Q <= .5) return;
+      Q = Q > .75 ? .7 : .5;
+      const dpr = Math.max(.5, Math.min(window.devicePixelRatio || 1, 2, Math.sqrt(2.1e6 / (W * H))) * Q);
+      D = dpr; canvas.width = Math.round(W * dpr); canvas.height = Math.round(H * dpr);
+    }
+    function loop(now) {
+      if (!last) last = now;
+      const dt = now - last;
+      t += Math.min(.05, dt / 1000); last = now;
+      if (dt > 0 && dt < 500) { cnt++; if (dt > 24) slow++; if (cnt >= 24) { if (slow > 12) degrade(); cnt = slow = 0; } }
+      if (t >= DUR) { t = DUR; frame(t); stop(); opt.onEnd && opt.onEnd(); return; }
+      if (opt.onTime) opt.onTime(t);
+      frame(t);
+      raf = requestAnimationFrame(loop);
+    }
+    function start() {
+      if (!L || W !== (canvas.clientWidth || innerWidth) || H !== (canvas.clientHeight || innerHeight)) layout();
+      t = 0; last = 0; done = false;
+      onResize = () => { layout(); frame(t); };
+      addEventListener('resize', onResize);
+      raf = requestAnimationFrame(loop);
+    }
+    function stop() {
+      if (done) return; done = true;
+      cancelAnimationFrame(raf); removeEventListener('resize', onResize);
+    }
+    return { start, stop, prepare() { layout(); frame(0); }, seek(x) { if (!L) layout(); t = x; frame(x); }, get time() { return t; }, DUR };
+  }
+
+  // Âm thanh tự tổng hợp: tiếng vút, tiếng “bùm” trầm khi chữ hiện, chuông lấp lánh, tiếng lướt sáng
+  function sound(ac, out, t0, k) {
+    if (!ac || k < .002) return;
+    const noise = (() => { const n = ac.sampleRate * 2, b = ac.createBuffer(1, n, ac.sampleRate), d = b.getChannelData(0); for (let i = 0; i < n; i++) d[i] = Math.random() * 2 - 1; return b; })();
+    function nz(t, dur, f0, f1, peak, q = 1.2, type = 'bandpass') {
+      const s = ac.createBufferSource(), f = ac.createBiquadFilter(), g = ac.createGain();
+      s.buffer = noise; f.type = type; f.Q.value = q;
+      f.frequency.setValueAtTime(f0, t); f.frequency.exponentialRampToValueAtTime(f1, t + dur);
+      g.gain.setValueAtTime(.0001, t); g.gain.exponentialRampToValueAtTime(peak, t + dur * .75); g.gain.exponentialRampToValueAtTime(.0001, t + dur);
+      s.connect(f); f.connect(g); g.connect(out); s.start(t); s.stop(t + dur + .05);
+    }
+    function tone(t, f, dur, peak, type = 'sine', to) {
+      const o = ac.createOscillator(), g = ac.createGain();
+      o.type = type; o.frequency.setValueAtTime(f, t); if (to) o.frequency.exponentialRampToValueAtTime(to, t + dur);
+      g.gain.setValueAtTime(.0001, t); g.gain.exponentialRampToValueAtTime(peak, t + .012); g.gain.exponentialRampToValueAtTime(.0001, t + dur);
+      o.connect(g); g.connect(out); o.start(t); o.stop(t + dur + .05);
+    }
+    nz(t0 + .05, 1.45, 260, 3800, .32 * k, 1.1);            // vút
+    nz(t0 + 1.35, .5, 4200, 600, .12 * k, .8);               // hút vào tâm
+    tone(t0 + 1.5, 110, 1.1, .38 * k, 'sine', 48);           // bùm trầm
+    nz(t0 + 1.5, .7, 900, 200, .14 * k, .7, 'lowpass');
+    [1318.5, 1661.2, 1975.5, 2637, 3322.4, 2489].forEach((f, i) => { // chuông lấp lánh
+      const t = t0 + 2.45 + i * .085 + Math.random() * .03;
+      tone(t, f, 1.1, .085 * k, 'triangle'); tone(t, f * 2, .5, .025 * k);
+    });
+    nz(t0 + 3.5, 1.0, 2500, 9000, .07 * k, 2.5, 'bandpass'); // lướt sáng
+    tone(t0 + 3.95, 2637, 1.4, .05 * k, 'sine');
+  }
+
+  return { create, sound, DUR };
+})();
+let introAnim = null, introGain = null;
+// Tiếng của màn mở đầu: chỉ phát khi âm thanh đã mở được ngay (không phát trễ sau lần chạm đầu)
+function introSound() {
+  if (!S.sound || !(S.sfxVol > 0)) return;
+  try {
+    Sfx.unlock(); if (!actx) return;
+    const go = () => {
+      if (!introAnim || actx.state !== 'running' || introAnim.time > .5) return;
+      introGain = actx.createGain(); introGain.gain.value = 1; introGain.connect(actx.destination);
+      DreamerIntro.sound(actx, introGain, actx.currentTime + .02 - introAnim.time, Math.pow(S.sfxVol, 1.4));
+    };
+    if (actx.state === 'running') go(); else actx.resume().then(go, () => {});
+  } catch {}
+}
+function introSoundOff() {
+  if (!introGain) return;
+  try { const g = introGain.gain, n = actx.currentTime; g.cancelScheduledValues(n); g.setValueAtTime(g.value, n); g.linearRampToValueAtTime(0, n + .25); const o = introGain; setTimeout(() => { try { o.disconnect(); } catch {} }, 400); } catch {}
+  introGain = null;
+}
 function openIntro() {
   const el = $('#intro'); if (!el) return;
   S.introOpen = true;
   el.classList.remove('out', 'show', 'night'); el.classList.add('load'); el.hidden = false; $('#app').inert = true; document.body.classList.add('intro-on');
-  const ld = $('#boot-load'), st = $('#studio'), bl = $('#boot-bloom');
-  studioStars(); bootConfetti();
+  const ld = $('#boot-load'), st = $('#studio'), bl = $('#boot-bloom'), cv = $('#studio-cv');
+  bootConfetti();
   if (ld) { ld.hidden = false; ld.style.opacity = ''; }
   st.hidden = true; st.classList.remove('out', 'go');
   if (bl) bl.className = 'boot-bloom';
-  if (S.music) Music.start(MUSIC_VOL.app);
   clearTimeout(openIntro.t);
   const T = (ms, f) => { openIntro.t = setTimeout(f, reduced ? Math.min(ms, 300) : ms); };
-  // 1) màn tải "Đang khử khuẩn dụng cụ..." ~1,8 giây
-  T(1800, () => {
-    // 2) trời sao: DREAMER hiện từng chữ, rồi GAMES và hai vạch kẻ ~2,6 giây
-    el.classList.remove('load'); el.classList.add('night');
-    st.hidden = false; void st.offsetWidth; st.classList.add('go');
-    if (ld) { ld.style.opacity = '0'; setTimeout(() => { ld.hidden = true; }, 360); }
-    T(2600, () => {
-      // 3) quầng sáng hồng nở ra
-      if (bl && !reduced) bl.classList.add('go');
-      T(800, () => {
-        // 4) nền pastel + hoa giấy, logo và tên app ~1,9 giây → vào app
-        st.hidden = true; st.classList.remove('go'); el.classList.remove('night'); el.classList.add('show');
-        if (bl) { bl.classList.remove('go'); bl.classList.add('fade'); }
-        T(1900, closeIntro);
-      });
+  const t0 = performance.now();
+  // 3) quầng sáng hồng nở ra; 4) nền pastel + hoa giấy, logo và tên app ~1,9 giây → vào app
+  let bloomed = false;
+  const bloom = () => {
+    if (bloomed || !S.introOpen) return; bloomed = true;
+    if (bl && !reduced) bl.classList.add('go');
+    T(800, () => {
+      if (introAnim) { introAnim.stop(); introAnim = null; }
+      st.hidden = true; el.classList.remove('night'); el.classList.add('show');
+      if (bl) { bl.classList.remove('go'); bl.classList.add('fade'); }
+      if (S.music) Music.start(MUSIC_VOL.app);
+      T(1900, closeIntro);
+    });
+  };
+  // 1) màn tải "Đang khử khuẩn dụng cụ..." (ít nhất 1,2 giây, chờ phông chữ, vẽ sẵn các lớp của màn sau)
+  const fonts = (() => { try { return Promise.all(['800 40px "Be Vietnam Pro"', '600 40px "Be Vietnam Pro"'].map(f => document.fonts.load(f))); } catch { return Promise.resolve(); } })();
+  Promise.race([fonts.catch(() => {}), new Promise(r => setTimeout(r, 2500))]).then(() => {
+    if (!S.introOpen || el.hidden) return;
+    if (introAnim) introAnim.stop();
+    introAnim = DreamerIntro.create(cv, { onTime: t => { if (t >= 5.45) bloom(); }, onEnd: bloom });
+    try { introAnim.prepare(); } catch { introAnim = null; }
+    T(Math.max(0, 1200 - (performance.now() - t0)), () => {
+      // 2) màn DREAMER GAMES vẽ bằng canvas, 6 giây
+      el.classList.remove('load'); el.classList.add('night');
+      st.hidden = false;
+      if (ld) { ld.style.opacity = '0'; setTimeout(() => { ld.hidden = true; }, 360); }
+      if (!introAnim) { T(2600, bloom); return; }
+      if (reduced) { introAnim.seek(DreamerIntro.DUR); T(1200, bloom); return; }
+      introAnim.start(); introSound();
     });
   });
 }
 function closeIntro() {
   const el = $('#intro'); if (!el || el.hidden || el.classList.contains('out')) return;
   clearTimeout(openIntro.t);
+  if (introAnim) { introAnim.stop(); introAnim = null; }
+  introSoundOff();
   try { if (S.music) Music.start(MUSIC_VOL.app); else Music.unlock(); } catch {}
   el.classList.add('out');
   S.introOpen = false;
@@ -3560,6 +3984,7 @@ function closeIntro() {
   setTimeout(() => {
     el.hidden = true; el.classList.remove('out', 'show', 'night', 'load');
     const st = $('#studio'); if (st) { st.hidden = true; st.classList.remove('out', 'go'); }
+    const cv = $('#studio-cv'); if (cv) { cv.width = 0; cv.height = 0; } // trả bộ nhớ của canvas
     const ld = $('#boot-load'); if (ld) ld.hidden = true;
     const bl = $('#boot-bloom'); if (bl) bl.className = 'boot-bloom';
     if (typeof openV1Notice === 'function') openV1Notice();
