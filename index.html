@@ -1951,16 +1951,20 @@ body.sim-playing #scr-sim>.topbar{display:none}
   </section>
 
   <!-- ============ FLASHCARD ============ -->
-  <section id="scr-flash" class="screen" hidden aria-label="Flashcard">
+  <section id="scr-flash" class="screen" hidden aria-label="Flashcard" data-step="sub">
     <header class="topbar">
       <button class="btn btn-sm" data-back type="button"><svg class="i" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>Sảnh</button>
       <h1 class="screen-title">Flashcard</h1>
       <span class="spacer"></span>
       <div class="pc-slot"></div>
     </header>
-    <div class="two-col">
+    <div class="panel step-sub">
+      <div class="field"><span class="lbl">Chọn môn học</span><div class="subj-btns" id="deck-subjects" role="group" aria-label="Chọn môn học để ôn thẻ"></div></div>
+    </div>
+    <div class="two-col step-list">
       <div class="col deck">
-        <div class="list-head"><h3>Ôn bộ thẻ</h3><select class="input" id="deck-filter" aria-label="Chọn môn học để ôn"></select></div>
+        <div class="step-bar"><button class="btn btn-sm" type="button" data-stepback="fc"><svg class="i" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>Đổi môn</button><strong id="deck-step-name"></strong></div>
+        <select class="input" id="deck-filter" aria-label="Chọn môn học để ôn" hidden></select>
         <select class="input" id="deck-topic" aria-label="Chọn bài để ôn" hidden></select>
         <button class="fcard" id="fcard" type="button" aria-label="Lật thẻ">
           <span class="fcard-inner">
@@ -5502,9 +5506,14 @@ const subjOrder = () => FIXED.subjects.map(x => nameKey(cleanName(x && x.name)))
 const bySubjOrder = (a, b) => { const o = subjOrder(), i = o.indexOf(a.key), j = o.indexOf(b.key); return (i < 0 ? 99 : i) - (j < 0 ? 99 : j); };
 function renderDeckFilter() {
   const sel = $('#deck-filter'), subs = subjects().filter(s => s.nC > 0).sort(bySubjOrder);
-  sel.innerHTML = subs.map(s => `<option value="${esc(s.key)}">${esc(s.name)} (${s.nC} thẻ)</option>`).join('') + `<option value="all">Tất cả môn học (${allCards().length} thẻ)</option>`;
-  if (S.deck.filter !== 'all' && !subs.some(s => s.key === S.deck.filter)) S.deck.filter = (subs[0] || {}).key || 'all';
+  sel.innerHTML = subs.map(s => `<option value="${esc(s.key)}">${esc(s.name)} (${s.nC} thẻ)</option>`).join('');
+  if (!subs.some(s => s.key === S.deck.filter)) S.deck.filter = (subs[0] || {}).key || 'all';
   sel.value = S.deck.filter;
+  // 2.7.0: bước 1 chọn môn (nút), bước 2 ôn thẻ của môn đó
+  $('#deck-subjects').innerHTML = subs.map(s => `<button class="subj-btn" type="button" data-decksub="${esc(s.key)}" aria-pressed="${s.key === S.deck.filter}"><span class="sb-ic"><svg class="i" viewBox="0 0 24 24"><rect x="3" y="7" width="13" height="14" rx="2"/><path d="M8 3h11a2 2 0 0 1 2 2v12"/></svg></span><span><strong>${esc(s.name)}</strong><small>${s.nC} thẻ</small></span></button>`).join('')
+    || '<p class="lesson-empty">Chưa có thẻ nào.</p>';
+  $('#scr-flash').dataset.step = S.deck.step === 'list' && subs.length ? 'list' : 'sub';
+  const cur = subs.find(s => s.key === S.deck.filter); $('#deck-step-name').textContent = cur ? cur.name : '';
   // bài trong môn đang chọn, theo thứ tự xuất hiện
   const tp = $('#deck-topic'), seen = new Map();
   if (S.deck.filter !== 'all') allCards().forEach(c => { if (c.sk === S.deck.filter && !seen.has(c.tk)) seen.set(c.tk, { name: c.topic, n: 0 }); if (c.sk === S.deck.filter) seen.get(c.tk).n++; });
@@ -5614,7 +5623,7 @@ function wire() {
   });
 
   $('#go-quiz').addEventListener('click', () => { S.qstep = 'sub'; go('quiz', 'Đang chuẩn bị câu hỏi ôn luyện'); });
-  $('#go-flash').addEventListener('click', () => go('flash', 'Đang xếp bộ thẻ ghi nhớ'));
+  $('#go-flash').addEventListener('click', () => { S.deck.step = 'sub'; go('flash', 'Đang xếp bộ thẻ ghi nhớ'); });
   $$('[data-thmode]').forEach(b => b.addEventListener('click', () => { S.th.mode = b.dataset.thmode; S.th.open = null; S.th.step = 'sub'; go('theory', TH_MODES[S.th.mode].load); }));
   $('#th-toc').addEventListener('click', e => {
     const a = e.target.closest('a[data-thjump]'); if (!a) return;
@@ -6143,8 +6152,15 @@ document.addEventListener('click', e => {
   const t = e.target.closest && e.target.closest('[data-stepback]'); if (!t) return;
   const k = t.dataset.stepback;
   if (k === 'th') { S.th.step = 'sub'; renderTheory(); }
+  else if (k === 'fc') { S.deck.step = 'sub'; renderDeckFilter(); }
   else if (k === 'q') { S.qstep = 'sub'; renderSystem(); }
   else if (k === 'ex') { EX.step = 'sub'; renderExam(); }
+  try { window.scrollTo(0, 0); } catch {}
+});
+document.addEventListener('click', e => {
+  const t = e.target.closest && e.target.closest('[data-decksub]'); if (!t) return;
+  S.deck.filter = t.dataset.decksub; S.deck.topic = 'all'; S.deck.step = 'list'; store.set('deckSub', S.deck.filter);
+  renderDeckFilter(); renderDeck(false);
   try { window.scrollTo(0, 0); } catch {}
 });
 /* ================= BOOT ================= */
