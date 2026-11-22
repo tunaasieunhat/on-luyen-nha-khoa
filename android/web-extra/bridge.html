@@ -1,0 +1,61 @@
+<script>
+/* Cầu nối với app Android: lưu file vào thư mục Tải xuống, nút Quay lại của điện thoại */
+(function () {
+  var A = window.AndroidApp;
+  if (!A) return;
+  function toBase64(blob) {
+    return new Promise(function (ok, fail) {
+      var r = new FileReader();
+      r.onload = function () { var s = String(r.result); ok(s.slice(s.indexOf(',') + 1)); };
+      r.onerror = function () { fail(r.error); };
+      r.readAsDataURL(blob);
+    });
+  }
+  var downloads = {
+    save: function (o) {
+      var blob = o && o.data;
+      return toBase64(blob).then(function (b64) {
+        var st = A.saveFile(String(o.filename || 'file'), (blob && blob.type) || 'application/octet-stream', b64);
+        if (st !== 'saved') { var e = new Error('save failed'); e.code = 'failed'; throw e; }
+        return { status: 'saved' };
+      });
+    }
+  };
+  // App dùng sẵn giao diện "downloads" (như khi chạy trong Claude); kho dữ liệu vẫn lưu trên máy
+  window.claude = { use: function (name) { return Promise.resolve(name === 'downloads' ? downloads : null); } };
+
+  function shown(el) { return !!el && !el.hidden && el.getClientRects().length > 0; }
+  function esc() { document.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape', bubbles: true })); }
+  // Trả về true nếu trang tự xử lý nút Quay lại; false thì app hỏi thoát
+  window.__androidBack = function () {
+    var q = function (s) { return document.querySelector(s); };
+    if (shown(q('#intro')) || shown(q('#loading'))) return false;
+    var report = q('#report-modal'), done = q('#done-modal'), v1 = q('#v1-modal'), setm = q('#set-modal');
+    if ((report && !report.hidden) || (done && !done.hidden) || (v1 && !v1.hidden) || (setm && !setm.hidden)) { esc(); return true; }
+    var fo = q('#fig-ov');
+    if (fo && !fo.hidden) { fo.querySelector('.fo-x').click(); return true; }
+    var mm = q('#th-mm');
+    if (mm && mm.classList.contains('full')) { esc(); return true; }
+    var vt = q('#vt');
+    if (vt && !vt.hidden) { esc(); return true; }
+    var sl = q('#th-sl');
+    if (sl && sl.classList.contains('full')) { esc(); return true; }
+    var leave = q('#ex-leave');
+    if (shown(leave)) { leave.click(); return true; }
+    var quit = q('#qz-quit');
+    if (shown(quit)) { quit.click(); return true; }
+    var close = q('#th-close');
+    if (shown(close)) { close.click(); return true; }
+    // 2.5: Mô Phỏng Nha Khoa (đang khám: bấm 2 lần để rời ca; màn kết quả: về danh sách ca) và menu Ôn Luyện Kiến Thức
+    var se = q('#sim-exit');
+    if (shown(se)) { se.click(); return true; }
+    var sl = q('#sim-to-list');
+    if (shown(sl)) { sl.click(); return true; }
+    var ml = q('#menu-learn');
+    if (ml && !ml.hidden && shown(q('#scr-lobby'))) { q('#learn-back').click(); return true; }
+    var backs = document.querySelectorAll('[data-back]');
+    for (var k = 0; k < backs.length; k++) if (shown(backs[k])) { backs[k].click(); return true; }
+    return false;
+  };
+})();
+</script>
