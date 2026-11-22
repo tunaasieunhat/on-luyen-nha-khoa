@@ -1,0 +1,1241 @@
+[
+{
+"term": "dentist",
+"unit": 1,
+"pos": "N-COUNT",
+"en": "A dentist is someone whose job it is to care for the health of people's teeth.",
+"kw": "someone whose job · care for the health of teeth"
+},
+{
+"term": "dentistry",
+"unit": 1,
+"pos": "N-UNCOUNT",
+"en": "Dentistry is the medical study of the mouth and teeth.",
+"kw": "the medical study of the mouth and teeth"
+},
+{
+"term": "professional",
+"unit": 1,
+"pos": "ADJ",
+"en": "If something is professional, it relates to a job that requires special education and training or it meets certain standards.",
+"kw": "special education and training · meets standards"
+},
+{
+"term": "practice",
+"unit": 1,
+"pos": "N-COUNT",
+"en": "A practice is the business and work of a professional, such as a dentist.",
+"kw": "business and work of a professional"
+},
+{
+"term": "license",
+"unit": 1,
+"pos": "N-COUNT",
+"en": "A license is an official document that grants someone the right or permission to do something such as work in a certain field.",
+"kw": "official document · right or permission to work"
+},
+{
+"term": "diagnose",
+"unit": 1,
+"pos": "V-I",
+"en": "To diagnose is to find out what health issues someone has by doing an examination or tests.",
+"kw": "find out what health issues · examination or tests"
+},
+{
+"term": "advice",
+"unit": 1,
+"pos": "N-UNCOUNT",
+"en": "Advice is an opinion someone gives someone else about what he or she should do in a specific situation.",
+"kw": "opinion · what he or she should do"
+},
+{
+"term": "instruction",
+"unit": 1,
+"pos": "N-UNCOUNT",
+"en": "Instruction is an explanation of something that a person needs to do, usually given by someone in a position of authority.",
+"kw": "explanation of what to do · position of authority"
+},
+{
+"term": "health",
+"unit": 1,
+"pos": "N-UNCOUNT",
+"en": "Health is the condition of a person's body, in particular whether or not they are sick.",
+"kw": "condition of a person's body · sick or not"
+},
+{
+"term": "oral",
+"unit": 1,
+"pos": "ADJ",
+"en": "If something is oral, it is associated with or involving the mouth.",
+"kw": "involving the mouth"
+},
+{
+"term": "endodontics",
+"unit": 2,
+"pos": "N-UNCOUNT",
+"en": "Endodontics is a branch of dentistry which deals with the pathology, biological functions, and the form and structure of human dental pulp as well as the area around the root of a tooth.",
+"kw": "dental pulp · area around the root"
+},
+{
+"term": "periodontics",
+"unit": 2,
+"pos": "N-UNCOUNT",
+"en": "Periodontics is a branch of dentistry which deals with the prevention, diagnosis, and treatment of gum diseases, and the maintenance of the health, functions, and appearance of gum tissues.",
+"kw": "gum diseases · gum tissues"
+},
+{
+"term": "orthodontics",
+"unit": 2,
+"pos": "N-UNCOUNT",
+"en": "Orthodontics is a branch of dentistry which deals with the irregularities of teeth and their correction with braces.",
+"kw": "irregularities of teeth · braces"
+},
+{
+"term": "prosthodontics",
+"unit": 2,
+"pos": "N-UNCOUNT",
+"en": "Prosthodontics is a branch of dentistry which deals with the diagnosis, treatment planning, and rehabilitation of oral function, as well as the comfort, appearance, and health of patients who have missing or deficient teeth or absent maxillofacial tissues.",
+"kw": "missing or deficient teeth · rehabilitation of oral function"
+},
+{
+"term": "pediatric dentistry",
+"unit": 2,
+"pos": "N-UNCOUNT",
+"en": "Pediatric dentistry is a branch of dentistry which deals with the dental care of infants, toddlers, and children under the age of thirteen. Pediatric dentists provide primary and comprehensive oral health care and also work with children who have special healthcare needs.",
+"kw": "infants, toddlers, children under thirteen"
+},
+{
+"term": "pathology",
+"unit": 2,
+"pos": "N-UNCOUNT",
+"en": "Pathology is a branch of dentistry which is concerned with the nature, identification, and management of diseases.",
+"kw": "nature, identification and management of diseases"
+},
+{
+"term": "radiology",
+"unit": 2,
+"pos": "N-UNCOUNT",
+"en": "Radiology is a branch of dentistry which is concerned with the production and interpretation of data and images that are used to diagnose and manage diseases, disorders, and conditions within the oral and maxillofacial region.",
+"kw": "images · interpretation of data · diagnose"
+},
+{
+"term": "surgery",
+"unit": 2,
+"pos": "N-UNCOUNT",
+"en": "Surgery is a branch of medicine concerned with diseases, conditions, and injuries that are repaired using manual and instrumental techniques.",
+"kw": "repaired using manual and instrumental techniques"
+},
+{
+"term": "maxillofacial",
+"unit": 2,
+"pos": "ADJ",
+"en": "If something is maxillofacial, it is related to the maxilla or the upper jaw.",
+"kw": "maxilla · upper jaw"
+},
+{
+"term": "specialty",
+"unit": 2,
+"pos": "N-COUNT",
+"en": "A specialty is a branch of medicine in which one specializes, or concentrates one's efforts toward a particular field or practice.",
+"kw": "branch of medicine one specializes in"
+},
+{
+"term": "referral",
+"unit": 2,
+"pos": "N-COUNT",
+"en": "A referral is a recommendation, or the act of sending or directing someone to a medical specialist for treatment, aid, or information.",
+"kw": "sending someone to a medical specialist"
+},
+{
+"term": "office",
+"unit": 3,
+"pos": "N-COUNT",
+"en": "An office is a place where business is conducted.",
+"kw": "place where business is conducted"
+},
+{
+"term": "receptionist desk",
+"unit": 3,
+"pos": "N-COUNT",
+"en": "A receptionist desk is the desk at which a person, employed to greet visitors and patients, answer phones, and keep records, sits and works.",
+"kw": "greet visitors · answer phones · keep records"
+},
+{
+"term": "waiting room",
+"unit": 3,
+"pos": "N-COUNT",
+"en": "A waiting room is a space near an entrance, often located in a doctor's office, in which people wait until they can be serviced.",
+"kw": "near an entrance · wait until serviced"
+},
+{
+"term": "restroom",
+"unit": 3,
+"pos": "N-COUNT",
+"en": "A restroom is a public bathroom supplied with one or more sinks, toilet stalls, urinals, hand dryers, and towel dispensers.",
+"kw": "public bathroom · sinks, toilet stalls"
+},
+{
+"term": "operatory",
+"unit": 3,
+"pos": "N-COUNT",
+"en": "An operatory is a medical professional's work space.",
+"kw": "medical professional's work space"
+},
+{
+"term": "treatment room",
+"unit": 3,
+"pos": "N-COUNT",
+"en": "A treatment room, or a patient care unit, is a space in which health care professionals provide care to patients.",
+"kw": "patient care unit · provide care to patients"
+},
+{
+"term": "radiology room",
+"unit": 3,
+"pos": "N-COUNT",
+"en": "A radiology room is a dark room where health care professionals use imaging technologies to gather data for diagnosis and treatment.",
+"kw": "dark room · imaging technologies"
+},
+{
+"term": "recovery room",
+"unit": 3,
+"pos": "N-COUNT",
+"en": "A recovery room, or a post-anesthesia care unit, is a unit in health care facilities where patients go to recover from anesthesia treatments.",
+"kw": "post-anesthesia care unit · recover from anesthesia"
+},
+{
+"term": "sterilization room",
+"unit": 3,
+"pos": "N-COUNT",
+"en": "A sterilization room is the space in which every surgical instrument is cleaned to prevent infection.",
+"kw": "instrument is cleaned · prevent infection"
+},
+{
+"term": "lab",
+"unit": 3,
+"pos": "N-COUNT",
+"en": "A lab, or laboratory, is a space equipped for experimental study in science using research testing and analysis.",
+"kw": "laboratory · experimental study, testing and analysis"
+},
+{
+"term": "storage room",
+"unit": 3,
+"pos": "N-COUNT",
+"en": "A storage room is a space in which items, such as medical supplies, are kept until they are needed.",
+"kw": "supplies are kept until needed"
+},
+{
+"term": "staff area",
+"unit": 3,
+"pos": "N-COUNT",
+"en": "A staff area is a space, usually restricted to employees, in which staff members rest, eat, or drink during break times.",
+"kw": "restricted to employees · rest, eat, drink at break"
+},
+{
+"term": "mechanical room",
+"unit": 3,
+"pos": "N-COUNT",
+"en": "A mechanical room or a boiler room, is a room or space in a building, usually in a basement, that is associated with electrical equipment and heating devices.",
+"kw": "boiler room · basement · electrical and heating"
+},
+{
+"term": "staff",
+"unit": 4,
+"pos": "N-UNCOUNT",
+"en": "Staff is the people who work for a specific business or institution.",
+"kw": "the people who work for a business"
+},
+{
+"term": "front office",
+"unit": 4,
+"pos": "N-COUNT",
+"en": "The front office is the part of a business that has direct contact with patients, clients, or the public.",
+"kw": "direct contact with patients"
+},
+{
+"term": "back office",
+"unit": 4,
+"pos": "N-COUNT",
+"en": "The back office is the part of a business that is not visible to patients, clients or the public.",
+"kw": "not visible to patients"
+},
+{
+"term": "receptionist",
+"unit": 4,
+"pos": "N-COUNT",
+"en": "A receptionist is someone whose job it is to greet patients and perform administrative tasks, such as making appointments and answering the phone.",
+"kw": "greet patients · making appointments · answering the phone"
+},
+{
+"term": "office manager",
+"unit": 4,
+"pos": "N-COUNT",
+"en": "An office manager is someone whose job it is to oversee the work of other employees to make sure an office is productive and efficient.",
+"kw": "oversee other employees · productive and efficient"
+},
+{
+"term": "financial coordinator",
+"unit": 4,
+"pos": "N-COUNT",
+"en": "A financial coordinator is someone whose job it is to keep the records for a business, like a dental practice. They handle payments, debts and investments.",
+"kw": "keep the records · payments, debts, investments"
+},
+{
+"term": "dental assistant",
+"unit": 4,
+"pos": "N-COUNT",
+"en": "A dental assistant is someone whose job it is to get an office ready for patients and clean it afterwards. They may also do administrative tasks or take X-rays or molds.",
+"kw": "get an office ready · clean it afterwards · X-rays or molds"
+},
+{
+"term": "dental hygienist",
+"unit": 4,
+"pos": "N-COUNT",
+"en": "A dental hygienist is someone whose job it is to clean patients' teeth, check for oral diseases and to provide preventative care.",
+"kw": "clean patients' teeth · preventative care"
+},
+{
+"term": "dental therapist",
+"unit": 4,
+"pos": "N-COUNT",
+"en": "A dental therapist is someone who does dental work, but who does not have a license or full training as a doctor of dentistry.",
+"kw": "does dental work · no license or full training"
+},
+{
+"term": "lab technician",
+"unit": 4,
+"pos": "N-COUNT",
+"en": "A lab technician is someone whose job it is to work on patient lab samples do tests and clean lab equipment.",
+"kw": "lab samples · tests · clean lab equipment"
+},
+{
+"term": "mirror",
+"unit": 5,
+"pos": "N-COUNT",
+"en": "A mirror is a tool that allows a dentist to see into hard-to-see places inside the mouth.",
+"kw": "see into hard-to-see places"
+},
+{
+"term": "retractor",
+"unit": 5,
+"pos": "N-COUNT",
+"en": "A retractor is a tool that allows dentists to pull a portion of the mouth away to access another area of the mouth.",
+"kw": "pull a portion of the mouth away"
+},
+{
+"term": "probe",
+"unit": 5,
+"pos": "N-COUNT",
+"en": "A probe is tool for measuring the depth of gum pockets to assess the health of gum tissue.",
+"kw": "measuring the depth of gum pockets"
+},
+{
+"term": "drill",
+"unit": 5,
+"pos": "N-COUNT",
+"en": "A drill is a tool for cutting holes into teeth.",
+"kw": "cutting holes into teeth"
+},
+{
+"term": "handpiece",
+"unit": 5,
+"pos": "N-COUNT",
+"en": "A handpiece is another name for a drill. It is used for cutting holes into teeth.",
+"kw": "another name for a drill"
+},
+{
+"term": "bur",
+"unit": 5,
+"pos": "N-COUNT",
+"en": "A bur is a tool that is fitted into a drill to cut into the tooth.",
+"kw": "fitted into a drill · cut into the tooth"
+},
+{
+"term": "chisel",
+"unit": 5,
+"pos": "N-COUNT",
+"en": "A chisel is long blade with a sharp edge for trimming and shaping.",
+"kw": "long blade · sharp edge · trimming and shaping"
+},
+{
+"term": "excavator",
+"unit": 5,
+"pos": "N-COUNT",
+"en": "An excavator is a tool for taking away soft, rotten decay inside the mouth.",
+"kw": "taking away soft, rotten decay"
+},
+{
+"term": "curette",
+"unit": 5,
+"pos": "N-COUNT",
+"en": "A curette is a tool for cleaning between the teeth and under the gum line.",
+"kw": "between the teeth · under the gum line"
+},
+{
+"term": "plugger",
+"unit": 5,
+"pos": "N-COUNT",
+"en": "A plugger is a tool used in root canals to plug the nerve after extraction.",
+"kw": "root canals · plug the nerve"
+},
+{
+"term": "burnisher",
+"unit": 5,
+"pos": "N-COUNT",
+"en": "A burnisher is a tool used at the end of a dental procedure to make surfaces smooth.",
+"kw": "end of a procedure · make surfaces smooth"
+},
+{
+"term": "syringe",
+"unit": 5,
+"pos": "N-COUNT",
+"en": "A syringe is a tool which is fitted with a needle. Dentists use it to suck up liquid and push it into the body when giving injections.",
+"kw": "fitted with a needle · injections"
+},
+{
+"term": "elevator",
+"unit": 5,
+"pos": "N-COUNT",
+"en": "An elevator is a tool used for many procedures including separating teeth or bone from membranes and loosening teeth.",
+"kw": "separating teeth from membranes · loosening teeth"
+},
+{
+"term": "forceps",
+"unit": 5,
+"pos": "N-UNCOUNT",
+"en": "Forceps are tools for grasping and extracting teeth.",
+"kw": "grasping and extracting teeth"
+},
+{
+"term": "mouth",
+"unit": 6,
+"pos": "N-COUNT",
+"en": "The mouth is an opening in the face, used for eating, breathing and speaking.",
+"kw": "opening in the face · eating, breathing, speaking"
+},
+{
+"term": "oral cavity",
+"unit": 6,
+"pos": "N-COUNT",
+"en": "The oral cavity is an opening in the face, and is another word for mouth.",
+"kw": "another word for mouth"
+},
+{
+"term": "upper lip",
+"unit": 6,
+"pos": "N-COUNT",
+"en": "The upper lip is the fleshy tissue around the opening of the mouth which is closest to the nose.",
+"kw": "closest to the nose"
+},
+{
+"term": "lower lip",
+"unit": 6,
+"pos": "N-COUNT",
+"en": "The lower lip is the fleshy tissue around the opening of the mouth which is closest to the chin.",
+"kw": "closest to the chin"
+},
+{
+"term": "teeth",
+"unit": 6,
+"pos": "N-UNCOUNT",
+"en": "The teeth are hard structures in the mouth, used for biting and chewing.",
+"kw": "hard structures · biting and chewing"
+},
+{
+"term": "gums",
+"unit": 6,
+"pos": "N-UNCOUNT",
+"en": "Gums are tissues that covers and connects the teeth to the jaw bones.",
+"kw": "covers and connects teeth to the jaw bones"
+},
+{
+"term": "tongue",
+"unit": 6,
+"pos": "N-COUNT",
+"en": "The tongue is a thick, soft organ in the mouth which is used to taste food.",
+"kw": "thick, soft organ · taste food"
+},
+{
+"term": "hard palate",
+"unit": 6,
+"pos": "N-COUNT",
+"en": "The hard palate extends over the roof of the mouth and is formed from maxillae and palatine bones.",
+"kw": "roof of the mouth · maxillae and palatine bones"
+},
+{
+"term": "soft palate",
+"unit": 6,
+"pos": "N-COUNT",
+"en": "The soft palate is located behind the hard palate and is made from tissue and muscle.",
+"kw": "behind the hard palate · tissue and muscle"
+},
+{
+"term": "uvula",
+"unit": 6,
+"pos": "N-COUNT",
+"en": "The uvula is a piece of soft tissue that hangs from the soft palate and stops food from entering the nasal cavity.",
+"kw": "hangs from the soft palate · stops food entering the nasal cavity"
+},
+{
+"term": "palatoglossal arch",
+"unit": 6,
+"pos": "N-COUNT",
+"en": "The palatoglossal arch is an arch-shaped structure at the back of the mouth.",
+"kw": "arch-shaped · back of the mouth"
+},
+{
+"term": "tonsil",
+"unit": 6,
+"pos": "N-COUNT",
+"en": "A tonsil is made of lymphoid tissue and forms part of the immune system.",
+"kw": "lymphoid tissue · immune system"
+},
+{
+"term": "crown",
+"unit": 7,
+"pos": "N-COUNT",
+"en": "The crown is the section of the tooth that sits above the gumline and that is visible.",
+"kw": "above the gumline · visible"
+},
+{
+"term": "neck",
+"unit": 7,
+"pos": "N-COUNT",
+"en": "The neck is the separation between the crown and root of a tooth. It is at the gumline, where the tooth is narrower.",
+"kw": "between the crown and root · narrower"
+},
+{
+"term": "root",
+"unit": 7,
+"pos": "N-COUNT",
+"en": "The root is the section of the tooth that extends below the gumline and is not visible. It is longer than the crown.",
+"kw": "below the gumline · not visible · longer than the crown"
+},
+{
+"term": "enamel",
+"unit": 7,
+"pos": "N-UNCOUNT",
+"en": "Enamel is the hard, white, exterior part of the tooth. It is made from calcium phosphate and protects the tooth during chewing.",
+"kw": "hard, white, exterior · calcium phosphate"
+},
+{
+"term": "dentin",
+"unit": 7,
+"pos": "N-UNCOUNT",
+"en": "Dentin is the layer of the tooth underneath the enamel. It consists of living cells.",
+"kw": "underneath the enamel · living cells"
+},
+{
+"term": "pulp",
+"unit": 7,
+"pos": "N-UNCOUNT",
+"en": "Pulp is the soft, living tissue inside the tooth. It contains blood vessels and nerves.",
+"kw": "soft, living tissue inside · blood vessels and nerves"
+},
+{
+"term": "blood vessel",
+"unit": 7,
+"pos": "N-COUNT",
+"en": "A blood vessel is a tube that moves blood around the body.",
+"kw": "tube that moves blood"
+},
+{
+"term": "nerve",
+"unit": 7,
+"pos": "N-COUNT",
+"en": "A nerve is a body part that looks like a thread and carries messages between the brain and the rest of the body.",
+"kw": "looks like a thread · carries messages to the brain"
+},
+{
+"term": "bone",
+"unit": 7,
+"pos": "N-COUNT",
+"en": "A bone is one of the hard parts that make a frame inside the body.",
+"kw": "hard parts · frame inside the body"
+},
+{
+"term": "cementum",
+"unit": 7,
+"pos": "N-UNCOUNT",
+"en": "Cementum is a layer of connective tissue that joins the roots of the teeth to the gums and jawbone.",
+"kw": "joins the roots to the gums and jawbone"
+},
+{
+"term": "periodontal ligament",
+"unit": 7,
+"pos": "N-COUNT",
+"en": "The periodontal ligament is tissue that helps keep the teeth tightly attached to the bone. It connects the cementum to the jawbone.",
+"kw": "keeps teeth attached to the bone · cementum to jawbone"
+},
+{
+"term": "root canal",
+"unit": 7,
+"pos": "N-COUNT",
+"en": "A root canal is a set of narrow spaces inside the root of a tooth that can become infected. In such cases, a dentist takes out the infected part of the root in an operation also called a root canal.",
+"kw": "narrow spaces inside the root · can become infected"
+},
+{
+"term": "incisor",
+"unit": 8,
+"pos": "N-COUNT",
+"en": "An incisor is one of the eight flat, sharp teeth found at the front of the mouth. They are used for cutting and biting.",
+"kw": "eight flat, sharp teeth at the front · cutting and biting"
+},
+{
+"term": "canine",
+"unit": 8,
+"pos": "N-COUNT",
+"en": "A canine is one of the four, sharp, pointed teeth found towards the front of the mouth. They are used to tear food.",
+"kw": "four sharp, pointed teeth · tear food"
+},
+{
+"term": "premolar",
+"unit": 8,
+"pos": "N-COUNT",
+"en": "A premolar is one of the eight teeth with ridges, found next to the canines. They are used to crush and grind food.",
+"kw": "teeth with ridges · next to the canines · crush and grind"
+},
+{
+"term": "molar",
+"unit": 8,
+"pos": "N-COUNT",
+"en": "A molar is one of the eight large, wide teeth, found at the back of the mouth. They are used to grind food.",
+"kw": "eight large, wide teeth at the back · grind food"
+},
+{
+"term": "wisdom tooth",
+"unit": 8,
+"pos": "N-COUNT",
+"en": "A wisdom tooth is one of the four teeth that grow in the very back of the mouth when a person reaches adulthood.",
+"kw": "four teeth · very back · adulthood"
+},
+{
+"term": "cut",
+"unit": 8,
+"pos": "V-T",
+"en": "To cut something to use an object to divide it into two or more pieces.",
+"kw": "divide into two or more pieces"
+},
+{
+"term": "chop",
+"unit": 8,
+"pos": "V-T",
+"en": "To chop something is to cut it into several, smaller pieces.",
+"kw": "cut into several smaller pieces"
+},
+{
+"term": "tear",
+"unit": 8,
+"pos": "V-T",
+"en": "To tear something is to pull it apart into separate pieces.",
+"kw": "pull apart into separate pieces"
+},
+{
+"term": "crush",
+"unit": 8,
+"pos": "V-T",
+"en": "To crush something is to press it so hard that it breaks into smaller pieces.",
+"kw": "press so hard it breaks"
+},
+{
+"term": "grind",
+"unit": 8,
+"pos": "V-T",
+"en": "To grind something is to use two hard surfaces to break it into tiny pieces, or into powder.",
+"kw": "two hard surfaces · tiny pieces or powder"
+},
+{
+"term": "chew",
+"unit": 8,
+"pos": "V-I",
+"en": "To chew is to bite food several times with your teeth in order to make it small enough to swallow.",
+"kw": "bite several times · small enough to swallow"
+},
+{
+"term": "saliva",
+"unit": 9,
+"pos": "N-UNCOUNT",
+"en": "Saliva is a clear, thick fluid which is released into the mouth by salivary glands to help break down food.",
+"kw": "clear, thick fluid · salivary glands"
+},
+{
+"term": "blood",
+"unit": 9,
+"pos": "N-UNCOUNT",
+"en": "Blood is the fluid that moves through the heart, arteries, capillaries, and veins of vertebrate creatures, carrying nutrients and oxygen and moving waste out of the body.",
+"kw": "fluid through heart, arteries and veins · nutrients and oxygen"
+},
+{
+"term": "contaminant",
+"unit": 9,
+"pos": "N-COUNT",
+"en": "A contaminant is an element that soils, stains, or infects as a result of contact or association.",
+"kw": "soils, stains or infects · contact"
+},
+{
+"term": "infectious",
+"unit": 9,
+"pos": "ADJ",
+"en": "If something is infectious, it is capable of causing infection, or a harmful effect on one's health.",
+"kw": "capable of causing infection"
+},
+{
+"term": "PPE",
+"unit": 9,
+"pos": "N-UNCOUNT",
+"en": "PPE consists of specialized clothing and equipment worn by an employee for protection against infectious contaminants.",
+"kw": "specialized clothing and equipment for protection"
+},
+{
+"term": "surgical gloves",
+"unit": 9,
+"pos": "N-UNCOUNT",
+"en": "Surgical gloves are disposable latex gloves worn by health professionals during medical examinations and procedures in order to prevent contamination between caregivers and patients.",
+"kw": "disposable latex gloves · prevent contamination"
+},
+{
+"term": "surgical mask",
+"unit": 9,
+"pos": "N-COUNT",
+"en": "A surgical mask, also called a \"procedure mask,\" is a partial covering for the face that is worn by health professionals to catch bacteria dispensed from liquid droplets emitted from the wearer's mouth and nose.",
+"kw": "procedure mask · droplets from mouth and nose"
+},
+{
+"term": "goggles",
+"unit": 9,
+"pos": "N-UNCOUNT",
+"en": "Goggles are protective glasses, usually made of plastic, that are set in a flexible frame, often made of plastic or rubber, which fits securely against the face.",
+"kw": "protective glasses · fits securely against the face"
+},
+{
+"term": "face shield",
+"unit": 9,
+"pos": "N-COUNT",
+"en": "A face shield is a device, usually made from plastic, used to protect the wearer's entire face or part of it from debris, splashes, and infectious fluids.",
+"kw": "protect the wearer's entire face · splashes"
+},
+{
+"term": "disposable",
+"unit": 9,
+"pos": "ADJ",
+"en": "If something is disposable it was designed to be used and then thrown away.",
+"kw": "used and then thrown away"
+},
+{
+"term": "reusable",
+"unit": 9,
+"pos": "ADJ",
+"en": "If something is reusable, it can be used more than once.",
+"kw": "used more than once"
+},
+{
+"term": "computer",
+"unit": 10,
+"pos": "N-COUNT",
+"en": "A computer is a programmable electronic device that is used to store, process, retrieve, and transmit data.",
+"kw": "programmable electronic device · store and process data"
+},
+{
+"term": "hardware",
+"unit": 10,
+"pos": "N-UNCOUNT",
+"en": "Hardware includes computer machinery and equipment, including memory, cables, power supply, devices, and circuit boards, which are used to operate computer systems.",
+"kw": "machinery and equipment · cables, circuit boards"
+},
+{
+"term": "software",
+"unit": 10,
+"pos": "N-UNCOUNT",
+"en": "Software is the set of programs, procedures, and routines which control and direct the computer.",
+"kw": "programs, procedures and routines"
+},
+{
+"term": "information technology",
+"unit": 10,
+"pos": "N-UNCOUNT",
+"en": "Information technology is all technology that involves the development, maintenance, and use of computers, software, and networks used to process and transmit data.",
+"kw": "computers, software and networks · transmit data"
+},
+{
+"term": "CAD",
+"unit": 10,
+"pos": "N-UNCOUNT",
+"en": "CAD (computer-aided design) is the use of computer systems to help with creation, revision, or analysis of design, particularly technical drawings.",
+"kw": "computer-aided design · technical drawings"
+},
+{
+"term": "CAM",
+"unit": 10,
+"pos": "N-UNCOUNT",
+"en": "CAM (computer-aided manufacturing) is the use of computer software to control machine tools and related machinery and to work on items in the process of manufacture.",
+"kw": "computer-aided manufacturing · control machine tools"
+},
+{
+"term": "clinical technology",
+"unit": 10,
+"pos": "N-UNCOUNT",
+"en": "Clinical technology includes all electronic instruments and equipment used to provide dental care, including intraoral cameras, digital radiology, computerized probes, lasers, and air abrasion units.",
+"kw": "all electronic instruments used to provide dental care"
+},
+{
+"term": "intraoral camera",
+"unit": 10,
+"pos": "N-COUNT",
+"en": "An intraoral camera is a wand-like instrument used during dental examinations that projects a magnified image of a patient's mouth onto a screen.",
+"kw": "wand-like · magnified image on a screen"
+},
+{
+"term": "digital X-ray",
+"unit": 10,
+"pos": "N-COUNT",
+"en": "A digital X-ray, or digital radiography, is a picture that is taken by placing a sensor, designed to look like a piece of film, over a tooth.",
+"kw": "digital radiography · sensor over a tooth"
+},
+{
+"term": "laser",
+"unit": 10,
+"pos": "N-COUNT",
+"en": "A laser is a device that generates a narrow, intense beam of light energy.",
+"kw": "narrow, intense beam of light"
+},
+{
+"term": "air abrasion",
+"unit": 10,
+"pos": "N-UNCOUNT",
+"en": "Air abrasion is an air compression device that delivers tiny particles of aluminum dioxide onto a tooth's surface to remove areas of decay.",
+"kw": "tiny particles of aluminum dioxide · remove decay"
+},
+{
+"term": "appointment",
+"unit": 11,
+"pos": "N-COUNT",
+"en": "An appointment is an arrangement for a meeting at a specific time, usually for an established reason.",
+"kw": "arrangement for a meeting at a specific time"
+},
+{
+"term": "schedule",
+"unit": 11,
+"pos": "V-T",
+"en": "To schedule is to plan for something to happen at a specific date or time.",
+"kw": "plan for something at a specific date or time"
+},
+{
+"term": "reschedule",
+"unit": 11,
+"pos": "V-T",
+"en": "To reschedule something is to change the time or date of when it is supposed to happen.",
+"kw": "change the time or date"
+},
+{
+"term": "cancel",
+"unit": 11,
+"pos": "V-T",
+"en": "To cancel something is to not allow it to begin or finish.",
+"kw": "not allow it to begin or finish"
+},
+{
+"term": "notice",
+"unit": 11,
+"pos": "N-UNCOUNT",
+"en": "Notice is information or a warning about something that is going to take place.",
+"kw": "information or warning in advance"
+},
+{
+"term": "no-show",
+"unit": 11,
+"pos": "N-COUNT",
+"en": "A no-show is a person who does not arrive at an event where they were expected to be.",
+"kw": "does not arrive where expected"
+},
+{
+"term": "walk-in",
+"unit": 11,
+"pos": "N-COUNT",
+"en": "A walk-in is a person who arrives at a business without an appointment.",
+"kw": "arrives without an appointment"
+},
+{
+"term": "date",
+"unit": 11,
+"pos": "N-COUNT",
+"en": "A date is the name and number of a specific day or year.",
+"kw": "name and number of a specific day"
+},
+{
+"term": "time",
+"unit": 11,
+"pos": "N-COUNT",
+"en": "A time is a specific occasion that is convenient or not convenient for something.",
+"kw": "specific occasion · convenient or not"
+},
+{
+"term": "business hours",
+"unit": 11,
+"pos": "N-UNCOUNT",
+"en": "Business hours are the hours during which a business or store is typically open.",
+"kw": "hours a business is open"
+},
+{
+"term": "evening",
+"unit": 11,
+"pos": "N-UNCOUNT",
+"en": "Evening is the part of the day that follows the afternoon and continues until you go to bed.",
+"kw": "after the afternoon · until bed"
+},
+{
+"term": "weekday",
+"unit": 11,
+"pos": "N-COUNT",
+"en": "A weekday is one of the days of the week that come between Monday and Friday.",
+"kw": "Monday to Friday"
+},
+{
+"term": "weekend",
+"unit": 11,
+"pos": "N-COUNT",
+"en": "A weekend is Saturday and Sunday, because these are the two days when many people do not work.",
+"kw": "Saturday and Sunday"
+},
+{
+"term": "cost",
+"unit": 12,
+"pos": "N-COUNT",
+"en": "A cost is the quantity of money you have to pay in exchange for receiving goods or services.",
+"kw": "money paid in exchange for goods or services"
+},
+{
+"term": "fee",
+"unit": 12,
+"pos": "N-COUNT",
+"en": "A fee is a quantity of money that you pay to a professional person for their work.",
+"kw": "money paid to a professional for their work"
+},
+{
+"term": "payment",
+"unit": 12,
+"pos": "N-COUNT",
+"en": "A payment is an amount of money that a person needs to give or receive from someone else.",
+"kw": "money to give or receive"
+},
+{
+"term": "co-payment",
+"unit": 12,
+"pos": "N-COUNT",
+"en": "A co-payment is the amount of money that an insured person pays each time they access medical services.",
+"kw": "insured person pays each time"
+},
+{
+"term": "balance",
+"unit": 12,
+"pos": "N-COUNT",
+"en": "A balance is the amount of money a person still owes after paying part of the cost.",
+"kw": "money still owed after paying part"
+},
+{
+"term": "insurance",
+"unit": 12,
+"pos": "N-UNCOUNT",
+"en": "Insurance is an agreement with a company where you regularly pay them money. In exchange, they will pay some or most of the cost if you become ill, or something bad happens.",
+"kw": "pay a company regularly · they pay if you become ill"
+},
+{
+"term": "cover",
+"unit": 12,
+"pos": "V-I",
+"en": "To cover is when an insurance agreement pays for a service or provides protection against something.",
+"kw": "insurance pays for a service"
+},
+{
+"term": "authorization",
+"unit": 12,
+"pos": "N-UNCOUNT",
+"en": "Authorization is the act of granting official permission to do something.",
+"kw": "granting official permission"
+},
+{
+"term": "patient responsibility",
+"unit": 12,
+"pos": "N-UNCOUNT",
+"en": "Patient responsibility is a patient's duty to be in charge of something, like medical bills and guarantee their payment.",
+"kw": "patient's duty · medical bills"
+},
+{
+"term": "cash",
+"unit": 12,
+"pos": "N-UNCOUNT",
+"en": "Cash is physical money, in the form of bills and coins.",
+"kw": "bills and coins"
+},
+{
+"term": "credit card",
+"unit": 12,
+"pos": "N-COUNT",
+"en": "A credit card is a rectangular, plastic card that lets people buy things or services now and pay for them later.",
+"kw": "plastic card · buy now, pay later"
+},
+{
+"term": "personal check",
+"unit": 12,
+"pos": "N-COUNT",
+"en": "A personal check is a printed piece of paper from an individual. A person writes an amount of money on it and signs it. A personal check can be used to pay for services or goods.",
+"kw": "printed paper · write an amount and sign"
+},
+{
+"term": "payment plan",
+"unit": 12,
+"pos": "N-COUNT",
+"en": "A payment plan is a fixed schedule for repaying debt, such as medical bills.",
+"kw": "fixed schedule for repaying debt"
+},
+{
+"term": "financing",
+"unit": 12,
+"pos": "N-UNCOUNT",
+"en": "Financing is the act of lending someone a large sum of money in order to pay for something up front. They are expected to repay this debt plus interest, on a regular basis.",
+"kw": "lending a large sum · repay plus interest"
+},
+{
+"term": "communication",
+"unit": 13,
+"pos": "N-UNCOUNT",
+"en": "Communication is the process of expressing thoughts, feelings and ideas.",
+"kw": "expressing thoughts, feelings and ideas"
+},
+{
+"term": "verbal",
+"unit": 13,
+"pos": "ADJ",
+"en": "If something is verbal, it relies on or uses spoken words.",
+"kw": "uses spoken words"
+},
+{
+"term": "nonverbal",
+"unit": 13,
+"pos": "ADJ",
+"en": "If something is nonverbal, it does not use or rely on speech or words.",
+"kw": "does not use speech or words"
+},
+{
+"term": "eye contact",
+"unit": 13,
+"pos": "N-UNCOUNT",
+"en": "Eye contact is when two people stare at each other's eyes.",
+"kw": "stare at each other's eyes"
+},
+{
+"term": "listen",
+"unit": 13,
+"pos": "V-I",
+"en": "To listen is to pay close attention to what a person is saying.",
+"kw": "pay close attention to what is said"
+},
+{
+"term": "interrupt",
+"unit": 13,
+"pos": "V-I",
+"en": "To interrupt is to say or do something that suddenly prevents someone from continuing what they are saying or doing.",
+"kw": "suddenly prevents someone from continuing"
+},
+{
+"term": "open-ended question",
+"unit": 13,
+"pos": "N-COUNT",
+"en": "An open-ended question is a question that a person cannot respond to with a one word answer.",
+"kw": "cannot answer with one word"
+},
+{
+"term": "explain",
+"unit": 13,
+"pos": "V-I",
+"en": "To explain is to tell a person about something in a way that is easy to follow and understand.",
+"kw": "easy to follow and understand"
+},
+{
+"term": "care",
+"unit": 13,
+"pos": "V-I",
+"en": "To care is to be concerned and interested in what happens to someone and to want them to be well and happy.",
+"kw": "concerned and interested · want them to be well"
+},
+{
+"term": "concern",
+"unit": 13,
+"pos": "N-UNCOUNT",
+"en": "Concern is a feeling of worry or a desire for someone to be well and happy.",
+"kw": "feeling of worry"
+},
+{
+"term": "sympathize",
+"unit": 13,
+"pos": "V-I",
+"en": "To sympathize is to behave kindly toward a person because you understand their problems.",
+"kw": "behave kindly · understand their problems"
+},
+{
+"term": "reassurance",
+"unit": 13,
+"pos": "N-UNCOUNT",
+"en": "Reassurance is words or actions that make someone feel less afraid or worried.",
+"kw": "less afraid or worried"
+},
+{
+"term": "bacteria",
+"unit": 14,
+"pos": "N-UNCOUNT",
+"en": "Bacteria are very small organisms, some of which cause disease.",
+"kw": "very small organisms · cause disease"
+},
+{
+"term": "sugar",
+"unit": 14,
+"pos": "N-COUNT",
+"en": "A sugar is a type of simple carbohydrate that dissolves in water.",
+"kw": "simple carbohydrate · dissolves in water"
+},
+{
+"term": "acid",
+"unit": 14,
+"pos": "N-COUNT",
+"en": "An acid is a liquid with a low pH which causes chemical reactions.",
+"kw": "low pH · chemical reactions"
+},
+{
+"term": "accumulate",
+"unit": 14,
+"pos": "V-I",
+"en": "If something accumulates, it slowly gathers together and gets larger.",
+"kw": "slowly gathers together · gets larger"
+},
+{
+"term": "toothbrush",
+"unit": 14,
+"pos": "N-COUNT",
+"en": "A toothbrush is a tool, usually made of colored plastic, which people use to clean their teeth.",
+"kw": "tool of colored plastic · clean teeth"
+},
+{
+"term": "toothpaste",
+"unit": 14,
+"pos": "N-UNCOUNT",
+"en": "Toothpaste is a substance placed on a toothbrush and used to clean the teeth.",
+"kw": "substance placed on a toothbrush"
+},
+{
+"term": "floss",
+"unit": 14,
+"pos": "N-UNCOUNT",
+"en": "Floss is thread which is used to clean between teeth.",
+"kw": "thread · clean between teeth"
+},
+{
+"term": "mouthwash",
+"unit": 14,
+"pos": "N-UNCOUNT",
+"en": "Mouthwash is a liquid used to kill bacteria in the mouth and freshen breath.",
+"kw": "liquid · kill bacteria · freshen breath"
+},
+{
+"term": "fluoride",
+"unit": 14,
+"pos": "N-UNCOUNT",
+"en": "Fluoride is a chemical which makes teeth stronger.",
+"kw": "chemical · makes teeth stronger"
+},
+{
+"term": "hygiene",
+"unit": 14,
+"pos": "N-UNCOUNT",
+"en": "Hygiene is the method of keeping clean and healthy.",
+"kw": "keeping clean and healthy"
+},
+{
+"term": "daily",
+"unit": 14,
+"pos": "ADV",
+"en": "If something happens daily, it occurs every day.",
+"kw": "every day"
+},
+{
+"term": "plaque",
+"unit": 15,
+"pos": "N-UNCOUNT",
+"en": "Plaque is a substance containing bacteria that forms on the surface of the teeth.",
+"kw": "substance containing bacteria · on the teeth"
+},
+{
+"term": "tartar",
+"unit": 15,
+"pos": "N-UNCOUNT",
+"en": "Tartar is a hard substance that forms on the teeth.",
+"kw": "hard substance on the teeth"
+},
+{
+"term": "deposit",
+"unit": 15,
+"pos": "N-COUNT",
+"en": "A deposit is a layer of something which is left behind.",
+"kw": "layer left behind"
+},
+{
+"term": "build up",
+"unit": 15,
+"pos": "V-I",
+"en": "If something builds up, it accumulates.",
+"kw": "accumulates"
+},
+{
+"term": "prophylaxis",
+"unit": 15,
+"pos": "N-UNCOUNT",
+"en": "Prophylaxis is the formal term for dental cleaning.",
+"kw": "formal term for dental cleaning"
+},
+{
+"term": "scrape",
+"unit": 15,
+"pos": "V-T",
+"en": "To scrape something is to use a sharp object to remove small pieces.",
+"kw": "sharp object · remove small pieces"
+},
+{
+"term": "remove",
+"unit": 15,
+"pos": "V-T",
+"en": "To remove something is to take it away.",
+"kw": "take it away"
+},
+{
+"term": "clean",
+"unit": 15,
+"pos": "V-T",
+"en": "To clean something is to make it free of dirt and debris.",
+"kw": "free of dirt and debris"
+},
+{
+"term": "polish",
+"unit": 15,
+"pos": "V-T",
+"en": "To polish something is to make it shiny.",
+"kw": "make it shiny"
+},
+{
+"term": "prophylaxis paste",
+"unit": 15,
+"pos": "N-UNCOUNT",
+"en": "Prophylaxis paste is a substance used by dentists to polish teeth.",
+"kw": "used by dentists to polish teeth"
+},
+{
+"term": "apply",
+"unit": 15,
+"pos": "V-T",
+"en": "To apply something is to add it to something else.",
+"kw": "add it to something else"
+},
+{
+"term": "spit",
+"unit": 15,
+"pos": "V-I",
+"en": "To spit is to remove saliva or liquid from the mouth by forcefully blowing it out of the mouth.",
+"kw": "forcefully blowing liquid out of the mouth"
+}
+]

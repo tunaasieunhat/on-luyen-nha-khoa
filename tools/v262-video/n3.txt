@@ -1,0 +1,241 @@
+## 1
+Xin chào các bạn, chúng ta đến với bài ba của môn Vật liệu nha khoa: Cấu trúc vật chất và nguyên tắc dính.
+Đây là một bài nền tảng về hóa lý. Nghe tên thì có vẻ khô khan, nhưng thật ra nó trả lời rất nhiều câu hỏi thú vị.
+Vì sao kim loại cứng mà không vỡ, còn sứ thì cứng nhưng dễ vỡ?
+Vì sao amalgam đông cứng được ngay trong miệng?
+Và vì sao phải xoi mòn men răng trước khi dán composite?
+Tất cả đều bắt nguồn từ cách các nguyên tử liên kết và sắp xếp với nhau.
+Chúng ta sẽ đi từ liên kết nguyên tử, đến cấu trúc tinh thể, rồi khuếch tán, và cuối cùng là cơ sở của hiện tượng dính và dán.
+Chúng ta bắt đầu nhé.
+
+## 2
+Đầu tiên là mục tiêu của bài học.
+Học xong bài này, các bạn sẽ trình bày được ba loại liên kết sơ cấp và hai loại liên kết thứ cấp.
+Các bạn sẽ biết các cấu trúc tinh thể thường gặp trong vật liệu nha khoa.
+Các bạn sẽ giải thích được hiện tượng khuếch tán và vai trò của nó.
+Và các bạn sẽ giải thích được hiện tượng dính và dán, dựa trên năng lượng bề mặt và góc tiếp xúc.
+Để hiểu nhanh, hãy nhớ: mọi tính chất của vật liệu, từ cứng hay mềm, dẫn nhiệt hay cách nhiệt, nóng chảy ở bao nhiêu độ, cho đến việc có dính vào răng hay không, đều bắt nguồn từ cách nguyên tử liên kết và sắp xếp.
+Bài này sẽ giúp các bạn giải thích ba điều cụ thể.
+Một, vì sao kim loại cản quang, hiện màu trắng trên phim X quang.
+Hai, vì sao amalgam đông cứng được ngay trong miệng.
+Ba, vì sao phải xoi mòn men trước khi dán composite.
+Vì đây là bài lý thuyết nền, mẹo học tốt nhất là gắn mỗi khái niệm với một ví dụ nha khoa cụ thể. Trong suốt bài, mình sẽ luôn đưa ra những ví dụ như vậy.
+
+## 3
+Chúng ta bắt đầu từ đơn vị nhỏ nhất: nguyên tử.
+Nguyên tử gồm một hạt nhân ở giữa, chứa proton mang điện dương và neutron không mang điện, cùng một đám mây electron mang điện âm bao quanh.
+Từ atom, nghĩa là nguyên tử, bắt nguồn từ chữ a tomos của nhà triết học Hy Lạp Democritus, có nghĩa là không thể chia cắt.
+Khi nhận thêm electron, nguyên tử trở thành ion âm. Khi mất bớt electron, nó trở thành ion dương.
+Tiếp theo là trạng thái của vật chất.
+Khi động năng của các phân tử giảm, tức là khi vật chất nguội đi, nó chuyển từ thể hơi sang thể lỏng, rồi sang thể rắn.
+Năng lượng cần để chuyển một chất từ rắn sang lỏng, tại đúng nhiệt độ nóng chảy, gọi là nhiệt nóng chảy tiềm ẩn.
+Năng lượng cần để chuyển từ lỏng sang hơi gọi là nhiệt bốc hơi.
+Còn sự thăng hoa, tức là chuyển thẳng từ rắn sang hơi, thì ít có ý nghĩa với vật liệu nha khoa.
+Hình trên slide là mô hình đám mây điện tử của nguyên tử. Các bạn hãy nhớ hình ảnh này, vì cách các electron ở lớp ngoài cùng hành xử sẽ quyết định loại liên kết mà chúng ta học ngay sau đây.
+
+## 4
+Bây giờ là ba loại liên kết sơ cấp, hay còn gọi là liên kết hóa học.
+Nguyên tử bền vững nhất khi có tám electron ở lớp ngoài cùng. Để đạt được điều đó, nó phải cho đi, nhận thêm, hoặc chia sẻ electron với nguyên tử khác.
+Loại thứ nhất là liên kết ion. Ở đây, một bên cho electron, một bên nhận electron. Ví dụ quen thuộc là muối ăn, natri clorua.
+Trong nha khoa, thạch cao và xi măng phosphat có liên kết ion.
+Loại thứ hai là liên kết cộng hóa trị. Ở đây, hai nguyên tử dùng chung electron với nhau. Trong nha khoa, nhựa resin có liên kết cộng hóa trị.
+Loại thứ ba là liên kết kim loại. Các electron hóa trị tách ra, tạo thành một đám mây electron tự do bao quanh các ion dương.
+Các liên kết này có thể phối hợp với nhau trong cùng một chất.
+Ví dụ, trong canxi sulfat, thành phần của thạch cao, liên kết giữa ion canxi và nhóm sulfat là liên kết ion, còn bên trong nhóm sulfat lại là liên kết cộng hóa trị.
+Mẹo nhớ: ion là cho nhận, cộng hóa trị là chia sẻ, còn kim loại là electron tự do.
+Ba loại liên kết sơ cấp này đều rất mạnh. Chính chúng là gốc rễ của độ cứng và nhiệt độ nóng chảy cao của sứ và kim loại.
+
+## 5
+Đám mây electron tự do giải thích ba tính chất đặc trưng của kim loại. Đây là một ý rất hay được hỏi.
+Tính chất thứ nhất là dẫn nhiệt và dẫn điện.
+Electron tự do di chuyển rất dễ dàng, và chúng mang theo cả nhiệt lẫn điện.
+Vì vậy, một miếng trám kim loại ở xoang sâu cần có lớp lót cách nhiệt để bảo vệ tủy. Nếu không, mỗi lần uống nước nóng hay lạnh, bệnh nhân sẽ bị ê buốt.
+Tính chất thứ hai là cản quang.
+Electron tự do hấp thụ ánh sáng và tia X, nên kim loại không cho ánh sáng đi qua, và hiện lên màu trắng rất rõ trên phim X quang.
+Tính chất thứ ba là dẻo, không gãy giòn.
+Khi các lớp nguyên tử trượt lên nhau, đám mây electron tự do tự sắp xếp lại và vẫn giữ các ion gắn kết với nhau. Vì vậy, kim loại có thể uốn cong mà không vỡ, như khi chúng ta bẻ móc hàm giả.
+Vậy tại sao sứ cũng có liên kết mạnh mà lại giòn?
+Vì liên kết của sứ là liên kết ion và cộng hóa trị, có tính định hướng. Các lớp nguyên tử không thể trượt lên nhau được. Khi chịu lực quá mức, liên kết đứt luôn, và sứ vỡ.
+Hãy nhớ: chỉ một loại liên kết kim loại mà giải thích cùng lúc được ba tính chất: dẫn điện nhiệt, cản quang và dẻo.
+
+## 6
+Tiếp theo là các liên kết thứ cấp: lực van der Waals và liên kết hydro.
+Liên kết thứ cấp không chia sẻ electron. Nó chỉ xuất hiện do sự phân bố điện tích không đều, tạo thành các lưỡng cực. Vì vậy, nó yếu hơn liên kết sơ cấp rất nhiều.
+Lực van der Waals có ba loại.
+Loại định hướng xảy ra giữa các phân tử vốn đã phân cực.
+Loại cảm ứng xảy ra khi một phân tử phân cực làm cho phân tử bên cạnh phân cực theo.
+Và loại khuếch tán do các lưỡng cực tạm thời, xuất hiện ở mọi chất, kể cả khí trơ.
+Liên kết hydro là khi đầu hydro mang điện dương của phân tử này hút đầu oxy mang điện âm của phân tử khác. Ví dụ điển hình là giữa các phân tử nước.
+Hình trên slide minh họa lực lưỡng cực ở bên trái, và liên kết hydro giữa các phân tử nước ở bên phải.
+Liên kết hydro có một ý nghĩa lâm sàng quan trọng: nó giải thích vì sao nhựa resin hút nước.
+Khi nhựa hút nước, nó mềm đi và đổi màu theo thời gian. Đó là lý do miếng trám composite cũ thường bị ố vàng.
+Ngoài ra, liên kết thứ cấp còn giữ các chuỗi polyme lại với nhau khi giữa chúng không có liên kết ngang.
+
+## 7
+Bây giờ chúng ta chuyển sang cách các nguyên tử sắp xếp: cấu trúc tinh thể.
+Ở thể rắn, các nguyên tử có xu hướng sắp xếp sao cho năng lượng nội tại thấp nhất. Chúng tạo thành một mạng lưới lặp lại đều đặn, gọi là tinh thể.
+Khối nhỏ nhất lặp lại trong mạng gọi là ô tinh thể. Và hầu hết tinh thể trong thực tế đều có những vị trí trống, không có nguyên tử.
+Có ba kiểu cấu trúc tinh thể các bạn cần nhớ.
+Lập phương tâm khối, ví dụ là sắt ở nhiệt độ phòng.
+Lập phương tâm diện, ví dụ là đồng.
+Và lục giác xếp chặt, ví dụ là titan, kẽm và zirconium.
+Mọi kim loại nha khoa đều có cấu trúc tinh thể. Sứ alumina và zirconia cũng vậy.
+Hình trên slide cho thấy ba ô tinh thể: lập phương đơn, lập phương tâm khối, và lập phương tâm diện.
+Mẹo nhớ: sắt là tâm khối, đồng là tâm diện, titan là lục giác.
+Một chút lịch sử: năm một nghìn sáu trăm sáu mươi lăm, Robert Hooke đã mô tả tinh thể giống như những quả bóng được xếp gọn trong một chiếc giỏ. Mô hình đơn giản này hóa ra lại đúng với rất nhiều kim loại.
+
+## 8
+Không phải chất rắn nào cũng có cấu trúc tinh thể. Có những chất có cấu trúc vô định hình.
+Ví dụ điển hình là thủy tinh. Thủy tinh chỉ có trật tự ở từng vùng nhỏ, chứ không lặp lại đều đặn trên toàn bộ. Vì vậy, nó còn được gọi là chất lỏng siêu lạnh.
+Nhựa resin và sáp khi đông lại cũng có cấu trúc vô định hình.
+Khác với tinh thể, chất vô định hình không có nhiệt độ nóng chảy cụ thể. Khi bị đun nóng, nó mềm dần.
+Mốc quan trọng của chất vô định hình là nhiệt độ chuyển tiếp thủy tinh, viết tắt là T g.
+Dưới nhiệt độ T g, vật liệu cứng. Trên T g, vật liệu mềm ra.
+Resin đã đông cứng có T g cao hơn nhiệt độ cơ thể, nên nó cứng khi ở trong miệng.
+Nhiều vật liệu nha khoa thực chất là sự kết hợp của cả hai cấu trúc: một khuôn thủy tinh vô định hình, bên trong có các tinh thể vùi vào. Ví dụ như sứ và composite.
+Các tinh thể vùi này giúp tăng độ đục và độ cản quang.
+Lấy composite làm ví dụ: phần khuôn nhựa là vô định hình, còn các hạt độn thạch anh bên trong là tinh thể.
+Hình trên slide so sánh silic dioxit ở dạng tinh thể và dạng vô định hình.
+
+## 9
+Tiếp theo, chúng ta tìm hiểu khoảng cách liên kết và năng lượng nhiệt.
+Giữa hai nguyên tử luôn có cả lực hút và lực đẩy. Khi hai nguyên tử đến rất gần nhau, lực đẩy tăng nhanh hơn lực hút.
+Tại một khoảng cách nhất định, hai lực này bằng nhau, và năng lượng là thấp nhất. Đó là khoảng cách cân bằng.
+Ở mọi nhiệt độ trên không độ tuyệt đối, các nguyên tử luôn dao động quanh vị trí cân bằng.
+Khi vật liệu nóng lên, nguyên tử dao động rộng hơn, khoảng cách trung bình giữa chúng tăng lên, và vật liệu giãn nở.
+Các bạn hãy hình dung năng lượng liên kết như một cái giếng. Liên kết mạnh là một cái giếng sâu và hẹp.
+Vật liệu có liên kết mạnh thì giãn nở nhiệt thấp, nhiệt độ nóng chảy cao, và cứng hơn.
+Hình trên slide so sánh một giếng năng lượng sâu với một giếng nông.
+Ví dụ lâm sàng: sứ có liên kết mạnh, nên nó giãn nở ít và nóng chảy ở nhiệt độ rất cao.
+Ngược lại, sáp có liên kết yếu, nên nó giãn nở rất mạnh và mềm ra chỉ ở nhiệt độ thấp.
+Mối liên hệ này cũng giải thích vì sao trong phục hình sứ kim loại, ta phải chọn sứ và kim loại có hệ số giãn nở phù hợp với nhau. Nếu không, khi nung và làm nguội, lớp sứ sẽ bị nứt.
+
+## 10
+Bây giờ là hiện tượng khuếch tán.
+Khi các bạn nhỏ một giọt mực vào cốc nước, màu mực lan dần ra khắp cốc. Đó là khuếch tán.
+Trong chất rắn cũng có khuếch tán, nhưng chậm hơn rất nhiều.
+Vậy vì sao khuếch tán xảy ra được trong chất rắn?
+Thứ nhất, luôn có một số nguyên tử có năng lượng vượt qua năng lượng liên kết, nên chúng nhảy sang một vị trí khác.
+Thứ hai, mạng tinh thể có sẵn những vị trí trống để nguyên tử nhảy vào.
+Khuếch tán có thể làm nồng độ trở nên đồng đều, nhưng cũng có thể làm nguyên tử tập trung lại một chỗ và kết tủa.
+Khuếch tán nhanh hơn khi nhiệt độ cao, khi chênh lệch nồng độ lớn, và khi mạng tinh thể kém ổn định.
+Khuếch tán chậm hơn khi nguyên tử có kích thước lớn, và khi liên kết mạnh.
+Kim loại có nhiệt độ nóng chảy thấp và vật liệu vô định hình thì khuếch tán nhanh hơn.
+Và đây là ứng dụng quan trọng nhất trong nha khoa: amalgam đông cứng được trong miệng là nhờ khuếch tán.
+Thủy ngân ở thể lỏng, vì nó nóng chảy ở âm ba mươi tám độ C. Khi trộn, bột hợp kim hòa tan và khuếch tán rất nhanh vào thủy ngân, tạo thành những hợp chất kim loại rắn mới.
+Một kim loại khác là gallium, nóng chảy ở khoảng hai mươi chín độ C, cũng lỏng gần nhiệt độ phòng, và có thể thay thế thủy ngân trong một số hợp kim trám.
+
+## 11
+Bây giờ chúng ta chuyển sang phần thứ hai của bài: dính và dán trong nha khoa.
+Trước hết là hai thuật ngữ rất hay ra trắc nghiệm.
+Dính bám, tiếng Anh là adhesion, là khi các phân tử của hai chất khác nhau hút nhau.
+Dính kết, tiếng Anh là cohesion, là khi các phân tử của cùng một chất hút nhau.
+Mẹo nhớ: adhesion là khác loại, cohesion là cùng loại.
+Tiếp theo, chất dính là vật liệu dùng để dán, còn vật dính là vật được dán vào.
+Hiện tượng dính có mặt khắp nơi trong nha khoa.
+Hàm giả bám được vào niêm mạc là nhờ lớp nước bọt ở giữa.
+Mảng bám vi khuẩn bám vào men răng, và theo thời gian có thể khoáng hóa thành vôi răng.
+Còn implant thì ban đầu ổn định nhờ lưu giữ cơ học, sau đó mới tích hợp với xương.
+Hình trên slide minh họa ba ví dụ đó: hàm giả dính nhờ nước bọt, mảng bám thành vôi răng, và implant tích hợp xương.
+Ở các slide tiếp theo, chúng ta sẽ xem điều gì quyết định một chất dính tốt hay dính kém.
+
+## 12
+Yếu tố đầu tiên là năng lượng bề mặt.
+Các nguyên tử ở bên trong vật liệu được các nguyên tử xung quanh hút đều về mọi phía.
+Nhưng các nguyên tử ở bề mặt thì không. Chúng chỉ bị hút về phía bên trong, nên có năng lượng cao hơn. Phần năng lượng dư đó gọi là năng lượng bề mặt.
+Bề mặt có năng lượng cao thì sẵn sàng hút các phân tử khác, nên dễ dán.
+Hãy xem một vài con số, tính bằng mili jun trên mét vuông.
+Men răng có năng lượng bề mặt khoảng chín mươi hai, cao hơn hầu hết các vật liệu. Ngà răng khoảng tám mươi bảy.
+Hợp kim vàng khoảng năm mươi mốt đến năm mươi bốn. Titan khoảng năm mươi. Nhựa nền hàm khoảng bốn mươi sáu đến năm mươi bốn. Keo dán ngà khoảng ba mươi tư đến năm mươi lăm.
+Nước ở hai mươi lăm độ C là bảy mươi hai.
+Còn teflon chỉ khoảng hai mươi. Teflon và sáp có năng lượng bề mặt rất thấp, nên gần như không có gì dính được vào chúng. Đó là lý do chảo chống dính được phủ teflon.
+Một điều cần nhớ: tạp chất như oxy hấp phụ trên bề mặt, hoặc nước bọt, sẽ làm giảm năng lượng bề mặt, và làm giảm chất lượng dán.
+Vì vậy, trên lâm sàng, cách ly tốt để bề mặt răng không bị nhiễm nước bọt là điều kiện bắt buộc khi dán.
+
+## 13
+Yếu tố thứ hai là thấm ướt, đây là điều kiện đầu tiên để dính.
+Hãy làm một thí nghiệm nhỏ trong đầu. Lấy hai tấm kính, ép chúng vào nhau. Chúng không dính.
+Vì sao? Vì ở mức độ nguyên tử, bề mặt kính rất gồ ghề, và hai tấm kính chỉ thực sự chạm nhau ở vài điểm. Lực hút giữa các nguyên tử mất đi khi chúng cách nhau xa hơn không phẩy bảy nano mét.
+Bây giờ, nhỏ một giọt nước vào giữa hai tấm kính, rồi ép lại. Lúc này, rất khó để tách chúng ra.
+Đó là vì chất lỏng đã lấp kín những chỗ gồ ghề, và tạo ra lực mao dẫn kéo hai tấm kính sát lại.
+Bài học ở đây là: chất dính phải lan rộng được trên bề mặt, tức là phải thấm ướt được bề mặt. Nếu không thấm ướt, thì gần như không dính.
+Và bề mặt sạch là điều kiện tiên quyết để thấm ướt.
+Mẹo nhớ: chất lỏng có năng lượng bề mặt thấp sẽ lan tốt trên chất rắn có năng lượng bề mặt cao.
+Một ví dụ thực tế trong nha khoa: hàm giả toàn hàm ở hàm trên bám được là nhờ một lớp nước bọt rất mỏng nằm giữa nền hàm và niêm mạc, giống hệt như giọt nước giữa hai tấm kính.
+
+## 14
+Để đo mức độ thấm ướt, người ta dùng góc tiếp xúc.
+Khi đặt một giọt chất lỏng lên bề mặt chất rắn, tại điểm gặp nhau của không khí, chất lỏng và chất rắn sẽ tạo thành một góc. Đó là góc tiếp xúc, ký hiệu là theta.
+Góc tiếp xúc càng nhỏ, thấm ướt càng tốt.
+Góc không độ nghĩa là ướt hoàn toàn, chất lỏng lan phẳng ra. Góc một trăm tám mươi độ nghĩa là hoàn toàn không ướt, giọt lỏng tròn như hạt ngọc.
+Một vài ví dụ: amalgam có góc tiếp xúc khoảng bảy mươi bảy độ, nhựa nền hàm bảy mươi lăm độ, titan năm mươi tư độ, và silicone ngưng tụ từ tám mươi hai đến một trăm lẻ ba độ.
+Quan hệ giữa các năng lượng ở giao diện được mô tả bằng phương trình Young. Nhưng lưu ý, phương trình này giả định bề mặt phẳng hoàn hảo. Trong thực tế, độ gồ ghề và tạp chất làm góc tiếp xúc bị lệch đi.
+Hình trên slide so sánh nước trên kính sạch với góc không độ, trên nhựa acrylic với góc bảy mươi lăm độ, và trên teflon với góc một trăm mười độ.
+Ứng dụng lâm sàng: silicone lấy dấu có tính kỵ nước, góc tiếp xúc lớn hơn chín mươi độ. Vì vậy, khi đổ thạch cao vào dấu silicone, rất dễ bị bọt khí.
+Để khắc phục, nhà sản xuất thêm chất hoạt diện, giúp silicone trở nên ưa nước hơn.
+
+## 15
+Tiếp theo là lưu giữ vi cơ học và xoi mòn men.
+Các loại xi măng gắn truyền thống như phosphat kẽm và carboxylat hoạt động rất đơn giản: chúng chảy vào những chỗ gồ ghề trên bề mặt, rồi đông cứng lại, tạo thành những cái neo nhỏ. Đó là lưu giữ vi cơ học.
+Trước đây, composite không dán bền được vào răng. Kết quả là rò rỉ ở bờ, nhiễm màu, và sâu răng tái phát.
+Bước ngoặt đến từ kỹ thuật xoi mòn men bằng acid phosphoric. Acid được bôi lên men dưới sáu mươi giây, rồi rửa sạch.
+Xoi mòn mang lại hai lợi ích.
+Thứ nhất, nó tạo ra vô số vi ngàm, những lỗ rất nhỏ để nhựa chảy vào và tạo lưu giữ vi cơ học.
+Thứ hai, nó làm sạch bề mặt, tăng diện tích, và tăng năng lượng bề mặt.
+Nhưng các bạn cần chú ý một điều: những chỗ gồ ghề cũng có thể kẹt bọt khí.
+Ứng suất sẽ tập trung quanh các bọt khí này, và có thể làm phục hồi bị bong ra.
+Hình trên slide minh họa bọt khí bị kẹt trong chỗ gồ ghề dưới lớp keo dán.
+Phần này là cầu nối sang bài mười bốn, Dán nha khoa. Ở đó chúng ta sẽ thấy: men được xoi mòn để tạo vi ngàm, còn ngà thì cần thêm primer và lớp lai.
+Hãy hình dung trên lâm sàng: sau khi bôi acid phosphoric và rửa sạch, men răng được xoi mòn đúng cách sẽ có màu trắng đục như phấn.
+Nếu men không có màu trắng đục, có thể thời gian xoi mòn chưa đủ, hoặc bề mặt đã bị nhiễm nước bọt.
+Sau khi xoi mòn, tuyệt đối không để nước bọt chạm vào bề mặt men, vì protein trong nước bọt sẽ bám lên và làm giảm năng lượng bề mặt ngay lập tức.
+Nếu lỡ bị nhiễm, cách đơn giản nhất là rửa sạch, rồi xoi mòn lại thêm vài giây.
+
+## 16
+Vậy dán vào cấu trúc răng khó ở đâu? Có ba khó khăn chính.
+Khó khăn thứ nhất: răng không đồng nhất.
+Men răng chứa rất nhiều khoáng chất, còn ngà răng chứa nhiều chất hữu cơ và nước. Một chất dính tốt vào men chưa chắc đã dính tốt vào ngà.
+Khó khăn thứ hai: bề mặt răng sau khi sửa soạn.
+Bề mặt này thô ráp, đầy mùn ngà, và dễ nhốt bọt khí. Chúng ta phải xử lý bề mặt, và tránh để nhiễm nước bọt.
+Khó khăn thứ ba: ngà răng luôn ẩm.
+Dịch trong ống ngà làm cho keo dán phải cạnh tranh với nước để bám vào bề mặt.
+Vì vậy, các loại keo dán hiện nay được thiết kế ưa nước, và có những nhóm chức có thể phản ứng hóa học với răng.
+Ba khó khăn này chính là lý do keo dán ngà phức tạp hơn nhiều so với việc chỉ xoi mòn men.
+Còn mục tiêu trong tương lai thì sao?
+Các nhà khoa học hướng đến một loại keo dán tạo được màng mỏng, bền vững trên răng nguyên vẹn, không cần mài răng để tạo lưu giữ cơ học. Màng này còn giúp ngăn mảng bám và sâu răng.
+Hãy liên hệ ngược lại với những gì chúng ta vừa học ở đầu bài.
+Men răng có năng lượng bề mặt cao, khoảng chín mươi hai, nên sau khi xoi mòn và làm khô, keo dán lan rất tốt trên men.
+Ngà răng cũng có năng lượng bề mặt khá cao, nhưng vì luôn ẩm, keo dán kỵ nước sẽ không thấm ướt được.
+Đó là lý do primer trong hệ thống dán ngà thường có những phân tử vừa có đầu ưa nước để bám vào ngà ẩm, vừa có đầu kỵ nước để nối với nhựa phía trên.
+
+## 17
+Bây giờ chúng ta cùng làm ba câu hỏi nhanh, tương ứng với ba phần chính của bài: liên kết, tinh thể và dính.
+Câu một: liên kết nào giải thích việc kim loại dẫn điện, cản quang và dẻo? A, liên kết ion. B, liên kết cộng hóa trị. C, liên kết kim loại. D, liên kết hydro.
+Câu hai: titan có cấu trúc tinh thể nào? A, lập phương tâm khối. B, lập phương tâm diện. C, lục giác xếp chặt. D, vô định hình.
+Câu ba: góc tiếp xúc nhỏ có ý nghĩa gì? A, thấm ướt kém. B, thấm ướt tốt. C, năng lượng bề mặt thấp. D, không liên quan đến dính.
+Các bạn hãy tạm dừng video, suy nghĩ vài giây, rồi xem đáp án ở slide tiếp theo nhé.
+
+## 18
+Và đây là đáp án.
+Câu một, đáp án C: liên kết kim loại. Đám mây electron tự do của liên kết kim loại giải thích cả ba tính chất: dẫn điện nhiệt, cản quang và dẻo.
+Câu hai, đáp án C: lục giác xếp chặt. Titan, kẽm và zirconium có cấu trúc lục giác xếp chặt. Còn sắt là tâm khối, đồng là tâm diện.
+Câu ba, đáp án B: thấm ướt tốt. Góc tiếp xúc càng nhỏ thì chất lỏng lan càng tốt, và dính càng dễ.
+Các bạn làm đúng mấy câu? Nếu sai câu nào, hãy xem lại phần tương ứng nhé.
+
+## 19
+Cuối cùng, chúng ta tóm tắt mười ý chính của bài.
+Một, có ba liên kết sơ cấp: ion, như trong thạch cao; cộng hóa trị, như trong resin; và liên kết kim loại.
+Hai, electron tự do giúp kim loại dẫn điện, dẫn nhiệt, cản quang và dẻo.
+Ba, liên kết thứ cấp gồm lực van der Waals và liên kết hydro. Liên kết hydro giải thích vì sao nhựa hút nước.
+Bốn, sắt là tâm khối, đồng là tâm diện, titan là lục giác xếp chặt.
+Năm, thủy tinh, resin và sáp có cấu trúc vô định hình, và có nhiệt độ chuyển tiếp thủy tinh T g.
+Sáu, liên kết càng mạnh thì vật liệu giãn nở càng ít, nóng chảy càng cao, và càng cứng.
+Bảy, khuếch tán là nguyên lý đông cứng của amalgam.
+Tám, năng lượng bề mặt của men là chín mươi hai, ngà là tám mươi bảy, còn teflon chỉ hai mươi mili jun trên mét vuông.
+Chín, muốn dính tốt thì cần bề mặt sạch, năng lượng bề mặt cao, và góc tiếp xúc nhỏ.
+Mười, xoi mòn men tạo vi ngàm, còn ngà luôn ẩm nên keo dán phải ưa nước.
+Trước khi kết thúc, mình gợi ý một cách ôn bài này cho dễ nhớ.
+Hãy thử tự trả lời ba câu hỏi: vì sao kim loại cản quang, vì sao amalgam đông cứng trong miệng, và vì sao phải xoi mòn men trước khi dán composite.
+Nếu các bạn giải thích được cả ba câu này bằng lời của mình, nghĩa là các bạn đã nắm được phần cốt lõi của bài.
+Những kiến thức nền này sẽ được dùng lại ở các bài Tính chất vật liệu, Hợp kim, và Dán nha khoa.
+Cảm ơn các bạn đã theo dõi. Hẹn gặp lại các bạn ở bài bốn.

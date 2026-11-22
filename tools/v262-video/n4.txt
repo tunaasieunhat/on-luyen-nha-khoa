@@ -1,0 +1,234 @@
+## 1
+Xin chào các bạn, chúng ta đến với bài bốn của môn Vật liệu nha khoa: Polymer nha khoa.
+Polymer, hay nói đơn giản là nhựa, có mặt ở gần như mọi chuyên ngành nha khoa.
+Từ miếng trám composite, keo dán, nền hàm giả, cho đến vật liệu lấy dấu và côn gutta percha trong nội nha, tất cả đều là polymer.
+Vì vậy, bài này là nền tảng để các bạn học tốt rất nhiều bài sau.
+Chúng ta sẽ tìm hiểu cấu trúc của polymer, các tính chất của nó, phản ứng trùng hợp diễn ra như thế nào, và cuối cùng là các loại nhựa acrylic dùng trong nha khoa.
+Chúng ta bắt đầu nhé.
+
+## 2
+Đầu tiên là mục tiêu của bài học.
+Học xong bài này, các bạn sẽ trình bày được thành phần và tính chất cơ bản của polymer.
+Các bạn sẽ nêu được các tiêu chí chọn polymer trong nha khoa.
+Các bạn sẽ biết các tính chất cơ học, vật lý, và những lưu ý lâm sàng liên quan.
+Các bạn sẽ giải thích được phản ứng trùng hợp với bốn giai đoạn: khởi tạo, lan truyền, chuyển chuỗi và kết thúc.
+Và các bạn sẽ biết các loại nhựa acrylic: MMA, PMMA, bis GMA, TEGDMA và UDMA.
+Để hiểu nhanh, polymer là những chuỗi rất dài, được nối lại từ rất nhiều phân tử nhỏ gọi là monome.
+Ở dạng monome, vật liệu là chất lỏng, rất dễ tạo hình.
+Sau khi trùng hợp, nó trở thành chất rắn, và rắn vĩnh viễn.
+Một quy luật quan trọng: chuỗi càng dài, càng có nhiều liên kết ngang, thì vật liệu càng cứng, càng bền và càng khó tan.
+Các bạn hãy giữ trong đầu hình ảnh những chuỗi hạt. Chuỗi càng dài, càng đan vào nhau, và có thêm những cầu nối ngang, thì càng khó kéo tuột ra.
+
+## 3
+Polymer có mặt ở khắp nơi trong nha khoa.
+Trước hết, có ba nhóm polymer theo cách chúng phản ứng với nhiệt và lực.
+Nhựa nhiệt dẻo mềm lại khi nóng, nên có thể dùng lại.
+Nhựa nhiệt đông thì không mềm lại khi nóng.
+Còn vật liệu đàn hồi có thể biến dạng rất lớn, rồi trở lại hình dạng ban đầu.
+Bây giờ hãy xem polymer có mặt ở những đâu.
+Trong phục hình, polymer dùng làm nền hàm, vật liệu đệm, khay lấy dấu cá nhân, vật liệu lấy dấu, phục hồi tạm, và phục hình hàm mặt.
+Trong nha khoa phục hồi, đó là keo dán, composite, xi măng nhựa, glass ionomer, sealant, và veneer.
+Trong chỉnh nha, đó là mắc cài nhựa, keo dán mắc cài, và thun tách kẽ.
+Trong nội nha, đó là côn gutta percha, sealer trám bít ống tủy, và đê cao su.
+Và ngay cả các thiết bị như chén trộn, bay trộn, máng bảo vệ, kính bảo hộ cũng làm từ polymer.
+Có thể nói, hầu như không có chuyên ngành nào thiếu polymer. Vì vậy, hiểu polymer sẽ giúp các bạn hiểu rất nhiều vật liệu khác.
+
+## 4
+Bây giờ chúng ta điểm qua lịch sử của polymer nha khoa.
+Năm một nghìn tám trăm năm mươi ba, nền hàm bằng cao su lưu hóa ra đời. Người ta cũng thử dùng celluloid, nhưng nó bị đổi màu và có mùi. Ngày nay, cao su vẫn được dùng làm găng tay và đê cao su.
+Vào thập niên chín mươi của thế kỷ mười chín, gutta percha được dùng làm mão tạm, vật liệu trám, và vật liệu nội nha. Đến nay, gutta percha vẫn được dùng trong nội nha.
+Trong thế kỷ hai mươi, polysulfide, silicone và polyether lần lượt ra đời và trở thành vật liệu lấy dấu.
+Năm một nghìn chín trăm ba mươi sáu, PMMA ra đời, và được dùng làm nền hàm rất thành công.
+Giữa thập niên bốn mươi, người ta làm được methacrylate trùng hợp ở nhiệt độ phòng, đó là nhựa tự cứng.
+Cuối thập niên năm mươi, Ray Bowen kết hợp monome bis GMA với hạt độn ceramic, và composite nha khoa ra đời.
+Sau đó là sự xuất hiện của quang trùng hợp bằng ánh sáng xanh, hạt độn nano, và silorane, loại nhựa trùng hợp mở vòng giúp giảm co ngót.
+Mẹo nhớ bốn mốc chính: năm một nghìn tám trăm năm mươi ba là cao su, năm một nghìn tám trăm chín mươi là gutta percha, năm một nghìn chín trăm ba mươi sáu là PMMA, và thập niên năm mươi là Bowen với bis GMA và composite.
+Nhớ bốn mốc này là đủ cho phần lịch sử.
+
+## 5
+Bây giờ chúng ta đi vào cấu trúc. Đầu tiên là chiều dài chuỗi và trọng lượng phân tử.
+Chuỗi polymer càng dài, chúng càng vướng víu vào nhau ở nhiều điểm, nên càng khó biến dạng.
+Kết quả là độ cứng, độ bền và nhiệt độ nóng chảy đều tăng lên.
+Polymer nha khoa có trọng lượng phân tử trung bình khoảng tám nghìn đến ba mươi chín nghìn.
+Cần khoảng một trăm năm mươi đến hai trăm đơn vị lặp lại thì chuỗi mới có độ bền cơ học. Dài hơn nữa thì độ bền chỉ tăng thêm một chút.
+Một điểm rất quan trọng: monome còn sót lại sau trùng hợp làm giảm mạnh trọng lượng phân tử trung bình, và có thể gây dị ứng.
+Chỉ cần không phẩy chín phần trăm monome dư, trọng lượng phân tử trung bình có thể giảm từ hai mươi hai nghìn bốn trăm xuống còn khoảng bảy nghìn ba trăm.
+Đó là lý do chúng ta luôn muốn trùng hợp thật hoàn toàn.
+Hình trên slide cho thấy khi trọng lượng phân tử tăng, vật liệu đi từ thể hơi, sang lỏng, rồi mềm, cứng, và cuối cùng là giòn.
+Thêm một khái niệm: chỉ số đa phân tán, là tỉ số giữa hai loại trọng lượng phân tử trung bình. Chỉ số này càng cao, tức là chuỗi dài ngắn càng không đều, thì vật liệu nóng chảy ở nhiệt độ thấp hơn, và khoảng nóng chảy rộng hơn.
+
+## 6
+Tiếp theo là phân nhánh, liên kết ngang và copolymer.
+Nhánh chỉ là những đoạn chuỗi phụ mọc ra từ chuỗi chính, chúng chỉ nối tạm với các chuỗi khác và dễ tách ra.
+Còn liên kết ngang là liên kết hóa học thật sự nối các chuỗi với nhau. Muốn phá nó cần một năng lượng rất lớn.
+Liên kết ngang tạo thành một mạng lưới ba chiều. Nó làm tăng độ cứng, giúp vật liệu kháng lại dung môi, và làm tăng nhiệt độ chuyển tiếp thủy tinh. Tuy nhiên, nó ít làm tăng độ bền.
+Copolymer là polymer được tạo từ hai loại monome trở lên.
+Có ba kiểu copolymer. Kiểu ngẫu nhiên, các monome xen kẽ không theo quy luật. Kiểu khối, mỗi loại monome tụ thành từng đoạn dài. Và kiểu ghép nối, các nhánh của monome B gắn vào chuỗi chính làm từ monome A.
+Hình trên slide so sánh ba dạng chuỗi: chuỗi thẳng, chuỗi nhánh, và chuỗi có liên kết ngang.
+Ứng dụng lâm sàng: răng giả bằng nhựa acrylic được tạo rất nhiều liên kết ngang. Nhờ đó, răng kháng dung môi và kháng rạn nứt bề mặt tốt hơn nhựa nền hàm.
+Hãy nhớ, liên kết ngang là chìa khóa giúp nhựa không bị tan trong cồn hay nước súc miệng, và giữ ổn định kích thước.
+
+## 7
+Tiếp theo là cách các chuỗi polymer tổ chức với nhau: vô định hình và tinh thể.
+Ở vùng vô định hình, các chuỗi xoắn ngẫu nhiên và đan vào nhau một cách hỗn loạn, giống như một đĩa mì.
+Ở vùng tinh thể, các chuỗi xếp song song với nhau một cách có trật tự.
+Hầu hết polymer có cả hai vùng này.
+Vùng tinh thể làm tăng độ bền, độ cứng và nhiệt độ nóng chảy, nhưng đồng thời làm vật liệu giòn hơn.
+Có nhiều yếu tố cản trở sự kết tinh của polymer.
+Đó là đồng trùng hợp, tức là trộn nhiều loại monome; sự phân nhánh; các nhóm thế cồng kềnh gắn trên chuỗi; và chất làm dẻo.
+Tất cả những yếu tố này làm các chuỗi khó xếp thẳng hàng với nhau.
+Hình trên slide so sánh polymer vô định hình ở bên trái, và polymer có vùng tinh thể ở bên phải.
+Một điều thú vị: nhựa nha khoa phần lớn là vô định hình.
+Nhờ vậy, chúng trong suốt và rất dễ nhuộm màu. Đây là ưu điểm lớn khi chúng ta cần làm nền hàm có màu hồng giống nướu, hay răng giả có màu giống răng thật.
+
+## 8
+Vậy một polymer nha khoa tốt cần đạt những tiêu chí gì? Chúng ta có sáu tiêu chí.
+Thứ nhất là bền. Vật liệu phải đủ bền và đủ đàn hồi để chống lại lực nhai, kháng nứt, kháng mỏi, và ổn định kích thước.
+Thứ hai là dễ thao tác. Vật liệu phải dễ trộn, dễ tạo hình, trùng hợp nhanh, và ít bị ảnh hưởng bởi oxy, nước bọt hay máu.
+Thứ ba là đẹp. Vật liệu phải trong suốt hoặc trong mờ giống mô mà nó thay thế, nhuộm được màu, và giữ màu bền.
+Thứ tư là trơ. Vật liệu phải ổn định về mặt hóa học trong môi trường miệng luôn thay đổi.
+Thứ năm là lành. Vật liệu không có mùi, không có vị, không độc, không kích ứng, và không tan trong nước bọt. Riêng vật liệu trám còn phải đông nhanh và dính được vào răng.
+Thứ sáu là rẻ. Nhựa và cách chế tác phải rẻ, không cần thiết bị đắt tiền.
+Mẹo nhớ sáu tiêu chí: Bền, Dễ, Đẹp, Trơ, Lành, Rẻ.
+Nhưng các bạn cần biết: không có polymer nào đạt được tất cả sáu tiêu chí này. Mỗi sản phẩm trên thị trường là một sự cân bằng giữa các tiêu chí.
+Chúng ta sẽ dùng sáu tiêu chí này để so sánh các loại nhựa ở bài mười lăm, Polyme phục hình.
+
+## 9
+Tiếp theo là cách polymer biến dạng và phục hồi.
+Có ba kiểu hành vi.
+Kiểu thứ nhất là đàn hồi. Các chuỗi giãn ra khi chịu lực, rồi co lại như lò xo khi bỏ lực. Sự phục hồi diễn ra nhanh và hoàn toàn.
+Kiểu thứ hai là dẻo. Các chuỗi trượt lên nhau, và vật liệu bị biến dạng vĩnh viễn, không trở lại hình dạng cũ.
+Kiểu thứ ba là nhớt đàn hồi, kết hợp cả hai kiểu trên. Chỉ có phần đàn hồi được phục hồi, và sự phục hồi cần có thời gian.
+Khi không có liên kết ngang, các chuỗi chỉ được giữ với nhau bằng lực van der Waals và liên kết hydro, nên chúng dễ trượt.
+Còn nhánh và liên kết ngang thì cản trở sự chảy dẻo, giúp vật liệu đàn hồi tốt hơn.
+Hình trên slide minh họa sự hồi phục đàn hồi ở phía trên, và hồi phục nhớt đàn hồi ở phía dưới.
+Đây là một ý lâm sàng rất quan trọng: vật liệu lấy dấu là vật liệu nhớt đàn hồi.
+Vì vậy, khi gỡ dấu ra khỏi miệng, các bạn phải gỡ nhanh và dứt khoát.
+Gỡ nhanh thì vật liệu chủ yếu biến dạng đàn hồi và phục hồi lại được. Gỡ chậm, lắc qua lắc lại, thì phần biến dạng vĩnh viễn sẽ nhiều hơn, và dấu bị sai lệch.
+Ý này sẽ được nhắc lại ở bài mười tám, Vật liệu lấy dấu.
+
+## 10
+Bây giờ là tính tan và chất làm dẻo.
+Polymer tan rất chậm. Trước khi tan, nó hấp thụ dung môi, phồng lên, và mềm đi.
+Chuỗi càng dài thì tan càng chậm. Còn nếu có nhiều liên kết ngang, thì polymer không tan.
+Nước có thể chen vào giữa các chuỗi polymer, giúp chúng trượt lên nhau dễ hơn. Hiện tượng này gọi là dẻo hóa.
+Sự trương phồng do hút nước làm giảm độ khít sát của hàm giả.
+Tiếp theo là chất làm dẻo. Đây là chất làm giảm nhiệt độ làm mềm, và làm nhựa trở nên mềm dẻo.
+Ví dụ trong đời sống: cùng là nhựa PVC, nhưng ống nước thì cứng, còn ống dây điện thì mềm. Sự khác biệt đó là nhờ chất làm dẻo.
+Có hai cách làm dẻo.
+Làm dẻo ngoài là thêm một chất xen vào giữa các phân tử. Cách này ít dùng.
+Làm dẻo trong là đồng trùng hợp, ví dụ thêm butyl methacrylate vào MMA.
+Chất làm dẻo làm giảm độ bền và độ cứng của nhựa. Vì vậy, nó được dùng để làm nhựa mềm đệm hàm.
+Các bạn lưu ý: chất làm dẻo rò rỉ dần ra ngoài theo thời gian. Đó là lý do lớp đệm mềm của hàm giả bị cứng lại sau một thời gian sử dụng.
+
+## 11
+Tiếp theo, chúng ta so sánh nhựa nhiệt dẻo và nhựa nhiệt đông.
+Khi đun nóng, nhựa nhiệt dẻo mềm ra, và khi nguội lại thì cứng. Quá trình này có thể lặp lại nhiều lần.
+Còn nhựa nhiệt đông có sự thay đổi hóa học khi đông cứng, và không mềm lại nữa.
+Về cấu trúc, nhựa nhiệt dẻo có chuỗi thẳng hoặc chuỗi nhánh. Nhựa nhiệt đông có liên kết ngang.
+Với dung môi, nhựa nhiệt dẻo tan được trong dung môi hữu cơ. Nhựa nhiệt đông thì không tan, và nếu nung quá nóng, nó bị phân hủy.
+Về đặc tính, nhựa nhiệt dẻo mềm ra từ nhiệt độ chuyển tiếp thủy tinh. Nhựa nhiệt đông chống mòn và ổn định kích thước tốt hơn.
+Và đây là một cảnh báo quan trọng mà các bạn nên dặn bệnh nhân: không được ngâm hàm giả bằng nhựa vào nước nóng để tiệt trùng.
+Nước nóng có thể làm nhựa mềm ra, giải phóng ứng suất bên trong, làm hàm bị vênh, và mất khít sát.
+Một ý thêm: vật liệu lấy dấu đàn hồi là polymer có ít liên kết ngang, và nhiệt độ chuyển tiếp thủy tinh thấp hơn nhiệt độ phòng.
+Nhờ vậy, chúng mềm dẻo, và trở lại hình dạng ban đầu sau khi gỡ qua vùng lẹm của răng.
+
+## 12
+Bây giờ chúng ta đến phần quan trọng nhất: phản ứng trùng hợp. Đầu tiên là trùng hợp cộng thêm, với bốn giai đoạn.
+Hầu hết nhựa nha khoa trùng hợp theo kiểu này: các monome lần lượt gắn vào đầu chuỗi đang lớn lên, thông qua liên kết đôi giữa hai nguyên tử carbon.
+Giai đoạn một là khởi tạo. Một gốc tự do mở liên kết đôi của monome, và biến monome đó thành một gốc tự do mới. Gốc tự do ban đầu được sinh ra từ chất khơi mào, thường là benzoyl peroxide, gọi tắt là BPO.
+Giai đoạn hai là lan truyền. Gốc tự do mới tấn công một monome khác, rồi monome khác nữa, và chuỗi dài ra chỉ trong vài giây. Phản ứng này tỏa nhiệt, và không bao giờ xảy ra hoàn toàn.
+Giai đoạn ba là chuyển chuỗi. Gốc tự do chuyển sang một phân tử khác, tạo ra một gốc mới tiếp tục phát triển. Một chuỗi đã dừng lại cũng có thể được tái kích hoạt.
+Giai đoạn bốn là kết thúc. Hai gốc tự do nối trực tiếp với nhau, hoặc trao đổi một nguyên tử hydro, và chuỗi trở nên bất hoạt.
+Mẹo nhớ: Khởi, Lan, Chuyển, Kết.
+Một chi tiết hay ra thi: BPO được gọi là chất khơi mào, chứ không phải chất xúc tác, vì nó trở thành một phần của sản phẩm.
+Ngoài kiểu mở liên kết đôi, còn có trùng hợp mở vòng, như vòng imine trong polyether, hay vòng epoxy trong silorane. Ưu điểm của kiểu này là co ngót thấp hơn.
+
+## 13
+Vậy làm sao để tạo ra gốc tự do ban đầu? Có ba hệ thống khởi tạo.
+Hệ thống thứ nhất là nhiệt. Nhiệt bẻ gãy phân tử BPO, và BPO hoạt hóa nhanh ở năm mươi đến một trăm độ C. Cách này dùng cho hầu hết nhựa nền hàm.
+Hệ thống thứ hai là hóa học, còn gọi là tự trùng hợp. Một amin bậc ba kết hợp với BPO, bẻ gãy BPO ngay ở nhiệt độ phòng hay nhiệt độ trong miệng. Vì vậy, hai thành phần này phải được để riêng khi bảo quản, và chỉ trộn với nhau khi dùng.
+Hệ thống thứ ba là ánh sáng, còn gọi là quang trùng hợp. Ánh sáng xanh có bước sóng khoảng bốn trăm bảy mươi nano mét kích hoạt camphorquinone cùng với amin. Cách này dùng cho composite và keo dán.
+Ngoài ra, tạp chất trong monome làm kéo dài giai đoạn khởi tạo, còn nhiệt độ cao làm nó nhanh hơn.
+Hình trên slide minh họa BPO bị bẻ gãy ở liên kết oxy oxy, tạo thành hai gốc tự do.
+Một chút lịch sử: ban đầu, quang trùng hợp dùng ánh sáng cực tím. Nhưng tia cực tím có hại cho võng mạc và chiếu được không sâu, nên đã chuyển sang ánh sáng xanh.
+Ý lâm sàng quan trọng: hãy chiếu đèn sát, vuông góc, và đủ thời gian.
+Nếu để đèn xa hoặc chiếu xiên, composite sẽ trùng hợp không đủ, bị mềm, đổi màu, và kích ứng tủy.
+
+## 14
+Tiếp theo là ức chế trùng hợp, và kiểu trùng hợp thứ hai: trùng hợp ngưng tụ.
+Có những chất ức chế trùng hợp.
+Hydroquinone, với nồng độ rất nhỏ, không quá không phẩy không không sáu phần trăm, được cố ý thêm vào để nhựa không tự trùng hợp khi bảo quản, và để kéo dài thời gian làm việc.
+Oxy cũng là chất ức chế. Oxy phản ứng rất nhanh với gốc tự do, tạo ra một lớp bề mặt chưa trùng hợp gọi là lớp ức chế oxy.
+Ứng dụng lâm sàng: không nên xịt hơi mạnh lên keo dán đang trùng hợp. Và có thể dùng khuôn trám làm hàng rào ngăn oxy, giúp giảm lớp ức chế bề mặt.
+Bây giờ là trùng hợp từng bước, hay còn gọi là trùng hợp ngưng tụ.
+Ở kiểu này, các monome có hai hoặc ba nhóm chức nối với nhau từng bước, và sinh ra sản phẩm phụ như nước hoặc rượu.
+Phản ứng diễn ra chậm, và thường dừng lại trước khi chuỗi trở nên rất lớn.
+Ví dụ là silicone ngưng tụ và polysulfide, hai loại vật liệu lấy dấu.
+Các bạn hãy nhớ ý này: sản phẩm phụ bay hơi đi chính là lý do silicone ngưng tụ bị co ngót sau khi đông. Vì vậy, dấu silicone ngưng tụ phải được đổ mẫu sớm.
+
+## 15
+Bây giờ chúng ta so sánh hai kiểu trùng hợp.
+Về cách kích hoạt, trùng hợp cộng thêm có các monome được thêm tuần tự vào một trung tâm hoạt động. Còn trùng hợp từng bước có các monome hai, ba chức được kích hoạt đồng thời.
+Về sản phẩm phụ, trùng hợp cộng thêm không có sản phẩm phụ. Trùng hợp từng bước có sản phẩm phụ như nước hoặc rượu.
+Về kích thước phân tử, trùng hợp cộng thêm có thể tạo ra những phân tử khổng lồ. Trùng hợp từng bước thường dừng lại trước khi phân tử trở nên rất lớn.
+Về ví dụ, trùng hợp cộng thêm là methacrylate, composite, và nhựa nền hàm. Trùng hợp từng bước là silicone ngưng tụ và polysulfide.
+Một mẹo để nhớ: ngưng tụ là có thứ gì đó ngưng đọng lại, tách ra, đó chính là sản phẩm phụ.
+Thêm một khái niệm: đồng trùng hợp, tức là dùng hai monome trở lên để có được tính chất mong muốn.
+Ví dụ, thêm ethylacrylate vào MMA giúp nền hàm dẻo dai hơn, khó gãy hơn.
+Các polymer dạng khối hoặc ghép nối cũng giúp cải thiện độ bền va đập của nhựa nền hàm, rất có ích khi bệnh nhân lỡ làm rơi hàm giả.
+
+## 16
+Bây giờ chúng ta tìm hiểu các nhựa acrylic cụ thể, bắt đầu với MMA và PMMA.
+MMA là monome. Nó là một chất lỏng trong suốt, được dùng để hòa tan bột PMMA khi làm nền hàm.
+MMA sôi ở khoảng một trăm độ C, và là một dung môi hữu cơ tốt.
+Khi trùng hợp, MMA co ngót thể tích khoảng hai mươi mốt phần trăm. Đây là con số rất lớn.
+Vì vậy, khi làm nền hàm, người ta trộn bột PMMA đã trùng hợp sẵn với chất lỏng MMA. Phần bột đã co sẵn rồi, nên tổng co ngót giảm đi nhiều.
+PMMA là polymer. Nó trong suốt, có độ bền kéo khoảng sáu mươi mega pascal, và nhiệt độ chuyển tiếp thủy tinh khoảng một trăm hai mươi lăm độ C.
+PMMA dễ dùng, bền, nhuộm được màu giống thật, dễ vệ sinh và an toàn.
+Nhưng PMMA hút nước. Và vì có chuỗi thẳng, nó tan được trong chloroform và aceton.
+PMMA rất ổn định hóa học, không đổi màu dưới tia cực tím. Khi bị nung trên một trăm hai mươi lăm độ C, nó bắt đầu phân hủy trở lại thành MMA.
+Một ý giải thích: nhánh este càng dài thì nhiệt độ chuyển tiếp thủy tinh càng thấp. Với nhóm methyl, tức là PMMA, là một trăm hai mươi lăm độ. Với nhóm ethyl là sáu mươi lăm độ. Với nhóm butyl là ba mươi ba độ.
+Vì vậy, butyl methacrylate được dùng để làm nhựa mềm hơn.
+
+## 17
+Tiếp theo là các methacrylate đa chức năng, thành phần chính của composite và keo dán.
+Đầu tiên là bis GMA, còn gọi là nhựa Bowen. Phân tử này có hai nhóm hydroxyl tạo liên kết hydro, nên nó rất nhớt, đặc như mật ong. Nó có lõi gồm hai vòng thơm cứng.
+Thứ hai là TEGDMA. Phân tử này có một chuỗi polyether rất linh hoạt, nên độ nhớt thấp. Người ta pha TEGDMA với bis GMA để làm hỗn hợp loãng ra, và tăng mức độ chuyển đổi.
+Thứ ba là UDMA. Phân tử này có nhóm urethane linh hoạt, và là một lựa chọn khác để giảm độ nhớt.
+Thứ tư là PENTA P. Phân tử này có nhóm phosphate có thể xoi mòn men và ngà, nên được dùng trong keo dán ngà.
+Ngoài ra, khi ghép HEMA vào polyacrylic acid, ta được glass ionomer tăng cường nhựa. Và khi thay HEMA bằng monome acid, ta được compomer.
+Hình trên slide cho thấy cấu trúc của bis GMA ở trên và TEGDMA ở dưới.
+Mẹo nhớ: bis GMA đặc, TEGDMA loãng, UDMA vừa.
+Khái niệm cuối cùng là mức độ chuyển đổi. Đó là phần trăm nhóm methacrylate đã thực sự phản ứng.
+Mức độ chuyển đổi quyết định hiệu quả trùng hợp và mức liên kết ngang của composite. Mức độ chuyển đổi càng cao, composite càng bền và càng ít monome dư.
+
+## 18
+Bây giờ chúng ta cùng làm ba câu hỏi nhanh.
+Câu một: trong nhựa tự cứng, chất nào giúp bẻ gãy BPO ở nhiệt độ phòng? A, hydroquinone. B, amin bậc ba. C, camphorquinone. D, oxy.
+Câu hai: vì sao phải trộn bột PMMA vào monome MMA khi làm nền hàm? A, tăng độ nhớt cho dễ đổ. B, giảm co ngót trùng hợp. C, tăng tốc độ phản ứng. D, làm nhựa trong hơn.
+Câu ba: kiểu trùng hợp nào sinh ra sản phẩm phụ như nước hoặc rượu? A, cộng thêm. B, mở vòng. C, từng bước, hay ngưng tụ. D, quang trùng hợp.
+Ba câu này bao quát hệ thống khởi tạo, nhựa acrylic, và các kiểu trùng hợp.
+Các bạn hãy tạm dừng video, suy nghĩ vài giây, rồi xem đáp án ở slide tiếp theo nhé.
+
+## 19
+Và đây là đáp án.
+Câu một, đáp án B: amin bậc ba. Amin bậc ba là chất hoạt hóa, nó làm giảm năng lượng cần thiết để BPO tạo ra gốc tự do ở nhiệt độ phòng.
+Câu hai, đáp án B: giảm co ngót trùng hợp. MMA tinh khiết co ngót khoảng hai mươi mốt phần trăm. Dùng bột đã trùng hợp sẵn giúp giảm co ngót rất nhiều.
+Câu ba, đáp án C: trùng hợp từng bước, hay ngưng tụ. Kiểu này sinh ra sản phẩm phụ, ví dụ silicone ngưng tụ sinh ra rượu.
+Các bạn làm đúng mấy câu? Nếu sai câu nào, hãy xem lại phần tương ứng nhé.
+
+## 20
+Cuối cùng, chúng ta tóm tắt mười ý chính của bài.
+Một, polymer là những chuỗi dài được tạo từ monome.
+Hai, chuỗi càng dài, liên kết ngang càng nhiều, thì vật liệu càng cứng, bền, khó tan, và có nhiệt độ chuyển tiếp thủy tinh cao.
+Ba, vùng tinh thể làm polymer bền hơn nhưng giòn hơn.
+Bốn, nhựa nhiệt dẻo mềm lại khi nung nóng, còn nhựa nhiệt đông thì không tan.
+Năm, trùng hợp cộng thêm có bốn giai đoạn: khởi tạo, lan truyền, chuyển chuỗi và kết thúc.
+Sáu, có ba cách khởi tạo: bằng nhiệt, bằng amin cộng BPO, và bằng ánh sáng bốn trăm bảy mươi nano mét.
+Bảy, oxy và hydroquinone ức chế trùng hợp.
+Tám, trùng hợp ngưng tụ sinh ra sản phẩm phụ, như ở silicone ngưng tụ.
+Chín, PMMA ra đời năm một nghìn chín trăm ba mươi sáu, có nhiệt độ chuyển tiếp thủy tinh một trăm hai mươi lăm độ C. Còn MMA co ngót hai mươi mốt phần trăm.
+Mười, bis GMA rất nhớt, nên được pha với TEGDMA. UDMA là một lựa chọn thay thế.
+Đây là nền tảng cho các bài composite, dán nha khoa, và polyme phục hình.
+Cảm ơn các bạn đã theo dõi. Hẹn gặp lại các bạn ở bài năm.

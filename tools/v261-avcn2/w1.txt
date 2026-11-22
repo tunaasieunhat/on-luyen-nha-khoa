@@ -1,0 +1,241 @@
+# U1 | Unit này nói về người làm nghề nha và công việc của họ: nha sĩ (dentist) học ngành nha (dentistry), có giấy phép (license), làm việc ở phòng khám (practice), chẩn đoán bệnh (diagnose) và cho lời khuyên (advice) để giữ sức khỏe răng miệng (oral health).
+@dentist | /ˈdentɪst/ | ĐEN-tịt | nha sĩ, bác sĩ nha khoa
++ dent- = răng (giống dental: thuộc về răng) + -ist = người làm nghề (như pianist: nghệ sĩ piano).
+= You should see a dentist twice a year. => Bạn nên đi khám nha sĩ hai lần mỗi năm.
+~ A dentist is someone = Nha sĩ là một người | whose job it is = mà công việc của họ là | to care for the health = chăm sóc sức khỏe | of people's teeth = răng của mọi người
+@dentistry | /ˈdentɪstri/ | ĐEN-tịt-tri | ngành nha khoa
++ dentist (người) + -ry (ngành, lĩnh vực). Người → dentist, ngành → dentistry.
+= She studies dentistry at university. => Cô ấy học ngành nha ở trường đại học.
+~ Dentistry is = Nha khoa là | the medical study = ngành học y khoa | of the mouth and teeth = về miệng và răng
+@professional | /prəˈfeʃənl/ | prơ-PHÉT-sơ-nồ | chuyên nghiệp, thuộc chuyên môn
++ profession = nghề (phải học lâu mới làm được) + -al = tính từ. Một việc "professional" là việc cần học và đào tạo.
+= A dentist is a professional job. => Nha sĩ là một nghề chuyên môn.
+~ If something is professional, = Nếu một thứ là chuyên nghiệp, | it relates to a job = nó liên quan đến một công việc | that requires = mà đòi hỏi | special education and training = học tập và đào tạo đặc biệt | or it meets certain standards = hoặc nó đạt những tiêu chuẩn nhất định
+@practice | /ˈpræktɪs/ | PRÉC-tịt | phòng khám, cơ sở hành nghề
++ Nghĩa quen là "luyện tập", nhưng trong nghề y "a dental practice" là phòng khám nha. "Private practice" = phòng khám tư.
+= Dr. Lan opened her own dental practice. => Bác sĩ Lan mở phòng khám nha riêng.
+~ A practice is = Practice là | the business and work = việc kinh doanh và hành nghề | of a professional, = của một người làm chuyên môn, | such as a dentist = chẳng hạn một nha sĩ
+@license | /ˈlaɪsns/ | LAI-sừns | giấy phép hành nghề
++ Giống "bằng lái" (driver's license): tờ giấy chính thức cho phép bạn làm một việc.
+= A dentist needs a license to work. => Nha sĩ cần giấy phép để hành nghề.
+~ A license is = Giấy phép là | an official document = một văn bản chính thức | that grants someone = cấp cho một người | the right or permission = quyền hoặc sự cho phép | to do something = làm một việc | such as work in a certain field = như làm việc trong một lĩnh vực nhất định
+@diagnose | /ˌdaɪəɡˈnoʊs/ | đai-ợg-NÂUS | chẩn đoán
++ dia- = xuyên qua + gnose = biết: "nhìn xuyên qua để biết bệnh". Danh từ: diagnosis (lời chẩn đoán).
+= The dentist will diagnose the problem after the X-ray. => Nha sĩ sẽ chẩn đoán vấn đề sau khi chụp X-quang.
+~ To diagnose is = Chẩn đoán là | to find out = tìm ra | what health issues someone has = một người có vấn đề sức khỏe gì | by doing an examination or tests = bằng cách khám hoặc làm xét nghiệm
+@advice | /ədˈvaɪs/ | ợd-VAIS | lời khuyên
++ Không đếm được: nói "some advice", "a piece of advice", không nói "an advice". Động từ là advise (khuyên).
+= My dentist gave me some advice about brushing. => Nha sĩ cho tôi vài lời khuyên về đánh răng.
+~ Advice is = Lời khuyên là | an opinion = một ý kiến | someone gives someone else = một người đưa cho người khác | about what he or she should do = về việc người đó nên làm | in a specific situation = trong một tình huống cụ thể
+@instruction | /ɪnˈstrʌkʃn/ | in-XTRẮC-sừn | sự hướng dẫn, lời dặn
++ instruct = chỉ dẫn + -ion = danh từ. Advice là "nên làm", instruction là "cần làm" theo người có thẩm quyền.
+= Follow the instruction after your treatment. => Hãy làm theo lời dặn sau khi điều trị.
+~ Instruction is = Sự hướng dẫn là | an explanation of something = lời giải thích về một việc | that a person needs to do, = mà một người cần làm, | usually given by someone = thường do một người đưa ra | in a position of authority = ở vị trí có thẩm quyền
+@health | /helθ/ | hen-th | sức khỏe
++ Từ cùng họ: healthy (khỏe mạnh). "Oral health" = sức khỏe răng miệng.
+= Good food is important for your health. => Ăn uống tốt quan trọng cho sức khỏe của bạn.
+~ Health is = Sức khỏe là | the condition of a person's body, = tình trạng cơ thể của một người, | in particular = đặc biệt là | whether or not they are sick = họ có bị bệnh hay không
+@oral | /ˈɔːrəl/ | O-rồ | thuộc về miệng
++ or- = miệng (Latin "os, oris"). Oral health = sức khỏe răng miệng; oral cavity = khoang miệng.
+= Brushing is part of oral care. => Đánh răng là một phần của việc chăm sóc răng miệng.
+~ If something is oral, = Nếu một thứ là "oral", | it is associated with = nó có liên quan đến | or involving the mouth = hoặc có dính đến miệng
+
+# U2 | Unit này nói về các chuyên khoa trong nha khoa. Hầu hết tên chuyên khoa có đuôi -ics (endodontics, orthodontics…) và đều mở đầu định nghĩa bằng "a branch of dentistry which deals with…" (một nhánh của nha khoa chuyên về…). Chỉ cần nhớ mỗi chuyên khoa "lo" bộ phận nào.
+@specialty | /ˈspeʃəlti/ | XPÉT-sồ-ti | chuyên khoa
++ special = đặc biệt → specialty = lĩnh vực mình tập trung riêng. Người: specialist (bác sĩ chuyên khoa).
+= Orthodontics is a dental specialty. => Chỉnh nha là một chuyên khoa nha.
+~ A specialty is = Chuyên khoa là | a branch of medicine = một nhánh của y học | in which one specializes, = mà một người chuyên sâu vào, | or concentrates one's efforts = hoặc tập trung công sức | toward a particular field or practice = vào một lĩnh vực hay công việc cụ thể
+@referral | /rɪˈfɜːrəl/ | ri-PHƠ-rồ | sự chuyển tuyến, giấy giới thiệu
++ refer = gửi đến, giới thiệu + -al = danh từ. Nha sĩ tổng quát "refer" bệnh nhân đến bác sĩ chuyên khoa.
+= The dentist wrote a referral to a surgeon. => Nha sĩ viết giấy chuyển đến bác sĩ phẫu thuật.
+~ A referral is = Sự chuyển tuyến là | a recommendation, = một lời giới thiệu, | or the act of sending or directing someone = hoặc việc gửi, hướng một người | to a medical specialist = đến bác sĩ chuyên khoa | for treatment, aid, or information = để điều trị, giúp đỡ hoặc lấy thông tin
+@endodontics | /ˌendəˈdɒntɪks/ | en-đồ-ĐON-tịcs | nội nha
++ endo- = bên trong + odont = răng + -ics = ngành: "ngành bên trong răng", tức lo tủy răng và vùng quanh chân răng.
+= He chose endodontics because he likes root canal work. => Anh ấy chọn nội nha vì thích điều trị tủy.
+~ Endodontics is a branch of dentistry = Nội nha là một nhánh của nha khoa | which deals with = chuyên về | the pathology, biological functions, = bệnh lý, chức năng sinh học, | and the form and structure = và hình dạng, cấu trúc | of human dental pulp = của tủy răng người | as well as the area around the root of a tooth = cũng như vùng quanh chân răng
+@orthodontics | /ˌɔːrθəˈdɒntɪks/ | o-thờ-ĐON-tịcs | chỉnh nha
++ ortho- = thẳng + odont = răng: "làm răng thẳng". Dấu hiệu nhận biết: braces (mắc cài, niềng răng).
+= My sister needs orthodontics to fix her crooked teeth. => Em gái tôi cần chỉnh nha để sửa răng khấp khểnh.
+~ Orthodontics is a branch of dentistry = Chỉnh nha là một nhánh của nha khoa | which deals with = chuyên về | the irregularities of teeth = sự lệch lạc của răng | and their correction with braces = và việc sửa chúng bằng mắc cài
+@periodontics | /ˌperiəˈdɒntɪks/ | pe-ri-ồ-ĐON-tịcs | nha chu
++ peri- = xung quanh + odont = răng: "vùng quanh răng", tức nướu (gum). Thấy chữ gum là chọn periodontics.
+= Periodontics treats gum diseases. => Nha chu điều trị bệnh nướu.
+~ Periodontics is a branch of dentistry = Nha chu là một nhánh của nha khoa | which deals with = chuyên về | the prevention, diagnosis, and treatment = phòng ngừa, chẩn đoán và điều trị | of gum diseases, = các bệnh nướu, | and the maintenance of the health, functions, and appearance = và giữ gìn sức khỏe, chức năng, vẻ ngoài | of gum tissues = của mô nướu
+@prosthodontics | /ˌprɒsθəˈdɒntɪks/ | prot-thờ-ĐON-tịcs | phục hình răng
++ prosth- = thay thế, gắn thêm (như prosthesis: bộ phận giả). Dấu hiệu: missing teeth (mất răng) → làm răng giả.
+= Prosthodontics helps patients with missing teeth. => Phục hình giúp bệnh nhân bị mất răng.
+~ Prosthodontics is a branch of dentistry = Phục hình là một nhánh của nha khoa | which deals with = chuyên về | the diagnosis, treatment planning, and rehabilitation of oral function, = chẩn đoán, lập kế hoạch điều trị và phục hồi chức năng miệng, | as well as the comfort, appearance, and health of patients = cũng như sự thoải mái, vẻ ngoài và sức khỏe của bệnh nhân | who have missing or deficient teeth = bị mất răng hoặc răng khiếm khuyết | or absent maxillofacial tissues = hoặc thiếu mô hàm mặt
+@pediatric dentistry | /ˌpiːdiˈætrɪk ˈdentɪstri/ | pi-đi-Á-trịc ĐEN-tịt-tri | nha khoa trẻ em
++ pedi- = trẻ em (như pediatrician: bác sĩ nhi). Dấu hiệu: infants, toddlers, children (trẻ sơ sinh, trẻ mới biết đi, trẻ em).
+= Pediatric dentistry is for children under thirteen. => Nha khoa trẻ em dành cho trẻ dưới 13 tuổi.
+~ Pediatric dentistry is a branch of dentistry = Nha khoa trẻ em là một nhánh của nha khoa | which deals with the dental care = chuyên chăm sóc răng | of infants, toddlers, = cho trẻ sơ sinh, trẻ mới biết đi | and children under the age of thirteen = và trẻ em dưới 13 tuổi
+@pathology | /pəˈθɒlədʒi/ | pờ-THO-lờ-chi | bệnh học
++ path- = bệnh + -ology = môn học: "môn học về bệnh". Cùng họ: pathologist (bác sĩ giải phẫu bệnh).
+= Oral pathology studies diseases of the mouth. => Bệnh học miệng nghiên cứu các bệnh của miệng.
+~ Pathology is a branch of dentistry = Bệnh học là một nhánh của nha khoa | which is concerned with = liên quan đến | the nature, identification, and management = bản chất, việc nhận ra và việc xử lý | of diseases = các bệnh
+@radiology | /ˌreɪdiˈɒlədʒi/ | rây-đi-O-lờ-chi | chẩn đoán hình ảnh, X-quang
++ radi- = tia (như radio) + -ology = môn học: "môn học dùng tia". Dấu hiệu: images (hình ảnh).
+= Radiology uses X-ray images to find problems. => Chẩn đoán hình ảnh dùng phim X-quang để tìm bệnh.
+~ Radiology is a branch of dentistry = Chẩn đoán hình ảnh là một nhánh của nha khoa | which is concerned with = liên quan đến | the production and interpretation = việc tạo ra và đọc, giải thích | of data and images = dữ liệu và hình ảnh | that are used to diagnose and manage diseases, disorders, and conditions = dùng để chẩn đoán và xử lý bệnh, rối loạn, tình trạng | within the oral and maxillofacial region = ở vùng miệng và hàm mặt
+@surgery | /ˈsɜːrdʒəri/ | XƠ-chờ-ri | phẫu thuật
++ Bác sĩ phẫu thuật: surgeon. Dấu hiệu: "manual and instrumental techniques" (bằng tay và dụng cụ).
+= He needs surgery to remove the wisdom tooth. => Anh ấy cần phẫu thuật để nhổ răng khôn.
+~ Surgery is a branch of medicine = Phẫu thuật là một nhánh của y học | concerned with diseases, conditions, and injuries = liên quan đến bệnh, tình trạng và chấn thương | that are repaired = được sửa chữa | using manual and instrumental techniques = bằng kỹ thuật dùng tay và dụng cụ
+@maxillofacial | /mækˌsɪləʊˈfeɪʃl/ | mác-xi-lô-PHÂY-sồ | thuộc hàm mặt
++ maxilla = xương hàm trên + facial = thuộc về mặt (face). "Maxillofacial surgery" = phẫu thuật hàm mặt.
+= She is a maxillofacial surgeon. => Cô ấy là bác sĩ phẫu thuật hàm mặt.
+~ If something is maxillofacial, = Nếu một thứ là "maxillofacial", | it is related to = nó liên quan đến | the maxilla or the upper jaw = xương hàm trên, tức hàm trên
+
+# U3 | Unit này là "bản đồ" của một phòng khám nha: phòng chờ, quầy lễ tân, phòng điều trị, phòng X-quang, phòng tiệt trùng, kho… Định nghĩa thường là "A … room is a space in which…" (một không gian nơi…), nên chỉ cần nhớ ở mỗi phòng người ta làm việc gì.
+@office | /ˈɒfɪs/ | O-phịt | văn phòng, phòng khám
++ Từ quen: office = văn phòng. "Dental office" = phòng khám nha. Nơi diễn ra công việc kinh doanh.
+= The dental office opens at 8 a.m. => Phòng khám nha mở cửa lúc 8 giờ sáng.
+~ An office is = Văn phòng là | a place = một nơi | where business is conducted = nơi công việc kinh doanh được tiến hành
+@waiting room | /ˈweɪtɪŋ ruːm/ | UÂY-tinh rum | phòng chờ
++ wait = chờ + room = phòng. Gần cửa ra vào, bệnh nhân ngồi chờ đến lượt.
+= Please sit in the waiting room. => Mời anh chị ngồi ở phòng chờ.
+~ A waiting room is a space = Phòng chờ là một không gian | near an entrance, = gần lối vào, | often located in a doctor's office, = thường ở phòng khám bác sĩ, | in which people wait = nơi mọi người chờ | until they can be serviced = cho đến khi được phục vụ
+@receptionist desk | /rɪˈsepʃənɪst desk/ | ri-XÉP-sơ-nịt đét | quầy lễ tân
++ reception = sự tiếp đón; receptionist = người tiếp tân; desk = bàn. Nơi chào khách, nghe điện thoại, giữ hồ sơ.
+= Please check in at the receptionist desk. => Vui lòng làm thủ tục ở quầy lễ tân.
+~ A receptionist desk is the desk = Quầy lễ tân là cái bàn | at which a person, = mà ở đó một người, | employed to greet visitors and patients, = được thuê để chào khách và bệnh nhân, | answer phones, and keep records, = nghe điện thoại và giữ hồ sơ, | sits and works = ngồi làm việc
+@operatory | /ˈɒpərətɔːri/ | O-pờ-rờ-to-ri | phòng điều trị (khu ghế nha)
++ operate = thao tác, phẫu thuật → operatory = chỗ bác sĩ làm việc, nơi đặt ghế nha.
+= The dentist is waiting for you in the operatory. => Nha sĩ đang chờ bạn ở phòng điều trị.
+~ An operatory is = Operatory là | a medical professional's work space = chỗ làm việc của nhân viên y tế
+@treatment room | /ˈtriːtmənt ruːm/ | TRÍT-mừnt rum | phòng điều trị
++ treat = điều trị → treatment = sự điều trị. Còn gọi là "patient care unit" (khu chăm sóc bệnh nhân).
+= The treatment room is ready for the next patient. => Phòng điều trị đã sẵn sàng cho bệnh nhân tiếp theo.
+~ A treatment room, = Phòng điều trị, | or a patient care unit, = hay khu chăm sóc bệnh nhân, | is a space = là một không gian | in which health care professionals = nơi nhân viên y tế | provide care to patients = chăm sóc bệnh nhân
+@radiology room | /ˌreɪdiˈɒlədʒi ruːm/ | rây-đi-O-lờ-chi rum | phòng X-quang
++ radiology (chẩn đoán hình ảnh, U2) + room. Dấu hiệu: dark room (phòng tối), imaging (chụp hình ảnh).
+= We take X-rays in the radiology room. => Chúng tôi chụp X-quang ở phòng X-quang.
+~ A radiology room is a dark room = Phòng X-quang là một phòng tối | where health care professionals = nơi nhân viên y tế | use imaging technologies = dùng công nghệ chụp hình ảnh | to gather data for diagnosis and treatment = để thu thập dữ liệu cho chẩn đoán và điều trị
+@sterilization room | /ˌsterələˈzeɪʃn ruːm/ | xte-rồ-lai-DÂY-sừn rum | phòng tiệt trùng
++ sterile = vô trùng → sterilize = tiệt trùng → sterilization = sự tiệt trùng. Nơi làm sạch dụng cụ.
+= All tools go to the sterilization room after use. => Mọi dụng cụ được đưa về phòng tiệt trùng sau khi dùng.
+~ A sterilization room is the space = Phòng tiệt trùng là không gian | in which every surgical instrument is cleaned = nơi mọi dụng cụ phẫu thuật được làm sạch | to prevent infection = để ngăn nhiễm trùng
+@recovery room | /rɪˈkʌvəri ruːm/ | ri-CA-vờ-ri rum | phòng hồi sức
++ recover = hồi phục → recovery. Nơi bệnh nhân tỉnh lại sau khi gây mê (anesthesia).
+= After surgery, the patient rests in the recovery room. => Sau phẫu thuật, bệnh nhân nghỉ ở phòng hồi sức.
+~ A recovery room, = Phòng hồi sức, | or a post-anesthesia care unit, = hay khu chăm sóc sau gây mê, | is a unit in health care facilities = là một khu trong cơ sở y tế | where patients go = nơi bệnh nhân đến | to recover from anesthesia treatments = để hồi phục sau gây mê
+@lab | /læb/ | láp | phòng thí nghiệm, phòng lab
++ Viết tắt của laboratory. Nơi làm thí nghiệm, kiểm tra, phân tích.
+= The crown is made in the lab. => Mão răng được làm trong phòng lab.
+~ A lab, or laboratory, = Lab, hay phòng thí nghiệm, | is a space equipped = là một không gian được trang bị | for experimental study in science = để nghiên cứu thí nghiệm khoa học | using research testing and analysis = bằng kiểm tra và phân tích
+@storage room | /ˈstɔːrɪdʒ ruːm/ | XTO-rịch rum | kho
++ store = cất giữ → storage = sự cất giữ. Nơi để vật tư y tế cho đến khi cần.
+= Extra gloves are in the storage room. => Găng tay dự trữ để trong kho.
+~ A storage room is a space = Kho là một không gian | in which items, = nơi các món đồ, | such as medical supplies, = như vật tư y tế, | are kept until they are needed = được cất giữ cho đến khi cần dùng
+@staff area | /stæf ˈeəriə/ | xtáp E-ri-ờ | khu vực nhân viên
++ staff = nhân viên (U4) + area = khu vực. Chỉ nhân viên vào, để nghỉ, ăn uống giờ giải lao.
+= The nurses eat lunch in the staff area. => Các y tá ăn trưa ở khu vực nhân viên.
+~ A staff area is a space, = Khu vực nhân viên là một không gian, | usually restricted to employees, = thường chỉ dành cho nhân viên, | in which staff members = nơi nhân viên | rest, eat, or drink during break times = nghỉ ngơi, ăn uống trong giờ giải lao
+@mechanical room | /məˈkænɪkl ruːm/ | mờ-CA-ni-cồ rum | phòng kỹ thuật
++ mechanical = thuộc máy móc. Còn gọi là boiler room (phòng nồi hơi), thường ở tầng hầm (basement).
+= The heater is in the mechanical room. => Máy sưởi nằm trong phòng kỹ thuật.
+~ A mechanical room or a boiler room, = Phòng kỹ thuật hay phòng nồi hơi, | is a room or space in a building, = là một phòng trong tòa nhà, | usually in a basement, = thường ở tầng hầm, | that is associated with = gắn với | electrical equipment and heating devices = thiết bị điện và thiết bị sưởi
+@restroom | /ˈrestruːm/ | RÉT-rum | nhà vệ sinh
++ rest = nghỉ + room. Cách nói lịch sự của "toilet" ở nơi công cộng.
+= Excuse me, where is the restroom? => Xin lỗi, nhà vệ sinh ở đâu ạ?
+~ A restroom is = Nhà vệ sinh là | a public bathroom = một phòng vệ sinh công cộng | supplied with one or more sinks, toilet stalls, urinals, = có bồn rửa, buồng vệ sinh, bồn tiểu, | hand dryers, and towel dispensers = máy sấy tay và hộp khăn giấy
+
+# U4 | Unit này giới thiệu những người làm việc trong phòng khám nha và việc của từng người. Phần lớn định nghĩa có dạng "A … is someone whose job it is to…" (là người mà công việc là…): chỉ cần nhớ người đó làm việc gì.
+@staff | /stæf/ | xtáp | nhân viên, đội ngũ
++ Chỉ cả nhóm người làm việc ở một nơi. "Dental staff" = nhân viên phòng khám nha.
+= Our staff is very friendly. => Nhân viên của chúng tôi rất thân thiện.
+~ Staff is = Nhân sự là | the people who work = những người làm việc | for a specific business or institution = cho một doanh nghiệp hay tổ chức cụ thể
+@receptionist | /rɪˈsepʃənɪst/ | ri-XÉP-sơ-nịt | lễ tân
++ reception = tiếp đón + -ist = người. Chào bệnh nhân, đặt lịch hẹn, nghe điện thoại.
+= The receptionist made an appointment for me. => Lễ tân đã đặt lịch hẹn cho tôi.
+~ A receptionist is someone = Lễ tân là người | whose job it is = mà công việc là | to greet patients = chào đón bệnh nhân | and perform administrative tasks, = và làm việc hành chính, | such as making appointments and answering the phone = như đặt lịch hẹn và nghe điện thoại
+@dental assistant | /ˈdentl əˈsɪstənt/ | ĐEN-tồ ơ-XÍT-từnt | trợ thủ nha khoa
++ assist = giúp đỡ → assistant = người phụ giúp. Chuẩn bị phòng trước khi khám và dọn sau khi khám.
+= The dental assistant prepared the tools. => Trợ thủ nha khoa đã chuẩn bị dụng cụ.
+~ A dental assistant is someone = Trợ thủ nha khoa là người | whose job it is = mà công việc là | to get an office ready for patients = chuẩn bị phòng sẵn sàng cho bệnh nhân | and clean it afterwards = và dọn sạch sau đó
+@dental hygienist | /ˈdentl haɪˈdʒiːnɪst/ | ĐEN-tồ hai-CHI-nịt | chuyên viên vệ sinh răng miệng
++ hygiene = vệ sinh (U14) + -ist = người. Làm sạch răng, kiểm tra bệnh miệng, chăm sóc phòng ngừa.
+= The dental hygienist cleaned my teeth. => Chuyên viên vệ sinh răng miệng đã làm sạch răng cho tôi.
+~ A dental hygienist is someone = Chuyên viên vệ sinh răng miệng là người | whose job it is = mà công việc là | to clean patients' teeth, = làm sạch răng cho bệnh nhân, | check for oral diseases = kiểm tra bệnh răng miệng | and to provide preventative care = và chăm sóc phòng ngừa
+@dental therapist | /ˈdentl ˈθerəpɪst/ | ĐEN-tồ THE-rờ-pịt | chuyên viên trị liệu nha khoa
++ therapy = trị liệu + -ist. Làm một số việc nha khoa nhưng KHÔNG có giấy phép, không được đào tạo đầy đủ như bác sĩ.
+= A dental therapist can fill small cavities. => Chuyên viên trị liệu nha khoa có thể trám lỗ sâu nhỏ.
+~ A dental therapist is someone = Chuyên viên trị liệu nha khoa là người | who does dental work, = làm công việc nha khoa, | but who does not have a license or full training = nhưng không có giấy phép hoặc chưa được đào tạo đầy đủ | as a doctor of dentistry = như một bác sĩ nha khoa
+@lab technician | /læb tekˈnɪʃn/ | láp tếch-NÍT-sừn | kỹ thuật viên phòng lab
++ technique = kỹ thuật → technician = kỹ thuật viên. Làm việc với mẫu xét nghiệm, làm test, lau chùi máy lab.
+= The lab technician tested the samples. => Kỹ thuật viên phòng lab đã kiểm tra các mẫu.
+~ A lab technician is someone = Kỹ thuật viên phòng lab là người | whose job it is = mà công việc là | to work on patient lab samples, = xử lý mẫu xét nghiệm của bệnh nhân, | do tests = làm xét nghiệm | and clean lab equipment = và lau chùi thiết bị phòng lab
+@office manager | /ˈɒfɪs ˈmænɪdʒər/ | O-phịt MA-ni-chờ | quản lý phòng khám
++ manage = quản lý → manager. Giám sát nhân viên khác để phòng khám làm việc hiệu quả.
+= The office manager checks the staff schedule. => Quản lý phòng khám kiểm tra lịch làm việc của nhân viên.
+~ An office manager is someone = Quản lý phòng khám là người | whose job it is = mà công việc là | to oversee the work of other employees = giám sát công việc của nhân viên khác | to make sure an office is productive and efficient = để bảo đảm phòng khám làm việc năng suất và hiệu quả
+@financial coordinator | /faɪˈnænʃl kəʊˈɔːdɪneɪtər/ | phai-NAN-sồ câu-O-đi-nây-tờ | điều phối viên tài chính
++ finance = tài chính; coordinate = điều phối → coordinator. Giữ sổ sách, lo thanh toán, nợ và đầu tư.
+= The financial coordinator explained the bill. => Điều phối viên tài chính giải thích hóa đơn.
+~ A financial coordinator is someone = Điều phối viên tài chính là người | whose job it is = mà công việc là | to keep the records for a business, = giữ sổ sách cho một doanh nghiệp, | like a dental practice = như một phòng khám nha
+@front office | /frʌnt ˈɒfɪs/ | phrăn O-phịt | bộ phận tiền sảnh
++ front = phía trước: bộ phận GẶP TRỰC TIẾP bệnh nhân (lễ tân, thu ngân).
+= She works in the front office and greets patients. => Cô ấy làm ở tiền sảnh và đón bệnh nhân.
+~ The front office is the part of a business = Tiền sảnh là bộ phận của doanh nghiệp | that has direct contact = có tiếp xúc trực tiếp | with patients, clients, or the public = với bệnh nhân, khách hàng hoặc công chúng
+@back office | /bæk ˈɒfɪs/ | bác O-phịt | bộ phận hậu sảnh
++ back = phía sau: bộ phận bệnh nhân KHÔNG nhìn thấy. Ngược với front office.
+= Billing is done in the back office. => Việc lập hóa đơn làm ở bộ phận hậu sảnh.
+~ The back office is the part of a business = Hậu sảnh là bộ phận của doanh nghiệp | that is not visible = không được nhìn thấy | to patients, clients or the public = bởi bệnh nhân, khách hàng hay công chúng
+
+# U5 | Unit này là các dụng cụ nha khoa. Định nghĩa hầu hết là "A … is a tool for/used to…" (là dụng cụ để…): mỗi dụng cụ có một động từ đi kèm (cut, grasp, measure, pull…). Nhớ được động từ đó là chọn đúng.
+@mirror | /ˈmɪrər/ | MI-rờ | gương nha khoa
++ Giống gương soi: giúp nha sĩ nhìn thấy những chỗ khó thấy trong miệng.
+= The dentist used a mirror to look at my back teeth. => Nha sĩ dùng gương để nhìn răng phía trong của tôi.
+~ A mirror is a tool = Gương là một dụng cụ | that allows a dentist = giúp nha sĩ | to see into hard-to-see places = nhìn vào những chỗ khó thấy | inside the mouth = bên trong miệng
+@probe | /prəʊb/ | prâup | cây thám trâm, cây đo túi nướu
++ probe = thăm dò. Đo độ sâu túi nướu (gum pockets) để biết nướu có khỏe không.
+= The hygienist used a probe to check my gums. => Chuyên viên dùng cây đo để kiểm tra nướu của tôi.
+~ A probe is tool = Cây đo là một dụng cụ | for measuring the depth of gum pockets = để đo độ sâu túi nướu | to assess the health of gum tissue = nhằm đánh giá sức khỏe mô nướu
+@drill | /drɪl/ | đriu | máy khoan, tay khoan
++ Giống máy khoan tường: khoan lỗ vào răng. Tên khác: handpiece.
+= The sound of the drill makes some patients nervous. => Tiếng máy khoan làm vài bệnh nhân lo lắng.
+~ A drill is a tool = Máy khoan là một dụng cụ | for cutting holes into teeth = để khoan lỗ vào răng
+@handpiece | /ˈhændpiːs/ | HÉN-pít | tay khoan
++ hand = tay + piece = cái: cái cầm tay. Chỉ là "another name for a drill" (tên khác của máy khoan).
+= The dentist picked up the handpiece. => Nha sĩ cầm tay khoan lên.
+~ A handpiece is = Tay khoan là | another name for a drill = một tên khác của máy khoan
+@bur | /bɜːr/ | bơ | mũi khoan
++ Đầu nhỏ gắn vào máy khoan (fitted into a drill) để cắt vào răng.
+= Change the bur before the next patient. => Thay mũi khoan trước bệnh nhân tiếp theo.
+~ A bur is a tool = Mũi khoan là một dụng cụ | that is fitted into a drill = được gắn vào máy khoan | to cut into the tooth = để cắt vào răng
+@excavator | /ˈekskəveɪtər/ | ÉC-xcờ-vây-tờ | cây nạo ngà
++ Giống máy xúc (excavator) đào đất: "xúc" phần sâu răng mềm, hư (soft, rotten decay) ra ngoài.
+= She removed the soft decay with an excavator. => Cô ấy lấy phần sâu mềm ra bằng cây nạo ngà.
+~ An excavator is a tool = Cây nạo ngà là một dụng cụ | for taking away = để lấy đi | soft, rotten decay = phần sâu răng mềm, mục | inside the mouth = trong miệng
+@chisel | /ˈtʃɪzl/ | CHI-dồ | cái đục
++ Giống cái đục của thợ mộc: lưỡi dài, cạnh sắc (sharp edge) để gọt, tạo hình.
+= The surgeon used a chisel to shape the bone. => Bác sĩ phẫu thuật dùng đục để tạo hình xương.
+~ A chisel is long blade = Cái đục là một lưỡi dài | with a sharp edge = có cạnh sắc | for trimming and shaping = để gọt và tạo hình
+@curette | /kjʊˈret/ | kiu-RÉT | cây nạo (nạo túi nha chu)
++ Nạo, làm sạch giữa các răng và dưới đường viền nướu (under the gum line).
+= The hygienist used a curette under the gum line. => Chuyên viên dùng cây nạo ở dưới viền nướu.
+~ A curette is a tool = Cây nạo là một dụng cụ | for cleaning between the teeth = để làm sạch giữa các răng | and under the gum line = và dưới đường viền nướu
+@burnisher | /ˈbɜːrnɪʃər/ | BƠ-ni-sờ | cây miết bóng
++ Dùng ở cuối thủ thuật (end of a procedure) để làm bề mặt nhẵn (smooth).
+= Use the burnisher to smooth the filling. => Dùng cây miết bóng để làm nhẵn miếng trám.
+~ A burnisher is a tool = Cây miết bóng là một dụng cụ | used at the end of a dental procedure = dùng vào cuối thủ thuật nha khoa | to make surfaces smooth = để làm bề mặt nhẵn
+@plugger | /ˈplʌɡər/ | PLĂ-gờ | cây lèn (ống tủy)
++ plug = nút bịt, nhét vào. Dùng trong ống tủy (root canal) để lèn bít.
+= The dentist used a plugger during the root canal. => Nha sĩ dùng cây lèn khi điều trị tủy.
+~ A plugger is a tool = Cây lèn là một dụng cụ | used in root canals = dùng trong điều trị ống tủy | to plug the nerve after extraction = để lèn bít chỗ dây thần kinh sau khi lấy ra
+@retractor | /rɪˈtræktər/ | ri-TRÉC-tờ | dụng cụ banh (môi, má)
++ retract = kéo lùi lại. Kéo một phần miệng (môi, má) ra để làm việc ở chỗ khác.
+= The assistant held the retractor during surgery. => Trợ thủ giữ dụng cụ banh trong lúc phẫu thuật.
+~ A retractor is a tool = Dụng cụ banh là một dụng cụ | that allows dentists = giúp nha sĩ | to pull a portion of the mouth away = kéo một phần của miệng ra | to access another area of the mouth = để tiếp cận vùng khác trong miệng
+@elevator | /ˈelɪveɪtər/ | E-li-vây-tờ | cây bẩy răng
++ Giống thang máy (elevator) "nâng lên": bẩy, làm lung lay răng (loosening teeth) trước khi nhổ.
+= The dentist used an elevator to loosen the tooth. => Nha sĩ dùng cây bẩy để làm lung lay răng.
+~ An elevator is a tool = Cây bẩy là một dụng cụ | used for many procedures = dùng trong nhiều thủ thuật | including separating teeth or bone from membranes = như tách răng hoặc xương khỏi màng | and loosening teeth = và làm lung lay răng
+@forceps | /ˈfɔːrseps/ | PHO-xép | kìm nhổ răng
++ Luôn ở dạng số nhiều (giống scissors). Kẹp chặt (grasp) rồi nhổ (extract) răng.
+= He pulled the tooth out with forceps. => Anh ấy nhổ chiếc răng bằng kìm.
+~ Forceps are tools = Kìm nhổ răng là những dụng cụ | for grasping and extracting teeth = để kẹp và nhổ răng
+@syringe | /sɪˈrɪndʒ/ | xi-RINCH | ống tiêm
++ Có gắn kim (needle), dùng để tiêm (injection), ví dụ tiêm thuốc tê.
+= The dentist filled the syringe with anesthetic. => Nha sĩ hút thuốc tê vào ống tiêm.
+~ A syringe is a tool = Ống tiêm là một dụng cụ | which is fitted with a needle = có gắn kim

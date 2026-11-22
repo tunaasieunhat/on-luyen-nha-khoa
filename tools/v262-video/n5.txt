@@ -1,0 +1,264 @@
+## 1
+Xin chào các bạn, chúng ta đến với bài năm của môn Vật liệu nha khoa: Composite.
+Composite là vật liệu trám thẩm mỹ được dùng nhiều nhất hiện nay.
+Ở bài trước, chúng ta đã học về polymer. Hôm nay, chúng ta sẽ thấy polymer kết hợp với hạt độn vô cơ để tạo thành một vật liệu vừa đẹp vừa bền như thế nào.
+Mục tiêu của bài là hiểu composite được làm từ gì, vì sao mỗi loại composite có tính chất khác nhau, và cách dùng nó như thế nào để miếng trám được bền lâu.
+Chúng ta bắt đầu nhé.
+
+## 2
+Đầu tiên là mục tiêu của bài học.
+Học xong bài này, các bạn sẽ phân tích được vai trò của từng thành phần trong composite.
+Các bạn sẽ phân loại được composite theo kích thước hạt độn và theo chỉ định lâm sàng.
+Các bạn sẽ giải thích được các tính chất của composite và ý nghĩa lâm sàng của chúng.
+Các bạn sẽ trình bày được kỹ thuật sử dụng: chiếu đèn, đắp lớp, hoàn tất và sửa chữa.
+Và các bạn sẽ nắm được các tiến bộ công nghệ composite hiện nay.
+Để hiểu nhanh, hãy hình dung composite giống như bê tông.
+Xi măng là khuôn nhựa, gồm bis GMA, UDMA và TEGDMA.
+Đá sỏi là các hạt độn vô cơ.
+Và chất giúp sỏi dính vào xi măng chính là silane.
+Thêm vào đó là chất khơi mào, giúp nhựa chuyển từ dạng nhão sang dạng cứng.
+Hãy giữ hình ảnh bê tông này trong đầu suốt bài. Hầu như mọi tính chất của composite, từ độ bền, độ bóng, co ngót, mòn, cho đến đổi màu, đều quy về ba câu hỏi: hạt độn nhiều hay ít, to hay nhỏ, và có dính chắc vào nhựa hay không.
+
+## 3
+Composite hiện đại không tự nhiên mà có. Hãy xem nó ra đời như thế nào.
+Đầu thế kỷ hai mươi, người ta dùng xi măng silicat. Silicat có ưu điểm là nhả fluor, nhưng nó mòn rất nhanh, và chỉ tồn tại được vài năm.
+Sau đó, nhựa acrylic PMMA thay thế silicat. Nhưng nhựa acrylic co ngót lớn và giãn nở nhiệt cao, nên tạo ra khe hở ở bờ miếng trám.
+Người ta thử thêm hạt thạch anh vào PMMA, nhưng vẫn thất bại. Lý do là hạt độn không dính vào nhựa, nên nước và vi khuẩn len vào giữa.
+Bước ngoặt đến vào năm một nghìn chín trăm sáu mươi hai, khi Bowen đưa ra bis GMA, và dùng silane để gắn hạt độn vào nhựa. Đây là nền tảng của composite hiện đại.
+Sau đó, lần lượt ra đời composite hạt nhỏ, composite micro, composite lai, composite nano, composite lỏng, composite nén, và composite nguyên khối.
+Bài học từ lịch sử rất rõ ràng: vấn đề cốt lõi là hạt độn phải dính được vào nhựa.
+Khi đánh giá composite, người ta thường so sánh với amalgam, vật liệu được xem là chuẩn tham chiếu vàng.
+Composite dần thay thế amalgam vì thẩm mỹ, vì lo ngại thủy ngân, và vì vấn đề chất thải.
+
+## 4
+Bây giờ chúng ta đi vào từng thành phần. Đầu tiên là khuôn nhựa: bis GMA, UDMA và TEGDMA.
+Bis GMA và UDMA là các monome có phân tử lớn. Mỗi phân tử có ít liên kết đôi so với kích thước của nó, nên khi trùng hợp, co ngót tương đối thấp.
+Nhưng nhược điểm là chúng rất nhớt. Bis GMA có độ nhớt khoảng tám trăm nghìn centipoise, đặc như mật ong để trong tủ lạnh. Rất khó trộn thêm hạt độn vào một thứ đặc như vậy.
+Vì vậy, người ta phải pha thêm TEGDMA, có độ nhớt chỉ năm đến ba mươi centipoise, để làm loãng.
+Pha bảy mươi lăm phần trăm bis GMA với hai mươi lăm phần trăm TEGDMA, độ nhớt giảm xuống còn khoảng bốn nghìn ba trăm. Pha một nửa một nửa, độ nhớt chỉ còn khoảng hai trăm.
+Nhưng có một cái giá phải trả: TEGDMA càng nhiều thì co ngót càng lớn, và miếng trám càng dễ hở bờ.
+Mẹo nhớ: loãng thì dễ làm, nhưng co nhiều.
+Nhà sản xuất luôn phải cân bằng giữa hai điều này. Và đây là một câu hỏi lâm sàng hay gặp: một loại composite rất dễ thao tác mà lại hay hở bờ, nguyên nhân thường là do có nhiều TEGDMA.
+
+## 5
+Thành phần thứ hai là hạt độn. Hạt độn chiếm từ ba mươi đến bảy mươi phần trăm thể tích composite, gồm thạch anh, silica, và thủy tinh chứa bari, stronti, zirconi.
+Hạt độn có sáu chức năng.
+Một là gia cố. Hạt độn làm tăng độ bền, mô đun đàn hồi và khả năng kháng gãy. Khi đạt khoảng bảy mươi phần trăm thể tích, composite kháng mòn gần bằng mô răng.
+Hai là giảm co ngót. Hạt độn không tham gia trùng hợp, nên nó chiếm chỗ của nhựa. Nhờ vậy, composite chỉ co từ dưới một phần trăm đến khoảng bốn phần trăm.
+Ba là giảm giãn nở nhiệt. Hệ số giãn nở trở nên gần với răng hơn, nên ít sinh ứng suất ở bờ khi bệnh nhân ăn đồ nóng, lạnh.
+Bốn là kiểm soát độ nhớt. Càng nhiều hạt độn, bột nhão càng đặc, dễ điêu khắc, và ít chảy xệ khi đắp.
+Năm là giảm hút nước. Ít nhựa hơn thì ít hút nước hơn, nên composite ít bị mềm và ít nhuộm màu.
+Sáu là cản quang, nhờ các nguyên tử nặng như bari, stronti, zirconi. Độ cản quang nên bằng men răng, tức là gấp đôi ngà, để nhìn thấy sâu tái phát trên phim.
+Cả sáu chức năng đều quy về một ý: hạt độn thay chỗ cho nhựa, mà nhựa là phần yếu, phần co ngót, và phần hút nước.
+Lưu ý thêm: thạch anh rất cứng, làm mòn răng đối diện và khó đánh bóng. Còn silica vô định hình thì dễ đánh bóng hơn.
+
+## 6
+Tiếp theo, cỡ hạt độn quyết định độ nhớt.
+Các bạn hãy tưởng tượng xếp những quả bóng cùng cỡ vào một cái hộp. Dù xếp khéo đến đâu, bóng cũng chỉ chiếm tối đa bảy mươi bốn phần trăm thể tích.
+Vì vậy, người ta phải trộn nhiều cỡ hạt khác nhau, để hạt nhỏ lấp vào khe giữa các hạt lớn.
+Nhưng có một vấn đề: hạt càng nhỏ thì tổng diện tích bề mặt càng lớn. Mỗi hạt cần một lớp nhựa bao quanh, nên hạt nhỏ uống nhiều nhựa hơn, và độ nhớt tăng rất nhanh.
+Vì thế, lượng hạt độn thực tế chỉ đạt tối đa khoảng tám mươi phần trăm thể tích.
+Đây cũng là lý do composite micro, với hạt rất nhỏ, chỉ chứa được khoảng năm mươi phần trăm hạt độn vô cơ.
+Mặt khác, hạt lớn hơn bước sóng ánh sáng sẽ làm tán xạ ánh sáng, khiến bề mặt thô ráp và dễ bám màu.
+Và một chi tiết về thẩm mỹ: chiết suất của hạt độn phải gần bằng chiết suất của nhựa, khoảng một phẩy năm, thì composite mới trong mờ giống răng thật.
+Hình trên slide cho thấy hạt càng nhỏ, độ nhớt tăng càng nhanh.
+
+## 7
+Thành phần thứ ba và thứ tư là silane và hệ khơi mào.
+Silane là chất kết nối. Nó có ba vai trò.
+Thứ nhất, nó gắn hạt độn với nhựa. Nhờ đó, khi chịu lực, nhựa truyền ứng suất sang hạt độn cứng hơn.
+Thứ hai, nó chặn nước thấm vào dọc theo mặt tiếp giáp giữa hạt độn và nhựa.
+Thứ ba, về cấu tạo, một đầu của silane bám vào hạt độn bằng liên kết siloxan, còn đầu kia là nhóm methacrylate trùng hợp cùng với nhựa.
+Không có silane, hạt độn chỉ giống như những lỗ hổng trong nhựa, và làm vật liệu yếu đi.
+Tiếp theo là chất khơi mào. Composite cứng lại nhờ trùng hợp gốc tự do.
+Với hóa trùng hợp, chất khơi mào là benzoyl peroxide cùng với amin thơm.
+Với quang trùng hợp, đó là camphorquinone cùng với amin, được kích hoạt bằng ánh sáng xanh từ bốn trăm đến năm trăm nano mét, mạnh nhất ở bốn trăm sáu mươi tám nano mét.
+Ngoài ra còn có chất ức chế, như BHT, giúp bắt các gốc tự do sinh ra ngoài ý muốn khi bảo quản, nhờ đó kéo dài tuổi thọ của ống composite.
+Cuối cùng là chất màu và chất đục. Các bạn lưu ý: màu tối và màu đục cản ánh sáng, nên phải chiếu đèn lâu hơn, hoặc đắp lớp mỏng hơn.
+
+## 8
+Vậy nên chọn hóa trùng hợp, quang trùng hợp, hay lưỡng trùng hợp?
+Composite hóa trùng hợp được khơi mào bằng benzoyl peroxide và amin thơm, bằng cách trộn hai bột nhão với nhau.
+Ưu điểm của nó là không cần đèn, trùng hợp đều cả khối, và ứng suất ở giao diện thấp hơn.
+Nhược điểm là dễ kẹt bọt khí khi trộn, amin làm đổi màu theo thời gian, và khó kiểm soát thời gian làm việc. Một lớp dày hai mi li mét cần vài phút để cứng.
+Composite quang trùng hợp được khơi mào bằng camphorquinone và amin, khi chiếu ánh sáng xanh.
+Ưu điểm là bác sĩ chủ động được thời gian làm việc, ít bọt, màu ổn định, và đắp được nhiều lớp, nhiều màu. Một lớp hai mi li mét cứng dưới bốn mươi giây.
+Nhược điểm là mỗi lần chỉ trùng hợp sâu được hai đến ba mi li mét, ứng suất cao hơn, và cần có đèn tốt.
+Còn composite lưỡng trùng hợp có cả hai hệ thống. Nó được dùng ở những nơi ánh sáng không chiếu tới được, như dưới inlay, onlay, hay mão sứ.
+Một ý cuối: bề mặt composite luôn có một lớp mỏng chưa trùng hợp do oxy, gọi là lớp ức chế oxy. Lớp này lại có ích: nó giúp lớp composite đắp sau dính chắc vào lớp trước.
+
+## 9
+Bây giờ chúng ta phân loại composite theo kích thước hạt độn.
+Composite truyền thống có hạt từ tám đến bốn mươi micromét. Cơ tính tốt, nhưng bề mặt nhám và khó đánh bóng. Ngày nay ít dùng.
+Composite hạt nhỏ có hạt từ không phẩy một đến mười micromét, hạt độn chiếm bảy mươi bảy đến tám mươi tám phần trăm. Nó cứng và bền, nhưng không bóng như gương.
+Composite micro có hạt rất nhỏ, từ không phẩy không một đến không phẩy một micromét. Nó bóng cao, nhưng hạt độn vô cơ chỉ khoảng năm mươi phần trăm, nên yếu và hút nước nhiều. Nó dùng cho xoang ba và xoang năm.
+Composite micro còn dùng thêm hạt độn hữu cơ, tức là nhựa đã trùng hợp rồi nghiền nhỏ. Loại hạt này liên kết với khuôn yếu, nên dễ mẻ.
+Composite lai kết hợp hạt micro với hạt nhỏ, nên vừa bóng vừa bền, hạt độn khoảng bảy mươi lăm đến tám mươi phần trăm. Nó dùng cho răng trước và xoang bốn.
+Composite nano và nanohybrid có hạt từ một đến một trăm nano mét, hạt độn khoảng bảy mươi tám phần trăm trọng lượng. Nó vừa bóng vừa bền, dùng được cho cả răng trước và răng sau.
+Cuối cùng là composite nguyên khối, giúp giảm ứng suất và cho ánh sáng xuyên sâu hơn, dùng cho xoang sâu trên bốn mi li mét.
+Mẹo nhớ: micro bóng mà yếu, hạt nhỏ bền mà nhám, còn lai thì lấy cả hai.
+
+## 10
+Chúng ta nói thêm một chút về composite lai, loại vừa đẹp vừa chịu lực.
+Composite lai phối hợp hạt micro để cho độ bóng, với hạt nhỏ để cho độ bền.
+Nó đủ bền để phục hồi xoang bốn và cạnh cắn răng trước, những nơi chịu lực cắn trực tiếp.
+Nó đánh bóng được, và giữ được thẩm mỹ cao trong thời gian dài.
+Ngày nay, composite nanohybrid hiện đại có thể dùng cho cả răng trước và răng sau.
+Hình trên slide là một ca lâm sàng trong sách: một răng cửa giữa bị gãy cạnh cắn, và sau khi được phục hồi bằng composite lai, kết quả trông gần như răng thật.
+Từ đó, ta có nguyên tắc chọn vật liệu như sau.
+Ở vùng chịu lực, như xoang một, xoang hai và xoang bốn, hãy chọn composite lai hoặc nanohybrid.
+Ở vùng không chịu lực, như xoang ba và xoang năm, có thể dùng composite micro để có độ bóng cao nhất.
+
+## 11
+Bây giờ là phân loại theo lâm sàng.
+Thứ nhất là composite lỏng. Hạt độn chỉ khoảng bốn mươi hai đến năm mươi ba phần trăm thể tích, nên nó chảy tốt, và bơm được qua kim nhỏ.
+Composite lỏng được dùng làm lớp lót đáy xoang, trám xoang nhỏ, xoang năm, và trám răng sữa. Nhược điểm là co ngót nhiều hơn, và cơ tính kém hơn composite thường.
+Thứ hai là composite nén. Hạt độn khoảng sáu mươi sáu đến bảy mươi phần trăm, hạt có dạng dài hoặc phân nhánh, nên không bị sụm, và nhồi được như amalgam.
+Nó giúp dễ tạo điểm tiếp xúc bên ở xoang hai, nhưng mất thời gian gấp đôi so với amalgam.
+Thứ ba là composite tái tạo cùi. Nó thường là hóa trùng hợp, có màu tương phản để dễ phân biệt với răng khi mài. Nó dán được vào ngà, cứng, và xong trong một lần hẹn. Lưu ý là một số loại không tương thích với keo dán quang trùng hợp.
+Thứ tư là composite tạm và composite gián tiếp.
+Composite tạm tỏa nhiệt ít, và kháng mòn tốt hơn nhựa acrylic. Vì ít tỏa nhiệt, nó an toàn hơn cho tủy của răng vừa mới mài.
+Còn inlay, onlay composite gián tiếp được trùng hợp ngoài miệng, nên mức chuyển đổi cao, và được gắn bằng xi măng nhựa.
+
+## 12
+Bây giờ chúng ta đến điểm yếu lớn nhất của composite: co ngót trùng hợp, và khái niệm C factor.
+Khi trùng hợp, các monome xích lại gần nhau để liên kết, nên khối composite co lại.
+Ứng suất co ngót phụ thuộc vào bốn yếu tố.
+Một là thể tích composite. Đắp càng nhiều composite trong một lần, ứng suất kéo lên thành xoang càng lớn.
+Hai là loại composite. Composite có nhiều TEGDMA và ít hạt độn thì co nhiều hơn.
+Ba là tốc độ trùng hợp. Nếu trùng hợp quá nhanh, nhựa không kịp chảy để tự giải tỏa ứng suất.
+Bốn là C factor, tức là tỷ lệ giữa số mặt được dán và số mặt tự do. Một xoang hình hộp có nhiều thành dán thì C factor cao, và ứng suất lớn.
+Các bạn hãy tưởng tượng composite như một tấm cao su bị dán chặt vào nhiều thành. Càng nhiều thành dán, khi co lại, nó càng kéo mạnh vào chỗ dán.
+Hậu quả của ứng suất co ngót là bong dán, vi kẽ ở bờ, nhuộm màu, ê buốt, và sâu thứ phát. Những vấn đề này hay gặp nhất ở xoang hai và xoang năm.
+Để giảm co ngót, composite hiện đại dùng monome phân tử lớn và tăng lượng hạt độn.
+
+## 13
+Tiếp theo là mòn và độ bền gãy.
+Composite ở răng sau mòn khoảng mười đến hai mươi micromét mỗi năm. Nghĩa là sau mười năm, miếng trám mất đi khoảng không phẩy một đến không phẩy hai mi li mét.
+Có hai kiểu mòn. Mòn cơ học xảy ra ở chỗ tiếp xúc với múi răng đối diện. Mòn hóa học xảy ra do thức ăn, ở những vùng không tiếp xúc.
+Composite có hạt độn nhỏ hơn một micromét kháng mòn tốt nhất.
+Về độ bền gãy, silane lại đóng vai trò quan trọng.
+Khi silane gắn tốt, một vết nứt đi tới hạt độn sẽ phải đi vòng qua nó. Việc đi vòng tốn thêm năng lượng, nên vật liệu bền hơn.
+Hình trên slide cho thấy vết nứt khi chạm vào mặt tiếp giáp có thể bị làm cùn và dừng lại.
+Không có silane, mỗi hạt độn là một khoảng trống, giống như một vết nứt có sẵn.
+Còn khuôn nhựa có nhiều liên kết ngang thì cứng hơn, nhưng cũng giòn hơn.
+Ý lâm sàng: trám xoang hai bằng composite cần rất thận trọng ở những bệnh nhân nghiến răng, và những bệnh nhân có nguy cơ sâu răng cao.
+
+## 14
+Tiếp theo là các tính chất về nhiệt, nước, và tương hợp sinh học.
+Về nhiệt, composite dẫn nhiệt kém, nên cách nhiệt tốt cho tủy, và bệnh nhân ít ê buốt hơn so với amalgam.
+Nhưng composite giãn nở nhiệt nhiều hơn răng. Composite càng ít hạt độn thì giãn nở càng nhiều.
+Về nước, composite hút nước, làm nó đổi màu và thoái biến dần theo thời gian.
+Composite lai hút ít nước, khoảng không phẩy ba đến không phẩy sáu mi li gam trên xăng ti mét vuông. Composite micro hút nhiều hơn, khoảng một phẩy hai đến hai phẩy hai.
+Về tương hợp sinh học, composite trùng hợp hoàn toàn thì tương đối an toàn.
+Nhưng composite trùng hợp thiếu ở đáy xoang có thể nhả ra những chất kích ứng tủy.
+Còn BPA, tiền chất của bis GMA, có hoạt tính giống estrogen, và từng được phát hiện trong nước bọt một giờ sau khi trám sealant. Tuy nhiên, liều rất thấp, nên tác động trên người vẫn còn tranh cãi.
+Thông điệp lâm sàng quan trọng nhất của slide này là: chiếu đèn đủ năng lượng cho từng lớp là cách đơn giản nhất để composite vừa bền, vừa an toàn với tủy.
+
+## 15
+Vậy tuổi thọ của composite so với amalgam thế nào?
+Amalgam ổn định nhất. Sau bảy năm, chín mươi bốn phẩy năm phần trăm miếng trám amalgam vẫn còn tốt.
+Composite thì giảm xuống còn sáu mươi bảy phẩy bốn phần trăm sau bảy năm, và kết quả chênh lệch nhiều giữa các nghiên cứu.
+Nguyên nhân thất bại chính của composite là sâu thứ phát, nứt gãy, hở bờ, và mòn.
+Tuy nhiên, một nghiên cứu khác cho thấy composite răng sau còn tốt chín mươi mốt phẩy bảy phần trăm sau năm năm, và tám mươi hai phẩy hai phần trăm sau mười năm.
+Vì sao kết quả lại khác nhau nhiều như vậy?
+Vì composite là vật liệu rất nhạy kỹ thuật. Cách ly, đắp lớp, chiếu đèn, tất cả đều ảnh hưởng đến tuổi thọ.
+Biểu đồ trên slide không nói rằng composite là vật liệu kém. Nó cho thấy composite phụ thuộc vào tay nghề nhiều hơn.
+Làm đúng kỹ thuật thì tuổi thọ của composite tốt hơn hẳn con số trung bình. Và đó chính là lý do chúng ta học kỹ những slide tiếp theo.
+
+## 16
+Có ba giải pháp để giảm ứng suất co ngót.
+Giải pháp thứ nhất là đắp từng lớp, mỗi lớp không quá hai mi li mét. Mỗi lớp chỉ dán vào ít thành xoang hơn, nên C factor thấp, và ứng suất nhỏ.
+Giải pháp thứ hai là chiếu đèn theo kiểu khởi đầu mềm. Bắt đầu với cường độ thấp, rồi tăng dần, để nhựa có thời gian chảy và tự giải tỏa ứng suất.
+Giải pháp thứ ba là phục hồi gián tiếp, như inlay hay onlay composite. Composite đã co ngót xong ở ngoài miệng, nên trong miệng chỉ còn một lớp xi măng mỏng.
+Nhờ vậy, tỷ lệ thất bại hằng năm của inlay composite chỉ khoảng một phẩy chín phần trăm, so với ba phẩy sáu phần trăm của trám trực tiếp.
+Hình trên slide minh họa cách đắp từng lớp và hướng chiếu đèn.
+Cũng nhờ nguyên tắc này mà composite hóa trùng hợp có ít ứng suất hơn: nó cứng chậm, nên nhựa vẫn còn chảy được trước khi đông.
+Cả ba giải pháp đều dựa trên một nguyên tắc chung: cho nhựa thời gian hoặc không gian để co, mà không kéo bung chỗ dán.
+
+## 17
+Tiếp theo là đèn quang trùng hợp. Nguyên tắc cốt lõi là phải đủ năng lượng.
+Mỗi lớp composite dày hai mi li mét cần khoảng mười sáu jun trên xăng ti mét vuông.
+Năng lượng bằng cường độ nhân thời gian. Với đèn bốn trăm mi li oát, cần chiếu bốn mươi giây. Với đèn tám trăm, cần hai mươi giây. Với đèn một nghìn hai trăm, cần khoảng mười ba giây.
+Có bốn loại đèn.
+Đèn LED phát ánh sáng từ bốn trăm bốn mươi đến bốn trăm tám mươi nano mét, không cần bộ lọc, ít nóng, chạy pin. Đây là loại dùng phổ biến nhất.
+Đèn halogen cần bộ lọc để lấy ánh sáng từ bốn trăm đến năm trăm nano mét. Bóng đèn yếu dần theo thời gian, nên phải đo định kỳ.
+Đèn plasma dùng khí xenon ion hóa, cho cường độ cao.
+Và đèn laser argon cho cường độ cao nhất, với một bước sóng duy nhất khoảng bốn trăm chín mươi nano mét.
+Ý lâm sàng: ánh sáng chỉ làm cứng sâu được hai đến ba mi li mét. Với màu tối, màu đục, hoặc khi chiếu xuyên qua răng, phải tăng thời gian lên hai đến ba lần.
+Các bạn cũng lưu ý: đèn mạnh rút ngắn thời gian, nhưng trùng hợp quá nhanh làm tăng ứng suất. Và nhiều đèn ở phòng khám không còn đủ cường độ, vì bóng, bộ lọc hay ống dẫn quang đã xuống cấp.
+
+## 18
+Bây giờ là bốn lưu ý khi chiếu đèn.
+Lưu ý một: đúng bước sóng. Ánh sáng của đèn phải trùng với phổ hấp thụ của chất khơi mào. Camphorquinone hấp thụ mạnh nhất ở bốn trăm sáu mươi tám nano mét.
+Lưu ý hai: thật gần. Đặt đầu đèn càng gần càng tốt, và giữ yên trong suốt thời gian chiếu, ít nhất hai mươi giây cho mỗi lớp.
+Lưu ý ba: vuông góc. Đầu đèn phải vuông góc với bề mặt composite, để ánh sáng đi thẳng vào, không bị hắt ra ngoài.
+Lưu ý bốn: kiểm tra định kỳ. Hãy đo cường độ đèn thường xuyên, để bảo đảm mỗi lớp nhận đủ mười sáu jun trên xăng ti mét vuông.
+Bốn lưu ý này tương ứng với bốn nguyên nhân hàng đầu khiến composite trùng hợp thiếu: đèn để xa, chiếu xiên, chiếu không đủ lâu, hoặc đèn đã yếu.
+Và một cảnh báo an toàn: ánh sáng xanh, nhất là ánh sáng laser, có thể gây tổn thương võng mạc.
+Vì vậy, không nhìn thẳng vào đèn, và hãy dùng kính lọc, hoặc tấm chắn màu cam, cho cả bác sĩ, trợ thủ và bệnh nhân.
+
+## 19
+Sau khi trám xong, chúng ta đến bước hoàn tất và sửa chữa miếng trám.
+Thứ nhất, đúng thời điểm. Hãy hoàn thiện ngay trong buổi hẹn, tốt nhất khoảng mười lăm phút sau khi trùng hợp. Hẹn bệnh nhân quay lại tuần sau để đánh bóng không cho kết quả tốt hơn.
+Thứ hai, luôn có nước. Đánh bóng khô làm nóng miếng trám, và làm tăng vi kẽ. Vì vậy, luôn tưới nước khi mài và đánh bóng.
+Thứ ba, đúng dụng cụ. Mặt nhai dùng mũi kim cương mịn hoặc mũi carbide. Mặt ngoài dùng đĩa phủ oxit, đi từ thô đến mịn. Mặt bên dùng băng nhám kẽ.
+Thứ tư, phủ keo bề mặt. Sau khi đánh bóng, quét một lớp keo có độ nhớt thấp để lấp các vết nứt nhỏ, và giảm vi kẽ.
+Vì sao hoàn tất lại quan trọng như vậy? Vì bề mặt nhám là nơi mảng bám bám vào, gây sâu thứ phát, viêm nướu, và nhuộm màu.
+Về sửa chữa, có hai tình huống.
+Nếu đắp thêm lên composite vừa trám, lớp ức chế oxy trên bề mặt chính là một lớp keo dán có sẵn.
+Còn nếu sửa một miếng composite cũ, liên kết chỉ đạt khoảng một nửa độ bền. Các bạn phải mài nhám, xoi mòn, quét silane, rồi mới đắp composite mới.
+
+## 20
+Vậy composite răng sau, khi nào nên dùng, và khi nào không?
+Nên dùng composite khi bệnh nhân cần thẩm mỹ.
+Khi muốn bảo tồn mô răng, vì composite dán vào răng, nên không cần mài thêm để tạo lưu giữ.
+Khi cần cách nhiệt, vì composite gây ê buốt ít hơn amalgam.
+Và khi xoang nhỏ hoặc vừa, và cách ly nước bọt được tốt.
+Không nên dùng composite khi răng mất chất hơn một phần ba chiều rộng.
+Khi bệnh nhân nghiến răng, hoặc có thói quen cận chức năng.
+Khi không cách ly được nước bọt và máu.
+Và cần cân nhắc kỹ khi bệnh nhân có nguy cơ sâu răng cao.
+Nguyên tắc dễ nhớ: composite răng sau cần đủ ba điều kiện. Xoang không quá lớn, lực nhai bình thường, và cách ly tốt.
+Thiếu một trong ba điều này, thì amalgam hoặc phục hồi gián tiếp sẽ an toàn hơn.
+Một ý thêm về veneer nhựa trên khung kim loại: nó dễ sửa và ít làm mòn răng đối diện, nhưng dễ nhuộm màu và mòn khi chải răng. Vì vậy, mặt nhai nên làm bằng kim loại.
+
+## 21
+Cuối cùng, chúng ta điểm qua các tiến bộ công nghệ composite.
+Hầu hết các hướng cải tiến đều nhằm giải quyết điểm yếu lớn nhất của composite: co ngót trùng hợp.
+Hướng thứ nhất là silorane. Thay vì mở liên kết đôi, vòng epoxy mở ra khi trùng hợp, chiếm thêm chỗ, và bù lại phần co ngót.
+Hướng thứ hai là dùng monome urethane có phân tử rất lớn, lớn hơn bis GMA nhiều, nên co ít hơn.
+Hướng thứ ba là dùng monome kỵ nước tách pha khi trùng hợp, sinh ra một chút giãn nở để bù co ngót.
+Hướng thứ tư là ormocer, tức là gốm biến đổi hữu cơ, với hạt chỉ hai đến ba nano mét. Nó co thấp, kháng mòn, và tương hợp tốt.
+Hướng thứ năm là POSS, những phân tử silicat dạng lồng, gia cố vật liệu ở mức phân tử, vừa bóng vừa bền.
+Hướng thứ sáu là polycarbonate dimethacrylate dạng nén, có thể trùng hợp được cả khối.
+Các bạn không cần thuộc tên thương mại. Chỉ cần nhớ mỗi hướng giải quyết co ngót bằng cách nào: mở vòng, phân tử lớn, tách pha, hoặc hạt nano lai.
+
+## 22
+Bây giờ chúng ta cùng làm ba câu hỏi tình huống.
+Câu một: một loại composite có rất nhiều TEGDMA, dễ thao tác nhưng hay hở bờ. Giải thích nào hợp lý nhất? A, TEGDMA làm tăng co ngót trùng hợp. B, TEGDMA làm độ nhớt tăng quá mức. C, TEGDMA làm mất tính cản quang. D, TEGDMA phá hủy liên kết silane.
+Câu hai: một xoang một hình hộp sâu, có năm thành dán và một mặt tự do, được đắp composite một khối. Nguy cơ là gì? A, C factor thấp, ứng suất rất nhỏ. B, C factor cao, ứng suất co ngót lớn. C, không liên quan đến C factor. D, ứng suất chỉ do hạt độn.
+Câu ba: một xoang hai khó tạo tiếp xúc, cần một vật liệu chảy vào được góc hẹp, làm lớp đầu tiên ở đáy hộp. Nên chọn loại nào? A, composite nén. B, composite lỏng. C, composite tái tạo cùi. D, composite hạt micro.
+Các bạn hãy tạm dừng video, suy nghĩ vài giây, rồi xem đáp án ở slide tiếp theo nhé.
+
+## 23
+Và đây là đáp án.
+Câu một, đáp án A: TEGDMA làm tăng co ngót trùng hợp. TEGDMA là monome nhỏ, nó làm nhựa loãng ra nhưng làm tăng co ngót, kéo bờ miếng trám tách khỏi thành xoang.
+Câu hai, đáp án B: C factor cao, ứng suất co ngót lớn. Nhiều thành dán, ít mặt tự do, nên C factor cao. Cách xử lý là đắp từng lớp, mỗi lớp không quá hai mi li mét.
+Câu ba, đáp án B: composite lỏng. Composite lỏng chảy tốt, áp sát thành xoang, và hay được dùng làm lớp lót đầu tiên ở đáy hộp.
+Các bạn thấy không, cả ba câu đều quy về co ngót trùng hợp, và cách hạt độn, độ nhớt ảnh hưởng đến việc chọn vật liệu.
+
+## 24
+Cuối cùng, chúng ta tóm tắt mười ý chính của bài.
+Một, composite gồm khuôn nhựa, hạt độn, silane và chất khơi mào.
+Hai, thêm nhiều TEGDMA thì composite loãng, dễ làm, nhưng co ngót lớn.
+Ba, hạt độn có sáu chức năng: gia cố, giảm co, giảm giãn nở, kiểm soát độ nhớt, giảm hút nước, và cản quang.
+Bốn, quang trùng hợp dùng camphorquinone và amin, với ánh sáng từ bốn trăm đến năm trăm nano mét.
+Năm, mỗi lớp hai mi li mét cần mười sáu jun trên xăng ti mét vuông, và ánh sáng chỉ làm cứng sâu tối đa hai đến ba mi li mét.
+Sáu, composite micro bóng nhưng yếu, dùng cho xoang ba và năm. Composite lai vừa bóng vừa bền.
+Bảy, composite lỏng dùng để lót và trám xoang năm. Composite nén dùng cho xoang một và hai.
+Tám, C factor cao gây vi kẽ, và được khắc phục bằng cách đắp lớp không quá hai mi li mét.
+Chín, composite mòn mười đến hai mươi micromét mỗi năm. Sau bảy năm, composite còn sáu mươi bảy phần trăm, amalgam còn chín mươi bốn phẩy năm phần trăm.
+Mười, hoàn thiện ngay sau khoảng mười lăm phút, luôn có nước. Sửa composite cũ chỉ đạt một nửa độ bền.
+Nếu chỉ nhớ một điều, hãy nhớ: hầu hết vấn đề của composite đều đến từ co ngót trùng hợp.
+Cảm ơn các bạn đã theo dõi năm bài đầu tiên của môn Vật liệu nha khoa. Chúc các bạn học tốt.

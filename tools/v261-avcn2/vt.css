@@ -1,0 +1,76 @@
+/* @@VT-CSS */
+/* Version 2.6.1: thẻ từ AVCN2 + Luyện từ 5 bậc */
+.th-body .vw{border:2px solid var(--line);border-radius:var(--r-m);background:var(--enamel);padding:12px 14px;margin:14px 0;line-height:1.55}
+.vw-h{display:flex;align-items:center;gap:12px}
+.vw-hw{min-width:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 10px}
+.vw-t{font-family:var(--f-display);font-weight:800;font-size:1.45rem;line-height:1.1;color:var(--scrub-deep)}
+.th-body .vw-t{color:var(--scrub-deep)}
+.vw-ipa{font-family:var(--f-mono);font-size:.88rem;color:var(--muted)}
+.vw-s{flex-basis:100%;font-size:.88rem;color:var(--muted)}
+.vw-s b{color:var(--gum-deep);letter-spacing:.02em}
+.vw-say{flex:none;width:42px;height:42px;border-radius:50%;border:2px solid var(--scrub-deep);background:var(--scrub);color:var(--paper);display:grid;place-items:center;box-shadow:0 3px 0 var(--scrub-deep);padding:0}
+.vw-say:active{transform:translateY(2px);box-shadow:0 1px 0 var(--scrub-deep)}
+.vw-say svg{width:20px;height:20px}
+.vw-say.sm{width:28px;height:28px;box-shadow:0 2px 0 var(--scrub-deep);display:inline-grid;vertical-align:middle;margin-left:4px}
+.vw-say.sm svg{width:14px;height:14px}
+.vw-say.big{width:56px;height:56px}.vw-say.big svg{width:26px;height:26px}
+.th-body p.vw-m{margin:.55em 0 .3em;font-size:1.12rem;font-weight:700;display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}
+.vw-pos{font-family:var(--f-mono);font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:6px;background:var(--wall);color:var(--muted)}
+.vw-hook,.vw-ex{font-size:.95rem}
+.vw-ex [lang] b{color:var(--gum-deep)}
+.vw-exv{color:var(--muted)}
+.vw-def{margin:.6em 0 .4em;padding:10px;border-radius:12px;background:var(--wall)}
+.vw-dl{font-size:.82rem;color:var(--muted);margin-bottom:6px;line-height:1.4}
+.vw-dl strong{color:var(--ink)}
+.vw-ck{display:flex;flex-wrap:wrap;gap:6px}
+.vw-ck .ck{display:inline-flex;flex-direction:column;gap:1px;padding:5px 9px;border-radius:9px;background:var(--paper);border:1px solid var(--line);max-width:100%}
+.vw-ck .ck i{font-style:normal;font-weight:600;font-size:.92rem;line-height:1.35}
+.vw-ck .ck small{font-size:.8rem;color:var(--scrub-deep);line-height:1.3}
+.vw-ck .ck.more{border-style:dashed;background:transparent}
+.vw-ck .ck.more small{color:var(--muted)}
+.th-body p.vw-kw{margin:.35em 0 0;font-size:.9rem;padding:7px 10px;border-radius:10px;background:var(--lamp-soft);color:var(--lamp-deep)}
+.th-body p.vw-kw b{color:var(--lamp-deep)}
+.th-body p.vw-kw b.vw-ans{color:var(--gum-deep)}
+.vt-go{margin:.8em 0 .4em}
+.vt-go .btn{white-space:normal}
+.vt-prog{margin:.3em 0 .8em}
+.vtp-bar{display:flex;height:12px;border-radius:999px;overflow:hidden;background:var(--line)}
+.vtp-bar i{display:block;height:100%}
+.vtp-bar .l0{background:#F2B8C3}.vtp-bar .l1{background:#F7CF7A}.vtp-bar .l2{background:#BFE3A6}.vtp-bar .l3{background:#7FCBB4}.vtp-bar .l4{background:#3FA594}.vtp-bar .l5{background:var(--scrub-deep)}
+.th-body p.vtp-t,.vtp-t{margin:.35em 0 0;font-size:.86rem;color:var(--muted)}
+.vt{position:fixed;inset:0;z-index:75;background:rgba(11,28,39,.55);display:grid;place-items:center;padding:max(12px,env(safe-area-inset-top,0px)) max(12px,env(safe-area-inset-right,0px)) max(12px,env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px))}
+.vt-card{width:min(620px,100%);max-height:100%;overflow:auto;background:var(--enamel);border:2px solid var(--ink);border-radius:var(--r-l);box-shadow:0 8px 0 var(--ink);padding:16px 18px 20px;display:flex;flex-direction:column;gap:12px}
+.vt-top{display:flex;align-items:center;gap:10px}
+.vt-top h2{font-family:var(--f-display);font-size:1.3rem;line-height:1.1;margin:0 auto 0 0}
+.vt-bar{height:8px;border-radius:999px;background:var(--wall);border:1px solid var(--line);overflow:hidden}
+.vt-bar i{display:block;height:100%;width:0;background:var(--scrub);transition:width .3s ease}
+.vt-main{display:flex;flex-direction:column;gap:12px}
+.vt-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.vt-chip{font-family:var(--f-mono);font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:4px 9px;border-radius:7px;background:var(--scrub-soft);color:var(--scrub-deep)}
+.vt-chip.l0{background:#FCE4E8;color:var(--gum-deep)}.vt-chip.l1{background:var(--lamp-soft);color:var(--lamp-deep)}.vt-chip.l5{background:var(--scrub-deep);color:var(--paper)}
+.vt-n{margin-left:auto;font-family:var(--f-mono);font-weight:700;font-size:.9rem;color:var(--muted)}
+.vt-ask{margin:0;font-weight:700;color:var(--muted)}
+.vt-word{display:flex;align-items:center;gap:14px;padding:10px 0}
+.vt-word b{display:block;font-family:var(--f-display);font-weight:800;font-size:2rem;line-height:1.05;color:var(--scrub-deep);overflow-wrap:anywhere}
+.vt-word span{font-family:var(--f-mono);color:var(--muted)}
+.vt-big{margin:0;font-family:var(--f-display);font-weight:800;font-size:1.45rem;line-height:1.25}
+.vt-def{margin:0;font-size:1.1rem;font-weight:600;line-height:1.5}
+.vt-sub{margin:0;font-size:.9rem;color:var(--muted)}
+.vt-opts .opt{width:100%}
+.vt-fb{border:2px solid var(--ok);background:var(--ok-soft);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.vt-fb.bad{border-color:var(--bad);background:var(--bad-soft)}
+.vt-fh{font-family:var(--f-display);font-size:1.2rem;color:var(--ok)}
+.vt-fb.bad .vt-fh{color:var(--bad)}
+.vt-mini{display:flex;align-items:center;gap:10px}
+.vt-mini b{font-family:var(--f-display);font-size:1.2rem}
+.vt-k{margin:0;font-size:.9rem}
+.vt-end{display:flex;flex-direction:column;gap:12px}
+.vt-end p{margin:0}
+.vt-score{font-family:var(--f-display);font-weight:800;font-size:3.2rem;line-height:.9;color:var(--gum)}
+.vt-score small{font-size:1rem;color:var(--muted);margin-left:6px}
+.vt-lv{list-style:none;margin:0;padding:0;display:grid;gap:4px;font-size:.9rem}
+.vt-lv li{display:flex;gap:8px;padding:5px 9px;border-radius:8px;background:var(--wall)}
+.vt-lv li span{margin-left:auto;font-family:var(--f-mono);font-weight:700}
+.vt-act{display:flex;gap:10px;flex-wrap:wrap}
+.vt-act .btn{flex:1 1 180px}
+/* @@VT-CSS-END */

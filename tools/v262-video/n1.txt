@@ -1,0 +1,234 @@
+## 1
+Xin chào các bạn, chào mừng các bạn đến với môn Vật liệu nha khoa trên Ôn Luyện Nha Khoa.
+Đây là bài một: Đại cương về vật liệu nha khoa.
+Bài này là cánh cửa mở đầu cho cả môn học.
+Chúng ta sẽ cùng tìm hiểu vật liệu nha khoa là gì, con người đã dùng những gì để thay răng qua hàng nghìn năm, vật liệu được phân loại và đánh giá ra sao, và ngày nay chúng đang phát triển theo hướng nào.
+Nội dung được biên soạn theo giáo trình Vật liệu nha khoa ứng dụng của Đại học Văn Lang.
+Các bạn hãy chuẩn bị một cuốn sổ nhỏ, và chúng ta bắt đầu nhé.
+
+## 2
+Trước tiên là mục tiêu của bài học.
+Học xong bài này, các bạn sẽ kể được những mốc lịch sử chính của vật liệu nha khoa.
+Các bạn sẽ phân loại được vật liệu theo hai cách: theo thành phần, và theo mục đích điều trị.
+Các bạn sẽ biết ba nhóm tính chất của vật liệu: sinh học, vật lý và hóa học.
+Các bạn sẽ hiểu vai trò của các tổ chức tiêu chuẩn như ADA, FDA, ISO, CE, và những yếu tố liên quan đến an toàn.
+Và cuối cùng, các bạn sẽ nắm được xu hướng phát triển của vật liệu nha khoa hiện nay.
+Để hiểu nhanh, các bạn có thể hình dung vật liệu nha khoa giống như phụ tùng thay thế cho răng, cho mô nha chu và cho cả hệ thống nhai.
+Nhưng đây là một loại phụ tùng rất đặc biệt, vì nó phải sống sót trong một môi trường cực kỳ khắc nghiệt.
+Miệng của chúng ta luôn ẩm ướt và có rất nhiều vi khuẩn.
+Nhiệt độ trong miệng thay đổi liên tục, lúc uống nước đá, lúc ăn canh nóng.
+Và mỗi chiếc răng phải chịu lực nhai hàng triệu lần trong suốt cuộc đời.
+Vì vậy, chọn vật liệu không chỉ là chọn một màu đẹp. Chọn vật liệu là chọn một thứ đủ bền, đủ an toàn, và hòa hợp được với mô sống.
+Mọi tính chất mà chúng ta học trong môn này, suy cho cùng, đều để trả lời một câu hỏi: vật liệu này có tồn tại được trong môi trường miệng hay không.
+
+## 3
+Vậy vì sao chúng ta phải học vật liệu nha khoa?
+Hãy bắt đầu từ định nghĩa.
+Vật liệu nha khoa là những vật liệu dùng để thay thế mô răng, mô nha chu và các cấu trúc của hệ thống nhai.
+Còn khoa học vật liệu nha khoa là môn nghiên cứu về thuật ngữ, thành phần, tính chất, cơ chế và công dụng của những vật liệu đó.
+Mục tiêu khi điều trị bằng vật liệu là duy trì và cải thiện chất lượng sống răng miệng của bệnh nhân.
+Cụ thể là phòng bệnh, giảm đau, phục hồi chức năng nhai và phát âm, và phục hồi thẩm mỹ.
+Vậy điều trị thất bại thường do đâu?
+Nguyên nhân chính là chọn sai vật liệu, hoặc làm sai quy trình, có thể ở khâu lâm sàng, cũng có thể ở khâu labo.
+Có một ý rất quan trọng, và cũng hay xuất hiện trong đề thi: phục hồi cũ bị hư hỏng hiện là nguyên nhân hàng đầu dẫn đến mất răng.
+Vì sao lại như vậy?
+Mỗi lần thay một miếng trám đã hỏng, bác sĩ phải mài rộng thêm một ít mô răng.
+Sau vài vòng trám, hỏng, rồi trám lại, chiếc răng yếu dần, đến mức phải bọc mão, và cuối cùng có thể phải nhổ.
+Chính vì thế, chọn đúng vật liệu ngay từ lần đầu là điều cực kỳ quan trọng.
+Trách nhiệm của người bác sĩ là biết chọn vật liệu nào, và hiểu vì sao chọn nó.
+Bác sĩ cần liên tục cập nhật kiến thức, phán đoán lâm sàng hợp lý, và khi có thất bại thì phải lý giải được nguyên nhân.
+
+## 4
+Bây giờ, chúng ta cùng quay ngược thời gian một chút.
+Điều trị nha khoa đã bắt đầu từ rất sớm, khoảng ba nghìn năm trước Công nguyên.
+Khoảng hai nghìn năm trăm năm trước Công nguyên, người Phoenic đã biết dùng dây và dải vàng để buộc các răng lung lay lại với nhau.
+Trong các xác ướp Ai Cập, người ta tìm thấy răng giả làm bằng ngà voi.
+Người Etrusce thì điêu khắc ngà voi và xương thành răng giả, rồi buộc vào răng thật bằng dây vàng.
+Còn người Maya dùng vỏ sò để thay những chiếc răng đã mất, và gắn đá quý, vàng lên mặt răng để trang trí.
+Trên slide, các bạn thấy một chiếc răng cửa làm bằng vỏ sò, và những răng được gắn đá, kim loại để làm đẹp của người Maya.
+Điều cần nhớ ở phần này rất đơn giản: vàng, ngà voi, xương và vỏ sò là những vật liệu đầu tiên mà con người dùng để thay răng.
+
+## 5
+Tiếp theo là những mốc lịch sử quan trọng của nha khoa hiện đại.
+Pierre Fauchard, sống từ năm một nghìn sáu trăm bảy mươi tám đến năm một nghìn bảy trăm sáu mươi mốt, được xem là cha đẻ của nha khoa hiện đại. Ông trám xoang răng bằng nút bạc hoặc chì.
+Năm một nghìn bảy trăm năm mươi sáu, Pfaff lấy dấu bằng sáp và đổ mẫu bằng thạch cao.
+Năm một nghìn tám trăm mười sáu, Taveau, một người Pháp, trộn bạc với thủy ngân. Đó là lúc amalgam ra đời.
+Từ năm một nghìn tám trăm sáu mươi đến một nghìn tám trăm chín mươi, đã xảy ra cái gọi là cuộc chiến amalgam, vì chất lượng amalgam thời đó còn rất kém.
+Năm một nghìn tám trăm chín mươi lăm, G V Black, nhà tiên phong của nha khoa phục hồi, đưa ra các tiêu chuẩn tạo xoang trám amalgam.
+Năm một nghìn chín trăm lẻ bảy, Taggert phát triển kỹ thuật đúc inlay.
+Năm một nghìn chín trăm ba mươi lăm, nhựa acrylic trùng hợp nhiệt bắt đầu được dùng làm nền hàm giả.
+Năm một nghìn chín trăm bốn mươi bốn, người ta đề xuất cho fluor vào nước uống với nồng độ một phần triệu. Nhờ đó, sâu răng ở trẻ em giảm khoảng một nửa.
+Và đến giữa thập niên sáu mươi, chất trám bít hố rãnh, tức sealant, bắt đầu được sử dụng.
+Các bạn không cần thuộc hết từng năm.
+Hãy nhớ một mẹo nhỏ: Fauchard là cha đẻ nha khoa hiện đại, còn G V Black là cha đẻ nha khoa phục hồi.
+Và nhớ thêm vài mốc: amalgam năm một nghìn tám trăm mười sáu, đúc inlay năm một nghìn chín trăm lẻ bảy, nhựa nền hàm năm một nghìn chín trăm ba mươi lăm.
+
+## 6
+Ngoài các mốc chung, mỗi nhóm vật liệu cũng có lịch sử riêng của nó.
+Thứ nhất là vật liệu trám xoang. Ban đầu người ta dùng lá kim loại như chì, thiếc, vàng. Paré dùng chì, Fauchard dùng nút bạc và chì, Pfaff dùng vàng lá.
+Vàng phổ biến vào cuối thế kỷ mười tám và thế kỷ mười chín, rồi sau đó nhường chỗ cho amalgam.
+Thứ hai là mão và răng sứ. Mão vàng được mô tả lần đầu năm một nghìn bảy trăm bốn mươi sáu.
+Răng giả bằng sứ được cấp bằng sáng chế năm một nghìn bảy trăm tám mươi chín, và răng chốt sứ ra đời vào đầu thế kỷ mười chín.
+Còn phục hình sứ kim loại thì phải đến giữa thế kỷ hai mươi mới thật sự hoàn thiện.
+Thứ ba là vật liệu lấy dấu. Pfaff lấy dấu bằng sáp từ năm một nghìn bảy trăm năm mươi sáu. Sau đó Evans cải tiến, và Goodyear đưa cao su lưu hóa vào năm một nghìn tám trăm ba mươi chín.
+Thứ tư là nền hàm. Từ năm một nghìn tám trăm ba mươi chín, nền hàm làm bằng cao su lưu hóa, mãi đến năm một nghìn chín trăm ba mươi lăm mới chuyển sang nhựa acrylic.
+Thứ năm là phục hồi gián tiếp. Sau kỹ thuật đúc inlay của Taggert, các hợp kim đúc như titan, niken crôm, cô ban crôm và hợp kim quý được dùng làm inlay, onlay, mão và khung hàm.
+Thứ sáu là phòng ngừa. Năm một nghìn chín trăm mười lăm, người ta để ý thấy ở bang Colorado của Mỹ, nơi nước uống có nhiều fluor, trẻ em rất ít bị sâu răng.
+Quan sát đó đã dẫn đến chương trình fluor hóa nước uống, và sau này là sealant vào thập niên sáu mươi.
+Tóm lại, khoa học vật liệu nha khoa thật sự bắt đầu từ giữa thế kỷ mười chín với các nghiên cứu về amalgam, và mốc quan trọng nhất là các nghiên cứu của G V Black từ năm một nghìn tám trăm chín mươi lăm.
+
+## 7
+Bây giờ chúng ta chuyển sang phần phân loại. Cách thứ nhất là phân loại theo thành phần, gồm bốn nhóm.
+Nhóm thứ nhất là kim loại và hợp kim.
+Kim loại nguyên chất ít khi được dùng, trừ titan nguyên chất làm implant và mão, cùng với vàng lá.
+Hợp kim thì dùng cho trám kim loại, inlay, onlay, khung hàm, móc hàm giả và khí cụ chỉnh nha.
+Ngoài ra, kim loại còn dùng làm dụng cụ như mũi khoan, lưỡi cắt và trâm nội nha.
+Nhóm thứ hai là sứ, hay còn gọi là ceramic.
+Sứ được dùng làm inlay, onlay, veneer, mão, cầu răng, và cả implant.
+Một phục hình toàn sứ thường có hai phần: phần sườn cứng bên trong để chống gãy, và lớp sứ ngoài trong mờ để tạo thẩm mỹ.
+Nhóm thứ ba là polymer, tức là nhựa.
+Nhựa được dùng làm vật liệu trám, khay lấy dấu, nền hàm giả, khí cụ chỉnh nha và máng bảo vệ.
+Khi kết hợp nhựa với hạt độn và chất nối silane, ta có composite nha khoa.
+Nhóm thứ tư là xi măng nha khoa, dùng để gắn, lót và làm nền.
+Trong nhóm này có glass ionomer, glass ionomer tăng cường nhựa, và compomer.
+Các bạn lưu ý: composite nha khoa đúng nghĩa là nhựa có chứa hạt độn thủy tinh hoặc silica, và các hạt độn này được gắn với nhựa nhờ silane.
+
+## 8
+Cách phân loại thứ hai là theo mục đích điều trị. Cũng có ba nhóm.
+Nhóm đầu tiên là vật liệu dự phòng.
+Đó là sealant, các vật liệu kháng khuẩn, vật liệu lót, vật liệu nền, glass ionomer và compomer.
+Điều quan trọng nhất ở nhóm này là khả năng phóng thích fluor để ức chế sâu răng.
+Một số vật liệu dự phòng còn có thể làm phục hồi tạm thời, từ vài tháng đến một, bốn năm.
+Nhóm thứ hai là vật liệu phục hồi, dùng để thay thế hoặc sửa chữa phần mô răng đã mất.
+Ví dụ như amalgam, composite, glass ionomer, kim loại đúc, sứ và nhựa nền hàm.
+Theo thời gian sử dụng, vật liệu phục hồi chia thành tạm thời và vĩnh viễn.
+Theo kỹ thuật, chia thành phục hồi trực tiếp làm ngay trong miệng, và phục hồi gián tiếp làm ở labo.
+Nhóm thứ ba là vật liệu phụ trợ. Đây là những vật liệu được dùng trong quá trình làm, nhưng không ở lại trong miệng bệnh nhân.
+Chẳng hạn như acid xoi mòn, vật liệu lấy dấu, thạch cao, sáp, bột đúc, khay và vật liệu đánh bóng.
+Hãy lấy một ví dụ cụ thể: làm một chiếc mão sứ.
+Chất lấy dấu, thạch cao đổ mẫu và sáp là vật liệu phụ trợ, vì chúng chỉ giúp làm ra chiếc mão.
+Còn sứ và xi măng gắn thì ở lại trong miệng, nên đó là vật liệu phục hồi.
+Các bạn cũng lưu ý thêm: polymer rất đa năng. Tùy dạng bào chế, nó có thể là vật liệu phòng ngừa, phục hồi, hoặc phụ trợ.
+
+## 9
+Tiếp theo, chúng ta tìm hiểu các tính chất của vật liệu.
+Ngoài tính chất sinh học, tức là sự tương hợp với cơ thể, vật liệu còn được mô tả bằng các tính chất vật lý và hóa học.
+Tính chất vật lý lại gồm ba nhóm nhỏ: cơ học, quang học và nhiệt.
+Về hóa học, ta quan tâm đến sự ăn mòn, sự hấp thu nước, độ hòa tan, độ pH và khả năng phản ứng.
+Về cơ học, đó là độ giòn, độ cứng, độ dẻo, mô đun đàn hồi, và các loại độ bền như bền nén, bền kéo, bền cắt, độ mỏi và độ gãy.
+Về quang học, đó là màu sắc, độ trong mờ, huỳnh quang, chỉ số phản xạ và độ cản quang.
+Về nhiệt, đó là hệ số giãn nở nhiệt, khả năng dẫn nhiệt, nhiệt độ chảy, và nhiệt độ chuyển pha thủy tinh.
+Bảng này trông có vẻ dài, nhưng nhiều tính chất có ý nghĩa lâm sàng rất trực tiếp.
+Ví dụ, độ cản quang giúp chúng ta nhìn thấy miếng trám và phát hiện sâu tái phát trên phim X quang.
+Nếu hệ số giãn nở nhiệt của vật liệu khác quá nhiều so với răng, mỗi lần ăn nóng, uống lạnh, bờ miếng trám sẽ hở dần.
+Và vật liệu dẫn nhiệt cao, như kim loại, dễ kích thích tủy răng nếu không có lớp lót bảo vệ.
+Ở bài mười hai, chúng ta sẽ học chi tiết từng tính chất. Ở bài này, các bạn chỉ cần nắm ba nhóm lớn và vài ví dụ lâm sàng như vậy.
+
+## 10
+Bây giờ nói về tính chất sinh học và hình mẫu của một vật liệu phục hồi lý tưởng.
+Tính chất sinh học chủ yếu là sự tương hợp sinh học, nghĩa là vật liệu tương tác với mô sống như thế nào.
+Những phản ứng bất lợi mà ta cần chú ý là viêm, độc tính với tế bào, dị ứng, và nhiễm độc mạn tính.
+Ngoài ra, người ta còn đánh giá tính chế tác, tức là vật liệu có dễ đúc, dễ cắt, dễ đánh bóng hay không.
+Vậy một vật liệu lý tưởng cần có những gì?
+Thứ nhất, tương hợp sinh học tốt.
+Thứ hai, dính vĩnh viễn được vào răng hoặc xương.
+Thứ ba, có thẩm mỹ tự nhiên như răng thật.
+Thứ tư, có tính chất giống men và ngà.
+Và thứ năm, có khả năng sửa chữa, thậm chí tái sinh phần mô đã mất.
+Năm tiêu chí này là chuẩn để chúng ta so sánh mọi vật liệu trong các bài sau.
+Nhưng các bạn cần nhớ một điều: hiện nay chưa có vật liệu nào lý tưởng và vĩnh viễn. Mỗi vật liệu đều có ưu điểm, nhược điểm và chỉ định riêng.
+
+## 11
+Để bảo đảm chất lượng, vật liệu nha khoa phải đạt các tiêu chuẩn. Chúng ta cùng điểm qua các tổ chức chính.
+Ở Hoa Kỳ, năm một nghìn chín trăm mười chín, quân đội đã nhờ Cục Tiêu chuẩn, nay là NIST, xây dựng thông số kỹ thuật cho amalgam.
+Năm một nghìn chín trăm hai mươi tám, Hiệp hội Nha khoa Hoa Kỳ, tức ADA, bắt đầu tham gia xây dựng tiêu chuẩn.
+Từ năm một nghìn chín trăm sáu mươi sáu, Hội đồng vật liệu của ADA xây dựng các tiêu chuẩn rồi trình lên ANSI, là viện tiêu chuẩn quốc gia của Mỹ.
+Lưu ý là trách nhiệm đạt các thông số này thuộc về nhà sản xuất.
+Ở cấp quốc tế, có tổ chức ISO. Ủy ban kỹ thuật số một trăm lẻ sáu của ISO chuyên về nha khoa, hoạt động từ năm một nghìn chín trăm sáu mươi ba, và đã ban hành hơn một trăm tiêu chuẩn.
+Ủy ban này có nhiều tiểu ban, ví dụ tiểu ban một về vật liệu trám trực tiếp, tiểu ban hai về phục hình, tiểu ban tám về implant.
+Ở châu Âu, các nước Bắc Âu lập ra viện NIOM vào năm một nghìn chín trăm sáu mươi chín.
+Từ tháng một năm một nghìn chín trăm chín mươi lăm, châu Âu dùng chung một bộ tiêu chuẩn, và sản phẩm đạt chuẩn được dán nhãn CE.
+Một ví dụ thú vị là Thụy Điển đã hạn chế niken trong hợp kim nha khoa vì nguy cơ dị ứng.
+Còn ở Việt Nam, Bộ Y tế cấp phép lưu hành cho hàng nhập khẩu và kiểm tra các cơ sở sản xuất.
+Thách thức lớn ở nước ta là hàng không rõ nguồn gốc, hàng giả, và hàng xách tay chưa qua kiểm định.
+Khi chọn vật liệu, các tiêu chuẩn ADA và ISO là nguồn tham khảo đáng tin cậy.
+
+## 12
+Ở Mỹ, Cục Quản lý Thực phẩm và Dược phẩm, gọi tắt là FDA, từ năm một nghìn chín trăm bảy mươi sáu đã chia thiết bị y tế thành ba nhóm theo mức nguy cơ.
+Nhóm một là nhóm có nguy cơ thấp nhất. Sản phẩm chỉ cần đăng ký và tuân thủ quy định sản xuất.
+Ví dụ như băng cá nhân, găng tay khám bệnh, và dụng cụ phẫu thuật cầm tay.
+Nhóm hai cần sự kiểm soát đặc biệt của FDA và ADA.
+Ví dụ như xe lăn điện, bơm truyền thuốc, và trong nha khoa là amalgam. Phần lớn vật liệu phục hồi thuộc nhóm này.
+Nhóm ba là nhóm được kiểm soát nghiêm ngặt nhất. Nhà sản xuất phải chứng minh sản phẩm an toàn và hiệu quả trước khi được duyệt.
+Ví dụ như van tim, máy tạo nhịp tim, còn trong nha khoa là implant và xương ghép tổng hợp.
+Có một mẹo nhỏ giúp các bạn nhớ.
+Nhóm một, nghĩ đến chữ ít: ít nguy cơ, như găng tay và băng cá nhân.
+Nhóm hai, kiểm soát đặc biệt, ví dụ tiêu biểu là amalgam.
+Nhóm ba, là những thứ cấy vào người, như implant và xương ghép.
+Một ý phụ: sản phẩm có chứa fluor đôi khi được xem như thuốc, chứ không chỉ là thiết bị.
+
+## 13
+Tiếp theo là một ý rất quan trọng: an toàn chỉ là tương đối.
+Theo thống kê, chỉ khoảng không phẩy mười bốn phần trăm bệnh nhân có phản ứng bất lợi với vật liệu nha khoa, và ở bệnh nhân làm phục hình, con số này là không phẩy ba mươi ba phần trăm.
+Con số nhỏ, nhưng không phải bằng không.
+Nguyên tắc chung đã được Paracelsus nói từ rất lâu: mọi chất đều là chất độc, liều lượng quyết định nó là chất độc hay là phương thuốc.
+Vì vậy, ta chọn một vật liệu khi lợi ích của nó lớn hơn nguy cơ.
+Vật liệu có thể đi vào cơ thể qua nhiều đường: đường tiêu hóa, đường hô hấp, tiếp xúc qua da, hoặc qua tiêm chích.
+Thời gian phơi nhiễm được chia thành bốn mức: cấp tính dưới hai mươi bốn giờ, bán cấp dưới một tháng, bán mạn từ một đến ba tháng, và mạn tính trên ba tháng.
+Về dị ứng, các bạn cần biết dị ứng có thể xảy ra ở liều rất thấp, nhưng chỉ sau khi cơ thể đã mẫn cảm.
+Cơ thể cần khoảng một đến hai tuần để tạo kháng thể, nên lần tiếp xúc đầu tiên thường chưa gây dị ứng.
+Trên lâm sàng, an toàn đến từ những việc rất cụ thể.
+Dùng vật liệu đúng chỉ định, trộn đúng tỷ lệ, chiếu đèn đủ thời gian, cách ly tốt, bảo quản đúng cách, và không dùng vật liệu đã quá hạn.
+Đồng thời, bệnh nhân cần được tư vấn rõ về vật liệu đặt vào miệng mình, và được dặn báo ngay khi có dấu hiệu dị ứng.
+
+## 14
+Vậy vật liệu nha khoa đang phát triển theo hướng nào?
+Xu hướng thứ nhất là phòng ngừa và bảo tồn. Trọng tâm điều trị chuyển sang phòng bệnh và can thiệp tối thiểu.
+Khi một phục hồi hỏng một phần, người ta ưu tiên sửa chữa phần hỏng, thay vì làm lại toàn bộ.
+Xu hướng thứ hai là thẩm mỹ. Nhu cầu làm đẹp thúc đẩy sự phát triển của composite cao cấp, mão toàn sứ và veneer.
+Xu hướng thứ ba là vật liệu thông minh, tức là vật liệu tương tác tích cực với môi trường miệng, ví dụ phóng thích fluor và canxi để giúp men răng tái khoáng.
+Xu hướng thứ tư là công nghệ số. Công nghệ CAD CAM giúp giảm hẳn các vật liệu phụ trợ như chất lấy dấu, thạch cao, sáp. Bên cạnh đó còn có laser và composite co ngót thấp.
+Xu hướng thứ năm là amalgam đang rút lui dần, vì lo ngại ô nhiễm thủy ngân và vì kém thẩm mỹ. Một số nước đã bỏ hẳn amalgam.
+Tiêu chí lựa chọn vật liệu ngày nay là tương hợp sinh học cao, bền, thân thiện với môi trường, và kỹ thuật sử dụng đơn giản.
+Còn việc tái sinh hoàn toàn răng, tủy và mô quanh răng thì có lẽ cần thêm nhiều thập kỷ nữa. Vì vậy, vật liệu phục hồi vẫn giữ vai trò chủ đạo trong tương lai gần.
+
+## 15
+Một câu hỏi thú vị: khi nào thì một vật liệu bị đào thải?
+Ví dụ thứ nhất là xi măng silicat. Nó có màu giống răng và phóng thích được fluor, nghe rất hấp dẫn.
+Nhưng theo thời gian, silicat bị đổi màu và hở bờ, như các bạn thấy trong hình. Đến giữa thập niên bảy mươi, nó bị composite thay thế.
+Ví dụ thứ hai là inlay vàng. Inlay vàng rất khít và rất bền, nhưng khó tạo lưu giữ, đắt tiền, và kém thẩm mỹ.
+Từ đó, ta rút ra hai lý do khiến một vật liệu bị đào thải.
+Một là khi nhược điểm vượt quá ưu điểm, hoặc vật liệu bị thoái biến theo thời gian.
+Hai là khi đã có vật liệu thay thế tốt hơn, đơn giản hơn, hoặc rẻ hơn.
+Trên lâm sàng, bệnh nhân hay hỏi: sao bây giờ ít ai trám bạc nữa?
+Các bạn có thể giải thích: amalgam rất bền, nhưng kém thẩm mỹ và có chứa thủy ngân, trong khi composite ngày nay đã đủ bền cho hầu hết các trường hợp.
+Xi măng silicat, inlay vàng và amalgam là ba ví dụ điển hình của những vật liệu đang hoặc đã lỗi thời.
+
+## 16
+Bây giờ chúng ta cùng làm ba câu hỏi nhanh để ôn lại bài.
+Câu một: theo bài học, nguyên nhân hàng đầu dẫn đến mất răng hiện nay là gì? A, chấn thương răng. B, hư hỏng của phục hồi cũ. C, bệnh toàn thân. D, răng mọc lệch.
+Câu hai: theo phân loại của FDA, implant nha khoa thuộc nhóm nào? A, nhóm một. B, nhóm hai. C, nhóm ba. D, không được phân loại.
+Câu ba: vật liệu nào sau đây là vật liệu phụ trợ? A, sứ làm mão. B, xi măng gắn. C, thạch cao đổ mẫu. D, composite trám.
+Các bạn hãy tạm dừng video, suy nghĩ vài giây, rồi xem đáp án ở slide tiếp theo nhé.
+
+## 17
+Và đây là đáp án.
+Câu một, đáp án B: hư hỏng của phục hồi cũ. Mỗi lần làm lại một phục hồi hỏng, ta phải mài thêm mô răng. Sau nhiều lần như vậy, răng yếu dần và mất.
+Câu hai, đáp án C: nhóm ba. Implant và xương ghép tổng hợp là những vật được cấy vào cơ thể, nên được kiểm soát nghiêm ngặt nhất.
+Câu ba, đáp án C: thạch cao đổ mẫu. Thạch cao chỉ được dùng trong quá trình làm phục hình, nó không ở lại trong miệng bệnh nhân.
+Các bạn làm đúng mấy câu? Nếu sai câu nào, hãy xem lại phần tương ứng trong bài nhé.
+
+## 18
+Cuối cùng, chúng ta cùng tóm tắt mười ý chính của bài.
+Một, vật liệu nha khoa dùng để thay thế mô răng, mô nha chu và hệ thống nhai.
+Hai, phục hồi cũ bị hư hỏng là nguyên nhân hàng đầu gây mất răng.
+Ba, Fauchard là cha đẻ nha khoa hiện đại, còn G V Black là cha đẻ nha khoa phục hồi.
+Bốn, các mốc cần nhớ: amalgam năm một nghìn tám trăm mười sáu, đúc inlay năm một nghìn chín trăm lẻ bảy, nhựa nền hàm năm một nghìn chín trăm ba mươi lăm.
+Năm, theo thành phần có bốn nhóm: kim loại, sứ, polymer và composite.
+Sáu, theo mục đích có ba nhóm: dự phòng, phục hồi và phụ trợ.
+Bảy, có ba nhóm tính chất: sinh học, vật lý và hóa học.
+Tám, phân loại của FDA: nhóm một như găng tay, nhóm hai như amalgam, nhóm ba như implant.
+Chín, các tiêu chuẩn chính là ADA và ANSI, ISO TC một trăm lẻ sáu, nhãn CE, còn ở Việt Nam là Bộ Y tế.
+Mười, xu hướng hiện nay là phòng ngừa, can thiệp tối thiểu, thẩm mỹ, vật liệu thông minh và CAD CAM.
+Bài học hôm nay đến đây là kết thúc. Ở các bài sau, chúng ta sẽ đi sâu vào từng nhóm vật liệu.
+Cảm ơn các bạn đã theo dõi, hẹn gặp lại các bạn ở bài hai: Vật liệu nha khoa và tương hợp sinh học.

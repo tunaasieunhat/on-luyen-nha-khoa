@@ -1,0 +1,257 @@
+# U11 | Unit này dùng ở quầy lễ tân khi đặt lịch: lịch hẹn (appointment), đặt, dời, hủy lịch (schedule, reschedule, cancel), ngày giờ (date, time, weekday, weekend, evening, business hours), và hai kiểu bệnh nhân đặc biệt: không đến (no-show) và đến không hẹn (walk-in).
+@appointment | /əˈpɔɪntmənt/ | ơ-POINT-mừnt | lịch hẹn
++ appoint = hẹn, chỉ định + -ment = danh từ. "Make an appointment" = đặt lịch hẹn.
+= I have an appointment with the dentist at 9 a.m. => Tôi có lịch hẹn với nha sĩ lúc 9 giờ sáng.
+~ An appointment is = Lịch hẹn là | an arrangement for a meeting = một sự sắp xếp cho cuộc gặp | at a specific time, = vào một thời gian cụ thể, | usually for an established reason = thường vì một lý do đã định trước
+@schedule | /ˈskedʒuːl/ | XKÉ-chun | xếp lịch
++ Vừa là danh từ "lịch trình", vừa là động từ "xếp lịch". Lên kế hoạch cho việc gì xảy ra vào ngày giờ cụ thể.
+= Can I schedule a cleaning for Monday? => Tôi có thể xếp lịch làm sạch răng vào thứ Hai không?
+~ To schedule is = Xếp lịch là | to plan for something to happen = lên kế hoạch cho một việc xảy ra | at a specific date or time = vào một ngày hoặc giờ cụ thể
+@reschedule | /ˌriːˈskedʒuːl/ | ri-XKÉ-chun | dời lịch
++ re- = lại + schedule: "xếp lịch lại", tức đổi ngày giờ.
+= I need to reschedule my appointment. => Tôi cần dời lịch hẹn của mình.
+~ To reschedule something is = Dời lịch một việc là | to change the time or date = thay đổi giờ hoặc ngày | of when it is supposed to happen = mà việc đó dự định diễn ra
+@cancel | /ˈkænsl/ | CAN-xồ | hủy
++ Không cho một việc bắt đầu hoặc kết thúc. Khác reschedule: cancel là bỏ luôn, không hẹn lại.
+= Please call us if you need to cancel. => Vui lòng gọi chúng tôi nếu bạn cần hủy lịch.
+~ To cancel something is = Hủy một việc là | to not allow it = không cho nó | to begin or finish = bắt đầu hoặc kết thúc
+@notice | /ˈnəʊtɪs/ | NÂU-tịt | sự báo trước, thông báo
++ Thông tin hoặc lời cảnh báo về việc sắp diễn ra. "24 hours' notice" = báo trước 24 giờ.
+= Please give us notice if you cannot come. => Vui lòng báo trước nếu bạn không thể đến.
+~ Notice is = Thông báo là | information or a warning = thông tin hoặc lời cảnh báo | about something that is going to take place = về một việc sắp diễn ra
+@no-show | /ˌnəʊ ˈʃəʊ/ | nâu SÂU | người không đến hẹn
++ no = không + show (up) = xuất hiện: "không xuất hiện". Người đã hẹn nhưng không tới.
+= We had two no-show patients today. => Hôm nay có hai bệnh nhân không đến hẹn.
+~ A no-show is a person = No-show là một người | who does not arrive at an event = không đến một sự kiện | where they were expected to be = nơi họ được mong đợi có mặt
+@walk-in | /ˈwɔːk ɪn/ | UÓC in | khách vãng lai (đến không hẹn)
++ walk in = bước vào: người tự bước vào mà KHÔNG có lịch hẹn. Ngược với no-show.
+= We can see a walk-in patient this afternoon. => Chiều nay chúng tôi có thể khám một bệnh nhân không hẹn trước.
+~ A walk-in is a person = Walk-in là một người | who arrives at a business = đến một cơ sở | without an appointment = mà không có lịch hẹn
+@date | /deɪt/ | đây-t | ngày (tháng)
++ Tên và số của một ngày cụ thể, ví dụ Monday, May 5. Khác time (giờ, thời điểm).
+= What date is your appointment? => Lịch hẹn của bạn vào ngày nào?
+~ A date is = Ngày là | the name and number = tên và con số | of a specific day or year = của một ngày hoặc năm cụ thể
+@time | /taɪm/ | tai-m | thời điểm, giờ
++ Một dịp cụ thể thuận tiện hoặc không thuận tiện cho việc gì. "Is 3 p.m. a good time?" = 3 giờ chiều có tiện không?
+= Is this a good time for you? => Giờ này có tiện cho bạn không?
+~ A time is = Thời điểm là | a specific occasion = một dịp cụ thể | that is convenient or not convenient for something = thuận tiện hoặc không thuận tiện cho một việc
+@weekday | /ˈwiːkdeɪ/ | UÍC-đây | ngày trong tuần (thứ Hai – thứ Sáu)
++ week = tuần + day = ngày: các ngày từ Monday đến Friday, ngày đi làm.
+= The clinic is busy on every weekday. => Phòng khám đông vào mọi ngày trong tuần.
+~ A weekday is = Ngày trong tuần là | one of the days of the week = một trong các ngày của tuần | that come between Monday and Friday = nằm từ thứ Hai đến thứ Sáu
+@weekend | /ˌwiːkˈend/ | uíc-EN | cuối tuần
++ week + end = cuối: thứ Bảy và Chủ nhật, hai ngày nhiều người không đi làm.
+= The office is closed on the weekend. => Phòng khám đóng cửa vào cuối tuần.
+~ A weekend is = Cuối tuần là | Saturday and Sunday, = thứ Bảy và Chủ nhật, | because these are the two days = vì đây là hai ngày | when many people do not work = mà nhiều người không làm việc
+@evening | /ˈiːvnɪŋ/ | ÍV-ninh | buổi tối
++ Phần trong ngày sau buổi chiều (afternoon) cho đến lúc đi ngủ.
+= Do you have any evening appointments? => Bạn có lịch hẹn buổi tối không?
+~ Evening is = Buổi tối là | the part of the day = khoảng thời gian trong ngày | that follows the afternoon = tiếp sau buổi chiều | and continues until you go to bed = và kéo dài đến khi bạn đi ngủ
+@business hours | /ˈbɪznəs ˈaʊərz/ | BÍT-nợt AO-ờ-z | giờ làm việc
++ business = cơ sở kinh doanh + hours = giờ: những giờ mà cửa hàng, phòng khám mở cửa.
+= Our business hours are 8 a.m. to 5 p.m. => Giờ làm việc của chúng tôi từ 8 giờ sáng đến 5 giờ chiều.
+~ Business hours are = Giờ làm việc là | the hours during which = những giờ mà trong đó | a business or store is typically open = một cơ sở hay cửa hàng thường mở cửa
+
+# U12 | Unit này về tiền và bảo hiểm ở phòng khám: chi phí (cost, fee), cách trả (cash, credit card, personal check), trả góp (financing, payment plan), bảo hiểm (insurance, cover, co-payment, authorization) và phần bệnh nhân phải tự lo (balance, patient responsibility).
+@cost | /kɒst/ | cot-x | chi phí
++ Số tiền bạn phải trả để nhận hàng hóa hay dịch vụ. "How much does it cost?" = Giá bao nhiêu?
+= The cost of a filling is not high. => Chi phí trám răng không cao.
+~ A cost is = Chi phí là | the quantity of money = số tiền | you have to pay = bạn phải trả | in exchange for receiving goods or services = để đổi lấy hàng hóa hoặc dịch vụ
+@fee | /fiː/ | phi | phí (trả cho người làm chuyên môn)
++ Tiền trả cho một người làm nghề chuyên môn (bác sĩ, luật sư) cho công việc của họ.
+= The dentist's fee is 500,000 dong. => Phí của nha sĩ là 500.000 đồng.
+~ A fee is = Phí là | a quantity of money = một số tiền | that you pay to a professional person = mà bạn trả cho một người làm chuyên môn | for their work = cho công việc của họ
+@payment | /ˈpeɪmənt/ | PÂY-mừnt | khoản thanh toán
++ pay = trả + -ment = danh từ. Số tiền một người cần đưa hoặc nhận từ người khác.
+= We accept payment by card. => Chúng tôi nhận thanh toán bằng thẻ.
+~ A payment is = Khoản thanh toán là | an amount of money = một số tiền | that a person needs to give or receive = mà một người cần đưa hoặc nhận | from someone else = từ người khác
+@cash | /kæʃ/ | ket-s | tiền mặt
++ Tiền "cầm được": tiền giấy (bills) và tiền xu (coins).
+= Do you want to pay in cash? => Bạn muốn trả bằng tiền mặt không?
+~ Cash is = Tiền mặt là | physical money, = tiền vật chất, | in the form of bills and coins = ở dạng tiền giấy và tiền xu
+@credit card | /ˈkredɪt kɑːrd/ | CRÉ-địt cát | thẻ tín dụng
++ credit = tín dụng (cho nợ). Thẻ nhựa chữ nhật: mua bây giờ, trả tiền sau (buy now, pay later).
+= Can I pay with a credit card? => Tôi có thể trả bằng thẻ tín dụng không?
+~ A credit card is = Thẻ tín dụng là | a rectangular, plastic card = một tấm thẻ nhựa hình chữ nhật | that lets people buy things or services now = cho phép mọi người mua hàng hay dịch vụ ngay | and pay for them later = và trả tiền sau
+@personal check | /ˈpɜːrsənl tʃek/ | PƠ-xơ-nồ chéc | séc cá nhân
++ personal = cá nhân + check = tờ séc. Tờ giấy in sẵn, người dùng ghi số tiền và ký tên để trả.
+= She paid the fee with a personal check. => Cô ấy trả phí bằng séc cá nhân.
+~ A personal check is = Séc cá nhân là | a printed piece of paper = một tờ giấy in sẵn | from an individual = của một cá nhân
+@insurance | /ɪnˈʃʊərəns/ | in-SUA-rừns | bảo hiểm
++ insure = bảo hiểm. Thỏa thuận: bạn trả tiền đều đặn cho công ty, họ trả phần lớn chi phí khi bạn ốm hoặc gặp chuyện.
+= Does your insurance pay for cleanings? => Bảo hiểm của bạn có trả cho việc làm sạch răng không?
+~ Insurance is = Bảo hiểm là | an agreement with a company = một thỏa thuận với một công ty | where you regularly pay them money = trong đó bạn trả tiền cho họ đều đặn
+@cover | /ˈkʌvər/ | CA-vờ | (bảo hiểm) chi trả
++ Nghĩa quen là "che phủ". Với bảo hiểm: "cover" = trả tiền cho một dịch vụ, bảo vệ khỏi rủi ro.
+= My insurance does not cover braces. => Bảo hiểm của tôi không chi trả niềng răng.
+~ To cover is = Chi trả là | when an insurance agreement = khi một hợp đồng bảo hiểm | pays for a service = trả tiền cho một dịch vụ | or provides protection against something = hoặc bảo vệ khỏi một điều gì đó
+@co-payment | /ˌkəʊ ˈpeɪmənt/ | câu PÂY-mừnt | khoản đồng chi trả
++ co- = cùng + payment: phần tiền người có bảo hiểm tự trả MỖI LẦN đi khám.
+= My co-payment is 100,000 dong per visit. => Khoản đồng chi trả của tôi là 100.000 đồng mỗi lần khám.
+~ A co-payment is = Khoản đồng chi trả là | the amount of money = số tiền | that an insured person pays = mà người có bảo hiểm trả | each time they access medical services = mỗi lần họ dùng dịch vụ y tế
+@authorization | /ˌɔːθərəˈzeɪʃn/ | o-thờ-rờ-DÂY-sừn | sự cho phép chính thức
++ author = người có quyền → authorize = cho phép → authorization. Ví dụ: bảo hiểm phải duyệt trước khi điều trị.
+= We need authorization from your insurance company. => Chúng tôi cần sự chấp thuận từ công ty bảo hiểm của bạn.
+~ Authorization is = Sự cho phép là | the act of granting official permission = việc cấp phép chính thức | to do something = để làm một việc
+@balance | /ˈbæləns/ | BA-lừns | số tiền còn nợ
++ Nghĩa quen là "thăng bằng, số dư". Ở đây: số tiền vẫn còn nợ sau khi đã trả một phần.
+= You have a balance of 200,000 dong. => Bạn còn nợ 200.000 đồng.
+~ A balance is = Số dư nợ là | the amount of money = số tiền | a person still owes = một người vẫn còn nợ | after paying part of the cost = sau khi đã trả một phần chi phí
+@financing | /ˈfaɪnænsɪŋ/ | PHAI-nan-xinh | cho vay trả góp
++ finance = tài chính. Cho vay một khoản lớn để trả trước, sau đó trả dần cả gốc lẫn lãi (interest).
+= The clinic offers financing for implants. => Phòng khám có chương trình trả góp cho cấy ghép.
+~ Financing is = Hỗ trợ tài chính là | the act of lending someone a large sum of money = việc cho một người vay một khoản tiền lớn | in order to pay for something up front = để trả trước cho một thứ
+@payment plan | /ˈpeɪmənt plæn/ | PÂY-mừnt plen | kế hoạch trả góp
++ payment + plan = kế hoạch: lịch cố định để trả dần một khoản nợ, ví dụ hóa đơn y tế.
+= You can use a payment plan for your braces. => Bạn có thể dùng kế hoạch trả góp cho việc niềng răng.
+~ A payment plan is = Kế hoạch trả góp là | a fixed schedule = một lịch cố định | for repaying debt, = để trả nợ, | such as medical bills = như hóa đơn y tế
+@patient responsibility | /ˈpeɪʃnt rɪˌspɒnsəˈbɪləti/ | PÂY-sừnt ri-xpon-xờ-BI-lờ-ti | trách nhiệm (thanh toán) của bệnh nhân
++ responsibility = trách nhiệm. Phần việc bệnh nhân phải tự lo, như hóa đơn y tế và bảo đảm thanh toán.
+= The remaining amount is patient responsibility. => Số tiền còn lại là trách nhiệm của bệnh nhân.
+~ Patient responsibility is = Trách nhiệm của bệnh nhân là | a patient's duty = bổn phận của bệnh nhân | to be in charge of something, = phải lo một việc, | like medical bills = như hóa đơn y tế | and guarantee their payment = và bảo đảm thanh toán chúng
+
+# U13 | Unit này về cách nói chuyện với bệnh nhân: lắng nghe (listen), giải thích (explain), không ngắt lời (interrupt), quan tâm và cảm thông (care, concern, sympathize, reassurance), dùng lời nói (verbal) và cử chỉ, ánh mắt (nonverbal, eye contact), và hỏi câu hỏi mở (open-ended question).
+@communication | /kəˌmjuːnɪˈkeɪʃn/ | cờ-miu-ni-CÂY-sừn | giao tiếp
++ communicate = giao tiếp + -ion. Quá trình bày tỏ suy nghĩ, cảm xúc và ý tưởng.
+= Good communication helps patients feel safe. => Giao tiếp tốt giúp bệnh nhân thấy an tâm.
+~ Communication is = Giao tiếp là | the process = quá trình | of expressing thoughts, feelings and ideas = bày tỏ suy nghĩ, cảm xúc và ý tưởng
+@verbal | /ˈvɜːrbl/ | VƠ-bồ | bằng lời nói
++ verb = động từ, lời → verbal: dùng lời nói (spoken words).
+= The dentist gave verbal instructions. => Nha sĩ dặn dò bằng lời.
+~ If something is verbal, = Nếu một thứ là "verbal", | it relies on or uses spoken words = nó dựa vào hoặc dùng lời nói
+@nonverbal | /ˌnɒnˈvɜːrbl/ | non-VƠ-bồ | không bằng lời (cử chỉ, nét mặt)
++ non- = không + verbal: KHÔNG dùng lời nói, ví dụ nụ cười, cái gật đầu.
+= A smile is nonverbal communication. => Nụ cười là giao tiếp không lời.
+~ If something is nonverbal, = Nếu một thứ là "nonverbal", | it does not use or rely on = nó không dùng hoặc không dựa vào | speech or words = lời nói hay chữ
+@eye contact | /aɪ ˈkɒntækt/ | ai CON-téc | giao tiếp bằng mắt
++ eye = mắt + contact = tiếp xúc: hai người nhìn vào mắt nhau.
+= Make eye contact when you talk to patients. => Hãy nhìn vào mắt bệnh nhân khi nói chuyện.
+~ Eye contact is = Giao tiếp bằng mắt là | when two people stare at each other's eyes = khi hai người nhìn vào mắt nhau
+@listen | /ˈlɪsn/ | LÍT-xừn | lắng nghe
++ Chữ "t" câm: đọc "lít-xừn". Chú ý kỹ những gì người khác đang nói.
+= Please listen to the patient carefully. => Hãy lắng nghe bệnh nhân thật kỹ.
+~ To listen is = Lắng nghe là | to pay close attention = chú ý kỹ | to what a person is saying = đến những gì một người đang nói
+@explain | /ɪkˈspleɪn/ | ịc-XPLÂY-n | giải thích
++ Nói về một việc sao cho dễ theo dõi và dễ hiểu. Danh từ: explanation.
+= The dentist will explain the treatment. => Nha sĩ sẽ giải thích cách điều trị.
+~ To explain is = Giải thích là | to tell a person about something = nói với một người về một việc | in a way that is easy to follow and understand = theo cách dễ theo dõi và dễ hiểu
+@interrupt | /ˌɪntəˈrʌpt/ | in-tờ-RẮP | ngắt lời
++ inter- = ở giữa + rupt = làm đứt: "cắt ngang". Nói hoặc làm gì khiến người khác phải dừng lại.
+= Do not interrupt the patient when she is talking. => Đừng ngắt lời bệnh nhân khi cô ấy đang nói.
+~ To interrupt is = Ngắt lời là | to say or do something = nói hoặc làm một điều | that suddenly prevents someone = làm một người đột ngột không thể | from continuing what they are saying or doing = tiếp tục điều họ đang nói hoặc làm
+@open-ended question | /ˌəʊpən ˈendɪd ˈkwestʃən/ | âu-pừn EN-địt QUÉT-chừn | câu hỏi mở
++ open-ended = để ngỏ, không đóng: câu hỏi KHÔNG trả lời được bằng một từ (yes/no). Ví dụ: "How do you feel?"
+= "How does your tooth feel?" is an open-ended question. => "Răng bạn thấy thế nào?" là một câu hỏi mở.
+~ An open-ended question is a question = Câu hỏi mở là một câu hỏi | that a person cannot respond to = mà một người không thể trả lời | with a one word answer = bằng một từ
+@care | /keər/ | ke-ờ | quan tâm
++ Quan tâm đến chuyện xảy ra với ai đó và muốn họ khỏe mạnh, vui vẻ. "Take care" = giữ gìn nhé.
+= Our staff really care about every patient. => Nhân viên của chúng tôi thật sự quan tâm đến từng bệnh nhân.
+~ To care is = Quan tâm là | to be concerned and interested = lo lắng và để ý | in what happens to someone = đến điều xảy ra với một người | and to want them to be well and happy = và muốn họ khỏe mạnh, vui vẻ
+@concern | /kənˈsɜːrn/ | cần-XƠN | sự lo lắng, mối bận tâm
++ Cảm giác lo lắng hoặc mong ai đó được khỏe, vui. "Do you have any concerns?" = Bạn có lo lắng gì không?
+= The patient shared her concern about the pain. => Bệnh nhân chia sẻ nỗi lo về cơn đau.
+~ Concern is = Mối lo là | a feeling of worry = một cảm giác lo lắng | or a desire for someone to be well and happy = hoặc mong muốn ai đó khỏe mạnh và vui vẻ
+@sympathize | /ˈsɪmpəθaɪz/ | XIM-pờ-thai-z | thông cảm, đồng cảm
++ sym- = cùng + path = cảm xúc: "cùng cảm nhận". Đối xử tử tế vì hiểu vấn đề của người khác.
+= I sympathize with patients who fear the dentist. => Tôi thông cảm với những bệnh nhân sợ nha sĩ.
+~ To sympathize is = Đồng cảm là | to behave kindly toward a person = cư xử tử tế với một người | because you understand their problems = vì bạn hiểu những khó khăn của họ
+@reassurance | /ˌriːəˈʃʊərəns/ | ri-ơ-SUA-rừns | sự trấn an
++ re- + assure = cam đoan cho yên tâm. Lời nói, hành động làm ai bớt sợ, bớt lo.
+= The child needed some reassurance before the exam. => Bé cần được trấn an một chút trước khi khám.
+~ Reassurance is = Sự trấn an là | words or actions = lời nói hoặc hành động | that make someone feel less afraid or worried = làm ai đó bớt sợ hoặc bớt lo
+
+# U14 | Unit này về vệ sinh răng miệng hằng ngày: vì sao sâu răng xảy ra (vi khuẩn – bacteria, axit – acid, đường – sugar, mảng bám tích tụ – accumulate) và dùng gì để phòng (bàn chải, kem đánh răng, chỉ nha khoa, nước súc miệng, fluoride).
+@hygiene | /ˈhaɪdʒiːn/ | HAI-chin | vệ sinh
++ Cách giữ sạch sẽ và khỏe mạnh. "Oral hygiene" = vệ sinh răng miệng. Người làm: hygienist (U4).
+= Good oral hygiene prevents tooth decay. => Vệ sinh răng miệng tốt giúp phòng sâu răng.
+~ Hygiene is = Vệ sinh là | the method = cách thức | of keeping clean and healthy = giữ sạch sẽ và khỏe mạnh
+@daily | /ˈdeɪli/ | ĐÂY-li | hằng ngày
++ day = ngày + -ly: xảy ra mỗi ngày.
+= Brush and floss daily. => Đánh răng và dùng chỉ nha khoa hằng ngày.
+~ If something happens daily, = Nếu một việc xảy ra "daily", | it occurs every day = nó diễn ra mỗi ngày
+@toothbrush | /ˈtuːθbrʌʃ/ | TÚT-th-brắt-s | bàn chải đánh răng
++ tooth = răng + brush = bàn chải. Dụng cụ thường bằng nhựa màu dùng để làm sạch răng.
+= Change your toothbrush every three months. => Thay bàn chải đánh răng ba tháng một lần.
+~ A toothbrush is a tool, = Bàn chải đánh răng là một dụng cụ, | usually made of colored plastic, = thường bằng nhựa màu, | which people use to clean their teeth = mà mọi người dùng để làm sạch răng
+@toothpaste | /ˈtuːθpeɪst/ | TÚT-th-pây-xt | kem đánh răng
++ tooth + paste = chất dẻo, bột nhão. Đặt lên bàn chải để làm sạch răng.
+= Use a small amount of toothpaste. => Dùng một lượng nhỏ kem đánh răng.
+~ Toothpaste is a substance = Kem đánh răng là một chất | placed on a toothbrush = được đặt lên bàn chải | and used to clean the teeth = và dùng để làm sạch răng
+@floss | /flɒs/ | phlot-x | chỉ nha khoa
++ Sợi chỉ dùng làm sạch giữa các răng (between teeth), nơi bàn chải không tới.
+= Use floss to clean between your teeth. => Dùng chỉ nha khoa để làm sạch kẽ răng.
+~ Floss is thread = Chỉ nha khoa là sợi chỉ | which is used to clean between teeth = dùng để làm sạch giữa các răng
+@mouthwash | /ˈmaʊθwɒʃ/ | MAO-th-quót-s | nước súc miệng
++ mouth = miệng + wash = rửa. Chất lỏng diệt vi khuẩn trong miệng và làm thơm hơi thở.
+= Rinse with mouthwash after brushing. => Súc miệng bằng nước súc miệng sau khi đánh răng.
+~ Mouthwash is a liquid = Nước súc miệng là một chất lỏng | used to kill bacteria in the mouth = dùng để diệt vi khuẩn trong miệng | and freshen breath = và làm thơm hơi thở
+@fluoride | /ˈflɔːraɪd/ | PHLO-rai | fluor (chất làm chắc răng)
++ Hóa chất làm răng chắc hơn (makes teeth stronger), có trong kem đánh răng.
+= Fluoride makes your teeth stronger. => Fluor làm răng bạn chắc hơn.
+~ Fluoride is a chemical = Fluor là một hóa chất | which makes teeth stronger = làm răng chắc hơn
+@bacteria | /bækˈtɪəriə/ | bắc-TIA-ri-ờ | vi khuẩn
++ Số nhiều (số ít: bacterium). Sinh vật rất nhỏ, một số gây bệnh.
+= Bacteria in plaque cause tooth decay. => Vi khuẩn trong mảng bám gây sâu răng.
+~ Bacteria are = Vi khuẩn là | very small organisms, = những sinh vật rất nhỏ, | some of which cause disease = một số trong đó gây bệnh
+@sugar | /ˈʃʊɡər/ | SÚ-gờ | đường
++ Một loại carbohydrate đơn giản, tan trong nước. Vi khuẩn ăn đường rồi tạo ra axit.
+= Too much sugar is bad for your teeth. => Quá nhiều đường không tốt cho răng.
+~ A sugar is = Đường là | a type of simple carbohydrate = một loại carbohydrate đơn giản | that dissolves in water = tan trong nước
+@acid | /ˈæsɪd/ | Á-xịt | axit
++ Chất lỏng có độ pH thấp, gây phản ứng hóa học, làm mòn men răng.
+= Acid from bacteria damages enamel. => Axit từ vi khuẩn làm hỏng men răng.
+~ An acid is a liquid = Axit là một chất lỏng | with a low pH = có độ pH thấp | which causes chemical reactions = gây ra phản ứng hóa học
+@accumulate | /əˈkjuːmjəleɪt/ | ơ-KIU-miu-lây-t | tích tụ
++ Từ từ gom lại và lớn dần. Cùng nghĩa với "build up" (U15).
+= Plaque can accumulate if you do not brush. => Mảng bám có thể tích tụ nếu bạn không đánh răng.
+~ If something accumulates, = Nếu một thứ tích tụ, | it slowly gathers together = nó từ từ tụ lại | and gets larger = và lớn dần
+
+# U15 | Unit này mô tả một buổi làm sạch răng (prophylaxis) ở phòng khám: mảng bám (plaque) tích tụ (build up) thành cao răng (tartar), cặn (deposit); nha sĩ cạo (scrape), lấy đi (remove), làm sạch (clean), bôi (apply) kem đánh bóng (prophylaxis paste), đánh bóng (polish); bệnh nhân nhổ (spit).
+@prophylaxis | /ˌprɒfəˈlæksɪs/ | pro-phờ-LÁC-xịt | làm sạch răng (dự phòng)
++ pro- = trước + phylaxis = bảo vệ: "bảo vệ trước", tức dự phòng. Tên chính thức của việc làm sạch răng.
+= She comes in for a prophylaxis every six months. => Cô ấy đến làm sạch răng sáu tháng một lần.
+~ Prophylaxis is = Dự phòng là | the formal term = thuật ngữ chính thức | for dental cleaning = cho việc làm sạch răng
+@plaque | /plæk/ | pléc | mảng bám
++ Chất chứa vi khuẩn bám trên bề mặt răng. Đọc "pléc", chữ "que" câm.
+= Brushing removes plaque from your teeth. => Đánh răng giúp loại bỏ mảng bám khỏi răng.
+~ Plaque is a substance = Mảng bám là một chất | containing bacteria = chứa vi khuẩn | that forms on the surface of the teeth = hình thành trên bề mặt răng
+@tartar | /ˈtɑːrtər/ | TÁT-tờ | cao răng, vôi răng
++ Chất cứng hình thành trên răng (mảng bám để lâu hóa cứng). Không đánh răng mà hết được, phải đi cạo.
+= The hygienist removed the tartar. => Chuyên viên đã lấy cao răng.
+~ Tartar is = Cao răng là | a hard substance = một chất cứng | that forms on the teeth = hình thành trên răng
+@deposit | /dɪˈpɒzɪt/ | đi-PO-dịt | lớp cặn
++ Nghĩa quen là "tiền đặt cọc". Ở đây: một lớp chất bị để lại (left behind) trên răng.
+= There is a hard deposit on your lower teeth. => Có một lớp cặn cứng trên răng dưới của bạn.
+~ A deposit is = Cặn lắng là | a layer of something = một lớp của một chất | which is left behind = bị để lại
+@build up | /bɪld ʌp/ | biu ắp | tích tụ
++ build = xây + up = lên: "xây chồng lên dần", tức tích tụ (accumulates, U14).
+= Tartar can build up behind your front teeth. => Cao răng có thể tích tụ phía sau răng cửa.
+~ If something builds up, = Nếu một thứ "builds up", | it accumulates = nó tích tụ
+@scrape | /skreɪp/ | xcrây-p | cạo
++ Dùng vật sắc để lấy đi những mẩu nhỏ, ví dụ cạo cao răng.
+= The hygienist will scrape the tartar off. => Chuyên viên sẽ cạo cao răng đi.
+~ To scrape something is = Cạo một thứ là | to use a sharp object = dùng một vật sắc | to remove small pieces = để lấy đi những mẩu nhỏ
+@remove | /rɪˈmuːv/ | ri-MÚV | lấy đi, loại bỏ
++ re- = đi khỏi + move = di chuyển: mang đi chỗ khác (take it away).
+= The dentist will remove the old filling. => Nha sĩ sẽ lấy miếng trám cũ ra.
+~ To remove something is = Loại bỏ một thứ là | to take it away = mang nó đi
+@clean | /kliːn/ | clin | làm sạch
++ Làm cho thứ gì đó hết bụi bẩn và mảnh vụn (dirt and debris).
+= Please clean the tools after each patient. => Vui lòng làm sạch dụng cụ sau mỗi bệnh nhân.
+~ To clean something is = Làm sạch một thứ là | to make it free of dirt and debris = làm nó hết bụi bẩn và mảnh vụn
+@apply | /əˈplaɪ/ | ơ-PLAI | bôi, thoa
++ Thêm một thứ lên thứ khác, ví dụ bôi fluor lên răng. (Nghĩa khác quen thuộc: áp dụng, nộp đơn.)
+= The hygienist will apply fluoride to your teeth. => Chuyên viên sẽ bôi fluor lên răng bạn.
+~ To apply something is = Bôi một thứ là | to add it to something else = thêm nó lên một thứ khác
+@prophylaxis paste | /ˌprɒfəˈlæksɪs peɪst/ | pro-phờ-LÁC-xịt pây-xt | kem đánh bóng răng
++ prophylaxis (làm sạch răng) + paste (chất nhão). Chất nha sĩ dùng để đánh bóng răng.
+= The hygienist polished my teeth with prophylaxis paste. => Chuyên viên đánh bóng răng tôi bằng kem đánh bóng.
+~ Prophylaxis paste is a substance = Kem đánh bóng là một chất | used by dentists to polish teeth = nha sĩ dùng để đánh bóng răng
+@polish | /ˈpɒlɪʃ/ | PO-lịt-s | đánh bóng
++ Làm cho thứ gì đó sáng bóng (shiny). "Nail polish" = sơn móng tay.
+= After cleaning, we polish your teeth. => Sau khi làm sạch, chúng tôi đánh bóng răng bạn.
+~ To polish something is = Đánh bóng một thứ là | to make it shiny = làm nó sáng bóng
+@spit | /spɪt/ | xpít | nhổ (nước bọt)
++ Đẩy mạnh nước bọt hoặc chất lỏng ra khỏi miệng. Nha sĩ hay nói: "Please spit."
+= Please spit into the sink. => Vui lòng nhổ vào bồn.
+~ To spit is = Nhổ là | to remove saliva or liquid from the mouth = đẩy nước bọt hoặc chất lỏng ra khỏi miệng | by forcefully blowing it out of the mouth = bằng cách thổi mạnh nó ra khỏi miệng

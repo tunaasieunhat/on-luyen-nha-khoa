@@ -1,0 +1,1871 @@
+{
+"1": [
+{
+"n": 1,
+"text": [
+"VẬT LIỆU NHA KHOA · BÀI 1",
+"Đại cương về vật liệu nha khoa",
+"Lịch sử, phân loại, tính chất, tiêu chuẩn và xu hướng phát triển của vật liệu nha khoa",
+"Ôn Luyện Nha Khoa · biên soạn theo giáo trình Vật liệu nha khoa ứng dụng (ĐH Văn Lang, 2023)"
+],
+"note": "Bài mở đầu cho cả môn: vật liệu nha khoa là gì, đã phát triển ra sao, được phân loại và đánh giá thế nào, và đang đi về đâu. 1"
+},
+{
+"n": 2,
+"text": [
+"Học xong bài này, bạn sẽ",
+"1",
+"Kể được các mốc lịch sử chính của vật liệu nha khoa",
+"2",
+"Phân loại vật liệu theo thành phần và theo mục đích điều trị",
+"3",
+"Biết ba nhóm tính chất: sinh học, vật lý, hóa học",
+"4",
+"Hiểu vai trò của ADA, FDA, ISO, CE và các yếu tố an toàn",
+"5",
+"Nắm xu hướng phát triển của vật liệu nha khoa",
+"Hiểu nhanh",
+"Vật liệu nha khoa là \"phụ tùng thay thế\" cho răng, mô nha chu và hệ thống nhai.",
+"Nó phải tồn tại trong môi trường rất khắc nghiệt:",
+"ẩm ướt, nhiều vi khuẩn",
+"nóng lạnh thất thường",
+"chịu lực nhai hàng triệu lần",
+"Vì vậy chọn vật liệu là chọn thứ bền, an toàn và hợp với mô sống, không chỉ là chọn màu đẹp.",
+"2"
+],
+"note": "Nhấn mạnh môi trường miệng: ẩm, vi khuẩn, nhiệt độ thay đổi, lực nhai lặp lại. Mọi tính chất học trong môn này đều nhằm trả lời câu hỏi vật liệu có sống sót được trong môi trường đó không. 2"
+},
+{
+"n": 3,
+"text": [
+"Vì sao phải học vật liệu nha khoa?",
+"Định nghĩa",
+"Vật liệu dùng để thay thế mô răng, mô nha chu và cấu trúc hệ thống nhai. Khoa học vật liệu nha khoa nghiên cứu thuật ngữ, thành phần, tính chất, cơ chế và công dụng của chúng.",
+"Mục tiêu điều trị",
+"Duy trì và cải thiện chất lượng sống răng miệng; phòng bệnh, giảm đau; phục hồi chức năng (nhai, phát âm) và thẩm mỹ.",
+"Nguyên nhân thất bại",
+"Chọn sai vật liệu hoặc làm sai quy trình lâm sàng, labo. Phục hồi cũ hư hỏng hiện là nguyên nhân hàng đầu dẫn đến mất răng.",
+"Trách nhiệm của bác sĩ",
+"Biết chọn vật liệu nào và vì sao, liên tục cập nhật kiến thức, phán đoán lâm sàng hợp lý và lý giải được thất bại.",
+"Vì sao: Mỗi lần thay miếng trám hỏng phải mài rộng thêm mô răng. Sau vài vòng \"trám – hỏng – trám lại\", răng yếu dần đến mức phải bọc mão hoặc nhổ.",
+"3"
+],
+"note": "Câu hỏi thi hay gặp: nguyên nhân hàng đầu gây mất răng hiện nay là hư hỏng của phục hồi cũ. Đây là lý do chọn đúng vật liệu ngay từ đầu rất quan trọng. 3"
+},
+{
+"n": 4,
+"text": [
+"Từ thời cổ đại",
+"Điều trị nha khoa bắt đầu khoảng 3.000 năm trước Công nguyên",
+"Người Phoenic (~2.500 năm TCN) dùng dây và dải vàng buộc các răng lại với nhau",
+"Xác ướp Ai Cập có răng giả bằng ngà voi; người Etrusce điêu khắc ngà voi, xương làm răng giả rồi buộc bằng dây vàng",
+"Người Maya dùng vỏ sò thay răng mất và gắn đá, vàng lên răng để trang trí",
+"Răng cửa bằng vỏ sò (trái) và inlay đá, kim loại trang trí của người Maya (phải)",
+"4"
+],
+"note": "Phần cổ đại chủ yếu để biết: vàng, ngà voi, xương và vỏ sò là những vật liệu đầu tiên con người dùng thay răng. 4"
+},
+{
+"n": 5,
+"text": [
+"Các mốc lịch sử quan trọng",
+"Năm",
+"Sự kiện",
+"1678–1761",
+"Fauchard, cha đẻ nha khoa hiện đại, trám xoang bằng nút bạc hoặc chì",
+"1756",
+"Pfaff lấy dấu bằng sáp và đổ mẫu thạch cao",
+"1816",
+"Taveau (Pháp) trộn bạc với thủy ngân: amalgam ra đời",
+"1860–1890",
+"\"Cuộc chiến amalgam\" do chất lượng amalgam kém",
+"1895",
+"G.V. Black, nhà tiên phong nha khoa phục hồi, đưa tiêu chuẩn tạo xoang amalgam",
+"1907",
+"Taggert phát triển kỹ thuật đúc inlay",
+"1935",
+"Nhựa acrylic trùng hợp nhiệt được dùng làm nền hàm",
+"1944",
+"Đề xuất fluor hóa nước 1 ppm: sâu răng trẻ em giảm 50%",
+"giữa 1960",
+"Bắt đầu dùng sealant trám bít hố rãnh",
+"Mẹo nhớ: Fauchard cha đẻ nha khoa hiện đại; G.V. Black cha đẻ nha khoa phục hồi.",
+"5"
+],
+"note": "Không cần thuộc hết mọi năm. Nhớ các mốc in đậm: Fauchard, Taveau 1816, G.V. Black 1895, Taggert 1907, acrylic 1935, fluor hóa nước 1944, sealant thập niên 1960. 5"
+},
+{
+"n": 6,
+"text": [
+"Lịch sử của từng nhóm vật liệu",
+"1",
+"Trám xoang",
+"Lá kim loại (chì, thiếc, vàng): Paré dùng chì, Fauchard nút bạc, chì, Pfaff vàng lá. Vàng phổ biến cuối thế kỷ XVIII – XIX, rồi đến amalgam.",
+"2",
+"Mão và răng sứ",
+"Mão vàng mô tả lần đầu năm 1746 (Mouton). Răng giả bằng sứ có bằng sáng chế 1789; răng chốt sứ ra đời đầu thế kỷ XIX. Sứ – kim loại đến giữa thế kỷ XX mới hoàn thiện.",
+"3",
+"Lấy dấu",
+"Pfaff (1756) lấy dấu bằng sáp, đổ mẫu thạch cao; Evans (1836) cải tiến; Goodyear (1839) dùng cao su lưu hóa.",
+"4",
+"Nền hàm",
+"Từ 1839 dùng cao su lưu hóa; đến 1935 mới chuyển sang nhựa acrylic trùng hợp nhiệt.",
+"5",
+"Phục hồi gián tiếp",
+"Taggert (1907) đúc inlay; sau đó là hợp kim đúc (titan, Ni-Cr, Co-Cr, hợp kim quý) cho inlay, onlay, mão, khung hàm.",
+"6",
+"Phòng ngừa",
+"Quan sát sâu răng thấp ở Colorado (nước nhiều fluor, 1915) dẫn đến fluor hóa nước; giữa thập niên 1960 có sealant.",
+"6"
+],
+"note": "Khoa học vật liệu nha khoa thật sự bắt đầu giữa thế kỷ XIX với các nghiên cứu về amalgam; mốc quan trọng nhất là nghiên cứu của G.V. Black từ 1895. 6"
+},
+{
+"n": 7,
+"text": [
+"Phân loại theo thành phần: 4 nhóm",
+"Kim loại và hợp kim",
+"Kim loại thuần ít dùng, trừ titan thuần (implant, mão) và vàng lá",
+"Dùng cho: trám kim loại, inlay, onlay, khung hàm, móc, khí cụ chỉnh nha",
+"Dụng cụ: mũi khoan, lưỡi cắt, trâm nội nha",
+"Sứ (ceramic)",
+"Inlay, onlay, veneer, mão, cầu, implant",
+"Toàn sứ thường có sườn cứng (kháng gãy) và lớp sứ ngoài (trong mờ, thẩm mỹ)",
+"Polymer (nhựa)",
+"Vật liệu trám, khay lấy dấu, nhựa nền hàm, khí cụ chỉnh nha, máng bảo vệ",
+"Nhựa + hạt độn + silane = composite nha khoa",
+"Xi măng nha khoa",
+"Xi măng gắn, lót, nền",
+"Glass-ionomer (GIC), GIC tăng cường nhựa (RMGIC), compomer",
+"7"
+],
+"note": "Bốn nhóm theo bản chất: kim loại, sứ, polymer và vật liệu tổng hợp. Composite nha khoa đúng nghĩa là nhựa có hạt độn thủy tinh hoặc silica gắn bằng silane. 7"
+},
+{
+"n": 8,
+"text": [
+"Phân loại theo mục đích điều trị",
+"Dự phòng",
+"Sealant, vật liệu kháng khuẩn, lót, nền, GIC, compomer",
+"Quan trọng là phóng thích fluor để ức chế sâu răng",
+"Có thể làm phục hồi tạm vài tháng đến 1–4 năm",
+"Phục hồi",
+"Thay thế, sửa chữa mô răng mất: amalgam, composite, GIC, kim loại đúc, sứ, nhựa nền hàm",
+"Theo thời gian: tạm thời hoặc vĩnh viễn",
+"Theo kỹ thuật: trực tiếp trong miệng hoặc gián tiếp ở labo",
+"Phụ trợ",
+"Dùng trong quá trình làm nhưng không ở lại trong miệng",
+"Acid xoi mòn, vật liệu lấy dấu, thạch cao, sáp, bột đúc, khay, vật liệu đánh bóng",
+"Vì sao: Làm một mão sứ: chất lấy dấu, thạch cao, sáp là vật liệu phụ trợ; sứ và xi măng gắn ở lại trong miệng là vật liệu phục hồi.",
+"8"
+],
+"note": "Polymer rất đa năng, có thể là vật liệu phòng ngừa, phục hồi hoặc phụ trợ tùy dạng bào chế. Vật liệu tạm như xi măng tạm, mão tạm vẫn thuộc nhóm phục hồi nhưng dùng ngắn hạn. 8"
+},
+{
+"n": 9,
+"text": [
+"Ba nhóm tính chất của vật liệu",
+"Ngoài tính chất sinh học (tương hợp sinh học), vật liệu được mô tả bằng các tính chất vật lý và hóa học:",
+"Hóa học",
+"Cơ học",
+"Quang học",
+"Nhiệt",
+"Ăn mòn",
+"Độ giòn, độ cứng, độ dẻo",
+"Hấp thụ, màu sắc",
+"Hệ số giãn nở nhiệt",
+"Hấp thu nước",
+"Giới hạn tỷ lệ",
+"Huỳnh quang, phát quang",
+"Nhiệt độ chuyển pha thủy tinh",
+"Độ hòa tan",
+"Mô đun đàn hồi",
+"Chỉ số phản xạ",
+"Dẫn nhiệt, khuếch tán nhiệt",
+"pH, độ phản ứng",
+"Độ bền nén, mỏi, gãy",
+"Độ cản quang",
+"Nhiệt độ chảy, điểm hóa mềm",
+"Năng lượng bề mặt",
+"Độ bền kéo, cắt",
+"Độ trong mờ, khúc xạ",
+"Nhiệt độ lỏng, rắn",
+"Liên hệ lâm sàng: Độ cản quang giúp thấy phục hồi và sâu tái phát trên phim; giãn nở nhiệt lệch với răng gây hở bờ; dẫn nhiệt cao dễ kích thích tủy.",
+"9"
+],
+"note": "Bài 12 sẽ học chi tiết từng tính chất. Ở đây chỉ cần biết ba nhóm và vài tính chất có ý nghĩa lâm sàng trực tiếp. 9"
+},
+{
+"n": 10,
+"text": [
+"Sinh học và vật liệu phục hồi lý tưởng",
+"Tính chất sinh học",
+"Chủ yếu là tương hợp sinh học: vật liệu tương tác với mô sống ra sao",
+"Phản ứng bất lợi cần chú ý: viêm, độc tế bào, dị ứng, nhiễm độc mạn tính",
+"Còn đánh giá tính chế tác: dễ đúc, dễ cắt, độ bóng, độ rão…",
+"Vật liệu lý tưởng (chưa có)",
+"Tương hợp sinh học",
+"Dính vĩnh viễn với răng hay xương",
+"Thẩm mỹ tự nhiên",
+"Tính chất giống men, ngà",
+"Có khả năng sửa chữa, tái sinh mô mất",
+"Cảnh báo: Hiện chưa có vật liệu nào vĩnh viễn. Mỗi vật liệu đều có ưu, nhược điểm và chỉ định riêng.",
+"10"
+],
+"note": "Năm tiêu chí của vật liệu lý tưởng là chuẩn để so sánh mọi vật liệu trong các bài sau. 10"
+},
+{
+"n": 11,
+"text": [
+"Tiêu chuẩn vật liệu nha khoa",
+"Hoa Kỳ: ADA, ANSI",
+"1919: quân đội đặt Cục Tiêu chuẩn (nay là NIST) xây dựng thông số cho amalgam",
+"1928: ADA bắt đầu; từ 1966 Hội đồng vật liệu ADA (nay CSA) xây dựng tiêu chuẩn, trình ANSI",
+"Trách nhiệm đạt thông số thuộc nhà sản xuất",
+"Quốc tế: ISO, FDI",
+"ISO TC 106 – Dentistry (từ 1963), hơn 100 tiêu chuẩn",
+"SC1: trám trực tiếp; SC2: phục hình; SC8: implant",
+"Châu Âu: CE",
+"Bắc Âu lập NIOM (1969)",
+"Từ 1/1995 dùng tiêu chuẩn chung, nhãn CE",
+"Thụy Điển hạn chế niken trong hợp kim nha khoa",
+"Việt Nam: Bộ Y tế",
+"Cấp phép lưu hành hàng nhập khẩu; kiểm tra cơ sở sản xuất",
+"Thách thức: hàng không rõ nguồn gốc, hàng giả, xách tay chưa kiểm định",
+"11"
+],
+"note": "Sản phẩm đã được FDA chấp thuận thì không cần ADA đánh giá lại. Tiêu chuẩn ADA và ISO là nguồn tham khảo đáng tin cậy khi chọn vật liệu. 11"
+},
+{
+"n": 12,
+"text": [
+"FDA chia 3 nhóm theo mức nguy cơ (1976)",
+"Nhóm",
+"Mức kiểm soát",
+"Ví dụ",
+"Nhóm I",
+"Nguy cơ thấp nhất: chỉ cần đăng ký, tuân thủ quy định sản xuất",
+"Băng cá nhân, găng tay khám, dụng cụ phẫu thuật cầm tay",
+"Nhóm II",
+"Kiểm soát đặc biệt của FDA và ADA",
+"Xe lăn điện, bơm truyền thuốc, amalgam nha khoa; đa số vật liệu phục hồi",
+"Nhóm III",
+"Nghiêm ngặt nhất: phải chứng minh an toàn, hiệu quả trước khi duyệt",
+"Van tim, máy tạo nhịp; nha khoa: implant, xương ghép tổng hợp",
+"Mẹo nhớ: I – \"ít\" nguy cơ (găng, băng); II – kiểm soát đặc biệt (amalgam); III – \"cấy vào người\" (implant, xương ghép).",
+"12"
+],
+"note": "Sản phẩm có fluor có thể được xem là thuốc. Phần lớn vật liệu ở phòng khám là thiết bị, đa số vật liệu phục hồi thuộc nhóm II. 12"
+},
+{
+"n": 13,
+"text": [
+"An toàn chỉ là tương đối",
+"0,14%",
+"bệnh nhân có phản ứng bất lợi với vật liệu nha khoa (0,33% ở bệnh nhân phục hình)",
+"Khía cạnh",
+"Nội dung",
+"Nguyên tắc",
+"Paracelsus: \"Mọi chất đều là chất độc; liều lượng quyết định là chất độc hay phương thuốc\". Chọn vật liệu khi lợi ích lớn hơn nguy cơ",
+"Đường vào",
+"Tiêu hóa, hô hấp, tiếp xúc da, tiêm chích",
+"Phơi nhiễm",
+"Cấp (dưới 24 giờ), bán cấp (dưới 1 tháng), bán mạn (1–3 tháng), mạn (trên 3 tháng)",
+"Dị ứng",
+"Xảy ra ở liều thấp sau khi đã mẫn cảm; cơ thể cần 1–2 tuần tạo kháng thể nên lần đầu thường chưa dị ứng",
+"Liên hệ lâm sàng: An toàn trên lâm sàng: dùng đúng chỉ định, đúng tỷ lệ trộn, đủ thời gian chiếu đèn, cách ly tốt, bảo quản đúng và không dùng vật liệu quá hạn.",
+"13"
+],
+"note": "Hai tác dụng sinh học chính cần quan tâm là độc tính và dị ứng. Bệnh nhân cũng cần được tư vấn rõ về vật liệu đặt vào miệng, và báo ngay khi có dấu hiệu dị ứng. 13"
+},
+{
+"n": 14,
+"text": [
+"Xu hướng vật liệu nha khoa",
+"Phòng ngừa, bảo tồn",
+"Trọng tâm chuyển sang phòng ngừa và can thiệp tối thiểu; ưu tiên sửa phục hồi hỏng một phần thay vì làm lại toàn bộ.",
+"Thẩm mỹ",
+"Nhu cầu thẩm mỹ thúc đẩy composite cao cấp, mão toàn sứ, veneer.",
+"Vật liệu \"thông minh\"",
+"Tương tác tích cực với môi trường miệng: phóng thích fluor, canxi để tái khoáng men.",
+"Công nghệ số",
+"CAD/CAM giảm hẳn vật liệu phụ trợ (lấy dấu, thạch cao, sáp); laser, composite co ngót thấp.",
+"Amalgam rút lui",
+"Bị loại bỏ dần do ô nhiễm thủy ngân và kém thẩm mỹ; một số nước đã bỏ hoàn toàn.",
+"Tiêu chí lựa chọn",
+"Tương hợp sinh học cao, bền và thân thiện môi trường, kỹ thuật đơn giản.",
+"14"
+],
+"note": "Tái sinh răng, tủy và mô quanh răng còn cần nhiều thập kỷ nữa, nên vật liệu phục hồi vẫn giữ vai trò chủ đạo trong tương lai gần. 14"
+},
+{
+"n": 15,
+"text": [
+"Khi nào một vật liệu bị đào thải?",
+"Xi măng silicat: màu giống răng, nhả fluor, nhưng đổi màu, hở bờ; bị composite thay thế giữa thập niên 70",
+"Inlay vàng: rất khít và bền, nhưng khó tạo lưu, đắt, kém thẩm mỹ",
+"Một vật liệu bị đào thải khi:",
+"nhược điểm vượt ưu điểm; thoái biến theo thời gian",
+"có vật liệu thay thế tốt hơn, đơn giản hơn, rẻ hơn",
+"Miếng trám silicat thoái biến, đổi màu, hở bờ",
+"Liên hệ lâm sàng: Bệnh nhân hỏi \"Sao giờ ít ai trám bạc?\": amalgam bền nhưng kém thẩm mỹ, có thủy ngân, còn composite nay đã đủ bền.",
+"15"
+],
+"note": "Ba ví dụ điển hình của vật liệu lỗi thời: xi măng silicat, inlay vàng và amalgam. 15"
+},
+{
+"n": 16,
+"text": [
+"Câu hỏi nhanh",
+"1",
+"Nguyên nhân hàng đầu dẫn đến mất răng hiện nay theo bài học là gì?",
+"A. Chấn thương răng",
+"B. Hư hỏng của phục hồi cũ",
+"C. Bệnh toàn thân",
+"D. Răng mọc lệch",
+"2",
+"Theo phân loại FDA, implant nha khoa thuộc nhóm nào?",
+"A. Nhóm I",
+"B. Nhóm II",
+"C. Nhóm III",
+"D. Không phân loại",
+"3",
+"Vật liệu nào sau đây là vật liệu PHỤ TRỢ?",
+"A. Sứ làm mão",
+"B. Xi măng gắn",
+"C. Thạch cao đổ mẫu",
+"D. Composite trám",
+"16"
+],
+"note": "Dừng vài giây cho mỗi câu trước khi sang slide đáp án. 16"
+},
+{
+"n": 17,
+"text": [
+"Đáp án",
+"Câu 1: B. Hư hỏng của phục hồi cũ",
+"Mỗi lần làm lại phục hồi hỏng phải mài thêm mô răng; sau nhiều lần răng yếu dần và mất.",
+"Câu 2: C. Nhóm III",
+"Implant, xương ghép tổng hợp là vật cấy vào người, thuộc nhóm III, kiểm soát nghiêm ngặt nhất.",
+"Câu 3: C. Thạch cao đổ mẫu",
+"Thạch cao dùng trong quá trình làm phục hình nhưng không ở lại trong miệng.",
+"17"
+],
+"note": "Ôn lại ba ý: nguyên nhân mất răng, nhóm FDA và cách phân biệt vật liệu phụ trợ với phục hồi. 17"
+},
+{
+"n": 18,
+"text": [
+"Ghi nhớ cả bài",
+"Vật liệu nha khoa thay thế mô răng, mô nha chu, hệ thống nhai",
+"Phục hồi cũ hư hỏng là nguyên nhân hàng đầu gây mất răng",
+"Fauchard: cha đẻ nha khoa hiện đại; G.V. Black: nha khoa phục hồi",
+"Mốc: amalgam 1816, đúc inlay 1907, nhựa nền hàm 1935",
+"Theo thành phần: kim loại, sứ, polymer, composite",
+"Theo mục đích: dự phòng, phục hồi, phụ trợ",
+"Ba nhóm tính chất: sinh học, vật lý, hóa học",
+"FDA: I găng tay, II amalgam, III implant",
+"Tiêu chuẩn: ADA/ANSI, ISO TC 106, CE; Việt Nam: Bộ Y tế",
+"Xu hướng: phòng ngừa, tối thiểu, thẩm mỹ, thông minh, CAD/CAM"
+],
+"note": "Mười ý chính của bài mở đầu. Các bài sau sẽ đi sâu vào từng nhóm vật liệu. 18"
+}
+],
+"2": [
+{
+"n": 1,
+"text": [
+"VẬT LIỆU NHA KHOA · BÀI 2",
+"Vật liệu nha khoa và tương hợp sinh học",
+"Nguyên tắc tương hợp sinh học, các nhóm vật liệu, nguy cơ nghề nghiệp và cách chọn vật liệu an toàn",
+"Ôn Luyện Nha Khoa · biên soạn theo giáo trình Vật liệu nha khoa ứng dụng (ĐH Văn Lang, 2023)"
+],
+"note": "Bài này trả lời câu hỏi vật liệu và cơ thể có sống chung hòa bình được không, cả với bệnh nhân lẫn nhân viên nha khoa. 1"
+},
+{
+"n": 2,
+"text": [
+"Học xong bài này, bạn sẽ",
+"1",
+"Trình bày 7 nguyên tắc chung trong tương hợp sinh học",
+"2",
+"Phân tích tương hợp sinh học của amalgam, kim loại đúc, sứ, nhựa, latex, HF",
+"3",
+"Trình bày nguy cơ nghề nghiệp với nhân viên nha khoa",
+"4",
+"Áp dụng nguyên tắc chọn vật liệu trên lâm sàng",
+"Hiểu nhanh",
+"Không vật liệu nào an toàn tuyệt đối:",
+"kim loại nhả ion gây dị ứng",
+"nhựa nhả monome kích thích tủy",
+"latex và HF đe dọa chính nhân viên nha khoa",
+"Việc của bác sĩ: chọn vật liệu có lợi ích vượt trội nguy cơ, hỏi kỹ tiền sử dị ứng và giải thích cho bệnh nhân.",
+"2"
+],
+"note": "Mở đầu bằng ý chính: an toàn chỉ là tương đối, quyết định chọn vật liệu là cân nhắc lợi ích và nguy cơ. 2"
+},
+{
+"n": 3,
+"text": [
+"Tương hợp sinh học phụ thuộc những gì?",
+"Thành công của vật liệu dựa trên 3 yếu tố: tính chất vật lý, thiết kế phục hồi và tương hợp sinh học",
+"Tương hợp sinh học phụ thuộc 6 yếu tố:",
+"tính chất hóa học và vật lý của thành phần",
+"cấu trúc, vị trí mô tiếp xúc và thời gian tiếp xúc",
+"đặc tính bề mặt và lượng chất phân giải ra",
+"Muốn ra thị trường phải qua 3 tầng thử nghiệm: tương hợp sinh học → tính chất → thử nghiệm sử dụng",
+"Tháp thử nghiệm: càng lên cao càng ít vật liệu vượt qua",
+"Cảnh báo: Đừng dễ dãi chấp nhận vật liệu mới. Hãy hỏi \"bằng chứng đâu?\" trước khi dùng.",
+"3"
+],
+"note": "Thử nghiệm không chỉ bảo vệ bệnh nhân mà cả bác sĩ, trợ thủ và kỹ thuật viên labo, những người tiếp xúc vật liệu hằng ngày. 3"
+},
+{
+"n": 4,
+"text": [
+"1. Phản ứng độc hại của vật liệu",
+"Hiệu ứng phụ tới hạn: tác dụng bất lợi đầu tiên xuất hiện ở mức tiếp xúc thấp nhất; xảy ra ở mô đích",
+"Chất có thể phóng thích khi đúc, mài, đánh bóng, bôi keo, gắn xi măng; vào cơ thể qua niêm mạc, tiêu hóa, hô hấp, da",
+"Phản ứng bất lợi: dị ứng, bỏng hóa chất, kích thích và tổn thương tủy, bỏng nhiệt, độc tính",
+"Chẩn đoán khó: đỏ nướu cạnh phục hồi có thể do chấn thương hoặc dị ứng, cần theo dõi",
+"Công cụ hỗ trợ: thử nghiệm dán (patch test); đo thủy ngân nước tiểu",
+"Cơ quan có thể chịu tác dụng phụ: tại chỗ và toàn thân",
+"4"
+],
+"note": "Quan điểm truyền thống: độc tính phụ thuộc liều, dị ứng không phụ thuộc liều. Với vật liệu nha khoa chưa có dữ liệu về hiệu ứng liều của dị ứng. 4"
+},
+{
+"n": 5,
+"text": [
+"2–3. Hiệu ứng tại chỗ, toàn thân và yếu tố cảnh báo",
+"Tại chỗ: tủy, nha chu, quanh chóp, niêm mạc, lưỡi; phụ thuộc nồng độ, thời gian tiếp xúc",
+"Toàn thân: qua tiêu hóa, hít hơi, rò qua chóp, niêm mạc; chất bài tiết chậm đạt nồng độ tới hạn nhanh hơn",
+"Mọi vật liệu đều thoái biến: kim loại do mài mòn, ăn mòn; sứ, composite do ứng suất lặp lại",
+"Bề mặt thô ráp tăng phóng thích ion, ăn mòn và tích tụ mảng bám",
+"Đường đi của ion phân giải từ phục hình",
+"Liên hệ lâm sàng: Đánh bóng kỹ mọi phục hồi để giảm ăn mòn, giảm nhả ion và mảng bám, tức là tăng tương hợp sinh học.",
+"5"
+],
+"note": "Kim loại đúc cứng ở bề mặt khuôn trước, vùng nóng nhất cứng sau, nên có chênh lệch thành phần và ăn mòn khó lường. 5"
+},
+{
+"n": 6,
+"text": [
+"4. Tác động lên tủy và mô nha chu",
+"Khó chịu sau điều trị do chấn thương nhiệt, tổn thương hóa học, vi lậu, dị ứng",
+"Thuyết thủy động lực học: dịch chuyển động trong ống ngà kích thích tận cùng thần kinh gây đau",
+"Càng gần tủy, ngà càng thấm: tác hại phụ thuộc độ dày lớp ngà còn lại",
+"Mô học tủy tổn thương không tương quan rõ với triệu chứng lâm sàng",
+"Bờ phục hình gần mô nha chu; vật liệu nội nha qua chóp có thể gây viêm quanh chóp",
+"Cấu trúc liên quan đến phục hồi",
+"6"
+],
+"note": "Ý quan trọng nhất: lớp ngà còn lại càng mỏng thì càng phải che chở tủy kỹ. 6"
+},
+{
+"n": 7,
+"text": [
+"5. Giao diện: vi lậu và siêu lậu",
+"Nhựa cần xoi mòn ngà để thấm vào lưới collagen, tạo lớp lai. Chỗ hở ở giao diện gây ra:",
+"Vi lậu",
+"Siêu lậu",
+"Kích thước khe",
+"Vài micron",
+"Dưới 0,1 µm",
+"Nguyên nhân",
+"Nhựa bong, co rút khi trùng hợp",
+"Nhựa không thấm hết khung collagen",
+"Vi khuẩn lọt qua?",
+"Có (Streptococcus chỉ ~1 µm)",
+"Không, nhưng dịch đi qua được",
+"Hậu quả",
+"Nhiễm trùng tủy, đổi màu, phải thay sớm",
+"Thoái biến nhựa, collagen, giảm tuổi thọ liên kết",
+"Mẹo nhớ: \"Vi lậu – vi khuẩn vào được; siêu lậu – siêu nhỏ, chỉ nước vào.\" Men không có collagen nên không có siêu lậu.",
+"7"
+],
+"note": "Xi măng gắn như phosphat kẽm, GIC, polycarboxylat, ZOE không cần xoi mòn ngà. Chỉ nhựa mới cần xoi mòn để tạo lớp lai. 7"
+},
+{
+"n": 8,
+"text": [
+"6. Viêm và dị ứng: các loại quá mẫn",
+"Dị ứng là khi hệ miễn dịch xem một chất là \"lạ\". Phân loại Gell và Coombs:",
+"Loại",
+"Cơ chế",
+"Ví dụ trong nha khoa",
+"I",
+"Tức thì, qua IgE, dưỡng bào",
+"Phản vệ, hen, viêm mũi; latex",
+"II",
+"Quá mẫn độc tế bào",
+"–",
+"III",
+"Quá mẫn phức hợp miễn dịch",
+"–",
+"IV",
+"Muộn, qua tế bào lympho T",
+"Viêm da tiếp xúc với ion kim loại, monome nhựa",
+"Vì sao: Ion kim loại quá nhỏ, phải gắn với protein của cơ thể mới thành kháng nguyên nên phản ứng chậm (loại IV). Latex là protein sẵn nên phản ứng nhanh (loại I).",
+"8"
+],
+"note": "Phân biệt viêm dị ứng với viêm thông thường: tìm dấu hiệu ở nơi khác, loại trừ và theo dõi khoảng 2 tuần. 8"
+},
+{
+"n": 9,
+"text": [
+"7. Dị ứng với vật liệu nha khoa",
+"Hầu hết tác dụng phụ liên quan kim loại, nhất là thành phần hợp kim đúc",
+"Khoảng 15% dân số nhạy cảm niken, chỉ 4,2% với titan",
+"Dị nguyên phổ biến: vàng sodium thiosulfate, niken, thủy ngân, palladium, HEMA",
+"Biểu hiện: viêm môi, bỏng rát miệng, tổn thương lichenoid",
+"Gỡ bỏ phục hồi thì khoảng 82,7% bệnh nhân hồi phục",
+"Dị ứng niken: đồng hồ, mão sứ – kim loại, dây chỉnh nha, thử nghiệm dán da",
+"Liên hệ lâm sàng: Dị ứng tiếp xúc xuất hiện lần đầu sau ~10 ngày; đã nhạy cảm thì tái phát trong 24–48 giờ.",
+"9"
+],
+"note": "Phản ứng tại chỗ trong miệng thường bị chẩn đoán nhầm là viêm thông thường. Điều trị tốt nhất là tránh tiếp xúc kim loại nghi ngờ. 9"
+},
+{
+"n": 10,
+"text": [
+"Thủy ngân và amalgam",
+"1–3 µg",
+"thủy ngân hấp thu mỗi ngày từ amalgam, so với ~20 µg/ngày từ thực phẩm",
+"Hơi thủy ngân là đường vào chính; qua ruột chỉ 0,01%",
+"Tích tụ ở thận và não",
+"Dạng",
+"Đặc điểm",
+"Kim loại, hơi",
+"Hấp thu chủ yếu qua phổi; thải qua nước tiểu, phân",
+"Methyl thủy ngân",
+"Độc nhất: tích lũy qua chuỗi thức ăn (cá mập, cá kiếm, cá ngừ), ruột hấp thu 90–95%",
+"Ngộ độc mạn",
+"Run, mất trí nhớ, thay đổi tính cách; thai nhi, trẻ em nhạy nhất",
+"Kết luận",
+"Không có bằng chứng khoa học thủy ngân từ amalgam gây hại",
+"Liên hệ lâm sàng: Tháo miếng trám amalgam còn tốt chỉ làm phát tán thêm thủy ngân và mất thêm mô răng.",
+"10"
+],
+"note": "Nghiên cứu ở người tháo toàn bộ amalgam cùng lúc: thủy ngân máu và nước tiểu tăng rõ nhưng không suy thận. Thủy ngân nước tiểu 24 giờ là chỉ số đánh giá tốt. 10"
+},
+{
+"n": 11,
+"text": [
+"Kim loại đúc: niken và bery",
+"Hợp kim quý cao ≥ 40% vàng và ≥ 60% kim loại quý; quý ≥ 25%; thường dưới 25% (Ni-Cr, Co-Cr, thép không gỉ).",
+"Niken (Ni)",
+"Chiếm 30–50% hợp kim ở Mỹ; gây dị ứng nhiều nhất (10–20%), nhiều ở nữ",
+"Trong miệng thường nhẹ, giống viêm nha chu nên dễ bỏ sót",
+"Dị ứng chéo: hầu hết người dị ứng palladium đều dị ứng niken (ngược lại chỉ 33–65%)",
+"Bery (Be)",
+"Thêm 1–2% vào Ni-Cr để dễ đúc, liên kết sứ tốt",
+"Hít bụi khi mài, đúc gây viêm phổi bery mạn tính",
+"Kỹ thuật viên labo có nguy cơ cao nhất",
+"Vì sao: Độc tế bào cao nhất: Cr⁶⁺, Be²⁺, rồi đến Ni²⁺. Hợp kim giảm độc rõ sau khoảng 10 tháng trong miệng. Chưa có bằng chứng kim loại nha khoa gây ung thư.",
+"11"
+],
+"note": "Thử nghiệm trên động vật: Ni-Cr phản ứng mạnh nhất, vàng 22k thấp nhất. Hầu hết tác động bất lợi tại chỗ xảy ra khi kết hợp hợp kim quý với hợp kim thường. 11"
+},
+{
+"n": 12,
+"text": [
+"Sứ, nhựa và latex",
+"Sứ, zirconia",
+"Tương hợp sinh học cao nhất, rất ít tan",
+"APF (fluor acid) ăn mòn bề mặt sứ → không dùng APF cho bệnh nhân có sứ",
+"Zirconia không độc tế bào",
+"Nhựa, composite",
+"Dị nguyên chính: HEMA",
+"Monome xuyên qua găng tay dễ dàng → nhân viên nha khoa nguy cơ cao (viêm da loại IV)",
+"Nhựa độc hơn kim loại → che tủy, tránh nhựa chạm tủy",
+"BPA: chỉ ở dạng vết; lo ngại năm 1996 bị phóng đại",
+"Latex",
+"Tăng từ thập niên 1980 do đeo găng thường xuyên",
+"Dị nguyên: protein mủ cao su và hóa chất lưu hóa",
+"Gây dị ứng loại I (nhanh); nhân viên nha khoa nhạy cảm nhất",
+"12"
+],
+"note": "Muốn an tâm về BPA có thể chọn vật liệu không chứa bis-DMA. Lợi ích ngăn sâu của sealant vượt xa nguy cơ BPA rất nhỏ. 12"
+},
+{
+"n": 13,
+"text": [
+"Axit hydrofluoric (HF): xử trí khi tiếp xúc",
+"HF dùng xoi mòn sứ, cực kỳ ăn mòn. Nồng độ thấp không đau ngay mà đau dữ dội sau vài giờ → mọi tiếp xúc đều phải xử trí khẩn.",
+"1",
+"Rửa ngay",
+"Da: rửa sạch ngay với nhiều nước. Mắt: rửa ở trạm rửa mắt ít nhất 15 phút, giữ mí mở.",
+"2",
+"Gel canxi gluconat",
+"Trong 5 phút bôi gel lên da, lặp lại mỗi 15 phút. Gel tạo canxi florua không tan, bảo vệ mô và xương.",
+"3",
+"Không bôi vào mắt",
+"Không bôi gel canxi gluconat vào mắt. Bỏ quần áo dính HF vào túi nhựa.",
+"4",
+"Đi khám",
+"Khám ngay cả khi chưa đau. HF > 5% chỉ dùng trong tủ hút; hít hơi HF tổn thương phổi muộn.",
+"Mẹo nhớ: \"Rửa ngay – Gel canxi – Không vào mắt – Đi khám.\"",
+"13"
+],
+"note": "Gel canxi gluconat cần bảo quản lạnh và phải đeo găng khi bôi. OSHA giới hạn HF 3 ppm trung bình 8 giờ. 13"
+},
+{
+"n": 14,
+"text": [
+"Nguy cơ nghề nghiệp của nhân viên nha khoa",
+"15,4%",
+"kỹ thuật viên làm ≥ 20 năm mắc bụi phổi (dân số chung dưới 1%)",
+"Khảo sát ở Crete: 9,8% kỹ thuật viên mắc bụi phổi",
+"Nguy cơ",
+"Chi tiết",
+"Bụi phổi",
+"Bụi Co-Cr, Ni-Cr-Be và bụi silic; bụi phổi silic phổ biến nhất ở kỹ thuật viên",
+"Da",
+"Viêm da tiếp xúc ở tay, mặt do acrylate, formaldehyde, latex",
+"Hô hấp",
+"Hít bụi, hơi khi nung, đúc, mài kim loại",
+"Phòng ngừa",
+"Labo phải có thiết bị hút bụi; người có triệu chứng nên làm thử nghiệm dị ứng",
+"Liên hệ lâm sàng: Khi mài, đánh bóng khung kim loại hay sứ: đeo khẩu trang lọc bụi, bật hút bụi tại chỗ, làm ướt khi mài để hạn chế bụi bay.",
+"14"
+],
+"note": "Không có bằng chứng phục hồi kim loại làm tăng đột biến hay ung thư ở nhân viên nha khoa. 14"
+},
+{
+"n": 15,
+"text": [
+"4 bước chọn vật liệu tương hợp sinh học",
+"1",
+"Thiết kế, chỉ định",
+"Sứ thành công ở răng trước chưa chắc đúng ở răng sau. Dùng đúng chỉ định nhà sản xuất.",
+"2",
+"Thành phần",
+"Xem MSDS; hỏi nhà sản xuất, labo xem thành phần, cách xử lý có thay đổi không.",
+"3",
+"Độ an toàn",
+"Biết phản ứng phụ đã ghi nhận; tin thử nghiệm có đối chứng hơn thử nghiệm đơn lẻ.",
+"4",
+"Lợi ích – nguy cơ",
+"Hỏi tiền sử dị ứng, giải thích lợi ích, rủi ro, phương án thay thế, bệnh nhân ký cam kết.",
+"Liên hệ lâm sàng: Bệnh nhân nữ hay ngứa, đỏ da với khuyên tai giả, đồng hồ cần làm mão → nghĩ đến dị ứng niken: chọn toàn sứ, zirconia, titan hoặc hợp kim quý cao; cân nhắc cả palladium.",
+"15"
+],
+"note": "Niken vẫn dùng thành công trong chỉnh nha nếu hỏi kỹ tiền sử dị ứng của bệnh nhân và cha mẹ. 15"
+},
+{
+"n": 16,
+"text": [
+"Câu hỏi nhanh",
+"1",
+"Kim loại gây dị ứng nhiều nhất trong nha khoa là gì?",
+"A. Titan",
+"B. Vàng",
+"C. Niken",
+"D. Bạch kim",
+"2",
+"Dị ứng với ion kim loại và monome nhựa thuộc loại quá mẫn nào?",
+"A. Loại I",
+"B. Loại II",
+"C. Loại III",
+"D. Loại IV",
+"3",
+"Khe hở dưới 0,1 µm, vi khuẩn không lọt được nhưng dịch đi qua, gọi là gì?",
+"A. Vi lậu",
+"B. Siêu lậu",
+"C. Lớp lai",
+"D. Lớp mùn ngà",
+"16"
+],
+"note": "Mỗi câu ứng với một nguyên tắc quan trọng của bài. 16"
+},
+{
+"n": 17,
+"text": [
+"Đáp án",
+"Câu 1: C. Niken",
+"Niken gây dị ứng 10–20% dân số, nhiều ở nữ; titan chỉ khoảng 4,2%.",
+"Câu 2: D. Loại IV",
+"Đây là quá mẫn muộn loại IV, qua tế bào lympho T, biểu hiện viêm da tiếp xúc.",
+"Câu 3: B. Siêu lậu",
+"Siêu lậu do nhựa không thấm hết khung collagen; làm giảm tuổi thọ liên kết.",
+"17"
+],
+"note": "Nhắc lại: niken, quá mẫn loại IV và phân biệt vi lậu với siêu lậu. 17"
+},
+{
+"n": 18,
+"text": [
+"Ghi nhớ cả bài",
+"Tương hợp phụ thuộc thành phần, vị trí, thời gian, bề mặt, chất phân giải",
+"Đánh bóng kỹ giúp giảm nhả ion và mảng bám",
+"Vi lậu vài µm (vi khuẩn lọt); siêu lậu dưới 0,1 µm (chỉ dịch)",
+"Kim loại, monome: quá mẫn loại IV; latex: loại I",
+"Niken dị ứng nhiều nhất (10–20%), dị ứng chéo palladium",
+"Bery gây viêm phổi ở kỹ thuật viên labo",
+"Amalgam 1–3 µg/ngày, chưa có bằng chứng gây hại; methyl thủy ngân độc nhất",
+"Sứ, zirconia tương hợp tốt nhất; tránh APF với sứ",
+"HEMA là dị nguyên nhựa; monome xuyên qua găng",
+"HF: rửa ngay, gel canxi gluconat (trừ mắt), đi khám"
+],
+"note": "Mười ý tóm tắt cho phần tương hợp sinh học, sẽ gặp lại ở hầu hết các bài sau. 18"
+}
+],
+"3": [
+{
+"n": 1,
+"text": [
+"VẬT LIỆU NHA KHOA · BÀI 3",
+"Cấu trúc vật chất và nguyên tắc dính",
+"Liên kết nguyên tử, cấu trúc tinh thể, khuếch tán và cơ sở của hiện tượng dính, dán",
+"Ôn Luyện Nha Khoa · biên soạn theo giáo trình Vật liệu nha khoa ứng dụng (ĐH Văn Lang, 2023)"
+],
+"note": "Bài nền tảng hóa lý: từ cách nguyên tử liên kết và sắp xếp, ta giải thích được tính chất của từng nhóm vật liệu và vì sao phải xoi mòn men trước khi dán. 1"
+},
+{
+"n": 2,
+"text": [
+"Học xong bài này, bạn sẽ",
+"1",
+"Trình bày 3 liên kết sơ cấp và 2 liên kết thứ cấp",
+"2",
+"Trình bày các cấu trúc tinh thể thường gặp trong vật liệu nha khoa",
+"3",
+"Giải thích khuếch tán và vai trò của nó",
+"4",
+"Giải thích dính và dán dựa trên năng lượng bề mặt và góc tiếp xúc",
+"Hiểu nhanh",
+"Mọi tính chất của vật liệu (cứng hay mềm, dẫn nhiệt hay cách nhiệt, nóng chảy ở bao nhiêu độ, có dính vào răng không) đều bắt nguồn từ cách nguyên tử liên kết và sắp xếp.",
+"Bài này giải thích vì sao:",
+"kim loại cản quang",
+"amalgam đông cứng ngay trong miệng",
+"phải xoi mòn men trước khi dán composite",
+"2"
+],
+"note": "Đây là bài lý thuyết nền, hãy gắn mỗi khái niệm với một ví dụ nha khoa cụ thể để dễ nhớ. 2"
+},
+{
+"n": 3,
+"text": [
+"Nguyên tử và trạng thái vật chất",
+"Nguyên tử gồm hạt nhân (proton dương, neutron) và đám mây electron mang điện âm",
+"Nhận thêm electron thành ion âm; mất electron thành ion dương",
+"Khi động năng phân tử giảm: hơi → lỏng → rắn",
+"Nhiệt nóng chảy tiềm ẩn: năng lượng cần để chuyển rắn sang lỏng, tại nhiệt độ nóng chảy",
+"Nhiệt bốc hơi: năng lượng chuyển lỏng sang hơi; thăng hoa ít ý nghĩa với vật liệu nha khoa",
+"Mô hình đám mây điện tử của nguyên tử",
+"3"
+],
+"note": "Từ \"atom\" xuất phát từ a'tomos của Democritus, nghĩa là không thể chia cắt. 3"
+},
+{
+"n": 4,
+"text": [
+"Ba liên kết sơ cấp (liên kết hóa học)",
+"Nguyên tử bền khi có 8 electron lớp ngoài, nên phải cho, nhận hoặc chia sẻ electron",
+"Ion: một bên cho, một bên nhận electron (Na⁺Cl⁻). Nha khoa: thạch cao, xi măng phosphat",
+"Cộng hóa trị: hai nguyên tử dùng chung electron. Nha khoa: nhựa resin",
+"Kim loại: electron hóa trị thành đám mây điện tử tự do quanh các ion dương",
+"Có thể phối hợp: trong CaSO₄, Ca²⁺ – SO₄²⁻ là liên kết ion, bên trong SO₄²⁻ là cộng hóa trị",
+"Liên kết ion (A), cộng hóa trị (B) và kim loại (C)",
+"Mẹo nhớ: \"Ion – cho nhận; cộng hóa trị – chia sẻ; kim loại – electron tự do.\"",
+"4"
+],
+"note": "Ba liên kết này đều mạnh, là gốc của độ cứng và nhiệt độ nóng chảy cao của sứ và kim loại. 4"
+},
+{
+"n": 5,
+"text": [
+"Electron tự do: 3 tính chất đặc trưng của kim loại",
+"Dẫn nhiệt, dẫn điện",
+"Electron tự do di chuyển dễ dàng mang theo nhiệt và điện. Vì vậy miếng trám kim loại sâu cần lót cách nhiệt để bảo vệ tủy.",
+"Cản quang",
+"Electron hấp thụ ánh sáng và tia X nên kim loại không truyền sáng, hiện trắng rõ trên phim X quang.",
+"Dẻo, không gãy giòn",
+"Khi các lớp nguyên tử trượt lên nhau, electron tự do tái tổ hợp giữ gắn kết, nên kim loại uốn được mà không vỡ.",
+"Vì sao: Sứ cũng có liên kết mạnh nhưng là ion, cộng hóa trị định hướng: lớp nguyên tử không trượt được nên sứ giòn, dễ vỡ.",
+"5"
+],
+"note": "Đây là ý hay hỏi: liên kết kim loại giải thích cùng lúc ba tính chất dẫn điện nhiệt, cản quang và dẻo. 5"
+},
+{
+"n": 6,
+"text": [
+"Liên kết thứ cấp: van der Waals và liên kết hydro",
+"Không chia sẻ electron, chỉ do lưỡng cực; yếu hơn liên kết sơ cấp nhiều",
+"Lực van der Waals gồm 3 loại:",
+"định hướng: giữa các phân tử phân cực",
+"cảm ứng: phân tử phân cực làm phân tử bên cạnh phân cực theo",
+"khuếch tán: lưỡng cực tạm thời, có cả ở khí trơ",
+"Liên kết hydro: đầu H dương của phân tử này hút đầu O âm của phân tử khác (như nước)",
+"Lực lưỡng cực (trái) và liên kết hydro giữa các phân tử nước (phải)",
+"Liên hệ lâm sàng: Liên kết hydro giải thích vì sao nhựa resin hút nước, làm nhựa mềm và đổi màu theo thời gian.",
+"6"
+],
+"note": "Liên kết thứ cấp giữ các chuỗi polyme lại với nhau khi không có liên kết ngang. 6"
+},
+{
+"n": 7,
+"text": [
+"Cấu trúc tinh thể",
+"Ở thể rắn, nguyên tử xếp sao cho năng lượng nội tại thấp nhất, tạo mạng lặp lại đều đặn gọi là tinh thể",
+"Ô tinh thể là khối nhỏ nhất lặp lại; hầu hết tinh thể có vị trí trống",
+"Lập phương tâm khối: sắt ở nhiệt độ phòng",
+"Lập phương tâm diện: đồng",
+"Lục giác xếp chặt: titan, kẽm, zirconium",
+"Mọi kim loại nha khoa đều là tinh thể; sứ alumina và zirconia cũng vậy",
+"Lập phương đơn (A), tâm khối (B) và tâm diện (C)",
+"Mẹo nhớ: \"Sắt – tâm khối, đồng – tâm diện, titan – lục giác.\"",
+"7"
+],
+"note": "Robert Hooke năm 1665 mô tả tinh thể như những quả bóng xếp trong giỏ, mô hình đúng với nhiều kim loại. 7"
+},
+{
+"n": 8,
+"text": [
+"Cấu trúc vô định hình và nhiệt độ Tg",
+"Thủy tinh chỉ có trật tự cục bộ, không lặp lại đều; còn gọi là \"chất lỏng siêu lạnh\"",
+"Nhựa resin, sáp đông lại cũng vô định hình",
+"Không có nhiệt độ nóng chảy cụ thể mà mềm dần; mốc quan trọng là nhiệt độ chuyển tiếp thủy tinh (Tg)",
+"Dưới Tg vật liệu cứng; resin đã đông cứng có Tg cao hơn nhiệt độ cơ thể",
+"Nhiều vật liệu là khuôn thủy tinh + tinh thể vùi (sứ, composite) để tăng độ đục, cản quang",
+"SiO₂ dạng tinh thể (A) và vô định hình (B)",
+"8"
+],
+"note": "Ví dụ composite: khuôn nhựa vô định hình chứa hạt độn thạch anh tinh thể. 8"
+},
+{
+"n": 9,
+"text": [
+"Khoảng cách liên kết và năng lượng nhiệt",
+"Giữa hai nguyên tử có lực hút và lực đẩy; khi rất gần, lực đẩy tăng nhanh hơn",
+"Khoảng cách cân bằng: hai lực bằng nhau, năng lượng thấp nhất",
+"Trên 0 K nguyên tử luôn dao động; nóng lên thì dao động rộng hơn nên vật liệu giãn nở",
+"Liên kết mạnh (giếng sâu và hẹp) thì:",
+"giãn nở nhiệt thấp, nóng chảy cao, cứng hơn",
+"Giếng năng lượng sâu (A) so với giếng nông (B)",
+"Liên hệ lâm sàng: Sứ liên kết mạnh nên giãn nở ít, nóng chảy cao; sáp liên kết yếu nên giãn nở rất mạnh và mềm ở nhiệt độ thấp.",
+"9"
+],
+"note": "Mối liên hệ này giải thích vì sao phải chọn sứ và kim loại có hệ số giãn nở phù hợp nhau trong phục hình sứ kim loại. 9"
+},
+{
+"n": 10,
+"text": [
+"Khuếch tán",
+"Giọt mực lan trong nước là khuếch tán. Trong chất rắn cũng có khuếch tán, nhưng chậm hơn nhiều.",
+"Vì sao xảy ra?",
+"Một số nguyên tử có năng lượng vượt năng lượng liên kết nên \"nhảy\" sang chỗ khác",
+"Mạng tinh thể có sẵn vị trí trống",
+"Có thể làm nồng độ đồng đều hoặc làm nguyên tử tập trung, kết tủa",
+"Nhanh hay chậm?",
+"Nhanh hơn khi: nhiệt độ cao, chênh lệch nồng độ lớn, mạng kém ổn định",
+"Chậm hơn khi: nguyên tử lớn, liên kết mạnh",
+"Kim loại nóng chảy thấp và vật liệu vô định hình khuếch tán nhanh hơn",
+"Vì sao: Amalgam đông cứng trong miệng vì thủy ngân lỏng (nóng chảy ở −38,36°C): bột hợp kim hòa tan và khuếch tán rất nhanh vào Hg, tạo hợp chất kim loại rắn mới.",
+"10"
+],
+"note": "Gallium (nóng chảy 29,78°C) cũng lỏng gần nhiệt độ phòng và có thể thay thủy ngân trong một số hợp kim trám. 10"
+},
+{
+"n": 11,
+"text": [
+"Dính và dán trong nha khoa",
+"Dính bám (adhesion): phân tử của hai chất khác nhau hút nhau",
+"Dính kết (cohesion): phân tử cùng loại hút nhau",
+"Chất dính là vật liệu dùng để dán; vật dính là vật được dán",
+"Ví dụ: hàm giả bám niêm mạc nhờ nước bọt; mảng bám bám men; implant ổn định nhờ lưu giữ cơ học rồi tích hợp xương",
+"Hàm giả dính nhờ nước bọt, mảng bám thành vôi răng, implant tích hợp xương",
+"11"
+],
+"note": "Phân biệt hai thuật ngữ adhesion và cohesion vì hay ra trắc nghiệm. 11"
+},
+{
+"n": 12,
+"text": [
+"Năng lượng bề mặt",
+"92",
+"mJ/m²: năng lượng bề mặt của men răng, cao hơn hầu hết vật liệu",
+"Nguyên tử ở bề mặt không được hút đều mọi phía nên có năng lượng cao hơn bên trong",
+"Tạp chất (oxy hấp phụ, nước bọt) làm giảm năng lượng bề mặt và chất lượng dán",
+"Vật liệu",
+"mJ/m²",
+"Men răng",
+"92",
+"Ngà răng",
+"87",
+"Hợp kim vàng",
+"51–54",
+"Titan",
+"50",
+"Nhựa nền hàm",
+"46–54",
+"Keo dán ngà",
+"34–55",
+"Nước (25°C)",
+"72",
+"Teflon",
+"20",
+"12"
+],
+"note": "Bề mặt năng lượng cao sẵn sàng hút phân tử khác, nên dễ dán. Teflon và sáp năng lượng rất thấp nên gần như không gì dính được. 12"
+},
+{
+"n": 13,
+"text": [
+"Thấm ướt: điều kiện đầu tiên để dính",
+"Hai tấm kính ép vào nhau không dính: ở mức nguyên tử chúng chỉ chạm nhau vài điểm (lực hút mất khi cách xa hơn 0,7 nm)",
+"Nhỏ một giọt nước vào giữa thì rất khó tách: chất lỏng lấp kín chỗ gồ ghề, tạo lực mao dẫn",
+"Chất dính phải lan rộng được trên bề mặt (thấm ướt); không thấm ướt thì gần như không dính",
+"Bề mặt sạch là điều kiện tiên quyết",
+"Màng nước kéo hai tấm kính sát lại nhờ mao dẫn",
+"Mẹo nhớ: Chất lỏng năng lượng bề mặt thấp lan tốt trên chất rắn năng lượng bề mặt cao.",
+"13"
+],
+"note": "Ví dụ thực tế: hàm giả toàn hàm hàm trên bám được nhờ lớp nước bọt mỏng giữa nền hàm và niêm mạc. 13"
+},
+{
+"n": 14,
+"text": [
+"Góc tiếp xúc",
+"Giọt lỏng trên mặt rắn tạo góc tiếp xúc θ tại chỗ gặp nhau của khí, lỏng, rắn",
+"θ càng nhỏ, thấm ướt càng tốt: 0° ướt hoàn toàn, 180° không ướt",
+"Ví dụ: amalgam 77°, nhựa nền hàm 75°, titan 54°, silicone ngưng tụ 82–103°",
+"Quan hệ các năng lượng giao diện mô tả bằng phương trình Young",
+"Nước trên kính sạch (0°), nhựa acrylic (75°), teflon (110°)",
+"Liên hệ lâm sàng: Silicone lấy dấu kỵ nước (góc > 90°) nên đổ thạch cao dễ bọt. Nhà sản xuất thêm chất hoạt diện để silicone \"ưa nước\".",
+"14"
+],
+"note": "Phương trình Young giả định bề mặt phẳng hoàn hảo; thực tế độ gồ ghề và tạp chất làm góc lệch đi. 14"
+},
+{
+"n": 15,
+"text": [
+"Lưu giữ vi cơ học và xoi mòn men",
+"Xi măng gắn truyền thống (phosphat kẽm, carboxylat) chảy vào chỗ gồ ghề rồi đông cứng, tạo neo chặn vi cơ học",
+"Composite trước đây không dán bền: rò rỉ bờ, nhiễm màu, sâu tái phát",
+"Xoi mòn men bằng acid phosphoric (dưới 60 giây rồi rửa sạch):",
+"tạo vi ngàm cho lưu giữ vi cơ học",
+"làm sạch, tăng diện tích và năng lượng bề mặt",
+"Chỗ gồ ghề có thể kẹt bọt khí; ứng suất tập trung quanh đó làm bong phục hồi",
+"Bọt khí kẹt trong chỗ gồ ghề dưới lớp keo dán",
+"15"
+],
+"note": "Đây là cầu nối sang Bài 14 Dán nha khoa: men xoi mòn cho vi ngàm, còn ngà cần thêm primer và lớp lai. 15"
+},
+{
+"n": 16,
+"text": [
+"Dán vào cấu trúc răng: khó ở đâu?",
+"Răng không đồng nhất",
+"Men nhiều khoáng, ngà nhiều chất hữu cơ. Dính tốt vào men chưa chắc dính tốt vào ngà.",
+"Bề mặt sau sửa soạn",
+"Thô ráp, đầy mùn ngà, dễ nhốt bọt khí; phải xử lý bề mặt và tránh nhiễm nước bọt.",
+"Ngà luôn ẩm",
+"Dịch ống ngà làm keo phải cạnh tranh với nước. Vì vậy keo dán hiện nay được thiết kế ưa nước và có nhóm chức phản ứng hóa học với răng.",
+"Vì sao: Mục tiêu tương lai: keo dán tạo màng mỏng bền trên răng nguyên vẹn, không cần lưu giữ cơ học, giúp ngăn mảng bám và sâu răng.",
+"16"
+],
+"note": "Ba khó khăn này là lý do keo dán ngà phức tạp hơn nhiều so với xoi mòn men. 16"
+},
+{
+"n": 17,
+"text": [
+"Câu hỏi nhanh",
+"1",
+"Liên kết nào giải thích việc kim loại dẫn điện, cản quang và dẻo?",
+"A. Liên kết ion",
+"B. Liên kết cộng hóa trị",
+"C. Liên kết kim loại",
+"D. Liên kết hydro",
+"2",
+"Titan có cấu trúc tinh thể nào?",
+"A. Lập phương tâm khối",
+"B. Lập phương tâm diện",
+"C. Lục giác xếp chặt",
+"D. Vô định hình",
+"3",
+"Góc tiếp xúc nhỏ có ý nghĩa gì?",
+"A. Thấm ướt kém",
+"B. Thấm ướt tốt",
+"C. Năng lượng bề mặt thấp",
+"D. Không liên quan dính",
+"17"
+],
+"note": "Ba câu tương ứng ba phần chính: liên kết, tinh thể, dính. 17"
+},
+{
+"n": 18,
+"text": [
+"Đáp án",
+"Câu 1: C. Liên kết kim loại",
+"Đám mây electron tự do của liên kết kim loại giải thích cả ba tính chất.",
+"Câu 2: C. Lục giác xếp chặt",
+"Titan, kẽm, zirconium có cấu trúc lục giác xếp chặt; sắt tâm khối, đồng tâm diện.",
+"Câu 3: B. Thấm ướt tốt",
+"Góc tiếp xúc càng nhỏ thì chất lỏng lan càng tốt, dính càng dễ.",
+"18"
+],
+"note": "Nhấn mạnh: electron tự do, lục giác xếp chặt, và góc tiếp xúc nhỏ là thấm ướt tốt. 18"
+},
+{
+"n": 19,
+"text": [
+"Ghi nhớ cả bài",
+"Sơ cấp: ion (thạch cao), cộng hóa trị (resin), kim loại",
+"Electron tự do: dẫn điện nhiệt, cản quang, dẻo",
+"Thứ cấp: van der Waals, liên kết hydro (nhựa hút nước)",
+"Sắt tâm khối, đồng tâm diện, titan lục giác",
+"Thủy tinh, resin, sáp vô định hình, có Tg",
+"Liên kết mạnh: giãn nở ít, nóng chảy cao, cứng",
+"Khuếch tán là nguyên lý đông cứng amalgam",
+"Men 92, ngà 87, teflon 20 mJ/m²",
+"Dính tốt: bề mặt sạch, năng lượng cao, góc tiếp xúc nhỏ",
+"Xoi mòn men tạo vi ngàm; ngà ẩm nên keo phải ưa nước"
+],
+"note": "Mười ý chính về nền tảng hóa lý, sẽ dùng lại ở bài Tính chất, Hợp kim và Dán nha khoa. 19"
+}
+],
+"4": [
+{
+"n": 1,
+"text": [
+"VẬT LIỆU NHA KHOA · BÀI 4",
+"Polymer nha khoa",
+"Cấu trúc, tính chất, phản ứng trùng hợp và các nhựa acrylic dùng trong nha khoa",
+"Ôn Luyện Nha Khoa · biên soạn theo giáo trình Vật liệu nha khoa ứng dụng (ĐH Văn Lang, 2023)"
+],
+"note": "Polymer có mặt ở gần như mọi chuyên ngành nha khoa. Bài này là nền tảng để học composite, keo dán, nhựa nền hàm và vật liệu lấy dấu. 1"
+},
+{
+"n": 2,
+"text": [
+"Học xong bài này, bạn sẽ",
+"1",
+"Trình bày thành phần và tính chất cơ bản của polymer",
+"2",
+"Nêu các tiêu chí chọn polymer trong nha khoa",
+"3",
+"Trình bày tính chất cơ học, vật lý và lưu ý lâm sàng",
+"4",
+"Giải thích phản ứng trùng hợp: khởi tạo, lan truyền, chuyển chuỗi, kết thúc",
+"5",
+"Trình bày nhựa acrylic: MMA, PMMA, bis-GMA, TEGDMA, UDMA",
+"Hiểu nhanh",
+"Polymer là những chuỗi rất dài nối từ phân tử nhỏ (monome).",
+"Dạng monome: lỏng, dễ tạo hình",
+"Sau trùng hợp: rắn vĩnh viễn",
+"Chuỗi càng dài, càng nhiều liên kết ngang thì vật liệu càng cứng, bền, khó tan.",
+"2"
+],
+"note": "Giữ hình ảnh chuỗi hạt: chuỗi dài, đan vào nhau, có cầu nối ngang thì khó kéo tuột. 2"
+},
+{
+"n": 3,
+"text": [
+"Polymer ở khắp nơi trong nha khoa",
+"Nhựa nhiệt dẻo mềm lại khi nóng (dùng lại được); nhựa nhiệt đông không mềm lại; vật liệu đàn hồi biến dạng lớn rồi trở lại.",
+"Lĩnh vực",
+"Ứng dụng",
+"Phục hình",
+"Nền hàm, vật liệu đệm, khay cá nhân, vật liệu lấy dấu, phục hồi tạm, phục hình hàm mặt",
+"Phục hồi",
+"Keo dán, composite, xi măng nhựa, glass-ionomer, sealant, veneer",
+"Chỉnh nha",
+"Mắc cài, keo dán mắc cài, thun tách kẽ",
+"Nội nha",
+"Côn gutta-percha, sealer trám bít ống tủy, đê cao su",
+"Thiết bị",
+"Chén trộn, bay trộn, máng bảo vệ, kính bảo hộ",
+"3"
+],
+"note": "Hầu như không có chuyên ngành nào thiếu polymer, nên hiểu polymer giúp hiểu rất nhiều vật liệu khác. 3"
+},
+{
+"n": 4,
+"text": [
+"Lịch sử polymer nha khoa",
+"Năm",
+"Mốc",
+"1853",
+"Nền hàm cao su lưu hóa; celluloid thử dùng nhưng đổi màu, có mùi. Cao su nay vẫn làm găng, đê cao su",
+"1890s",
+"Gutta-percha làm mão tạm, vật liệu trám, vật liệu nội nha (vẫn dùng đến nay)",
+"Thế kỷ XX",
+"Polysulfide, silicone, polyether: vật liệu lấy dấu",
+"1936",
+"PMMA ra đời, làm nền hàm thành công",
+"Giữa 1940s",
+"Methacrylate trùng hợp ở nhiệt độ phòng: nhựa tự cứng",
+"Cuối 1950s",
+"Ray Bowen: monome bis-GMA + hạt độn ceramic = composite",
+"Sau đó",
+"Quang trùng hợp (ánh sáng xanh), hạt nano, silorane mở vòng giảm co ngót",
+"Mẹo nhớ: 1853 cao su → 1890 gutta-percha → 1936 PMMA → 1950s Bowen, bis-GMA, composite.",
+"4"
+],
+"note": "Nhớ bốn mốc in đậm là đủ cho phần lịch sử. 4"
+},
+{
+"n": 5,
+"text": [
+"Chiều dài chuỗi và trọng lượng phân tử",
+"Chuỗi càng dài càng nhiều điểm vướng víu nên khó biến dạng: độ cứng, độ bền, nhiệt độ nóng chảy tăng",
+"Polymer nha khoa có trọng lượng trung bình (Mn) khoảng 8.000–39.000",
+"Cần khoảng 150–200 đơn vị lặp lại mới có độ bền cơ học; dài hơn nữa thì bền thêm ít",
+"Monome còn sót làm giảm mạnh trọng lượng phân tử trung bình và có thể gây dị ứng",
+"Chỉ 0,9% monome dư làm Mn giảm từ 22.400 còn ~7.300",
+"Trọng lượng phân tử tăng: từ hơi, lỏng đến mềm, cứng rồi giòn",
+"5"
+],
+"note": "Chỉ số đa phân tán Mw/Mn càng cao thì vật liệu nóng chảy ở nhiệt độ thấp hơn và khoảng nóng chảy rộng hơn. 5"
+},
+{
+"n": 6,
+"text": [
+"Phân nhánh, liên kết ngang và copolymer",
+"Nhánh chỉ nối tạm, dễ tách; liên kết ngang là liên kết hóa học, cần năng lượng lớn để phá",
+"Liên kết ngang tạo mạng 3 chiều: tăng độ cứng, kháng tan trong dung môi, tăng Tg (nhưng ít tăng độ bền)",
+"Copolymer là polymer từ hai monome trở lên:",
+"ngẫu nhiên (ABBAB…), khối (AAABBB…), ghép nối (nhánh B gắn vào chuỗi A)",
+"Chuỗi thẳng, chuỗi nhánh và chuỗi liên kết ngang",
+"Liên hệ lâm sàng: Răng acrylic được tạo nhiều liên kết ngang nên kháng dung môi, kháng rạn nứt bề mặt tốt hơn nhựa nền hàm.",
+"6"
+],
+"note": "Liên kết ngang là chìa khóa để nhựa không tan trong cồn, nước súc miệng và giữ ổn định kích thước. 6"
+},
+{
+"n": 7,
+"text": [
+"Tổ chức phân tử: vô định hình và tinh thể",
+"Vô định hình: chuỗi xoắn ngẫu nhiên, đan hỗn loạn",
+"Tinh thể: chuỗi xếp có trật tự; hầu hết polymer có cả hai vùng",
+"Vùng tinh thể làm tăng độ bền, độ cứng, nhiệt độ nóng chảy nhưng giòn hơn",
+"Các yếu tố cản trở kết tinh:",
+"đồng trùng hợp, phân nhánh, nhóm thế lớn, chất làm dẻo",
+"Polymer vô định hình (trái) và có vùng tinh thể (phải)",
+"7"
+],
+"note": "Nhựa nha khoa phần lớn vô định hình nên trong suốt và dễ nhuộm màu. 7"
+},
+{
+"n": 8,
+"text": [
+"6 tiêu chí chọn polymer nha khoa",
+"Bền",
+"Đủ bền, đàn hồi chống lực nhai; kháng nứt, mỏi; ổn định kích thước.",
+"Dễ thao tác",
+"Dễ trộn, tạo hình, trùng hợp nhanh; ít bị ảnh hưởng bởi oxy, nước bọt, máu.",
+"Đẹp",
+"Trong suốt hoặc trong mờ như mô thay thế; nhuộm được màu và màu bền.",
+"Trơ",
+"Ổn định hóa học trong môi trường miệng luôn thay đổi.",
+"Lành",
+"Không mùi, vị, độc, kích ứng; không tan trong nước bọt; vật liệu trám phải đông nhanh, dính răng.",
+"Rẻ",
+"Nhựa và cách chế tác rẻ, không cần thiết bị đắt tiền.",
+"Mẹo nhớ: \"Bền – Dễ – Đẹp – Trơ – Lành – Rẻ.\" Không polymer nào đạt hết; mỗi sản phẩm là một sự cân bằng.",
+"8"
+],
+"note": "Sáu tiêu chí này dùng để so sánh mọi loại nhựa sẽ học ở Bài 15 Polyme phục hình. 8"
+},
+{
+"n": 9,
+"text": [
+"Biến dạng và phục hồi của polymer",
+"Đàn hồi: chuỗi giãn ra rồi co lại như lò xo, phục hồi nhanh và hoàn toàn",
+"Dẻo: chuỗi trượt lên nhau, biến dạng vĩnh viễn",
+"Nhớt đàn hồi: kết hợp cả hai; chỉ phần đàn hồi phục hồi và cần thời gian",
+"Không có liên kết ngang, chuỗi chỉ được giữ bằng van der Waals, liên kết hydro",
+"Nhánh và liên kết ngang cản trở chảy dẻo",
+"Hồi phục đàn hồi (trên) và nhớt đàn hồi (dưới)",
+"Liên hệ lâm sàng: Vật liệu lấy dấu là nhớt đàn hồi: gỡ dấu nhanh, dứt khoát để phần biến dạng vĩnh viễn ít nhất.",
+"9"
+],
+"note": "Ý lâm sàng này sẽ gặp lại ở Bài 18 Vật liệu lấy dấu. 9"
+},
+{
+"n": 10,
+"text": [
+"Tính tan và chất làm dẻo",
+"Polymer tan chậm",
+"Hấp thụ dung môi, phồng lên và mềm đi trước khi tan",
+"Chuỗi càng dài tan càng chậm; liên kết ngang nhiều thì không tan",
+"Nước chen giữa các chuỗi giúp chúng trượt dễ hơn (dẻo hóa)",
+"Trương phồng làm giảm độ khít của hàm giả",
+"Chất làm dẻo",
+"Giảm nhiệt độ làm mềm, làm nhựa mềm dẻo (như ống nước PVC cứng và ống dây PVC mềm)",
+"Làm dẻo ngoài: chất xen giữa phân tử (ít dùng)",
+"Làm dẻo trong: đồng trùng hợp, ví dụ thêm butyl methacrylate vào MMA",
+"Giảm độ bền, độ cứng → dùng làm nhựa mềm đệm hàm",
+"10"
+],
+"note": "Chất làm dẻo rò rỉ dần theo thời gian là lý do lớp đệm mềm cứng lại sau một thời gian dùng. 10"
+},
+{
+"n": 11,
+"text": [
+"Nhựa nhiệt dẻo và nhựa nhiệt đông",
+"Nhiệt dẻo",
+"Nhiệt đông",
+"Khi đun nóng",
+"Mềm ra, nguội lại cứng; dùng lại nhiều lần",
+"Thay đổi hóa học khi đông; không mềm lại",
+"Cấu trúc",
+"Chuỗi thẳng hoặc nhánh",
+"Có liên kết ngang",
+"Với dung môi",
+"Tan trong dung môi hữu cơ",
+"Không tan; nung quá thì phân hủy",
+"Đặc tính",
+"Mềm từ nhiệt độ Tg",
+"Chống mòn, ổn định kích thước tốt hơn",
+"Cảnh báo: Không ngâm hàm nhựa vào nước nóng để \"tiệt trùng\": nhựa có thể mềm, giải phóng ứng suất và vênh, mất khít sát.",
+"11"
+],
+"note": "Vật liệu lấy dấu đàn hồi là polymer ít liên kết ngang, Tg dưới nhiệt độ phòng nên linh hoạt và trở lại hình dạng khi gỡ qua vùng lẹm. 11"
+},
+{
+"n": 12,
+"text": [
+"Trùng hợp cộng thêm: 4 giai đoạn",
+"Hầu hết nhựa nha khoa trùng hợp theo kiểu này: monome lần lượt gắn vào đầu chuỗi đang lớn qua liên kết đôi C=C.",
+"1",
+"Khởi tạo",
+"Gốc tự do (R•) mở liên kết đôi của monome, biến nó thành gốc tự do mới. Gốc tự do sinh ra từ chất khơi mào (BPO).",
+"2",
+"Lan truyền",
+"Gốc tự do tấn công monome khác, chuỗi dài ra trong vài giây. Phản ứng tỏa nhiệt và không bao giờ hoàn toàn.",
+"3",
+"Chuyển chuỗi",
+"Gốc tự do chuyển sang phân tử khác, tạo gốc mới tiếp tục phát triển; chuỗi đã dừng có thể được tái kích hoạt.",
+"4",
+"Kết thúc",
+"Hai gốc tự do nối trực tiếp với nhau hoặc trao đổi hydro, chuỗi bất hoạt.",
+"Mẹo nhớ: \"Khởi – Lan – Chuyển – Kết.\" Gọi BPO là chất khơi mào, không phải xúc tác, vì nó trở thành một phần sản phẩm.",
+"12"
+],
+"note": "Ngoài mở liên kết đôi còn có trùng hợp mở vòng (imine trong polyether, epoxy trong silorane) với ưu điểm co ngót thấp hơn. 12"
+},
+{
+"n": 13,
+"text": [
+"Ba hệ thống khởi tạo",
+"Nhiệt: nhiệt bẻ gãy BPO (hoạt hóa nhanh ở 50–100°C). Dùng cho hầu hết nhựa nền hàm",
+"Hóa học (tự trùng hợp): amin bậc ba + BPO bẻ BPO ở nhiệt độ phòng, miệng. Hai thành phần để riêng khi bảo quản",
+"Ánh sáng (quang trùng hợp): ánh sáng xanh ~470 nm kích hoạt camphorquinone + amin. Dùng cho composite, keo dán",
+"Tạp chất trong monome kéo dài khởi tạo; nhiệt độ cao làm nhanh",
+"BPO bẻ gãy liên kết O–O tạo hai gốc tự do",
+"Liên hệ lâm sàng: Chiếu đèn sát và vuông góc, đủ thời gian. Để xa, chiếu xiên làm composite trùng hợp thiếu, mềm, đổi màu, kích ứng tủy.",
+"13"
+],
+"note": "Ban đầu quang trùng hợp dùng ánh sáng cực tím nhưng hại võng mạc, độ sâu thấp, nên đã chuyển sang ánh sáng xanh. 13"
+},
+{
+"n": 14,
+"text": [
+"Ức chế trùng hợp và trùng hợp ngưng tụ",
+"Chất ức chế",
+"Hydroquinone (≤ 0,006%) được cố ý thêm để nhựa không tự trùng hợp khi bảo quản và kéo dài thời gian làm việc",
+"Oxy phản ứng rất nhanh với gốc tự do, tạo lớp ức chế oxy chưa trùng hợp trên bề mặt",
+"Trùng hợp từng bước (ngưng tụ)",
+"Monome hai, ba chức nối nhau từng bước, sinh sản phẩm phụ (nước, rượu…)",
+"Phản ứng chậm, thường dừng trước khi chuỗi rất lớn",
+"Ví dụ: silicone ngưng tụ, polysulfide (vật liệu lấy dấu)",
+"Liên hệ lâm sàng: Không xịt hơi mạnh lên keo dán đang trùng hợp; dùng khuôn trám làm hàng rào oxy, giảm lớp ức chế bề mặt.",
+"14"
+],
+"note": "Sản phẩm phụ bay hơi là lý do silicone ngưng tụ co ngót sau khi đông và phải đổ mẫu sớm. 14"
+},
+{
+"n": 15,
+"text": [
+"So sánh hai kiểu trùng hợp",
+"Cộng thêm",
+"Từng bước (ngưng tụ)",
+"Kích hoạt",
+"Monome thêm tuần tự vào trung tâm hoạt động",
+"Monome hai, ba chức kích hoạt đồng thời",
+"Sản phẩm phụ",
+"Không",
+"Có (nước, rượu…)",
+"Kích thước phân tử",
+"Có thể khổng lồ",
+"Thường dừng trước khi rất lớn",
+"Ví dụ",
+"Methacrylate, composite, nhựa nền hàm",
+"Silicone ngưng tụ, polysulfide",
+"Vì sao: Đồng trùng hợp dùng hai monome trở lên để có tính chất mong muốn, ví dụ thêm ethylacrylate vào MMA để nền hàm dẻo dai, khó gãy hơn.",
+"15"
+],
+"note": "Polymer dạng khối hoặc ghép nối cải thiện độ bền va đập của nhựa nền hàm. 15"
+},
+{
+"n": 16,
+"text": [
+"MMA và PMMA",
+"MMA (monome)",
+"Chất lỏng trong suốt, dùng hòa tan bột PMMA khi làm nền hàm",
+"Sôi ở 100,8°C; là dung môi hữu cơ tốt",
+"Khi trùng hợp co ngót thể tích khoảng 21% → phải trộn bột PMMA đã trùng hợp sẵn để giảm co",
+"PMMA (polymer)",
+"Trong suốt, độ bền kéo ~60 MPa, mô đun ~2,4 GPa, Tg 125°C",
+"Dễ dùng, bền, nhuộm màu giống thật, dễ vệ sinh, an toàn",
+"Hút nước (nhóm carboxyl); chuỗi thẳng nên tan trong chloroform, aceton",
+"Vì sao: Nhánh este càng dài thì Tg càng thấp: methyl (PMMA) 125°C, ethyl 65°C, n-butyl 33°C. Vì vậy butyl methacrylate dùng để làm nhựa mềm hơn.",
+"16"
+],
+"note": "PMMA rất ổn định hóa học, không đổi màu dưới tia cực tím; trên 125°C bắt đầu phân hủy thành MMA. 16"
+},
+{
+"n": 17,
+"text": [
+"Methacrylate đa chức năng",
+"bis-GMA (nhựa Bowen): có hai nhóm OH tạo liên kết hydro → rất nhớt; lõi hai vòng thơm cứng",
+"TEGDMA: chuỗi polyether rất linh hoạt, độ nhớt thấp → pha với bis-GMA để loãng ra, tăng mức chuyển đổi",
+"UDMA: có nhóm urethane linh hoạt, lựa chọn giảm độ nhớt",
+"PENTA-P: nhóm phosphate xoi mòn men ngà → dùng trong keo dán ngà",
+"PAA ghép HEMA → GIC tăng cường nhựa; thay HEMA bằng monome acid → compomer",
+"bis-GMA (trên) và TEGDMA (dưới)",
+"Mẹo nhớ: \"bis-GMA đặc – TEGDMA loãng – UDMA vừa.\"",
+"17"
+],
+"note": "Mức độ chuyển đổi là phần trăm nhóm methacrylate đã phản ứng; quyết định hiệu quả trùng hợp và liên kết ngang của composite. 17"
+},
+{
+"n": 18,
+"text": [
+"Câu hỏi nhanh",
+"1",
+"Trong nhựa tự cứng, chất nào giúp bẻ gãy BPO ở nhiệt độ phòng?",
+"A. Hydroquinone",
+"B. Amin bậc ba",
+"C. Camphorquinone",
+"D. Oxy",
+"2",
+"Vì sao trộn bột PMMA vào monome MMA khi làm nền hàm?",
+"A. Tăng độ nhớt cho dễ đổ",
+"B. Giảm co ngót trùng hợp",
+"C. Tăng tốc độ phản ứng",
+"D. Làm nhựa trong hơn",
+"3",
+"Kiểu trùng hợp nào sinh sản phẩm phụ như nước hoặc rượu?",
+"A. Cộng thêm",
+"B. Mở vòng",
+"C. Từng bước (ngưng tụ)",
+"D. Quang trùng hợp",
+"18"
+],
+"note": "Ba câu bao quát hệ khởi tạo, nhựa acrylic và kiểu trùng hợp. 18"
+},
+{
+"n": 19,
+"text": [
+"Đáp án",
+"Câu 1: B. Amin bậc ba",
+"Amin bậc ba là chất hoạt hóa, giảm năng lượng cần để BPO tạo gốc tự do ở nhiệt độ phòng.",
+"Câu 2: B. Giảm co ngót trùng hợp",
+"MMA tinh khiết co khoảng 21%; dùng bột đã trùng hợp sẵn để giảm co ngót.",
+"Câu 3: C. Từng bước (ngưng tụ)",
+"Trùng hợp ngưng tụ sinh sản phẩm phụ; ví dụ silicone ngưng tụ sinh rượu.",
+"19"
+],
+"note": "Nhắc lại vai trò amin bậc ba, co ngót của MMA và sản phẩm phụ của trùng hợp ngưng tụ. 19"
+},
+{
+"n": 20,
+"text": [
+"Ghi nhớ cả bài",
+"Polymer = chuỗi dài từ monome",
+"Chuỗi dài, liên kết ngang nhiều: cứng, bền, khó tan, Tg cao",
+"Vùng tinh thể bền hơn nhưng giòn hơn",
+"Nhiệt dẻo mềm lại khi nung; nhiệt đông không tan",
+"Cộng thêm: khởi tạo – lan truyền – chuyển chuỗi – kết thúc",
+"Khởi tạo bằng nhiệt, amin + BPO, ánh sáng 470 nm",
+"Oxy, hydroquinone ức chế trùng hợp",
+"Ngưng tụ sinh sản phẩm phụ (silicone ngưng tụ)",
+"PMMA (1936), Tg 125°C; MMA co 21%",
+"bis-GMA nhớt, pha TEGDMA; UDMA thay thế"
+],
+"note": "Mười ý chính về polymer, nền tảng cho các bài composite, dán và polyme phục hình. 20"
+}
+],
+"5": [
+{
+"n": 1,
+"text": [
+"VẬT LIỆU NHA KHOA · BÀI 5",
+"Composite",
+"Thành phần, phân loại, tính chất và cách dùng composite trên lâm sàng",
+"Ôn Luyện Nha Khoa · biên soạn theo giáo trình Vật liệu nha khoa ứng dụng (ĐH Văn Lang, 2023)"
+],
+"note": "Bài 5 nói về composite, vật liệu trám thẩm mỹ dùng nhiều nhất hiện nay. Mục tiêu là hiểu composite được làm từ gì, vì sao mỗi loại có tính chất khác nhau và cách dùng để miếng trám bền. 1"
+},
+{
+"n": 2,
+"text": [
+"Học xong bài này, bạn sẽ",
+"1",
+"Phân tích được vai trò của từng thành phần trong composite",
+"2",
+"Phân loại composite theo kích thước hạt độn và theo chỉ định lâm sàng",
+"3",
+"Giải thích được các tính chất của composite và ý nghĩa của chúng trên lâm sàng",
+"4",
+"Trình bày kỹ thuật sử dụng: chiếu đèn, đắp lớp, hoàn tất và sửa chữa",
+"5",
+"Nắm được các tiến bộ công nghệ composite hiện nay",
+"Hiểu nhanh",
+"Composite giống bê tông:",
+"\"Xi măng\" là khuôn nhựa (bis-GMA, UDMA, TEGDMA)",
+"\"Đá sỏi\" là hạt độn vô cơ",
+"\"Chất dính sỏi vào xi măng\" là silane",
+"Thêm chất khơi mào để nhựa từ dạng nhão hoá cứng. Hầu như mọi tính chất (bền, bóng, co ngót, mòn, đổi màu) đều phụ thuộc lượng hạt độn, cỡ hạt và độ bám của hạt vào nhựa.",
+"2"
+],
+"note": "Giữ hình ảnh bê tông trong đầu suốt bài: nhựa là xi măng, hạt độn là đá sỏi, silane là chất kết dính giữa hai thứ. Gần như mọi câu hỏi về tính chất composite đều quy về hạt độn nhiều hay ít, to hay nhỏ và có dính chắc vào nhựa không. 2"
+},
+{
+"n": 3,
+"text": [
+"Từ silicat đến composite hiện đại",
+"Silicat (đầu thế kỷ XX) có ưu điểm nhả fluor nhưng mòn rất nhanh, chỉ tồn tại vài năm",
+"Nhựa acrylic (PMMA) thay thế silicat nhưng co ngót lớn và giãn nở nhiệt cao, tạo khe hở ở bờ miếng trám",
+"Thêm hạt thạch anh vào PMMA vẫn thất bại vì hạt độn không dính vào nhựa nên nước, vi khuẩn len vào",
+"1962, Bowen đưa ra bis-GMA và dùng silane gắn hạt độn vào nhựa: đây là nền tảng của composite hiện đại",
+"Sau đó lần lượt ra đời composite hạt nhỏ, micro, lai, nano, lỏng, nén và nguyên khối",
+"Lịch sử phát triển composite",
+"Vì sao: Amalgam là \"chuẩn tham chiếu vàng\" khi đánh giá composite.",
+"3"
+],
+"note": "Lịch sử cho thấy vấn đề cốt lõi: hạt độn phải dính vào nhựa. Chỉ khi Bowen dùng silane để nối hạt độn với bis-GMA thì composite mới bền được. Composite dần thay amalgam vì thẩm mỹ, lo ngại thủy ngân và chất thải. 3"
+},
+{
+"n": 4,
+"text": [
+"Khuôn nhựa: bis-GMA, UDMA và TEGDMA",
+"bis-GMA và UDMA là các monome phân tử lớn, mỗi phân tử ít liên kết đôi nên khi trùng hợp co ngót tương đối thấp",
+"Nhược điểm là rất nhớt: bis-GMA khoảng 800.000 cP, đặc như mật ong để trong tủ lạnh, khó trộn thêm hạt độn",
+"Vì vậy phải pha TEGDMA (chỉ 5–30 cP) để làm loãng:",
+"75% bis-GMA + 25% TEGDMA → 4.300 cP; tỷ lệ 50/50 → 200 cP",
+"Cái giá phải trả: TEGDMA càng nhiều thì co ngót càng lớn, dễ hở bờ miếng trám",
+"Cấu trúc bis-GMA (trên) và UDMA (dưới)",
+"Mẹo nhớ: Loãng thì dễ làm nhưng co nhiều.",
+"4"
+],
+"note": "Nhà sản xuất luôn phải cân bằng: monome lớn ít co nhưng đặc; monome nhỏ loãng nhưng co nhiều. Câu hỏi lâm sàng hay gặp: composite rất dễ thao tác mà hay hở bờ là do nhiều TEGDMA. 4"
+},
+{
+"n": 5,
+"text": [
+"Hạt độn: 6 chức năng",
+"Hạt độn chiếm 30–70% thể tích (50–85% trọng lượng): thạch anh, silica, thủy tinh chứa Ba, Sr, Zr…",
+"1",
+"Gia cố",
+"Tăng độ bền, mô đun đàn hồi và khả năng kháng gãy. Khi đạt khoảng 70% thể tích, composite kháng mòn gần bằng mô răng.",
+"2",
+"Giảm co ngót",
+"Hạt độn không tham gia trùng hợp nên chiếm chỗ của nhựa; composite chỉ còn co từ dưới 1% đến khoảng 4%.",
+"3",
+"Giảm giãn nở nhiệt",
+"Hệ số giãn nở gần với răng hơn, nên ít sinh ứng suất ở bờ khi bệnh nhân ăn đồ nóng, lạnh.",
+"4",
+"Kiểm soát độ nhớt",
+"Càng nhiều hạt độn, bột nhão càng đặc, dễ điêu khắc và ít chảy xệ khi đắp.",
+"5",
+"Giảm hút nước",
+"Ít nhựa hơn thì ít hút nước hơn, nên composite ít bị mềm và ít nhuộm màu theo thời gian.",
+"6",
+"Cản quang",
+"Nhờ nguyên tử nặng Ba, Sr, Zr, Yb, Zn. Độ cản quang nên bằng men (gấp đôi ngà) để nhìn thấy sâu tái phát trên phim.",
+"5"
+],
+"note": "Sáu chức năng này đều quay về một ý: hạt độn thay chỗ cho nhựa, mà nhựa là phần yếu, co và hút nước. Lưu ý thạch anh rất cứng, làm mòn răng đối diện và khó đánh bóng; silica vô định hình thì dễ đánh bóng hơn. 5"
+},
+{
+"n": 6,
+"text": [
+"Cỡ hạt độn quyết định độ nhớt",
+"Các quả cầu cùng cỡ chỉ xếp chặt được tối đa 74% thể tích, nên phải trộn nhiều cỡ hạt để hạt nhỏ lấp vào khe giữa hạt lớn",
+"Hạt càng nhỏ thì tổng diện tích bề mặt càng lớn, cần nhiều nhựa bao quanh hơn, nên độ nhớt tăng nhanh",
+"Vì vậy lượng hạt độn thực tế chỉ tối đa khoảng 80% thể tích",
+"Hạt lớn hơn bước sóng ánh sáng làm tán xạ ánh sáng, bề mặt thô ráp và dễ bám màu",
+"Chiết suất hạt độn phải gần bằng nhựa (khoảng 1,50) thì composite mới trong mờ như răng thật",
+"Hạt càng nhỏ, độ nhớt tăng càng nhanh",
+"6"
+],
+"note": "Mỗi hạt độn cần một lớp nhựa bao quanh. Hạt nhỏ thì nhiều bề mặt hơn nên \"uống\" nhiều nhựa hơn, hỗn hợp đặc lại. Đây là lý do composite micro chỉ chứa khoảng 50% hạt độn vô cơ. 6"
+},
+{
+"n": 7,
+"text": [
+"Silane và hệ khơi mào",
+"Silane (chất kết nối)",
+"Gắn hạt độn với nhựa, nhờ đó nhựa truyền ứng suất sang hạt độn cứng hơn",
+"Chặn nước thấm vào dọc mặt tiếp giáp hạt độn – nhựa",
+"Một đầu bám hạt độn bằng liên kết siloxan, đầu kia là nhóm methacrylate trùng hợp với nhựa",
+"Chất khơi mào",
+"Composite cứng lại nhờ trùng hợp gốc tự do",
+"Hóa trùng hợp: benzoyl peroxide + amin thơm",
+"Quang trùng hợp: camphorquinone + amin, kích hoạt bằng ánh sáng xanh 400–500 nm (mạnh nhất ở 468 nm)",
+"Chất ức chế (BHT 0,01%)",
+"Bắt các gốc tự do sinh ra ngoài ý muốn trong lúc bảo quản",
+"Nhờ vậy kéo dài tuổi thọ của ống composite và thời gian làm việc",
+"Chất màu, chất đục",
+"Oxit kim loại tạo màu; TiO₂, Al₂O₃ tạo độ đục",
+"Màu tối, đục cản ánh sáng, nên phải chiếu đèn lâu hơn hoặc đắp lớp mỏng hơn",
+"7"
+],
+"note": "Không có silane, hạt độn chỉ như những lỗ hổng trong nhựa và làm vật liệu yếu đi. Mức chuyển đổi của bis-GMA chỉ khoảng 50–60% nhưng không có nghĩa là còn nhiều monome tự do, vì phần lớn nhóm còn lại vẫn gắn trên chuỗi polyme. 7"
+},
+{
+"n": 8,
+"text": [
+"Hóa, quang hay lưỡng trùng hợp?",
+"Hóa trùng hợp",
+"Quang trùng hợp",
+"Khơi mào",
+"Benzoyl peroxide + amin thơm, trộn 2 bột nhão",
+"Camphorquinone + amin, chiếu ánh sáng xanh",
+"Ưu điểm",
+"Không cần đèn; trùng hợp đều cả khối; ứng suất ở giao diện thấp hơn",
+"Bác sĩ chủ động thời gian làm việc; ít bọt; màu ổn định; đắp được nhiều lớp, nhiều màu",
+"Nhược điểm",
+"Dễ kẹt bọt khí khi trộn; amin làm đổi màu; khó kiểm soát thời gian",
+"Chỉ trùng hợp sâu 2–3 mm mỗi lần; ứng suất cao hơn; cần đèn tốt",
+"Lớp dày 2 mm",
+"cứng sau vài phút",
+"cứng dưới 40 giây",
+"Liên hệ lâm sàng: Lưỡng trùng hợp có cả hai hệ, dùng khi đèn không chiếu tới được như dưới inlay, onlay, mão sứ.",
+"8"
+],
+"note": "Bề mặt composite luôn có một lớp mỏng chưa trùng hợp do oxy, gọi là lớp ức chế oxy. Lớp này lại có ích: nó giúp lớp composite đắp sau dính chắc vào lớp trước. 8"
+},
+{
+"n": 9,
+"text": [
+"Phân loại theo kích thước hạt độn",
+"Loại",
+"Hạt độn",
+"Đặc điểm",
+"Dùng cho",
+"Truyền thống",
+"8–40 µm",
+"Cơ tính tốt nhưng bề mặt nhám, khó đánh bóng",
+"vùng chịu lực (nay ít dùng)",
+"Hạt nhỏ",
+"0,1–10 µm",
+"Độn 77–88%, cứng, bền nhưng không bóng như gương",
+"răng trước",
+"Micro",
+"0,01–0,1 µm",
+"Bóng cao nhưng độn vô cơ chỉ ~50% nên yếu, hút nước nhiều",
+"xoang III, V",
+"Lai",
+"micro + hạt nhỏ",
+"Vừa bóng vừa bền, độn 75–80%",
+"răng trước, xoang IV",
+"Nano, nanohybrid",
+"1–100 nm",
+"Độn khoảng 78% trọng lượng, bóng và bền",
+"răng trước và răng sau",
+"Nguyên khối",
+"nanohybrid",
+"Giảm ứng suất, ánh sáng xuyên sâu hơn",
+"xoang sâu trên 4 mm",
+"Mẹo nhớ: \"Micro bóng mà yếu, hạt nhỏ bền mà nhám, lai lấy cả hai.\"",
+"9"
+],
+"note": "Composite micro dùng thêm hạt độn hữu cơ, tức là nhựa đã trùng hợp rồi nghiền nhỏ, nên liên kết với khuôn yếu và dễ mẻ. Khi mài chỉnh composite micro nên dùng mũi kim cương. 9"
+},
+{
+"n": 10,
+"text": [
+"Composite lai: vừa đẹp vừa chịu lực",
+"Composite lai phối hợp hạt micro (cho độ bóng) với hạt nhỏ (cho độ bền)",
+"Đủ bền để phục hồi xoang IV và cạnh cắn răng trước, nơi chịu lực cắn trực tiếp",
+"Đánh bóng được, giữ thẩm mỹ cao lâu dài",
+"Composite nanohybrid hiện đại dùng được cho cả răng trước và răng sau",
+"Răng cửa gãy cạnh cắn (A) và sau khi trám composite lai (B)",
+"Liên hệ lâm sàng: Vùng chịu lực (xoang I, II, IV) chọn composite lai, nanohybrid. Vùng không chịu lực (xoang III, V) có thể dùng composite micro.",
+"10"
+],
+"note": "Ca minh hoạ trong sách là gãy cạnh cắn răng cửa giữa, phục hồi bằng composite lai cho kết quả gần như răng thật. 10"
+},
+{
+"n": 11,
+"text": [
+"Phân loại theo lâm sàng",
+"Composite lỏng",
+"Độn 42–53% thể tích, chảy tốt, bơm được qua kim nhỏ",
+"Dùng làm lớp lót đáy xoang, trám xoang nhỏ, xoang V, răng sữa",
+"Nhược điểm: co ngót nhiều hơn và cơ tính kém hơn composite thường",
+"Composite nén",
+"Độn 66–70%, hạt dài hoặc phân nhánh nên không sụm, nhồi được như amalgam",
+"Dễ tạo điểm tiếp xúc bên ở xoang II",
+"Nhưng mất thời gian gấp đôi amalgam",
+"Composite tái tạo cùi",
+"Thường hóa trùng hợp, có màu tương phản để dễ phân biệt với răng",
+"Dán được vào ngà, cứng, xong trong một lần hẹn",
+"Lưu ý: một số loại không tương thích với keo dán quang trùng hợp",
+"Composite tạm và gián tiếp",
+"Composite tạm (Luxatemp, Protemp): tỏa nhiệt ít, kháng mòn tốt hơn nhựa acrylic",
+"Inlay, onlay composite gián tiếp: trùng hợp ngoài miệng nên mức chuyển đổi cao, gắn bằng xi măng nhựa",
+"11"
+],
+"note": "Composite tạm ít tỏa nhiệt nên an toàn cho tủy của răng vừa mài, đây là điểm hơn hẳn nhựa acrylic tạm. 11"
+},
+{
+"n": 12,
+"text": [
+"Co ngót trùng hợp và C-factor",
+"Khi trùng hợp, các monome xích lại gần nhau để liên kết nên khối composite co lại. Ứng suất co ngót phụ thuộc:",
+"1",
+"Thể tích composite",
+"Đắp càng nhiều composite trong một lần thì ứng suất kéo lên thành xoang càng lớn.",
+"2",
+"Loại composite",
+"Composite nhiều TEGDMA, ít hạt độn thì co nhiều hơn.",
+"3",
+"Tốc độ trùng hợp",
+"Trùng hợp quá nhanh thì nhựa không kịp chảy để tự giải tỏa ứng suất.",
+"4",
+"C-factor",
+"Tỷ lệ mặt được dán / mặt tự do. Xoang hộp nhiều thành dán có C-factor cao, ứng suất lớn.",
+"Cảnh báo: Hậu quả: bong dán, vi kẽ bờ, nhuộm màu, ê buốt và sâu thứ phát. Hay gặp nhất ở xoang II và V.",
+"12"
+],
+"note": "Hãy tưởng tượng composite như một tấm cao su bị dán chặt vào nhiều thành: càng nhiều thành dán thì khi co lại nó càng kéo mạnh vào chỗ dán. Composite dùng monome phân tử lớn và tăng hạt độn để giảm co ngót. 12"
+},
+{
+"n": 13,
+"text": [
+"Mòn và độ bền gãy",
+"Composite răng sau mòn khoảng 10–20 µm mỗi năm, tức sau 10 năm mất 0,1–0,2 mm",
+"Có hai kiểu mòn: mòn cơ học ở chỗ tiếp xúc múi răng và mòn hóa học do thức ăn ở vùng không tiếp xúc",
+"Composite có hạt độn nhỏ hơn 1 µm kháng mòn tốt nhất",
+"Silane gắn tốt thì vết nứt phải đi vòng qua hạt độn, tốn thêm năng lượng nên vật liệu bền hơn",
+"Khuôn nhựa liên kết ngang nhiều thì cứng hơn nhưng cũng giòn hơn",
+"Vết nứt bị \"làm cùn\" và dừng lại",
+"Liên hệ lâm sàng: Trám xoang II bằng composite cần rất thận trọng ở bệnh nhân nghiến răng và nguy cơ sâu cao.",
+"13"
+],
+"note": "Không có silane, mỗi hạt độn là một khoảng trống, giống như một vết nứt có sẵn. Hình minh hoạ cho thấy vết nứt khi chạm vào mặt tiếp giáp yếu có thể bị \"làm cùn\" và dừng lại. 13"
+},
+{
+"n": 14,
+"text": [
+"Nhiệt, nước và tương hợp sinh học",
+"Nhiệt",
+"Dẫn nhiệt kém nên cách nhiệt tốt cho tủy, ít ê buốt hơn amalgam",
+"Giãn nở nhiệt lớn hơn răng; composite càng ít hạt độn thì giãn nở càng nhiều",
+"Hút nước",
+"Nước làm composite đổi màu và thoái biến dần",
+"Composite lai hút ít (0,3–0,6 mg/cm²), composite micro hút nhiều (1,2–2,2 mg/cm²)",
+"Tương hợp sinh học",
+"Trùng hợp hoàn toàn thì tương đối an toàn",
+"Composite trùng hợp thiếu ở đáy xoang có thể nhả chất kích ứng tủy",
+"BPA (tiền chất bis-GMA): ảnh hưởng trên người còn tranh cãi",
+"Liên hệ lâm sàng: Chiếu đèn đủ năng lượng cho từng lớp là cách đơn giản nhất để composite vừa bền vừa an toàn với tủy.",
+"14"
+],
+"note": "BPA có hoạt tính giống estrogen, từng được phát hiện trong nước bọt một giờ sau khi trám sealant. Liều rất thấp nên tác động trên người chưa rõ, khuyến cáo hạn chế BPA-DM. 14"
+},
+{
+"n": 15,
+"text": [
+"Tuổi thọ: composite so với amalgam",
+"Amalgam ổn định nhất: sau 7 năm vẫn còn 94,5%",
+"Composite giảm còn 67,4% sau 7 năm, và kết quả chênh nhau nhiều giữa các nghiên cứu",
+"Nguyên nhân thất bại chính: sâu thứ phát, nứt gãy, hở bờ, mòn",
+"Một nghiên cứu khác: composite răng sau còn 91,7% sau 5 năm và 82,2% sau 10 năm",
+"Vì sao: Composite nhạy kỹ thuật: cách ly, đắp lớp, chiếu đèn đều ảnh hưởng tuổi thọ.",
+"15"
+],
+"note": "Biểu đồ không nói composite là vật liệu kém, mà cho thấy composite phụ thuộc tay nghề nhiều hơn. Làm đúng kỹ thuật thì tuổi thọ tốt hơn hẳn số trung bình. 15"
+},
+{
+"n": 16,
+"text": [
+"Giảm co ngót: 3 giải pháp",
+"Đắp từng lớp không quá 2 mm: mỗi lớp dán vào ít thành xoang hơn nên C-factor thấp, ứng suất nhỏ",
+"Chiếu đèn \"khởi đầu mềm\": bắt đầu cường độ thấp rồi tăng dần, cho nhựa kịp chảy để giải tỏa ứng suất",
+"Phục hồi gián tiếp (inlay, onlay composite): composite co ngót ngoài miệng, trong miệng chỉ còn lớp xi măng mỏng",
+"Thất bại hằng năm: inlay composite 1,9%, trám trực tiếp 3,6%",
+"Đắp từng lớp và hướng chiếu đèn",
+"Vì sao: Composite hóa trùng hợp ít ứng suất hơn vì cứng chậm, nhựa còn chảy được trước khi đông.",
+"16"
+],
+"note": "Ba giải pháp này đều dựa trên một nguyên tắc: cho nhựa thời gian hoặc không gian để co mà không kéo bung chỗ dán. 16"
+},
+{
+"n": 17,
+"text": [
+"Đèn quang trùng hợp: đủ năng lượng",
+"16 J/cm²",
+"năng lượng cần cho mỗi lớp composite dày 2 mm",
+"400 mW/cm² chiếu 40 giây",
+"800 mW/cm² chiếu 20 giây",
+"1.200 mW/cm² chiếu 13 giây",
+"Đèn",
+"Đặc điểm",
+"LED",
+"440–480 nm, không cần bộ lọc, ít nóng, chạy pin; dùng phổ biến nhất",
+"Halogen",
+"Cần lọc lấy 400–500 nm; bóng yếu dần theo thời gian nên phải đo định kỳ",
+"Plasma",
+"Dùng khí xenon ion hóa, cường độ cao",
+"Laser argon",
+"Cường độ cao nhất, một bước sóng ~490 nm",
+"Liên hệ lâm sàng: Ánh sáng chỉ làm cứng sâu 2–3 mm. Màu tối, đục hoặc chiếu xuyên qua răng thì phải tăng thời gian 2–3 lần.",
+"17"
+],
+"note": "Đèn mạnh rút ngắn thời gian nhưng trùng hợp quá nhanh làm tăng ứng suất dư. Nhiều đèn ở phòng khám không còn đủ cường độ vì bóng, bộ lọc, ống dẫn quang đã xuống cấp. 17"
+},
+{
+"n": 18,
+"text": [
+"4 lưu ý khi chiếu đèn",
+"1",
+"Đúng bước sóng",
+"Ánh sáng của đèn phải trùng với phổ hấp thụ của chất khơi mào (camphorquinone hấp thụ mạnh nhất ở 468 nm).",
+"2",
+"Thật gần",
+"Đặt đầu đèn càng gần càng tốt và giữ yên suốt thời gian chiếu, ít nhất 20 giây mỗi lớp.",
+"3",
+"Vuông góc",
+"Đầu đèn vuông góc với bề mặt composite để ánh sáng đi thẳng vào, không bị hắt ra ngoài.",
+"4",
+"Kiểm tra định kỳ",
+"Đo cường độ đèn thường xuyên để bảo đảm mỗi lớp nhận đủ 16 J/cm².",
+"Cảnh báo: Ánh sáng xanh (nhất là laser) có thể làm tổn thương võng mạc: không nhìn thẳng vào đèn, dùng kính lọc cho cả bác sĩ, trợ thủ và bệnh nhân.",
+"18"
+],
+"note": "Bốn lưu ý này là nguyên nhân hàng đầu khiến composite trùng hợp thiếu: đèn để xa, chiếu xiên, chiếu không đủ lâu hoặc đèn đã yếu. 18"
+},
+{
+"n": 19,
+"text": [
+"Hoàn tất và sửa chữa miếng trám",
+"1",
+"Đúng thời điểm",
+"Hoàn thiện ngay trong buổi hẹn, tốt nhất khoảng 15 phút sau trùng hợp. Hẹn lại tuần sau không tốt hơn.",
+"2",
+"Luôn có nước",
+"Đánh bóng khô làm nóng miếng trám và tăng vi kẽ, nên luôn tưới nước khi mài, đánh bóng.",
+"3",
+"Đúng dụng cụ",
+"Mặt nhai dùng mũi kim cương mịn hoặc carbide; mặt ngoài dùng đĩa phủ oxit từ thô đến mịn; mặt bên dùng băng nhám kẽ.",
+"4",
+"Phủ keo bề mặt",
+"Quét một lớp keo độ nhớt thấp sau khi đánh bóng để lấp các vết nứt nhỏ, giảm vi kẽ.",
+"Mẹo nhớ: Đắp thêm lên composite vừa trám: lớp ức chế oxy là \"keo dán\" sẵn. Sửa composite cũ: chỉ đạt khoảng ½ độ bền, phải mài nhám, xoi mòn, quét silane rồi mới đắp.",
+"19"
+],
+"note": "Bề mặt nhám là nơi mảng bám bám vào, gây sâu thứ phát, viêm nướu và nhuộm màu. Vì vậy hoàn tất kỹ quan trọng không kém trám. 19"
+},
+{
+"n": 20,
+"text": [
+"Composite răng sau: khi nào nên dùng?",
+"Nên dùng",
+"Bệnh nhân cần thẩm mỹ",
+"Muốn bảo tồn mô răng: composite dán vào răng nên không cần mài tạo lưu giữ",
+"Cần cách nhiệt: ít ê buốt hơn amalgam",
+"Xoang nhỏ hoặc vừa, cách ly được nước bọt tốt",
+"Không nên dùng",
+"Mất chất răng hơn 1/3 chiều rộng răng",
+"Bệnh nhân nghiến răng, có thói quen cận chức năng",
+"Không cách ly được nước bọt, máu",
+"Nguy cơ sâu răng cao (cần cân nhắc kỹ)",
+"Liên hệ lâm sàng: Thiếu một trong ba điều (xoang không quá lớn, lực nhai bình thường, cách ly tốt) thì amalgam hoặc phục hồi gián tiếp an toàn hơn.",
+"20"
+],
+"note": "Veneer nhựa trên kim loại dễ sửa, ít mòn răng đối diện nhưng dễ nhuộm màu và mòn khi chải răng, nên mặt nhai làm bằng kim loại và không dùng cho răng mang móc hàm tháo lắp. 20"
+},
+{
+"n": 21,
+"text": [
+"Tiến bộ công nghệ composite",
+"Hầu hết hướng cải tiến đều nhằm giảm co ngót trùng hợp, điểm yếu lớn nhất của composite:",
+"1",
+"Silorane (Filtek LS)",
+"Vòng epoxy mở ra khi trùng hợp nên chiếm thêm chỗ, bù lại co ngót.",
+"2",
+"Kalore (DX-511)",
+"Monome urethane phân tử rất lớn (895, so với bis-GMA 512) nên co ít hơn.",
+"3",
+"N'Durance",
+"Monome kỵ nước tách pha khi trùng hợp, sinh giãn nở nhẹ để bù co ngót.",
+"4",
+"Ormocer",
+"Gốm biến đổi hữu cơ, hạt 2–3 nm: co thấp, kháng mòn, tương hợp tốt.",
+"5",
+"POSS",
+"Phân tử silicat dạng lồng 12 cạnh, gia cố ở mức phân tử, vừa bóng vừa bền.",
+"6",
+"Alert",
+"Polycarbonate dimethacrylate dạng nén, trùng hợp được cả khối.",
+"21"
+],
+"note": "Không cần thuộc tên thương mại; chỉ cần nhớ mỗi hướng giải quyết co ngót bằng cách nào: mở vòng, phân tử lớn, tách pha, hoặc hạt nano lai. 21"
+},
+{
+"n": 22,
+"text": [
+"Câu hỏi nhanh",
+"1",
+"Composite có rất nhiều TEGDMA, dễ thao tác nhưng hay hở bờ. Giải thích hợp lý nhất?",
+"A. TEGDMA làm tăng co ngót trùng hợp",
+"B. TEGDMA làm độ nhớt tăng quá mức",
+"C. TEGDMA làm mất tính cản quang",
+"D. TEGDMA phá hủy liên kết silane",
+"2",
+"Xoang I hình hộp sâu, 5 thành dán và 1 mặt tự do, đắp composite một khối. Nguy cơ?",
+"A. C-factor thấp, ứng suất rất nhỏ",
+"B. C-factor cao, ứng suất co ngót lớn",
+"C. Không liên quan C-factor",
+"D. Ứng suất chỉ do hạt độn",
+"3",
+"Xoang II khó tạo tiếp xúc, cần vật liệu chảy vào góc hẹp làm lớp đầu ở đáy hộp?",
+"A. Composite nén",
+"B. Composite lỏng",
+"C. Composite tái tạo cùi",
+"D. Composite hạt micro",
+"22"
+],
+"note": "Cho người học vài giây suy nghĩ mỗi câu trước khi chuyển sang slide đáp án. 22"
+},
+{
+"n": 23,
+"text": [
+"Đáp án",
+"Câu 1: A. TEGDMA làm tăng co ngót trùng hợp",
+"TEGDMA là monome nhỏ: làm nhựa loãng nhưng tăng co ngót, kéo bờ miếng trám ra khỏi thành xoang.",
+"Câu 2: B. C-factor cao, ứng suất co ngót lớn",
+"Nhiều thành dán, ít mặt tự do nên C-factor cao. Cách xử lý: đắp từng lớp không quá 2 mm.",
+"Câu 3: B. Composite lỏng",
+"Composite lỏng chảy tốt, áp sát thành xoang, hay dùng làm lớp lót đầu tiên ở đáy hộp.",
+"23"
+],
+"note": "Nhấn mạnh lý do của từng đáp án: đều quy về co ngót trùng hợp và cách hạt độn, độ nhớt ảnh hưởng đến lựa chọn vật liệu. 23"
+},
+{
+"n": 24,
+"text": [
+"Ghi nhớ cả bài",
+"Composite = khuôn nhựa + hạt độn + silane + chất khơi mào",
+"Thêm nhiều TEGDMA thì loãng, dễ làm nhưng co ngót lớn",
+"Hạt độn: gia cố, giảm co, giảm giãn nở, kiểm soát nhớt, giảm hút nước, cản quang",
+"Quang trùng hợp dùng camphorquinone + amin, ánh sáng 400–500 nm",
+"Mỗi lớp 2 mm cần 16 J/cm²; ánh sáng làm cứng sâu tối đa 2–3 mm",
+"Composite micro bóng nhưng yếu (xoang III, V); lai vừa bóng vừa bền",
+"Composite lỏng để lót, trám xoang V; composite nén cho xoang I, II",
+"C-factor cao gây vi kẽ, khắc phục bằng đắp lớp không quá 2 mm",
+"Mòn 10–20 µm/năm; sau 7 năm composite còn 67%, amalgam 94,5%",
+"Hoàn thiện ngay (~15 phút), có nước; sửa composite cũ chỉ đạt ½ độ bền"
+],
+"note": "Mười ý này đủ để trả lời phần lớn câu hỏi về composite. Nếu chỉ nhớ một điều: hầu hết vấn đề của composite đến từ co ngót trùng hợp. 24"
+}
+]
+}

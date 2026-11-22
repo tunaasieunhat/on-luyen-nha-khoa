@@ -1,0 +1,21 @@
+const { chromium } = require('playwright');
+const SHOT = '/tmp/claude-0/-home-claude/1c724e9b-fcd3-53c8-b63a-63ce5b775ad4/scratchpad/';
+(async () => {
+  const b = await chromium.launch();
+  const p = await b.newPage({ viewport: { width: 1280, height: 860 } });
+  const errs = []; p.on('pageerror', e => errs.push(e.message));
+  await p.route(/fonts\.(googleapis|gstatic)\.com|onesignal|github/, r => r.abort());
+  await p.goto('http://localhost:8792/index.html'); await p.waitForTimeout(1200);
+  await p.click('#intro-go'); await p.waitForTimeout(600); if (await p.isVisible('#v1-ok')) await p.click('#v1-ok');
+  await p.fill('#in-name', 'Lan'); await p.fill('#in-school', 'DNC'); await p.click('#start-form button[type=submit]'); await p.waitForTimeout(1500);
+  if (await p.isVisible('#go-learn')) await p.click('#go-learn'); await p.waitForTimeout(1200);
+  await p.click('#go-theory'); await p.waitForTimeout(1200); await p.click('[data-thsub="vat-lieu-nha-khoa"]'); await p.waitForTimeout(300);
+  console.log('vd buttons', await p.locator('[data-thvd]').count());
+  await p.click('[data-thvd="vlnk-bai-2"]'); await p.waitForTimeout(1200);
+  await p.evaluate(() => { const v = document.getElementById('vd-video'); v.muted = true; });
+  await p.evaluate(() => { const v = document.getElementById('vd-video'); v.currentTime = 205.5; v.play(); }); await p.waitForTimeout(2500);
+  await p.evaluate(() => document.getElementById('vd-video').pause()); await p.mouse.move(5, 5); await p.waitForTimeout(3500);
+  await p.locator('.vd-stage').screenshot({ path: SHOT + 'vd-cue.png' });
+  console.log(await p.evaluate(() => { const v = document.getElementById('vd-video'); return [v.currentTime, v.duration, document.getElementById('vd-now').textContent]; }));
+  console.log('errors', errs); await b.close();
+})();

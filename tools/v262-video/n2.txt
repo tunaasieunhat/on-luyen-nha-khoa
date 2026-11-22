@@ -1,0 +1,227 @@
+## 1
+Xin chào các bạn, chào mừng các bạn quay lại với môn Vật liệu nha khoa.
+Đây là bài hai: Vật liệu nha khoa và tương hợp sinh học.
+Ở bài trước, chúng ta đã biết vật liệu nha khoa phải sống sót trong môi trường miệng rất khắc nghiệt.
+Hôm nay, chúng ta sẽ hỏi một câu ngược lại: cơ thể có sống chung hòa bình được với vật liệu hay không.
+Và không chỉ cơ thể bệnh nhân, mà cả bác sĩ, trợ thủ và kỹ thuật viên labo, những người tiếp xúc với vật liệu mỗi ngày.
+Chúng ta sẽ học các nguyên tắc tương hợp sinh học, xem từng nhóm vật liệu an toàn đến đâu, tìm hiểu nguy cơ nghề nghiệp, và cuối cùng là cách chọn vật liệu an toàn trên lâm sàng.
+Chúng ta bắt đầu nhé.
+
+## 2
+Đầu tiên là mục tiêu của bài học.
+Học xong bài này, các bạn sẽ trình bày được bảy nguyên tắc chung trong tương hợp sinh học.
+Các bạn sẽ phân tích được tương hợp sinh học của amalgam, kim loại đúc, sứ, nhựa, latex, và axit hydrofluoric, hay còn gọi là HF.
+Các bạn sẽ nắm được những nguy cơ nghề nghiệp mà nhân viên nha khoa phải đối mặt.
+Và các bạn sẽ biết áp dụng các nguyên tắc chọn vật liệu trên lâm sàng.
+Để hiểu nhanh, hãy nhớ một câu: không có vật liệu nào an toàn tuyệt đối.
+Kim loại có thể nhả ra ion, và ion đó gây dị ứng.
+Nhựa có thể nhả ra monome, và monome kích thích tủy răng.
+Còn latex và HF thì đe dọa chính những người làm nha khoa.
+Vậy việc của người bác sĩ là gì?
+Là chọn vật liệu có lợi ích vượt trội so với nguy cơ, hỏi kỹ tiền sử dị ứng của bệnh nhân, và giải thích rõ ràng cho họ.
+Ý này nối tiếp bài một: an toàn chỉ là tương đối, và mọi quyết định chọn vật liệu đều là một phép cân nhắc giữa lợi ích và nguy cơ.
+
+## 3
+Vậy tương hợp sinh học phụ thuộc vào những gì?
+Trước hết, các bạn cần biết thành công của một vật liệu dựa trên ba yếu tố: tính chất vật lý, thiết kế của phục hồi, và tương hợp sinh học.
+Một vật liệu rất cứng, rất bền, nhưng làm viêm nướu thì vẫn là một vật liệu thất bại.
+Riêng tương hợp sinh học lại phụ thuộc vào sáu yếu tố.
+Một là tính chất hóa học và vật lý của các thành phần.
+Hai là cấu trúc của vật liệu.
+Ba là vị trí của mô tiếp xúc. Cùng một vật liệu, đặt trên men răng thì vô hại, nhưng đặt sát tủy thì có thể gây hại.
+Bốn là thời gian tiếp xúc. Một chất lấy dấu chỉ ở trong miệng vài phút, còn một mão răng ở đó hàng chục năm.
+Năm là đặc tính bề mặt.
+Và sáu là lượng chất bị phân giải ra từ vật liệu.
+Một vật liệu muốn ra thị trường phải vượt qua ba tầng thử nghiệm: đầu tiên là thử nghiệm tương hợp sinh học, sau đó là thử nghiệm tính chất, và cuối cùng là thử nghiệm sử dụng trên lâm sàng.
+Các bạn có thể hình dung nó như một cái tháp: càng lên cao thì càng ít vật liệu vượt qua được.
+Một lời cảnh báo cho các bạn: đừng dễ dãi chấp nhận một vật liệu mới chỉ vì quảng cáo hấp dẫn. Trước khi dùng, hãy luôn hỏi: bằng chứng đâu?
+Và nhớ rằng các thử nghiệm này không chỉ bảo vệ bệnh nhân, mà còn bảo vệ cả bác sĩ, trợ thủ và kỹ thuật viên labo.
+
+## 4
+Bây giờ chúng ta đi vào bảy nguyên tắc. Nguyên tắc thứ nhất là phản ứng độc hại của vật liệu.
+Có một khái niệm gọi là hiệu ứng phụ tới hạn. Đó là tác dụng bất lợi đầu tiên xuất hiện ở mức tiếp xúc thấp nhất, và nó xảy ra ở một mô đích nhất định.
+Các chất độc có thể được phóng thích ra trong rất nhiều thao tác: khi đúc, khi mài, khi đánh bóng, khi bôi keo dán, hay khi gắn xi măng.
+Chúng đi vào cơ thể qua niêm mạc, qua đường tiêu hóa, qua đường hô hấp, hoặc qua da.
+Các phản ứng bất lợi có thể gặp là dị ứng, bỏng hóa chất, kích thích và tổn thương tủy, bỏng nhiệt, và độc tính.
+Một điều khó trên lâm sàng là chẩn đoán.
+Ví dụ, các bạn thấy nướu bị đỏ ngay cạnh một phục hồi. Nó có thể do chấn thương cơ học, nhưng cũng có thể do dị ứng. Vì vậy cần theo dõi thêm, chứ không vội kết luận.
+Có hai công cụ hỗ trợ chẩn đoán: thử nghiệm dán, tiếng Anh là patch test, và đo nồng độ thủy ngân trong nước tiểu.
+Tác dụng phụ có thể xuất hiện tại chỗ, ở ngay vùng tiếp xúc, hoặc toàn thân.
+Các bạn lưu ý thêm một ý: theo quan điểm truyền thống, độc tính thì phụ thuộc liều, còn dị ứng thì không phụ thuộc liều.
+Với vật liệu nha khoa, hiện vẫn chưa có đủ dữ liệu về hiệu ứng liều của dị ứng.
+
+## 5
+Nguyên tắc thứ hai và thứ ba nói về hiệu ứng tại chỗ, hiệu ứng toàn thân, và các yếu tố cảnh báo.
+Hiệu ứng tại chỗ xảy ra ở tủy răng, mô nha chu, vùng quanh chóp, niêm mạc miệng và lưỡi.
+Mức độ của nó phụ thuộc vào nồng độ chất độc và thời gian tiếp xúc.
+Hiệu ứng toàn thân xảy ra khi chất độc đi vào máu, qua đường tiêu hóa, hít phải hơi, rò qua chóp răng, hoặc thấm qua niêm mạc.
+Một ý quan trọng: những chất được bài tiết chậm sẽ tích tụ lại, và đạt đến nồng độ tới hạn nhanh hơn.
+Tiếp theo là một sự thật mà các bạn cần chấp nhận: mọi vật liệu đều thoái biến theo thời gian.
+Kim loại thoái biến do mài mòn và ăn mòn. Sứ và composite thoái biến do chịu ứng suất lặp đi lặp lại mỗi lần nhai.
+Và bề mặt càng thô ráp, thì ion càng được phóng thích nhiều, ăn mòn càng mạnh, và mảng bám càng dễ tích tụ.
+Hình trên slide minh họa đường đi của các ion phân giải từ phục hình vào mô xung quanh và vào cơ thể.
+Từ đó, ta có một bài học lâm sàng rất đơn giản mà rất giá trị: hãy đánh bóng kỹ mọi phục hồi.
+Đánh bóng giúp giảm ăn mòn, giảm nhả ion và giảm mảng bám, nói cách khác là tăng tương hợp sinh học.
+Một chi tiết thêm cho kim loại đúc: khi đúc, phần kim loại sát thành khuôn cứng lại trước, còn vùng nóng nhất cứng lại sau. Vì vậy thành phần trong một vật đúc không đồng đều, và sự ăn mòn khó lường trước.
+
+## 6
+Nguyên tắc thứ tư là tác động của vật liệu lên tủy và mô nha chu.
+Bệnh nhân có thể khó chịu sau điều trị vì nhiều lý do: chấn thương nhiệt, tổn thương hóa học, vi lậu, hoặc dị ứng.
+Để giải thích cảm giác ê buốt, người ta dùng thuyết thủy động lực học.
+Theo thuyết này, trong ống ngà có dịch. Khi dịch này di chuyển, nó kích thích các tận cùng thần kinh, và bệnh nhân cảm thấy đau.
+Ngà răng càng gần tủy thì càng thấm, vì ống ngà ở đó to hơn và dày đặc hơn.
+Do đó, mức độ tác hại lên tủy phụ thuộc rất nhiều vào độ dày của lớp ngà còn lại.
+Một điều thú vị là hình ảnh mô học của tủy bị tổn thương lại không tương quan rõ với triệu chứng lâm sàng. Có răng tủy tổn thương nhiều mà bệnh nhân không đau, và ngược lại.
+Về mô nha chu, bờ của phục hình thường nằm sát nướu, nên vật liệu ở bờ ảnh hưởng trực tiếp đến nướu.
+Còn trong nội nha, nếu vật liệu bị đẩy qua chóp, nó có thể gây viêm quanh chóp.
+Hình trên slide cho thấy các cấu trúc liên quan đến một phục hồi: men, ngà, tủy, và mô quanh răng.
+Ý quan trọng nhất của slide này là: lớp ngà còn lại càng mỏng, thì chúng ta càng phải che chở tủy thật kỹ.
+
+## 7
+Nguyên tắc thứ năm nói về giao diện, tức là chỗ tiếp giáp giữa vật liệu và răng. Ở đây có hai hiện tượng: vi lậu và siêu lậu.
+Khi dùng nhựa dán, ta phải xoi mòn ngà để nhựa thấm vào lưới sợi collagen, tạo thành một lớp gọi là lớp lai.
+Nếu ở giao diện còn chỗ hở, thì sẽ xảy ra vi lậu hoặc siêu lậu.
+Vi lậu là khe hở có kích thước vài micromét. Nguyên nhân là nhựa bị bong ra, hoặc co rút khi trùng hợp.
+Khe này đủ lớn để vi khuẩn lọt vào. Ví dụ, vi khuẩn Streptococcus chỉ to khoảng một micromét.
+Hậu quả của vi lậu là nhiễm trùng tủy, đổi màu ở bờ, và phục hồi phải thay sớm.
+Siêu lậu thì nhỏ hơn nhiều, dưới không phẩy một micromét. Nguyên nhân là nhựa không thấm hết vào khung collagen, để lại những khoảng trống rất nhỏ.
+Vi khuẩn không lọt qua được khe này, nhưng dịch thì đi qua được.
+Theo thời gian, dịch làm thoái biến cả nhựa lẫn collagen, và tuổi thọ của liên kết giảm đi.
+Có một mẹo nhớ rất dễ: vi lậu là vi khuẩn vào được, còn siêu lậu là siêu nhỏ, chỉ có nước vào.
+Các bạn lưu ý thêm: men răng không có collagen, nên ở men không có siêu lậu.
+Và các loại xi măng gắn như phosphat kẽm, glass ionomer, polycarboxylat, hay oxit kẽm eugenol, đều không cần xoi mòn ngà. Chỉ có nhựa mới cần xoi mòn để tạo lớp lai.
+
+## 8
+Nguyên tắc thứ sáu là viêm và dị ứng. Chúng ta cùng xem các loại quá mẫn.
+Dị ứng xảy ra khi hệ miễn dịch xem một chất nào đó là chất lạ và phản ứng lại nó.
+Theo phân loại của Gell và Coombs, có bốn loại quá mẫn.
+Loại một là quá mẫn tức thì, qua kháng thể IgE và tế bào dưỡng bào. Biểu hiện là phản vệ, hen, viêm mũi. Trong nha khoa, ví dụ điển hình là dị ứng latex.
+Loại hai là quá mẫn độc tế bào, và loại ba là quá mẫn phức hợp miễn dịch. Hai loại này ít liên quan đến vật liệu nha khoa.
+Loại bốn là quá mẫn muộn, qua tế bào lympho T. Biểu hiện là viêm da tiếp xúc. Trong nha khoa, đây là phản ứng với ion kim loại và với monome nhựa.
+Vậy tại sao kim loại lại gây phản ứng chậm, còn latex lại gây phản ứng nhanh?
+Ion kim loại quá nhỏ. Một mình nó chưa đủ để hệ miễn dịch nhận ra. Nó phải gắn vào một protein của cơ thể thì mới thành kháng nguyên, nên phản ứng diễn ra chậm, đó là loại bốn.
+Còn latex vốn đã là protein sẵn, hệ miễn dịch nhận ra ngay, nên phản ứng nhanh, đó là loại một.
+Trên lâm sàng, làm sao phân biệt viêm do dị ứng với viêm thông thường?
+Hãy tìm dấu hiệu dị ứng ở những nơi khác trên cơ thể, loại trừ các nguyên nhân khác, và theo dõi khoảng hai tuần.
+
+## 9
+Nguyên tắc thứ bảy là dị ứng với vật liệu nha khoa nói riêng.
+Hầu hết các tác dụng phụ liên quan đến kim loại, nhất là các thành phần trong hợp kim đúc.
+Khoảng mười lăm phần trăm dân số nhạy cảm với niken, trong khi với titan chỉ khoảng bốn phẩy hai phần trăm.
+Các dị nguyên phổ biến là vàng sodium thiosulfate, niken, thủy ngân, palladium, và HEMA, một loại monome trong nhựa.
+Biểu hiện trong miệng có thể là viêm môi, cảm giác bỏng rát trong miệng, hoặc tổn thương dạng lichen.
+Tin tốt là khi gỡ bỏ phục hồi gây dị ứng, khoảng tám mươi hai phẩy bảy phần trăm bệnh nhân hồi phục.
+Hình trên slide cho thấy những tình huống dị ứng niken thường gặp: da dưới đồng hồ đeo tay, mão sứ kim loại, dây chỉnh nha, và kết quả thử nghiệm dán da.
+Một ý lâm sàng quan trọng về thời gian: dị ứng tiếp xúc xuất hiện lần đầu sau khoảng mười ngày. Nhưng khi cơ thể đã nhạy cảm rồi, thì lần sau phản ứng tái phát chỉ trong hai mươi bốn đến bốn mươi tám giờ.
+Các bạn cũng cần cảnh giác: phản ứng dị ứng tại chỗ trong miệng rất hay bị chẩn đoán nhầm thành viêm thông thường.
+Và cách điều trị tốt nhất là tránh tiếp xúc với kim loại bị nghi ngờ.
+
+## 10
+Bây giờ chúng ta xem xét từng vật liệu, bắt đầu với chủ đề gây tranh cãi nhiều nhất: thủy ngân và amalgam.
+Mỗi ngày, cơ thể chỉ hấp thu khoảng một đến ba microgam thủy ngân từ amalgam, trong khi lượng thủy ngân từ thực phẩm là khoảng hai mươi microgam mỗi ngày.
+Đường vào chính là hơi thủy ngân qua phổi. Thủy ngân kim loại qua đường ruột chỉ được hấp thu khoảng không phẩy không một phần trăm.
+Thủy ngân trong cơ thể tích tụ chủ yếu ở thận và não.
+Có ba điều cần nhớ về các dạng thủy ngân.
+Dạng kim loại và dạng hơi được hấp thu chủ yếu qua phổi, và thải ra qua nước tiểu và phân.
+Dạng methyl thủy ngân là dạng độc nhất. Nó tích lũy qua chuỗi thức ăn, nhiều trong cá mập, cá kiếm, cá ngừ, và ruột hấp thu tới chín mươi đến chín mươi lăm phần trăm.
+Ngộ độc thủy ngân mạn tính gây run, mất trí nhớ và thay đổi tính cách. Thai nhi và trẻ em là những đối tượng nhạy cảm nhất.
+Vậy kết luận là gì? Hiện không có bằng chứng khoa học cho thấy thủy ngân từ amalgam gây hại cho sức khỏe.
+Một nghiên cứu ở những người tháo toàn bộ amalgam cùng lúc cho thấy thủy ngân trong máu và nước tiểu tăng rõ, nhưng không ai bị suy thận.
+Từ đó, ta có một lời khuyên lâm sàng: tháo một miếng trám amalgam còn tốt chỉ làm phát tán thêm thủy ngân, và làm mất thêm mô răng.
+Nếu cần đánh giá, chỉ số tốt là thủy ngân trong nước tiểu hai mươi bốn giờ.
+
+## 11
+Tiếp theo là kim loại đúc, với hai nhân vật chính: niken và bery.
+Trước hết là cách phân loại hợp kim. Hợp kim quý cao có từ bốn mươi phần trăm vàng trở lên và từ sáu mươi phần trăm kim loại quý trở lên.
+Hợp kim quý có từ hai mươi lăm phần trăm kim loại quý trở lên.
+Còn hợp kim thường có dưới hai mươi lăm phần trăm, ví dụ niken crôm, cô ban crôm và thép không gỉ.
+Niken chiếm khoảng ba mươi đến năm mươi phần trăm trong nhiều hợp kim ở Mỹ, và là kim loại gây dị ứng nhiều nhất, khoảng mười đến hai mươi phần trăm dân số, và gặp nhiều hơn ở nữ.
+Trong miệng, dị ứng niken thường nhẹ, trông giống viêm nha chu, nên rất dễ bị bỏ sót.
+Có hiện tượng dị ứng chéo: hầu hết người dị ứng palladium cũng dị ứng niken, nhưng ngược lại, chỉ khoảng ba mươi ba đến sáu mươi lăm phần trăm người dị ứng niken bị dị ứng palladium.
+Còn bery được thêm vào hợp kim niken crôm với lượng một đến hai phần trăm, để kim loại dễ đúc hơn và liên kết với sứ tốt hơn.
+Nhưng nếu hít phải bụi bery khi mài hoặc đúc, người ta có thể bị viêm phổi bery mạn tính. Kỹ thuật viên labo là người có nguy cơ cao nhất.
+Về độc tính tế bào, cao nhất là crôm hóa trị sáu và bery, sau đó đến niken.
+Tin tốt là hợp kim giảm độc tính rõ rệt sau khoảng mười tháng nằm trong miệng, và hiện chưa có bằng chứng kim loại nha khoa gây ung thư.
+Thử nghiệm trên động vật cho thấy niken crôm gây phản ứng mạnh nhất, còn vàng hai mươi hai cara gây phản ứng thấp nhất.
+
+## 12
+Bây giờ là ba nhóm vật liệu còn lại: sứ, nhựa và latex.
+Sứ và zirconia có tương hợp sinh học cao nhất trong các vật liệu nha khoa, vì chúng rất ít tan.
+Zirconia không độc với tế bào.
+Nhưng có một lưu ý quan trọng: gel fluor acid, gọi là APF, ăn mòn bề mặt sứ. Vì vậy, không dùng APF cho bệnh nhân có phục hồi sứ.
+Với nhựa và composite, dị nguyên chính là HEMA.
+Monome nhựa xuyên qua găng tay rất dễ dàng, nên nhân viên nha khoa có nguy cơ cao bị viêm da tiếp xúc, loại bốn.
+Nhựa độc với tủy hơn kim loại, vì vậy cần che tủy và tránh để nhựa chạm trực tiếp vào tủy.
+Về BPA, chất này chỉ có ở dạng vết trong vật liệu nha khoa. Những lo ngại về BPA từ năm một nghìn chín trăm chín mươi sáu đã bị phóng đại.
+Nếu muốn an tâm hơn, có thể chọn vật liệu không chứa bis DMA. Và nhớ rằng lợi ích ngăn sâu răng của sealant vượt xa nguy cơ rất nhỏ từ BPA.
+Cuối cùng là latex. Dị ứng latex tăng mạnh từ thập niên tám mươi, khi việc đeo găng tay trở nên thường xuyên.
+Dị nguyên là protein của mủ cao su và các hóa chất dùng trong quá trình lưu hóa.
+Latex gây dị ứng loại một, tức là phản ứng nhanh, và nhân viên nha khoa là nhóm nhạy cảm nhất.
+
+## 13
+Tiếp theo là một chất mà các bạn cần đặc biệt cẩn thận: axit hydrofluoric, hay HF.
+HF được dùng để xoi mòn bề mặt sứ, và nó cực kỳ ăn mòn.
+Điều nguy hiểm là ở nồng độ thấp, HF không gây đau ngay. Vài giờ sau, cơn đau dữ dội mới xuất hiện, khi tổn thương đã đi sâu.
+Vì vậy, mọi tiếp xúc với HF đều phải được xử trí khẩn cấp, dù chưa thấy đau.
+Quy trình xử trí gồm bốn bước.
+Bước một, rửa ngay. Nếu dính da, rửa sạch ngay với thật nhiều nước. Nếu dính mắt, rửa ở trạm rửa mắt ít nhất mười lăm phút, và giữ mí mắt mở.
+Bước hai, bôi gel canxi gluconat. Trong vòng năm phút, bôi gel lên vùng da bị dính, và lặp lại mỗi mười lăm phút. Gel này tạo ra canxi florua không tan, giúp bảo vệ mô và xương.
+Bước ba, tuyệt đối không bôi gel canxi gluconat vào mắt. Quần áo dính HF phải cởi ra và cho vào túi nhựa.
+Bước bốn, đi khám ngay, kể cả khi chưa đau.
+Thêm vài lưu ý an toàn: HF có nồng độ trên năm phần trăm chỉ được dùng trong tủ hút, vì hít phải hơi HF có thể gây tổn thương phổi muộn.
+Gel canxi gluconat cần được bảo quản lạnh, và người bôi phải đeo găng.
+Mẹo nhớ bốn bước: Rửa ngay, Gel canxi, Không vào mắt, Đi khám.
+
+## 14
+Bây giờ chúng ta nói về nguy cơ nghề nghiệp của chính nhân viên nha khoa.
+Có một con số rất đáng chú ý: mười lăm phẩy bốn phần trăm kỹ thuật viên labo làm việc từ hai mươi năm trở lên bị bệnh bụi phổi, trong khi ở dân số chung, con số này dưới một phần trăm.
+Một khảo sát ở đảo Crete của Hy Lạp cũng cho thấy chín phẩy tám phần trăm kỹ thuật viên mắc bụi phổi.
+Có ba nhóm nguy cơ chính.
+Thứ nhất là bụi phổi, do bụi cô ban crôm, bụi niken crôm bery, và bụi silic. Trong đó, bụi phổi silic là phổ biến nhất ở kỹ thuật viên.
+Thứ hai là bệnh da, cụ thể là viêm da tiếp xúc ở tay và mặt, do acrylate, formaldehyde và latex.
+Thứ ba là bệnh hô hấp, do hít phải bụi và hơi khi nung, đúc và mài kim loại.
+Về phòng ngừa, labo phải có thiết bị hút bụi, và những người có triệu chứng nên làm thử nghiệm dị ứng.
+Trong thực hành hằng ngày, khi mài hoặc đánh bóng khung kim loại hay sứ, các bạn hãy đeo khẩu trang lọc bụi, bật hút bụi tại chỗ, và làm ướt khi mài để hạn chế bụi bay.
+Một ý để các bạn yên tâm: hiện không có bằng chứng phục hồi kim loại làm tăng đột biến gen hay ung thư ở nhân viên nha khoa.
+
+## 15
+Vậy trên lâm sàng, chọn vật liệu tương hợp sinh học như thế nào? Chúng ta có bốn bước.
+Bước một, xem thiết kế và chỉ định. Một loại sứ thành công ở răng trước chưa chắc đã thành công ở răng sau, nơi lực nhai lớn hơn nhiều. Hãy dùng đúng chỉ định của nhà sản xuất.
+Bước hai, xem thành phần. Hãy đọc bảng dữ liệu an toàn hóa chất, gọi là MSDS. Hỏi nhà sản xuất và labo xem thành phần hoặc cách xử lý vật liệu có thay đổi gì không.
+Bước ba, đánh giá độ an toàn. Hãy biết những phản ứng phụ đã được ghi nhận, và tin vào các thử nghiệm có đối chứng hơn là những báo cáo đơn lẻ.
+Bước bốn, cân nhắc lợi ích và nguy cơ. Hỏi tiền sử dị ứng, giải thích cho bệnh nhân lợi ích, rủi ro và các phương án thay thế, rồi để bệnh nhân ký cam kết.
+Hãy xem một tình huống lâm sàng.
+Một bệnh nhân nữ cần làm mão răng. Khi hỏi tiền sử, chị kể hay bị ngứa và đỏ da khi đeo khuyên tai giả hoặc đồng hồ.
+Các bạn sẽ nghĩ ngay đến dị ứng niken.
+Khi đó, nên chọn mão toàn sứ, zirconia, titan, hoặc hợp kim quý cao. Và cũng cần cân nhắc cả palladium, vì nguy cơ dị ứng chéo.
+Một ý cuối: niken vẫn được dùng thành công trong chỉnh nha, miễn là chúng ta hỏi kỹ tiền sử dị ứng của bệnh nhân và cả cha mẹ các em.
+
+## 16
+Bây giờ chúng ta cùng làm ba câu hỏi nhanh.
+Câu một: kim loại gây dị ứng nhiều nhất trong nha khoa là gì? A, titan. B, vàng. C, niken. D, bạch kim.
+Câu hai: dị ứng với ion kim loại và monome nhựa thuộc loại quá mẫn nào? A, loại một. B, loại hai. C, loại ba. D, loại bốn.
+Câu ba: một khe hở dưới không phẩy một micromét, vi khuẩn không lọt được nhưng dịch thì đi qua được, gọi là gì? A, vi lậu. B, siêu lậu. C, lớp lai. D, lớp mùn ngà.
+Mỗi câu ứng với một nguyên tắc quan trọng của bài.
+Các bạn hãy tạm dừng video, suy nghĩ vài giây, rồi xem đáp án ở slide tiếp theo nhé.
+
+## 17
+Và đây là đáp án.
+Câu một, đáp án C: niken. Niken gây dị ứng ở mười đến hai mươi phần trăm dân số, nhiều hơn ở nữ, trong khi titan chỉ khoảng bốn phẩy hai phần trăm.
+Câu hai, đáp án D: loại bốn. Đây là quá mẫn muộn, qua tế bào lympho T, biểu hiện bằng viêm da tiếp xúc.
+Câu ba, đáp án B: siêu lậu. Siêu lậu xảy ra khi nhựa không thấm hết khung collagen, và nó làm giảm tuổi thọ của liên kết.
+Các bạn nhớ lại mẹo: vi lậu là vi khuẩn vào được, siêu lậu là siêu nhỏ, chỉ nước vào.
+
+## 18
+Cuối cùng, chúng ta tóm tắt mười ý chính của bài.
+Một, tương hợp sinh học phụ thuộc vào thành phần, vị trí, thời gian tiếp xúc, bề mặt và lượng chất phân giải.
+Hai, đánh bóng kỹ giúp giảm nhả ion và giảm mảng bám.
+Ba, vi lậu có kích thước vài micromét, vi khuẩn lọt được. Siêu lậu dưới không phẩy một micromét, chỉ có dịch đi qua.
+Bốn, dị ứng với kim loại và monome là quá mẫn loại bốn, còn latex là loại một.
+Năm, niken gây dị ứng nhiều nhất, khoảng mười đến hai mươi phần trăm, và có dị ứng chéo với palladium.
+Sáu, bery gây viêm phổi ở kỹ thuật viên labo.
+Bảy, amalgam giải phóng một đến ba microgam thủy ngân mỗi ngày, và chưa có bằng chứng gây hại. Dạng độc nhất là methyl thủy ngân.
+Tám, sứ và zirconia có tương hợp sinh học tốt nhất, và tránh dùng APF cho bệnh nhân có sứ.
+Chín, HEMA là dị nguyên chính của nhựa, và monome xuyên qua được găng tay.
+Mười, khi dính HF: rửa ngay, bôi gel canxi gluconat nhưng không bôi vào mắt, và đi khám.
+Những ý này sẽ còn gặp lại ở hầu hết các bài sau.
+Cảm ơn các bạn đã theo dõi. Hẹn gặp lại các bạn ở bài ba.
