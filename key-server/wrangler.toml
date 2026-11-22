@@ -1,0 +1,17 @@
+# Máy chủ key kích hoạt của Ôn Luyện Nha Khoa (Cloudflare Workers + D1, gói miễn phí)
+name = "onluyen-key"
+main = "src/worker.js"
+compatibility_date = "2025-09-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "onluyen-key"
+database_id = "00000000-0000-0000-0000-000000000000" # thay bằng mã thật sau khi chạy: wrangler d1 create onluyen-key
+
+# Mật khẩu trang quản lý KHÔNG để ở đây. Đặt bằng lệnh: wrangler secret put ADMIN_PASSWORD
+
+# trang quản lý (src/admin.html) được gói vào worker dạng chữ
+[[rules]]
+type = "Text"
+globs = ["**/*.html"]
+fallthrough = true

@@ -204,6 +204,17 @@ select.input{appearance:none;background-image:linear-gradient(45deg,transparent 
 .err-msg{color:var(--bad);font-size:.84rem;font-weight:600;line-height:1.3}
 .err-msg:empty{display:none}
 #scr-start .err-msg{display:block;min-height:1.2em}
+/* ---- 2.6.4: key kích hoạt ---- */
+#in-key{font-family:var(--f-mono,"JetBrains Mono",ui-monospace,monospace);font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+#in-key::placeholder{letter-spacing:.04em;font-weight:500;text-transform:none}
+.key-ok{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:10px 12px;border:2px solid var(--ink);border-radius:14px;background:#E3F4EA;font-size:.92rem;line-height:1.35}
+.key-ok[hidden]{display:none}
+.key-ok b{display:block}
+.key-ok small{color:var(--muted)}
+.key-ok button{font:inherit;font-weight:700;font-size:.85rem;color:var(--ink);background:#fff;border:2px solid var(--ink);border-radius:10px;padding:5px 10px;cursor:pointer}
+.key-note{margin:-4px 0 0}
+.key-lock{margin:0;padding:10px 12px;border-radius:12px;background:var(--bad-soft,#FCE4E2);color:var(--bad);font-weight:600;font-size:.9rem;line-height:1.4}
+.key-lock[hidden]{display:none}
 
 /* ---------- Scene ---------- */
 .scene-card{position:relative;background:var(--enamel);border:2px solid var(--ink);border-radius:var(--r-l);overflow:hidden;box-shadow:0 6px 0 var(--ink)}
@@ -1676,6 +1687,13 @@ body.sim-playing #scr-sim>.topbar{display:none}
       </div>
       <form id="start-form" class="intake" novalidate>
         <div class="intake-head"><h2>Phiếu đăng ký khám</h2><span class="intake-no">Số phiếu: <span id="intake-no">0000</span></span></div>
+        <p class="key-lock" id="key-lock" role="alert" hidden></p>
+        <div class="key-ok" id="key-ok" hidden><span><b id="key-ok-name"></b><small id="key-ok-info"></small></span><button type="button" id="key-change">Đổi key</button></div>
+        <div class="field" id="f-key">
+          <label for="in-key">Key kích hoạt <span class="req">*</span></label>
+          <input class="input" id="in-key" name="key" autocomplete="off" autocapitalize="characters" autocorrect="off" spellcheck="false" maxlength="24" inputmode="text" placeholder="NK-XXXX-XXXX-XXXX">
+          <div class="err-msg" id="err-key" aria-live="polite"></div>
+        </div>
         <div class="field" id="f-name">
           <label for="in-name">Tên <span class="req">*</span></label>
           <input class="input" id="in-name" name="name" autocomplete="name" maxlength="40" placeholder="VD: Nguyễn Minh Anh">
@@ -1688,7 +1706,7 @@ body.sim-playing #scr-sim>.topbar{display:none}
         </div>
         <button type="submit" class="btn btn-gum btn-lg">Vào phòng khám
           <svg class="i" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
-        <p class="fine">Cả hai mục đều bắt buộc.</p>
+        <p class="fine">Cả ba mục đều bắt buộc. Lần đầu nhập key cần có mạng; chưa có key thì liên hệ người quản lý app.</p>
       </form>
     </div>
   </section>
@@ -4765,7 +4783,7 @@ function initCaps() {
 /* ================= NAVIGATION ================= */
 const SCREENS = ['start', 'lobby', 'quiz', 'addq', 'flash', 'theory', 'exam', 'sim'];
 function show(name) {
-  if (name !== 'start' && !S.player) name = 'start';
+  if (name !== 'start' && (!S.player || !Gate.active())) name = 'start';
   if (S.screen === 'quiz' && name !== 'quiz') stopTimer();
   if (S.screen === 'exam' && name !== 'exam') exLeaveScreen();
   if (name !== 'theory' && MM.full) mmSetFull(false);
@@ -4828,6 +4846,124 @@ function renderPlayerChips() {
 function setErr(field, msg) {
   $('#f-' + field).classList.toggle('err', !!msg);
   $('#err-' + field).textContent = msg;
+}
+
+/* ================= KEY KÍCH HOẠT (Version 2.6.4) =================
+   Mỗi người một key do chủ app cấp. Lần đầu nhập key cần có mạng (máy chủ ghi nhận máy này).
+   Sau đó: mở app có mạng thì kiểm tra lại (tối đa mỗi 6 giờ); key bị khoá, hết hạn hoặc máy bị gỡ thì phải nhập lại.
+   Mất mạng vẫn dùng được 14 ngày kể từ lần kiểm tra cuối. */
+const KEY_API = 'https://onluyen-key.REPLACE-ME.workers.dev';
+const Gate = (() => {
+  const H = 60 * 60 * 1000;
+  let st = store.get('gate', null); // { key, name, exp, lastOk, every, grace }
+  const KMSG = {
+    invalid: 'Key không đúng. Kiểm tra lại từng ký tự nhé.',
+    revoked: 'Key này đã bị khoá. Liên hệ người cấp key.',
+    expired: 'Key này đã hết hạn. Liên hệ người cấp key để gia hạn.',
+    device_limit: 'Key này đã dùng đủ số máy cho phép. Liên hệ người cấp key nếu bạn đổi máy.',
+    device_removed: 'Máy này đã bị gỡ khỏi key. Nhập lại key để kích hoạt lại.',
+    too_many: 'Nhập sai quá nhiều lần. Đợi 15 phút rồi thử lại.',
+    offline: 'Không kết nối được máy chủ. Lần đầu nhập key cần có mạng, kiểm tra mạng rồi thử lại.',
+    grace: 'Đã lâu chưa kiểm tra key. Hãy bật mạng rồi bấm Vào phòng khám để xác minh lại.',
+    server: 'Máy chủ đang bận, thử lại sau ít phút.'
+  };
+  function device() {
+    let d = store.get('device', '');
+    if (!d || d.length < 12) {
+      let r = '';
+      try { r = crypto.randomUUID(); } catch { const a = new Uint8Array(16); crypto.getRandomValues(a); r = [...a].map(x => x.toString(16).padStart(2, '0')).join(''); }
+      d = 'd-' + r; store.set('device', d);
+    }
+    return d;
+  }
+  function label() {
+    const u = navigator.userAgent || '';
+    const os = /Android/i.test(u) ? 'Android' : /iPhone|iPad|iPod/i.test(u) ? 'iPhone/iPad' : /Windows/i.test(u) ? 'Windows' : /Mac OS X/i.test(u) ? 'Mac' : /Linux/i.test(u) ? 'Linux' : 'Máy khác';
+    return (window.AndroidApp ? 'App Android' : 'Bản web') + ' · ' + os;
+  }
+  const norm = s => {
+    const raw = String(s || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
+    const b = raw.startsWith('NK') && raw.length === 14 ? raw.slice(2) : raw;
+    return b.length === 12 ? `NK-${b.slice(0, 4)}-${b.slice(4, 8)}-${b.slice(8)}` : null;
+  };
+  async function call(path, key) {
+    const ac = 'AbortController' in window ? new AbortController() : null, to = setTimeout(() => ac && ac.abort(), 12000);
+    try {
+      const r = await fetch(KEY_API + path, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ key, device: device(), label: label() }), signal: ac && ac.signal, cache: 'no-store' });
+      const j = await r.json().catch(() => ({ ok: false, error: 'server' }));
+      return j && typeof j === 'object' ? j : { ok: false, error: 'server' };
+    } catch { return { ok: false, error: 'offline' }; }
+    finally { clearTimeout(to); }
+  }
+  function save(j) {
+    st = { key: j.key, name: j.name, exp: j.expires_at || null, lastOk: Date.now(), every: Math.max(H, +j.check_every || 6 * H), grace: Math.max(24 * H, +j.offline_grace || 14 * 24 * H) };
+    store.set('gate', st);
+  }
+  const FATAL = ['invalid', 'revoked', 'expired', 'device_removed'];
+  function active() {
+    if (!st || !st.key) return false;
+    const now = Date.now();
+    if (st.exp && now >= st.exp) return false;
+    return now - (st.lastOk || 0) <= (st.grace || 0);
+  }
+  // Mất quyền vào app: xoá key đã lưu, quay về màn đăng ký và báo lý do
+  function lock(code) {
+    const keep = st && st.key;
+    st = null; store.set('gate', null);
+    paint(KMSG[code] || KMSG.invalid);
+    $('#in-key').value = keep && code === 'device_removed' ? keep : '';
+    if (S.screen !== 'start') { show('start'); toast(KMSG[code] || KMSG.invalid); }
+  }
+  async function activate(input) {
+    const key = norm(input);
+    if (!key) return { ok: false, error: 'invalid' };
+    const j = await call(st && st.key === key ? '/api/check' : '/api/activate', key);
+    if (j.ok) { save(j); paint(); return j; }
+    // máy đã bị gỡ khỏi key cũ: thử kích hoạt lại như máy mới
+    if (j.error === 'device_removed') { const k = await call('/api/activate', key); if (k.ok) { save(k); paint(); return k; } return k; }
+    return j;
+  }
+  let busy = false;
+  async function recheck(force) {
+    if (!st || !st.key || busy) return;
+    if (!force && Date.now() - (st.lastOk || 0) < st.every) return;
+    if (navigator.onLine === false) return;
+    busy = true;
+    try {
+      const j = await call('/api/check', st.key);
+      if (j.ok) { save(j); paint(); }
+      else if (FATAL.includes(j.error)) lock(j.error);
+    } finally { busy = false; }
+  }
+  // Vẽ phần key trên phiếu đăng ký
+  function paint(lockMsg) {
+    const ok = active(), box = $('#key-ok'), f = $('#f-key'), lk = $('#key-lock');
+    if (!box) return;
+    box.hidden = !ok; f.hidden = ok;
+    if (ok) {
+      $('#key-ok-name').textContent = 'Đã kích hoạt · ' + st.name;
+      $('#key-ok-info').textContent = st.exp ? 'Key dùng đến hết ngày ' + new Date(st.exp).toLocaleDateString('vi-VN') : 'Key không hết hạn';
+    } else if (st && st.key && !lockMsg) {
+      // còn key nhưng quá hạn kiểm tra offline: điền sẵn để chỉ cần bấm vào
+      $('#in-key').value = st.key; lockMsg = Date.now() >= (st.exp || Infinity) ? KMSG.expired : KMSG.grace;
+    }
+    lk.hidden = !lockMsg; lk.textContent = lockMsg || '';
+  }
+  function init() {
+    paint();
+    setTimeout(() => recheck(false), 2500);
+    addEventListener('online', () => recheck(false));
+    document.addEventListener('visibilitychange', () => { if (!document.hidden) recheck(false); });
+  }
+  return { active, activate, recheck, paint, init, norm, msg: c => KMSG[c] || KMSG.server, get info() { return st; }, forget() { st = null; store.set('gate', null); paint(); } };
+})();
+// Gõ key: tự viết hoa và thêm gạch nối
+function keyFormat(el) {
+  const raw = el.value.toUpperCase().replace(/[^A-Z0-9]/g, '');
+  const body = (raw.startsWith('NK') ? raw.slice(2) : raw).slice(0, 12);
+  const parts = body.match(/.{1,4}/g) || [];
+  const v = raw.length ? 'NK-' + parts.join('-') : '';
+  if (el.value !== v && !(raw.length <= 2 && 'NK'.startsWith(raw))) el.value = v;
 }
 
 /* ================= LOBBY ================= */
@@ -9359,14 +9495,29 @@ function wire() {
     const name = $('#in-name').value.trim().replace(/\s+/g, ' '), school = $('#in-school').value.trim().replace(/\s+/g, ' ');
     setErr('name', name.length < 2 ? 'Hãy nhập tên của bạn (ít nhất 2 ký tự).' : '');
     setErr('school', school.length < 2 ? 'Hãy nhập tên trường của bạn.' : '');
+    const needKey = !Gate.active(), keyIn = $('#in-key').value;
+    setErr('key', needKey && !Gate.norm(keyIn) ? 'Key gồm 12 ký tự, dạng NK-XXXX-XXXX-XXXX.' : '');
+    if (needKey && !Gate.norm(keyIn)) { $('#in-key').focus(); return; }
     if (name.length < 2) { $('#in-name').focus(); return; }
     if (school.length < 2) { $('#in-school').focus(); return; }
+    if (needKey) {
+      const btn = $('#start-form button[type="submit"]'), old = btn.innerHTML;
+      btn.disabled = true; btn.textContent = 'Đang kiểm tra key...';
+      Gate.activate(keyIn).then(j => {
+        btn.disabled = false; btn.innerHTML = old;
+        if (!j.ok) { setErr('key', Gate.msg(j.error)); $('#in-key').focus(); return; }
+        $('#start-form').requestSubmit ? $('#start-form').requestSubmit() : $('#start-form').dispatchEvent(new Event('submit', { cancelable: true }));
+      });
+      return;
+    }
     S.player = { name: name.slice(0, 40), school: school.slice(0, 60) };
     store.set('player', S.player);
     $('#lobby-bubble').dataset.set = '';
     go('lobby', 'Đang mở cửa phòng khám');
   });
-  ['name', 'school'].forEach(f => $('#in-' + f).addEventListener('input', () => setErr(f, '')));
+  ['name', 'school', 'key'].forEach(f => $('#in-' + f).addEventListener('input', () => setErr(f, '')));
+  $('#in-key').addEventListener('input', e => keyFormat(e.target));
+  $('#key-change').addEventListener('click', () => { Gate.forget(); S.player = null; $('#in-key').value = ''; setTimeout(() => $('#in-key').focus(), 30); });
 
   document.addEventListener('click', e => {
     const t = e.target.closest('button'); if (!t) return;
@@ -9893,7 +10044,8 @@ function start(data) {
   document.addEventListener('visibilitychange', () => { if (document.hidden) Music.sleep(); else Music.wake(); });
   const saved = (data && data.player) || store.get('player', null);
   if (saved && saved.name) { $('#in-name').value = saved.name; $('#in-school').value = saved.school || ''; }
-  if (data && data.player && data.screen && data.screen !== 'start') { S.player = data.player; show('lobby'); openV1Notice(); }
+  Gate.init();
+  if (data && data.player && data.screen && data.screen !== 'start' && Gate.active()) { S.player = data.player; show('lobby'); openV1Notice(); }
   else { show('start'); openIntro(); }
   initCaps();
 }

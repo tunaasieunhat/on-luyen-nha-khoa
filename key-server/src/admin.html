@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Quản lý key · Ôn Luyện Nha Khoa</title>
+<style>
+:root{--bg:#F6F1EA;--card:#FFFFFF;--ink:#1F2A2E;--muted:#66737A;--line:#E3DCD2;--brand:#C2577E;--brand-2:#127B70;--ok:#1E7F4F;--ok-bg:#E3F4EA;--warn:#9A5B00;--warn-bg:#FFF1D6;--bad:#B3261E;--bad-bg:#FCE4E2}
+@media (prefers-color-scheme:dark){:root{--bg:#14181B;--card:#1D2327;--ink:#ECEFF1;--muted:#9AA6AD;--line:#2E373C;--brand:#F08DB0;--brand-2:#5FCBBE;--ok:#7AD9A4;--ok-bg:#163223;--warn:#F2C26B;--warn-bg:#33270F;--bad:#FF968E;--bad-bg:#3A1A18}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:860px;margin:0 auto;padding:20px 16px 60px}
+h1{font-size:1.35rem;margin:0 0 4px}
+h2{font-size:1.05rem;margin:0 0 12px}
+.sub{color:var(--muted);margin:0 0 18px;font-size:.9rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:16px}
+label{display:block;font-weight:600;font-size:.88rem;margin-bottom:4px}
+input,select,textarea{width:100%;font:inherit;color:inherit;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--brand);outline-offset:1px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+button{font:inherit;font-weight:600;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:9px 14px;cursor:pointer;min-height:40px}
+button.pri{background:var(--brand);border-color:var(--brand);color:#fff}
+button.sm{padding:6px 10px;min-height:34px;font-size:.85rem}
+button.danger{color:var(--bad)}
+button:disabled{opacity:.55;cursor:default}
+.err{color:var(--bad);font-size:.9rem;min-height:1.2em;margin:8px 0 0}
+.badge{display:inline-block;font-size:.75rem;font-weight:700;padding:2px 8px;border-radius:999px}
+.b-ok{background:var(--ok-bg);color:var(--ok)}.b-warn{background:var(--warn-bg);color:var(--warn)}.b-bad{background:var(--bad-bg);color:var(--bad)}
+.key{font-family:ui-monospace,"JetBrains Mono",Menlo,monospace;font-weight:700;letter-spacing:.04em;font-size:1rem}
+.item{border-top:1px solid var(--line);padding:14px 0}
+.item:first-child{border-top:0;padding-top:4px}
+.item-head{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}
+.meta{color:var(--muted);font-size:.85rem;margin:4px 0 8px}
+.devs{margin:6px 0 10px;padding:0;list-style:none;font-size:.85rem}
+.devs li{display:flex;justify-content:space-between;gap:8px;align-items:center;padding:6px 10px;background:var(--bg);border-radius:8px;margin-top:6px}
+.devs small{color:var(--muted)}
+.new{background:var(--ok-bg);border-color:transparent}
+.new .key{display:block;margin:4px 0}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.toolbar input{flex:1;min-width:160px}
+.toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:10px;font-weight:600;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.on{opacity:1}
+[hidden]{display:none!important}
+dialog{border:1px solid var(--line);border-radius:14px;background:var(--card);color:var(--ink);padding:16px;max-width:420px;width:calc(100% - 32px)}
+dialog::backdrop{background:rgba(0,0,0,.45)}
+</style>
+</head>
+<body>
+<main>
+  <h1>Quản lý key</h1>
+  <p class="sub">Ôn Luyện Nha Khoa · mỗi người một key, chỉ người có key mới vào được app.</p>
+
+  <section class="card" id="login">
+    <h2>Đăng nhập</h2>
+    <form id="login-form">
+      <label for="pw">Mật khẩu quản lý</label>
+      <input id="pw" type="password" autocomplete="current-password" required>
+      <p class="err" id="login-err"></p>
+      <button class="pri" type="submit">Đăng nhập</button>
+    </form>
+  </section>
+
+  <div id="panel" hidden>
+    <section class="card">
+      <h2>Tạo key mới</h2>
+      <form id="new-form">
+        <div class="grid">
+          <div><label for="n-name">Tên người dùng</label><input id="n-name" maxlength="80" required placeholder="VD: Nguyễn Minh Anh"></div>
+          <div><label for="n-note">Ghi chú (tuỳ chọn)</label><input id="n-note" maxlength="200" placeholder="VD: Lớp RHM K45"></div>
+          <div><label for="n-max">Số máy được dùng</label><select id="n-max"><option value="1">1 máy</option><option value="2">2 máy</option><option value="3">3 máy</option><option value="5">5 máy</option></select></div>
+          <div><label for="n-exp">Hạn dùng</label><select id="n-exp"><option value="">Vĩnh viễn</option><option value="7">7 ngày</option><option value="30">30 ngày</option><option value="90">3 tháng</option><option value="180">6 tháng</option><option value="365">1 năm</option><option value="date">Chọn ngày...</option></select></div>
+          <div id="n-date-wrap" hidden><label for="n-date">Hết hạn vào ngày</label><input id="n-date" type="date"></div>
+          <div><label for="n-count">Số key cần tạo</label><input id="n-count" type="number" min="1" max="50" value="1"></div>
+        </div>
+        <p class="err" id="new-err"></p>
+        <button class="pri" type="submit">Tạo key</button>
+      </form>
+      <div id="created" class="card new" hidden style="margin:14px 0 0"></div>
+    </section>
+
+    <section class="card">
+      <h2>Danh sách key <span id="count" class="meta"></span></h2>
+      <div class="toolbar">
+        <input id="q" type="search" placeholder="Tìm theo tên, key, ghi chú">
+        <select id="f" style="width:auto"><option value="">Tất cả</option><option value="active">Đang dùng được</option><option value="unused">Chưa kích hoạt</option><option value="revoked">Đã khoá</option><option value="expired">Hết hạn</option></select>
+        <button id="reload" type="button">Tải lại</button>
+        <button id="logout" type="button">Đăng xuất</button>
+      </div>
+      <div id="list"></div>
+    </section>
+  </div>
+</main>
+
+<dialog id="edit">
+  <form method="dialog" id="edit-form">
+    <h2>Sửa key <span class="key" id="e-code"></span></h2>
+    <div class="grid" style="grid-template-columns:1fr">
+      <div><label for="e-name">Tên người dùng</label><input id="e-name" maxlength="80" required></div>
+      <div><label for="e-note">Ghi chú</label><input id="e-note" maxlength="200"></div>
+      <div><label for="e-max">Số máy được dùng</label><input id="e-max" type="number" min="1" max="10"></div>
+      <div><label for="e-date">Hết hạn vào ngày (để trống = vĩnh viễn)</label><input id="e-date" type="date"></div>
+    </div>
+    <div class="row" style="margin-top:14px;justify-content:flex-end">
+      <button value="cancel" type="submit" formnovalidate>Huỷ</button>
+      <button class="pri" value="save" type="submit">Lưu</button>
+    </div>
+  </form>
+</dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const $ = s => document.querySelector(s);
+let PW = '', DATA = [], NOW = Date.now();
+try { PW = sessionStorage.getItem('nk-admin') || ''; } catch {}
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+const fmt = ms => ms ? new Date(ms).toLocaleString('vi-VN', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) : '';
+const fmtD = ms => ms ? new Date(ms).toLocaleDateString('vi-VN', { day: '2-digit', month: '2-digit', year: 'numeric' }) : '';
+const endOfDay = v => { const d = new Date(v + 'T23:59:59'); return d.getTime(); };
+const toDateInput = ms => { if (!ms) return ''; const d = new Date(ms); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
+function toast(t) { const el = $('#toast'); el.textContent = t; el.classList.add('on'); clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove('on'), 1800); }
+const ERR = { unauthorized: 'Sai mật khẩu.', too_many: 'Sai quá nhiều lần, đợi 15 phút rồi thử lại.', name_required: 'Hãy nhập tên người dùng.', bad_expiry: 'Ngày hết hạn phải ở tương lai.' };
+async function api(path, body) {
+  const r = await fetch(path, { method: body ? 'POST' : 'GET', headers: { Authorization: 'Bearer ' + PW, ...(body ? { 'Content-Type': 'application/json' } : {}) }, body: body ? JSON.stringify(body) : undefined });
+  const j = await r.json().catch(() => ({ ok: false, error: 'server' }));
+  if (!j.ok) { const e = new Error(ERR[j.error] || 'Có lỗi, thử lại sau.'); e.code = j.error; throw e; }
+  return j;
+}
+function status(k) {
+  if (k.revoked) return ['revoked', 'Đã khoá', 'b-bad'];
+  if (k.expires_at && k.expires_at <= NOW) return ['expired', 'Hết hạn', 'b-bad'];
+  if (!k.devices.length) return ['unused', 'Chưa kích hoạt', 'b-warn'];
+  return ['active', 'Đang dùng', 'b-ok'];
+}
+function message(k) {
+  return `Key vào app Ôn Luyện Nha Khoa của ${k.name}: ${k.code}\n` +
+    `Mở app, nhập key này ở mục "Key kích hoạt" (cần có mạng lần đầu). ` +
+    `Key dùng được trên ${k.max_devices} máy${k.expires_at ? `, hết hạn ngày ${fmtD(k.expires_at)}` : ', không hết hạn'}. Đừng chia sẻ key cho người khác.`;
+}
+async function copy(t, ok = 'Đã chép') { try { await navigator.clipboard.writeText(t); toast(ok); } catch { prompt('Chép nội dung này:', t); } }
+function render() {
+  const q = $('#q').value.trim().toLowerCase(), f = $('#f').value;
+  const rows = DATA.filter(k => (!q || (k.name + ' ' + k.code + ' ' + k.note).toLowerCase().includes(q)) && (!f || status(k)[0] === f));
+  $('#count').textContent = `(${rows.length}/${DATA.length})`;
+  $('#list').innerHTML = rows.length ? rows.map(k => {
+    const [, st, cls] = status(k);
+    return `<div class="item" data-code="${esc(k.code)}">
+      <div class="item-head"><b>${esc(k.name)}</b><span class="badge ${cls}">${st}</span></div>
+      <div class="key">${esc(k.code)}</div>
+      <div class="meta">${k.note ? esc(k.note) + ' · ' : ''}${k.devices.length}/${k.max_devices} máy · ${k.expires_at ? 'hết hạn ' + fmtD(k.expires_at) : 'vĩnh viễn'} · tạo ${fmtD(k.created_at)}</div>
+      ${k.devices.length ? `<ul class="devs">${k.devices.map(d => `<li><span>${esc(d.label || 'Máy không rõ tên')}<br><small>Kích hoạt ${fmt(d.first_at)} · dùng gần nhất ${fmt(d.last_at)}</small></span><button class="sm danger" data-act="remove_device" data-dev="${esc(d.device)}">Gỡ máy</button></li>`).join('')}</ul>` : ''}
+      <div class="row">
+        <button class="sm" data-act="copy">Chép key</button>
+        <button class="sm" data-act="msg">Chép tin nhắn gửi</button>
+        <button class="sm" data-act="edit">Sửa</button>
+        ${k.revoked ? '<button class="sm" data-act="unrevoke">Mở khoá</button>' : '<button class="sm danger" data-act="revoke">Khoá</button>'}
+        <button class="sm danger" data-act="delete">Xoá</button>
+      </div></div>`;
+  }).join('') : '<p class="meta">Chưa có key nào.</p>';
+}
+async function load() {
+  const j = await api('/api/admin/keys'); DATA = j.keys; NOW = j.now; render();
+}
+async function enter() {
+  try { await load(); $('#login').hidden = true; $('#panel').hidden = false; try { sessionStorage.setItem('nk-admin', PW); } catch {} }
+  catch (e) { $('#login-err').textContent = e.message; PW = ''; try { sessionStorage.removeItem('nk-admin'); } catch {} $('#login').hidden = false; $('#panel').hidden = true; }
+}
+$('#login-form').addEventListener('submit', e => { e.preventDefault(); PW = $('#pw').value; $('#login-err').textContent = ''; enter(); });
+$('#logout').addEventListener('click', () => { PW = ''; try { sessionStorage.removeItem('nk-admin'); } catch {} location.reload(); });
+$('#reload').addEventListener('click', () => load().then(() => toast('Đã tải lại')).catch(e => toast(e.message)));
+$('#q').addEventListener('input', render); $('#f').addEventListener('change', render);
+$('#n-exp').addEventListener('change', () => { $('#n-date-wrap').hidden = $('#n-exp').value !== 'date'; });
+$('#new-form').addEventListener('submit', async e => {
+  e.preventDefault(); $('#new-err').textContent = '';
+  const v = $('#n-exp').value; let exp = null;
+  if (v === 'date') { if (!$('#n-date').value) { $('#new-err').textContent = 'Hãy chọn ngày hết hạn.'; return; } exp = endOfDay($('#n-date').value); }
+  else if (v) exp = Date.now() + Number(v) * 864e5;
+  const btn = e.submitter; if (btn) btn.disabled = true;
+  try {
+    const j = await api('/api/admin/keys', { name: $('#n-name').value, note: $('#n-note').value, max_devices: $('#n-max').value, expires_at: exp, count: $('#n-count').value });
+    await load();
+    const made = j.created.map(c => DATA.find(k => k.code === c.code)).filter(Boolean);
+    const box = $('#created'); box.hidden = false;
+    box.innerHTML = `<b>Đã tạo ${made.length} key</b>${made.map(k => `<span class="key">${esc(k.code)}</span><small>${esc(k.name)}</small>`).join('')}<div class="row" style="margin-top:10px"><button class="sm" id="cp-new">Chép ${made.length > 1 ? 'tất cả key' : 'key'}</button><button class="sm" id="cp-msg">Chép tin nhắn gửi</button></div>`;
+    $('#cp-new').onclick = () => copy(made.map(k => `${k.name}: ${k.code}`).join('\n'));
+    $('#cp-msg').onclick = () => copy(made.map(message).join('\n\n'), 'Đã chép tin nhắn');
+    $('#n-name').value = ''; $('#n-note').value = '';
+  } catch (er) { $('#new-err').textContent = er.message; }
+  finally { if (btn) btn.disabled = false; }
+});
+let editing = null;
+$('#list').addEventListener('click', async e => {
+  const b = e.target.closest('button[data-act]'); if (!b) return;
+  const code = b.closest('.item').dataset.code, k = DATA.find(x => x.code === code), act = b.dataset.act;
+  if (act === 'copy') return copy(k.code, 'Đã chép key');
+  if (act === 'msg') return copy(message(k), 'Đã chép tin nhắn');
+  if (act === 'edit') {
+    editing = k; $('#e-code').textContent = k.code; $('#e-name').value = k.name; $('#e-note').value = k.note; $('#e-max').value = k.max_devices; $('#e-date').value = toDateInput(k.expires_at);
+    $('#edit').showModal(); return;
+  }
+  const ask = { revoke: `Khoá key của ${k.name}? Lần tới mở app có mạng, họ sẽ bị đăng xuất.`, delete: `Xoá hẳn key của ${k.name}? Không khôi phục được.`, remove_device: 'Gỡ máy này? Máy đó sẽ phải nhập lại key (và được tính là máy mới).' }[act];
+  if (ask && !confirm(ask)) return;
+  b.disabled = true;
+  try { await api('/api/admin/key', { code, action: act, device: b.dataset.dev }); await load(); toast('Đã cập nhật'); }
+  catch (er) { toast(er.message); b.disabled = false; }
+});
+$('#edit').addEventListener('close', async () => {
+  if ($('#edit').returnValue !== 'save' || !editing) return;
+  const d = $('#e-date').value;
+  try { await api('/api/admin/key', { code: editing.code, action: 'update', name: $('#e-name').value, note: $('#e-note').value, max_devices: $('#e-max').value, expires_at: d ? endOfDay(d) : null }); await load(); toast('Đã lưu'); }
+  catch (er) { toast(er.message); }
+  editing = null;
+});
+if (PW) enter();
+</script>
+</body>
+</html>
