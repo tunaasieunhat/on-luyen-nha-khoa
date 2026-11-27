@@ -16,3 +16,5 @@ Làm trên nhánh `rebuild` (27/11/2026). Máy làm việc tạm: `/home/claude/
 **Vá app**: `python3 -I patchdl.py <file.html>` cho 3 file HTML (chạy lại được). Việc làm: xoá dữ liệu `mindmap-data` và `VIDEOS` (tab, nút tự ẩn), sửa 3 câu nhắc tới sơ đồ, thêm môn Da Liễu vào `fixed-data`, bài + sách vào `theory-data` (hình bài học trỏ tới `slides/da-lieu/fig/`, không nhúng), khối `@@DLS-CSS`, `@@DLS-JS` (đăng ký slide vào `SLIDES`/`AVS_DECKS`).
 
 **File phát hành**: `pdf/DL-Bai-*.pdf`, `pdf/GiaoTrinh-Da-lieu.pdf`, `slides/da-lieu/*.pptx`, `*-BanIn.pdf`, `slides/da-lieu/fig/*.webp`. Kiểm thử: `tools/tests/tdl.js`.
+
+**Xoá tính năng, khoá Flashcard**: `python3 -I patchrm.py <file.html>` (chạy sau `patchdl.py`). Xoá khối `@@V25-JS` (Mô phỏng), `@@V25-SIM`, phần mô phỏng của `@@V25-CSS`, `@@V255-VOICE`/`@@V255-CSS` (lồng tiếng nhân vật), `@@MM-JS` + dữ liệu `mindmap-data`, `@@VD-*`; thêm khối `@@RB-JS` (hàm rỗng, menu, `FLASH_LOCKED`). Workflow APK không còn chép `voice/`. Kiểm thử: `tools/tests/trm.js`.
