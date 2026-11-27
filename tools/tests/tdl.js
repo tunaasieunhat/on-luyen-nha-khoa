@@ -21,7 +21,7 @@ const SHOT = process.env.SHOT || '/tmp/sh/';
     console.log(name, 'Da Liễu bài:', await p.locator('#th-list li.lesson.has').count(), 'slide:', await p.locator('[data-thsl^="dl-bai-"]').count(), 'pdf:', await p.locator('[data-thpdf^="dl-bai-"]').count());
     await p.screenshot({ path: SHOT + `dl-list-${name}.png`, fullPage: true });
     await p.click('#th-list [data-thread="dl-bai-10"]'); await p.waitForTimeout(1200);
-    console.log(name, 'bài 10:', await p.textContent('#th-title'), '| mục:', await p.locator('#th-toc-list li').count(), '| tab mm ẩn', await p.$eval('#th-tab-mm', e => e.hidden), 'vd ẩn', await p.$eval('#th-tab-vd', e => e.hidden), 'sl hiện', !(await p.$eval('#th-tab-sl', e => e.hidden)));
+    console.log(name, 'bài 10:', await p.textContent('#th-title'), '| mục:', await p.locator('#th-toc-list li').count(), '| tab mm/vd còn:', await p.locator('#th-tab-mm,#th-tab-vd').count(), 'sl hiện', !(await p.$eval('#th-tab-sl', e => e.hidden)));
     await p.evaluate(() => document.querySelectorAll('#th-body img').forEach(i => { i.loading = 'eager'; i.scrollIntoView(); })); await p.waitForTimeout(1500);
     console.log(name, 'hình:', await p.$$eval('#th-body img', a => a.map(i => i.naturalWidth > 0).join(',')));
     await p.evaluate(() => window.scrollTo(0, 0));

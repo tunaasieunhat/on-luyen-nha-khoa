@@ -1405,8 +1405,8 @@ body.fo-open{overflow:hidden}
         <div class="brand-row"><span class="logo-slot"></span><span class="eyebrow">Phòng khám luyện thi Răng Hàm Mặt</span></div>
         <h1 id="start-title">Ôn Luyện <span>Nha Khoa</span></h1>
         <div class="beta-note" role="note">
-          <span class="beta-tag">Version 2.6.3</span>
-          <span class="beta-txt">Bản cập nhật 2.6.3: Slide Anh văn chuyên ngành 2 cho người mất gốc, đủ 15 Unit, có ví dụ và trắc nghiệm.</span>
+          <span class="beta-tag">Version 2.7.0</span>
+          <span class="beta-txt">Bản cập nhật 2.7.0: Môn Da Liễu mới (giáo trình 11 bài và slide); app gọn hơn, bỏ Mô phỏng, Sơ đồ tư duy, Video.</span>
         </div>
       </div>
       <div class="start-cast">
@@ -1876,21 +1876,22 @@ body.fo-open{overflow:hidden}
   </div>
   <div class="boot-bloom" id="boot-bloom" aria-hidden="true"></div>
   <span class="boot-pass" aria-hidden="true">Bỏ qua ›</span>
-  <span class="intro-ver boot-ver" hidden>Version 2.6.3</span>
+  <span class="intro-ver boot-ver" hidden>Version 2.7.0</span>
 </div>
 <!-- @@V256-INTRO-END -->
 
 <!-- ============ THÔNG BÁO NỔI (Version 1.0) ============ -->
 <div class="modal" id="v1-modal" hidden role="dialog" aria-modal="true" aria-labelledby="v1-title">
   <div class="modal-card v1-card">
-    <div class="modal-head"><span class="beta-tag">Version 2.6.3</span><h2 id="v1-title">Bản cập nhật 2.6.3</h2><button class="icon-btn sm" type="button" id="v1-close" aria-label="Đóng"><svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
-    <p class="v1-txt">Bản cập nhật 2.6.3 đã mở mang đến những sự thay đổi mới. Cùng khám phá nhé</p>
+    <div class="modal-head"><span class="beta-tag">Version 2.7.0</span><h2 id="v1-title">Bản cập nhật 2.7.0</h2><button class="icon-btn sm" type="button" id="v1-close" aria-label="Đóng"><svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <p class="v1-txt">Bản cập nhật 2.7.0 đã mở mang đến những sự thay đổi mới. Cùng khám phá nhé</p>
     <ul class="v1-new">
-      <li><b>Slide Anh văn chuyên ngành 2, đủ 15 Unit:</b> mỗi từ một slide gồm phát âm, nút loa, cách đọc gần giống, nghĩa, mẹo nhớ, <b>3 câu ví dụ</b> và câu định nghĩa giống đề thi.</li>
-      <li><b>Trắc nghiệm ngay trên slide:</b> cứ 4 từ có một bài trắc nghiệm nhanh, cuối mỗi Unit có bài kiểm tra 8 câu. Chạm vào đáp án để biết đúng sai và xem giải thích.</li>
-      <li>Tải được <b>PowerPoint</b> (chỉnh sửa được, có ghi chú) và <b>bản in 4 slide/trang</b> có thêm slide đáp án. Mở ở nút <b>Slide bài giảng</b> trong mỗi Unit.</li>
+      <li><b>Môn Da Liễu mới, 11 bài:</b> giáo trình biên soạn lại dễ hiểu, 77 hình minh hoạ, mẹo nhớ và phần liên hệ Răng Hàm Mặt; tải PDF từng bài hoặc <b>giáo trình trọn bộ</b>.</li>
+      <li><b>Slide bài giảng Da Liễu:</b> 11 bộ slide có hình, <b>66 câu trắc nghiệm</b> chạm để xem giải thích; tải PowerPoint và bản in 4 slide/trang.</li>
+      <li><b>App gọn nhẹ hơn:</b> bỏ Mô Phỏng Nha Khoa, Sơ đồ tư duy và Video bài giảng để tập trung vào lý thuyết, slide và làm bài.</li>
+      <li><b>Flashcard tạm khóa</b> để làm lại, sẽ mở lại ở bản sau.</li>
     </ul>
-    <a class="btn btn-gum btn-lg v1-dl" id="v1-dl" href="https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk" target="_blank" rel="noopener"><svg class="i" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Tải app version 2.6.3 (Android)</a>
+    <a class="btn btn-gum btn-lg v1-dl" id="v1-dl" href="https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk" target="_blank" rel="noopener"><svg class="i" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Tải app version 2.7.0 (Android)</a>
     <p class="v1-url">https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk</p>
     <button class="btn" type="button" id="v1-ok">Khám phá ngay</button>
   </div>
@@ -3588,9 +3589,9 @@ function paintArt(q) {
 let v1Shown = false;
 function openV1Notice() {
   // Bản web: hiện mỗi lần mở (kèm nút tải app). App Android: chỉ hiện một lần cho mỗi phiên bản, không có nút tải.
-  if (v1Shown || (window.AndroidApp && store.get('seenNotice', '') === '2.6.3')) return;
+  if (v1Shown || (window.AndroidApp && store.get('seenNotice', '') === '2.7.0')) return;
   const m = $('#v1-modal'); if (!m) return;
-  if (window.AndroidApp) { $('#v1-dl').hidden = true; const u = $('.v1-url'); if (u) u.hidden = true; store.set('seenNotice', '2.6.3'); }
+  if (window.AndroidApp) { $('#v1-dl').hidden = true; const u = $('.v1-url'); if (u) u.hidden = true; store.set('seenNotice', '2.7.0'); }
   v1Shown = true; m.hidden = false;
   setTimeout(() => { try { $('#v1-ok').focus(); } catch {} }, 60);
 }
