@@ -1,0 +1,76 @@
+@next Giang mai
+@goal
+- Nêu **nguyên nhân, yếu tố thuận lợi, cơ chế** của bệnh chốc
+- Nhận biết **3 thể**: không bóng nước, bóng nước, chốc loét
+- Chẩn đoán **xác định và phân biệt**
+- Chọn thuốc theo mức độ; **phòng bệnh** trong cộng đồng
+# 1. Mở đầu | Nhiễm trùng da nông, rất dễ lây
+- Do **tụ cầu vàng** hoặc **liên cầu** (Gram dương)
+- **Mụn nước nông → mụn mủ → vỡ → vảy tiết**
+- Hay gặp ở **trẻ em**, **mùa hè, nóng ẩm**
+- Thuận lợi: **vệ sinh kém**, bệnh da sẵn (**ghẻ, chấy, côn trùng cắn, viêm da cơ địa**)
+# 2. Sinh bệnh học | Tác nhân theo thể
+| Thể | Tác nhân |
+| **Không bóng nước** (70%) | **Liên cầu** và/hoặc **tụ cầu vàng** |
+| **Bóng nước** | **Tụ cầu vàng týp 71**: độc tố **exfoliatin** |
+| **Chốc loét** | Thường **liên cầu**; người suy giảm miễn dịch, người già |
+- Da nguyên vẹn đề kháng được; vi khuẩn vào qua **cửa ngõ**: vết xước, côn trùng đốt, chàm
+! why: exfoliatin cắt **desmoglein-1** ("đinh tán" lớp nông) → bóng nước **rất nông, dễ vỡ**; vào máu gây **SSSS**
+# 3.1. Chốc không bóng nước | Vảy tiết vàng mật ong
+- **Sẩn đỏ → mụn nước, mụn mủ nhỏ** → vỡ nhanh
+- **Vảy tiết vàng mật ong** trên nền đỏ ướt
+- Quanh **mũi, miệng, mắt** và các chi; **hay lan**
+- Thường **không sốt**; **hạch vùng to**
+@fig 63
+! tip[Liên hệ răng hàm mặt]: trẻ có vảy vàng mật ong **quanh môi** → điều trị chốc trước khi làm răng: **rất dễ lây** qua tay, dụng cụ
+# 3.2–3.3. Chốc bóng nước và chốc loét | Hai thể còn lại
+- **Bóng nước**: bọng **nông, vỏ mỏng, nhăn nheo**, dịch vàng trong; vỡ để **viền vảy**, **không vảy tiết**; ít lây hơn
+- **Chốc loét**: ăn sâu xuống **trung bì**, loét **"đục lỗ"**, vảy xám bẩn, **bờ tím**
+- Chốc loét hay ở **chi dưới**, lâu lành, **để sẹo**
+@fig 64
+# 3. So sánh | Ba thể chốc
+| | Không bóng nước | Bóng nước | Chốc loét |
+| **Tác nhân** | Liên cầu ± tụ cầu | **Tụ cầu týp 71** | Liên cầu ± tụ cầu |
+| **Tổn thương** | **Vảy tiết vàng mật ong** | **Bọng nhăn nheo**, viền vảy | **Loét đục lỗ** |
+| **Độ sâu** | Thượng bì | **Dưới lớp sừng** | **Trung bì** |
+| **Sẹo** | Không | Không | **Có** |
+?? Kiểm tra nhanh: tác nhân và lâm sàng
+? Dấu hiệu | Dấu hiệu kinh điển của chốc không bóng nước? | Vảy trắng bạc | Vảy tiết vàng mật ong | Mụn nước theo dây thần kinh | Mảng vòng trung tâm lành | B | Mụn mủ vỡ nhanh đóng vảy tiết màu vàng mật ong trên nền đỏ ướt.
+? Độc tố | Độc tố exfoliatin của tụ cầu cắt protein nào? | Filaggrin | Desmoglein-1 | Collagen VII | Keratin | B | Exfoliatin cắt desmoglein-1, tách thượng bì dưới lớp sừng.
+? Sẹo | Thể chốc nào để lại sẹo? | Không bóng nước | Bóng nước | Chốc loét | Không thể nào | C | Chốc loét ăn sâu xuống trung bì nên lành để lại sẹo.
+# 4–5. Cận lâm sàng và chẩn đoán | Chủ yếu dựa vào lâm sàng
+- **Nhuộm Gram**: cầu khuẩn Gram (+) xếp **chuỗi** (liên cầu) hoặc **đám** (tụ cầu)
+- **Cấy mủ, kháng sinh đồ** khi nghi ngờ, **đáp ứng kém**
+| Phân biệt | Điểm khác |
+| **Herpes** | Mụn nước **thành chùm**, **hay tái phát** |
+| **Thủy đậu** | Tiền triệu; **nhiều lứa tuổi** tổn thương |
+| **Zona** | **Một bên, theo dây thần kinh**, **đau** |
+| **Nấm da** | Bờ mụn nước, **trung tâm lành**; soi có sợi nấm |
+# 6. Biến chứng | SSSS và viêm cầu thận
+- Điều trị đúng khỏi sau **7–10 ngày**
+- **Chàm hóa**; viêm mô bào, nhiễm khuẩn huyết
+- **SSSS**: exfoliatin trong máu → bóng nước lan rộng ở **trẻ sơ sinh, trẻ nhỏ**
+- **Viêm cầu thận cấp** **2–4 tuần** sau nhiễm liên cầu: **phù mi mắt, tiểu ít, nước tiểu đỏ nâu**
+! warn: trẻ bị chốc vài tuần trước nay **phù mí, nước tiểu "nước rửa thịt"** → nghĩ ngay **viêm cầu thận cấp**
+# 7. Điều trị | Tại chỗ và toàn thân
+- **Làm sạch vảy tiết** bằng gạc ẩm, dung dịch sát khuẩn
+- Bôi **mupirocin** (kháng thấp **5–10%**); **không khuyến cáo acid fusidic** (kháng 32–50%)
+- Uống khi **chốc bóng nước, lan tỏa**, có triệu chứng toàn thân:
+  - **Beta-lactam**: amoxicillin 50 mg/kg/ngày, **cloxacillin** 50–100 mg/kg/ngày
+  - **MRSA**: TMP/SMX, **clindamycin**, doxycyclin (**trẻ > 8 tuổi**)
+# 8. Phòng bệnh | Sạch tay, sạch da
+- **Vệ sinh da**, **cắt móng tay**, **rửa tay** bằng xà phòng
+- Tránh nơi **ẩm thấp**, thiếu ánh sáng
+- **Điều trị sớm**, tránh gãi, chà xát
+- **Tránh côn trùng đốt**
+?? Kiểm tra nhanh: biến chứng và điều trị
+? Thuốc bôi | Kháng sinh bôi được ƯU TIÊN trong chốc? | Acid fusidic | Mupirocin | Corticoid | Kẽm oxyd | B | Mupirocin có tỷ lệ kháng thấp (5–10%); acid fusidic kháng rất cao.
+? Biến chứng | Trẻ bị chốc 3 tuần trước, nay phù mi mắt, tiểu ít, nước tiểu đỏ nâu: nghĩ gì? | Dị ứng thuốc | Viêm cầu thận cấp hậu nhiễm liên cầu | SSSS | Chàm hóa | B | Viêm cầu thận cấp xảy ra 2–4 tuần sau nhiễm liên cầu.
+? MRSA | Lựa chọn khi nghi tụ cầu kháng methicillin (MRSA)? | Amoxicillin | Cloxacillin | Clindamycin | Penicillin V | C | MRSA: TMP/SMX, clindamycin, hoặc doxycyclin (trẻ > 8 tuổi).
+@recap
+- Nhiễm trùng **da nông** do **tụ cầu, liên cầu**; trẻ em, mùa hè
+- **Không bóng nước (70%)**: **vảy tiết vàng mật ong**, quanh mũi miệng, lây cao
+- **Bóng nước**: tụ cầu **týp 71**, **exfoliatin cắt desmoglein-1**
+- **Chốc loét**: loét **đục lỗ**, để sẹo
+- Bôi **mupirocin**; uống **beta-lactam**; MRSA: clindamycin, TMP/SMX
+- Biến chứng: **SSSS**, **viêm cầu thận cấp sau 2–4 tuần**

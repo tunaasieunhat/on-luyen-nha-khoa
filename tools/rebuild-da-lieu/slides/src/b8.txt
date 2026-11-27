@@ -1,0 +1,79 @@
+@next Bệnh chốc
+@goal
+- Mô tả **tác nhân, đường lây, cơ chế** của bệnh ghẻ
+- Phân biệt **ghẻ thông thường** và **ghẻ Na Uy**
+- Chẩn đoán **lâm sàng, cận lâm sàng**
+- Trình bày **phác đồ, diệt nguồn lây**, biến chứng
+# 1–2. Mở đầu và dịch tễ | Bệnh da ký sinh trùng dễ bỏ sót
+- Do **Sarcoptes scabiei hominis**; khoảng **300 triệu ca/năm**
+- Lây qua **tiếp xúc da** hoặc **đồ dùng**: quần áo, chăn màn
+- Nơi **đông đúc, chật hẹp, vệ sinh kém**
+- Nghĩ tới ghẻ ở **mọi bệnh nhân ngứa nhiều, dai dẳng, diện rộng**
+- **Ghẻ Na Uy** ở người **suy giảm miễn dịch**
+# 3. Cái ghẻ | Đào hang trong thượng bì
+- Dài **0,3–0,35 mm**, **8 chân**; chỉ sống trên da người
+- Đào hang **không sâu quá lớp gai**, **2–3 mm/đêm** → **ngứa đêm**
+- Ghẻ cái sống **4–6 tuần**, đẻ 1–5 trứng/ngày; trứng nở sau **3–7 ngày**
+- Rời người: **chết sau 3–5 ngày**
+- **Ngứa là phản ứng dị ứng** với chất thải, xác ghẻ
+@fig 62
+! why: thuốc ít diệt **trứng** → **bôi nhắc lại sau 1 tuần** để diệt lứa mới nở
+# 4.1. Ghẻ thông thường | Ngứa đêm, mụn nước kẽ ngón
+- Ủ bệnh lần đầu **4–6 tuần**; tái nhiễm **24–72 giờ**
+- **Mụn nước rải rác** ở **kẽ ngón tay**, cổ tay, rốn, thắt lưng, mông, **sinh dục**
+- **Hang ghẻ**: đường ngoằn ngoèo 3–5 mm, **đặc hiệu**
+- **Sẩn, cục ghẻ** ở nách, bẹn, bìu; có thể còn sau khi hết ghẻ
+- Trẻ sơ sinh: mụn nước **lòng bàn tay, bàn chân**
+@fig 60
+! tip: 3 dấu hiệu "vàng": **ngứa đêm**, **mụn nước kẽ ngón**, **nhiều người trong nhà cùng ngứa**
+# 4.2. Ghẻ Na Uy | Ít ngứa nhưng cực kỳ dễ lây
+| | Thông thường | Na Uy (ghẻ vảy) |
+| **Cơ địa** | Bình thường | **Suy giảm miễn dịch** |
+| **Ngứa** | **Dữ dội về đêm** | **Ít hoặc không** |
+| **Số ghẻ** | Hàng chục | **Hàng triệu** |
+| **Tổn thương** | Mụn nước, hang ghẻ | **Mảng đỏ, vảy dày**, sùi |
+| **Vị trí** | Da mỏng, ít ở đầu mặt | Lan tỏa, **cả đầu, cổ, tai** |
+@fig 61
+! warn: khám người già, nằm lâu, HIV có **vảy dày lan tỏa** → **mang găng**, nghĩ ghẻ Na Uy
+?? Kiểm tra nhanh: cái ghẻ và lâm sàng
+? Triệu chứng | Triệu chứng hay gặp nhất của ghẻ thông thường? | Đau rát | Ngứa dữ dội về đêm | Sốt cao | Không triệu chứng | B | Ghẻ đào hang về đêm, gây ngứa dữ dội ban đêm.
+? Đặc hiệu | Tổn thương ĐẶC HIỆU của bệnh ghẻ là gì? | Mụn mủ | Đường hầm ghẻ | Vảy trắng bạc | Mảng vòng | B | Hang ghẻ là đặc hiệu; khêu ở đầu hang có thể bắt được cái ghẻ.
+? Ghẻ Na Uy | Đặc điểm nào ĐÚNG với ghẻ Na Uy? | Ngứa dữ dội | Ít ghẻ | Vảy dày, hàng triệu con ghẻ, rất dễ lây | Chỉ ở kẽ ngón | C | Ghẻ Na Uy ở người suy giảm miễn dịch, ít ngứa, vảy dày, hàng triệu con ghẻ.
+# 5–6. Cận lâm sàng và biến chứng | Tìm ghẻ, coi chừng thận
+- **Soi kính hiển vi**: cái ghẻ, trứng, phân ghẻ
+- **Soi da**: hình đường hầm đặc hiệu
+- Biến chứng: **chàm hóa**, **bội nhiễm liên cầu**, lichen hóa
+- **Viêm cầu thận cấp** sau bội nhiễm liên cầu
+# 7. Chẩn đoán | Lâm sàng thường là đủ
+- Xác định: **mụn nước rải rác** ở vùng da mỏng + **ngứa đêm** + **nhiều người cùng bị**
+- Chắc chắn nhất: thấy **hang ghẻ**, **bắt được cái ghẻ**
+- Không tìm được ghẻ: **điều trị thử**
+| Phân biệt | Điểm khác |
+| **Tổ đỉa** | Mụn nước **sâu**, cạnh ngón, **không quá cổ tay** |
+| **Chàm** | Mảng đỏ giới hạn không rõ, nếp gấp, đối xứng |
+| **Săng giang mai** | **Nền cứng, không đau**, kèm hạch; huyết thanh (+) |
+# 8. Điều trị | Thuốc bôi
+| Thuốc | Cách dùng, lưu ý |
+| **Permethrin 5%** | **Đầu tay**; lưu 8–14 giờ, **nhắc lại sau 7 ngày**; an toàn cho **thai phụ, trẻ > 2 tháng** |
+| **Lindan 1%** | **Không dùng** trẻ < 2 tuổi, thai phụ |
+| **Crotamiton 10%** | 3 ngày liên tục; có tác dụng **chống ngứa** |
+| **Lưu huỳnh 5–10%** | **An toàn cho sơ sinh, thai phụ** |
+| **Benzyl benzoat** | Lưu 24 giờ; dễ kích ứng |
+- Bôi **toàn thân từ cổ xuống**, **buổi tối**; trẻ nhỏ, người già bôi cả **đầu, mặt**
+# 8.3–8.4. Toàn thân và diệt nguồn lây | Chữa cả nhà
+- **Ivermectin 200 µg/kg** cho **ghẻ Na Uy** (kèm thuốc bôi); không dùng trẻ < 15 kg, thai phụ
+- **Kháng histamin H1** buổi tối; kháng sinh khi bội nhiễm
+- Đồ dùng: **túi nhựa kín 10 ngày** hoặc **luộc 80–90°C × 15 phút**
+- **Điều trị đồng thời** người sống chung
+! tip: ngứa có thể kéo dài **1–2 tuần** sau điều trị: **không phải thất bại**
+?? Kiểm tra nhanh: điều trị
+? Đầu tay | Thuốc bôi đầu tay, an toàn cho thai phụ và trẻ > 2 tháng? | Lindan 1% | Permethrin 5% | Benzyl benzoat | Corticoid bôi | B | Permethrin 5% là lựa chọn đầu tay, an toàn cho thai phụ, cho con bú, trẻ > 2 tháng.
+? Nhắc lại | Vì sao phải bôi thuốc nhắc lại sau khoảng 1 tuần? | Để giảm ngứa | Vì thuốc ít diệt trứng, cần diệt lứa mới nở | Vì thuốc bay hơi | Để chống bội nhiễm | B | Trứng nở sau 3–7 ngày; lần bôi thứ hai diệt ấu trùng mới nở.
+? Ghẻ Na Uy | Thuốc uống phối hợp cho ghẻ Na Uy? | Ivermectin 200 µg/kg | Fluconazol | Methotrexate | Amoxicillin | A | Ivermectin 200 µg/kg phối hợp thuốc bôi trong ghẻ Na Uy.
+@recap
+- **Sarcoptes scabiei**: đào hang trong thượng bì, **ngứa đêm**
+- **Mụn nước kẽ ngón**, **hang ghẻ** đặc hiệu, **nhiều người cùng bị**
+- Ủ bệnh **4–6 tuần**; tái nhiễm 24–72 giờ
+- **Ghẻ Na Uy**: ít ngứa, vảy dày, **hàng triệu con**
+- **Permethrin 5%**, **nhắc lại sau 1 tuần**; ghẻ Na Uy thêm **ivermectin**
+- Điều trị **cả nhà**, xử lý đồ dùng; coi chừng **viêm cầu thận cấp**

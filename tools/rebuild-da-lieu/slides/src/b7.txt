@@ -1,0 +1,86 @@
+@next Bệnh ghẻ
+@goal
+- Nêu **nguyên nhân, đường lây, yếu tố nguy cơ** của vi nấm cạn
+- Nhận diện các thể do **nấm sợi tơ, Candida, Malassezia**
+- Nêu đặc điểm **cận lâm sàng**
+- Lập kế hoạch **điều trị và dự phòng**
+# 1–2. Mở đầu | Ba tác nhân, ưa nóng ẩm
+- **Nấm sợi tơ** (Dermatophytes): nấm thân, nấm bẹn, nấm móng
+- **Candida** (nấm hạt men): tưa miệng, chốc mép, nếp kẽ, móng
+- **Malassezia**: **lang ben**
+- Ưa **25–27°C, ẩm**, vùng **lép nhép mồ hôi**: bẹn, kẽ chân, dưới vú
+- Lây **người sang người** (hay nhất), từ súc vật, đất
+! tip: diệt nấm bằng **nhiệt**: phơi nắng hoặc luộc quần áo, khăn
+# 3.1. Nấm sợi tơ | Ba chủng
+| Chủng | Da | Lông, tóc | Móng |
+| **Microsporum** | + | + | **–** |
+| **Trichophyton** | + | + | **+** |
+| **Epidermophyton** | + | **–** | + |
+- **Ưa động vật**: viêm **nặng, cấp**; **ưa người**: nhẹ, mạn tính
+- Thuận lợi: **bôi corticoid lâu**, giày kín, đồ lót chật
+! tip: **Trichophyton** gây bệnh ở **cả 4 nơi**
+# 3.2–3.3. Nấm thân, nấm bẹn | Hình vòng, trung tâm lành
+- **Mảng tròn, đa cung, giới hạn rõ**, tróc vảy
+- **Trung tâm lành, bờ lan ra ngoài** (ly tâm), **rìa có mụn nước**
+- **Ngứa nhiều** khi ra nắng, đổ mồ hôi
+- Nấm bẹn lan sang bên kia, lên mu, xuống đùi
+@fig 49
+! warn: bôi **corticoid, kem trộn** lên nấm → lan rộng, **mất hình dạng điển hình**; luôn **soi nấm** trước
+# 3.4 & 4.4. Nấm móng | Sợi tơ hay Candida?
+| | Nấm sợi tơ | Candida |
+| **Viêm quanh móng** | **Ít hoặc không** | **Có**: sưng, đỏ, đau, có mủ |
+| **Bắt đầu từ** | **Bờ tự do**, hai cạnh | **Chân móng** |
+| **Bột vụn dưới móng** | **Có** | **Không** |
+- Móng **mất bóng, giòn, dày, màu bẩn**, lẹm dần
+@fig 51
+# 4. Candida | Yếu tố thuận lợi
+- **C. albicans 70–80%**; vốn ký sinh sẵn trên cơ thể
+- **Đái tháo đường**, béo phì; thiếu vitamin B, C
+- **Kháng sinh**, **corticoid** lâu dài, hóa trị
+- **Tuổi già, có thai**, **mang răng giả**, ngâm tay nước nhiều
+- Da: **mảng đỏ** ở nếp kẽ, kèm **sang thương vệ tinh**
+# 4.1–4.2. Candida miệng | Bệnh nấm nha sĩ gặp nhiều nhất
+- **Tưa miệng**: mảng **trắng như sữa vón**, bám chắc, **cạo ra rớm máu**
+- **Viêm góc miệng** (chốc mép): nứt, đỏ ở hai góc miệng
+- Nghĩ tới ở người **mang hàm giả**, **đái tháo đường**, vừa dùng **kháng sinh**, **corticoid xịt họng**, **HIV**
+@fig 52
+! tip[Liên hệ răng hàm mặt]: mảng trắng **cạo được, rớm máu** → Candida; **bạch sản không cạo được**
+?? Kiểm tra nhanh: nấm sợi tơ và Candida
+? Tác nhân | Chủng nấm sợi tơ nào KHÔNG gây bệnh ở móng? | Trichophyton | Microsporum | Epidermophyton | Cả ba đều gây | B | Microsporum không gây bệnh móng; Epidermophyton không vào lông, tóc.
+? Nấm thân | Tổn thương điển hình của nấm thân là gì? | Mảng vòng, trung tâm lành, bờ hoạt động | Vảy trắng bạc như sáp | Mụn nước theo dây thần kinh | Sẩn tím dẹt | A | Nấm thân lan ly tâm: trung tâm lành, bờ có mụn nước, vảy.
+? Răng miệng | Mảng trắng miệng ở người mang hàm giả, cạo ra rớm máu, nghĩ tới gì? | Bạch sản | Tưa miệng do Candida | Lichen phẳng | Giang mai | B | Candida tạo mảng trắng như sữa vón, cạo được và rớm máu; bạch sản không cạo được.
+# 5. Lang ben | Malassezia ưa mỡ
+- Hay ở **thanh thiếu niên**, vùng nhiệt đới
+- Dát **tròn 1–3 cm**, màu **hồng, nâu hoặc trắng**, **vảy cám mịn**
+- Cào nhẹ thấy vảy rõ: **dấu hiệu vỏ bào**
+- Người lớn ở **ngực, lưng, chi trên**; trẻ em ở **mặt**
+- Dai dẳng, **tái phát mùa nóng**
+@fig 56
+# 6. Cận lâm sàng | Soi tươi là chính
+| Bệnh | Soi tươi | Khác |
+| **Nấm sợi tơ** | **Sợi nấm phân nhánh, có vách** | Nuôi cấy |
+| **Candida** | **Bào tử men + giả sợi** | Cấy Sabouraud |
+| **Lang ben** | Men tròn xếp cụm + sợi ngắn: **"thịt trên nui"** | **Đèn Wood: vàng sáng** |
+@fig 57
+# 7. Điều trị | Tại chỗ và toàn thân
+- **Bôi** azole (ketoconazole, miconazole), **terbinafin**, ciclopirox: **1–2 lần/ngày × 2–4 tuần**
+- **Bôi thêm 2 tuần** sau khi hết triệu chứng
+- **Uống** khi **lan rộng, nấm móng**, không đáp ứng thuốc bôi:
+  - **Terbinafin 250 mg/ngày × 2 tuần**; **itraconazol 200 mg × 2 lần/ngày × 1 tuần**
+  - Lang ben: **itraconazol 200 mg/ngày × 5–7 ngày**; fluconazol 300 mg/tuần × 2–3 tuần
+! why: da trông đã lành nhưng **bào tử vẫn còn** trong lớp sừng → ngưng sớm là tái phát
+# 8. Phòng bệnh | Khô, sạch, không dùng chung
+- **Khử nấm** quần áo, giày vớ, khăn bằng nhiệt
+- **Không dùng chung** khăn, chậu, quần áo
+- **Điều trị nguồn lây**: người và súc vật (mèo, thỏ)
+- **Chống ẩm**: đồ thoáng, giữ khô nếp kẽ, thay đồ mỗi ngày
+?? Kiểm tra nhanh: lang ben, xét nghiệm, điều trị
+? Lang ben | Hình ảnh soi tươi "thịt trên nui" gặp trong bệnh nào? | Nấm thân | Lang ben | Candida | Ghẻ | B | Malassezia: tế bào men tròn xếp cụm xen sợi nấm ngắn cong.
+? Đèn Wood | Lang ben dưới đèn Wood cho huỳnh quang màu gì? | Xanh lục | Vàng sáng | Đỏ san hô | Không phát sáng | B | Lang ben phát huỳnh quang vàng sáng ở rìa tổn thương.
+? Thời gian bôi | Sau khi hết triệu chứng, nên bôi thuốc kháng nấm thêm bao lâu? | Ngưng ngay | 2 tuần | 6 tháng | 1 ngày | B | Bôi thêm 2 tuần vì bào tử nấm vẫn còn trong lớp sừng.
+@recap
+- **Sợi tơ**: hình vòng, **trung tâm lành, bờ hoạt động**; móng có **bột vụn**
+- **Candida**: tưa miệng **cạo được, rớm máu**; chốc mép; **sang thương vệ tinh**; móng có **viêm quanh móng**
+- **Lang ben**: vảy cám, **dấu vỏ bào**, **"thịt trên nui"**, Wood **vàng sáng**
+- Bôi **2–4 tuần + thêm 2 tuần**; uống khi lan rộng, nấm móng
+- Không bôi corticoid khi chưa soi nấm

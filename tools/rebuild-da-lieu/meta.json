@@ -1,0 +1,79 @@
+[
+ {
+  "b": 1,
+  "title": "Cấu trúc, sinh lý và giải phẫu bệnh da",
+  "p1": 1,
+  "p2": 11,
+  "file": "DL-Bai-01-Cau-Truc-Sinh-Ly-Va-Giai-Phau-Benh-Da.pdf"
+ },
+ {
+  "b": 2,
+  "title": "Sang thương cơ bản",
+  "p1": 12,
+  "p2": 26,
+  "file": "DL-Bai-02-Sang-Thuong-Co-Ban.pdf"
+ },
+ {
+  "b": 3,
+  "title": "Bệnh vảy nến (Psoriasis)",
+  "p1": 27,
+  "p2": 38,
+  "file": "DL-Bai-03-Benh-Vay-Nen.pdf"
+ },
+ {
+  "b": 4,
+  "title": "Viêm da cơ địa (Atopic dermatitis)",
+  "p1": 39,
+  "p2": 56,
+  "file": "DL-Bai-04-Viem-Da-Co-Dia.pdf"
+ },
+ {
+  "b": 5,
+  "title": "Đỏ da toàn thân",
+  "p1": 57,
+  "p2": 70,
+  "file": "DL-Bai-05-Do-Da-Toan-Than.pdf"
+ },
+ {
+  "b": 6,
+  "title": "Mụn trứng cá (Acne vulgaris)",
+  "p1": 71,
+  "p2": 93,
+  "file": "DL-Bai-06-Mun-Trung-Ca.pdf"
+ },
+ {
+  "b": 7,
+  "title": "Bệnh vi nấm cạn",
+  "p1": 94,
+  "p2": 103,
+  "file": "DL-Bai-07-Benh-Vi-Nam-Can.pdf"
+ },
+ {
+  "b": 8,
+  "title": "Bệnh ghẻ",
+  "p1": 104,
+  "p2": 112,
+  "file": "DL-Bai-08-Benh-Ghe.pdf"
+ },
+ {
+  "b": 9,
+  "title": "Bệnh chốc",
+  "p1": 113,
+  "p2": 118,
+  "file": "DL-Bai-09-Benh-Choc.pdf"
+ },
+ {
+  "b": 10,
+  "title": "Giang mai",
+  "p1": 119,
+  "p2": 129,
+  "file": "DL-Bai-10-Giang-Mai.pdf"
+ },
+ {
+  "b": 11,
+  "title": "Bệnh lậu",
+  "p1": 130,
+  "p2": 141,
+  "file": "DL-Bai-11-Benh-Lau.pdf"
+ }
+]

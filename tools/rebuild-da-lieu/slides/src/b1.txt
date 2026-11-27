@@ -1,0 +1,84 @@
+@next Sang thương cơ bản
+@goal
+- Mô tả **3 lớp da** và các phần phụ
+- Nêu đặc điểm **4 loại tế bào** chính của thượng bì
+- Trình bày **7 chức năng** sinh lý của da
+- Nhận ra các **biến đổi mô học** cơ bản và liên hệ lâm sàng
+# 1. Mở đầu | Da là cơ quan lớn nhất cơ thể
+- Chiếm khoảng **16% trọng lượng**, diện tích **1,5–2 m²**
+- **Hàng rào bảo vệ**: cơ học, nhiệt, ánh sáng, hóa chất, vi sinh vật
+- Còn đảm nhiệm **cảm giác, điều nhiệt, bài tiết, chuyển hóa, miễn dịch**
+! why: da như bức tường **3 tầng**: gạch chống thấm (thượng bì), khung có ống nước, dây điện (trung bì), đệm mỡ (hạ bì)
+# 2. Cấu trúc | Ba lớp: thượng bì, trung bì, hạ bì
+- **Thượng bì**: ngoài cùng, **không có mạch máu**
+- **Trung bì**: mô liên kết, **collagen, elastin**, mạch máu, phần phụ
+- **Hạ bì**: thùy mỡ, đệm và dự trữ năng lượng
+@fig 0
+# 2.1. Thượng bì | Năm lớp, thay mới khoảng 28 ngày
+- Dày từ **0,05 mm** (mí mắt) đến **1,5 mm** (lòng bàn tay, chân)
+- Nuôi bằng dịch **khuếch tán từ trung bì**
+- 5 lớp từ trong ra: **đáy, gai, hạt, sáng, sừng**
+  - **Lớp sáng** chỉ có ở **lòng bàn tay, bàn chân**
+@fig 1
+! tip: **"Đáy – Gai – Hạt – Sáng – Sừng"**
+# 2.1. Tế bào thượng bì | Bốn loại tế bào chính
+| Tế bào | Ở đâu, từ đâu | Vai trò |
+| **Tạo sừng** | Lớp đáy → đi lên | **90–95%**; tạo keratin; thay mới **28 ngày** |
+| **Sắc tố** (melanocyte) | Lớp đáy; **mào thần kinh** | Tạo **melanin**, chuyển sang tế bào sừng |
+| **Langerhans** | Lớp gai; **tủy xương** | **Trình diện kháng nguyên**; hạt **Birbeck** |
+| **Merkel** | Đầu ngón, **môi, niêm mạc miệng** | **Xúc giác tinh tế** |
+! key: màu da khác nhau do **melanosome** (số lượng, kích thước, phân bố), **không phải** do số melanocyte
+# 2.2–2.3. Trung bì và hạ bì | Khung nâng đỡ và lớp đệm
+- **Trung bì nông**: nhú bì giàu mao mạch, nuôi thượng bì
+- **Trung bì sâu**: bó collagen dày; **tuyến mồ hôi, tuyến bã, nang lông**
+- Tế bào: **nguyên bào sợi**, **mast** (tiết **histamin**), miễn dịch
+- **Hạ bì**: thùy mỡ + vách liên kết; **cách nhiệt, đệm, dự trữ năng lượng**, tiết **adipokine**
+# 2.4. Phần phụ | Lông, móng, tuyến bã, tuyến mồ hôi
+| | Eccrine | Apocrine |
+| **Đổ ra** | **Thẳng bề mặt da** | **Vào nang lông** |
+| **Ở đâu** | Toàn thân, nhiều ở **lòng bàn tay, chân** | **Nách**, quanh vú, sinh dục |
+| **Vai trò** | **Điều hòa nhiệt** | Tạo **mùi** khi vi khuẩn phân hủy |
+- **Tuyến bã**: đi kèm nang lông, tiết bã nhờn giữ ẩm, chống khuẩn
+# 3. Chức năng | Bảy chức năng sinh lý của da
+- **Bảo vệ**: lớp sừng, **melanin** chắn UV, **pH acid nhẹ**
+- **Điều nhiệt**: nóng → giãn mạch, đổ mồ hôi; lạnh → co mạch
+- **Cảm giác**: Meissner (sờ nhẹ), Pacini (rung, áp lực), đầu tận tự do (đau, ngứa)
+- **Bài tiết**, **chuyển hóa** (**vitamin D3** nhờ **UVB**)
+- **Miễn dịch**: Langerhans, mast, lympho T, **defensin**
+- **Tạo hình, giao tiếp**: đỏ mặt, tái mặt, nổi da gà
+! tip: **"Bảo – Nhiệt – Cảm – Bài – Chuyển – Miễn – Hình"**
+?? Kiểm tra nhanh: cấu trúc và chức năng
+? Thượng bì | Lớp nào của thượng bì CHỈ có ở lòng bàn tay, bàn chân? | Lớp đáy | Lớp gai | Lớp sáng | Lớp hạt | C | Lớp sáng (stratum lucidum) chỉ có ở nơi da dày nhất: lòng bàn tay, bàn chân.
+? Tế bào | Tế bào Langerhans có nguồn gốc và vai trò gì? | Mào thần kinh, tạo melanin | Tủy xương, trình diện kháng nguyên | Lớp đáy, tạo keratin | Trung bì, tiết histamin | B | Langerhans từ tủy xương, là tế bào tua trình diện kháng nguyên; có hạt Birbeck.
+? Chức năng | Da tổng hợp vitamin D3 nhờ tia nào? | UVA | UVB | Hồng ngoại | Tia X | B | 7-dehydrocholesterol chuyển thành vitamin D3 dưới tác dụng của UVB.
+# 4.1. Giải phẫu bệnh | Thuật ngữ mô học cần biết
+| Thuật ngữ | Nghĩa | Gặp trong |
+| **Tăng sản biểu bì** | Biểu bì **dày lên** | **Vảy nến** |
+| **Á sừng** | Tế bào sừng **còn nhân** | **Vảy nến** |
+| **Xốp bào** | Dịch **giữa tế bào lớp gai** | **Chàm** |
+| **Ly gai** | Tế bào **mất liên kết** | **Pemphigus**, herpes |
+| **Teo** | Thượng bì **mỏng** | Lão hóa, lupus |
+! why: á sừng là tế bào bị đẩy lên **quá nhanh**, chưa kịp mất nhân → dấu hiệu bệnh **tăng sinh nhanh**
+# 4.2. Bọng nước | Vị trí quyết định độ bền
+| Vị trí | Bệnh điển hình |
+| **Dưới lớp sừng** | **Chốc**, SSSS, pemphigus foliaceus |
+| **Trong lớp gai** | **Chàm cấp**, herpes |
+| **Trên lớp đáy** | **Pemphigus vulgaris** |
+| **Dưới thượng bì** | **Bullous pemphigoid** |
+! key: bọng nước **càng nông càng dễ vỡ**; dưới thượng bì thì **căng, khó vỡ**
+# 5. Mẫu phản ứng | Từ mô học đến lâm sàng
+| Bệnh | Mô học | Lâm sàng |
+| **Chàm** | **Xốp bào** | Dát hồng, **ngứa**, mụn nước |
+| **Vảy nến** | Á sừng, **mất lớp hạt**, **vi áp xe Munro** | **Mảng đỏ, vảy trắng dày** |
+| **Lichen phẳng** | Răng cưa, **tế bào Civatte** | **Sẩn dẹt màu tím**, ngứa |
+| **Lupus da** | Viêm mặt tiếp giáp, mucin | Mảng đỏ, **teo giữa**, vùng phơi sáng |
+?? Kiểm tra nhanh: giải phẫu bệnh
+? Mô học | Tế bào sừng còn nhân khi lên tới lớp sừng gọi là gì? | Loạn sừng | Á sừng | Xốp bào | Ly gai | B | Á sừng (parakeratosis) là dấu hiệu tăng sinh nhanh, điển hình trong vảy nến.
+? Bọng nước | Bọng nước CĂNG, khó vỡ, nằm dưới thượng bì gợi ý bệnh nào? | Chốc | Pemphigus vulgaris | Bullous pemphigoid | Chàm cấp | C | Bọng nước dưới thượng bì có mái dày nên căng, khó vỡ: bullous pemphigoid.
+? Mẫu phản ứng | Vi áp xe Munro là dấu hiệu mô học của bệnh nào? | Vảy nến | Chàm | Lichen phẳng | Lupus | A | Vảy nến: tăng sản biểu bì, mất lớp hạt, á sừng, vi áp xe Munro.
+@recap
+- Da **3 lớp**; thượng bì **5 lớp**, **không có mạch máu**
+- Tế bào sừng **90–95%**, thay mới **28 ngày**
+- Melanocyte từ **mào thần kinh**; Langerhans từ **tủy xương** (hạt Birbeck)
+- **7 chức năng**: Bảo – Nhiệt – Cảm – Bài – Chuyển – Miễn – Hình
+- **Á sừng + mất lớp hạt + Munro** = vảy nến; **xốp bào** = chàm; **ly gai** = pemphigus

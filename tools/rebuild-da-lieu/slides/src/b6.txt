@@ -1,0 +1,89 @@
+@next Bệnh vi nấm cạn
+@goal
+- Nắm **4 yếu tố bệnh sinh** của mụn trứng cá
+- Mô tả các **loại sang thương**
+- Biết các dạng lâm sàng **theo mức độ, theo tuổi**, thể đặc biệt
+- Nắm **điều trị theo mức độ** và biến chứng
+# 1–2. Đại cương và dịch tễ | Viêm đơn vị nang lông – tuyến bã
+- Bệnh **mạn tính, phổ biến**; khoảng **85% người 12–24 tuổi**
+- **Không viêm**: mụn **đầu trắng**, **đầu đen** (comedone)
+- **Viêm**: sẩn, mụn mủ, nốt, nang
+- **Di chứng**: thâm, **sẹo lõm, sẹo lồi**
+- Ảnh hưởng **tâm lý** lớn: tự ti, trầm cảm
+# 3. Giải phẫu – sinh lý | Tuyến bã và androgen
+- Tuyến bã nhiều ở **vùng chữ T, ngực trên, lưng trên, vai**: cũng là nơi mụn hay mọc
+- **Androgen** điều hòa chính; **DHT** mạnh gấp **5–10 lần** testosterone
+- Bã nhờn: triglycerid, **squalene**, wax ester, cholesterol
+# 4. Cơ chế | Bốn yếu tố bệnh sinh
+| Yếu tố | Điểm chính |
+| **1. Tắc nang** | Tăng sừng hóa cổ nang → **vi nhân mụn** (microcomedo) |
+| **2. Tăng tiết bã** | **DHT** kích thích tuyến bã; giảm acid linoleic |
+| **3. C. acnes** | **Kỵ khí, Gram (+)**, kích hoạt TLR2, IL-1β |
+| **4. Viêm** | Xuất hiện **rất sớm**; bạch cầu trung tính → mụn mủ |
+@fig 40
+! tip: **"Tắc – Dầu – Khuẩn – Viêm"**; mỗi thuốc đánh vào vài yếu tố → **phối hợp thuốc**
+# 5. Phân loại | Theo mức độ và theo tuổi
+- **Nhẹ**: chủ yếu **không viêm**; **trung bình**: viêm tăng; **nặng**: **nốt, nang**, nguy cơ sẹo
+- **Sơ sinh** (2–6 tuần): sẩn mủ, liên quan Malassezia
+- **Trẻ nhỏ, trẻ em**: hiếm, cần **đánh giá nội tiết**
+- **Dậy thì** (12–18): điển hình nhất
+- **Người lớn** (> 25 tuổi): chủ yếu **nữ**, ở **cằm – hàm**
+@fig 42
+# 6. Thể đặc biệt | Những thể cần nhận ra
+| Thể | Đặc điểm |
+| **Kịch phát** | Nam thiếu niên; **sốt, đau khớp**, mụn hoại tử → **corticoid trước, isotretinoin sau** |
+| **Mụn cụm** | Nang sâu **nối bằng đường hầm**, không triệu chứng toàn thân |
+| **Phụ nữ trưởng thành** | Cằm, quai hàm; **stress, PCOS** |
+| **Do thuốc** | **Đồng dạng**, **không đầu đen**; corticoid, lithium, isoniazid |
+| **Cơ học** | Do ma sát: mũ bảo hiểm, **khẩu trang chặt** |
+! tip[Liên hệ nghề nha]: đeo khẩu trang nhiều giờ dễ bị **mụn cơ học** ở cằm, sống mũi: thay khẩu trang khi ẩm, rửa mặt sau ca
+# 7–8. Cận lâm sàng và phân biệt | Khi nào xét nghiệm, đừng nhầm với gì
+- Xét nghiệm **nội tiết** ở nữ khi: kinh không đều, **rậm lông**, mụn **kháng trị, muộn > 25 tuổi**
+- **Rosacea**: lớn tuổi, **đỏ, giãn mạch giữa mặt**, không comedone
+- **Viêm nang lông**: sẩn mủ đồng dạng ở lỗ nang
+- **Viêm da quanh miệng**; **trứng cá do corticoid** (kem trộn)
+@fig 45
+! tip: **không có comedone** → nghĩ bệnh khác
+?? Kiểm tra nhanh: bệnh sinh và lâm sàng
+? Bệnh sinh | Tổn thương khởi đầu của mụn trứng cá là gì? | Mụn mủ | Vi nhân mụn (microcomedo) | Nang viêm | Sẹo lõm | B | Vi nhân mụn ở phần dưới cổ nang lông là tổn thương nguyên phát.
+? Phân biệt | Dấu hiệu giúp phân biệt mụn trứng cá với rosacea? | Có mụn mủ | Có comedone (đầu trắng, đầu đen) | Ở mặt | Có sẩn đỏ | B | Rosacea không có comedone; có comedone mới là mụn trứng cá.
+? Thể đặc biệt | Mụn kèm sốt cao, đau khớp, hoại tử ở nam thiếu niên là thể nào? | Mụn cụm | Mụn kịch phát | Mụn cơ học | Mụn do mỹ phẩm | B | Mụn kịch phát: khởi phát đột ngột, có triệu chứng toàn thân; điều trị corticoid trước.
+# 9.1. Điều trị theo mức độ | Thang điều trị
+| Mức độ | Điều trị |
+| **Nhẹ** | **Retinoid bôi** ± **benzoyl peroxide (BPO)** ± kháng sinh bôi |
+| **Trung bình** | Retinoid + BPO; thêm **kháng sinh uống** (doxycycline) nếu lan rộng |
+| **Nặng** | **Isotretinoin 0,5–1 mg/kg/ngày × 4–6 tháng** |
+| **Nội tiết (nữ)** | **Thuốc tránh thai phối hợp**, **spironolactone** |
+- Duy trì sau khi kiểm soát: **retinoid bôi ± BPO**
+! key: **isotretinoin** là thuốc duy nhất tác động mạnh lên **cả 4 yếu tố**
+# 9.3. Kháng sinh | Dùng đúng để tránh kháng thuốc
+- **Doxycycline 50–100 mg × 2 lần/ngày**: nhạy cảm ánh sáng, loét thực quản
+- **Erythromycin**: thay thế khi **mang thai**, nhưng đề kháng cao
+- **Không phối hợp** kháng sinh uống + bôi; **luôn kèm BPO**
+- Dùng **không quá 3–6 tháng**
+! warn[Liên hệ răng miệng]: **tetracycline, doxycycline không dùng cho trẻ < 8 tuổi**: **nhiễm màu răng vĩnh viễn**; isotretinoin gây **khô môi**
+# 9.4. Thuốc bôi | Chọn theo mục tiêu
+| Thuốc | Điểm chính |
+| **Benzoyl peroxide** | **Diệt C. acnes**, **không gây kháng thuốc**; tẩy màu vải |
+| **Clindamycin bôi** | Kháng viêm; đề kháng → phối hợp BPO |
+| **Acid azelaic** | **Giảm thâm**, **an toàn khi mang thai** |
+| **Acid salicylic** | Bong vảy, tiêu nhân mụn |
+| **Dapsone gel** | Kháng viêm; nhuộm cam nếu bôi cùng BPO |
+# 10. Biến chứng | Sẹo, thâm và tác dụng phụ thuốc
+- **Sẹo lõm**: đáy nhọn (**ice-pick**), đáy vuông, đáy tròn
+- **Sẹo lồi**: ngực, lưng, vai; **thâm sau viêm** ở da sẫm màu
+- **Tâm lý**: trầm cảm, có thể có ý nghĩ tự sát
+- **Isotretinoin**: khô da, môi, mắt; tăng lipid, men gan; **gây dị tật thai**
+@fig 46
+! warn: **isotretinoin chống chỉ định tuyệt đối khi mang thai**
+?? Kiểm tra nhanh: điều trị
+? Mụn nặng | Thuốc lựa chọn cho mụn nặng (nốt, nang)? | Kháng sinh bôi đơn độc | Isotretinoin uống | Acid salicylic | Kháng histamin | B | Isotretinoin 0,5–1 mg/kg/ngày trong 4–6 tháng, tác động lên cả 4 yếu tố.
+? Kháng sinh | Khi dùng kháng sinh trị mụn, nên kèm thuốc gì để ngừa kháng thuốc? | Benzoyl peroxide | Corticoid bôi | Kháng sinh bôi khác | Vitamin A | A | BPO diệt C. acnes nhanh và không gây kháng thuốc.
+? Răng | Vì sao không dùng tetracycline cho trẻ dưới 8 tuổi? | Gây loét miệng | Gây nhiễm màu răng vĩnh viễn | Gây sâu răng | Gây khô miệng | B | Tetracycline gắn vào răng đang hình thành, gây nhiễm màu vĩnh viễn.
+@recap
+- Viêm **nang lông – tuyến bã**, đỉnh **12–24 tuổi** (85%)
+- 4 yếu tố: **tắc nang – tăng bã (DHT) – C. acnes – viêm**
+- Có **comedone** mới là mụn trứng cá
+- Nhẹ: **retinoid + BPO**; trung bình: thêm **kháng sinh uống** (kèm BPO, ≤ 3–6 tháng)
+- Nặng: **isotretinoin** (gây dị tật thai)
+- Kịch phát: **corticoid trước, isotretinoin sau**

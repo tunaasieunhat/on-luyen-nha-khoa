@@ -1,0 +1,83 @@
+@goal
+- Nêu được **tác nhân, đường lây** của bệnh lậu
+- Mô tả biểu hiện ở **nam, nữ**, ngoài sinh dục và **biến chứng**
+- So sánh **nhuộm Gram, nuôi cấy, NAATs**
+- Áp dụng phác đồ theo **vị trí nhiễm**
+# 1. Mở đầu | Bệnh lây qua đường tình dục phổ biến
+- Do **Neisseria gonorrhoeae**; WHO 2020: **82,4 triệu ca mới**
+- Nhiều ca **nữ không triệu chứng** → dễ bỏ sót, biến chứng
+- Có thể **lan vào máu**; **tăng nguy cơ lây HIV**
+- **Đồng nhiễm Chlamydia 10–40%**
+- **Kháng thuốc ngày càng nhiều**
+# 2. Tác nhân | Song cầu Gram (–) hình hạt cà phê
+- Xếp **từng cặp**, mặt dẹt quay vào nhau, **nằm trong bạch cầu đa nhân**
+- Có **pili** để bám tế bào; nuôi cấy trên **Thayer-Martin**
+- Sống ở **niêm mạc trụ**: niệu đạo, cổ tử cung, trực tràng, **họng**, kết mạc
+- **Chết nhanh ngoài cơ thể**; người là vật chủ duy nhất
+- Lây sau 1 lần quan hệ: **nam 20%**, **nữ 70%**
+@fig 76
+! tip: nữ dễ lây hơn nhưng **ít triệu chứng hơn** → nguồn lây âm thầm
+# 3.1–3.2. Lâm sàng sinh dục | Nam rầm rộ, nữ âm thầm
+| | Nam | Nữ |
+| **Ủ bệnh** | **3–5 ngày** | 5–7 ngày (cổ tử cung khoảng 10 ngày) |
+| **Biểu hiện** | **Viêm niệu đạo cấp**: đái buốt, đái rắt | **Viêm cổ tử cung**: khí hư nhiều, ra máu giữa kỳ |
+| **Dịch** | **Mủ vàng đặc, vàng xanh**, miệng sáo đỏ | Mủ vàng ống cổ tử cung, chạm dễ chảy máu |
+| **Không triệu chứng** | Ít (hay ở người tái nhiễm) | **Khoảng 50%** |
+- Trẻ em gái: viêm âm hộ do **lạm dụng tình dục** hoặc dùng chung khăn
+# 3.3. Ngoài cơ quan sinh dục | Họng, trực tràng, mắt
+- **Hầu họng**: do quan hệ miệng – sinh dục; **hầu hết không triệu chứng**, tồn tại nhiều tháng
+- **Trực tràng**: > 50% không triệu chứng; ngứa, tiết dịch, mót rặn
+- **Mắt trẻ sơ sinh**: lây từ mẹ khi sinh; **chảy rất nhiều mủ**, kết mạc phù đỏ
+@fig 74
+! tip[Liên hệ răng hàm mặt]: viêm họng kéo dài, đỏ, tăng tiết dịch kèm yếu tố nguy cơ → nghĩ tới lậu họng, chuyển khám
+# 3.4. Nhiễm lậu cầu lan tỏa | Khoảng 1% vào máu
+- **Sốt** thường < 39°C
+- Da: **mụn mủ**, dát sẩn, hoại tử ở chi, lòng bàn tay, bàn chân
+- **Viêm đa khớp di chuyển**, viêm gân, viêm bao hoạt dịch
+- Nặng: **viêm nội tâm mạc, viêm màng não**
+@fig 75
+# 4. Biến chứng | Hậu quả khi bỏ sót
+| Đối tượng | Biến chứng |
+| **Nam** | **Viêm mào tinh hoàn** (hay nhất), chít hẹp niệu đạo, viêm tuyến tiền liệt |
+| **Nữ** | **Viêm vùng chậu** → **vô sinh, thai ngoài tử cung** |
+| **Thai phụ** | Vỡ ối non, viêm màng ối, **sinh non** |
+| **Toàn thân** | Viêm da – khớp, viêm nội tâm mạc, viêm màng não |
+?? Kiểm tra nhanh: tác nhân và lâm sàng
+? Vi sinh | Hình ảnh lậu cầu trên nhuộm Gram là gì? | Trực khuẩn Gram (+) | Song cầu Gram (–) hình hạt cà phê | Xoắn khuẩn di động | Cầu khuẩn chùm Gram (+) | B | Lậu cầu là song cầu Gram (–) hình hạt cà phê, nằm trong và ngoài bạch cầu đa nhân.
+? Nữ giới | Khoảng bao nhiêu phần trăm lậu ở nữ KHÔNG có triệu chứng? | 5% | 20% | 50% | 95% | C | Khoảng 50% nữ không triệu chứng nên dễ lây và dễ biến chứng.
+? Biến chứng | Biến chứng hay gặp nhất của lậu ở nam là gì? | Viêm mào tinh hoàn | Viêm màng não | Thai ngoài tử cung | Viêm kết mạc | A | Viêm mào tinh hoàn là biến chứng thường gặp nhất ở nam.
+# 5. Cận lâm sàng | Ba xét nghiệm chính
+| Xét nghiệm | Ưu điểm | Hạn chế |
+| **Nhuộm Gram** | Nhanh, rẻ; nhạy ≥ 90% ở **nam có triệu chứng** | Kém ở nữ, không triệu chứng; **âm tính không loại trừ** |
+| **Nuôi cấy Thayer-Martin** | **Tiêu chuẩn vàng**, có **kháng sinh đồ** | Cần môi trường chọn lọc |
+| **NAATs (PCR)** | **Nhạy nhất** (> 90%), nhiều bệnh phẩm, kèm **Chlamydia** | Kém ở họng, trực tràng |
+! why: PCR chỉ biết **có vi khuẩn**; nuôi cấy mới biết **thuốc nào còn tác dụng**
+# 6. Chẩn đoán phân biệt | Viêm niệu đạo, âm đạo khác
+- **Chlamydia**: ủ bệnh **1–3 tuần**, dịch **nhày ít**
+- **Trichomonas**: khí hư **vàng xanh, có bọt, hôi**; **"cổ tử cung dâu tây"**
+- **Candida**: khí hư **như váng sữa**, ngứa, rát
+- Ureaplasma, Mycoplasma
+# 7. Điều trị | Nguyên tắc và phác đồ (Bộ Y tế 2021)
+- Tốt nhất theo **kháng sinh đồ**; điều trị **đồng nhiễm Chlamydia**
+- **Bạn tình trong 60 ngày** phải khám, điều trị
+- Kiêng quan hệ đến **7 ngày** sau điều trị; xét nghiệm **giang mai, HIV**
+| Vị trí | Chọn một | Kèm |
+| **Sinh dục, trực tràng** | **Ceftriaxon 250 mg** TB / spectinomycin 2 g TB / cefixim 400 mg uống, 1 liều | **Azithromycin 1 g** uống |
+| **Họng** | **Ceftriaxon 250 mg** TB / cefixim 400 mg uống, 1 liều | **Azithromycin 1 g** uống |
+! tip: **"Ceftriaxon 250 + Azithromycin 1 g"**
+# 7–8. Trẻ sơ sinh và phòng bệnh | Bảo vệ mắt trẻ và cộng đồng
+- Lậu mắt sơ sinh: **ceftriaxon 50 mg/kg** (tối đa 150 mg) TB 1 liều
+- **Dự phòng mọi trẻ sơ sinh**, cả hai mắt: mỡ **tetracyclin 1%**, **erythromycin 0,5%** hoặc **bạc nitrat 1%**
+- **Tình dục an toàn**; truyền thông nhóm nguy cơ
+- **Sàng lọc định kỳ** nhóm nguy cơ cao
+?? Kiểm tra nhanh: xét nghiệm và điều trị
+? Xét nghiệm | Tiêu chuẩn vàng chẩn đoán lậu, có kèm kháng sinh đồ? | Nhuộm Gram | Nuôi cấy Thayer-Martin | RPR | Soi tươi | B | Nuôi cấy trên Thayer-Martin là tiêu chuẩn vàng và làm được kháng sinh đồ.
+? Phác đồ | Lậu sinh dục chưa có kháng sinh đồ, chọn phác đồ nào? | Benzathin penicillin 2,4 triệu IU | Ceftriaxon 250 mg TB + azithromycin 1 g uống | Doxycyclin 14 ngày | Fluconazol 150 mg | B | Ceftriaxon 250 mg 1 liều trị lậu, kèm azithromycin 1 g trị đồng nhiễm Chlamydia.
+? Bạn tình | Cần khám, điều trị bạn tình trong khoảng thời gian nào? | 7 ngày | 60 ngày | 1 năm | Không cần | B | Mọi bạn tình trong vòng 60 ngày; nếu lâu hơn thì bạn tình lần gần nhất.
+@recap
+- **Song cầu Gram (–) hạt cà phê**, sống ở niêm mạc trụ, ủ bệnh **3–5 ngày**
+- **Nam**: mủ vàng xanh, đái buốt; **nữ**: 50% không triệu chứng
+- Ngoài sinh dục: **họng** (thường im lặng), trực tràng, **mắt sơ sinh**
+- Biến chứng: **viêm mào tinh hoàn**; **viêm vùng chậu → vô sinh**
+- **Gram nhanh, nuôi cấy chuẩn vàng, PCR nhạy nhất**
+- **Ceftriaxon 250 mg + azithromycin 1 g**; bạn tình 60 ngày

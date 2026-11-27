@@ -1,0 +1,83 @@
+@next Mụn trứng cá (Acne vulgaris)
+@goal
+- Nêu **định nghĩa, cơ chế** và **5 nhóm nguyên nhân** của đỏ da toàn thân
+- Nhận biết biểu hiện **tại da, toàn thân** và các **thể lâm sàng**
+- Chỉ định **cận lâm sàng** hợp lý
+- Nắm **nguyên tắc điều trị**, biến chứng và tiên lượng
+# 1. Đại cương | Một hội chứng, không phải một bệnh
+- **Hồng ban lan tỏa và tróc vảy > 90% diện tích da**
+- **Biểu hiện cuối cùng** của nhiều bệnh, lành tính đến ác tính
+- Hay gặp ở **nam**; khoảng **1–2/100.000 dân/năm**
+- Dễ biến chứng: **mất nước – điện giải, nhiễm trùng, suy tim, hạ thân nhiệt**
+! why: mất gần hết da là mất mọi chức năng da cùng lúc → xử trí như **"suy da"** cấp
+# 2. Cơ chế | Vòng xoắn bệnh lý
+- **Tế bào T CD4+** hoạt hóa → cytokine → **giãn mạch (đỏ)**, tăng phân bào (**tróc vảy**)
+- Chu trình sừng hóa **rút ngắn** (vảy nến: 3–4 ngày thay vì 28)
+- **Mất hàng rào**: tăng mất nước qua da, **dễ nhiễm trùng**
+- **Mất nhiệt** → hạ thân nhiệt; **mất protein** → giảm albumin, phù
+- **Rối loạn điện giải**: giảm Na⁺, K⁺, Ca²⁺; tăng nhu cầu chuyển hóa
+# 3. Nguyên nhân | Năm nhóm
+| Nhóm | Ví dụ |
+| **Bệnh da mạn** (hay nhất) | **Vảy nến**, chàm, pemphigus lá; **ngưng corticoid đột ngột** |
+| **Thuốc** (15–40%) | **Penicillin, sulfonamide, allopurinol, phenytoin, carbamazepin** |
+| **Máu ác tính** | **Mycosis fungoides, hội chứng Sézary** |
+| **Nhiễm trùng, khác** | **Ghẻ Na Uy** (HIV), ghép chống chủ, cận ung thư |
+| **Nguyên phát** (10–20%) | Không tìm ra nguyên nhân |
+! tip: **"Da – Thuốc – Máu – Nhiễm – Không rõ"**
+# 3. Liên hệ răng hàm mặt | Thuốc nha sĩ hay kê cũng có thể gây
+- **Carbamazepin** (dùng trong **đau dây thần kinh V**)
+- Kháng sinh nhóm **penicillin**
+- Luôn hỏi **tiền sử dị ứng thuốc** trước khi kê đơn
+! warn: đỏ da khởi phát **đột ngột sau dùng thuốc** → nghĩ ngay phản ứng thuốc, **ngưng thuốc nghi ngờ**
+# 4.1. Triệu chứng tại da | Đỏ, tróc vảy, phù
+- **Hồng ban > 90%**, thường bắt đầu ở **mặt, cổ, thân trên**
+- Vảy **mịn như cám** (thuốc, lymphoma) hoặc **lớn, dày** (vảy nến)
+- **Phù, dày da** (có thể "mặt sư tử"); **tăng sừng lòng bàn tay, chân**
+- Niêm mạc: **viêm môi, viêm miệng**; **rụng tóc, lông mày**; móng giòn
+@fig 38
+# 4.2–4.4. Toàn thân và gợi ý nguyên nhân | Nhìn để đoán gốc bệnh
+- **Sốt** hoặc **hạ thân nhiệt**; ớn lạnh dù da nóng; **sụt cân**, phù
+- **Hạch to, gan lách to** (nhất là lymphoma T); **ngứa** hay gặp nhất
+| Gặp | Nghĩ tới |
+| Vảy lớn, khô, đỏ tươi | **Vảy nến** |
+| Mụn nước, rịn dịch, ngứa dữ | **Chàm**, thuốc |
+| Đỏ dai dẳng, rụng lông, **hạch to** | **Sézary** |
+| **Đột ngột sau dùng thuốc** | **Phản ứng thuốc** |
+?? Kiểm tra nhanh: định nghĩa và nguyên nhân
+? Định nghĩa | Đỏ da toàn thân khi hồng ban, tróc vảy chiếm bao nhiêu diện tích da? | > 30% | > 50% | > 90% | 100% | C | Định nghĩa: hồng ban lan tỏa và tróc vảy chiếm trên 90% diện tích da.
+? Nguyên nhân | Nhóm nguyên nhân THƯỜNG GẶP NHẤT? | Bệnh da mạn tính như vảy nến | Lymphoma | Ghẻ Na Uy | Cận ung thư | A | Bệnh da mạn (vảy nến, chàm…) là nhóm thường gặp nhất.
+? Thuốc | Thuốc nào sau đây hay gây đỏ da toàn thân? | Paracetamol liều thấp | Carbamazepin | Vitamin C | Nước muối sinh lý | B | Carbamazepin, phenytoin, penicillin, sulfonamide, allopurinol là các thuốc hay gặp.
+# 5. Thể lâm sàng | Bốn thể
+| Thể | Đặc điểm | Gặp trong |
+| **Tróc vảy ướt** | Mụn nước, **tiết dịch**, phù, giống bỏng nhẹ | **Chàm cấp**, pemphigus |
+| **Tróc vảy khô** (hay nhất) | Vảy cám hoặc phiến lớn | **Vảy nến**, Sézary |
+| **Giống tinh hồng nhiệt** | **Đỏ rực, sốt cao**, lan nhanh | **Nhiễm trùng, thuốc** (DRESS) |
+| **Ofuji** | Hiếm; **sẩn dày** thành mảng, nam lớn tuổi | U lympho, ung thư |
+@fig 39
+# 6. Cận lâm sàng | Đánh giá toàn thân và tìm nguyên nhân
+- **Công thức máu**: bạch cầu ái toan; **tế bào Sézary**
+- **CRP, tốc độ lắng**: mức độ viêm
+- **Điện giải, albumin, ure, creatinin**: mất nước, chức năng thận
+- **Sinh thiết da**: vảy nến, lymphoma, pemphigus; **sinh thiết hạch** khi nghi lymphoma
+# 7. Điều trị | Hồi sức + chăm da + nguyên nhân
+- **Hồi sức**: bù dịch (NaCl 0,9%, Ringer lactat), điều chỉnh **Na, K, Ca**; dinh dưỡng **≥ 35 kcal/kg/ngày**
+- **Chăm sóc da**: dưỡng ẩm (vaseline), tắm ấm ngắn; thể ướt dùng **băng ẩm**
+- **Giảm ngứa**: kháng histamin H1
+- **Kháng sinh chỉ khi có nhiễm trùng**
+- **Theo nguyên nhân**: thuốc → **ngưng ngay**; vảy nến → methotrexate, cyclosporin, acitretin; pemphigus → corticoid
+! warn: **không dùng corticoid toàn thân trong vảy nến** → nguy cơ thể mủ
+# 8. Biến chứng và tiên lượng | Theo dõi sát
+- **Nhiễm trùng huyết**, rối loạn điện giải, **suy thận cấp**
+- **Suy tim** ở người già; loét tì đè, viêm phổi, thuyên tắc phổi
+- Khoảng **30% hồi phục hoàn toàn**, **50% mạn tính** hoặc tái phát
+- **Dè dặt** khi do **lymphoma T** hoặc thuốc nặng (**DRESS, TEN**)
+?? Kiểm tra nhanh: thể bệnh và xử trí
+? Thể bệnh | Thể đỏ da toàn thân THƯỜNG GẶP NHẤT? | Tróc vảy ướt | Tróc vảy khô | Giống tinh hồng nhiệt | Ofuji | B | Tróc vảy khô gặp nhiều nhất, như trong vảy nến, Sézary.
+? Xử trí | Đỏ da toàn thân nghi do thuốc, việc đầu tiên là gì? | Thêm kháng sinh | Ngưng ngay thuốc nghi ngờ | Tăng liều thuốc | Bôi corticoid mạnh toàn thân | B | Do thuốc: ngưng ngay thuốc nghi ngờ, hỗ trợ tích cực, theo dõi sát.
+? Biến chứng | Vì sao bệnh nhân đỏ da toàn thân dễ hạ thân nhiệt? | Do sốt cao | Do mất nhiệt qua da viêm lan tỏa | Do thiếu máu | Do dùng kháng histamin | B | Da giãn mạch lan tỏa làm mất nhiệt liên tục, nhất là về đêm.
+@recap
+- **Đỏ + tróc vảy > 90% da**: là **hội chứng**
+- 5 nhóm: **da mạn (vảy nến), thuốc (15–40%), máu ác tính (Sézary), nhiễm trùng, nguyên phát**
+- Nguy hiểm vì mất **nước, protein, nhiệt** và **nhiễm trùng**
+- 4 thể: **ướt, khô (hay nhất), tinh hồng nhiệt, Ofuji**
+- **Hồi sức + chăm da + điều trị nguyên nhân**; ngưng ngay thuốc nghi ngờ

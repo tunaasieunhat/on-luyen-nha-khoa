@@ -1,0 +1,32 @@
+/* @@DLS-CSS: slide Da Liễu (bản dựng lại) */
+.avs.dl{--a-teal:#A8455D;--a-teal-d:#7A2E41;--a-teal-s:#F7E3E8;--a-line:#EBCBD2;--a-mut:#7A5C64;--a-ink:#2B1F24;--a-gum:#3F8C83;--a-gum-s:#EAF5F2}
+.avs.dl.k-title{background:radial-gradient(circle at 92% 12%,var(--a-teal-s) 0 18cqw,transparent 18.1cqw),#FFFCFD}
+.avs.dl.k-title .big-u{font-size:clamp(52px,10cqw,140px)}
+.avs.dl.k-title h2{font-size:clamp(26px,4.6cqw,62px)}
+.avs.dl h2.h{font-size:clamp(20px,2.9cqw,38px)}
+.avs.dl.k-c,.avs.dl.k-recap{--fs:clamp(15px,2.15cqw,28px)}
+.avs.dl.k-goal{--fs:clamp(16px,2.4cqw,31px)}
+.avs.dl.k-goal ol.steps{gap:clamp(8px,1.4cqw,18px)}
+.avs .dl-ul{margin:0;padding:0;list-style:none;display:grid;gap:clamp(4px,.7cqw,10px)}
+.avs .dl-ul li{position:relative;padding-left:1.15em}
+.avs .dl-ul li::before{content:"";position:absolute;left:.2em;top:.55em;width:.45em;height:.45em;border-radius:50%;background:var(--a-teal)}
+.avs .dl-ul li.l1{margin-left:1.2em;font-size:.92em}.avs .dl-ul li.l1::before{background:none;border:1.5px solid var(--a-teal)}
+.avs.dl :is(li,td,.dl-n,.box) b{color:var(--a-teal-d)}
+.sl-stage.html .avs .dl-f img{display:block;position:static;inset:auto;width:auto;height:auto;pointer-events:auto;cursor:zoom-in}
+.avs .dl-tw{overflow-x:auto;min-width:0}
+.avs table.dl-t{width:100%;border-collapse:collapse;font-size:.88em;line-height:1.3}
+.avs table.dl-t th,.avs table.dl-t td{border:1.5px solid var(--a-line);padding:5px 8px;text-align:left;vertical-align:top}
+.avs table.dl-t th{background:var(--a-teal-s);color:var(--a-teal-d)}
+.avs table.dl-t td{background:#fff}
+.avs .dl-n{font-size:.92em}
+.avs .dl-n.tip{border-color:var(--a-lamp);background:var(--a-lamp-s)}.avs .dl-n.tip .lbl{color:var(--a-lamp-d)}
+.avs .dl-n.why{border-color:#9FD0C8;background:#EAF5F2}
+.avs .dl-n.warn{border-color:#F2B8C4;background:#FCE4E8}
+.avs .dl-n.key{border-color:var(--a-teal);background:var(--a-teal-s)}
+.avs .dl-f{margin:0;display:flex;flex-direction:column;gap:4px;align-items:center}
+.avs .dl-f img{display:block;max-width:100%;height:auto;max-height:min(30cqw,380px);width:auto;border-radius:10px;border:2px solid var(--a-line);background:#fff;object-fit:contain}
+.avs .dl-f figcaption{font-size:.78em;color:var(--a-mut);text-align:center}
+@container (min-width:640px){.avs .dl-two{grid-template-columns:minmax(0,1.25fr) minmax(0,.9fr)}}
+.avs.dl.k-recap .box{font-size:1.02em}
+.sl-thumbs button.tx.dl-q{background:#FFF4D1}
+/* @@DLS-CSS-END */

@@ -1,0 +1,1388 @@
+[
+{
+"pg": 4,
+"H": 1263,
+"W": 892,
+"cap": "Hình 1.1 Cấu tạo mô học của da",
+"box": [
+175,
+108,
+717,
+522
+],
+"n": 1,
+"img": "fig/f00.webp",
+"size": [
+900,
+689
+]
+},
+{
+"pg": 6,
+"H": 1263,
+"W": 892,
+"cap": "Hình 1.2 Cấu tạo lớp thượng bì",
+"box": [
+191,
+108,
+701,
+480
+],
+"n": 1,
+"img": "fig/f01.webp",
+"size": [
+900,
+657
+]
+},
+{
+"pg": 15,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.1. Sang thương dát – Đồi mồi",
+"box": [
+262,
+301,
+695,
+496
+],
+"n": 2,
+"img": "fig/f02.webp",
+"size": [
+810,
+369
+]
+},
+{
+"pg": 15,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.2. Sang thương khoảng/đám – Bạch biến",
+"box": [
+256,
+559,
+700,
+759
+],
+"n": 2,
+"img": "fig/f03.webp",
+"size": [
+830,
+378
+]
+},
+{
+"pg": 16,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.3. Sang thương sẩn – lichen phẳng",
+"box": [
+268,
+128,
+689,
+326
+],
+"n": 2,
+"img": "fig/f04.webp",
+"size": [
+787,
+374
+]
+},
+{
+"pg": 16,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.4. Sang thương mảng – Vảy nến",
+"box": [
+210,
+417,
+747,
+614
+],
+"n": 2,
+"img": "fig/f05.webp",
+"size": [
+900,
+335
+]
+},
+{
+"pg": 16,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.5. Sang thương sẩn phù – mày đay",
+"box": [
+227,
+794,
+730,
+997
+],
+"n": 2,
+"img": "fig/f06.webp",
+"size": [
+900,
+368
+]
+},
+{
+"pg": 17,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.6. Sang thương cục - Mycosis fungoides thể u.",
+"box": [
+253,
+330,
+703,
+533
+],
+"n": 2,
+"img": "fig/f07.webp",
+"size": [
+841,
+384
+]
+},
+{
+"pg": 17,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.7. Sang thương nang",
+"box": [
+328,
+741,
+628,
+1021
+],
+"n": 1,
+"img": "fig/f08.webp",
+"size": [
+563,
+526
+]
+},
+{
+"pg": 18,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.8. Sang thương mụn nước – Herpes simplex",
+"box": [
+241,
+301,
+716,
+499
+],
+"n": 2,
+"img": "fig/f09.webp",
+"size": [
+887,
+375
+]
+},
+{
+"pg": 18,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.9. Sang thương bóng nước – Pemphigoid bọng nước",
+"box": [
+263,
+765,
+694,
+964
+],
+"n": 2,
+"img": "fig/f10.webp",
+"size": [
+806,
+377
+]
+},
+{
+"pg": 19,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.10. Sang thương mụn mủ - Viêm nang lông",
+"box": [
+242,
+215,
+715,
+413
+],
+"n": 2,
+"img": "fig/f11.webp",
+"size": [
+884,
+374
+]
+},
+{
+"pg": 19,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.11. Sang thương sùi",
+"box": [
+346,
+562,
+612,
+809
+],
+"n": 1,
+"img": "fig/f12.webp",
+"size": [
+501,
+466
+]
+},
+{
+"pg": 20,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.12. Sừng da ngón tay",
+"box": [
+343,
+128,
+612,
+364
+],
+"n": 1,
+"img": "fig/f13.webp",
+"size": [
+506,
+445
+]
+},
+{
+"pg": 20,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.13. Sang thương mài trong chốc hoá sau chàm bàn tay",
+"box": [
+302,
+687,
+655,
+932
+],
+"n": 1,
+"img": "fig/f14.webp",
+"size": [
+661,
+461
+]
+},
+{
+"pg": 21,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.14. Sang thương vảy – Vảy nến",
+"box": [
+310,
+186,
+648,
+459
+],
+"n": 1,
+"img": "fig/f15.webp",
+"size": [
+634,
+514
+]
+},
+{
+"pg": 21,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.15. Sang thương vết xước",
+"box": [
+304,
+608,
+652,
+877
+],
+"n": 1,
+"img": "fig/f16.webp",
+"size": [
+653,
+507
+]
+},
+{
+"pg": 22,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.16. Sang thương trợt trong hoại tử thượng bì nhiễm độc",
+"box": [
+289,
+128,
+667,
+384
+],
+"n": 1,
+"img": "fig/f17.webp",
+"size": [
+708,
+482
+]
+},
+{
+"pg": 22,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.17. Sang thương loét trong viêm da mủ hoại thư",
+"box": [
+292,
+592,
+665,
+879
+],
+"n": 1,
+"img": "fig/f18.webp",
+"size": [
+699,
+539
+]
+},
+{
+"pg": 23,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.18. Sang thương vết nứt trong chàm ngón",
+"box": [
+280,
+128,
+675,
+403
+],
+"n": 1,
+"img": "fig/f19.webp",
+"size": [
+740,
+517
+]
+},
+{
+"pg": 23,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.19. Sang thương mảng lichen hoá trong viêm da thần kinh",
+"box": [
+280,
+611,
+675,
+909
+],
+"n": 1,
+"img": "fig/f20.webp",
+"size": [
+740,
+560
+]
+},
+{
+"pg": 24,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.20. Sang thương teo da trong rạn da",
+"box": [
+340,
+128,
+616,
+368
+],
+"n": 1,
+"img": "fig/f21.webp",
+"size": [
+519,
+452
+]
+},
+{
+"pg": 24,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.21. Sang thương sẹo",
+"box": [
+149,
+605,
+808,
+861
+],
+"n": 1,
+"img": "fig/f22.webp",
+"size": [
+900,
+353
+]
+},
+{
+"pg": 25,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.22. Cứng da trong xơ cứng bì hệ thống",
+"box": [
+300,
+128,
+656,
+376
+],
+"n": 1,
+"img": "fig/f23.webp",
+"size": [
+667,
+467
+]
+},
+{
+"pg": 25,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.23. Sang thương dạng đồng tiền/hình tròn và hình đa cung",
+"box": [
+156,
+786,
+801,
+1049
+],
+"n": 2,
+"img": "fig/f24.webp",
+"size": [
+900,
+370
+]
+},
+{
+"pg": 26,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.24. Sang thương sắp xếp thành đường trong viêm da do thực vật",
+"box": [
+289,
+388,
+668,
+687
+],
+"n": 1,
+"img": "fig/f25.webp",
+"size": [
+710,
+562
+]
+},
+{
+"pg": 26,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.25. Sang thương sắp xếp thành chùm trong bệnh zona",
+"box": [
+289,
+750,
+666,
+1060
+],
+"n": 1,
+"img": "fig/f26.webp",
+"size": [
+706,
+582
+]
+},
+{
+"pg": 27,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.26. Hiện tượng Koebner trong lichen phẳng sau chấn thương",
+"box": [
+228,
+707,
+729,
+1055
+],
+"n": 1,
+"img": "fig/f27.webp",
+"size": [
+900,
+627
+]
+},
+{
+"pg": 28,
+"H": 1263,
+"W": 892,
+"cap": "Hình 2.27. Nghiệm pháp Nikolsky",
+"box": [
+150,
+330,
+807,
+584
+],
+"n": 1,
+"img": "fig/f28.webp",
+"size": [
+900,
+351
+]
+},
+{
+"pg": 31,
+"H": 1263,
+"W": 892,
+"cap": "Hình 3.1.",
+"box": [
+314,
+728,
+642,
+959
+],
+"n": 1,
+"img": "fig/f29.webp",
+"size": [
+615,
+435
+]
+},
+{
+"pg": 32,
+"H": 1263,
+"W": 892,
+"cap": "Hình 3.2.",
+"box": [
+258,
+625,
+700,
+856
+],
+"n": 1,
+"img": "fig/f30.webp",
+"size": [
+827,
+436
+]
+},
+{
+"pg": 35,
+"H": 1263,
+"W": 892,
+"cap": "Hình 3.3.",
+"box": [
+223,
+366,
+734,
+695
+],
+"n": 1,
+"img": "fig/f31.webp",
+"size": [
+900,
+582
+]
+},
+{
+"pg": 36,
+"H": 1263,
+"W": 892,
+"cap": "Hình 3.4 Hình ảnh mô học đặc trưng của Vảy nến",
+"box": [
+264,
+671,
+693,
+997
+],
+"n": 1,
+"img": "fig/f32.webp",
+"size": [
+803,
+612
+]
+},
+{
+"pg": 45,
+"H": 1263,
+"W": 892,
+"cap": "Hình 4.1. Sự thay đổi mô học trong AD",
+"box": [
+149,
+212,
+862,
+587
+],
+"n": 1,
+"img": "fig/f33.webp",
+"size": [
+900,
+476
+]
+},
+{
+"pg": 47,
+"H": 1263,
+"W": 892,
+"cap": "Hình 4.2. Minh họa vị trí tổn thương theo lứa tuổi trong AD",
+"box": [
+153,
+453,
+803,
+958
+],
+"n": 1,
+"img": "fig/f34.webp",
+"size": [
+900,
+701
+]
+},
+{
+"pg": 48,
+"H": 1263,
+"W": 892,
+"cap": "Hình 4.3. Dấu hiệu Dennie-Morgan: nếp gấp dưới mi mắt.",
+"box": [
+285,
+128,
+672,
+338
+],
+"n": 1,
+"img": "fig/f35.webp",
+"size": [
+725,
+396
+]
+},
+{
+"pg": 48,
+"H": 1263,
+"W": 892,
+"cap": "Hình 4.4. Viêm da cơ địa ở trẻ nhũ nhi",
+"box": [
+305,
+493,
+651,
+952
+],
+"n": 1,
+"img": "fig/f36.webp",
+"size": [
+649,
+858
+]
+},
+{
+"pg": 56,
+"H": 1263,
+"W": 892,
+"cap": "Hình 4.5. Eczema herpeticum",
+"box": [
+280,
+260,
+675,
+482
+],
+"n": 1,
+"img": "fig/f37.webp",
+"size": [
+740,
+419
+]
+},
+{
+"pg": 64,
+"H": 1263,
+"W": 892,
+"cap": "Hình 5.1. Hình ảnh bệnh nhân ERYTHRODERMA",
+"box": [
+241,
+670,
+716,
+1030
+],
+"n": 1,
+"img": "fig/f38.webp",
+"size": [
+887,
+675
+]
+},
+{
+"pg": 68,
+"H": 1263,
+"W": 892,
+"cap": "Hình 5.2. Hình ảnh lâm sàng PSE",
+"box": [
+206,
+128,
+752,
+537
+],
+"n": 1,
+"img": "fig/f39.webp",
+"size": [
+900,
+676
+]
+},
+{
+"pg": 78,
+"H": 1263,
+"W": 892,
+"cap": "Hình 6.1. Cơ chế bệnh sinh mụn trứng cá",
+"box": [
+194,
+128,
+762,
+499
+],
+"n": 1,
+"img": "fig/f40.webp",
+"size": [
+900,
+590
+]
+},
+{
+"pg": 79,
+"H": 1263,
+"W": 892,
+"cap": "Hình 6.2. Sang thương không viêm mụn trứng cá",
+"box": [
+316,
+128,
+641,
+525
+],
+"n": 1,
+"img": "fig/f41.webp",
+"size": [
+610,
+743
+]
+},
+{
+"pg": 79,
+"H": 1263,
+"W": 892,
+"cap": "Hình 6.3. Sang thương viêm mụn trứng cá",
+"box": [
+237,
+654,
+720,
+983
+],
+"n": 1,
+"img": "fig/f42.webp",
+"size": [
+900,
+615
+]
+},
+{
+"pg": 81,
+"H": 1263,
+"W": 892,
+"cap": "Hình 6.4. Trứng cá trẻ nhỏ",
+"box": [
+319,
+128,
+639,
+541
+],
+"n": 1,
+"img": "fig/f43.webp",
+"size": [
+601,
+772
+]
+},
+{
+"pg": 82,
+"H": 1263,
+"W": 892,
+"cap": "Hình 6.5. Trứng cá kịch phát",
+"box": [
+320,
+337,
+637,
+628
+],
+"n": 1,
+"img": "fig/f44.webp",
+"size": [
+595,
+546
+]
+},
+{
+"pg": 86,
+"H": 1263,
+"W": 892,
+"cap": "Hình 6.6. Viêm da quanh miệng",
+"box": [
+204,
+128,
+752,
+556
+],
+"n": 1,
+"img": "fig/f45.webp",
+"size": [
+900,
+704
+]
+},
+{
+"pg": 93,
+"H": 1263,
+"W": 892,
+"cap": "Hình 6.7. Sẹo lõm ( Ice-pick)",
+"box": [
+275,
+250,
+681,
+560
+],
+"n": 1,
+"img": "fig/f46.webp",
+"size": [
+760,
+583
+]
+},
+{
+"pg": 93,
+"H": 1263,
+"W": 892,
+"cap": "Hình 6.8. Sẹo lồi vùng ngực",
+"box": [
+283,
+689,
+674,
+974
+],
+"n": 1,
+"img": "fig/f47.webp",
+"size": [
+732,
+536
+]
+},
+{
+"pg": 94,
+"H": 1263,
+"W": 892,
+"cap": "Hình 6.9. Rối loạn sắc tố da sau mụn",
+"box": [
+270,
+279,
+687,
+571
+],
+"n": 1,
+"img": "fig/f48.webp",
+"size": [
+780,
+549
+]
+},
+{
+"pg": 98,
+"H": 1263,
+"W": 892,
+"cap": "Hình 7.1. Nấm thân",
+"box": [
+336,
+186,
+621,
+425
+],
+"n": 1,
+"img": "fig/f49.webp",
+"size": [
+536,
+451
+]
+},
+{
+"pg": 98,
+"H": 1263,
+"W": 892,
+"cap": "Hình 7.2. Nấm bẹn",
+"box": [
+320,
+632,
+637,
+897
+],
+"n": 1,
+"img": "fig/f50.webp",
+"size": [
+595,
+499
+]
+},
+{
+"pg": 99,
+"H": 1263,
+"W": 892,
+"cap": "Hình 7.3. Nấm móng do vi nấm sợi tơ",
+"box": [
+149,
+128,
+808,
+403
+],
+"n": 1,
+"img": "fig/f51.webp",
+"size": [
+900,
+379
+]
+},
+{
+"pg": 100,
+"H": 1263,
+"W": 892,
+"cap": "Hình 7.4. Nhiễm Candida ở niêm mạc miệng BN nam nhiễm HIV",
+"box": [
+314,
+128,
+643,
+403
+],
+"n": 1,
+"img": "fig/f52.webp",
+"size": [
+617,
+517
+]
+},
+{
+"pg": 100,
+"H": 1263,
+"W": 892,
+"cap": "Hình 7.5. Nhiễm Candida với viêm góc miệng ở trẻ nữ 5 tuổi",
+"box": [
+275,
+553,
+683,
+816
+],
+"n": 1,
+"img": "fig/f53.webp",
+"size": [
+763,
+495
+]
+},
+{
+"pg": 101,
+"H": 1263,
+"W": 892,
+"cap": "Hình 7.6. Nhiễm Candida ở da vùng bẹn",
+"box": [
+335,
+128,
+621,
+404
+],
+"n": 1,
+"img": "fig/f54.webp",
+"size": [
+538,
+519
+]
+},
+{
+"pg": 101,
+"H": 1263,
+"W": 892,
+"cap": "Hình 7.7. Nấm móng Candida",
+"box": [
+336,
+583,
+620,
+930
+],
+"n": 1,
+"img": "fig/f55.webp",
+"size": [
+534,
+651
+]
+},
+{
+"pg": 102,
+"H": 1263,
+"W": 892,
+"cap": "Hình 7.8. Lang ben ở vùng lưng, bụng",
+"box": [
+149,
+504,
+808,
+770
+],
+"n": 1,
+"img": "fig/f56.webp",
+"size": [
+900,
+366
+]
+},
+{
+"pg": 103,
+"H": 1263,
+"W": 892,
+"cap": "Hình 7.9. Hình ảnh soi tươi bệnh phẩm vảy da",
+"box": [
+176,
+475,
+782,
+948
+],
+"n": 4,
+"img": "fig/f57.webp",
+"size": [
+900,
+703
+]
+},
+{
+"pg": 109,
+"H": 1263,
+"W": 892,
+"cap": "Hình 8.1. Sẩn cục ghẻ",
+"box": [
+165,
+128,
+793,
+384
+],
+"n": 2,
+"img": "fig/f58.webp",
+"size": [
+900,
+370
+]
+},
+{
+"pg": 109,
+"H": 1263,
+"W": 892,
+"cap": "Hình 8.2. Mụn nước, mụn mủ trên vùng bàn chân trẻ sơ sinh",
+"box": [
+275,
+476,
+683,
+749
+],
+"n": 1,
+"img": "fig/f59.webp",
+"size": [
+763,
+514
+]
+},
+{
+"pg": 109,
+"H": 1263,
+"W": 892,
+"cap": "Hình 8.3. Hang ghẻ",
+"box": [
+153,
+811,
+804,
+1050
+],
+"n": 2,
+"img": "fig/f60.webp",
+"size": [
+900,
+335
+]
+},
+{
+"pg": 110,
+"H": 1263,
+"W": 892,
+"cap": "Hình 8.4. Ghẻ vảy vùng bàn tay",
+"box": [
+232,
+533,
+724,
+810
+],
+"n": 1,
+"img": "fig/f61.webp",
+"size": [
+900,
+510
+]
+},
+{
+"pg": 111,
+"H": 1263,
+"W": 892,
+"cap": "Hình 8.5. Hình ảnh cái ghẻ trên kính hiển vi",
+"box": [
+337,
+128,
+620,
+390
+],
+"n": 1,
+"img": "fig/f62.webp",
+"size": [
+532,
+493
+]
+},
+{
+"pg": 117,
+"H": 1263,
+"W": 892,
+"cap": "Hình 9.1. Chốc không bóng nước",
+"box": [
+321,
+330,
+635,
+533
+],
+"n": 1,
+"img": "fig/f63.webp",
+"size": [
+589,
+384
+]
+},
+{
+"pg": 117,
+"H": 1263,
+"W": 892,
+"cap": "Hình 9.2. Chốc bóng nước và chốc loét",
+"box": [
+226,
+596,
+731,
+855
+],
+"n": 2,
+"img": "fig/f64.webp",
+"size": [
+900,
+466
+]
+},
+{
+"pg": 123,
+"H": 1263,
+"W": 892,
+"cap": "Hình 10.1. Săng giang mai",
+"box": [
+181,
+128,
+775,
+374
+],
+"n": 2,
+"img": "fig/f65.webp",
+"size": [
+900,
+376
+]
+},
+{
+"pg": 124,
+"H": 1263,
+"W": 892,
+"cap": "Hình 10.2. Đào ban ở BN nam 28 tuổi, QHTD đồng giới",
+"box": [
+249,
+186,
+708,
+442
+],
+"n": 1,
+"img": "fig/f66.webp",
+"size": [
+858,
+482
+]
+},
+{
+"pg": 124,
+"H": 1263,
+"W": 892,
+"cap": "Hình 10.3. Sẩn giang mai ở lòng bàn tay có viền vảy Biette.",
+"box": [
+241,
+534,
+716,
+731
+],
+"n": 1,
+"img": "fig/f67.webp",
+"size": [
+887,
+373
+]
+},
+{
+"pg": 124,
+"H": 1263,
+"W": 892,
+"cap": "Hình 10.4. Mảng niêm mạc và sẩn ướt giang mai",
+"box": [
+180,
+824,
+777,
+1051
+],
+"n": 2,
+"img": "fig/f68.webp",
+"size": [
+900,
+347
+]
+},
+{
+"pg": 126,
+"H": 1263,
+"W": 892,
+"cap": "Hình 10.5. Gôm giang mai",
+"box": [
+351,
+186,
+605,
+477
+],
+"n": 1,
+"img": "fig/f69.webp",
+"size": [
+478,
+547
+]
+},
+{
+"pg": 126,
+"H": 1263,
+"W": 892,
+"cap": "Hình 10.6. Hình ảnh xoắn khuẩn giang mai trên kính hiển vi nền đen",
+"box": [
+243,
+713,
+714,
+1017
+],
+"n": 1,
+"img": "fig/f70.webp",
+"size": [
+880,
+571
+]
+},
+{
+"pg": 135,
+"H": 1263,
+"W": 892,
+"cap": "Hình 11.1. Viêm niệu đạo do lậu ở nam",
+"box": [
+296,
+446,
+660,
+735
+],
+"n": 1,
+"img": "fig/f71.webp",
+"size": [
+682,
+544
+]
+},
+{
+"pg": 135,
+"H": 1263,
+"W": 892,
+"cap": "Hình 11.2. Viêm cổ tử cung",
+"box": [
+289,
+798,
+667,
+1056
+],
+"n": 1,
+"img": "fig/f72.webp",
+"size": [
+708,
+486
+]
+},
+{
+"pg": 136,
+"H": 1263,
+"W": 892,
+"cap": "Hình 11.3. Lậu trực tràng",
+"box": [
+315,
+678,
+642,
+1002
+],
+"n": 1,
+"img": "fig/f73.webp",
+"size": [
+613,
+608
+]
+},
+{
+"pg": 137,
+"H": 1263,
+"W": 892,
+"cap": "Hình 11.4. Lậu mắt",
+"box": [
+279,
+128,
+677,
+329
+],
+"n": 1,
+"img": "fig/f74.webp",
+"size": [
+745,
+380
+]
+},
+{
+"pg": 137,
+"H": 1263,
+"W": 892,
+"cap": "Hình 11.5. Tổn thương da trong nhiễm lậu cầu lan toả",
+"box": [
+309,
+770,
+648,
+1060
+],
+"n": 1,
+"img": "fig/f75.webp",
+"size": [
+636,
+545
+]
+},
+{
+"pg": 138,
+"H": 1263,
+"W": 892,
+"cap": "Hình 11.6. Hình ảnh nhuộm gram ở bệnh lậu",
+"box": [
+347,
+823,
+610,
+1077
+],
+"n": 1,
+"img": "fig/f76.webp",
+"size": [
+495,
+478
+]
+}
+]

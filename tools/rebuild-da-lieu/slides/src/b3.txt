@@ -1,0 +1,91 @@
+@next Viêm da cơ địa (Atopic dermatitis)
+@goal
+- Nêu **căn nguyên và cơ chế** chính của vảy nến
+- Nhận biết **các thể lâm sàng** và nghiệm pháp **Brocq**
+- Trình bày **nguyên tắc điều trị** và các nhóm thuốc
+- Biết theo dõi, **dự phòng tái phát**
+# 1. Đại cương | Viêm và tăng sinh thượng bì mạn tính
+- Bệnh da **mạn tính, thường gặp**, **tái phát theo đợt**
+- **Mảng đỏ giới hạn rõ**, phủ **vảy trắng bạc**
+- Ảnh hưởng **da, khớp, móng**
+! why: miễn dịch "kích" tế bào sừng sinh sản quá nhanh: không đợi đủ **28 ngày** → da dày, vảy dày, **á sừng**
+# 2. Căn nguyên | Di truyền, miễn dịch, môi trường
+- **30–50%** có người thân mắc; **HLA-Cw6** là yếu tố nguy cơ mạnh nhất
+- **Bệnh tự miễn**: tế bào **T CD4+ (Th1, Th17)** hoạt hóa
+- **IL-23 → Th17 → IL-17, IL-22** → viêm, **dày biểu bì**
+! key: trục **IL-23 / Th17 / IL-17** cũng là đích của **thuốc sinh học**
+# 2.3. Yếu tố khởi phát | Điều làm bệnh bùng lên
+- **Viêm họng liên cầu** → **vảy nến thể giọt** (trẻ em)
+- **Chấn thương da** → hiện tượng **Koebner**
+- **Thuốc**: **ngưng corticoid toàn thân đột ngột**, lithium, chẹn beta, chống sốt rét
+- **Stress**; **thuốc lá, rượu, béo phì**
+! warn: **không dùng corticoid toàn thân** cho vảy nến thông thường: ngưng thuốc có thể bùng thành **thể mủ** hoặc **đỏ da toàn thân**
+# 3.2. Sang thương | Mảng đỏ, vảy trắng bạc
+- **Mảng hồng ban giới hạn rõ**, tròn hoặc bầu dục
+- **Vảy trắng bạc**, bong từng lớp **như sáp nến**
+- Ở **da đầu, khuỷu tay, đầu gối, thắt lưng**, vùng tỳ đè
+- Ngứa từ không đến rõ; da căng, khô, dễ nứt
+@fig 29: Mảng hồng ban giới hạn rõ, phủ vảy trắng bạc
+# 3.2. Nghiệm pháp Brocq | Cạo vảy: ba dấu hiệu nối tiếp
+| Bước | Dấu hiệu | Thấy gì |
+| 1 | **Vết đèn cầy** | Vảy bong mảnh nhỏ, **trắng khô như sáp** |
+| 2 | **Màng bong** | Lớp **màng mỏng, bóng, ẩm** |
+| 3 | **Dấu Auspitz** | **Chấm xuất huyết** do vỡ mao mạch nhú bì |
+! tip: **"Sáp – Màng – Máu"**; giúp phân biệt với chàm mạn, viêm da dầu, lichen phẳng
+# 3.3. Móng và khớp | Không chỉ ở da
+- **Móng (30–50%)**: **rỗ móng** (hay nhất), dày sừng dưới móng, **tách móng**, **dấu giọt dầu**
+- Phân biệt **nấm móng** bằng **cấy nấm**
+- **Khớp (6–42%)**: viêm khớp ngoại biên **không đối xứng**, viêm khớp trục, **"ngón xúc xích"**
+- Kèm **hội chứng chuyển hóa**, **trầm cảm, lo âu 20–30%**
+@fig 30: Tổn thương móng trong vảy nến
+# 3.4. Các thể lâm sàng | Bảy thể cần biết
+| Thể | Đặc điểm chính |
+| **Mảng** (80–90%) | Mảng đỏ, vảy bạc; khuỷu, gối, da đầu |
+| **Giọt** | **Đột ngột sau nhiễm liên cầu**; tổn thương nhỏ như giọt nước |
+| **Mủ** (< 2%) | **Bọng mủ vô khuẩn**; thể toàn thân von Zumbusch: sốt |
+| **Đảo ngược** | Ở **nếp kẽ**; đỏ, **ít vảy** |
+| **Đỏ da toàn thân** | Đỏ **> 90%** diện tích da |
+| **Móng, khớp** | Rỗ móng; viêm khớp không đối xứng |
+! why: mủ trong thể mủ là **bạch cầu đa nhân** do viêm, **không có vi khuẩn** → kháng sinh không chữa được
+?? Kiểm tra nhanh: căn nguyên và lâm sàng
+? Gen | Yếu tố di truyền có nguy cơ MẠNH NHẤT trong vảy nến? | HLA-B27 | HLA-Cw6 | HLA-DR4 | Filaggrin | B | HLA-Cw6 (vùng PSORS1) là yếu tố nguy cơ mạnh nhất, nhất là thể giọt.
+? Brocq | Thứ tự ba dấu hiệu của nghiệm pháp Brocq là gì? | Auspitz – màng bong – vết đèn cầy | Vết đèn cầy – màng bong – Auspitz | Màng bong – Auspitz – vết đèn cầy | Nikolsky – Auspitz – Koebner | B | Cạo vảy: vết đèn cầy (sáp), màng bong, rồi giọt sương máu Auspitz.
+? Thể bệnh | Vảy nến thể giọt thường khởi phát sau yếu tố nào? | Viêm họng do liên cầu | Cháy nắng | Ăn hải sản | Nhiễm nấm | A | Thể giọt khởi phát đột ngột sau viêm họng liên cầu tan huyết β nhóm A, hay gặp ở trẻ em.
+# 3.5–5. Mức độ và chẩn đoán | Đánh giá và xác định
+| Mức độ | BSA | PASI |
+| **Nhẹ** | **< 10%** | **< 10** |
+| **Trung bình** | 10–30% | 10 đến < 20 |
+| **Nặng** | **> 30%** | **≥ 20** |
+- Chẩn đoán chủ yếu **lâm sàng**; mô học khi khó: **tăng sản lớp gai, mất lớp hạt, á sừng, vi áp xe Munro**
+- Phân biệt: viêm da tiết bã (vảy **mềm, vàng, nhờn**), **nấm da** (soi KOH), chàm mạn (**ngứa nhiều**), **giang mai II** (lòng bàn tay, chân)
+# 6.1–6.2. Điều trị tại chỗ | Thuốc bôi và ánh sáng
+| Thuốc | Lưu ý |
+| **Corticoid bôi** | Hiệu quả; dùng lâu gây **teo da**, giãn mạch |
+| **Calcipotriol** (vitamin D3) | **≤ 100 g/tuần**; quá liều **tăng calci máu** |
+| **Tar** | Mùi khó chịu |
+| **Acid salicylic** | **Làm bong vảy**; bôi rộng gây ngộ độc salicylat |
+- **Quang trị liệu (UVB, PUVA)**: khi lan rộng hoặc kháng thuốc bôi; lâu dài tăng nguy cơ **ung thư da**
+! key: nhẹ → **bôi**; rộng → **ánh sáng**; vừa – nặng hoặc có khớp → **toàn thân**. Bệnh **không khỏi hẳn**
+# 6.3. Điều trị toàn thân | Vừa – nặng, lan rộng, có khớp
+| Thuốc | Liều | Tác dụng phụ chính |
+| **Methotrexate** | **7,5–25 mg/tuần** + acid folic | **Ức chế tủy**, viêm gan, **loét miệng**, quái thai |
+| **Cyclosporin A** | 2,5–5 mg/kg/ngày | **Tăng huyết áp, độc thận** |
+| **Acitretin** | 0,5–1 mg/kg/ngày | **Khô môi**; **cấm ở phụ nữ có thai** |
+| **Sinh học** | Kháng TNF-α, IL-17, IL-23 | Nhiễm trùng, đắt |
+! tip[Liên hệ răng miệng]: methotrexate gây **loét miệng**, acitretin gây **khô môi**: nhớ hỏi thuốc khi khám
+# 7. Tiến triển và dự phòng | Sống chung với bệnh mạn tính
+- Tái phát mạn tính; biến chứng **đỏ da toàn thân**, **viêm khớp**
+- Tăng nguy cơ **tim mạch, rối loạn chuyển hóa**
+- Tránh yếu tố khởi phát: **nhiễm trùng, stress, thuốc**
+- **Dưỡng ẩm**, tránh trầy xước (**Koebner**); khám định kỳ
+?? Kiểm tra nhanh: chẩn đoán và điều trị
+? Mô học | Dấu hiệu mô học nào KHÔNG thuộc vảy nến? | Mất lớp hạt | Á sừng | Vi áp xe Munro | Ly gai tạo bọng nước | D | Ly gai là đặc trưng của pemphigus; vảy nến có tăng sản lớp gai, mất lớp hạt, á sừng, Munro.
+? Mức độ | Vảy nến được xếp NẶNG khi nào? | BSA > 30% hoặc PASI ≥ 20 | BSA > 5% | PASI ≥ 5 | Có ngứa | A | Nặng: diện tích tổn thương > 30% hoặc PASI ≥ 20.
+? Thuốc | Thuốc nào có thể gây LOÉT MIỆNG, cần acid folic đi kèm? | Calcipotriol | Methotrexate | Acitretin | Tar | B | Methotrexate ức chế tổng hợp DNA, gây loét miệng, ức chế tủy; dùng kèm acid folic.
+@recap
+- **Mảng đỏ giới hạn rõ, vảy trắng bạc** ở khuỷu, gối, da đầu
+- **HLA-Cw6**; trục **IL-23 / Th17 / IL-17**
+- Brocq: **đèn cầy – màng bong – Auspitz**
+- Thể mảng **80–90%**; giọt sau **liên cầu**; mủ **vô khuẩn**
+- Mô học: **mất lớp hạt, á sừng, vi áp xe Munro**
+- Nặng khi **BSA > 30%** hoặc **PASI ≥ 20**; tránh ngưng corticoid toàn thân đột ngột

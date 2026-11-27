@@ -1,0 +1,84 @@
+@next Bệnh vảy nến (Psoriasis)
+@goal
+- Nhận ra **10 sang thương nguyên phát** và **10 sang thương thứ phát**
+- Mô tả **hình dáng, cách sắp xếp, phân bố** thương tổn
+- Biết các dấu hiệu **Koebner, lichen hóa, Nikolsky**
+# 1. Mở đầu | Bảng chữ cái của da liễu
+- **Khám lâm sàng** vẫn là then chốt trong chẩn đoán bệnh da
+- Xác định đúng **sang thương cơ bản** là cốt lõi
+- **Nguyên phát**: xuất hiện đầu tiên, chưa bị biến đổi
+- **Thứ phát**: do bệnh tiến triển, **gãi, nhiễm trùng**
+! key[Mốc 1 cm]: dát/khoảng, sẩn/mảng, mụn nước/bóng nước đều chia theo **1 cm**
+# 2.1. Nguyên phát | Dát: đổi màu, bằng mặt da
+- **Thay đổi màu**, **không nổi, không lõm**; **< 1 cm**; lớn hơn gọi là **khoảng, đám**
+- **Hồng ban** (giãn mạch), **giảm sắc tố** (bạch biến, lang ben), **tăng sắc tố** (nám, tàn nhang)
+- Lắng đọng bất thường: vàng da, mực xăm
+@fig 3
+! tip: ấn **kính đè**: mất màu là **hồng ban**; không mất màu là **ban xuất huyết**
+# 2.2–2.3. Nguyên phát | Sẩn, mảng và sẩn phù
+- **Sẩn**: nổi cao, **chất đặc**, **< 1 cm**; **mảng** là sẩn > 1 cm hoặc nhiều sẩn gộp
+- Màu gợi ý: **tím** ở lichen phẳng, đỏ ở vảy nến
+- **Sẩn phù**: phù khoảng kẽ, **ngứa**, mất trong **< 24 giờ** (mày đay)
+@fig 5
+# 2.4–2.5. Nguyên phát | Cục và nang
+- **Cục**: đặc, **nằm sâu** ở bì – hạ bì, **≥ 1 cm**, phát hiện bằng **sờ**
+- **Gôm**: cục u hạt trong **giang mai**
+- **Nang**: túi có **lớp biểu mô lợp**, chứa dịch hoặc chất sừng (nang bã)
+@fig 7
+# 2.6–2.8. Nguyên phát | Ba loại chứa dịch
+| Sang thương | Kích thước | Chứa | Gặp trong |
+| **Mụn nước** | **< 1 cm** | Thanh dịch | Chàm, **herpes, zona**, thủy đậu |
+| **Bóng nước** | **≥ 1 cm** | Trong, đục, máu | Chốc, **pemphigus**, pemphigoid |
+| **Mụn mủ** | **< 1 cm** | Mủ | **Chốc**, vảy nến mủ (không nhiễm trùng) |
+@fig 9
+# 2.9–2.10. Nguyên phát | Sùi và sừng
+- **Sùi**: nhô cao, bề mặt **gai nhú** (sùi mào gà)
+- **Sừng**: khối tế bào hóa sừng, **gồ ghề** (mụn cóc)
+! tip: 10 nguyên phát: **dát, sẩn – mảng, sẩn phù, cục, nang, mụn nước, bóng nước, mụn mủ, sùi, sừng**
+?? Kiểm tra nhanh: sang thương nguyên phát
+? Kích thước | Mụn nước khác bóng nước chủ yếu ở điểm nào? | Màu sắc | Kích thước dưới hay từ 1 cm | Có ngứa hay không | Vị trí trên cơ thể | B | Mụn nước < 1 cm; bóng nước ≥ 1 cm.
+? Sẩn phù | Đặc điểm nào ĐÚNG với sẩn phù (mày đay)? | Tồn tại nhiều tuần | Không ngứa | Mất trong vòng 24 giờ | Để lại sẹo | C | Sẩn phù tồn tại vài giờ, không quá 24 giờ rồi biến mất; thường ngứa.
+? Kính đè | Ấn kính đè lên dát đỏ mà KHÔNG mất màu thì đó là gì? | Hồng ban do giãn mạch | Ban xuất huyết | Dát giảm sắc tố | Sẩn phù | B | Máu đã thoát khỏi mạch nên ấn không mất màu: ban xuất huyết.
+# 3. Thứ phát | Mày, vảy và tổn thương mất chất
+- **Mày**: dịch, mủ, máu **khô lại** (chốc: mày vàng mật ong)
+- **Vảy**: lớp sừng bong; mịn như cám (lang ben) hoặc phiến lớn (**vảy nến**)
+| | Vết xước | Vết trợt | Vết loét |
+| **Độ sâu** | Một phần thượng bì, theo đường gãi | Một phần hoặc toàn bộ **thượng bì** | **Tới lớp bì** |
+| **Khi lành** | Không sẹo | **Không sẹo** | **Có sẹo** |
+@fig 17
+# 3.6–3.10. Thứ phát | Nứt, lichen hóa, teo, sẹo, cứng da
+- **Vết nứt**: đường dọc do kéo căng (chàm ngón, nứt gót)
+- **Lichen hóa**: da **dày, thẫm, rãnh hằn sâu** do **gãi lâu ngày**
+- **Teo da**: da mỏng, bóng hoặc lõm (rạn da)
+- **Sẹo**: lồi (**vượt** ranh giới cũ), quá phát (trong giới hạn), teo (lõm)
+- **Cứng da**: mất nếp nhăn, véo khó (**xơ cứng bì**)
+@fig 20
+# 4. Hình dáng và sắp xếp | Hình gợi ý bệnh
+| Hình dáng, sắp xếp | Gợi ý |
+| **Hình vòng** | **Nấm thân**, u hạt vòng |
+| **Đa cung** | **Mày đay** |
+| **Hình bia** | **Hồng ban đa dạng** |
+| **Ngoằn ngoèo** | Ấu trùng di chuyển |
+| **Thành chùm** | **Zona, herpes** |
+| **Thành đường** | **Koebner**, viêm da do thực vật |
+@fig 26
+# 4.3. Phân bố | Vị trí ưu thế
+- **Vùng phơi sáng** → **lupus ban đỏ**
+- **Nếp gấp ẩm** (nách, bẹn) → **Candida**
+- **Theo dermatome** → **zona**
+- **Quanh nang lông** → viêm nang lông
+# 5. Dấu hiệu | Koebner và Nikolsky
+- **Koebner**: tổn thương mới **mọc trên chỗ chấn thương** → **vảy nến, lichen phẳng**
+- **Nikolsky**: chà nhẹ da lành cạnh bóng nước → **trợt da** → **pemphigus**
+@fig 28
+! why: Nikolsky (+) vì tế bào thượng bì đã **mất liên kết** (ly gai)
+?? Kiểm tra nhanh: thứ phát và dấu hiệu
+? Lành sẹo | Sang thương nào khi lành ĐỂ LẠI SẸO? | Vết xước | Vết trợt | Vết loét | Vảy | C | Vết loét mất chất tới lớp bì nên lành để lại sẹo; trợt thì không.
+? Phân bố | Tổn thương xếp thành chùm theo dải thần kinh (dermatome) gợi ý bệnh nào? | Zona | Vảy nến | Mày đay | Lang ben | A | Zona phân bố theo dermatome, mụn nước xếp thành chùm.
+? Dấu hiệu | Nikolsky dương tính thường gặp trong bệnh nào? | Vảy nến | Pemphigus | Mày đay | Nấm thân | B | Nikolsky (+) do ly gai, gặp trong pemphigus và ly thượng bì bóng nước.
+@recap
+- **10 nguyên phát**: dát, sẩn – mảng, sẩn phù, cục, nang, mụn nước, bóng nước, mụn mủ, sùi, sừng
+- **10 thứ phát**: mày, vảy, xước, trợt, loét, nứt, lichen hóa, teo, sẹo, cứng da
+- Mốc **1 cm**; sẩn phù mất trong **24 giờ**
+- Trợt **không sẹo**, loét **có sẹo**
+- Zona **theo dermatome**; Koebner: **vảy nến, lichen phẳng**; Nikolsky: **pemphigus**

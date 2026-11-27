@@ -1,0 +1,91 @@
+@next Đỏ da toàn thân
+@goal
+- Nhận biết **lâm sàng và yếu tố nguy cơ** của viêm da cơ địa (VDCĐ)
+- Hiểu cơ chế: **hàng rào da** và **trục Th2**
+- Nắm **nguyên tắc điều trị**
+- Chẩn đoán phân biệt và xử trí **biến chứng**
+# 1. Đại cương | Ngứa, da khô, chàm tái đi tái lại
+- Viêm da **mạn tính**, **khởi phát sớm** (nhũ nhi, trẻ nhỏ)
+- Cao nhất ở trẻ **3 tháng – 5 tuổi**: **15–20%** ở nước công nghiệp
+- Đi kèm **hen, viêm mũi dị ứng**: **"hành trình cơ địa"**
+- Ảnh hưởng giấc ngủ, tâm lý, học tập; **dễ nhiễm trùng**
+! why: da như **bức tường nứt vữa**: nước thoát ra, dị nguyên chui vào → **dưỡng ẩm để trát lại** là nền tảng
+# 2. Cơ chế | Bốn yếu tố tương tác
+- **Di truyền**: **70%** có tiền sử dị ứng gia đình; **đột biến filaggrin (FLG)**
+- **Hàng rào da**: giảm **ceramide**, tăng protease, **tăng mất nước qua da (TEWL)**
+- **Miễn dịch**: **Th2 ưu thế** (IL-4, IL-13, **IL-31 gây ngứa**), **tăng IgE**
+  - Giai đoạn mạn thêm Th1, Th17, Th22
+- **Môi trường**: xà phòng, nóng ẩm, bụi, **tụ cầu vàng**
+! key: VDCĐ là **Th2**, vảy nến là **Th17**; **dupilumab** kháng IL-4Rα chặn đúng trục Th2
+# 3.2. Lâm sàng | Ba giai đoạn
+| Giai đoạn | Lâm sàng | Mô học |
+| **Cấp** | **Hồng ban, mụn nước, rịn dịch**, ngứa nhiều | **Xốp bào** |
+| **Bán cấp** | Vảy mỏng, **vết xước** | Trung gian |
+| **Mạn** | **Dày da, lichen hóa**, khô, nứt | Tăng sản thượng bì |
+- **Ngứa** nổi bật, **nặng về đêm** → vòng xoắn **ngứa – gãi – viêm**
+- Thường có **nhiều giai đoạn cùng lúc**
+# 3.3. Vị trí theo tuổi | Mỗi lứa tuổi một kiểu
+| Tuổi | Vị trí | Kiểu |
+| **Nhũ nhi** (< 2 tuổi) | **Má, trán, da đầu**; **chừa vùng tã** | Chàm cấp, rịn dịch |
+| **Trẻ em** (2–12) | **Nếp gấp**: khuỷu, khoeo, cổ | **Lichen hóa** |
+| **Người lớn** | Mặt, **mi mắt**, cổ, **bàn tay** | Chàm bàn tay mạn, da dày |
+@fig 36
+! tip: nhũ nhi **chừa vùng tã** (luôn ẩm) → giúp phân biệt bệnh khác
+# 3.4–3.5. Dấu hiệu kèm và bệnh đi kèm | Nhìn kỹ sẽ thấy
+- **Khô da lan tỏa**; **dấu Dennie-Morgan** (nếp dưới mi)
+- Quầng thâm mắt, **dày đường chỉ tay**, dày sừng nang lông, **pityriasis alba**
+- Đi kèm: hen, dị ứng thức ăn; mất ngủ, lo âu, **ADHD**
+- Mắt: viêm kết mạc dị ứng, **giác mạc hình chóp**, đục thủy tinh thể
+@fig 35
+# 4. Chẩn đoán | Lâm sàng là chính: Hanifin & Rajka
+- Chẩn đoán khi có **≥ 3 tiêu chuẩn chính + ≥ 3 tiêu chuẩn phụ**
+- **4 chính**: **ngứa**, **hình thái, phân bố điển hình**, **tiền sử dị ứng** bản thân/gia đình, **mạn tính, tái phát**
+- Phụ: khô da, Dennie-Morgan, **IgE tăng**, dày đường chỉ tay, pityriasis alba…
+- **Không có xét nghiệm đặc hiệu**
+! tip: **"Ngứa – Hình – Họ – Hay tái"**
+# 4.3. Chẩn đoán phân biệt | Đừng nhầm với
+| Bệnh | Điểm phân biệt |
+| **Viêm da tiếp xúc** | **Theo vùng tiếp xúc**, có tác nhân |
+| **Vảy nến** | Mảng **rõ ranh giới, vảy bạc**, ít ngứa |
+| **Ghẻ** | **Kẽ ngón, hang ghẻ**, **ngứa đêm** |
+| **Viêm da tiết bã** | Vùng **da dầu** |
+| **Thiếu kẽm** | **Quanh miệng, hậu môn, đầu chi** + tiêu chảy |
+?? Kiểm tra nhanh: cơ chế và chẩn đoán
+? Cơ chế | Protein hàng rào da mà đột biến gen của nó liên quan rõ nhất tới VDCĐ? | Keratin 14 | Filaggrin | Collagen VII | Desmoglein 3 | B | Đột biến filaggrin (FLG) làm giảm giữ ẩm, tăng mất nước qua da.
+? Vị trí | Ở nhũ nhi, VDCĐ thường KHÔNG có ở vùng nào? | Má | Trán | Vùng tã | Da đầu | C | Nhũ nhi tổn thương ở má, trán, da đầu và thường chừa vùng tã.
+? Hanifin & Rajka | Chẩn đoán VDCĐ theo Hanifin & Rajka cần gì? | ≥ 1 chính + ≥ 1 phụ | ≥ 3 chính + ≥ 3 phụ | IgE tăng | Sinh thiết da | B | Cần ít nhất 3 tiêu chuẩn chính và 3 tiêu chuẩn phụ; không có xét nghiệm đặc hiệu.
+# 5.2. Điều trị nền tảng | Dưỡng ẩm và tắm đúng cách
+- **Dưỡng ẩm ở mọi giai đoạn**: không mùi; **2–3 lần/ngày** hoặc **trong 3 phút sau tắm**
+- **Tắm < 10 phút**, nước ấm, **không xà phòng kiềm**
+- Bùng phát nặng: **băng ướt (wet wrap)**
+- Ngứa: **kháng histamin H1 an thần ban đêm** (hydroxyzine)
+# 5.3–5.6. Thuốc | Bôi chống viêm và toàn thân
+| Thuốc | Lưu ý |
+| **Corticoid bôi** | Chọn độ mạnh theo vùng; **tránh dùng lâu ở mặt, nếp gấp** |
+| **Tacrolimus, pimecrolimus** | Cho **mặt, mi mắt, nếp gấp**; **không teo da**; duy trì 2–3 lần/tuần |
+| **Dupilumab** | **Kháng IL-4Rα**, tiêm dưới da mỗi 2 tuần |
+| **Corticoid uống** | **Chỉ ngắn hạn**, dễ bùng phát khi ngưng |
+| **Cyclosporin, methotrexate** | Theo dõi thận, gan, máu |
+- Bội nhiễm: **mupirocin, acid fusidic**; lan rộng: **cephalexin**; tắm **bleach bath**
+# 6. Biến chứng | Eczema herpeticum là cấp cứu
+- **Tụ cầu vàng**: chàm bội nhiễm, chốc
+- **Herpes simplex → eczema herpeticum**: **mụn nước lan nhanh, đau, sốt**
+- Biến chứng thuốc: **teo da**, giãn mạch, **hội chứng cai corticoid**
+@fig 37
+! warn[Liên hệ răng miệng]: bệnh nhân VDCĐ có **mụn rộp môi** đang hoạt động: virus có thể lan sang vùng da chàm
+# 7. Tiên lượng và dự phòng | Phần lớn cải thiện theo tuổi
+- Khoảng **80% cải thiện rõ đến 10 tuổi**; 10–30% kéo dài tới tuổi trưởng thành
+- Xấu hơn nếu khởi phát **> 2 tuổi**, bệnh nặng, **đột biến FLG**, kèm hen
+- **Cấp 1**: **dưỡng ẩm từ sau sinh** ở trẻ nguy cơ cao; **không** khuyến cáo kiêng dị nguyên sớm
+- **Cấp 2**: dưỡng ẩm cả khi khỏe; tránh yếu tố khởi phát; **TCI duy trì**
+?? Kiểm tra nhanh: điều trị và biến chứng
+? Nền tảng | Biện pháp nền tảng ở MỌI giai đoạn VDCĐ là gì? | Kháng sinh uống | Dưỡng ẩm | Corticoid uống | Kiêng sữa | B | Dưỡng ẩm phục hồi hàng rào da, là bước trung tâm ở mọi giai đoạn.
+? Vùng mặt | Thuốc bôi nào phù hợp vùng mi mắt vì KHÔNG gây teo da? | Clobetasol | Tacrolimus | Acid salicylic | Tar | B | Thuốc ức chế calcineurin (tacrolimus, pimecrolimus) không gây teo da, dùng cho vùng nhạy cảm.
+? Biến chứng | Mụn nước lan nhanh, đau, sốt trên nền VDCĐ gợi ý gì? | Vảy nến thể mủ | Eczema herpeticum | Mày đay | Chàm khô | B | Nhiễm Herpes simplex lan tỏa trên da chàm: eczema herpeticum, cần kháng virus khẩn.
+@recap
+- **Ngứa + da khô + chàm** tái phát, khởi phát sớm; **hành trình cơ địa**
+- Gốc rễ: **filaggrin** (hàng rào) và **Th2** (IL-4, IL-13, IL-31, IgE)
+- Nhũ nhi ở **má, chừa vùng tã**; trẻ lớn ở **nếp gấp**
+- **Hanifin & Rajka**: ≥ 3 chính + ≥ 3 phụ
+- **Dưỡng ẩm là nền tảng**; mặt dùng **tacrolimus**; nặng dùng **dupilumab**
+- Coi chừng **eczema herpeticum**

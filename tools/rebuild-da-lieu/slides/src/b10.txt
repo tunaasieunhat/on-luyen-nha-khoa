@@ -1,0 +1,94 @@
+@next Bệnh lậu
+@goal
+- Nêu được **tác nhân, đường lây** và cách phân loại giang mai
+- Nhận ra biểu hiện **từng thời kỳ**: săng, đào ban, mảng niêm mạc, gôm
+- Đọc được kết quả **RPR – TPHA**
+- Nhớ phác đồ **benzathin penicillin** và cách phòng bệnh
+# 1–2. Mở đầu và tác nhân | Treponema pallidum: sinh sản chậm, chết nhanh
+- Bệnh **lây qua đường tình dục**, diễn tiến **mạn tính**, xen kẽ giai đoạn có và không triệu chứng
+- **Xoắn khuẩn lò xo, di động**, dài 5–6 µm; **người là ký chủ duy nhất**
+- **Sinh sản rất chậm: 30–33 giờ** một lần; **không nuôi cấy được**
+- **Chết nhanh ngoài cơ thể**: xà phòng, sát khuẩn diệt trong vài phút
+- Lây: **tình dục** (cả đường miệng), máu, **mẹ sang con**
+! why: sinh sản chậm nên cần thuốc **tác dụng kéo dài** → benzathin penicillin
+# 3. Phân loại | Sớm thì lây, muộn thì phá hủy
+| Nhóm | Gồm | Lây |
+| **Sớm** (≤ 2 năm) | Thời kỳ **I, II**, **tiềm ẩn sớm** | **Có** |
+| **Muộn** (> 2 năm) | **Tiềm ẩn muộn**, thời kỳ **III** | Hầu như không |
+| **Bẩm sinh** | Sớm và muộn | Mẹ sang con |
+! tip: mốc cần nhớ là **2 năm**: dùng để chia sớm/muộn và chọn phác đồ
+# 4.1. Thời kỳ I | Săng giang mai
+- Ủ bệnh **3–4 tuần**; săng **đơn độc**, ngay **chỗ xoắn khuẩn vào**
+- **Vết trợt nông**, tròn, **đỏ thịt tươi**, **không bờ gờ**
+- **Nền cứng như tờ bìa**
+- **Hạch chúa**: chùm hạch rắn, **không đau**, không hóa mủ
+- **Tự khỏi sau 3–6 tuần** nhưng xoắn khuẩn vẫn còn
+! tip: săng **"4 không"**: không ngứa, không đau, không mủ, không bờ gờ
+# 4.2. Thời kỳ II | Lan tràn khắp cơ thể, lây nhiều nhất
+- Bắt đầu **6–8 tuần sau săng**, kéo dài **1–2 năm**, nhiều đợt
+- **Đào ban**: dát đỏ ở **lòng bàn tay, bàn chân**, đối xứng, **không ngứa**
+- **Sẩn** có **viền vảy Biett**; **sẩn ướt** ở vùng nóng ẩm
+- **Mảng niêm mạc** trắng ở **miệng, lưỡi**
+- Kèm sốt, nổi hạch, **rụng tóc**; huyết thanh **dương tính rất mạnh**
+@fig 67
+# 4.2. Liên hệ răng hàm mặt | Nha sĩ có thể là người nhìn thấy đầu tiên
+- **Mảng niêm mạc** miệng, lưỡi (thời kỳ II)
+- **Săng ở môi, lưỡi** khi lây qua quan hệ đường miệng
+- Tổn thương **chứa rất nhiều xoắn khuẩn**
+- Gặp vết trợt miệng **không đau, kéo dài** → chuyển **xét nghiệm huyết thanh**
+@fig 68
+! warn: luôn mang găng và tuân thủ phòng hộ khi khám vùng miệng
+# 4.3–4.4. Tiềm ẩn và thời kỳ III | Im lặng rồi phá hủy
+- **Tiềm ẩn**: không triệu chứng, **chỉ phát hiện bằng huyết thanh**; sớm ≤ 2 năm, muộn > 2 năm
+- Khoảng **1/3** không điều trị chuyển sang **thời kỳ III**
+- **Thần kinh**: viêm màng não, dây thần kinh sọ, tổn thương tủy, liệt toàn thể
+- **Tim mạch**: **viêm, phình động mạch chủ**, hở van động mạch chủ
+- **Gôm**: cục dưới da → mềm → vỡ, dịch như nhựa cao su → loét → sẹo
+@fig 69
+?? Kiểm tra nhanh: lâm sàng
+? Thời kỳ I | Đặc điểm nào ĐÚNG với săng giang mai? | Đau nhiều, có mủ | Nền cứng như tờ bìa, không đau | Bờ gờ cao, ngứa | Luôn có nhiều săng | B | Săng "4 không": không ngứa, không đau, không mủ, không bờ gờ; nền cứng như tờ bìa.
+? Thời kỳ II | Đào ban giang mai có đặc điểm gì? | Ngứa dữ dội | Chỉ ở mặt | Ở lòng bàn tay, bàn chân, không ngứa | Luôn có mụn nước | C | Đào ban điển hình ở lòng bàn tay, bàn chân, đối xứng, không ngứa.
+? Lây nhiễm | Thời kỳ nào LÂY NHIỀU NHẤT? | Thời kỳ II | Tiềm ẩn muộn | Thời kỳ III | Sau điều trị | A | Thời kỳ II có rất nhiều xoắn khuẩn ở da, niêm mạc nên lây cao nhất.
+# 5. Cận lâm sàng | Tìm trực tiếp và xét nghiệm huyết thanh
+- **Kính hiển vi nền đen**: xoắn khuẩn di động, tin cậy cao nhất
+- Khác: huỳnh quang trực tiếp, **NAAT**, sinh thiết
+- **Không đặc hiệu: RPR, VDRL**: định lượng, **theo dõi điều trị**; có thể dương tính giả
+- **Đặc hiệu: TPHA, TPPA, FTA-abs**: **khẳng định**, dương tính **suốt đời**
+- **Prozone**: RPR âm tính giả ở thời kỳ I, II → làm lại sau 2–4 tuần
+@fig 70
+# 5. Đọc kết quả | RPR và TPHA phối hợp
+| RPR | TPHA | Kết luận |
+| (+) | (+) | **Giang mai** |
+| (–) | (+) | Giang mai **rất sớm** hoặc **đã điều trị** |
+| (+) | (–) | **Dương tính giả** (lupus, kháng phospholipid) → làm FTA-abs |
+| (–) | (–) | Không giang mai; nghi ngờ thì **làm lại** |
+! tip: **TPHA khẳng định, RPR theo dõi**
+# 6. Chẩn đoán | Xác định và phân biệt
+- Xác định: **1 xét nghiệm đặc hiệu + 1 không đặc hiệu** dương tính
+- Hoặc xét nghiệm trực tiếp dương tính
+- **Săng** ≠ herpes sinh dục, hạ cam mềm, **áp-tơ**
+- **Đào ban** ≠ dị ứng thuốc, vảy phấn hồng, vảy nến
+- **Sẩn ướt** ≠ **sùi mào gà**
+# 7. Điều trị | Benzathin penicillin G (Bộ Y tế 2021)
+| Giai đoạn | Ưu tiên | Dị ứng penicillin |
+| **Sớm** (≤ 2 năm) | **2,4 triệu IU** tiêm bắp sâu, **1 liều** | Doxycyclin 100 mg × 2 lần/ngày × **14 ngày** |
+| **Muộn** (> 2 năm) | **2,4 triệu IU × 3 tuần** (tổng 7,2 triệu) | Doxycyclin 100 mg × 2 lần/ngày × **30 ngày** |
+- Khám và điều trị **bạn tình trong 1 năm**
+- Nội trú khi giang mai III tim mạch, thần kinh, bẩm sinh
+! tip: con số **2,4**: sớm 1 mũi, muộn 3 mũi
+# 8. Phòng bệnh | Chặn từ gốc
+- **Xét nghiệm giang mai mọi thai phụ** ngay lần khám thai đầu
+- **Tình dục an toàn**
+- Truyền thông cho nhóm nguy cơ cao
+- Tập huấn bác sĩ các tuyến
+?? Kiểm tra nhanh: xét nghiệm và điều trị
+? Huyết thanh | Xét nghiệm nào dùng để THEO DÕI điều trị? | TPHA | FTA-abs | RPR định lượng | TPPA | C | RPR giảm hiệu giá khi điều trị hiệu quả; TPHA dương tính suốt đời nên không dùng theo dõi.
+? Đọc kết quả | RPR (–), TPHA (+) gợi ý điều gì? | Dương tính giả | Giang mai rất sớm hoặc đã điều trị | Chắc chắn không bệnh | Giang mai thần kinh | B | TPHA dương tính suốt đời sau khi đã nhiễm; RPR âm khi rất sớm hoặc đã điều trị.
+? Phác đồ | Giang mai sớm (≤ 2 năm) điều trị ưu tiên là gì? | Benzathin penicillin G 2,4 triệu IU, 1 liều | Benzathin 2,4 triệu IU × 3 tuần | Ceftriaxon 250 mg 1 liều | Azithromycin 1 g | A | Giang mai sớm: 1 mũi 2,4 triệu IU; giang mai muộn mới cần 3 mũi.
+@recap
+- **Treponema pallidum**: sinh sản chậm, chết nhanh ngoài cơ thể
+- **I**: săng "4 không", nền cứng, hạch chúa
+- **II**: đào ban lòng bàn tay – chân, **mảng niêm mạc miệng**, sẩn viền Biett; lây nhất
+- **Tiềm ẩn**: chỉ có huyết thanh; **III**: gôm, tim mạch, thần kinh
+- **TPHA khẳng định, RPR theo dõi**
+- **Benzathin 2,4 triệu IU**: sớm 1 mũi, muộn 3 mũi; điều trị bạn tình
